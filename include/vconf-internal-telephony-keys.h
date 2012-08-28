@@ -486,6 +486,14 @@ enum {
 #define VCONFKEY_3G_ENABLE                       "db/setting/3gEnabled"
 
 /**
+ * @brief it stands for telephony server is ready or not
+ *
+ * TRUE : telephony server is ready \n
+ * FALSE : telephony server is not ready \m
+ */
+#define VCONFKEY_TELEPHONY_READY             VCONFKEY_TELEPHONY_PREFIX"/telephony_ready"
+
+/**
  * @}
  */
 

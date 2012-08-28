@@ -65,6 +65,12 @@
 #define VCONFKEY_RCS_MY_DISPLAY_NAME    VCONFKEY_RCS_IM_DB_PREFIX"/profile_name"
 
 /**
+ * @brief last name of User to be communicated to other end as though presence information. 
+ *
+ */
+#define VCONFKEY_RCS_MY_DISPLAY_LAST_NAME    VCONFKEY_RCS_IM_DB_PREFIX"/last_name"
+
+/**
  * @brief My image to be communicated to other end as though presence information. 
  *
  */
@@ -104,6 +110,15 @@
 #define VCONFKEY_RCS_BUBBLE_FONT_SIZE   VCONFKEY_RCS_IM_DB_PREFIX"/text_font_size"
 
 /**
+ * @brief integer value for background image to be used
+ *
+ * 0 - Dynamic image value
+ * 1-9 predefined image
+ */
+#define VCONFKEY_RCS_BACKGROUND_IMAGE_INDEX  VCONFKEY_RCS_IM_DB_PREFIX"/background_image_index"
+
+
+/**
  * @brief enableing push Pop-up feature
  *
  * 1 : enable \n
@@ -136,6 +151,18 @@
  *
  */
 #define VCONFKEY_RCS_RINGTONE_VALUE     VCONFKEY_RCS_IM_DB_PREFIX"/notification_ringtone"
+
+/**
+ * @brief File Max size
+ *
+ */
+#define VCONFKEY_RCS_FILE_MAX_SIZE     VCONFKEY_RCS_IM_DB_PREFIX"/ft_max_size"
+
+/**
+ * @brief Free Memory Size
+ *
+ */
+#define VCONFKEY_RCS_FREE_MEMORY_SIZE     VCONFKEY_RCS_IM_DB_PREFIX"/free_memory"
 
 
 /**

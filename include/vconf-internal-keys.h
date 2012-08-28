@@ -38,6 +38,7 @@
 #include "vconf-internal-account-keys.h"
 #include "vconf-internal-admin-keys.h"
 #include "vconf-internal-alarm-keys.h"
+#include "vconf-internal-allshare-keys.h"
 #include "vconf-internal-boot-animation-keys.h"
 #include "vconf-internal-browser-keys.h"
 #include "vconf-internal-bt-keys.h"

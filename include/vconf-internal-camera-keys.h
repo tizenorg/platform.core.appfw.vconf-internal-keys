@@ -60,6 +60,18 @@ enum {
 };
 
 /**
+ * @brief Camera shutter sound policy
+ *
+ * 0 : OFF
+ * 1 : ON
+ */
+#define VCONFKEY_CAMERA_SHUTTER_SOUND_POLICY "file/camera/shutter_sound_policy"
+enum {
+        VCONFKEY_CAMERA_SHUTTER_SOUND_POLICY_OFF,
+        VCONFKEY_CAMERA_SHUTTER_SOUND_POLICY_ON
+};
+
+/**
  * @}
  */
 

@@ -20,6 +20,7 @@ INSTALL(FILES ${CMAKE_SOURCE_DIR}/include/vconf-internal-keys.h DESTINATION ${IN
 INSTALL(FILES ${CMAKE_SOURCE_DIR}/include/vconf-internal-account-keys.h DESTINATION ${INCLUDEDIR})
 INSTALL(FILES ${CMAKE_SOURCE_DIR}/include/vconf-internal-admin-keys.h DESTINATION ${INCLUDEDIR})
 INSTALL(FILES ${CMAKE_SOURCE_DIR}/include/vconf-internal-alarm-keys.h DESTINATION ${INCLUDEDIR})
+INSTALL(FILES ${CMAKE_SOURCE_DIR}/include/vconf-internal-allshare-keys.h DESTINATION ${INCLUDEDIR})
 INSTALL(FILES ${CMAKE_SOURCE_DIR}/include/vconf-internal-boot-animation-keys.h DESTINATION ${INCLUDEDIR})
 INSTALL(FILES ${CMAKE_SOURCE_DIR}/include/vconf-internal-browser-keys.h DESTINATION ${INCLUDEDIR})
 INSTALL(FILES ${CMAKE_SOURCE_DIR}/include/vconf-internal-bt-keys.h DESTINATION ${INCLUDEDIR})

@@ -1,10 +1,18 @@
+vconf-internal-keys (0.0.22) unstable; urgency=low
+
+  * Add vconf key for camera shutter sound policy
+  * Git: magnolia/framework/appfw/vconf-internal-keys
+  * Tag: vconf-internal-keys_0.0.22
+
+ -- Jeongmo Yang <jm80.yang@samsung.com>  Wed, 22 Aug 2012 15:06:16 +0900
+
 vconf-internal-keys (0.0.20) unstable; urgency=low
 
-  * Delete allshare-keys because allshare is not opened.
+  * Add vconf key for allshare 
   * Git: magnolia/framework/appfw/vconf-internal-keys
   * Tag: vconf-internal-keys_0.0.20
 
- -- Youngae Kang <youngae.kang@samsung.com>  Mon, 13 Aug 2012 20:46:03 +0900
+ -- Youngae Kang <youngae.kang@samsung.com>  Mon, 13 Aug 2012 22:16:10 +0900
 
 vconf-internal-keys (0.0.17) unstable; urgency=low
 
