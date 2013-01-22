@@ -112,6 +112,38 @@ enum {
 };
 
 /**
+ * @brief lcd off source
+ *
+ * 1 : by power key \n
+ * 2 : by timeout \n
+ */
+#define VCONFKEY_PM_LCDOFF_SOURCE                     "memory/pm/lcdoff_source"
+enum {
+	VCONFKEY_PM_LCDOFF_BY_POWERKEY = 1,
+	VCONFKEY_PM_LCDOFF_BY_TIMEOUT,
+};
+
+/**
+ * @brief key ignore setting
+ *
+ * 1 : key ignore true \n
+ * 0 : key ignore false\n
+ *
+ * bit position
+ * 1 : lock \n
+ * 2 : starter \n
+ * 4 : extra1 \n
+ * 8 : extra2 \n
+ */
+#define VCONFKEY_PM_KEY_IGNORE                        "memory/pm/key_ignore"
+enum {
+	VCONFKEY_PM_KEY_LOCK = 0x01,
+	VCONFKEY_PM_KEY_STARTER = 0x02,
+	VCONFKEY_PM_KEY_EXTRA1 = 0x04,
+	VCONFKEY_PM_KEY_EXTRA2 = 0x08,
+};
+
+/**
  * @}
  */
 
