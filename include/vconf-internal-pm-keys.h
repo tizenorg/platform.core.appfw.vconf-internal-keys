@@ -84,12 +84,20 @@ enum {
 #define VCONFKEY_PM_BATTERY_TIMETOFULL                "memory/pm/battery_timetofull"
 
 /**
- * @brief brightness changed in low battery
- *
- * 0 : false
- * 1 : true
- */
-#define VCONFKEY_PM_BRIGHTNESS_CHANGED_IN_LPM        "memory/pm/brt_changed_lpm"
+* @brief brightness changed in low battery
+*
+* 0 : false
+* 1 : true
+*/
+#define VCONFKEY_PM_BRIGHTNESS_CHANGED_IN_LPM         "memory/pm/brt_changed_lpm"
+
+/**
+* @brief brightness value
+*
+* brightness level : 1~100
+*
+*/
+#define VCONFKEY_PM_CURRENT_BRIGHTNESS                "memory/pm/current_brt"
 
 /**
  * @}

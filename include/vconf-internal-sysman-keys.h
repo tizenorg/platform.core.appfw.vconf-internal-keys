@@ -106,6 +106,30 @@ enum {
 #define VCONFKEY_SYSMAN_BATTERY_CAPACITY            "memory/sysman/battery_capacity"
 
 /**
+ * @brief current battery status
+ *
+ * 0 : empty(0%~1%) \n
+ * 1 : critical(2%~5%) \n
+ * 2 : low(6%~15%) \n
+ * 3 : high(16%~95%) \n
+ * 4 : full(96%~100%) \n
+ */
+#define VCONFKEY_SYSMAN_BATTERY_LEVEL_STATUS          "memory/sysman/battery_level_status"
+enum {
+	/** empty(0%~1%) */
+	VCONFKEY_SYSMAN_BAT_LEVEL_EMPTY = 0,
+	/** critical(2%~5%) */
+	VCONFKEY_SYSMAN_BAT_LEVEL_CRITICAL,
+	/** low(6%~15%)*/
+	VCONFKEY_SYSMAN_BAT_LEVEL_LOW,
+	/** high(16%~95%) */
+	VCONFKEY_SYSMAN_BAT_LEVEL_HIGH,
+	/** full(96%~100%) */
+	VCONFKEY_SYSMAN_BAT_LEVEL_FULL
+};
+
+
+/**
  * @brief USB connection status
  *
  * 0 : Disconnected \n
@@ -196,6 +220,56 @@ enum {
 	VCONFKEY_SYSMAN_MMC_FORMAT_FAILED
 };
 
+/**
+ * @brief mmc error state
+ *
+ * 1 : operation not permmitted \n
+ * 2 : no such file or directory \n
+ * 6 : no such device or address \n
+ * 11 : try again \n
+ * 12 : out of memory \n
+ * 13 : A component of a path was not searchable \n
+ * 14 : bad address \n
+ * 15 : block device is requested \n
+ * 16 : device or resource busy \n
+ * 19 : filesystemtype not configured in the kernel \n
+ * 20 : target, or a prefix of source, is not a directory \n
+ * 22 : point does not exist \n
+ * 24 : table of dummy devices is full \n
+ * 36 : requested name is too long \n
+ * 40 : Too many links encountered during pathname resolution. \n
+           Or, a move was attempted, while target is a descendant of source \n
+ */
+#define VCONFKEY_SYSMAN_MMC_ERR_STATUS					"memory/sysman/mmc_err_status"
+enum {
+	VCONFKEY_SYSMAN_MMC_EPERM = 1,
+	VCONFKEY_SYSMAN_MMC_ENOENT = 2,
+	VCONFKEY_SYSMAN_MMC_ENXIO = 6,
+	VCONFKEY_SYSMAN_MMC_EAGAIN = 11,
+	VCONFKEY_SYSMAN_MMC_ENOMEM = 12,
+	VCONFKEY_SYSMAN_MMC_EACCESS = 13,
+	VCONFKEY_SYSMAN_MMC_EFAULT = 14,
+	VCONFKEY_SYSMAN_MMC_ENOTBLK = 15,
+	VCONFKEY_SYSMAN_MMC_EBUSY = 16,
+	VCONFKEY_SYSMAN_MMC_ENODEV = 19,
+	VCONFKEY_SYSMAN_MMC_ENOTDIR = 20,
+	VCONFKEY_SYSMAN_MMC_EINVAL = 22,
+	VCONFKEY_SYSMAN_MMC_EMFILE = 24,
+	VCONFKEY_SYSMAN_MMC_ENAMETOOLONG = 36,
+	VCONFKEY_SYSMAN_MMC_ELOOP = 40
+};
+
+/**
+ * @brief mmc device changed status
+ *
+ * 0 : not changed \n
+ * 1 : changed \n
+ */
+#define VCONFKEY_SYSMAN_MMC_DEVICE_CHANGED					"db/sysman/mmc_dev_changed"
+enum {
+	VCONFKEY_SYSMAN_MMC_NOT_CHANGED = 0,
+	VCONFKEY_SYSMAN_MMC_CHANGED
+};
 
 /**
  * @brief hdmi status
@@ -207,6 +281,45 @@ enum {
 enum {
 	VCONFKEY_SYSMAN_HDMI_DISCONNECTED = 0,
 	VCONFKEY_SYSMAN_HDMI_CONNECTED
+};
+
+
+/**
+ * @brief system time changed status
+ *
+ * 0 : not changed \n
+ * 1 : changed \n
+ */
+#define VCONFKEY_SYSMAN_STIME				"memory/sysman/stime_changed"
+enum {
+	VCONFKEY_SYSMAN_STIME_NOT_CHANGED = 0,
+	VCONFKEY_SYSMAN_STIME_CHANGED
+};
+
+/**
+ * @brief system power off status
+ *
+ * 0 : none \n
+ * 1 : poweroff popup \n
+ * 2 : direct power off \n
+ */
+#define VCONFKEY_SYSMAN_POWER_OFF_STATUS			"memory/sysman/power_off"
+enum {
+	VCONFKEY_SYSMAN_POWER_OFF_NONE = 0,
+	VCONFKEY_SYSMAN_POWER_OFF_POPUP = 1,
+	VCONFKEY_SYSMAN_POWER_OFF_DIRECT = 2,
+	VCONFKEY_SYSMAN_POWER_OFF_RESTART = 3
+};
+/**
+ * @brief mmc format progress check status
+ *
+ * 0 : none \n
+ * 1 : mmc format is prgressing \n
+ */
+#define VCONFKEY_SYSMAN_MMC_FORMAT_PROGRESS			"memory/sysman/mmc_format_progress"
+enum {
+	VCONFKEY_SYSMAN_MMC_FORMAT_PROGRESS_NONE = 0,
+	VCONFKEY_SYSMAN_MMC_FORMAT_PROGRESS_NOW
 };
 
 /**

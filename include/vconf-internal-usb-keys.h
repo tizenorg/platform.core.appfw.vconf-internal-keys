@@ -86,6 +86,55 @@ enum {
 	VCONFKEY_USB_ACCESSORY_STATUS_CONNECTED
 };
 
+/**
+ * @brief Current USB connection mode
+ *
+ *  0: USB none mode
+ *  1: Default mode
+ *  2: SDB mode
+ *  3: SDB, DIAG mode
+ *  4: RNDIS mode for tethering
+ *  5: RNDIS mode for ethernet
+ *  6: RNDIS, SDB mode
+ *  7: DIAG, SDB mode
+ *  8: USB accessory mode
+ */
+#define VCONFKEY_USB_CUR_MODE "memory/usb/cur_mode"
+enum {
+	/** USB none mode */
+	SET_USB_NONE = 0,
+	/** Default mode */
+	SET_USB_DEFAULT,
+	/** SDB mode */
+	SET_USB_SDB,
+	/** SDB, DIAG mode */
+	SET_USB_SDB_DIAG,
+	/** RNDIS mode for tethering */
+	SET_USB_RNDIS_TETHERING,
+	/** RNDIS mode for ethernet */
+	SET_USB_RNDIS,
+	/** RNDIS, SDB mode */
+	SET_USB_RNDIS_SDB,
+	/** DIAG, SDB mode */
+	SET_USB_DIAG_SDB,
+	/** USB accessory mode */
+	SET_USB_ACCESSORY
+};
+
+/**
+ * @brief Selected USB connection mode by user
+ *
+ *  1: Default mode
+ *  2: SDB mode
+ *  3: SDB, DIAG mode
+ *  4: RNDIS mode for tethering
+ *  5: RNDIS mode for ethernet
+ *  6: RNDIS, SDB mode
+ *  7: DIAG, SDB mode
+ *  8: USB accessory mode
+ */
+#define VCONFKEY_USB_SEL_MODE "db/usb/sel_mode"
+
 
 
 /**

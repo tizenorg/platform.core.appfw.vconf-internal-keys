@@ -43,6 +43,7 @@
 #define VCONFKEY_SETAPPL_PREFIX                                 "db/setting"
 #define VCONFKEY_SETAPPL_MEM_PREFIX                             "memory/setting"
 
+
 /** @brief vibration pattern file path of current incoming call */
 #define VCONFKEY_SETAPPL_CALL_VIBRATION_PATTERN_STR            VCONFKEY_SETAPPL_PREFIX"/sound/call/vibration_pattern_path"
 

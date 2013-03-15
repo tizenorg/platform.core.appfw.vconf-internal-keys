@@ -551,6 +551,20 @@ enum {
 };
 
 /**
+* @brief MMS sent status
+*
+* 0 Success \n
+* 1 Failure \n
+* 2 Network Unavailable \n
+*/
+#define VCONFKEY_TELEPHONY_MMS_SENT_STATUS  VCONFKEY_TELEPHONY_PREFIX"/mms_sent_status"
+enum {
+	VCONFKEY_TELEPHONY_MMS_SEND_SUCCESS = 0x00,
+	VCONFKEY_TELEPHONY_MMS_SEND_FAIL = 0x01,
+	VCONFKEY_TELEPHONY_MMS_SEND_NETWORK_UNAVAILABLE = 0x02
+};
+
+/**
  * @}
  */
 

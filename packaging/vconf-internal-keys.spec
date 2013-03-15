@@ -1,6 +1,6 @@
 Name:       vconf-internal-keys
 Summary:    Internal shared keys for vconf
-Version:    0.0.66
+Version:    0.0.76
 Release:    0
 Group:      Development/Headers
 License:    Apache License, Version 2.0
@@ -21,7 +21,7 @@ Vconf internal key header files (devel)
 %setup -q -n %{name}-%{version}
 
 %build
-cmake . -DCMAKE_INSTALL_PREFIX=%{_prefix}
+%cmake .
 
 make %{?jobs:-j%jobs}
 
@@ -29,9 +29,6 @@ make %{?jobs:-j%jobs}
 rm -rf %{buildroot}
 %make_install
 
-%post
-
-%postun
 
 %files devel
 %defattr(-,root,root,-)

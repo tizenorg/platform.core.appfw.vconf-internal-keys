@@ -69,6 +69,18 @@ enum {
 };
 
 /**
+ * @brief Wi-Fi background scanning mode
+ *
+ * 0: exponential mode(scan interval : 4, 8, 16, ...128s)
+ * 1: periodic mode(scan interval : 10s)
+ */
+#define VCONFKEY_WIFI_BGSCAN_MODE           "memory/wifi/bgscan_mode"
+enum {
+	VCONFKEY_WIFI_BGSCAN_MODE_EXPONENTIAL = 0,
+	VCONFKEY_WIFI_BGSCAN_MODE_PERIODIC = 1
+};
+
+/**
  * @brief State of Wi-Fi QS terminated
  *
  * 1: Wi-Fi connected and terminated

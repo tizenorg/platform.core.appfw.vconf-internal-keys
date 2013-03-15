@@ -48,7 +48,7 @@
  * format : "state:package_name"
  *          State means create | update | delete.
  */
-#define VCONFKEY_MENUSCREEN_DESKTOP "memory/menuscreen/desktop"
+#define VCONFKEY_MENUSCREEN_DESKTOP "db/menuscreen/desktop"
 
 
 /**
