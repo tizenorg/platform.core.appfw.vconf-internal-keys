@@ -100,6 +100,18 @@ enum {
 #define VCONFKEY_PM_CURRENT_BRIGHTNESS                "memory/pm/current_brt"
 
 /**
+ * @brief SIP(virtual keypad) status
+ *
+ * 0 : sip off
+ * 1 : sip on
+ */
+#define VCONFKEY_PM_SIP_STATUS                        "memory/pm/sip_status"
+enum {
+	VCONFKEY_PM_SIP_OFF = 0,
+	VCONFKEY_PM_SIP_ON
+};
+
+/**
  * @}
  */
 
