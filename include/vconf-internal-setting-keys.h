@@ -660,7 +660,24 @@ enum {
 	SETTING_POWERKEY_SHORTCUT_MAX
 };
 
+/**
+ * @brief Accessibility setting : status of screen reader (TTS)
+ *
+ * 0 : Off \n
+ * 1 : On \n
+ */
+#define VCONFKEY_SETAPPL_ACCESSIBILITY_TTS       VCONFKEY_SETAPPL_PREFIX"/accessibility/tts"
 
+/**
+ * @brief Accessibility setting : TTS speech rate
+ *
+ * 0 : Very slow \n
+ * 1 : Slow \n
+ * 2 : Normal \n
+ * 3 : Fast \n
+ * 4 : Very fast \n
+ */
+#define VCONFKEY_SETAPPL_ACCESSIBILITY_SPEECH_RATE  VCONFKEY_SETAPPL_PREFIX"/accessibility/speech_rate"
 /**
  * @brief Powersaving : status of system power saving
  *
