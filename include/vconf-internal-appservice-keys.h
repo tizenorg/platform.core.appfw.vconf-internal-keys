@@ -40,6 +40,15 @@
  *		Maintainer : hyunbin.lee@samsung.com
  */
 
+/**
+ * @brief mmc status(int)
+ *
+ * 0 : Remove \n
+ * 1 : mount \n
+ * 2 : insert(not mount) \n
+ */
+#define VCONFKEY_APPSERVICE_MMC_STATUS  "memory/appservice/mmc"
+
 /*
 * @brief osp appservice status(int)
 *
@@ -48,6 +57,14 @@
 * 2 : running and ready
 */
 #define VCONFKEY_APPSERVICE_STATUS "memory/appservice/status"
+
+/**
+ * @brief platform service initialization complete
+ *
+ * -1 / 0 : not ready
+ *  1 : ready
+ */
+#define VCONFKEY_PLATFORM_READY	"memory/appservice/serviceready"
 
 /**
  * @}
