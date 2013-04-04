@@ -1477,6 +1477,19 @@ enum {
 #define VCONFKEY_SETAPPL_DEVOPTION_BGPROCESS		VCONFKEY_SETAPPL_PREFIX"/devoption/bgprocess"
 
 /**
+ * @brief current selected engine type
+ *
+ * 0 : HW engine
+ * 1 : SW engine
+ */
+#define VCONFKEY_SETAPPL_DEFAULT_RENDERING_ENGINE_TYPE_INT		VCONFKEY_SETAPPL_PREFIX"/default_rendering_engine"
+enum {
+        SETTING_RENDERING_ENGINE_HW = 0,
+        SETTING_RENDERING_ENGINE_SW,
+        SETTING_RENDERING_ENGINE_MAX
+};
+
+/**
  * @}
  */
 
