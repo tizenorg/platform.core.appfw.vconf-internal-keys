@@ -101,6 +101,26 @@ enum {
 };
 
 /**
+ * @brief Tethering Wi-Fi state
+ *
+ * 0 : WIFI_OFF \n
+ * 1 : WIFI_PENDING_ON \n
+ * 2 : WIFI_ON \n
+ * 3 : WIFI_PENDING_OFF \n
+ */
+#define VCONFKEY_MOBILE_HOTSPOT_WIFI_STATE "memory/mobile_hotspot/wifi_state"
+enum {
+	/** OFF */
+	VCONFKEY_MOBILE_HOTSPOT_WIFI_OFF = 0,
+	/** PENDING ON */
+	VCONFKEY_MOBILE_HOTSPOT_WIFI_PENDING_ON,
+	/** ON */
+	VCONFKEY_MOBILE_HOTSPOT_WIFI_ON,
+	/** PENDING OFF */
+	VCONFKEY_MOBILE_HOTSPOT_WIFI_PENDING_OFF
+};
+
+/**
  * @}
  */
 
