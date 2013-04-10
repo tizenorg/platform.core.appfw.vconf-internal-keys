@@ -310,6 +310,7 @@ enum {
 	VCONFKEY_SYSMAN_POWER_OFF_DIRECT = 2,
 	VCONFKEY_SYSMAN_POWER_OFF_RESTART = 3
 };
+
 /**
  * @brief mmc format progress check status
  *
@@ -320,6 +321,18 @@ enum {
 enum {
 	VCONFKEY_SYSMAN_MMC_FORMAT_PROGRESS_NONE = 0,
 	VCONFKEY_SYSMAN_MMC_FORMAT_PROGRESS_NOW
+};
+
+/**
+ * @brief system boot power on status
+ *
+ * 0 : none \n
+ * 1 : poweron done \n
+ */
+#define VCONFKEY_DEVICED_BOOT_POWER_ON_STATUS			"memory/deviced/boot_power_on"
+enum {
+	VCONFKEY_DEVICED_BOOT_POWER_ON_NONE,
+	VCONFKEY_DEVICED_BOOT_POWER_ON_DONE
 };
 
 /**
