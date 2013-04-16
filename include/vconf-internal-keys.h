@@ -89,6 +89,7 @@
 #include "vconf-internal-face-svc-keys.h"
 #include "vconf-internal-camera-keys.h"
 #include "vconf-internal-isf-keys.h"
+#include "vconf-internal-gallery-setting-keys.h"
 
 #endif		/* __VCONF_INTERNAL_KEYS_H__ */
 

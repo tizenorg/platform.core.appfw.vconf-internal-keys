@@ -1150,39 +1150,6 @@ enum {
 };
 
 /**
- * @brief Image viewer slideshow interval time (secs)
- *
- * type : double
- */
-#define VCONFKEY_SETAPPL_GALLERY_SLIDESHOW_INTERVAL             VCONFKEY_SETAPPL_PREFIX"/gallery/interval_time"
-
-/**
- * @brief Image viewer slideshow effect type
- *
- * type : string
- * Slide, Fade, Blind, Iris, Dissolve
- */
-#define VCONFKEY_SETAPPL_GALLERY_SLIDESHOW_EFFECT             VCONFKEY_SETAPPL_PREFIX"/gallery/ss_effect"
-
-/**
- * @brief Image viewer slideshow repeat state
- *
- * type : bool
- * 0 : Slide show repeat
- * 1 : Slide show do not repeat
- */
-#define VCONFKEY_SETAPPL_GALLERY_SLIDESHOW_REPEAT             VCONFKEY_SETAPPL_PREFIX"/gallery/repeat_state"
-
-/**
- * @brief Image viewer slideshow shuffle state
- *
- * type : bool
- * 0 : Normal list
- * 1 : Shuffled list
- */
-#define VCONFKEY_SETAPPL_GALLERY_SLIDESHOW_SHUFFLE             VCONFKEY_SETAPPL_PREFIX"/gallery/shuffle_state"
-
-/**
  * @brief Voicerecorder recording time limitation
  *
  * type : int

@@ -73,3 +73,4 @@ INSTALL(FILES ${CMAKE_SOURCE_DIR}/include/vconf-internal-rcs-keys.h DESTINATION 
 INSTALL(FILES ${CMAKE_SOURCE_DIR}/include/vconf-internal-camera-keys.h DESTINATION ${INCLUDEDIR})
 INSTALL(FILES ${CMAKE_SOURCE_DIR}/include/vconf-internal-appservice-keys.h DESTINATION ${INCLUDEDIR})
 INSTALL(FILES ${CMAKE_SOURCE_DIR}/include/vconf-internal-isf-keys.h DESTINATION ${INCLUDEDIR})
+INSTALL(FILES ${CMAKE_SOURCE_DIR}/include/vconf-internal-gallery-setting-keys.h DESTINATION ${INCLUDEDIR})
