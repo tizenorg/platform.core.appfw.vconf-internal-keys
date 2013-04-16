@@ -51,7 +51,6 @@ INSTALL(FILES ${CMAKE_SOURCE_DIR}/include/vconf-internal-music-keys.h DESTINATIO
 INSTALL(FILES ${CMAKE_SOURCE_DIR}/include/vconf-internal-myfile-keys.h DESTINATION ${INCLUDEDIR})
 INSTALL(FILES ${CMAKE_SOURCE_DIR}/include/vconf-internal-nfc-keys.h DESTINATION ${INCLUDEDIR})
 INSTALL(FILES ${CMAKE_SOURCE_DIR}/include/vconf-internal-pwlock-keys.h DESTINATION ${INCLUDEDIR})
-INSTALL(FILES ${CMAKE_SOURCE_DIR}/include/vconf-internal-radio-keys.h DESTINATION ${INCLUDEDIR})
 INSTALL(FILES ${CMAKE_SOURCE_DIR}/include/vconf-internal-sat-keys.h DESTINATION ${INCLUDEDIR})
 INSTALL(FILES ${CMAKE_SOURCE_DIR}/include/vconf-internal-setting-keys.h	DESTINATION ${INCLUDEDIR})
 INSTALL(FILES ${CMAKE_SOURCE_DIR}/include/vconf-internal-sound-keys.h DESTINATION ${INCLUDEDIR})

@@ -70,7 +70,6 @@
 #include "vconf-internal-nfc-keys.h"
 #include "vconf-internal-pm-keys.h"
 #include "vconf-internal-pwlock-keys.h"
-#include "vconf-internal-radio-keys.h"
 #include "vconf-internal-sat-keys.h"
 #include "vconf-internal-setting-keys.h"
 #include "vconf-internal-sound-keys.h"
