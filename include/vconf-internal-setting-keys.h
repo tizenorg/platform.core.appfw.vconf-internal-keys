@@ -408,6 +408,8 @@ enum {
        SETTING_SCREEN_LOCK_TYPE_MAX
 };
 
+/** @brief 3rd party screen lock package name */
+#define VCONFKEY_SETAPPL_3RD_LOCK_PKG_NAME_STR            VCONFKEY_SETAPPL_PREFIX"/3rd_lock_pkg_name"
 
 /**
  * @brief display and light : font size
