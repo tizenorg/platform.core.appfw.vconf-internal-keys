@@ -63,6 +63,13 @@
 #define VCONFKEY_SYSTEM_TIMECHANGE "db/system/timechange"
 
 /**
+ * @brief time diff when time is changed externally
+ *
+ * value : new time
+ */
+#define VCONFKEY_SYSTEM_TIMECHANGE_EXTERNAL "db/system/timechange_external"
+
+/**
  * @}
  */
 
