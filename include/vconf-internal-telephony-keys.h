@@ -194,44 +194,6 @@ enum {
 };
 
 /**
- * @brief it stands for current network is home zone or not (O2 operator specific feature)
- *
- * 0 unknown \n
- * 1 home \n
- * 2 city \n
- */
-#define VCONFKEY_TELEPHONY_ZONE_TYPE             VCONFKEY_TELEPHONY_PREFIX"/zone_type"
-enum {
-	VCONFKEY_TELEPHONY_ZONE_NONE = 0x00,
-	VCONFKEY_TELEPHONY_ZONE_HOME,
-	VCONFKEY_TELEPHONY_ZONE_CITY
-};
-
-/**
- * @brief it stands for sim initialization status
- *
- * 0 none \n
- * 1 init complete \n
- */
-#define VCONFKEY_TELEPHONY_SIM_INIT              VCONFKEY_TELEPHONY_PREFIX"/sim_init"
-enum {
-	VCONFKEY_TELEPHONY_SIM_INIT_NONE = 0x00,
-	VCONFKEY_TELEPHONY_SIM_INIT_COMPLETED
-};
-
-/**
- * @brief it stands for current sim is needed several lock verification or not
- *
- * 0 none \n
- * 1 required \n
- */
-#define VCONFKEY_TELEPHONY_SIM_CHV               VCONFKEY_TELEPHONY_PREFIX"/sim_chv"
-enum {
-	VCONFKEY_TELEPHONY_SIM_CHV_NONE = 0x00,
-	VCONFKEY_TELEPHONY_SIM_CHV_REQUIRED
-};
-
-/**
  * @brief it stands for current device has SIM or not
  *
  * 0 unknown \n
@@ -320,37 +282,6 @@ enum {
 #define VCONFKEY_TELEPHONY_SPN_NAME              VCONFKEY_TELEPHONY_PREFIX"/spn"
 
 /**
- * @brief it stands for SAT SETUP EVENT LIST issued or not
- *
- * 0 disable \n
- * 1 enable \n
- */
-#define VCONFKEY_TELEPHONY_SAT_IDLE_SCREEN_EVENT VCONFKEY_TELEPHONY_PREFIX"/sat_idle"
-enum {
-	VCONFKEY_TELEPHONY_SAT_EVENT_DISABLED,
-	VCONFKEY_TELEPHONY_SAT_EVENT_ENABLED
-};
-
-/**
- * @brief it stands for current SIM card has SAT app or not
- *
- * 0 disable \n
- * 1 enable \n
- */
-#define VCONFKEY_TELEPHONY_SAT_STATE             VCONFKEY_TELEPHONY_PREFIX"/sat_state"
-enum {
-	VCONFKEY_TELEPHONY_SAT_NONE = 0x00,
-	VCONFKEY_TELEPHONY_SAT_READY
-};
-
-/**
- * @brief it stands for string from SAT SETUP IDLE MODE TEXT command
- *
- * null terminated string value \n
- */
-#define VCONFKEY_TELEPHONY_SAT_SETUP_IDLE_TEXT   VCONFKEY_TELEPHONY_PREFIX"/idle_text"
-
-/**
  * @brief it stands for current network is zuhause zone or not (vodafone operator specific feature)
  *
  * 0 none \n
@@ -381,22 +312,6 @@ enum {
 };
 
 /**
- * @brief it stands for current battery critical low status
- *
- * 1 power off level \n
- * 2 critical low level \n
- * 3 low level \n
- * 4 normal level \n
- */
-#define VCONFKEY_TELEPHONY_LOW_BATTERY           VCONFKEY_TELEPHONY_PREFIX"/low_battery"
-enum {
-	VCONFKEY_TELEPHONY_BATT_POWER_OFF_LEVEL = 0x01,
-	VCONFKEY_TELEPHONY_BATT_CRIT_LOW_LEVEL,
-	VCONFKEY_TELEPHONY_BATT_LOW_LEVEL,
-	VCONFKEY_TELEPHONY_BATT_NORMAL_LEVEL
-};
-
-/**
  * @brief it stands for IMEI
  *
  * null terminated string value \n
@@ -411,13 +326,6 @@ enum {
 #define VCONFKEY_TELEPHONY_SUBSCRIBER_NUMBER     VCONFKEY_TELEPHONY_PREFIX"/szSubscriberNumber"
 
 /**
- * @brief it stands for MSISDN alpha string
- *
- * null terminated string value \n
- */
-#define VCONFKEY_TELEPHONY_SUBSCRIBER_NAME       VCONFKEY_TELEPHONY_PREFIX"/szSubscriberAlpha"
-
-/**
  * @brief it stands for modem software version
  *
  * null terminated string value \n
@@ -430,21 +338,6 @@ enum {
  * null terminated string value \n
  */
 #define VCONFKEY_TELEPHONY_HWVERSION             VCONFKEY_TELEPHONY_PREFIX"/szHWVersion"	/* string */
-
-/**
- * @brief it stands for calibration date
- *
- * null terminated string value \n
- */
-#define VCONFKEY_TELEPHONY_CALDATE               VCONFKEY_TELEPHONY_PREFIX"/szCalDate"	/* string */
-
-/**
- * @brief it stands for product code
- *
- * null terminated string value \n
- */
-#define VCONFKEY_TELEPHONY_PRODUCTCODE           VCONFKEY_TELEPHONY_PREFIX"/productCode"	/* string */
-
 
 /**
  * @brief Packet service protocol type
@@ -469,14 +362,6 @@ enum {
  * 1 enable \n
  */
 #define VCONFKEY_TELEPHONY_EMERGENCY_MODE            VCONFKEY_TELEPHONY_DB_PREFIX"/emergency"
-
-/**
- * @brief it stands for telephony event system is ready or not
- *
- * 0 not ready \n
- * 1 ready \n
- */
-#define VCONFKEY_TELEPHONY_EVENT_READY             VCONFKEY_TELEPHONY_PREFIX"/event_system_ready"
 
 /* Maintainer : donghoo.park@samsung.com */
 
