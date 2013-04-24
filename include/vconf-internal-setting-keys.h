@@ -138,6 +138,9 @@ enum {
 /** @brief current incoming call ringtone file path */
 #define VCONFKEY_SETAPPL_CALL_RINGTONE_PATH_STR				    VCONFKEY_SETAPPL_PREFIX"/sound/call/ringtone_path"
 
+/** @brief default incoming call ringtone file path */
+#define VCONFKEY_SETAPPL_CALL_RINGTONE_DEFAULT_PATH_STR                             VCONFKEY_SETAPPL_PREFIX"/sound/call/ringtone_default_path"
+
 /**
  * @brief vibration type of incoming call
  *
@@ -188,6 +191,12 @@ enum {
 
 /** @brief current message ringtone file path */
 #define VCONFKEY_SETAPPL_NOTI_MSG_RINGTONE_PATH_STR			    VCONFKEY_SETAPPL_PREFIX"/sound/noti/msg_ringtone_path"
+
+/** @brief default noti ringtone file path */
+#define VCONFKEY_SETAPPL_NOTI_RINGTONE_DEFAULT_PATH_STR                         VCONFKEY_SETAPPL_PREFIX"/sound/noti/ringtone_default_path"
+
+/** @brief current noti ringtone file path */
+#define VCONFKEY_SETAPPL_NOTI_RINGTONE_PATH_STR                                 VCONFKEY_SETAPPL_NOTI_MSG_RINGTONE_PATH_STR
 
 /**
  * @brief type of email alert repitition
