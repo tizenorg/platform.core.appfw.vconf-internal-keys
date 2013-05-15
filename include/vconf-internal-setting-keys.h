@@ -1044,6 +1044,14 @@ enum {
 #define VCONFKEY_SETAPPL_DEFAULT_MEM_VOICE_RECORDER_INT         VCONFKEY_SETAPPL_PREFIX"/default_memory/voice_recorder"
 
 /**
+ * @brief default memory of FM radio
+ *
+ * 0 : Phone \n
+ * 1 : Memory card \n
+ */
+#define VCONFKEY_SETAPPL_DEFAULT_MEM_FM_RADIO_INT               VCONFKEY_SETAPPL_PREFIX"/default_memory/fm_radio"
+
+/**
  * @brief default memory of allshare
  *
  * 0 : Phone \n
