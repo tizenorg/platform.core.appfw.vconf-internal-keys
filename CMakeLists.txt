@@ -3,7 +3,7 @@ PROJECT(vconf-internal-keys C)
 
 SET(PREFIX ${CMAKE_INSTALL_PREFIX})
 SET(EXEC_PREFIX "\${prefix}")
-SET(LIBDIR "\${exec_prefix}/lib")
+SET(LIBDIR ${LIB_INSTALL_DIR})
 SET(INCLUDEDIR "\${prefix}/include/vconf")
 SET(VERSION_MAJOR 0)
 SET(VERSION "${VERSION_MAJOR}.0.1")
