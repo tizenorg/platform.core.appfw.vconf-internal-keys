@@ -90,6 +90,7 @@
 #include "vconf-internal-isf-keys.h"
 #include "vconf-internal-gallery-setting-keys.h"
 #include "vconf-internal-livebox-keys.h"
+#include "vconf-internal-pkgmgr-keys.h"
 
 #endif		/* __VCONF_INTERNAL_KEYS_H__ */
 
