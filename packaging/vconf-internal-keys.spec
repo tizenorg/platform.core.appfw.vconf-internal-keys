@@ -5,6 +5,7 @@ Release:    0
 Group:      Development/Headers
 License:    Apache License, Version 2.0
 Source0:    %{name}-%{version}.tar.gz
+Source1001: 	vconf-internal-keys.manifest
 BuildRequires:  cmake
 
 %description
@@ -19,6 +20,7 @@ Vconf internal key header files (devel)
 
 %prep
 %setup -q -n %{name}-%{version}
+cp %{SOURCE1001} .
 
 %build
 %cmake .
@@ -31,6 +33,7 @@ rm -rf %{buildroot}
 
 
 %files devel
+%manifest %{name}.manifest
 %defattr(-,root,root,-)
 %{_includedir}/vconf/*
 %{_libdir}/pkgconfig/*.pc
