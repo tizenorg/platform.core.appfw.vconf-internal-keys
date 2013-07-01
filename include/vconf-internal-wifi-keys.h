@@ -60,6 +60,23 @@ enum {
 };
 
 /**
+ * @brief Wi-Fi transfer state
+ *
+ * 0: no transfer
+ * 1: tx only
+ * 2: rx only
+ * 3: tx/rx
+ */
+#define VCONFKEY_WIFI_TRANSFER_STATE            "memory/wifi/transfer_state"
+enum {
+	VCONFKEY_WIFI_TRANSFER_STATE_NONE = 0x00,
+	VCONFKEY_WIFI_TRANSFER_STATE_TX,
+	VCONFKEY_WIFI_TRANSFER_STATE_RX,
+	VCONFKEY_WIFI_TRANSFER_STATE_TXRX,
+	VCONFKEY_WIFI_TRANSFER_STATE_MAX
+};
+
+/**
  * @brief Wi-Fi signal strength
  *
  * 0 ~ 4 integer value of signal strength
