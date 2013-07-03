@@ -164,7 +164,7 @@ enum {
 	/** TX Packet only */
 	VCONFKEY_PACKET_TX,
 	/** RXTX Packet only */
-	VCONFKEY_PACKET_RXTX,
+	VCONFKEY_PACKET_RXTX
 };
 
 /**
