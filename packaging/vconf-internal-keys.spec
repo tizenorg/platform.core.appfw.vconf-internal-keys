@@ -1,34 +1,32 @@
-Name:       vconf-internal-keys
-Summary:    Internal shared keys for vconf
-Version:    0.0.82
-Release:    0
-Group:      Development/Headers
-License:    Apache License, Version 2.0
-Source0:    %{name}-%{version}.tar.gz
-Source1001: 	vconf-internal-keys.manifest
+Name:           vconf-internal-keys
+Version:        0.0.82
+Release:        0
+License:        Apache-2.0
+Summary:        Internal shared keys for vconf
+Group:          Application Framework/Development
+Source0:        %{name}-%{version}.tar.gz
+Source1001:     vconf-internal-keys.manifest
 BuildRequires:  cmake
 
 %description
-configuration internal shared keys
+Configuration internal shared keys
 
 %package devel
-Summary:    vconf internal keys (devel)
-Group:      Development/Headers
+Summary:        Vconf internal keys (devel)
 
 %description devel
 Vconf internal key header files (devel)
 
 %prep
-%setup -q -n %{name}-%{version}
+%setup -q
 cp %{SOURCE1001} .
 
 %build
 %cmake .
 
-make %{?jobs:-j%jobs}
+make %{?_smp_mflags}
 
 %install
-rm -rf %{buildroot}
 %make_install
 
 
