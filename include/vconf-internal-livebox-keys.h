@@ -46,4 +46,12 @@
 */
 #define VCONFKEY_MASTER_STARTED		"memory/data-provider-master/started"
 
+
+/**
+ * @brief Address of service provider (master)
+ *
+ * type : string
+ */
+#define VCONFKEY_MASTER_CLIENT_ADDR	"db/data-provider-master/serveraddr"
+
 #endif	/* __VCONF_INTERNAL_LIVEBOX_KEYS_H__ */

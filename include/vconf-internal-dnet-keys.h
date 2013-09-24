@@ -148,6 +148,26 @@ enum {
 };
 
 /**
+ * @brief packet indication of Cellular network
+ *
+ * 0: NO Packet
+ * 1: RX Packet only
+ * 2: TX Packet only
+ * 3: RXTX Packet only
+ */
+#define VCONFKEY_PACKET_STATE	"memory/dnet/packet_state"
+enum {
+	/** NO Packet */
+	VCONFKEY_PACKET_NORMAL = 0x00,
+	/** RX Packet only */
+	VCONFKEY_PACKET_RX,
+	/** TX Packet only */
+	VCONFKEY_PACKET_TX,
+	/** RXTX Packet only */
+	VCONFKEY_PACKET_RXTX
+};
+
+/**
  * @brief Total bytes received by Cellular device
  *
  * Value : Integer of bytes

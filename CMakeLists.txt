@@ -74,3 +74,4 @@ INSTALL(FILES ${CMAKE_SOURCE_DIR}/include/vconf-internal-appservice-keys.h DESTI
 INSTALL(FILES ${CMAKE_SOURCE_DIR}/include/vconf-internal-isf-keys.h DESTINATION ${INCLUDEDIR})
 INSTALL(FILES ${CMAKE_SOURCE_DIR}/include/vconf-internal-gallery-setting-keys.h DESTINATION ${INCLUDEDIR})
 INSTALL(FILES ${CMAKE_SOURCE_DIR}/include/vconf-internal-livebox-keys.h DESTINATION ${INCLUDEDIR})
+INSTALL(FILES ${CMAKE_SOURCE_DIR}/include/vconf-internal-pkgmgr-keys.h DESTINATION ${INCLUDEDIR})
