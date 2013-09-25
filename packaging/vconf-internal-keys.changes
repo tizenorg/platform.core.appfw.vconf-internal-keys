@@ -1,2 +1,18 @@
+* Tue Sep 24 2013 Anas Nashif <anas.nashif@intel.com> 2.2_release@feb529f
+- fixed packaging and rpmlint errors
+- Merge branch 'tizen_2.2' into tizen
+- Add new definition for client address (dbox)
+- Merge "resetting manifest requested domain to floor" into tizen
+- Fix the build error.
+- Add VCONFKEY_SOUND_STATUS_AVRECORDING enum
+- resetting manifest requested domain to floor
+- Add vconfkey for Wi-Fi packet transfer state
+- Add vconf keys for Wi-Fi tx/rx transfer state
+- resetting manifest requested domain to floor
+- Add VCONFKEY_PACKET_STATE key for packet state
+- Merge branch private-master
+- Add Changelog
+- Remove unused telephony-keys
+
 * Thu May 30 2013 Baptiste DURAND <baptiste.durand@eurogiciel.fr> accepted/tizen/20130520.100942@8469dde
 - Fix library path value used for pc file
