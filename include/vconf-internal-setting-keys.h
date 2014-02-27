@@ -97,6 +97,14 @@ enum {
 };
 
 /**
+ * @brief level of automatic brightness
+ *
+ * Min : 1 \n
+ * Max : 100 \n
+ */
+#define VCONFKEY_SETAPPL_LCD_AUTOMATIC_BRIGHTNESS                         VCONFKEY_SETAPPL_PREFIX"/automatic_brightness_level"
+
+/**
  * @brief screen mode
  *
  * 0 : dynamic \n
