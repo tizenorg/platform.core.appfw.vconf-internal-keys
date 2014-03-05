@@ -248,6 +248,20 @@ enum {
 };
 
 /**
+ * @brief Show my number status
+ *
+ * 0 : By network \n
+ * 1 : Show \n
+ * 2 : Hide \n
+ */
+#define VCONFKEY_TELEPHONY_SS_CLI_STATE		VCONFKEY_TELEPHONY_DB_PREFIX"/ss_cli_state"
+enum {
+	VCONFKEY_TELEPHONY_SS_CLI_BYNETWORK = 0x00,
+	VCONFKEY_TELEPHONY_SS_CLI_SHOW,
+	VCONFKEY_TELEPHONY_SS_CLI_HIDE
+};
+
+/**
  * @brief it stands for current telephony apis is ready to use or not
  *
  * 0 none \n
