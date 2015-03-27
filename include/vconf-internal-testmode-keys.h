@@ -69,6 +69,26 @@ enum {
 };
 
 /**
+ * @brief Fast Dormancy Setting
+ *
+ * type : bool
+ * VCONFKEY_TESTMODE_FAST_DORMANCY_OFF: FAST Dormancy off \n
+ * VCONFKEY_TESTMODE_FAST_DORMANCY_ON: FAST Dormancy on \n
+ */
+#define VCONFKEY_TESTMODE_FAST_DORMANCY             "memory/testmode/fast_dormancy"
+enum {
+	VCONFKEY_TESTMODE_FAST_DORMANCY_OFF = 0,
+	VCONFKEY_TESTMODE_FAST_DORMANCY_ON
+};
+
+/**
+ * @brief Fast Dormancy Setting of SIM2
+ *
+ * Enum values of this key are equal to VCONFKEY_TESTMODE_FAST_DORMANCY
+ */
+#define VCONFKEY_TESTMODE_FAST_DORMANCY2             "memory/testmode/fast_dormancy2"
+
+/**
  * @brief Power off popup Setting
  *
  * type : bool

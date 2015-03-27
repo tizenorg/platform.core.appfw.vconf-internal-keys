@@ -1475,6 +1475,38 @@ enum {
         SETTING_RENDERING_ENGINE_MAX
 };
 
+ /**
+ * @brief ps(power saving) mode status
+ * type : int
+ * 0 : normal mode, SETTING_PSMODE_NORMAL
+ * 1 : powerful mode, SETTING_PSMODE_POWERFUL
+ * 2 : emergency mode, SETTING_PSMODE_EMERGENCY
+ * 3 : power saver(for wearable device), SETTING_PSMODE_WEARABLE
+ * 4 : enahanced power saver(for wearable device), SETTING_PSMODE_WEARABLE_ENHANCED
+ *
+ */
+#define VCONFKEY_SETAPPL_PSMODE VCONFKEY_SETAPPL_PREFIX"/psmode"
+enum {
+	SETTING_PSMODE_NORMAL = 0,
+	SETTING_PSMODE_POWERFUL = 1,
+	SETTING_PSMODE_ADVISOR = 1,
+	SETTING_PSMODE_SURVIVAL = 2,
+	SETTING_PSMODE_EMERGENCY = 2,
+	SETTING_PSMODE_WEARABLE = 3,
+	SETTING_PSMODE_WEARABLE_ENHANCED = 4,
+	SETTING_PSMODE_MAX
+};
+
+/**
+ * @brief Network restriction mode
+ *
+ * type : bool
+ *
+ * 0 : Off
+ * 1 : On
+ */
+#define VCONFKEY_SETAPPL_NETWORK_RESTRICT_MODE	VCONFKEY_SETAPPL_PREFIX"/network_restrict_mode"
+
 /**
  * @}
  */

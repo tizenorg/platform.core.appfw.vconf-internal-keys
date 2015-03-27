@@ -82,6 +82,11 @@ enum {
 	VCONFKEY_TELEPHONY_SIM_FACTORYMODE_ON = 0x01
 };
 
+/**
+ * @brief It stands for telephony daemon load count between reboots
+ * On each Telephony daemon crash count is increased
+ */
+#define VCONFKEY_TELEPHONY_DAEMON_LOAD_COUNT VCONFKEY_TELEPHONY_PREFIX"/daemon_load_count"
 
 
 /* Will be removed */
@@ -194,7 +199,21 @@ enum {
 };
 
 /**
- * @brief it stands for current device has SIM or not
+ * @brief it stands for current network is home zone or not (O2 operator specific feature)
+ *
+ * 0 unknown \n
+ * 1 home \n
+ * 2 city \n
+ */
+#define VCONFKEY_TELEPHONY_ZONE_TYPE             VCONFKEY_TELEPHONY_PREFIX"/zone_type"
+enum {
+	VCONFKEY_TELEPHONY_ZONE_NONE = 0x00,
+	VCONFKEY_TELEPHONY_ZONE_HOME,
+	VCONFKEY_TELEPHONY_ZONE_CITY
+};
+
+/**
+ * @brief it stands for current device has a SIM card or not
  *
  * 0 unknown \n
  * 1 inserted \n
@@ -210,6 +229,18 @@ enum {
 };
 
 /**
+ * @brief it stands for current device has a second SIM card or not (for Dual SIM model)
+ *
+ * Enum values of this key are equal to VCONFKEY_TELEPHONY_SIM_SLOT
+ */
+#define VCONFKEY_TELEPHONY_SIM_SLOT2              VCONFKEY_TELEPHONY_PREFIX"/sim_slot2"
+
+/**
+ * @brief it stands the number of sim slot having current device
+ */
+#define VCONFKEY_TELEPHONY_SIM_SLOT_COUNT VCONFKEY_TELEPHONY_PREFIX"/sim_slot_count"
+
+/**
  * @brief it stands for current telephony phonebook is ready to give valid value or not
  *
  * 0 none \n
@@ -220,6 +251,62 @@ enum {
 	VCONFKEY_TELEPHONY_SIM_PB_INIT_NONE = 0x00,
 	VCONFKEY_TELEPHONY_SIM_PB_INIT_COMPLETED
 };
+
+/**
+ * @brief it stands for current sim cached data status as below
+ *
+ * 0 card error, bad card \n
+ * 1 card not presented \n
+ * 2 on initializing \n
+ * 3 init completed \n
+ * 4 pin required \n
+ * 5 puk required \n
+ * 6 card blocked \n
+ * 7 network control key required \n
+ * 8 network subset control key required \n
+ * 9 service provider control key required \n
+ * 10 corporate control key required \n
+ * 11 card removed \n
+ * 12 sim lock key required \n
+ * 13 card crashed \n
+ * 255 unknown \n
+ */
+#define VCONFKEY_TELEPHONY_SIM_STATUS              VCONFKEY_TELEPHONY_PREFIX"/sim_status"
+enum {
+	VCONFKEY_TELEPHONY_SIM_STATUS_CARD_ERROR = 0x00, /**< Bad card / On the fly SIM gone bad **/
+	VCONFKEY_TELEPHONY_SIM_STATUS_CARD_NOT_PRESENT = 0x01, /**<  Card not present **/
+	VCONFKEY_TELEPHONY_SIM_STATUS_INITIALIZING = 0x02, /**<  SIM is Initializing state **/
+	VCONFKEY_TELEPHONY_SIM_STATUS_INIT_COMPLETED = 0x03, /**<  SIM Initialization OK **/
+	VCONFKEY_TELEPHONY_SIM_STATUS_PIN_REQUIRED = 0x04, /**<  PIN  required state **/
+	VCONFKEY_TELEPHONY_SIM_STATUS_PUK_REQUIRED = 0x05, /**<  PUK required state **/
+	VCONFKEY_TELEPHONY_SIM_STATUS_CARD_BLOCKED = 0x06, /**<  PIN/PUK blocked(permanently blocked- All the attempts for PIN/PUK failed) **/
+	VCONFKEY_TELEPHONY_SIM_STATUS_NCK_REQUIRED = 0x07, /**<  Network Control Key required state **/
+	VCONFKEY_TELEPHONY_SIM_STATUS_NSCK_REQUIRED = 0x08, /**<  Network Subset Control Key required state **/
+	VCONFKEY_TELEPHONY_SIM_STATUS_SPCK_REQUIRED = 0x09, /**<  Service Provider Control Key required state **/
+	VCONFKEY_TELEPHONY_SIM_STATUS_CCK_REQUIRED = 0x0a, /**<  Corporate Control Key required state **/
+	VCONFKEY_TELEPHONY_SIM_STATUS_CARD_REMOVED = 0x0b, /**<  Card removed **/
+	VCONFKEY_TELEPHONY_SIM_STATUS_SIM_LOCK_REQUIRED = 0x0c, /**<  PH-SIM (phone-SIM) locked state **/
+	VCONFKEY_TELEPHONY_SIM_STATUS_CARD_CRASHED = 0x0d, /**< Runtime SIM card error **/
+	VCONFKEY_TELEPHONY_SIM_STATUS_UNKNOWN = 0xff /**<  Unknown status. It can be initial status **/
+};
+
+/**
+ * @brief it stands for current sim is changed or not
+ * -1 unknown \n
+ * 0 not changed \n
+ * 1 changed \n
+ */
+#define VCONFKEY_TELEPHONY_SIM_IS_CHANGED              VCONFKEY_TELEPHONY_PREFIX"/sim_is_changed"
+
+/**
+ * @brief it stands for CPHS operator name with FULL form which is stored in SIM card
+ */
+#define VCONFKEY_TELEPHONY_SIM_CPHS_OPERATOR_NAME_FULL              VCONFKEY_TELEPHONY_PREFIX"/cphs_operator_name_full"
+
+/**
+ * @brief it stands for CPHS operator name with SHORT form which is stored in SIM card
+ */
+#define VCONFKEY_TELEPHONY_SIM_CPHS_OPERATOR_NAME_SHORT              VCONFKEY_TELEPHONY_PREFIX"/cphs_operator_name_short"
 
 /**
  * @brief it stands for current call status ( idle, connect, held )
@@ -236,30 +323,44 @@ enum {
 };
 
 /**
- * @brief it stands for current call forwarding status
+ * @brief it stands for SIM1 Call Forwarding Indicator status -Always case (CFU)
  *
  * 0 off \n
  * 1 on \n
  */
-#define VCONFKEY_TELEPHONY_CALL_FORWARD_STATE    VCONFKEY_TELEPHONY_PREFIX"/call_forward_state"
+#define VCONFKEY_TELEPHONY_CALL_FORWARD_STATE    VCONFKEY_TELEPHONY_DB_PREFIX"/call_forward_state"
 enum {
 	VCONFKEY_TELEPHONY_CALL_FORWARD_OFF = 0x00,
 	VCONFKEY_TELEPHONY_CALL_FORWARD_ON = 0x01
 };
 
-/**
- * @brief it stands for whether my number show or not to receiver
+/*
+ * @brief it stands for SIM2 Call Forwarding Indicator status -Always case (CFU)
  *
- * 0 By network \n
- * 1 Show \n
- * 2 Hide \n
+ * Enum values of this key are equal to VCONFKEY_TELEPHONY_CALL_FORWARD_STATE
  */
-#define VCONFKEY_TELEPHONY_SS_CLI_STATE          VCONFKEY_TELEPHONY_DB_PREFIX"/ss_cli_state"
+#define VCONFKEY_TELEPHONY_CALL_FORWARD_STATE2    VCONFKEY_TELEPHONY_DB_PREFIX"/call_forward_state2"
+
+/**
+ * @brief Show my number status
+ *
+ * 0 : By network \n
+ * 1 : Show \n
+ * 2 : Hide \n
+ */
+#define VCONFKEY_TELEPHONY_SS_CLI_STATE            VCONFKEY_TELEPHONY_DB_PREFIX"/ss_cli_state"
 enum {
 	VCONFKEY_TELEPHONY_SS_CLI_BYNETWORK = 0x00,
 	VCONFKEY_TELEPHONY_SS_CLI_SHOW,
 	VCONFKEY_TELEPHONY_SS_CLI_HIDE
 };
+
+/*
+ * @brief Show my number status of SIM2
+ *
+ * Enum values of this key are equal to VCONFKEY_TELEPHONY_SS_CLI_STATE
+ */
+#define VCONFKEY_TELEPHONY_SS_CLI_STATE2 VCONFKEY_TELEPHONY_DB_PREFIX"/ss_cli_state2"
 
 /**
  * @brief it stands for current telephony apis is ready to use or not
@@ -296,14 +397,6 @@ enum {
 #define VCONFKEY_TELEPHONY_SPN_NAME              VCONFKEY_TELEPHONY_PREFIX"/spn"
 
 /**
- * @brief it stands for current network is zuhause zone or not (vodafone operator specific feature)
- *
- * 0 none \n
- * 1 zuhause \n
- */
-#define VCONFKEY_TELEPHONY_ZONE_ZUHAUSE          VCONFKEY_TELEPHONY_PREFIX"/zuhause_zone"
-
-/**
  * @brief it stands for current network RSSI strength
  *
  * 0 min \n
@@ -326,18 +419,27 @@ enum {
 };
 
 /**
+ * @brief it stands for current battery critical low status
+ *
+ * 1 power off level \n
+ * 2 critical low level \n
+ * 3 low level \n
+ * 4 normal level \n
+ */
+#define VCONFKEY_TELEPHONY_LOW_BATTERY           VCONFKEY_TELEPHONY_PREFIX"/low_battery"
+enum {
+	VCONFKEY_TELEPHONY_BATT_POWER_OFF_LEVEL = 0x01,
+	VCONFKEY_TELEPHONY_BATT_CRIT_LOW_LEVEL,
+	VCONFKEY_TELEPHONY_BATT_LOW_LEVEL,
+	VCONFKEY_TELEPHONY_BATT_NORMAL_LEVEL
+};
+
+/**
  * @brief it stands for IMEI
  *
  * null terminated string value \n
  */
 #define VCONFKEY_TELEPHONY_IMEI                  VCONFKEY_TELEPHONY_PREFIX"/imei"
-
-/**
- * @brief it stands for MSISDN number string
- *
- * null terminated string value \n
- */
-#define VCONFKEY_TELEPHONY_SUBSCRIBER_NUMBER     VCONFKEY_TELEPHONY_PREFIX"/szSubscriberNumber"
 
 /**
  * @brief it stands for modem software version
@@ -354,6 +456,21 @@ enum {
 #define VCONFKEY_TELEPHONY_HWVERSION             VCONFKEY_TELEPHONY_PREFIX"/szHWVersion"	/* string */
 
 /**
+ * @brief it stands for calibration date
+ *
+ * null terminated string value \n
+ */
+#define VCONFKEY_TELEPHONY_CALDATE               VCONFKEY_TELEPHONY_PREFIX"/szCalDate"	/* string */
+
+/**
+ * @brief it stands for product code
+ *
+ * null terminated string value \n
+ */
+#define VCONFKEY_TELEPHONY_PRODUCTCODE           VCONFKEY_TELEPHONY_PREFIX"/productCode"	/* string */
+
+
+/**
  * @brief Packet service protocol type
  *
  */
@@ -366,7 +483,9 @@ enum {
  /** HSUPA */
  VCONFKEY_TELEPHONY_PSTYPE_HSUPA,
  /** HSPA */
- VCONFKEY_TELEPHONY_PSTYPE_HSPA
+ VCONFKEY_TELEPHONY_PSTYPE_HSPA,
+ /** HSPA PLUS */
+ VCONFKEY_TELEPHONY_PSTYPE_HSPAP
 };
 
 /**
@@ -376,6 +495,14 @@ enum {
  * 1 enable \n
  */
 #define VCONFKEY_TELEPHONY_EMERGENCY_MODE            VCONFKEY_TELEPHONY_DB_PREFIX"/emergency"
+
+/**
+ * @brief it stands for telephony event system is ready or not
+ *
+ * 0 not ready \n
+ * 1 ready \n
+ */
+#define VCONFKEY_TELEPHONY_EVENT_READY             VCONFKEY_TELEPHONY_PREFIX"/event_system_ready"
 
 /* Maintainer : donghoo.park@samsung.com */
 
@@ -449,18 +576,87 @@ enum {
 	VCONFKEY_TELEPHONY_SVC_ACT_NOT_SPECIFIED = 0xFF
 };
 
+
 /**
-* @brief MMS sent status
-*
-* 0 Success \n
-* 1 Failure \n
-* 2 Network Unavailable \n
+ * @brief SIM Power State for sim slot 1
+ *
+ * FALSE power off \n
+ * TRUE power on \n
+ */
+#define VCONFKEY_TELEPHONY_SIM_POWER_STATE1 VCONFKEY_TELEPHONY_DB_PREFIX"/sim_power_state1"
+
+/**
+ * @brief SIM Power State for sim slot 2
+ *
+ * FALSE power off \n
+ * TRUE power on \n
+ */
+#define VCONFKEY_TELEPHONY_SIM_POWER_STATE2 VCONFKEY_TELEPHONY_DB_PREFIX"/sim_power_state2"
+
+/**
+ * @brief Enable/Disable "Receive Incoming Call" in Dual SIM during PS connected state
+ *
+ * type: bool
+ *
+ * TRUE: Enable
+ * FALSE: Disable
 */
-#define VCONFKEY_TELEPHONY_MMS_SENT_STATUS  VCONFKEY_TELEPHONY_PREFIX"/mms_sent_status"
+#define VCONFKEY_TELEPHONY_RECEIVE_INCOMING_CALL_BOOL  VCONFKEY_TELEPHONY_DB_PREFIX"/dualsim/receive_incoming_call"
+
+/**
+ * @brief Modem always on state during companion mode
+ *
+ * 0 always off \n
+ * 1 always on \n
+ * 2 Automatic \n
+ */
+#define VCONFKEY_TELEPHONY_MODEM_ALWAYS_ON_STATE   VCONFKEY_TELEPHONY_DB_PREFIX"/modem_always_on"
 enum {
-	VCONFKEY_TELEPHONY_MMS_SEND_SUCCESS = 0x00,
-	VCONFKEY_TELEPHONY_MMS_SEND_FAIL = 0x01,
-	VCONFKEY_TELEPHONY_MMS_SEND_NETWORK_UNAVAILABLE = 0x02
+	VCONFKEY_TELEPHONY_MODEM_ALWAYS_OFF = 0x00,
+	VCONFKEY_TELEPHONY_MODEM_ALWAYS_ON,
+	VCONFKEY_TELEPHONY_MODEM_AUTO_ON_OFF
+};
+
+/**
+  * @brief it stands for network reject cause
+  *
+  * Value : Reject Cause (int) \n
+  */
+#define VCONFKEY_TELEPHONY_NETWORK_REJECT_CAUSE    VCONFKEY_TELEPHONY_PREFIX"/rej_cause"
+
+/**
+ * @brief it stands for if phone is entered emergency call back mode for CDMA
+ *
+ * 0 emergency mode exited \n
+ * 1 emergency mode entered \n
+ */
+#define VCONFKEY_TELEPHONY_EMERGENCY_CB_MODE_CDMA   VCONFKEY_TELEPHONY_PREFIX"/emergency_mode"
+
+/**
+ * @brief it stands for call alert signal type
+ *
+ * Value: enum telephony_call_alert_signal_type
+ */
+#define VCONFKEY_TELEPHONY_CALL_SIGNAL_TYPE          VCONFKEY_TELEPHONY_PREFIX"/call_alert_signal_type"
+
+/**
+ * @brief it stands for call alert pitch type
+ *
+ * Value: enum telephony_call_alert_pitch_type
+ */
+#define VCONFKEY_TELEPHONY_CALL_PITCH_TYPE           VCONFKEY_TELEPHONY_PREFIX"/call_alert_pitch_type"
+
+/**
+ * @brief it stands for call signal
+ *
+ * Value: enum telephony_call_(signal_type)_signal
+ */
+#define VCONFKEY_TELEPHONY_CALL_SIGNAL               VCONFKEY_TELEPHONY_PREFIX"/call_signal"
+
+#define VCONFKEY_TELEPHONY_AVAILABLE_EVDO               VCONFKEY_TELEPHONY_PREFIX"/available_evdo"
+enum {
+	VCONFKEY_TELEPHONY_AVAILABLE_EVDO_NO = 0x00,
+	VCONFKEY_TELEPHONY_AVAILABLE_EVDO_YES
 };
 
 /**
