@@ -62,10 +62,12 @@
  * STATUS_EARJACK_UNPLUG        = 0x00002000
  * STATUS_ALARM                 = 0x00100000
  * STATUS_VIDEOCALL             = 0x20000000
+ * STATUS_VOIP                  = 0x00010000
  * STATUS_MONITOR               = 0x80000000
  * STATUS_RICH_CALL             = 0x40000000
  * STATUS_EMERGENCY             = 0x00004000
  * STATUS_EXCLUSIVE_RESOURCE    = 0x00008000
+ * STATUS_VOICE_RECOGNITION     = 0x00020000
  *
  * 0 : Sound is not in use (STATUS_NONE)\n
  * not 0 : Sound is in use (combination of above status)
@@ -74,6 +76,23 @@
 enum {
 	VCONFKEY_SOUND_STATUS_AVRECORDING = 0x00000040
 };
+
+/**
+ * @brief Indicates whether sound capture is in use or not
+ *
+ * 0 : sound capture Not in use
+ * 1 : sound capture in use
+ */
+#define VCONFKEY_SOUND_CAPTURE_STATUS "memory/Sound/SoundCaptureStatus"
+
+/**
+ * @brief Indicates whether voice control is enabled or not
+ *
+ * 0 : voice control Not in use
+ * 1 : voice control in use
+ */
+#define VCONFKEY_SOUND_VOICE_CONTROL_STATUS "memory/private/Sound/VoiceControlOn"
+
 
 /**
  * @}
