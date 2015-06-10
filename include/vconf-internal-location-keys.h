@@ -3,7 +3,7 @@
  *
  * Copyright (c) 2000 - 2011 Samsung Electronics Co., Ltd. All rights reserved.
  *
- * Contact: Hakjoo Ko <hakjoo.ko@samsung.com>, Genie Kim <daejins.kim@samsung.com>
+ * Contact: Hakjoo Ko <email at samsung.com>
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -21,376 +21,157 @@
 
 #ifndef __VCONF_INTERNAL_LOCATION_KEYS_H__
 #define __VCONF_INTERNAL_LOCATION_KEYS_H__
+#define VCONFKEY_LOCATION_USE_MY_LOCATION  "db/location/setting/Usemylocation"
 
-/**
- * This file defines keys and values.
- *
- * @file        vconf-internal-location-keys.h
- * @defgroup    vconf_internal_location_key Definitions of internal shared Keys for location
- * @ingroup     vconf_internal_key
- * @author      daejins.kim@samsung.com
- * @version     0.1
- * @brief       This file has the definitions of shared keys for location \n
- */
+#define VCONFKEY_LOCATION_ENABLED  "db/location/setting/GpsEnabled"
 
-/* ========================== Location Setting Keys & Values ============================ */
-/**
- * @addtogroup vconf_internal_location_key
- * @{
- * @brief Location Setting Keys & Values\n
- *        Maintainer : daejins.kim@samsung.com
- */
+#define VCONFKEY_LOCATION_NETWORK_ENABLED  "db/location/setting/NetworkEnabled"
 
-/**
- * @brief location service on/off status(int)
- *
- * Disabled = 0 \n
- * Enabled = 1
- */
-#define VCONFKEY_LOCATION_ENABLED "db/location/setting/GpsEnabled"
+#define VCONFKEY_LBS_SETTING_IS_SHOW_GPS_POPUP  "db/location/setting/GpsPopup"
 
-/**
- * @brief advanced GPS on/off status(int)
- *
- * Disabled = 0 \n
- * Enabled = 1
- */
-#define VCONFKEY_LOCATION_AGPS_ENABLED "db/location/setting/AgpsEnabled"
+#define VCONFKEY_LOCATION_POSITION_STATE  "memory/location/position/state"
 
-/**
- * @brief network position on/off status(int)
- *
- * Disabled = 0 \n
- * Enabled = 1
- */
-#define VCONFKEY_LOCATION_NETWORK_ENABLED "db/location/setting/NetworkEnabled"
-
-/**
- * @brief sensor position on/off status(int)
- *
- * Disabled = 0 \n
- * Enabled = 1
- */
-#define VCONFKEY_LOCATION_SENSOR_ENABLED "db/location/setting/SensorEnabled"
-
-/**
- * @}
- */
-
-/* ========================== GPS setting Keys & Values ============================ */
-/**
- * @addtogroup vconf_internal_location_key
- * @{
- * @brief Replay mode Keys & Values\n
- *        Maintainer : daejins.kim@samsung.com
- */
-
-/**
- * @brief GPS operation mode(int)
- *
- * STANDALONE = 0 \n
- * MS_BASED = 1 \n
- * MS_ASSISTED = 2
- */
-#define VCONFKEY_LOCATION_GPS_OPERATION "db/location/gps/Operation"
-enum {
-	VCONFKEY_GPS_OPERATION_STANDALONE = 0,
-	VCONFKEY_GPS_OPERATION_MS_BASED,
-	VCONFKEY_GPS_OPERATION_MS_ASSISTED,
-	VCONFKEY_GPS_OPERATION_MAX
-};
-
-/**
- * @brief GPS starting mode(int)
- *
- * HOT_START = 0 \n
- * COLD_START = 1
- */
-#define VCONFKEY_LOCATION_GPS_STARTING "db/location/gps/Starting"
-enum {
-	VCONFKEY_GPS_STARTING_HOT = 0,
-	VCONFKEY_GPS_STARTING_COLD,
-	VCONFKEY_GPS_STARTING_MAX
-};
-
-/**
- * @brief GPS session mode(int)
- *
- * SINGLE_FIX = 0 \n
- * TRACKING = 1
- */
-#define VCONFKEY_LOCATION_GPS_SESSION "db/location/gps/Session"
-enum {
-	VCONFKEY_GPS_SESSION_SINGLE_FIX = 0,
-	VCONFKEY_GPS_SESSION_TRACKING,
-	VCONFKEY_GPS_SESSION_MAX
-};
-
-/**
- * @brief SUPL server address(string)
- */
-#define VCONFKEY_LOCATION_SUPL_SERVER "db/location/supl/Server"
-
-/**
- * @brief SUPL port number(int)
- */
-#define VCONFKEY_LOCATION_SUPL_PORT "db/location/supl/Port"
-
-/**
- * @brief SUPL SSL mode on/off status(int)
- *
- * Disabled = 0 \n
- * Enabled = 1
- */
-#define VCONFKEY_LOCATION_SUPL_SSL "db/location/supl/SslEnabled"
-/**
- * @}
- */
-
-/* ========================== NMEA Logging mode Keys & Values ============================ */
-/**
- * @addtogroup vconf_internal_location_key
- * @{
- * @brief Replay mode Keys & Values\n
- *        Maintainer : daejins.kim@samsung.com
- */
-
-/**
- * @brief nmea logging mode on/off status(int)
- *
- * Disabled = 0 \n
- * Enabled = 1
- */
-#define VCONFKEY_LOCATION_NMEA_LOGGING "db/location/nmea/LoggingEnabled"
-
-/**
- * @}
- */
-
-/* ========================== Replay mode Keys & Values ============================ */
-/**
- * @addtogroup vconf_internal_location_key
- * @{
- * @brief Replay mode Keys & Values\n
- *        Maintainer : daejins.kim@samsung.com
- */
-
-/**
- * @brief replay mode on/off status(int)
- *
- * Disabled = 0 \n
- * Enabled = 1
- */
-#define VCONFKEY_LOCATION_REPLAY_ENABLED "db/location/replay/ReplayEnabled"
-
-/**
- * @brief replay mode(int)
- *
- * REPLAY_OFF = 0 \n
- * REPLAY_NMEA = 1 \n
- * REPLAY_MANAUL = 2
- */
-#define VCONFKEY_LOCATION_REPLAY_MODE "db/location/replay/ReplayMode"
-enum {
-	VCONFKEY_GPS_REPLAY_OFF = 0,
-	VCONFKEY_GPS_REPLAY_NMEA,
-	VCONFKEY_GPS_REPLAY_MANAUL,
-	VCONFKEY_GPS_REPLAY_MODE_MAX
-};
-
-/**
- * @brief replay nmea mode : file name(string)
- */
-#define VCONFKEY_LOCATION_NMEA_FILE_NAME "db/location/replay/FileName"
-
-/**
- * @brief replay manual mode : latitude(double)
- */
-#define VCONFKEY_LOCATION_MANUAL_LATITUDE "db/location/replay/ManualLatitude"
-
-/**
- * @brief replay manual mode : longitude(double)
- */
-#define VCONFKEY_LOCATION_MANUAL_LONGITUDE "db/location/replay/ManualLongitude"
-
-/**
- * @brief replay manual mode : altitude(double)
- */
-#define VCONFKEY_LOCATION_MANUAL_ALTITUDE "db/location/replay/ManualAltitude"
-
-/**
- * @}
- */
-
-/* ========================== GPS / WPS Keys & Values ============================ */
-/**
- * @addtogroup vconf_internal_location_key
- * @{
- * @brief GPS/ WPS Keys & Values\n
- *        Maintainer : daejins.kim@samsung.com
- */
-
-/**
- * @brief Position fix status(int)
- *
- * POSITION OFF = 0 \n
- * POSITION_SEARCHING = 1 \n
- * POSITION_CONNECTED = 2
- *
- */
-#define VCONFKEY_LOCATION_POSITION_STATE "memory/location/position/state"
 enum {
 	VCONFKEY_LOCATION_POSITION_OFF = 0,
-	VCONFKEY_LOCATION_POSITION_SEARCHING,
-	VCONFKEY_LOCATION_POSITION_CONNECTED,
-	VCONFKEY_LOCATION_POSITION_STATE_MAX
+		VCONFKEY_LOCATION_POSITION_SEARCHING,
+		VCONFKEY_LOCATION_POSITION_CONNECTED,
+		VCONFKEY_LOCATION_POSITION_STATE_MAX
 };
 
-/**
- * @brief GPS status(int)
- *
- * GPS OFF = 0 \n
- * GPS_SEARCHING = 1 \n
- * GPS_CONNECTED = 2
- *
- */
-#define VCONFKEY_LOCATION_GPS_STATE "memory/location/gps/state"
+#define VCONFKEY_LOCATION_GPS_STATE  "memory/location/gps/state"
+
 enum {
 	VCONFKEY_LOCATION_GPS_OFF = 0,
-	VCONFKEY_LOCATION_GPS_SEARCHING,
-	VCONFKEY_LOCATION_GPS_CONNECTED,
-	VCONFKEY_LOCATION_GPS_STATE_MAX
+		VCONFKEY_LOCATION_GPS_SEARCHING,
+		VCONFKEY_LOCATION_GPS_CONNECTED,
+		VCONFKEY_LOCATION_GPS_STATE_MAX
 };
 
-/**
- * @brief WPS status(int)
- *
- * WPS OFF = 0 \n
- * WPS_SEARCHING = 1 \n
- * WPS_CONNECTED = 2
- *
- */
-#define VCONFKEY_LOCATION_WPS_STATE "memory/location/wps/state"
+#define VCONFKEY_LOCATION_WPS_STATE  "memory/location/wps/state"
+
 enum {
 	VCONFKEY_LOCATION_WPS_OFF = 0,
-	VCONFKEY_LOCATION_WPS_SEARCHING,
-	VCONFKEY_LOCATION_WPS_CONNECTED,
-	VCONFKEY_LOCATION_WPS_STATE_MAX
+		VCONFKEY_LOCATION_WPS_SEARCHING,
+		VCONFKEY_LOCATION_WPS_CONNECTED,
+		VCONFKEY_LOCATION_WPS_STATE_MAX
 };
 
-/**
- * @}
- */
+#define VCONFKEY_LOCATION_LAST_GPS_TIMESTAMP  "memory/location/last/gps/Timestamp"
 
-/* ========================== GPS / WPS Last Position Keys & Values ============================ */
-/**
- * @addtogroup vconf_internal_location_key
- * @{
- * @brief GPS/ WPS Keys & Values\n
- *        Maintainer : daejins.kim@samsung.com
- */
+#define VCONFKEY_LOCATION_LAST_GPS_LATITUDE  "memory/location/last/gps/Latitude"
 
-/**
- * @brief last GPS timestamp(int)
- */
-#define VCONFKEY_LOCATION_LAST_GPS_TIMESTAMP "db/location/last/gps/Timestamp"
+#define VCONFKEY_LOCATION_LAST_GPS_LONGITUDE  "memory/location/last/gps/Longitude"
 
-/**
- * @brief last GPS latitude(double)
- */
-#define VCONFKEY_LOCATION_LAST_GPS_LATITUDE "db/location/last/gps/Latitude"
+#define VCONFKEY_LOCATION_LAST_GPS_ALTITUDE  "memory/location/last/gps/Altitude"
 
-/**
- * @brief last GPS longitude(double)
- */
-#define VCONFKEY_LOCATION_LAST_GPS_LONGITUDE "db/location/last/gps/Longitude"
+#define VCONFKEY_LOCATION_LAST_GPS_SPEED  "memory/location/last/gps/Speed"
 
-/**
- * @brief last GPS altitude(double)
- */
-#define VCONFKEY_LOCATION_LAST_GPS_ALTITUDE "db/location/last/gps/Altitude"
+#define VCONFKEY_LOCATION_LAST_GPS_DIRECTION  "memory/location/last/gps/Direction"
 
-/**
- * @brief last GPS speed(double)
- */
-#define VCONFKEY_LOCATION_LAST_GPS_SPEED "db/location/last/gps/Speed"
+#define VCONFKEY_LOCATION_LAST_GPS_HOR_ACCURACY  "memory/location/last/gps/HorAccuracy"
 
-/**
- * @brief last GPS direction(double)
- */
-#define VCONFKEY_LOCATION_LAST_GPS_DIRECTION "db/location/last/gps/Direction"
+#define VCONFKEY_LOCATION_LAST_GPS_VER_ACCURACY  "memory/location/last/gps/VerAccuracy"
 
-/**
- * @brief last GPS horizontal accuracy(double)
- */
-#define VCONFKEY_LOCATION_LAST_GPS_HOR_ACCURACY "db/location/last/gps/HorAccuracy"
+#define VCONFKEY_LOCATION_LAST_WPS_TIMESTAMP  "memory/location/last/wps/Timestamp"
 
-/**
- * @brief last GPS vertical accuracy(double)
- */
-#define VCONFKEY_LOCATION_LAST_GPS_VER_ACCURACY "db/location/last/gps/VerAccuracy"
+#define VCONFKEY_LOCATION_LAST_WPS_LATITUDE  "memory/location/last/wps/Latitude"
 
-/**
- * @brief last WPS timestamp(int)
- */
-#define VCONFKEY_LOCATION_LAST_WPS_TIMESTAMP "db/location/last/wps/Timestamp"
+#define VCONFKEY_LOCATION_LAST_WPS_LONGITUDE  "memory/location/last/wps/Longitude"
 
-/**
- * @brief last WPS latitude(double)
- */
-#define VCONFKEY_LOCATION_LAST_WPS_LATITUDE "db/location/last/wps/Latitude"
+#define VCONFKEY_LOCATION_LAST_WPS_ALTITUDE  "memory/location/last/wps/Altitude"
 
-/**
- * @brief last WPS longitude(double)
- */
-#define VCONFKEY_LOCATION_LAST_WPS_LONGITUDE "db/location/last/wps/Longitude"
+#define VCONFKEY_LOCATION_LAST_WPS_SPEED  "memory/location/last/wps/Speed"
 
-/**
- * @brief last WPS altitude(double)
- */
-#define VCONFKEY_LOCATION_LAST_WPS_ALTITUDE "db/location/last/wps/Altitude"
+#define VCONFKEY_LOCATION_LAST_WPS_DIRECTION  "memory/location/last/wps/Direction"
 
-/**
- * @brief last WPS speed(double)
- */
-#define VCONFKEY_LOCATION_LAST_WPS_SPEED "db/location/last/wps/Speed"
+#define VCONFKEY_LOCATION_LAST_WPS_HOR_ACCURACY  "memory/location/last/wps/HorAccuracy"
 
-/**
- * @brief last WPS direction(double)
- */
-#define VCONFKEY_LOCATION_LAST_WPS_DIRECTION "db/location/last/wps/Direction"
+#define VCONFKEY_LOCATION_NV_LAST_GPS_TIMESTAMP  "db/location/last/gps/LocTimestamp"
 
-/**
- * @brief last WPS horizontal accuracy(double)
- */
-#define VCONFKEY_LOCATION_LAST_WPS_HOR_ACCURACY "db/location/last/wps/HorAccuracy"
+#define VCONFKEY_LOCATION_NV_LAST_WPS_TIMESTAMP  "db/location/last/wps/LocTimestamp"
 
-/**
- * @brief last CPS timestamp(int)
- */
-#define VCONFKEY_LOCATION_LAST_CPS_TIMESTAMP "db/location/last/cps/Timestamp"
+#define VCONFKEY_LOCATION_NV_LAST_GPS_LOCATION  "db/location/last/gps/Location"
 
-/**
- * @brief last CPS latitude(double)
- */
-#define VCONFKEY_LOCATION_LAST_CPS_LATITUDE "db/location/last/cps/Latitude"
+#define VCONFKEY_LOCATION_NV_LAST_WPS_LOCATION  "db/location/last/wps/Location"
 
-/**
- * @brief last CPS longitude(double)
- */
-#define VCONFKEY_LOCATION_LAST_CPS_LONGITUDE "db/location/last/cps/Longitude"
+#define VCONFKEY_LOCATION_NMEA_LOGGING  "db/location/nmea/LoggingEnabled"
 
-/**
- * @brief last CPS altitude(double)
- */
-#define VCONFKEY_LOCATION_LAST_CPS_ALTITUDE "db/location/last/cps/Altitude"
+#define VCONFKEY_LOCATION_REPLAY_ENABLED  "db/location/replay/ReplayEnabled"
 
-/**
- * @brief last CPS horizontal accuracy(double)
- */
-#define VCONFKEY_LOCATION_LAST_CPS_HOR_ACCURACY "db/location/last/cps/HorAccuracy"
-/**
- * @}
- */
+#define VCONFKEY_LOCATION_REPLAY_MODE  "db/location/replay/ReplayMode"
 
-#endif				/* __VCONF_INTERNAL_LOCATION_KEYS_H__ */
+enum {
+	VCONFKEY_GPS_REPLAY_OFF = 0,
+		VCONFKEY_GPS_REPLAY_NMEA,
+		VCONFKEY_GPS_REPLAY_MANAUL,
+		VCONFKEY_GPS_REPLAY_MODE_MAX
+};
+
+#define VCONFKEY_LOCATION_NMEA_FILE_NAME  "db/location/replay/FileName"
+
+#define VCONFKEY_LOCATION_MANUAL_LATITUDE  "db/location/replay/ManualLatitude"
+
+#define VCONFKEY_LOCATION_MANUAL_LONGITUDE  "db/location/replay/ManualLongitude"
+
+#define VCONFKEY_LOCATION_MANUAL_ALTITUDE  "db/location/replay/ManualAltitude"
+
+#define VCONFKEY_LOCATION_MANUAL_HORIZONTAL_ACCURACY  "db/location/replay/ManualHAccuracy"
+
+#define VCONFKEY_LOCATION_GPS_OPERATION  "db/location/gps/Operation"
+
+enum {
+	VCONFKEY_GPS_OPERATION_STANDALONE = 0,
+		VCONFKEY_GPS_OPERATION_MS_BASED,
+		VCONFKEY_GPS_OPERATION_MS_ASSISTED,
+		VCONFKEY_GPS_OPERATION_MAX
+};
+
+#define VCONFKEY_LOCATION_GPS_OPERATION_TEST  "db/location/gps/OperationTest"
+
+enum {
+	VCONFKEY_GPS_OPERATION_TEST_NORMAL = 0,
+		VCONFKEY_GPS_OPERATION_TEST_HW_SENSITIVITY,
+		VCONFKEY_GPS_OPERATION_TEST_HW_CN0,
+		VCONFKEY_GPS_OPERATION_TEST_HW_CW,
+		VCONFKEY_GPS_OPERATION_TEST_MAX
+};
+
+#define VCONFKEY_LOCATION_GPS_STARTING  "db/location/gps/Starting"
+
+enum {
+	VCONFKEY_GPS_STARTING_HOT = 0,
+		VCONFKEY_GPS_STARTING_COLD,
+		VCONFKEY_GPS_STARTING_MAX
+};
+
+#define VCONFKEY_LOCATION_GPS_SESSION  "db/location/gps/Session"
+
+enum {
+	VCONFKEY_GPS_SESSION_SINGLE_FIX = 0,
+		VCONFKEY_GPS_SESSION_TRACKING,
+		VCONFKEY_GPS_SESSION_MAX
+};
+
+#define VCONFKEY_LOCATION_LAST_GPS_XTRA_DOWNLOAD_TIME  "db/location/gps/XtraDownloadTime"
+
+#define VCONFKEY_LOCATION_SUPL_SERVER  "db/location/supl/Server"
+
+#define VCONFKEY_LOCATION_SUPL_PORT  "db/location/supl/Port"
+
+#define VCONFKEY_LOCATION_SUPL_SSL  "db/location/supl/SslEnabled"
+
+#define VCONFKEY_LOCATION_SUPL_FQDNTYPE  "db/location/supl/FQDNType"
+
+enum {
+	VCONFKEY_LOCATION_SUPL_FQDN_CUSTOM  = 0,
+		VCONFKEY_LOCATION_SUPL_FQDN_AUTO,
+		VCONFKEY_LOCATION_SUPL_FQDN_SPIRENT,
+		VCONFKEY_LOCATION_SUPL_FQDN_DOCOMO,
+		VCONFKEY_LOCATION_SUPL_FQDN_BUILD,
+		VCONFKEY_LOCATION_SUPL_FQDN_HERE,
+		VCONFKEY_LOCATION_SUPL_FQDN_VFONE
+};
+
+#define VCONFKEY_LOCATION_SUPL_VERSION  "db/location/supl/Version"
+
+#endif /*   __VCONF_INTERNAL_LOCATION_KEYS_H__    */
