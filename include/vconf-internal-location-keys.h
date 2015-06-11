@@ -174,4 +174,7 @@ enum {
 
 #define VCONFKEY_LOCATION_SUPL_VERSION  "db/location/supl/Version"
 
+/* capi-system-runtime-info is still using in tizen 3.0. it didn't use the key in tizen 2.4 */
+#define VCONFKEY_LOCATION_AGPS_ENABLED "db/location/setting/AgpsEnabled"
+
 #endif /*   __VCONF_INTERNAL_LOCATION_KEYS_H__    */
