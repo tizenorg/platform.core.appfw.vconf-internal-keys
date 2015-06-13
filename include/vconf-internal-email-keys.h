@@ -3,7 +3,7 @@
  *
  * Copyright (c) 2000 - 2011 Samsung Electronics Co., Ltd. All rights reserved.
  *
- * Contact: Hakjoo Ko <hakjoo.ko@samsung.com>
+ * Contact: Hakjoo Ko <email at samsung.com>
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -21,37 +21,6 @@
 
 #ifndef __VCONF_INTERNAL_EMAIL_KEYS_H__
 #define __VCONF_INTERNAL_EMAIL_KEYS_H__
+#define EMAIL_VCONF_KEY_IS_TOPMOST_WINDOW  "db/private/org.tizen.email/is_topmost_window"
 
-/**
- * This file defines keys and values.
- *
- * @file        vconf-internal-email-keys.h
- * @defgroup    vconf_internal_email_key Definitions of internal shared Keys for email
- * @ingroup     vconf_internal_key
- * @author      kyuho.jo@samsung.com, sh0701.kwon@samsung.com
- * @version     0.1
- * @brief       This file has the definitions of shared keys for email \n
- */
-
-/* ========================== email Keys & Values ============================ */
-/**
- * @addtogroup vconf_internal_email_key
- * @{
- * @brief email Keys & Values\n
- *        Maintainer : kyuho.jo@samsung.com, sh0701.kwon@samsung.com
- */
-
-/**
- * @brief email-service sync status for indicator. email-service will set this value.
- *
- * 0 : Not synchronizing \n
- * 1 : Synchronizing \n
- */
-#define VCONFKEY_EMAIL_SYNC_STATE "memory/sync/email"
-
-/**
- * @}
- */
-
-#endif	/* __VCONF_INTERNAL_SYNC_KEYS_H__ */
-
+#endif /*   __VCONF_INTERNAL_EMAIL_KEYS_H__    */

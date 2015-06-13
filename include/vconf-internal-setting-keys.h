@@ -3,7 +3,7 @@
  *
  * Copyright (c) 2000 - 2011 Samsung Electronics Co., Ltd. All rights reserved.
  *
- * Contact: Hakjoo Ko <hakjoo.ko@samsung.com>
+ * Contact: Hakjoo Ko <email at samsung.com>
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -21,1495 +21,707 @@
 
 #ifndef __VCONF_INTERNAL_SETTING_KEYS_H__
 #define __VCONF_INTERNAL_SETTING_KEYS_H__
+#ifdef USE_NONCREATED_VCONF_KEY
+#warning using non-created vconf-key ----- please make sure this key is in use actually
+#endif
+#define VCONFKEY_SETAPPL_PREFIX  "db/setting"
 
-/**
- * This file defines keys and values.
- *
- * @file        vconf-internal-setting-keys.h
- * @defgroup    vconf_internal_setting_key Definitions of internal shared Keys for setting
- * @ingroup     vconf_internal_key
- * @author      Hyejin Kim (hyejin0906.kim@samsung.com)
- * @version     0.1
- * @brief       This file has the definitions of shared keys for setting \n
- */
+#ifdef USE_NONCREATED_VCONF_KEY
+#warning using non-created vconf-key ----- please make sure this key is in use actually
+#endif
+#define VCONFKEY_SETAPPL_MEM_PREFIX  "memory/setting"
 
-/* ========================== Setting UI Keys & Values ============================ */
-/**
- * @addtogroup vconf_internal_setting_key
- * @{
- * @brief Setting UI Keys & Values\n
- *        Maintainer : hyejin0906.kim@samsung.com
- */
-#define VCONFKEY_SETAPPL_PREFIX                                 "db/setting"
-#define VCONFKEY_SETAPPL_MEM_PREFIX                             "memory/setting"
+#define VCONFKEY_SETAPPL_CALL_VIBRATION_PATTERN_STR  "db/setting/sound/call/vibration_pattern_path"
 
+#define VCONFKEY_SETAPPL_TOUCH_SOUNDS_BOOL  "db/setting/sound/touch_sounds"
 
-/** @brief vibration pattern file path of current incoming call */
-#define VCONFKEY_SETAPPL_CALL_VIBRATION_PATTERN_STR            VCONFKEY_SETAPPL_PREFIX"/sound/call/vibration_pattern_path"
+#define VCONFKEY_SETAPPL_BUTTON_SOUNDS_BOOL  "db/setting/sound/button_sounds"
 
-/**
- * @brief support touch sounds option
- *
- * 0 : off \n
- * 1 : on \n
- */
-#define VCONFKEY_SETAPPL_TOUCH_SOUNDS_BOOL             VCONFKEY_SETAPPL_PREFIX"/sound/touch_sounds"
+#define VCONFKEY_SETAPPL_SOUND_LOCK_BOOL  "db/setting/sound/sound_lock"
 
-/**
- * @brief status of screen lock sound
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_SOUND_LOCK_BOOL                        VCONFKEY_SETAPPL_PREFIX"/sound/sound_lock"
+#define VCONFKEY_SETAPPL_REGION_AUTOMATIC_BOOL  "db/setting/region_automatic"
 
-/**
- * @brief volume level of media sound
- *
- * Min : 0 \n
- * Max : 15 \n
- */
-#define VCONFKEY_SETAPPL_MEDIA_SOUND_VOLUME_INT                 VCONFKEY_SETAPPL_PREFIX"/sound/media/sound_volume"
+#define VCONFKEY_SETAPPL_MEDIA_SOUND_VOLUME_INT  "db/setting/sound/media/sound_volume"
 
+#define VCONFKEY_SETAPPL_LCD_BRIGHTNESS  "db/setting/Brightness"
 
-/** @brief current theme name */
-#define VCONFKEY_SETAPPL_WIDGET_THEME_STR                       VCONFKEY_SETAPPL_PREFIX"/widget_theme"
-
-/**
- * @brief level of brightness
- *
- * Min : 1 \n
- * Max : 24 \n
- */
-#define VCONFKEY_SETAPPL_LCD_BRIGHTNESS                         VCONFKEY_SETAPPL_PREFIX"/Brightness"
-/* display - brightness */
 enum {
 	SETTING_BRIGHTNESS_LEVEL1 = 1,
-	SETTING_BRIGHTNESS_LEVEL2,
-	SETTING_BRIGHTNESS_LEVEL3,
-	SETTING_BRIGHTNESS_LEVEL4,
-	SETTING_BRIGHTNESS_LEVEL5,
-	SETTING_BRIGHTNESS_LEVEL6,
-	SETTING_BRIGHTNESS_LEVEL7,
-	SETTING_BRIGHTNESS_LEVEL8,
-	SETTING_BRIGHTNESS_LEVEL9,
-	SETTING_BRIGHTNESS_LEVEL10
+		SETTING_BRIGHTNESS_LEVEL2,
+		SETTING_BRIGHTNESS_LEVEL3,
+		SETTING_BRIGHTNESS_LEVEL4,
+		SETTING_BRIGHTNESS_LEVEL5,
+		SETTING_BRIGHTNESS_LEVEL6,
+		SETTING_BRIGHTNESS_LEVEL7,
+		SETTING_BRIGHTNESS_LEVEL8,
+		SETTING_BRIGHTNESS_LEVEL9,
+		SETTING_BRIGHTNESS_LEVEL10
 };
 
-/**
- * @brief level of automatic brightness
- *
- * Min : 1 \n
- * Max : 100 \n
- */
-#define VCONFKEY_SETAPPL_LCD_AUTOMATIC_BRIGHTNESS                         VCONFKEY_SETAPPL_PREFIX"/automatic_brightness_level"
+#ifdef USE_NONCREATED_VCONF_KEY
+#warning using non-created vconf-key ----- please make sure this key is in use actually
+#endif
+#define VCONFKEY_SETAPPL_EMERGENCY_LCD_BRIGHTNESS_INT  "db/setting/lcd_brightness_emergency"
 
-/**
- * @brief screen mode
- *
- * 0 : dynamic \n
- * 1 : Standard \n
- * 2 : Natural \n
- * 3 : Movie \n
- */
-#define VCONFKEY_SETAPPL_SCREEN_MODE_INT		VCONFKEY_SETAPPL_PREFIX"/screen_mode"
-/* display - screen mode */
+#ifdef USE_NONCREATED_VCONF_KEY
+#warning using non-created vconf-key ----- please make sure this key is in use actually
+#endif
+#define VCONFKEY_SETAPPL_EMERGENCY_LCD_TIMEOUT_INT  "db/setting/lcd_timeout_emergency"
+
+#define VCONFKEY_SETAPPL_LCD_AUTOMATIC_BRIGHTNESS  "db/setting/automatic_brightness_level"
+
+#define VCONFKEY_SETAPPL_LCD_AUTO_DISPLAY_ADJUSTMENT  "db/setting/auto_display_adjustment"
+
+#ifdef USE_NONCREATED_VCONF_KEY
+#warning using non-created vconf-key ----- please make sure this key is in use actually
+#endif
+#define VCONFKEY_SETAPPL_SCREEN_MODE_INT  "db/setting/screen_mode"
+
 enum {
 	SETTING_SCREEN_MODE_DYNAMIC = 0,
-	SETTING_SCREEN_MODE_STANDARD,
-	SETTING_SCREEN_MODE_NATURAL,
-	SETTING_SCREEN_MODE_MOVIE,
-	SETTING_SCREEN_MODE_MAX
+		SETTING_SCREEN_MODE_STANDARD,
+		SETTING_SCREEN_MODE_NATURAL,
+		SETTING_SCREEN_MODE_MOVIE,
+		SETTING_SCREEN_MODE_MAX
 };
 
-/**
- * @brief timeout of lcd
- *
- * 0 : always on \n
- * 15 : 15 sec \n
- * 30 : 30 sec \n
- * 60 : 1 min \n
- * 120 : 2 min \n
- * 300 : 5 min \n
- * 600 : 10 min \n
- */
-#define VCONFKEY_SETAPPL_LCD_TIMEOUT_NORMAL			VCONFKEY_SETAPPL_PREFIX"/lcd_backlight_normal"
+#define VCONFKEY_SETAPPL_LCD_TIMEOUT_NORMAL  "db/setting/lcd_backlight_normal"
 
-/**
- * @brief volume level of ringtone sound
- *
- * Min : 0 \n
- * Max : 15 \n
- */
-#define VCONFKEY_SETAPPL_CALL_RINGTONE_SOUND_VOLUME_INT			VCONFKEY_SETAPPL_PREFIX"/sound/call/ringtone_sound_volume"
+#define VCONFKEY_SETAPPL_CALL_RINGTONE_SOUND_VOLUME_INT  "db/setting/sound/call/ringtone_sound_volume"
 
-/** @brief current incoming call ringtone file path */
-#define VCONFKEY_SETAPPL_CALL_RINGTONE_PATH_STR				    VCONFKEY_SETAPPL_PREFIX"/sound/call/ringtone_path"
+#define VCONFKEY_SETAPPL_CALL_RINGTONE_PATH_STR  "db/setting/sound/call/ringtone_path"
 
-/** @brief default incoming call ringtone file path */
-#define VCONFKEY_SETAPPL_CALL_RINGTONE_DEFAULT_PATH_STR                             VCONFKEY_SETAPPL_PREFIX"/sound/call/ringtone_default_path"
+#define VCONFKEY_SETAPPL_CALL_RINGTONE_PATH_WITH_RECOMMENDATION_TIME_STR  "db/setting/sound/call/ringtone_path_with_time"
 
-/**
- * @brief vibration type of incoming call
- *
- * 0 : vibration 1 \n
- * 1 : vibration 2 \n
- * 2 : vibration 3 \n
- */
-#define VCONFKEY_SETAPPL_CALL_VIBRATION_PATTERN_INT			    VCONFKEY_SETAPPL_PREFIX"/sound/call/vibration_type"
-/* profile - call alert vib type */
+#define VCONFKEY_SETAPPL_CALL_RINGTONE_DEFAULT_PATH_STR  "db/setting/sound/call/ringtone_default_path"
+
+#define VCONFKEY_SETAPPL_CALL_VIBRATION_LEVEL_INT  "db/setting/sound/call/vibration_level"
+
+#define VCONFKEY_SETAPPL_CALL_VIBRATION_PATTERN_INT  "db/setting/sound/call/vibration_type"
+
 enum {
 	SETTING_CALL_ALERT_VIB_TYPE1 = 0,
-	SETTING_CALL_ALERT_VIB_TYPE2,
-	SETTING_CALL_ALERT_VIB_TYPE3,
-	SETTING_CALL_ALERT_VIB_TYPE4,
-	SETTING_CALL_ALERT_VIB_TYPE5,
-	SETTING_CALL_ALERT_VIB_TYPE6,
-	SETTING_CALL_ALERT_VIB_TYPE7,
-	SETTING_CALL_ALERT_VIB_TYPE8,
-	SETTING_CALL_ALERT_VIB_TYPE9,
-	SETTING_CALL_ALERT_VIB_TYPE10,
-	SETTING_CALL_ALERT_VIB_MAX
+		SETTING_CALL_ALERT_VIB_TYPE2,
+		SETTING_CALL_ALERT_VIB_TYPE3,
+		SETTING_CALL_ALERT_VIB_TYPE4,
+		SETTING_CALL_ALERT_VIB_TYPE5,
+		SETTING_CALL_ALERT_VIB_TYPE6,
+		SETTING_CALL_ALERT_VIB_TYPE7,
+		SETTING_CALL_ALERT_VIB_TYPE8,
+		SETTING_CALL_ALERT_VIB_TYPE9,
+		SETTING_CALL_ALERT_VIB_TYPE10,
+		SETTING_CALL_ALERT_VIB_MAX
 };
 
+#define VCONFKEY_SETAPPL_NOTI_MSG_ALERT_REP_TYPE_INT  "db/setting/sound/noti/msg_alert_rep_type"
 
-/**
- * @brief volume level of notification sound
- *
- * Min : 0 \n
- * Max : 15 \n
- */
-#define VCONFKEY_SETAPPL_NOTI_SOUND_VOLUME_INT				    VCONFKEY_SETAPPL_PREFIX"/sound/noti/sound_volume"
-
-/**
- * @brief type of message alert repitition
- *
- * 0 : once \n
- * 1 : every 2 minutes \n
- * 2 : every 5 minutes \n
- * 3 : every 10 minutes \n
- */
-#define VCONFKEY_SETAPPL_NOTI_MSG_ALERT_REP_TYPE_INT			VCONFKEY_SETAPPL_PREFIX"/sound/noti/msg_alert_rep_type"
 enum {
 	SETTING_SOUND_REP_ONCE = 0,
-	SETTING_SOUND_REP_EVERY_2_MIN,
-	SETTING_SOUND_REP_EVERY_5_MIN,
-	SETTING_SOUND_REP_EVERY_10_MIN
+		SETTING_SOUND_REP_EVERY_2_MIN,
+		SETTING_SOUND_REP_EVERY_5_MIN,
+		SETTING_SOUND_REP_EVERY_10_MIN
 };
 
-/** @brief current message ringtone file path */
-#define VCONFKEY_SETAPPL_NOTI_MSG_RINGTONE_PATH_STR			    VCONFKEY_SETAPPL_PREFIX"/sound/noti/msg_ringtone_path"
+#define VCONFKEY_SETAPPL_NOTI_MSG_RINGTONE_PATH_STR  "db/setting/sound/noti/msg_ringtone_path"
 
-/** @brief default noti ringtone file path */
-#define VCONFKEY_SETAPPL_NOTI_RINGTONE_DEFAULT_PATH_STR                         VCONFKEY_SETAPPL_PREFIX"/sound/noti/ringtone_default_path"
+#define VCONFKEY_SETAPPL_NOTI_RINGTONE_DEFAULT_PATH_STR  "db/setting/sound/noti/ringtone_default_path"
 
-/** @brief current noti ringtone file path */
-#define VCONFKEY_SETAPPL_NOTI_RINGTONE_PATH_STR                                 VCONFKEY_SETAPPL_NOTI_MSG_RINGTONE_PATH_STR
+#ifdef USE_NONCREATED_VCONF_KEY
+#warning using non-created vconf-key ----- please make sure this key is in use actually
+#endif
+#define VCONFKEY_SETAPPL_NOTI_RINGTONE_PATH_STR  "VCONFKEY_SETAPPL_NOTI_MSG_RINGTONE_PATH_STR"
 
-/**
- * @brief type of email alert repitition
- *
- * 0 : once \n
- * 1 : every 2 minutes \n
- * 2 : every 5 minutes \n
- * 3 : every 10 minutes \n
- */
-#define VCONFKEY_SETAPPL_NOTI_EMAIL_ALERT_REP_TYPE_INT			VCONFKEY_SETAPPL_PREFIX"/sound/noti/email_alert_rep_type"
+#define VCONFKEY_SETAPPL_NOTI_VIBRATION_LEVEL_INT  "db/setting/sound/noti/vibration_level"
 
-/** @brief current email ringtone file path */
-#define VCONFKEY_SETAPPL_NOTI_EMAIL_RINGTONE_PATH_STR			VCONFKEY_SETAPPL_PREFIX"/sound/noti/email_ringtone_path"
+#define VCONFKEY_SETAPPL_TOUCH_FEEDBACK_VIBRATION_LEVEL_INT  "db/setting/sound/touch_feedback/vibration_level"
 
-/**
- * @brief vibration level of notification
- *
- * Min : 0 \n
- * Max : 5 \n
- */
-#define VCONFKEY_SETAPPL_NOTI_VIBRATION_LEVEL_INT			    VCONFKEY_SETAPPL_PREFIX"/sound/noti/vibration_level"
-
-/**
- * @brief volume level of system sound
- *
- * Min : 0 \n
- * Max : 15 \n
- */
-#define VCONFKEY_SETAPPL_TOUCH_FEEDBACK_SOUND_VOLUME_INT		VCONFKEY_SETAPPL_PREFIX"/sound/touch_feedback/sound_volume"
-
-/**
- * @brief backup vibration level of haptic feedback for powersaving
- *
- * Min : 0 \n
- * Max : 5 \n
- */
-#define VCONFKEY_SETAPPL_TOUCH_FEEDBACK_VIBRATION_LEVEL_BAK_INT     VCONFKEY_SETAPPL_PREFIX"/sound/touch_feedback/vibration_level_bak"
-
-/**
- * @brief vibration level of haptic feedback
- *
- * Min : 0 \n
- * Max : 5 \n
- */
-#define VCONFKEY_SETAPPL_TOUCH_FEEDBACK_VIBRATION_LEVEL_INT     VCONFKEY_SETAPPL_PREFIX"/sound/touch_feedback/vibration_level"
-/* phone - vibration feedback */
 enum {
 	SETTING_VIB_FEEDBACK_LEVEL0 = 0,
-	SETTING_VIB_FEEDBACK_LEVEL1,
-	SETTING_VIB_FEEDBACK_LEVEL2,
-	SETTING_VIB_FEEDBACK_LEVEL3,
-	SETTING_VIB_FEEDBACK_LEVEL4,
-	SETTING_VIB_FEEDBACK_LEVEL5
+		SETTING_VIB_FEEDBACK_LEVEL1,
+		SETTING_VIB_FEEDBACK_LEVEL2,
+		SETTING_VIB_FEEDBACK_LEVEL3,
+		SETTING_VIB_FEEDBACK_LEVEL4,
+		SETTING_VIB_FEEDBACK_LEVEL5
 };
 
+#define VCONFKEY_SETAPPL_USB_IN_MODE_CHANGE  "memory/setting/usb_in_mode_change"
 
-/**
- * @brief status of changing USB mode
- *
- * 0 : done \n
- * 1 : on changing \n
- * 2 : on changing to NONE mode \n
- */
-#define VCONFKEY_SETAPPL_USB_IN_MODE_CHANGE                     VCONFKEY_SETAPPL_MEM_PREFIX"/usb_in_mode_change"
+#define VCONFKEY_SETAPPL_USB_MODE_INT  "memory/setting/usb_mode"
 
-/**
- * @brief selected popup button
- *
- * 0 : NO/Cancel button \n
- * 1 : YES/OK button \n
- */
-#define VCONFKEY_SETAPPL_SELECT_POPUP_BTN_INT                   VCONFKEY_SETAPPL_PREFIX"/select_popup_btn"
-/* setting - on,off status */
 enum {
-	SETTING_ON_OFF_BTN_OFF = 0,
-	SETTING_ON_OFF_BTN_ON,
-	SETTING_ON_OFF_BTN_MAX
-};
-
-/**
- * @brief current USB mode
- *
- * SETTING_USB_NONE_MODE : None \n
- * SETTING_USB_DEFAULT_MODE : Default \n
- * SETTING_USB_DEBUG_MODE : Debug \n
- * SETTING_USB_TETHERING_MODE : USB tethering \n
- * SETTING_USB_ACCESSORY_MODE : USB accessory \n
- */
-#define VCONFKEY_SETAPPL_USB_MODE_INT                           VCONFKEY_SETAPPL_MEM_PREFIX"/usb_mode"
-enum {
-	/** None */
 	SETTING_USB_NONE_MODE = -1,
-	/** Default */
-	SETTING_USB_DEFAULT_MODE = 0,
-	/** DEBUG */
-	SETTING_USB_DEBUG_MODE = 3,
-	/** ETHERNET */
-	SETTING_USB_ETHERNET_MODE = 3,
-	/** USB tethering */
-	SETTING_USB_TETHERING_MODE = 4,
-	/** USB accessory */
-	SETTING_USB_ACCESSORY_MODE = 5
-};	/* connectivity - usb connection */
+		SETTING_USB_DEFAULT_MODE = 0,
+		SETTING_USB_SAMSUNG_KIES = 0,
+		SETTING_USB_DEBUG_MODE = 3,
+		SETTING_USB_ETHERNET_MODE = 3,
+		SETTING_USB_TETHERING_MODE = 4,
+		SETTING_USB_ACCESSORY_MODE = 5
+};
 
-/**
- * @brief USB mode that user selected
- *
- * 0 : Default \n
- * 3 : Debug \n
- * 4 : USB tethering \n
- * 5 : USB accessory \n
- */
-#define VCONFKEY_SETAPPL_USB_SEL_MODE_INT                       VCONFKEY_SETAPPL_MEM_PREFIX"/usb_sel_mode"
+#define VCONFKEY_SETAPPL_USB_DEBUG_MODE_BOOL  "db/setting/debug_mode"
 
-/**
- * @brief status of debug mode
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_USB_DEBUG_MODE_BOOL		        VCONFKEY_SETAPPL_PREFIX"/debug_mode"
+#ifdef USE_NONCREATED_VCONF_KEY
+#warning using non-created vconf-key ----- please make sure this key is in use actually
+#endif
+#define VCONFKEY_SETAPPL_USB_CONNECTION_MODE_INT  "db/setting/usb_connection_mode"
 
-/**
- * @brief status of select network
- *
- * 0 : Automatic Off \n
- * 1 : Automatic On \n
- */
-#define VCONFKEY_SETAPPL_SELECT_NETWORK_INT                     VCONFKEY_SETAPPL_PREFIX"/select_network"
-/* network - select network */
+enum {
+	SETTING_USB_CONNECTION_MODE_CHARGING_ONLY = 0,
+		SETTING_USB_CONNECTION_MODE_USB_DEBUGGING
+};
+
+#define VCONFKEY_SETAPPL_SELECT_NETWORK_INT  "db/setting/select_network"
+
 enum {
 	SETTING_SELECT_NETWORK_AUTOMATIC = 0,
-	SETTING_SELECT_NETWORK_MANUAL,
-	SETTING_SELECT_NETWORK_MAX
+		SETTING_SELECT_NETWORK_MANUAL,
+		SETTING_SELECT_NETWORK_MAX
 };
 
-/**
- * @brief network node
- *
- * 0 : automatic \n
- * 1 : gsm900/1800 \n
- * 2 : gsm 8500/1900 \n
- * 3 : umts \n
- */
-#define VCONFKEY_SETAPPL_NETWORK_MODE_INT                       VCONFKEY_SETAPPL_PREFIX"/network_mode"
-/* network - network mode */
+#define VCONFKEY_SETAPPL_NETWORK_MODE_INT  "db/setting/network_mode"
+
 enum {
 	SETTING_NETWORK_MODE_AUTOMATIC = 0,
-	SETTING_NETWORK_MODE_GSM_900_1800,
-	SETTING_NETWORK_MODE_GSM_850_1900,
-	SETTING_NETWORK_MODE_UTMS,
-	SETTING_NETWORK_MODE_MAX
+		SETTING_NETWORK_MODE_GSM_900_1800,
+		SETTING_NETWORK_MODE_GSM_850_1900,
+		SETTING_NETWORK_MODE_UTMS,
+		SETTING_NETWORK_MODE_MAX
 };
 
-/**
- * @brief status of phone lock
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_STATE_POWER_ON_LOCK_BOOL		        VCONFKEY_SETAPPL_PREFIX"/power_on_lock"
+#define VCONFKEY_SETAPPL_STATE_POWER_ON_LOCK_BOOL  "db/setting/power_on_lock"
 
-/**
- * @brief left count of trying phone lock on/off
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_PHONE_LOCK_ATTEMPTS_LEFT_INT                    VCONFKEY_SETAPPL_PREFIX"/phone_lock_attempts_left"
+#define VCONFKEY_SETAPPL_PHONE_LOCK_ATTEMPTS_LEFT_INT  "db/setting/phone_lock_attempts_left"
 
-/**
- * @brief timestamp if phone lock is on
- *
- */
-#define VCONFKEY_SETAPPL_PHONE_LOCK_TIMESTAMP_STR                    VCONFKEY_SETAPPL_PREFIX"/phone_lock_timestamp"
+#define VCONFKEY_SETAPPL_PHONE_LOCK_TIMESTAMP_STR  "db/setting/phone_lock_timestamp"
 
-/**
- * @brief timestamp if sim lock is on
- *
- */
-#define VCONFKEY_SETAPPL_SIM_LOCK_TIMESTAMP_STR                    VCONFKEY_SETAPPL_PREFIX"/sim_lock_timestamp"
+#define VCONFKEY_SETAPPL_SIM_LOCK_TIMESTAMP_STR  "db/setting/sim_lock_timestamp"
 
-/**
- * @brief status of fdn mode
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_STATE_FIXED_DIALING_MODE_BOOL		    VCONFKEY_SETAPPL_PREFIX"/fixed_dialing_mode"
+#define VCONFKEY_SETAPPL_STATE_SIMPLE_PASSWORD_BOOL  "db/setting/simple_password"
 
-/**
- * @brief status of simple password
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_STATE_SIMPLE_PASSWORD_BOOL		        VCONFKEY_SETAPPL_PREFIX"/simple_password"
+#define VCONFKEY_SETAPPL_SCREEN_LOCK_TYPE_INT  "db/setting/screen_lock_type"
 
-
-/**
- * @brief screen lock type
- *
- * 0 : Swipe \n
- * 1 : Motion \n
- * 2 : Face and voice \n
- * 3 : Simple password \n
- * 4 : Password \n
- */
-#define VCONFKEY_SETAPPL_SCREEN_LOCK_TYPE_INT		        VCONFKEY_SETAPPL_PREFIX"/screen_lock_type"
-/* security - screen lock type */
 enum {
-       SETTING_SCREEN_LOCK_TYPE_SWIPE = 0,
-       SETTING_SCREEN_LOCK_TYPE_MOTION,
-       SETTING_SCREEN_LOCK_TYPE_FACE_AND_VOICE,
-       SETTING_SCREEN_LOCK_TYPE_SIMPLE_PASSWORD,
-       SETTING_SCREEN_LOCK_TYPE_PASSWORD,
-       SETTING_SCREEN_LOCK_TYPE_OTHER,
-       SETTING_SCREEN_LOCK_TYPE_MAX
+	SETTING_SCREEN_LOCK_TYPE_NONE = 0,
+		SETTING_SCREEN_LOCK_TYPE_SWIPE,
+		SETTING_SCREEN_LOCK_TYPE_MOTION,
+		SETTING_SCREEN_LOCK_TYPE_FINGERPRINT,
+		SETTING_SCREEN_LOCK_TYPE_FACE_AND_VOICE,
+		SETTING_SCREEN_LOCK_TYPE_SIMPLE_PASSWORD,
+		SETTING_SCREEN_LOCK_TYPE_PASSWORD,
+		SETTING_SCREEN_LOCK_TYPE_AUTO_LOCK,
+		SETTING_SCREEN_LOCK_TYPE_OTHER,
+		SETTING_SCREEN_LOCK_TYPE_MAX
 };
 
-/** @brief 3rd party screen lock package name */
-#define VCONFKEY_SETAPPL_3RD_LOCK_PKG_NAME_STR            VCONFKEY_SETAPPL_PREFIX"/3rd_lock_pkg_name"
+#define VCONFKEY_SETAPPL_3RD_LOCK_PKG_NAME_STR  "db/setting/3rd_lock_pkg_name"
 
-/**
- * @brief display and light : font size
- *
- * 1 : SMALL \n
- * 2 : MIDIUM \n
- * 3 : LARGE \n
- */
-#define VCONFKEY_SETAPPL_FONT_SIZE_INT                          VCONFKEY_SETAPPL_PREFIX"/font_size"
-/* display - font size */
+#define VCONFKEY_SETAPPL_FONT_SIZE_INT  "db/setting/font_size"
+
 enum {
 	SETTING_FONT_SIZE_SMALL = 0,
-	SETTING_FONT_SIZE_MIDDLE,
-	SETTING_FONT_SIZE_LARGE,
-	SETTING_FONT_SIZE_MAX
+		SETTING_FONT_SIZE_MIDDLE,
+		SETTING_FONT_SIZE_LARGE,
+		SETTING_FONT_SIZE_MAX
 };
 
+#define VCONFKEY_SETAPPL_FONT_TYPE_INT  "db/setting/font_type"
 
-/** @brief display and light : index of font type */
-#define VCONFKEY_SETAPPL_FONT_TYPE_INT                          VCONFKEY_SETAPPL_PREFIX"/font_type"
+#define VCONFKEY_SETAPPL_BRIGHTNESS_AUTOMATIC_INT  "db/setting/brightness_automatic"
 
-/**
- * @brief status of automatic brightness
- *
- * 0 : Off \n
- * 1 : On \n
- * 2 : Pause \n
- */
-#define VCONFKEY_SETAPPL_BRIGHTNESS_AUTOMATIC_INT              VCONFKEY_SETAPPL_PREFIX"/brightness_automatic"
 enum {
-	SETTING_BRIGHTNESS_AUTOMATIC_OFF = 0,
-	SETTING_BRIGHTNESS_AUTOMATIC_ON,
-	SETTING_BRIGHTNESS_AUTOMATIC_PAUSE
+	SETTING_BRIGHTNESS_AUTOMATIC_OFF   = 0,
+		SETTING_BRIGHTNESS_AUTOMATIC_ON   ,
+		SETTING_BRIGHTNESS_AUTOMATIC_PAUSE
 };
 
-/**
- * @brief time and date : status of automatic time update
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_STATE_AUTOMATIC_TIME_UPDATE_BOOL       VCONFKEY_SETAPPL_PREFIX"/automatic_time_update"
+#define VCONFKEY_SETAPPL_STATE_AUTOMATIC_TIME_UPDATE_BOOL  "db/setting/automatic_time_update"
 
-/**
- * @brief time and date : index of date format type
- *
- * 0 : DD_MM_YYYY
- * 1 : MM_DD_YYYY \n
- * 2 : YYYY_MM_DD \n
- * 3 : YYYY_DD_MM \n
- */
-#define VCONFKEY_SETAPPL_DATE_FORMAT_INT                        VCONFKEY_SETAPPL_PREFIX"/date_format"
-/* time - date format */
+#define VCONFKEY_SETAPPL_DATE_FORMAT_INT  "db/setting/date_format"
+
 enum {
 	SETTING_DATE_FORMAT_DD_MM_YYYY = 0,
-	SETTING_DATE_FORMAT_MM_DD_YYYY,
-	SETTING_DATE_FORMAT_YYYY_MM_DD,
-	SETTING_DATE_FORMAT_YYYY_DD_MM,
-	SETTING_DATE_FORMAT_MAX
+		SETTING_DATE_FORMAT_MM_DD_YYYY,
+		SETTING_DATE_FORMAT_YYYY_MM_DD,
+		SETTING_DATE_FORMAT_YYYY_DD_MM,
+		SETTING_DATE_FORMAT_MAX
 };
 
-/** @brief city name */
-#define VCONFKEY_SETAPPL_CITYNAME_INDEX_INT                     VCONFKEY_SETAPPL_PREFIX"/cityname_id"
+#define VCONFKEY_SETAPPL_CITYNAME_INDEX_INT  "db/setting/cityname_id"
 
-/**
- * @brief first day of week
- *
- * 0 : Sunday \n
- * 1 : Monday \n
- */
-#define VCONFKEY_SETAPPL_WEEKOFDAY_FORMAT_INT                   VCONFKEY_SETAPPL_PREFIX"/weekofday_format"
-/* time - week of day format */
+#define VCONFKEY_SETAPPL_WEEKOFDAY_FORMAT_INT  "db/setting/weekofday_format"
+
 enum {
 	SETTING_WEEKOFDAY_FORMAT_SUNDAY = 0,
-	SETTING_WEEKOFDAY_FORMAT_MONDAY,
-	SETTING_WEEKOFDAY_FORMAT_TUESDAY,
-	SETTING_WEEKOFDAY_FORMAT_WEDNESDAY,
-	SETTING_WEEKOFDAY_FORMAT_THURSDAY,
-	SETTING_WEEKOFDAY_FORMAT_FRIDAY,
-	SETTING_WEEKOFDAY_FORMAT_SATURDAY,
-	SETTING_WEEKOFDAY_FORMAT_MAX
+		SETTING_WEEKOFDAY_FORMAT_MONDAY,
+		SETTING_WEEKOFDAY_FORMAT_TUESDAY,
+		SETTING_WEEKOFDAY_FORMAT_WEDNESDAY,
+		SETTING_WEEKOFDAY_FORMAT_THURSDAY,
+		SETTING_WEEKOFDAY_FORMAT_FRIDAY,
+		SETTING_WEEKOFDAY_FORMAT_SATURDAY,
+		SETTING_WEEKOFDAY_FORMAT_MAX
 };
 
+#define VCONFKEY_SETAPPL_LANG_INT  "db/setting/lang"
 
-/**
- * @brief index of current language
- *
- * 0 : automatic \n
- * 1 : korean \n
- * 2 : English \n
- * 3 : chinese \n
- * 4 : chinese(hongkong) \n
- * 5 : chinese(taiwan) \n
- * 6 : Deutsche \n
- * 7 : nederlands \n
- * 8 : espanol \n
- * 9 : portugues \n
- * 10 : greek \n
- * 11 : italiano \n
- * 12 : francais \n
- * 13 : turky \n
- * 14 : japanese \n
- * 15 : Russian \n
- */
-#define VCONFKEY_SETAPPL_LANG_INT                               VCONFKEY_SETAPPL_PREFIX"/lang"
-/* phone - lnaguage */
 enum {
 	SETTING_LANG_AUTOMATIC = 0,
-	SETTING_LANG_KOREA = 1,
-	SETTING_LANG_ENGLISH,
-	SETTING_LANG_CHINA,
-	SETTING_LANG_CANTONESE,
-	SETTING_LANG_TAIWAN,
-	SETTING_LANG_GERMAN,
-	SETTING_LANG_DUTCH,
-	SETTING_LANG_SPAINISH,
-	SETTING_LANG_PORTUGUESE,
-	SETTING_LANG_GREEK,
-	SETTING_LANG_ITALIAN,
-	SETTING_LANG_FRENCH,
-	SETTING_LANG_TURKISH,
-	SETTING_LANG_JAPAN,
-	SETTING_LANG_RUSSIAN,
-	SETTING_LANG_MAX
+		SETTING_LANG_KOREA,
+		SETTING_LANG_ENGLISH,
+		SETTING_LANG_CHINA ,
+		SETTING_LANG_CANTONESE,
+		SETTING_LANG_TAIWAN,
+		SETTING_LANG_GERMAN,
+		SETTING_LANG_DUTCH,
+		SETTING_LANG_SPAINISH,
+		SETTING_LANG_PORTUGUESE,
+		SETTING_LANG_GREEK,
+		SETTING_LANG_ITALIAN,
+		SETTING_LANG_FRENCH,
+		SETTING_LANG_TURKISH,
+		SETTING_LANG_JAPAN,
+		SETTING_LANG_RUSSIAN,
+		SETTING_LANG_MAX
 };
 
-/**
- * @brief status of IM notification
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_STATE_TICKER_NOTI_IM_BOOL              VCONFKEY_SETAPPL_PREFIX"/ticker_noti/im"
+#define VCONFKEY_SETAPPL_ACCESSIBILITY_FONT_SIZE  "db/setting/accessibility/font_size"
 
-/**
- * @brief status of facebook notification
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_STATE_TICKER_NOTI_FACEBOOK_BOOL        VCONFKEY_SETAPPL_PREFIX"/ticker_noti/facebook"
+#define VCONFKEY_SETAPPL_ACCESSIBILITY_FONT_NAME  "db/setting/accessibility/font_name"
 
-/**
- * @brief status of twitter notification
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_STATE_TICKER_NOTI_TWITTER_BOOL         VCONFKEY_SETAPPL_PREFIX"/ticker_noti/twitter"
+#define VCONFKEY_SETAPPL_ACCESSIBILITY_TORCH_LIGHT  "memory/setting/accessibility/torch_light"
 
-/**
- * @brief status of message notification
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_STATE_TICKER_NOTI_MESSAGES_BOOL        VCONFKEY_SETAPPL_PREFIX"/ticker_noti/messages"
+#define VCONFKEY_SETAPPL_ACCESSIBILITY_RAPID_KEY_INPUT  "db/setting/accessibility/rapid_key_input"
 
-/**
- * @brief status of email notification
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_STATE_TICKER_NOTI_EMAIL_BOOL           VCONFKEY_SETAPPL_PREFIX"/ticker_noti/email"
+#define VCONFKEY_SETAPPL_ACCESSIBILITY_TURN_OFF_ALL_SOUNDS  "db/setting/accessibility/turn_off_all_sounds"
 
-/**
- * @brief font size
- *
- * 0 : small
- * 1 : normal
- * 2 : large
- * 3 : huge
- * 4 : giant
- */
-#define VCONFKEY_SETAPPL_ACCESSIBILITY_FONT_SIZE                VCONFKEY_SETAPPL_PREFIX"/accessibility/font_size"
+#define VCONFKEY_SETAPPL_ACCESSIBILITY_LED_NOTIFY  "db/setting/accessibility/led_notify"
 
-/**
- * @brief Accessibility setting : status of assistive light
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_ACCESSIBILITY_TORCH_LIGHT              VCONFKEY_SETAPPL_PREFIX"/accessibility/torch_light"
+#define VCONFKEY_SETAPPL_ACCESSIBILITY_LOCK_TIME_INT  "db/setting/accessibility/lock_time"
 
-/**
- * @brief Accessibility setting : status of accept call
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_ACCESSIBILITY_ACCEPT_CALL              VCONFKEY_SETAPPL_PREFIX"/accessibility/accept_call"
-
-/**
- * @brief Accessibility setting : status of auto answer
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_ACCESSIBILITY_ENABLE_AUTO_ANSWER       VCONFKEY_SETAPPL_PREFIX"/accessibility/enable_auto_answer"
-
-/**
- * @brief Accessibility setting : auto answering time
- *
- * 1 : after 1 second \n
- * 2 : after 2 seconds \n
- * 3 : after 3 seconds \n
- * 4 : after 4 seconds \n
- * 5 : after 5 seconds \n
- */
-#define VCONFKEY_SETAPPL_ACCESSIBILITY_AUTO_ANSWER              VCONFKEY_SETAPPL_PREFIX"/accessibility/auto_answer"
-
-/**
- * @brief Accessibility setting : status of end call using the power key
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_ACCESSIBILITY_POWERKEY_END_CALLS       VCONFKEY_SETAPPL_PREFIX"/accessibility/powerkey_end_calls"
-
-/**
- * @brief Accessibility setting : status of led notify
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_ACCESSIBILITY_LED_NOTIFY       VCONFKEY_SETAPPL_PREFIX"/accessibility/led_notify"
-
-/**
- * @brief Accessibility setting : power key shortcut
- *
- * 0 : off \n
- * 1 : always ask \n
- * 2 : screen reader(TTS) \n
- * 3 : negative colours \n
- * 4 : zoom \n
- * 5 : assistive light \n
- * 6 : shot reader \n
- */
-#define VCONFKEY_SETAPPL_ACCESSIBILITY_POWER_KEY_HOLD           VCONFKEY_SETAPPL_PREFIX"/accessibility/power_key_hold"
+#define VCONFKEY_SETAPPL_ACCESSIBILITY_POWER_KEY_HOLD  "db/setting/accessibility/power_key_hold"
 
 enum {
 	SETTING_POWERKEY_SHORTCUT_OFF = 0,
-	SETTING_POWERKEY_SHORTCUT_ALWAYS_ASK = 1,
-	SETTING_POWERKEY_SHORTCUT_SCREEN_READER_TTS,
-	SETTING_POWERKEY_SHORTCUT_NEGATIVE_COLOURS,
-	SETTING_POWERKEY_SHORTCUT_ZOOM,
-	SETTING_POWERKEY_SHORTCUT_ASSISTIVE_LIGHT,
-	SETTING_POWERKEY_SHORTCUT_SHOT_READER,
-	SETTING_POWERKEY_SHORTCUT_MAX
+		SETTING_POWERKEY_SHORTCUT_ALWAYS_ASK = 1,
+		SETTING_POWERKEY_SHORTCUT_SCREEN_READER_TTS,
+		SETTING_POWERKEY_SHORTCUT_NEGATIVE_COLOURS,
+		SETTING_POWERKEY_SHORTCUT_ZOOM,
+		SETTING_POWERKEY_SHORTCUT_ASSISTIVE_LIGHT,
+		SETTING_POWERKEY_SHORTCUT_SHOT_READER,
+		SETTING_POWERKEY_SHORTCUT_ACCESSIBILITY,
+		SETTING_POWERKEY_SHORTCUT_MAX
 };
 
-/**
- * @brief Accessibility setting : status of screen reader (TTS)
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_ACCESSIBILITY_TTS       VCONFKEY_SETAPPL_PREFIX"/accessibility/tts"
+#define VCONFKEY_SETAPPL_EASY_TOUCH_MODE_BOOL  "db/setting/accessibility/easy_touch_mode"
 
-/**
- * @brief Accessibility setting : TTS speech rate
- *
- * 0 : Very slow \n
- * 1 : Slow \n
- * 2 : Normal \n
- * 3 : Fast \n
- * 4 : Very fast \n
- */
-#define VCONFKEY_SETAPPL_ACCESSIBILITY_SPEECH_RATE  VCONFKEY_SETAPPL_PREFIX"/accessibility/speech_rate"
-/**
- * @brief Powersaving : status of system power saving
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_PWRSV_SYSMODE_STATUS                   VCONFKEY_SETAPPL_PREFIX"/pwrsv/system_mode/status"
+#define VCONFKEY_SETAPPL_ACCESSIBILITY_TTS  "db/setting/accessibility/tts"
 
-/**
- * @brief Powersaving : status of custom power saving
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_PWRSV_CUSTMODE_STATUS                  VCONFKEY_SETAPPL_PREFIX"/pwrsv/custom_mode/status"
+#define VCONFKEY_SETAPPL_PWRSV_CUSTMODE_BLTIME  "db/setting/pwrsv/custom_mode/backlight/time"
 
-/**
- * @brief Powersaving : status of turn off wifi
- *
- * 0 : Turn on \n
- * 1 : Turn off \n
- */
-#define VCONFKEY_SETAPPL_PWRSV_CUSTMODE_WIFI                    VCONFKEY_SETAPPL_PREFIX"/pwrsv/custom_mode/wifi"
-
-/**
- * @brief Powersaving : status of turn off bluetooth
- *
- * 0 : Turn on \n
- * 1 : Turn off \n
- */
-#define VCONFKEY_SETAPPL_PWRSV_CUSTMODE_BT                      VCONFKEY_SETAPPL_PREFIX"/pwrsv/custom_mode/bt"
-
-/**
- * @brief Powersaving : status of turn off gps
- *
- * 0 : Turn on \n
- * 1 : Turn off \n
- */
-#define VCONFKEY_SETAPPL_PWRSV_CUSTMODE_GPS                     VCONFKEY_SETAPPL_PREFIX"/pwrsv/custom_mode/gps"
-
-/**
- * @brief Powersaving : status of turn off data sync
- *
- * 0 : Turn on \n
- * 1 : Turn off \n
- */
-#define VCONFKEY_SETAPPL_PWRSV_CUSTMODE_DATASYNC                VCONFKEY_SETAPPL_PREFIX"/pwrsv/custom_mode/data_sync"
-
-/**
- * @brief Powersaving : status of turn off hotspot
- *
- * 0 : Turn on \n
- * 1 : Turn off \n
- */
-#define VCONFKEY_SETAPPL_PWRSV_CUSTMODE_HOTSPOT                 VCONFKEY_SETAPPL_PREFIX"/pwrsv/custom_mode/hotspot"
-
-/**
- * @brief Powersaving : status of adjust brightness
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_PWRSV_CUSTMODE_BRT_STATUS              VCONFKEY_SETAPPL_PREFIX"/pwrsv/custom_mode/brt/status"
-
-/**
- * @brief Powersaving : status of automatic brightness for custom power saving
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_PWRSV_CUSTMODE_BRT_AUTO_STATUS         VCONFKEY_SETAPPL_PREFIX"/pwrsv/custom_mode/brt/auto/status"
-
-/**
- * @brief Powersaving : level of brightness for custom power saving
- *
- * Min : 0 \n
- * Max : 24 \n
- */
-#define VCONFKEY_SETAPPL_PWRSV_CUSTMODE_BRT_VALUE               VCONFKEY_SETAPPL_PREFIX"/pwrsv/custom_mode/brt/value"
-
-/**
- * @brief Powersaving : level of backlight time for custom power saving
- *
- * 15 : 15 sec \n
- * 30 : 30 sec \n
- * 60 : 1 min \n
- * 120 : 2 min \n
- * 600 : 10 min \n
- */
-#define VCONFKEY_SETAPPL_PWRSV_CUSTMODE_BLTIME                  VCONFKEY_SETAPPL_PREFIX"/pwrsv/custom_mode/backlight/time"
-/* display - backlight time */
 enum {
 	SETTING_BACKLIGHT_TIME_8SEC = 8,
-	SETTING_BACKLIGHT_TIME_15SEC = 15,
-	SETTING_BACKLIGHT_TIME_30SEC = 30,
-	SETTING_BACKLIGHT_TIME_1MIN = 60,
-	SETTING_BACKLIGHT_TIME_3MIN = 180,
-	SETTING_BACKLIGHT_TIME_10MIN = 600,
-	SETTING_BACKLIGHT_TIME_MAX
+		SETTING_BACKLIGHT_TIME_15SEC = 15,
+		SETTING_BACKLIGHT_TIME_30SEC = 30,
+		SETTING_BACKLIGHT_TIME_1MIN = 60,
+		SETTING_BACKLIGHT_TIME_3MIN = 180,
+		SETTING_BACKLIGHT_TIME_10MIN = 600,
+		SETTING_BACKLIGHT_TIME_MAX
 };
 
-/**
- * @brief Powersaving : status of reminder for custom power saving
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_PWRSV_SYSMODE_STATUS_REMINDER          VCONFKEY_SETAPPL_PREFIX"/pwrsv/system_mode/reminder"
+#define VCONFKEY_SETAPPL_PWRSV_CUSTMODE_CPU  "db/setting/pwrsv/custom_mode/cpu"
 
-/**
- * @brief Powersaving : rate of saving baterry power
- *
- * default 30 : 30%
- */
-#define VCONFKEY_SETAPPL_PWRSV_CUSTMODE_AT                      VCONFKEY_SETAPPL_PREFIX"/pwrsv/custom_mode/at"
+#ifdef USE_NONCREATED_VCONF_KEY
+#warning using non-created vconf-key ----- please make sure this key is in use actually
+#endif
+#define VCONFKEY_TICKER_NOTI_DISPLAY_CONTENT_MESSASGES  "db/setting/ticker_noti/display_content/messages"
 
-/**
- * @brief Powersaving : status of cpu power saving
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_PWRSV_CUSTMODE_CPU                     VCONFKEY_SETAPPL_PREFIX"/pwrsv/custom_mode/cpu"
+#ifdef USE_NONCREATED_VCONF_KEY
+#warning using non-created vconf-key ----- please make sure this key is in use actually
+#endif
+#define VCONFKEY_TICKER_NOTI_DISPLAY_CONTENT_EMAIL  "db/setting/ticker_noti/display_content/email"
 
-/**
- * @brief Powersaving : status of display power saving
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_PWRSV_CUSTMODE_DISPLAY                 VCONFKEY_SETAPPL_PREFIX"/pwrsv/custom_mode/display"
+#ifdef USE_NONCREATED_VCONF_KEY
+#warning using non-created vconf-key ----- please make sure this key is in use actually
+#endif
+#define VCONFKEY_TICKER_NOTI_DISPLAY_CONTENT_IM  "db/setting/ticker_noti/display_content/im"
 
-/**
- * @brief Powersaving : status of background color power saving
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_PWRSV_CUSTMODE_BG_COLOR                VCONFKEY_SETAPPL_PREFIX"/pwrsv/custom_mode/bg_color"
+#ifdef USE_NONCREATED_VCONF_KEY
+#warning using non-created vconf-key ----- please make sure this key is in use actually
+#endif
+#define VCONFKEY_TICKER_NOTI_BADGE_EMAIL  "db/setting/ticker_noti/badge/email"
 
-/**
- * @brief Powersaving : status of turning off vibration on screen tap for power saving
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_PWRSV_CUSTMODE_SCREEN_VIB              VCONFKEY_SETAPPL_PREFIX"/pwrsv/custom_mode/screen_vib"
+#define VCONFKEY_LANGSET  "db/menu_widget/language"
 
+#define VCONFKEY_REGIONFORMAT  "db/menu_widget/regionformat"
 
+#define VCONFKEY_SETAPPL_SELECTED_PACKAGE_NAME  "db/setting/menuscreen/package_name"
 
-/**
- * @brief Setting ticker noti : status of displaying message content
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_TICKER_NOTI_DISPLAY_CONTENT_MESSASGES          VCONFKEY_SETAPPL_PREFIX"/ticker_noti/display_content/messages"
+#ifdef USE_NONCREATED_VCONF_KEY
+#warning using non-created vconf-key ----- please make sure this key is in use actually
+#endif
+#define VCONFKEY_SETAPPL_HOMESCREEN_EASYMODE_BOOL  "db/setting/homescreen/easymode"
 
-/**
- * @brief Setting ticker noti : status of displaying email content
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_TICKER_NOTI_DISPLAY_CONTENT_EMAIL              VCONFKEY_SETAPPL_PREFIX"/ticker_noti/display_content/email"
+#define VCONFKEY_SETAPPL_ROAMING_NETWORK_INT  "db/setting/roaming_network"
 
-/**
- * @brief Setting ticker noti : status of displaying im content
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_TICKER_NOTI_DISPLAY_CONTENT_IM                 VCONFKEY_SETAPPL_PREFIX"/ticker_noti/display_content/im"
-
-/**
- * @brief Setting ticker noti : status of displaying twitter content
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_TICKER_NOTI_DISPLAY_CONTENT_TWITTER            VCONFKEY_SETAPPL_PREFIX"/ticker_noti/display_content/twitter"
-
-/**
- * @brief Setting ticker noti : status of displaying facebook content
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_TICKER_NOTI_DISPLAY_CONTENT_FACEBOOK           VCONFKEY_SETAPPL_PREFIX"/ticker_noti/display_content/facebook"
-
-/**
- * @brief Setting ticker noti : status of showing badge at messages
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_TICKER_NOTI_BADGE_MESSAGES           VCONFKEY_SETAPPL_PREFIX"/ticker_noti/badge/messages"
-
-/**
- * @brief Setting ticker noti : status of showing badge at email
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_TICKER_NOTI_BADGE_EMAIL           VCONFKEY_SETAPPL_PREFIX"/ticker_noti/badge/email"
-
-/**
- * @brief Setting ticker noti : status of showing badge at im
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_TICKER_NOTI_BADGE_IM           VCONFKEY_SETAPPL_PREFIX"/ticker_noti/badge/im"
-
-/**
- * @brief Setting ticker noti : status of showing badge at facebook
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_TICKER_NOTI_BADGE_FACEBOOK           VCONFKEY_SETAPPL_PREFIX"/ticker_noti/badge/facebook"
-
-/**
- * @brief Setting ticker noti : status of showing badge at twitter
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_TICKER_NOTI_BADGE_TWITTER           VCONFKEY_SETAPPL_PREFIX"/ticker_noti/badge/twitter"
-
-/**
- * @brief setting value of sim change alert
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_FIND_MY_MOBILE_SIM_CHANGE_ALERT_BOOL   VCONFKEY_SETAPPL_PREFIX"/fmm/sim_change_alert"
-
-/**
- * @brief recipient phone number
- */
-#define VCONFKEY_SETAPPL_FIND_MY_MOBILE_RECIPIENTS_STR          VCONFKEY_SETAPPL_PREFIX"/fmm/recipients"
-
-/**
- * @brief sender phone number
- */
-#define VCONFKEY_SETAPPL_FIND_MY_MOBILE_SENDER_STR              VCONFKEY_SETAPPL_PREFIX"/fmm/sender"
-
-/**
- * @brief message content when user change the sim
- */
-#define VCONFKEY_SETAPPL_FIND_MY_MOBILE_MESSAGE_STR             VCONFKEY_SETAPPL_PREFIX"/fmm/alert_message"
-
-/**
- * @brief status of remote control
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_FIND_MY_MOBILE_REMOTE_CONTROL_BOOL     VCONFKEY_SETAPPL_PREFIX"/fmm/remote_control"
-
-/**
- * @brief status location consent
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_FIND_MY_MOBILE_LOCATION_CONSENT_BOOL   VCONFKEY_SETAPPL_PREFIX"/fmm/location_consent"
-
-/**
- * @brief current language set
- *
- * Value : language set string
- */
-#define VCONFKEY_LANGSET                                        "db/menu_widget/language"
-
-/**
- * @brief current region format
- *
- * Value : region format string
- */
-#define VCONFKEY_REGIONFORMAT                                   "db/menu_widget/regionformat"
-
-/**
- * @brief current selected package name of menuscreen
- *
- * Value : package name string
- */
-#define VCONFKEY_SETAPPL_SELECTED_PACKAGE_NAME	                "db/setting/menuscreen/package_name"
-
-/**
- * @brief status of transaction tracking
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_STATE_TRANSACTION_TRACKING_BOOL        VCONFKEY_SETAPPL_PREFIX"/transaction_tracking"
-
-/**
- * @brief status of expiry reminder
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_STATE_EXPIRY_REMINDER_BOOL             VCONFKEY_SETAPPL_PREFIX"/expiry_reminder"
-
-/**
- * @brief index of roaming network type
- *
- * 0 : Auto download \n
- * 1 : Manual \n
- * 2 : Always reject \n
- */
-#define VCONFKEY_SETAPPL_ROAMING_NETWORK_INT                    VCONFKEY_SETAPPL_PREFIX"/roaming_network"
-/* phone - license setting */
 enum {
 	SETTING_ROAM_NET_AUTO_DOWNLOAD = 0,
-	SETTING_ROAM_NET_MANUAL,
-	SETTING_ROAM_NET_ALWAYS_REJECT,
-	SETTING_ROAM_NET_MAX
+		SETTING_ROAM_NET_MANUAL,
+		SETTING_ROAM_NET_ALWAYS_REJECT,
+		SETTING_ROAM_NET_MAX
 };
 
-/**
- * @brief default memory of wap downloads
- *
- * 0 : Phone \n
- * 1 : Memory card \n
- */
-#define VCONFKEY_SETAPPL_DEFAULT_MEM_WAP_INT                    VCONFKEY_SETAPPL_PREFIX"/default_memory/wap"
+#define VCONFKEY_SETAPPL_DEFAULT_MEM_INSTALL_APPLICATIONS_INT  "db/setting/default_memory/install_applications"
 
-/**
- * @brief default memory of bluetooth
- *
- * 0 : Phone \n
- * 1 : Memory card \n
- */
-#define VCONFKEY_SETAPPL_DEFAULT_MEM_BLUETOOTH_INT              VCONFKEY_SETAPPL_PREFIX"/default_memory/bluetooth"
+#define VCONFKEY_SETAPPL_DEFAULT_MEM_WIFI_DIRECT_INT  "db/setting/default_memory/wifi_direct"
 
-/**
- * @brief default memory of camera
- *
- * 0 : Phone \n
- * 1 : Memory card \n
- */
-#define VCONFKEY_SETAPPL_DEFAULT_MEM_CAMERA_INT                 VCONFKEY_SETAPPL_PREFIX"/default_memory/camera"
+#define VCONFKEY_SETAPPL_DEFAULT_MEM_BLUETOOTH_INT  "db/setting/default_memory/bluetooth"
 
-/**
- * @brief default memory of voice recorder
- *
- * 0 : Phone \n
- * 1 : Memory card \n
- */
-#define VCONFKEY_SETAPPL_DEFAULT_MEM_VOICE_RECORDER_INT         VCONFKEY_SETAPPL_PREFIX"/default_memory/voice_recorder"
+#define VCONFKEY_SETAPPL_BATTERY_PERCENTAGE_BOOL  "db/setting/battery_percentage"
 
-/**
- * @brief default memory of FM radio
- *
- * 0 : Phone \n
- * 1 : Memory card \n
- */
-#define VCONFKEY_SETAPPL_DEFAULT_MEM_FM_RADIO_INT               VCONFKEY_SETAPPL_PREFIX"/default_memory/fm_radio"
+#ifdef USE_NONCREATED_VCONF_KEY
+#warning using non-created vconf-key ----- please make sure this key is in use actually
+#endif
+#define VCONFKEY_SETAPPL_ACCESSIBILITY_HIGH_CONTRAST  "db/setting/accessibility/high_contrast"
 
-/**
- * @brief default memory of allshare
- *
- * 0 : Phone \n
- * 1 : Memory card \n
- */
-#define VCONFKEY_SETAPPL_DEFAULT_MEM_ALL_SHARE_INT              VCONFKEY_SETAPPL_PREFIX"/default_memory/all_share"
+#define VCONFKEY_SETAPPL_ACCESSIBILITY_SCREEN_ZOOM  "db/setting/accessibility/screen_zoom"
 
-/**
- * @brief default memory of DVB-H
- *
- * 0 : Phone \n
- * 1 : Memory card \n
- */
-#define VCONFKEY_SETAPPL_DEFAULT_MEM_DVB_H_INT              VCONFKEY_SETAPPL_PREFIX"/default_memory/dvb_h"
+#define VCONFKEY_SETAPPL_ACCESSIBILITY_SCREEN_READER  "db/setting/accessibility/screen_reader"
 
-/**
- * @brief default memory of adobe air
- *
- * 0 : Phone \n
- * 1 : Memory card \n
- */
-#define VCONFKEY_SETAPPL_DEFAULT_MEM_ADOBE_AIR_INT              VCONFKEY_SETAPPL_PREFIX"/default_memory/adobe_air"
-/* memory - default memory */
-enum {
-	SETTING_DEF_MEMORY_PHONE = 0,
-	SETTING_DEF_MEMORY_MMC,
-	SETTING_DEF_MEMORY_MAX
-};
+#define VCONFKEY_SETAPPL_TIMEZONE_ID  "db/setting/timezone_id"
 
+#define VCONFKEY_SETAPPL_TIMEZONE_INT  "db/setting/timezone"
 
-/**
- * @brief status of battery percentage
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_BATTERY_PERCENTAGE_BOOL                VCONFKEY_SETAPPL_PREFIX"/battery_percentage"
+#define VCONFKEY_SETAPPL_ROTATE_LOCK_BOOL  "db/setting/rotate_lock"
 
-/**
- * @brief status of accessibility
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_ACCESSIBILITY_ACCESSIBILITY            VCONFKEY_SETAPPL_PREFIX"/accessibility/accessibility"
+#define VCONFKEY_SETAPPL_AUTO_ROTATE_SCREEN_BOOL  "db/setting/auto_rotate_screen"
 
-/**
- * @brief status of negative colors
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_ACCESSIBILITY_HIGH_CONTRAST            VCONFKEY_SETAPPL_PREFIX"/accessibility/high_contrast"
+#define VCONFKEY_SETAPPL_ACCESSIBILITY_MONO_AUDIO  "db/setting/accessibility/mono_audio"
 
-/**
- * @brief status of zoom
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_ACCESSIBILITY_SCREEN_ZOOM              VCONFKEY_SETAPPL_PREFIX"/accessibility/screen_zoom"
+#define VCONFKEY_REGIONFORMAT_TIME1224  "db/menu_widget/regionformat_time1224"
 
-/**
- * @brief current timezone id
- */
-#define VCONFKEY_SETAPPL_TIMEZONE_ID                            VCONFKEY_SETAPPL_PREFIX"/timezone_id"
-
-/**
- * @brief offset of timezone
- */
-#define VCONFKEY_SETAPPL_TIMEZONE_INT                           VCONFKEY_SETAPPL_PREFIX"/timezone"
-
-/**
- * @brief status of auto-rotate screen
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_ROTATE_LOCK_BOOL                       VCONFKEY_SETAPPL_PREFIX"/rotate_lock"
-
-/**
- * @brief status of auto-rotate screen
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_AUTO_ROTATE_SCREEN_BOOL                       VCONFKEY_SETAPPL_PREFIX"/auto_rotate_screen"
-
-/**
- * @brief status of mono audio
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_ACCESSIBILITY_MONO_AUDIO               VCONFKEY_SETAPPL_PREFIX"/accessibility/mono_audio"
-
-/**
- * @brief type of displaying time
- *
- * 1 : 12 hour type \n
- * 2 : 24 hour type \n
- */
-#define VCONFKEY_REGIONFORMAT_TIME1224	                        "db/menu_widget/regionformat_time1224"
 enum {
 	VCONFKEY_TIME_FORMAT_12 = 1,
-	VCONFKEY_TIME_FORMAT_24
+		VCONFKEY_TIME_FORMAT_24
 };
 
-/**
- * @brief Voicerecorder recording time limitation
- *
- * type : int
- * 0 : Unlimited
- * 1 : Limit for MMS
- */
-#define VCONFKEY_SETAPPL_VOICERECORDER_TIME_LIMIT             VCONFKEY_SETAPPL_PREFIX"/voicerecorder/time_limit"
+#define VCONFKEY_SETAPPL_SIM_LOCK_ATTEMPTS_LEFT_INT  "db/setting/sim_lock_attempts_left"
 
-/**
- * @brief Voicerecorder recording quality
- *
- * type : int
- * 0 : Low quality
- * 1 : High quality
- */
-#define VCONFKEY_SETAPPL_VOICERECORDER_QUALITY             VCONFKEY_SETAPPL_PREFIX"/voicerecorder/quality"
+#define VCONFKEY_SETAPPL_DEVICE_NAME_STR  "db/setting/device_name"
 
-/**
- * @brief Voicerecorder GPS tagging
- *
- * type : bool
- * 0 : off
- * 1 : on
- */
-#define VCONFKEY_SETAPPL_VOICERECORDER_GPS             VCONFKEY_SETAPPL_PREFIX"/voicerecorder/gps"
+#define VCONFKEY_SETAPPL_SOUND_STATUS_BOOL  "db/setting/sound/sound_on"
 
-/**
- * @brief left attempts count of sim lock
- *
- * type : int
- * 0 : min count
- * 5 : max count
- */
-#define VCONFKEY_SETAPPL_SIM_LOCK_ATTEMPTS_LEFT_INT	VCONFKEY_SETAPPL_PREFIX"/sim_lock_attempts_left"
+#define VCONFKEY_SETAPPL_VIBRATION_STATUS_BOOL  "db/setting/sound/vibration_on"
 
-/**
- * @brief status that font changed
- *
- * type : int
- * 0 : not changed
- * 5 : changed
- */
-#define VCONFKEY_SETAPPL_FONT_CHANGED 		"memoroy/setting/font_changed"
+#ifdef USE_NONCREATED_VCONF_KEY
+#warning using non-created vconf-key ----- please make sure this key is in use actually
+#endif
+#define VCONFKEY_SETAPPL_SOUND_MODE  "db/setting/sound/sound_mode"
 
-/**
- * @brief status of flight mode
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_FLIGHT_MODE_BOOL           VCONFKEY_SETAPPL_PREFIX"/flight_mode"
-
-/**
- * @brief current device name
- */
-#define VCONFKEY_SETAPPL_DEVICE_NAME_STR            VCONFKEY_SETAPPL_PREFIX"/device_name"
-
-
-/**
- * @brief status of sound
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_SOUND_STATUS_BOOL          VCONFKEY_SETAPPL_PREFIX"/sound/sound_on"
-
-/**
- * @brief status of vibration
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_VIBRATION_STATUS_BOOL      VCONFKEY_SETAPPL_PREFIX"/sound/vibration_on"
-
-/**
- * @brief status of data roaming
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_STATE_DATA_ROAMING_BOOL    VCONFKEY_SETAPPL_PREFIX"/data_roaming"
-
-/**
- * @brief status of motion activation
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_MOTION_ACTIVATION          VCONFKEY_SETAPPL_PREFIX"/motion_active"
-
-/**
- * @brief status of use tilt
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_USE_TILT                   VCONFKEY_SETAPPL_PREFIX"/use_tilt"
-
-/**
- * @brief status of use tilt scroll
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_USE_TILT_SCROLL                   VCONFKEY_SETAPPL_PREFIX"/use_tilt_scroll"
-
-/**
- * @brief level of tilt
- *
- * 0 : MIN \n
- * 7 : MAX \n
- */
-#define VCONFKEY_SETAPPL_TILT_SENSITIVITY           VCONFKEY_SETAPPL_PREFIX"/tilt_sensitivity"
-
-/**
- * @brief level of tilt scroll
- *
- * 0 : MIN \n
- * 7 : MAX \n
- */
-#define VCONFKEY_SETAPPL_TILT_SCROLL_SENSITIVITY           VCONFKEY_SETAPPL_PREFIX"/tilt_scroll_sensitivity"
-
-/**
- * @brief status of use panning
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_USE_PANNING                VCONFKEY_SETAPPL_PREFIX"/use_panning"
-
-/**
- * @brief status of use panning to browse
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_USE_PANNING_BROWSER                VCONFKEY_SETAPPL_PREFIX"/use_panning_browser"
-
-/**
- * @brief level of panning
- *
- * 0 : MIN \n
- * 7 : MAX \n
- */
-#define VCONFKEY_SETAPPL_PANNING_SENSITIVITY        VCONFKEY_SETAPPL_PREFIX"/panning_sensitivity"
-
-/**
- * @brief level of panning browser
- *
- * 0 : MIN \n
- * 7 : MAX \n
- */
-#define VCONFKEY_SETAPPL_PANNING_BROWSER_SENSITIVITY        VCONFKEY_SETAPPL_PREFIX"/panning_browser_sensitivity"
-
-/**
- * @brief status of use double tap
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_USE_DOUBLE_TAP             VCONFKEY_SETAPPL_PREFIX"/use_double_tap"
-
-/**
- * @brief status of use turn over
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_USE_TURN_OVER              VCONFKEY_SETAPPL_PREFIX"/use_turn_over"
-
-/**
- * @brief status of use pick up
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_USE_PICK_UP                VCONFKEY_SETAPPL_PREFIX"/use_pick_up"
-
-/**
- * @brief status of use pick up call
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_USE_PICK_UP_CALL                VCONFKEY_SETAPPL_PREFIX"/use_pick_up_call"
-
-/**
- * @brief status of use shake
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_USE_SHAKE                  VCONFKEY_SETAPPL_PREFIX"/use_shake"
-
-/**
- * @brief function of muting sounds by covering screen with your hand when play media
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_PALM_TOUCH_MUTE            VCONFKEY_SETAPPL_PREFIX"/motion/palm_touch_mute"
-
-/**
- * @brief function of capture screen by swiping it from right left or vice versa with the side of your hand
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_PALM_SWIP_CAPTURE          VCONFKEY_SETAPPL_PREFIX"/motion/palm_swipe_capture"
-
-/**
- * @brief current background image file path
- *
- * Value : BG image file path
- */
-#define VCONFKEY_BGSET                              "db/menu_widget/bgset"
-
-/**
- * @brief activate Driving mode
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_DRIVINGMODE_DRIVINGMODE		VCONFKEY_SETAPPL_PREFIX"/drivingmode/drivingmode"
-
-/**
- * @brief activate Driving mode only for incoming call
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_DRIVINGMODE_INCOMINGCALL		VCONFKEY_SETAPPL_PREFIX"/drivingmode/incomingcall"
-
-/**
- * @brief activate Driving mode only for message
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_DRIVINGMODE_MESSAGE			VCONFKEY_SETAPPL_PREFIX"/drivingmode/message"
-
-/**
- * @brief activate Driving mode only for new email
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_DRIVINGMODE_NEWEMAILS			VCONFKEY_SETAPPL_PREFIX"/drivingmode/newemails"
-
-/**
- * @brief activate Driving mode only for new voicemail
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_DRIVINGMODE_NEWVOICEMAILS		VCONFKEY_SETAPPL_PREFIX"/drivingmode/newvoicemails"
-
-/**
- * @brief activate Driving mode only for alarm
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_DRIVINGMODE_ALARM				VCONFKEY_SETAPPL_PREFIX"/drivingmode/alarm"
-
-/**
- * @brief activate Driving mode only for schedule
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_DRIVINGMODE_SCHEDULE			VCONFKEY_SETAPPL_PREFIX"/drivingmode/schedule"
-
-/**
- * @brief activate Driving mode only for unlockscreen
- *
- * 0 : Off \n
- * 1 : On \n
- */
-#define VCONFKEY_SETAPPL_DRIVINGMODE_UNLOCKSCREEN		VCONFKEY_SETAPPL_PREFIX"/drivingmode/unlockscreen"
-
-/**
- * @brief developer options - how many background processes are allowed for an app
- *
- * 0 : Standard limit \n
- * 1 : No background process \n
- * 2 : 1 process at most \n
- * 3 : 2 process at most \n
- * 4 : 3 process at most \n
- * 5 : 4 process at most \n
- */
-#define VCONFKEY_SETAPPL_DEVOPTION_BGPROCESS		VCONFKEY_SETAPPL_PREFIX"/devoption/bgprocess"
-
-/**
- * @brief current selected engine type
- *
- * 0 : HW engine
- * 1 : SW engine
- */
-#define VCONFKEY_SETAPPL_DEFAULT_RENDERING_ENGINE_TYPE_INT		VCONFKEY_SETAPPL_PREFIX"/default_rendering_engine"
 enum {
-        SETTING_RENDERING_ENGINE_HW = 0,
-        SETTING_RENDERING_ENGINE_SW,
-        SETTING_RENDERING_ENGINE_MAX
+	SETTING_SOUNDMODE_SOUND = 0,
+		SETTING_SOUNDMODE_VIBRATION,
+		SETTING_SOUNDMODE_SILENT,
+		SETTING_SOUNDMODE_MAX
 };
 
- /**
- * @brief ps(power saving) mode status
- * type : int
- * 0 : normal mode, SETTING_PSMODE_NORMAL
- * 1 : powerful mode, SETTING_PSMODE_POWERFUL
- * 2 : emergency mode, SETTING_PSMODE_EMERGENCY
- * 3 : power saver(for wearable device), SETTING_PSMODE_WEARABLE
- * 4 : enahanced power saver(for wearable device), SETTING_PSMODE_WEARABLE_ENHANCED
- *
- */
-#define VCONFKEY_SETAPPL_PSMODE VCONFKEY_SETAPPL_PREFIX"/psmode"
+#define VCONFKEY_SETAPPL_VIBRATE_WHEN_RINGING_BOOL  "db/setting/sound/vibrate_when_ringing"
+
+#define VCONFKEY_SETAPPL_VIBRATE_WHEN_NOTIFICATION_BOOL  "db/setting/sound/vibrate_when_notification"
+
+#define VCONFKEY_SETAPPL_HAPTIC_FEEDBACK_STATUS_BOOL  "db/setting/sound/haptic_feedback_on"
+
+#define VCONFKEY_SETAPPL_STATE_DATA_ROAMING_BOOL  "db/setting/data_roaming"
+
+#define VCONFKEY_SETAPPL_MOTION_ACTIVATION  "db/setting/motion_active"
+
+#define VCONFKEY_SETAPPL_USE_TILT  "db/setting/use_tilt"
+
+#ifdef USE_NONCREATED_VCONF_KEY
+#warning using non-created vconf-key ----- please make sure this key is in use actually
+#endif
+#define VCONFKEY_SETAPPL_TILT_SENSITIVITY  "db/setting/tilt_sensitivity"
+
+#define VCONFKEY_SETAPPL_USE_PANNING  "db/setting/use_panning"
+
+#define VCONFKEY_SETAPPL_USE_PANNING_BROWSER  "db/setting/use_panning_browser"
+
+#define VCONFKEY_SETAPPL_PANNING_SENSITIVITY  "db/setting/panning_sensitivity"
+
+#define VCONFKEY_SETAPPL_PANNING_BROWSER_SENSITIVITY  "db/setting/panning_browser_sensitivity"
+
+#define VCONFKEY_SETAPPL_USE_DOUBLE_TAP  "db/setting/use_double_tap"
+
+#define VCONFKEY_SETAPPL_USE_TURN_OVER  "db/setting/use_turn_over"
+
+#define VCONFKEY_SETAPPL_USE_PICK_UP  "db/setting/use_pick_up"
+
+#define VCONFKEY_SETAPPL_USE_PICK_UP_CALL  "db/setting/use_pick_up_call"
+
+#define VCONFKEY_SETAPPL_USE_SHAKE  "db/setting/use_shake"
+
+#define VCONFKEY_SETAPPL_USE_MUTE_PAUSE  "db/setting/use_mute_pause"
+
+#define VCONFKEY_BGSET  "db/menu_widget/bgset"
+
+#define VCONFKEY_SETAPPL_DEVOPTION_BGPROCESS  "db/setting/devoption/bgprocess"
+
+#define VCONFKEY_SETAPPL_DEFAULT_RENDERING_ENGINE_TYPE_INT  "db/setting/default_rendering_engine"
+
+enum {
+	SETTING_RENDERING_ENGINE_HW ,
+		SETTING_RENDERING_ENGINE_SW ,
+		SETTING_RENDERING_ENGINE_MAX
+};
+
+#define VCONFKEY_SETAPPL_DATA_LIMIT_INT  "db/setting/data_limit"
+
+#define VCONFKEY_SETAPPL_SELECT_OLD_NT_ACT  "db/setting/select_network_act"
+
+#define VCONFKEY_SETAPPL_LANG_AUTOMATIC_BOOL  "db/setting/lang_automatic"
+
+#define VCONFKEY_SETAPPL_DATA_USAGE_CYCLE_INT  "db/setting/data_usage_cycle"
+
+#define VCONFKEY_SETAPPL_DATA_USAGE_ROAMING_STATUS  "db/setting/data_usage_roaming_status"
+
+#define VCONFKEY_SETAPPL_SET_DATA_USAGE_LIMIT_BOOL  "db/setting/set_data_usage_limit"
+
+#define VCONFKEY_SETAPPL_ACCESSIBILITY_TAP_HOLD_DELAY_STR  "db/setting/accessibility/taphold_delay"
+
+#define VCONFKEY_SETAPPL_SOUND_BALANCE_INT  "db/setting/accessibility/sound_balance"
+
+#define VCONFKEY_SETAPPL_SELECTED_NUM  "db/setting/selected_num"
+
+#define VCONFKEY_SETAPPL_SCREENMODE_SELNAME  "db/setting/screenmode/selected_name"
+
+#define VCONFKEY_LCD_TIMEOUT_NORMAL_BACKUP  "db/setting/lcd_timeout_normal_backup"
+
+#define VCONFKEY_SETAPPL_LED_INDICATOR_CHARGING  "db/setting/led_indicator/charging"
+
+#define VCONFKEY_SETAPPL_LED_INDICATOR_LOW_BATT  "db/setting/led_indicator/low_batt"
+
+#define VCONFKEY_SETAPPL_LED_INDICATOR_NOTIFICATIONS  "db/setting/led_indicator/notifications"
+
+#define VCONFKEY_SETAPPL_ROTATE_HOLD_BOOL  "memory/setting/rotate_hold"
+
+#define VCONFKEY_SETAPPL_PSMODE  "db/setting/psmode"
+
 enum {
 	SETTING_PSMODE_NORMAL = 0,
-	SETTING_PSMODE_POWERFUL = 1,
-	SETTING_PSMODE_ADVISOR = 1,
-	SETTING_PSMODE_SURVIVAL = 2,
-	SETTING_PSMODE_EMERGENCY = 2,
-	SETTING_PSMODE_WEARABLE = 3,
-	SETTING_PSMODE_WEARABLE_ENHANCED = 4,
-	SETTING_PSMODE_MAX
+		SETTING_PSMODE_POWERFUL = 1,
+		SETTING_PSMODE_ADVISOR = 1,
+		SETTING_PSMODE_SURVIVAL = 2,
+		SETTING_PSMODE_EMERGENCY = 2,
+		SETTING_PSMODE_WEARABLE = 3,
+		SETTING_PSMODE_WEARABLE_ENHANCED = 4,
+		SETTING_PSMODE_MAX = 0
 };
 
-/**
- * @brief Network restriction mode
- *
- * type : bool
- *
- * 0 : Off
- * 1 : On
- */
-#define VCONFKEY_SETAPPL_NETWORK_RESTRICT_MODE	VCONFKEY_SETAPPL_PREFIX"/network_restrict_mode"
+#define VCONFKEY_SETAPPL_MMC_ENCRYPTION_STATUS_BOOL  "db/setting/mmc_encryption/status"
 
-/**
- * @}
- */
+#define VCONFKEY_SETAPPL_TOUCHKEY_LIGHT_DURATION  "db/setting/display/touchkey_light_duration"
 
-#endif	/* __VCONF_INTERNAL_SETTING_KEYS_H__ */
+enum {
+	SETTING_TOUCHKEY_LIGIT_DURATION_90SEC = 90,
+		SETTING_TOUCHKEY_LIGIT_DURATION_360SEC = 360,
+		SETTING_TOUCHKEY_LIGIT_DURATION_ALWAYS_OFF = 0,
+		SETTING_TOUCHKEY_LIGIT_DURATION_ALWAYS_ON = -1
+};
 
+#define VCONFKEY_SETAPPL_SCREEN_CAPTURE_DESTINATION  "db/setting/display/screen_capture_destination"
+
+enum {
+	SETTING_SCREEN_CAPTURE_DESTINATION_ASK = 0,
+		SETTING_SCREEN_CAPTURE_DESTINATION_GALLERY,
+		SETTING_SCREEN_CAPTURE_DESTINATION_KEEPIT
+};
+
+#define VCONFKEY_SETAPPL_SCREEN_CAPTURE_EDIT_AFTER_CAPTURE  "db/setting/display/edit_after_screen_capture"
+
+#define VCONFKEY_SETAPPL_NETWORK_RESTRICT_MODE  "db/setting/network_restrict_mode"
+
+#ifdef USE_NONCREATED_VCONF_KEY
+#warning using non-created vconf-key ----- please make sure this key is in use actually
+#endif
+#define VCONFKEY_SETAPPL_BLOCKINGMODE_LED_INDICATOR  "db/setting/blockingmode/led_indicator"
+
+#define VCONFKEY_SETAPPL_DYNAMIC_STATUS_BAR  "db/setting/display/dynamic_status_bar"
+
+#ifdef USE_NONCREATED_VCONF_KEY
+#warning using non-created vconf-key ----- please make sure this key is in use actually
+#endif
+#define VCONFKEY_SETAPPL_CLOCK_TYPE_INT  "db/setting/idle_clock_type"
+
+#ifdef USE_NONCREATED_VCONF_KEY
+#warning using non-created vconf-key ----- please make sure this key is in use actually
+#endif
+#define VCONFKEY_SETAPPL_HOURLY_ALERT_BOOL  "db/setting/hourly_alert"
+
+#ifdef USE_NONCREATED_VCONF_KEY
+#warning using non-created vconf-key ----- please make sure this key is in use actually
+#endif
+#define VCONFKEY_SETAPPL_HOMESCREEN_TYPE_INT  "db/setting/homescreen_type"
+
+enum {
+	SETTING_HOMESCREEN_TYPE_1_1 = 0,
+		SETTING_HOMESCREEN_TYPE_2_2 = 1
+};
+
+#ifdef USE_NONCREATED_VCONF_KEY
+#warning using non-created vconf-key ----- please make sure this key is in use actually
+#endif
+#define VCONFKEY_SETAPPL_MOBILE_DATA_POPUP_DONE  "db/setting/mobile_data_popup"
+
+#define VCONFKEY_SETAPPL_MOBILE_DATA_ON_REMINDER  "db/setting/network/mobile_data_on_reminder"
+
+#define VCONFKEY_SETAPPL_MOBILE_DATA_OFF_REMINDER  "db/setting/network/mobile_data_off_reminder"
+
+#define VCONFKEY_SETAPPL_USB_OTG_MODE  "db/setting/usb_otg"
+
+#define VCONFKEY_SETAPPL_FIREWALL_KEY  "db/setting/firewall"
+
+#define VCONFKEY_SETAPPL_PERSONAL_MODE_STATUS_BOOL  "memory/setting/personal"
+
+#define VCONFKEY_SETAPPL_PERSONAL_MODE_UNLOCK_METHOD_INT  "db/setting/personal_unlock_method"
+
+#define VCONFKEY_SETAPPL_DEVELOPER_OPTION_STATE  "db/setting/developer_option_state"
+
+#define VCONFKEY_SETAPPL_CHANGE_UI_THEME_INT  "db/setting/change_ui/theme"
+
+#define VCONFKEY_SETAPPL_WINDOW_GRAYTONE  "db/setting/win_gray"
+
+#define VCONFKEY_SETAPPL_WINDOW_FPS  "db/setting/win_fps"
+
+#define VCONFKEY_SETAPPL_EMERGENCY_UI_MODE  "db/setting/emergency/mode"
+
+enum {
+	EMERGENCY_UI_MODE_EMERGENCY = 1,
+		EMERGENCY_UI_MODE_ULTRA_POWER_SAVING,
+		EMERGENCY_UI_MODE_MAX
+};
+
+#ifdef USE_NONCREATED_VCONF_KEY
+#warning using non-created vconf-key ----- please make sure this key is in use actually
+#endif
+#define VCONFKEY_SETAPPL_ACCESSIBILITY_DARK_SCREEN  "db/setting/accessibility/dark_screen"
+
+#ifdef USE_NONCREATED_VCONF_KEY
+#warning using non-created vconf-key ----- please make sure this key is in use actually
+#endif
+#define VCONFKEY_SETAPPL_NETWORK_PERMIT_WITH_LCD_OFF_LIMIT  "db/setting/network_with_lcd_off_limit"
+
+#ifdef USE_NONCREATED_VCONF_KEY
+#warning using non-created vconf-key ----- please make sure this key is in use actually
+#endif
+#define VCONFKEY_SETAPPL_SIM1_NAME  "db/setting/sim1_name"
+
+#ifdef USE_NONCREATED_VCONF_KEY
+#warning using non-created vconf-key ----- please make sure this key is in use actually
+#endif
+#define VCONFKEY_SETAPPL_SIM2_NAME  "db/setting/sim2_name"
+
+#ifdef USE_NONCREATED_VCONF_KEY
+#warning using non-created vconf-key ----- please make sure this key is in use actually
+#endif
+#define VCONFKEY_SETAPPL_SIM1_ICON  "db/setting/sim1_icon"
+
+#ifdef USE_NONCREATED_VCONF_KEY
+#warning using non-created vconf-key ----- please make sure this key is in use actually
+#endif
+#define VCONFKEY_SETAPPL_SIM2_ICON  "db/setting/sim2_icon"
+
+enum {
+	SIM_ICON_SIM1     = 0,
+		SIM_ICON_SIM2    ,
+		SIM_ICON_CALL    ,
+		SIM_ICON_SMS     ,
+		SIM_ICON_MMS     ,
+		SIM_ICON_INTERNET,
+		SIM_ICON_HOME    ,
+		SIM_ICON_OFFICE  ,
+		SIM_ICON_HEART   ,
+		SIM_ICON_MAX
+};
+
+#ifdef USE_NONCREATED_VCONF_KEY
+#warning using non-created vconf-key ----- please make sure this key is in use actually
+#endif
+#define VCONFKEY_DUALSIM_VOICE_CALL_INT  "db/setting/dualsim/voice_call"
+
+enum {
+	VCONFKEY_DUALSIM_VOICE_CALL_UNKNOWN = -1,
+		VCONFKEY_DUALSIM_VOICE_CALL_CURRENT_NETWORK = 0,
+		VCONFKEY_DUALSIM_VOICE_CALL_ASK_ALWAYS,
+		VCONFKEY_DUALSIM_VOICE_CALL_SIM1,
+		VCONFKEY_DUALSIM_VOICE_CALL_SIM2
+};
+
+#ifdef USE_NONCREATED_VCONF_KEY
+#warning using non-created vconf-key ----- please make sure this key is in use actually
+#endif
+#define VCONFKEY_TELEPHONY_ALWAYS_ON_BOOL  "db/setting/dualsim/always_dualsim"
+
+#ifdef USE_NONCREATED_VCONF_KEY
+#warning using non-created vconf-key ----- please make sure this key is in use actually
+#endif
+#define VCONFKEY_DUALSIM_SELECTED_SIM  "db/setting/dualsim/selected_sim"
+
+enum {
+	VCONFKEY_DUALSIM_SELECT_UNKNOW = -1,
+		VCONFKEY_DUALSIM_SELECT_BOTH_SIM = 0,
+		VCONFKEY_DUALSIM_SELECT_SIM1_TO_SIM2,
+		VCONFKEY_DUALSIM_SELECT_SIM2_TO_SIM1
+};
+
+#ifdef USE_NONCREATED_VCONF_KEY
+#warning using non-created vconf-key ----- please make sure this key is in use actually
+#endif
+#define VCONFKEY_SETAPPL_SCREENROTATION_DEG_INT  "db/setting/screen_rotation"
+
+enum {
+	SETTING_SCREENROTATION_0_DEGREE = 0,
+		SETTING_SCREENROTATION_90_DEGREE = 1,
+		SETTING_SCREENROTATION_180_DEGREE = 2,
+		SETTING_SCREENROTATION_270_DEGREE = 3
+};
+
+#ifdef USE_NONCREATED_VCONF_KEY
+#warning using non-created vconf-key ----- please make sure this key is in use actually
+#endif
+#define VCONFKEY_SETAPPL_PRIVACY_LOCK_TYPE_INT  "db/setting/lock_type"
+
+enum {
+	SETTING_PRIVACY_LOCK_TYPE_NONE = 0,
+		SETTING_PRIVACY_LOCK_TYPE_PATTERN = 1
+};
+
+#ifdef USE_NONCREATED_VCONF_KEY
+#warning using non-created vconf-key ----- please make sure this key is in use actually
+#endif
+#define VCONFKEY_SETAPPL_EMERGENCY_STATUS_BOOL  "db/setting/emergency_status"
+
+#ifdef USE_NONCREATED_VCONF_KEY
+#warning using non-created vconf-key ----- please make sure this key is in use actually
+#endif
+#define VCONFKEY_SETAPPL_BLOCKMODE_WEARABLE_BOOL  "db/setting/blockmode_wearable"
+
+#ifdef USE_NONCREATED_VCONF_KEY
+#warning using non-created vconf-key ----- please make sure this key is in use actually
+#endif
+#define VCONFKEY_SETAPPL_BLOCKMODE_WEARABLE_R_BOOL  "db/setting/blockmode_wearable_r"
+
+#ifdef USE_NONCREATED_VCONF_KEY
+#warning using non-created vconf-key ----- please make sure this key is in use actually
+#endif
+#define VCONFKEY_SETAPPL_AMBIENT_MODE_BOOL  "db/setting/ambient_mode"
+
+#ifdef USE_NONCREATED_VCONF_KEY
+#warning using non-created vconf-key ----- please make sure this key is in use actually
+#endif
+#define VCONFKEY_SETAPPL_WALLPAPER_CHANGED_NOTI_INT  "db/setting/wallpaper_changed"
+
+enum {
+	VCONFKEY_WALLPAPER_CHANGED_NOTI_NONE = 0,
+		VCONFKEY_WALLPAPER_CHANGED_NOTI_GEAR = 1,
+		VCONFKEY_WALLPAPER_CHANGED_NOTI_HM = 2
+};
+
+#endif /*   __VCONF_INTERNAL_SETTING_KEYS_H__    */
