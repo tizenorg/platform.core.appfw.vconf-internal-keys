@@ -1,0 +1,8 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-lockscreen-keys.h <global> 26 #define VCONFKEY_LOCKSCREEN_WALLPAPER_TYPE "db/lockscreen/wallpaper_type"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wallpaper-ui-service/include/wallpaper-ui-service-main.h <global> 48 #ifndef VCONFKEY_LOCKSCREEN_WALLPAPER_TYPE
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wallpaper-ui-service/include/wallpaper-ui-service-main.h <global> 49 #define VCONFKEY_LOCKSCREEN_WALLPAPER_TYPE "db/lockscreen/wallpaper_type"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wallpaper-ui-service/src/wallpaper-ui-service-main.c _gallery_service_imageviewer_ug_result_cb 815 vconf_set_int(VCONFKEY_LOCKSCREEN_WALLPAPER_TYPE, WALLPAPER_TYPE_GALLERY);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wallpaper-ui-service/src/wallpaper-ui-service-main.c _set_wallpaper 1093 vconf_set_int(VCONFKEY_LOCKSCREEN_WALLPAPER_TYPE, ad->preview_image_type);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wallpaper-ui-service/src/wallpaper-ui-service-main.c _done_to_set_wallpaper 1242 vconf_set_int(VCONFKEY_LOCKSCREEN_WALLPAPER_TYPE, WALLPAPER_TYPE_GALLERY);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wallpaper-ui-service/src/wallpaper-ui-service-main.c _done_to_set_wallpaper 1245 vconf_set_int(VCONFKEY_LOCKSCREEN_WALLPAPER_TYPE, WALLPAPER_TYPE_DEFAULT);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wallpaper-ui-service/src/wallpaper-ui-service-main.c main_gengrid_add 1753 vconf_get_int(VCONFKEY_LOCKSCREEN_WALLPAPER_TYPE, &setting_type);

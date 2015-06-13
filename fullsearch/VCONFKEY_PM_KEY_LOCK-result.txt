@@ -1,0 +1,4 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-pm-keys.h <global> 63 VCONFKEY_PM_KEY_LOCK = 0x01,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-frwk/bt-service/bt-service-adapter.c _bt_set_disabled 548 ret_pm_ignore == 0 && pm_ignore_mode != VCONFKEY_PM_KEY_LOCK) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/wearable/hw_key.c _powerkey_timer_cb 79 if (VCONFKEY_PM_KEY_LOCK == status_passive_get()->pm_key_ignore) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/wearable/hw_key.c _w_gesture_hold_cb 281 if (VCONFKEY_PM_KEY_LOCK == status_passive_get()->pm_key_ignore) {

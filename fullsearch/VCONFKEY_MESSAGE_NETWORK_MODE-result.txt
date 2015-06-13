@@ -1,0 +1,2 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-msg-keys.h <global> 30 #define VCONFKEY_MESSAGE_NETWORK_MODE "db/msg/network_mode"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/msg-service/include/common/MsgInternalTypes.h SMS_SEND_NETWORK_MODE 107 #define SMS_SEND_NETWORK_MODE VCONFKEY_MESSAGE_NETWORK_MODE

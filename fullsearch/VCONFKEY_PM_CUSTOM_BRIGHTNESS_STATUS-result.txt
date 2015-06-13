@@ -1,0 +1,3 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-pm-keys.h <global> 33 #define VCONFKEY_PM_CUSTOM_BRIGHTNESS_STATUS "memory/pm/custom_brightness_status"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webapi-plugins/src/power/power_manager.cc <global> 394 vconf_get_int(VCONFKEY_PM_CUSTOM_BRIGHTNESS_STATUS, &is_custom_mode);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webapi-plugins/src/power/power_manager.cc <global> 422 vconf_get_int(VCONFKEY_PM_CUSTOM_BRIGHTNESS_STATUS, &is_custom_mode);

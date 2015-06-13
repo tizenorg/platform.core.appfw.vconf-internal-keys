@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 727 VCONFKEY_WALLPAPER_CHANGED_NOTI_NONE = 0,

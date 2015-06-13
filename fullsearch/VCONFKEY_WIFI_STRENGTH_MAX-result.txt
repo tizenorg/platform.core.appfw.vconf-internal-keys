@@ -1,0 +1,8 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-wifi-keys.h <global> 47 VCONFKEY_WIFI_STRENGTH_MAX = 4
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/wifi.c _wifi_changed_cb 184 else if (strength > VCONFKEY_WIFI_STRENGTH_MAX) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/wifi.c _wifi_changed_cb 185 strength = VCONFKEY_WIFI_STRENGTH_MAX;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/wifi.c _wifi_changed_cb 188 strength = VCONFKEY_WIFI_STRENGTH_MAX;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/wifi.c _wifi_device_state_changed_cb 235 else if (strength > VCONFKEY_WIFI_STRENGTH_MAX) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/wifi.c _wifi_device_state_changed_cb 236 strength = VCONFKEY_WIFI_STRENGTH_MAX;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/wifi.c _wifi_device_state_changed_cb 239 strength = VCONFKEY_WIFI_STRENGTH_MAX;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-indicator.c netconfig_wifi_indicator_start 343 netconfig_set_vconf_int(VCONFKEY_WIFI_STRENGTH, VCONFKEY_WIFI_STRENGTH_MAX);

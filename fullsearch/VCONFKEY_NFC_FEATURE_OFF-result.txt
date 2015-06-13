@@ -1,0 +1,3 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-nfc-keys.h <global> 27 VCONFKEY_NFC_FEATURE_OFF = 0x00,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/manager/net_nfc_manager.c main 174 VCONFKEY_NFC_FEATURE_OFF) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/manager/net_nfc_manager.c main 177 VCONFKEY_NFC_FEATURE_OFF);

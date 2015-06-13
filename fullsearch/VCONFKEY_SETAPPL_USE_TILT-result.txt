@@ -1,0 +1,6 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/chromium-efl/impl/eweb_view.cc <global> 106 vconf_get_bool(VCONFKEY_SETAPPL_USE_TILT, &tilt_enabled);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-data-slp-setting.c <global> 246 {"use_tilt", "motion", BOOL_SLP_SETTING_MOTION_USE_TILT, VCONFKEY_SETAPPL_USE_TILT, eBOOL, {0}, export_json, import_default},
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 436 #define VCONFKEY_SETAPPL_USE_TILT "db/setting/use_tilt"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/sensord/src/motion/motion_sensor.cpp get_motion_setting 89 if (vconf_get_bool(VCONFKEY_SETAPPL_USE_TILT, &vconf_val) == 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/sensord/src/motion/motion_sensor.cpp motion_enable_cb 142 } else if (!strcmp(vconf_keynode_get_name(node), VCONFKEY_SETAPPL_USE_TILT)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/sensord/src/motion/motion_sensor.cpp init 422 vconf_notify_key_changed(VCONFKEY_SETAPPL_USE_TILT, motion_enable_cb, this);

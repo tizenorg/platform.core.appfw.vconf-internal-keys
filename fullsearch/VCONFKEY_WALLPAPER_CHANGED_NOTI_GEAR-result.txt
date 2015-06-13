@@ -1,0 +1,2 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 728 VCONFKEY_WALLPAPER_CHANGED_NOTI_GEAR = 1,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-settings/src/system_setting_platform.c system_setting_set_wallpaper_home_screen 586 VCONFKEY_WALLPAPER_CHANGED_NOTI_GEAR)) {

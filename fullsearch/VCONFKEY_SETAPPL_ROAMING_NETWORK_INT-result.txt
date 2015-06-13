@@ -1,0 +1,2 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-data-slp-setting.c <global> 283 {"roaming_network", "connectivity", INT_SLP_SETTING_ROAMING_NETWORK, VCONFKEY_SETAPPL_ROAMING_NETWORK_INT, eINT, {0}, export_json, import_default},
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 363 #define VCONFKEY_SETAPPL_ROAMING_NETWORK_INT "db/setting/roaming_network"

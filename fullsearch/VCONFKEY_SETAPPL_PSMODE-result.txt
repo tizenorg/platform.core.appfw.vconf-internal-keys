@@ -1,0 +1,89 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/include/setting-common-data-slp-setting.h <global> 80 #define VCONFKEY_SETAPPL_PSMODE VCONFKEY_SETAPPL_PREFIX"/psmode"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 505 #define VCONFKEY_SETAPPL_PSMODE "db/setting/psmode"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/aul-1/am_daemon/amd_launch.c __check_mode 1540 vconf_get_int(VCONFKEY_SETAPPL_PSMODE, &ups_mode);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/aul-1/am_daemon/amd_main.c _start_services 422 if(vconf_get_int(VCONFKEY_SETAPPL_PSMODE, &ups_mode) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/aul-1/am_daemon/amd_status.c __ups_cb 749 } else if (strcmp(name, VCONFKEY_SETAPPL_PSMODE) == 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/aul-1/am_daemon/amd_status.c _status_init 835 if (vconf_notify_key_changed(VCONFKEY_SETAPPL_PSMODE, __ups_cb, NULL) != 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-frwk/bt-core/bt-core-noti-handler.c _bt_core_init_vconf_value 261 if (vconf_get_int(VCONFKEY_SETAPPL_PSMODE, &power_saving_mode) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-frwk/bt-core/bt-core-noti-handler.c _bt_core_handle_power_saving_mode_noti 296 ret = vconf_notify_key_changed(VCONFKEY_SETAPPL_PSMODE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-frwk/bt-core/bt-core-noti-handler.c _bt_core_unregister_vconf_handler 312 vconf_ignore_key_changed(VCONFKEY_SETAPPL_PSMODE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-frwk/bt-service/bt-service-adapter.c _bt_service_register_vconf_handler 723 if (vconf_notify_key_changed(VCONFKEY_SETAPPL_PSMODE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-frwk/bt-service/bt-service-adapter.c _bt_service_unregister_vconf_handler 739 vconf_ignore_key_changed(VCONFKEY_SETAPPL_PSMODE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/device-context-provider/src/device_status/psmode.cpp subscribe 41 int ret = vconf_notify_key_changed(VCONFKEY_SETAPPL_PSMODE, update_cb, this);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/device-context-provider/src/device_status/psmode.cpp unsubscribe 54 int ret = vconf_ignore_key_changed(VCONFKEY_SETAPPL_PSMODE, update_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/device-context-provider/src/device_status/psmode.cpp read 63 int ret = vconf_get_int(VCONFKEY_SETAPPL_PSMODE, &mode);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/display-dbus.c edbus_setbrightness 422 if (vconf_get_int(VCONFKEY_SETAPPL_PSMODE, &powersaver) != 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/display-dbus.c edbus_holdbrightness 487 if (vconf_get_int(VCONFKEY_SETAPPL_PSMODE, &powersaver) != 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/display-dbus.c edbus_releasebrightness 577 if (vconf_get_int(VCONFKEY_SETAPPL_PSMODE, &powersaver) != 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/led/rgb.c rgb_init 684 vconf_get_int(VCONFKEY_SETAPPL_PSMODE, &psmode);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/led/rgb.c rgb_init 689 vconf_notify_key_changed(VCONFKEY_SETAPPL_PSMODE, led_vconf_psmode_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/led/rgb.c rgb_exit 711 vconf_ignore_key_changed(VCONFKEY_SETAPPL_PSMODE, led_vconf_psmode_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/powersaver/powersaver-mobile.c set_powersaver_limit 154 ret = vconf_notify_key_changed(VCONFKEY_SETAPPL_PSMODE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/powersaver/powersaver-mobile.c powersaver_init 196 ret = vconf_get_int(VCONFKEY_SETAPPL_PSMODE, &mode);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/powersaver/powersaver-mobile.c powersaver_exit 216 ret = vconf_ignore_key_changed(VCONFKEY_SETAPPL_PSMODE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/powersaver/powersaver-wearable.c booting_done 126 ret = vconf_notify_key_changed(VCONFKEY_SETAPPL_PSMODE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/powersaver/powersaver-wearable.c booting_done 131 ret = vconf_get_int(VCONFKEY_SETAPPL_PSMODE, &status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/powersaver/powersaver-wearable.c powersaver_exit 165 ret = vconf_ignore_key_changed(VCONFKEY_SETAPPL_PSMODE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/e17-extra-modules/accessibility-wearable/src/e_mod_main.c e_modapi_init 129 vconf_notify_key_changed(VCONFKEY_SETAPPL_PSMODE, _e_accessibility_vconf_powersaving_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/e17-extra-modules/accessibility/src/e_mod_main.c e_modapi_init 117 vconf_notify_key_changed(VCONFKEY_SETAPPL_PSMODE, _e_accessibility_vconf_powersaving_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/e17-mod-tizen-accessibility-wearable/src/e_mod_main.c e_modapi_init 129 vconf_notify_key_changed(VCONFKEY_SETAPPL_PSMODE, _e_accessibility_vconf_powersaving_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/e17-mod-tizen-accessibility/src/e_mod_main.c e_modapi_init 117 vconf_notify_key_changed(VCONFKEY_SETAPPL_PSMODE, _e_accessibility_vconf_powersaving_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/daemon/main.c _indicator_mouse_down_cb 899 ret = vconf_get_int(VCONFKEY_SETAPPL_PSMODE,&ps_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/home/search.c _handle_search_icon 115 vconf_get_int(VCONFKEY_SETAPPL_PSMODE, &ps_mode);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/home/search.c register_search_module 168 vconf_notify_key_changed(VCONFKEY_SETAPPL_PSMODE, _ps_mode_cb, (void *)data);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/home/search.c unregister_search_module 179 vconf_ignore_key_changed(VCONFKEY_SETAPPL_PSMODE, _ps_mode_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/lbs-server/lbs_server.c __setting_pw_saving_cb 188 setting_get_int(VCONFKEY_SETAPPL_PSMODE, &mode);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/lbs-server/lbs_server.c main 1496 setting_notify_key_changed(VCONFKEY_SETAPPL_PSMODE, __setting_pw_saving_cb, lbs_server);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/lbs-server/lbs_server.c main 1505 setting_ignore_key_changed(VCONFKEY_SETAPPL_PSMODE, __setting_pw_saving_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libslp-location/location/manager/location-gps.c location_gps_start 420 } else if (location_setting_get_int(VCONFKEY_SETAPPL_PSMODE) == SETTING_PSMODE_WEARABLE_ENHANCED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-agent/src/mobileap_handler.c _is_power_save_survival_mode 160 ret = vconf_get_int(VCONFKEY_SETAPPL_PSMODE, &status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-power.c netconfig_wifi_on_wearable 432 if (vconf_get_int(VCONFKEY_SETAPPL_PSMODE, &ps_mode) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-power.c __netconfig_wifi_emergency_mode 651 vconf_get_int(VCONFKEY_SETAPPL_PSMODE, &emergency);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-power.c netconfig_wifi_power_initialize 886 vconf_notify_key_changed(VCONFKEY_SETAPPL_PSMODE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/service/emergency_mode.c _vconf_cb 136 if (vconf_get_int(VCONFKEY_SETAPPL_PSMODE, &mode) == 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/service/emergency_mode.c quickpanel_emergency_mode_init 218 ret = vconf_notify_key_changed(VCONFKEY_SETAPPL_PSMODE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/service/emergency_mode.c quickpanel_emergency_mode_fini 236 ret = vconf_ignore_key_changed(VCONFKEY_SETAPPL_PSMODE, _vconf_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/service/emergency_mode.c quickpanel_emergency_mode_is_on 262 if (vconf_get_int(VCONFKEY_SETAPPL_PSMODE, &mode) == 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/settings/modules/ultra_power_saving.c _status_update 150 ret = vconf_get_int(VCONFKEY_SETAPPL_PSMODE, &status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/settings/modules/ultra_power_saving.c _register_module_event_handler 186 ret = vconf_notify_key_changed(VCONFKEY_SETAPPL_PSMODE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/settings/modules/ultra_power_saving.c _unregister_module_event_handler 197 ret = vconf_ignore_key_changed(VCONFKEY_SETAPPL_PSMODE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/sensord/src/libsensord/client.cpp set_power_save_state_cb 79 vconf_notify_key_changed(VCONFKEY_SETAPPL_PSMODE, power_save_state_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/sensord/src/libsensord/client.cpp unset_power_save_state_cb 93 vconf_ignore_key_changed(VCONFKEY_SETAPPL_PSMODE, power_save_state_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/sensord/src/libsensord/client.cpp get_power_save_state 118 vconf_get_int(VCONFKEY_SETAPPL_PSMODE, &ps_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-profile/src/setting-profile-sound-main.c __get_lite_main_list 504 vconf_get_int(VCONFKEY_SETAPPL_PSMODE, &ps_val);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c _LCD_freq_ctrl 199 vconf_get_int(VCONFKEY_SETAPPL_PSMODE, &m_key);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c _mode_backup_settings 656 vconf_get_int(VCONFKEY_SETAPPL_PSMODE, &val);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c _mode_power_backup_settings 773 vconf_get_int(VCONFKEY_SETAPPL_PSMODE, &val);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c __mode_syspopup_emergency_cb 1600 vconf_get_int(VCONFKEY_SETAPPL_PSMODE, &m_key);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c __mode_syspopup_emergency_cb 1628 if (vconf_set_int(VCONFKEY_SETAPPL_PSMODE, SETTING_PSMODE_EMERGENCY) == 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c __mode_syspopup_powerful_cb 1665 vconf_get_int(VCONFKEY_SETAPPL_PSMODE, &m_key);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c __mode_syspopup_powerful_cb 1686 if (vconf_set_int(VCONFKEY_SETAPPL_PSMODE, SETTING_PSMODE_POWERFUL) == 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c __mode_syspopup_normal_cb 1767 vconf_get_int(VCONFKEY_SETAPPL_PSMODE, &m_key);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c __mode_syspopup_normal_cb 1824 if (vconf_set_int(VCONFKEY_SETAPPL_PSMODE, SETTING_PSMODE_NORMAL) == 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c __mode_syspopup_normal_cb 1829 if (vconf_set_int(VCONFKEY_SETAPPL_PSMODE, SETTING_PSMODE_POWERFUL) == 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c _ultra_popup_cb 2140 vconf_get_int(VCONFKEY_SETAPPL_PSMODE, &m_key);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c _ultra_popup_cb 2169 if (vconf_set_int(VCONFKEY_SETAPPL_PSMODE, SETTING_PSMODE_EMERGENCY) == 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c __mode_syspopup_add 2564 vconf_get_int(VCONFKEY_SETAPPL_PSMODE, &m_key);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c __mode_syspopup_add 2699 if (vconf_set_int(VCONFKEY_SETAPPL_PSMODE, SETTING_PSMODE_EMERGENCY) == 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c __mode_syspopup_add 2753 if (vconf_set_int(VCONFKEY_SETAPPL_PSMODE, SETTING_PSMODE_NORMAL) == 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c __mode_syspopup_add 2802 vconf_get_int(VCONFKEY_SETAPPL_PSMODE, &m_key);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c __mode_syspopup_add 2823 if (vconf_set_int(VCONFKEY_SETAPPL_PSMODE, SETTING_PSMODE_POWERFUL) == 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c __mode_syspopup_add 2870 if (vconf_set_int(VCONFKEY_SETAPPL_PSMODE, SETTING_PSMODE_POWERFUL) == 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c __mode_syspopup_add 2908 if (vconf_set_int(VCONFKEY_SETAPPL_PSMODE, SETTING_PSMODE_NORMAL) == 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c _status_passive_change_cb 240 } else if (!strcmp(key_name, VCONFKEY_SETAPPL_PSMODE)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 384 if (vconf_notify_key_changed(VCONFKEY_SETAPPL_PSMODE, _status_passive_change_cb, NULL) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 385 _E("Failed to register add the callback for %s", VCONFKEY_SETAPPL_PSMODE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 386 } else if (vconf_get_int(VCONFKEY_SETAPPL_PSMODE, &s_status_passive.setappl_psmode) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 387 _E("Failed to get vconfkey[%s]", VCONFKEY_SETAPPL_PSMODE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_unregister 535 if (vconf_ignore_key_changed(VCONFKEY_SETAPPL_PSMODE, _status_passive_change_cb) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_unregister 536 _E("Failed to unregister the callback for %s", VCONFKEY_SETAPPL_PSMODE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/sync-manager/src/sync-service/SyncManager_SyncManager.cpp RegisterForUPSModeChange 613 if(vconf_notify_key_changed(VCONFKEY_SETAPPL_PSMODE, OnUPSModeChangedCb, NULL) == 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/sync-manager/src/sync-service/SyncManager_SyncManager.cpp DeRegisterForUPSModeChange 629 return vconf_ignore_key_changed(VCONFKEY_SETAPPL_PSMODE, OnUPSModeChangedCb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/sync-manager/src/sync-service/SyncManager_SyncManager.cpp Construct 862 ret = vconf_get_int(VCONFKEY_SETAPPL_PSMODE, &upsMode);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c convert_strgkey_to_vconf 235 return VCONFKEY_SETAPPL_PSMODE;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c convert_vconf_to_strgkey 399 else if (g_str_equal(key, VCONFKEY_SETAPPL_PSMODE) == TRUE) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-direct/popup-wifidirect/src/wfd-app-util.c _wfd_cpu_limit_mode_changed 375 if (vconf_get_int(VCONFKEY_SETAPPL_PSMODE, &power_mode) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-direct/popup-wifidirect/src/wfd-app-util.c _wfd_power_saving_mode_changed 413 if (vconf_get_int(VCONFKEY_SETAPPL_PSMODE, &power_mode) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-direct/popup-wifidirect/src/wfd-app-util.c wfd_app_util_register_vconf_callbacks 663 ret = vconf_notify_key_changed(VCONFKEY_SETAPPL_PSMODE, _wfd_power_saving_mode_changed, ad);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-direct/popup-wifidirect/src/wfd-app-util.c wfd_app_util_deregister_vconf_callbacks 704 ret = vconf_ignore_key_changed(VCONFKEY_SETAPPL_PSMODE, _wfd_power_saving_mode_changed);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-efl/sources/ui-gadget/viewers-layout/viewer_manager.c _more_button_cb 543 ps_mode = common_util_get_system_registry(VCONFKEY_SETAPPL_PSMODE);

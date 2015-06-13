@@ -1,0 +1,12 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-ciss-keys.h <global> 97 #define VCONFKEY_CISSAPPL_IN_CALL_SOUND_EQ_INT "db/ciss/in_call_sound_eq"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-call-setting.c _cst_call_setting_unlisten_vconf_change 695 vconf_ignore_key_changed(VCONFKEY_CISSAPPL_IN_CALL_SOUND_EQ_INT,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-call-setting.c __cst_create_genlist_phone 860 vconf_notify_key_changed(VCONFKEY_CISSAPPL_IN_CALL_SOUND_EQ_INT,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-main.c setting_plugin_reset 592 ret += vconf_set_int(VCONFKEY_CISSAPPL_IN_CALL_SOUND_EQ_INT, 0);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-sound-eq.c _cst_get_in_call_sound_eq 53 Eina_Bool result = _cst_vconf_get_int(VCONFKEY_CISSAPPL_IN_CALL_SOUND_EQ_INT, &value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-sound-eq.c __cst_gl_sel_in_call_sound_eq 109 Eina_Bool result = _cst_vconf_get_int(VCONFKEY_CISSAPPL_IN_CALL_SOUND_EQ_INT, &value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-sound-eq.c __cst_gl_sel_in_call_sound_eq 121 _cst_vconf_set_int(VCONFKEY_CISSAPPL_IN_CALL_SOUND_EQ_INT, (int )list_in_call_sound_eq[item_data->index].func);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-sound-eq.c __cst_gl_sel_in_call_sound_eq 128 _cst_vconf_set_int(VCONFKEY_CISSAPPL_IN_CALL_SOUND_EQ_INT, (int )list_in_call_sound_eq[item_data->index].func);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-sound-eq.c __cst_call_sound_eq_changed_cb 193 Eina_Bool result = _cst_vconf_get_int(VCONFKEY_CISSAPPL_IN_CALL_SOUND_EQ_INT, &soundeq);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-sound-eq.c __cst_gl_icon_get_sound_eq 232 VCONFKEY_CISSAPPL_IN_CALL_SOUND_EQ_INT);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-sound-eq.c __cst_create_genlist_sound_eq_cst 330 vconf_notify_key_changed(VCONFKEY_CISSAPPL_IN_CALL_SOUND_EQ_INT, __cst_call_sound_eq_changed_cb,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-sound-eq.c _cst_sound_eq_unlisten_vconf_change 384 vconf_ignore_key_changed(VCONFKEY_CISSAPPL_IN_CALL_SOUND_EQ_INT, __cst_call_sound_eq_changed_cb);

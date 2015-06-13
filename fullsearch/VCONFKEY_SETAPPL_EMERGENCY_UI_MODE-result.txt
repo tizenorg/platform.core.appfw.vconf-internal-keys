@@ -1,0 +1,5 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 598 #define VCONFKEY_SETAPPL_EMERGENCY_UI_MODE "db/setting/emergency/mode"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c __mode_syspopup_add 2566 vconf_set_int(VCONFKEY_SETAPPL_EMERGENCY_UI_MODE, EMERGENCY_UI_MODE_EMERGENCY);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c __mode_syspopup_add 2618 vconf_set_int(VCONFKEY_SETAPPL_EMERGENCY_UI_MODE, EMERGENCY_UI_MODE_ULTRA_POWER_SAVING);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c __mode_syspopup_add 2668 vconf_set_int(VCONFKEY_SETAPPL_EMERGENCY_UI_MODE, EMERGENCY_UI_MODE_EMERGENCY);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c __mode_syspopup_add 2709 vconf_get_int(VCONFKEY_SETAPPL_EMERGENCY_UI_MODE, &ultra_emergency);

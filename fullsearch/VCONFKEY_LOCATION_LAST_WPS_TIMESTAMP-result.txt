@@ -1,0 +1,4 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-location-keys.h <global> 75 #define VCONFKEY_LOCATION_LAST_WPS_TIMESTAMP "memory/location/last/wps/Timestamp"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/lbs-server/lbs_server.c nps_set_position 228 setting_set_int(VCONFKEY_LOCATION_LAST_WPS_TIMESTAMP, lbs_server_nps->last_pos.timestamp);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/module/nps_module.c get_last_position 223 if (vconf_get_int(VCONFKEY_LOCATION_LAST_WPS_TIMESTAMP, &timestamp)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/module/nps_module.c get_last_position 228 if (vconf_get_int(VCONFKEY_LOCATION_LAST_WPS_TIMESTAMP, &timestamp) ||

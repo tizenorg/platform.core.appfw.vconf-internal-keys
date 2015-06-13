@@ -1,0 +1,9 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-ciss-keys.h <global> 62 #define VCONFKEY_CISSAPPL_USER_CREATE_MSG3_STR "db/ciss/user_create_message3"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-main.c setting_plugin_reset 577 ret += vconf_set_str(VCONFKEY_CISSAPPL_USER_CREATE_MSG3_STR, "IDS_CST_TMBODY_I_CANT_TALK_NOW_WHATS_UP_Q");
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-reject-msg.c __cst_reject_sms_count_changed_cb 98 vconf_ignore_key_changed(VCONFKEY_CISSAPPL_USER_CREATE_MSG3_STR,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-reject-msg.c _cst_get_reject_message 179 message = _cst_vconf_get_str(VCONFKEY_CISSAPPL_USER_CREATE_MSG3_STR);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-reject-msg.c _cst_set_reject_message_util 239 message_next = _cst_vconf_get_str(VCONFKEY_CISSAPPL_USER_CREATE_MSG3_STR);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-reject-msg.c _cst_set_reject_message_util 240 _cst_vconf_set_str(VCONFKEY_CISSAPPL_USER_CREATE_MSG3_STR, message);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-reject-msg.c _cst_set_reject_message 277 _cst_vconf_set_str(VCONFKEY_CISSAPPL_USER_CREATE_MSG3_STR, message);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-reject-msg.c _cst_genlist_append_reject_list_item 448 vconf_notify_key_changed(VCONFKEY_CISSAPPL_USER_CREATE_MSG3_STR,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-reject-msg.c _cst_destroy_reject_message 1248 vconf_ignore_key_changed(VCONFKEY_CISSAPPL_USER_CREATE_MSG3_STR,

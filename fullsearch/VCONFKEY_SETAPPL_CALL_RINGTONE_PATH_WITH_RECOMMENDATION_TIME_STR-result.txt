@@ -1,0 +1,2 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 94 #define VCONFKEY_SETAPPL_CALL_RINGTONE_PATH_WITH_RECOMMENDATION_TIME_STR "db/setting/sound/call/ringtone_path_with_time"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-profile/src/setting-profile-sound-main.c setting_sound_main_result_myfile_ug_cb 920 vconf_set_str(VCONFKEY_SETAPPL_CALL_RINGTONE_PATH_WITH_RECOMMENDATION_TIME_STR, recommend_info);

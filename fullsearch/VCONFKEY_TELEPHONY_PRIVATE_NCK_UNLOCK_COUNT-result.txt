@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-telephony-keys.h <global> 286 #define VCONFKEY_TELEPHONY_PRIVATE_NCK_UNLOCK_COUNT "memory/private/telephony/nck_unlock_count"

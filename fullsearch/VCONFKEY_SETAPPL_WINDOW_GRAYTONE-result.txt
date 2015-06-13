@@ -1,0 +1,9 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 594 #define VCONFKEY_SETAPPL_WINDOW_GRAYTONE "db/setting/win_gray"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/e17-extra-modules/accessibility/src/e_mod_main.c e_modapi_init 118 vconf_notify_key_changed(VCONFKEY_SETAPPL_WINDOW_GRAYTONE, _e_accessibility_vconf_powersaving_custom_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/e17-extra-modules/accessibility/src/e_mod_main.c _e_accessibility_PowerSaving_update 806 vconf_get_bool(VCONFKEY_SETAPPL_WINDOW_GRAYTONE, &is_gray_tone);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/e17-mod-tizen-accessibility/src/e_mod_main.c e_modapi_init 118 vconf_notify_key_changed(VCONFKEY_SETAPPL_WINDOW_GRAYTONE, _e_accessibility_vconf_powersaving_custom_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/e17-mod-tizen-accessibility/src/e_mod_main.c _e_accessibility_PowerSaving_update 806 vconf_get_bool(VCONFKEY_SETAPPL_WINDOW_GRAYTONE, &is_gray_tone);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c _mode_backup_settings 721 vconf_get_bool(VCONFKEY_SETAPPL_WINDOW_GRAYTONE, &val);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c _mode_power_backup_settings 837 vconf_get_bool(VCONFKEY_SETAPPL_WINDOW_GRAYTONE, &val);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c _mode_apply_settings 1022 vconf_get_bool(VCONFKEY_SETAPPL_WINDOW_GRAYTONE, &crt_val);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c _mode_apply_settings 1031 vconf_set_bool(VCONFKEY_SETAPPL_WINDOW_GRAYTONE, val);

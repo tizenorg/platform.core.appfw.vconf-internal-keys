@@ -1,0 +1,16 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-boot-animation-keys.h <global> 24 #define VCONFKEY_BOOT_ANIMATION_FINISHED "memory/boot_animation/finished"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/boot-animation/src/animation.c _end_cb 143 if (vconf_set_int(VCONFKEY_BOOT_ANIMATION_FINISHED, 1) != 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/boot-animation/src/animation.c _edje_cb 157 if (vconf_set_int(VCONFKEY_BOOT_ANIMATION_FINISHED, 1) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/boot-animation/src/boot-animation.c main 219 if (vconf_set_int(VCONFKEY_BOOT_ANIMATION_FINISHED, 0) != 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/boot-animation/src/boot-animation.c main 223 vconf_set_int(VCONFKEY_BOOT_ANIMATION_FINISHED, 1);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/led/rgb.c led_poweron_changed_cb 352 vconf_ignore_key_changed(VCONFKEY_BOOT_ANIMATION_FINISHED,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/led/rgb.c rgb_init 641 ret = vconf_get_int(VCONFKEY_BOOT_ANIMATION_FINISHED, &boot);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/led/rgb.c rgb_init 652 vconf_notify_key_changed(VCONFKEY_BOOT_ANIMATION_FINISHED,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/mobile/starter.c _finish_boot_animation 68 if (vconf_set_int(VCONFKEY_BOOT_ANIMATION_FINISHED, 1) != 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c _status_passive_change_cb 246 } else if (!strcmp(key_name, VCONFKEY_BOOT_ANIMATION_FINISHED)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 433 if (vconf_notify_key_changed(VCONFKEY_BOOT_ANIMATION_FINISHED, _status_passive_change_cb, NULL) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 434 _E("Failed to register add the callback for %s", VCONFKEY_BOOT_ANIMATION_FINISHED);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 435 } else if (vconf_get_int(VCONFKEY_BOOT_ANIMATION_FINISHED, &s_status_passive.boot_animation_finished) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 436 _E("Failed to get vconfkey[%s]", VCONFKEY_BOOT_ANIMATION_FINISHED);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_unregister 563 if (vconf_ignore_key_changed(VCONFKEY_BOOT_ANIMATION_FINISHED, _status_passive_change_cb) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_unregister 564 _E("Failed to unregister the callback for %s", VCONFKEY_BOOT_ANIMATION_FINISHED);

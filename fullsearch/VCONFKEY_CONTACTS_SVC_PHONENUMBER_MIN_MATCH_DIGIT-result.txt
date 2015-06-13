@@ -1,0 +1,4 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/contacts-service/native/ctsvc_setting.c <global> 49 static const char *CTSVC_VCONF_PHONENUMBER_MIN_MATCH_DIGIT = VCONFKEY_CONTACTS_SVC_PHONENUMBER_MIN_MATCH_DIGIT;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-contacts-svc-keys.h <global> 38 #define VCONFKEY_CONTACTS_SVC_PHONENUMBER_MIN_MATCH_DIGIT "db/contacts-svc/phonenumber_min_match_digit"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/common/msg-system-util.c msg_sys_phonenumber_min_match_digit_get 48 return vconf_get_int(VCONFKEY_CONTACTS_SVC_PHONENUMBER_MIN_MATCH_DIGIT, digit);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/msg-service/utils/MsgContact.cpp PHONENUMBER_MIN_MATCH_DIGIT 39 #define PHONENUMBER_MIN_MATCH_DIGIT VCONFKEY_CONTACTS_SVC_PHONENUMBER_MIN_MATCH_DIGIT

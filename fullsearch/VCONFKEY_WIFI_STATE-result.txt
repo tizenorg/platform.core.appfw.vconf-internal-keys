@@ -1,0 +1,43 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-data-slp-setting.c <global> 281 {"wifi_state", "connectivity", INT_SLP_SETTING_WIFI_STATUS, VCONFKEY_WIFI_STATE, eINT, {0}, export_json, import_default},
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-wifi-keys.h <global> 24 #define VCONFKEY_WIFI_STATE "memory/wifi/state"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/email-service/email-core/email-network/email-network.c emnetwork_get_wifi_status 136 if (vconf_get_int(VCONFKEY_WIFI_STATE, &value) != 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/email-service/email-daemon/email-daemon-init.c emdaemon_initialize 593 vconf_notify_key_changed(VCONFKEY_WIFI_STATE, callback_for_VCONFKEY_WIFI_STATE, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/geofence-server/geofence-server/geofence_server.c __start_geofence_service 1433 vconf_get_int(VCONFKEY_WIFI_STATE, &nWifiState);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/signal-handler.c __netconfig_service_signal_handler 160 vconf_get_int(VCONFKEY_WIFI_STATE, &wifi_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-power.c __netconfig_wifi_wearable_wifi_use_mode 461 if (vconf_get_int(VCONFKEY_WIFI_STATE, &wifi_state) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-power.c __netconfig_wifi_airplane_mode 550 vconf_get_int(VCONFKEY_WIFI_STATE, &wifi_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-power.c __netconfig_wifi_restrict_mode 596 vconf_get_int(VCONFKEY_WIFI_STATE, &wifi_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-power.c __netconfig_wifi_emergency_mode 639 vconf_get_int(VCONFKEY_WIFI_STATE, &wifi_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-power.c __netconfig_wifi_pm_state_mode 711 if (vconf_get_int(VCONFKEY_WIFI_STATE, &wifi_state) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-state.c netconfig_wifi_state_set_service_state 320 netconfig_set_vconf_int(VCONFKEY_WIFI_STATE, VCONFKEY_WIFI_CONNECTED);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-state.c netconfig_wifi_state_set_service_state 334 netconfig_set_vconf_int (VCONFKEY_WIFI_STATE, VCONFKEY_WIFI_UNCONNECTED);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-state.c netconfig_wifi_update_power_state 572 netconfig_set_vconf_int(VCONFKEY_WIFI_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-state.c netconfig_wifi_update_power_state 599 netconfig_set_vconf_int(VCONFKEY_WIFI_STATE, VCONFKEY_WIFI_OFF);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/commonlib/net_nfc_util.c net_nfc_util_get_cps 334 vconf_get_int(VCONFKEY_WIFI_STATE, &wifi_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-about/src/setting-about-main.c __setting_about_main_vconf_change_cb 1155 if (!safeStrCmp(vconf_name, VCONFKEY_WIFI_STATE)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-about/src/setting-about-main.c setting_about_main_generate_genlist 2266 int ret = vconf_notify_key_changed(VCONFKEY_WIFI_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-about/src/setting-about-main.c setting_about_main_generate_genlist 2298 int ret = vconf_ignore_key_changed(VCONFKEY_WIFI_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-security/src/setting-security-main.c setting_security_main_create 172 vconf_notify_key_changed(VCONFKEY_WIFI_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-security/src/setting-security-main.c setting_security_main_destroy 211 vconf_ignore_key_changed(VCONFKEY_WIFI_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/setting-handler.c __alternate_wifi_mode 1004 vconf_get_int(VCONFKEY_WIFI_STATE, &wifi_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/setting.c setting_int_vconf_change_cb 436 if (!safeStrCmp(vconf_name, VCONFKEY_WIFI_STATE)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/setting.c setting_main_app_reset 993 REGISTER_VCONF_NODE(ad->listened_list, VCONFKEY_WIFI_STATE, cb, ad);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/swap-manager/daemon/device_vconf.c get_wifi_status 41 res = vconf_get_int(VCONFKEY_WIFI_STATE, &wifi_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c convert_strgkey_to_vconf 247 return VCONFKEY_WIFI_STATE;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c convert_vconf_to_strgkey 417 else if (g_str_equal(key, VCONFKEY_WIFI_STATE) == TRUE) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tethering/src/tethering.c __check_precondition 1359 vconf_get_int(VCONFKEY_WIFI_STATE, &wifi_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-direct/popup-wifidirect/src/wfd-app-util.c _wfd_wifi_status_changed 468 if (vconf_get_int(VCONFKEY_WIFI_STATE, &wifi_status) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-direct/popup-wifidirect/src/wfd-app-util.c wfd_app_util_register_vconf_callbacks 656 ret = vconf_notify_key_changed(VCONFKEY_WIFI_STATE, _wfd_wifi_status_changed, ad);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-direct/popup-wifidirect/src/wfd-app-util.c wfd_app_util_deregister_vconf_callbacks 698 ret = vconf_ignore_key_changed(VCONFKEY_WIFI_STATE, _wfd_wifi_status_changed);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-direct/ug-wifidirect/src/wfd_client.c _wifi_state_cb 55 res = vconf_get_int(VCONFKEY_WIFI_STATE, &wifi_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-direct/ug-wifidirect/src/wfd_client.c wfd_wifi_off 100 res = vconf_notify_key_changed(VCONFKEY_WIFI_STATE, _wifi_state_cb, ugd);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-direct/ug-wifidirect/src/wfd_client.c _activation_cb 453 res = vconf_ignore_key_changed(VCONFKEY_WIFI_STATE, _wifi_state_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-direct/ug-wifidirect/src/wfd_client.c deinit_wfd_client 1632 res = vconf_ignore_key_changed(VCONFKEY_WIFI_STATE, _wifi_state_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-direct/ug-wifidirect/src/wfd_client.c wfd_client_switch_on 1677 res = vconf_get_int(VCONFKEY_WIFI_STATE, &wifi_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-direct/ug-wifidirect/src/wfd_ug.c _wifi_on_state_cb 86 if (vconf_get_int(VCONFKEY_WIFI_STATE, &wifi_state) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-direct/ug-wifidirect/src/wfd_ug.c on_create 526 ret = vconf_notify_key_changed(VCONFKEY_WIFI_STATE, _wifi_on_state_cb, ugd);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-direct/ug-wifidirect/src/wfd_ug.c on_destroy 653 ret = vconf_ignore_key_changed(VCONFKEY_WIFI_STATE, _wifi_on_state_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-efl/sources/ui-gadget/viewers-layout/view_advanced.c _create_list 667 vconf_get_int(VCONFKEY_WIFI_STATE, &wifi_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wifi-direct-manager/src/wifi-direct-util.c wfd_util_check_wifi_state 365 res = vconf_get_int(VCONFKEY_WIFI_STATE, &wifi_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wifi-direct-manager/src/wifi-direct-util.c wfd_util_check_wifi_state 367 WDS_LOGE("Failed to get vconf value [%s]", VCONFKEY_WIFI_STATE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wifi-direct-manager/src/wifi-direct-util.c wfd_util_check_wifi_state 371 WDS_LOGD("[%s: %d]", VCONFKEY_WIFI_STATE, wifi_state);

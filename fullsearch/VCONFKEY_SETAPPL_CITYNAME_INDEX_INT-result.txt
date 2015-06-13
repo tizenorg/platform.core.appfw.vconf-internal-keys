@@ -1,0 +1,6 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 249 #define VCONFKEY_SETAPPL_CITYNAME_INDEX_INT "db/setting/cityname_id"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libug-worldclock-efl/src/worldclock_data.c worldclock_ug_data_get_local_city 804 city = vconf_get_str(VCONFKEY_SETAPPL_CITYNAME_INDEX_INT);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-time/src/setting-time-main.c __update_time_via_sim_card 314 ret = vconf_set_str(VCONFKEY_SETAPPL_CITYNAME_INDEX_INT, city);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-time/src/setting-time-main.c __update_time_via_sim_card 315 setting_retm_if(ret != 0, "set vconf[%s] failed", VCONFKEY_SETAPPL_CITYNAME_INDEX_INT);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-time/src/setting-time-main.c setting_time_main_create 777 ret = vconf_set_str(VCONFKEY_SETAPPL_CITYNAME_INDEX_INT, city);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-time/src/setting-time-main.c setting_time_main_launch_worldclock_result_ug_cb 1172 ret = vconf_set_str(VCONFKEY_SETAPPL_CITYNAME_INDEX_INT, city);

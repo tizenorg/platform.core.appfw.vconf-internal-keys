@@ -1,0 +1,7 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-telephony-keys.h <global> 59 VCONFKEY_TELEPHONY_SVCTYPE_2G ,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webapi-plugins/src/systeminfo/systeminfo-utils.cpp <global> 2033 if (networkType < VCONFKEY_TELEPHONY_SVCTYPE_2G) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webapi-plugins/src/systeminfo/systeminfo-utils.cpp <global> 2035 } else if (networkType == VCONFKEY_TELEPHONY_SVCTYPE_2G) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webapi-plugins/src/systeminfo/systeminfo-utils.cpp <global> 2037 } else if (networkType == VCONFKEY_TELEPHONY_SVCTYPE_2G
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/connection.c indicator_conn_change_cb 425 case VCONFKEY_TELEPHONY_SVCTYPE_2G:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/connection.c indicator_conn_change_cb 501 case VCONFKEY_TELEPHONY_SVCTYPE_2G:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c on_hook_ps_protocol_status 1029 if (svc_type < (enum telephony_network_service_type)VCONFKEY_TELEPHONY_SVCTYPE_2G) {

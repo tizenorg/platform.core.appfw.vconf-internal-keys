@@ -1,0 +1,3 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-sysman-keys.h <global> 64 VCONFKEY_SYSMAN_USB_CONNECTED,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/runtime-info/src/runtime_info_system.c runtime_info_usb_connected_get_value 226 case VCONFKEY_SYSMAN_USB_CONNECTED:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-popup/src/usb/usb-mobile.c usb_state_changed 47 case VCONFKEY_SYSMAN_USB_CONNECTED:

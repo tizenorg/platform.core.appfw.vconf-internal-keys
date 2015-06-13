@@ -1,0 +1,5 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-data-slp-setting.c <global> 304 {"bgprocess", "developeroptions", INT_SLP_SETTING_DEVOPTION_BGPROCESS, VCONFKEY_SETAPPL_DEVOPTION_BGPROCESS, eINT, {0}, export_json, import_default},
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 465 #define VCONFKEY_SETAPPL_DEVOPTION_BGPROCESS "db/setting/devoption/bgprocess"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/aul-1/am_daemon/amd_main.c __add_item_running_list 184 if (vconf_get_int(VCONFKEY_SETAPPL_DEVOPTION_BGPROCESS, &limit) != 0){
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/aul-1/am_daemon/amd_main.c __vconf_cb 260 }else if ( strcmp(name, VCONFKEY_SETAPPL_DEVOPTION_BGPROCESS) == 0){
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/aul-1/am_daemon/amd_main.c __init 556 if (vconf_notify_key_changed(VCONFKEY_SETAPPL_DEVOPTION_BGPROCESS, __vconf_cb, NULL) != 0) {

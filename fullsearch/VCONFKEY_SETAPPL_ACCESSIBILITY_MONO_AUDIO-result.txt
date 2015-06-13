@@ -1,0 +1,3 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-data-slp-setting.c <global> 229 {"mono_audio", "accessibility", BOOL_SLP_SETTING_ACCESSIBILITY_MONO_AUDIO, VCONFKEY_SETAPPL_ACCESSIBILITY_MONO_AUDIO, eBOOL, {0}, export_json, import_default},
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 397 #define VCONFKEY_SETAPPL_ACCESSIBILITY_MONO_AUDIO "db/setting/accessibility/mono_audio"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-sound/include/mm_sound_common.h VCONF_KEY_MONO_AUDIO 41 #define VCONF_KEY_MONO_AUDIO VCONFKEY_SETAPPL_ACCESSIBILITY_MONO_AUDIO

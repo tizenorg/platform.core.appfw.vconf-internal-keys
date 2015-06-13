@@ -1,0 +1,3 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-hotfix.h <global> 135 #define VCONFKEY_CSC_SALESCODE "db/csc/salescode"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-manager/common/src/callmgr-util.c _callmgr_util_init_salescode 528 salescode = vconf_get_str(VCONFKEY_CSC_SALESCODE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-fdn-list.c __cst_fdn_list_icon_get_cb 163 model = _cst_vconf_get_str(VCONFKEY_CSC_SALESCODE);

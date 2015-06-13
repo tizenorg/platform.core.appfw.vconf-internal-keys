@@ -1,0 +1,34 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-call-keys.h <global> 30 VCONFKEY_CALL_OFF = 0x00,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/core/vc-core-util.c _vc_core_util_set_call_status 632 if ((call_status == VCONFKEY_CALL_OFF) && (_vc_core_util_check_video_call_status() == TRUE)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/voice-call-core.c __voicecall_core_handle_normal_end 730 _vc_core_util_set_call_status(VCONFKEY_CALL_OFF);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/voice-call-core.c __voicecall_core_handle_outgoingcall_end 801 _vc_core_util_set_call_status(VCONFKEY_CALL_OFF);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/voice-call-core.c __voicecall_core_handle_outgoingcall_end 811 _vc_core_util_set_call_status(VCONFKEY_CALL_OFF);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/voice-call-core.c voicecall_core_cb 1333 _vc_core_util_set_call_status(VCONFKEY_CALL_OFF);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/voice-call-core.c voicecall_core_cb 1375 _vc_core_util_set_call_status(VCONFKEY_CALL_OFF);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/voice-call-core.c voicecall_core_cb 1661 _vc_core_util_set_call_status(VCONFKEY_CALL_OFF);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/voice-call-core.c voicecall_core_set_to_default 2057 _vc_core_util_set_call_status(VCONFKEY_CALL_OFF);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/voice-call-core.c voicecall_core_stop_redial 3346 _vc_core_util_set_call_status(VCONFKEY_CALL_OFF);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/voice-call-engine.c vcall_engine_force_reset 1246 _vc_core_util_set_call_status(VCONFKEY_CALL_OFF);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/core.c check_lcdon_waiting_state 867 if (ret >= 0 && state != VCONFKEY_CALL_OFF)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/core.c check_lock_screen 1531 if (ret >= 0 && app_state != VCONFKEY_CALL_OFF)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/core.c default_check 1739 if (app_state != VCONFKEY_CALL_OFF)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/email-service/email-core/email-core-utils.c emcore_get_alert_type 1231 if (call_state > VCONFKEY_CALL_OFF && call_state < VCONFKEY_CALL_STATE_MAX) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/processing/call.c __bt_ag_sco_state_changed_cb 111 if (status != VCONFKEY_CALL_OFF) show_call_icon(user_data);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/processing/call.c show_call_icon 167 case VCONFKEY_CALL_OFF:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/processing/call.c indicator_call_change_cb 208 case VCONFKEY_CALL_OFF:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libfeedback/mobile/src/check.c mobile_get_switched_pattern 237 if (callstatus == VCONFKEY_CALL_OFF)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libfeedback/wearable/src/check.c wearable_get_switched_pattern 236 if (callstatus == VCONFKEY_CALL_OFF)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lockscreen/src/sim_state.c _sim_controller_get_call_state 125 if (value == VCONFKEY_CALL_OFF) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/common/msg-ui-common-utility.c msg_common_is_connected_call 864 if (call_status != VCONFKEY_CALL_OFF)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/msg-service/externals/MsgDevicedWrapper.cpp MsgChangePmState 86 if (callStatus > VCONFKEY_CALL_OFF && callStatus < VCONFKEY_CALL_STATE_MAX) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/msg-service/externals/MsgSoundPlayer.cpp MsgGetPlayStatus 330 if (callStatus > VCONFKEY_CALL_OFF && callStatus < VCONFKEY_CALL_STATE_MAX) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/music-player/music-chooser/src/mc-common.c mc_is_call_connected 139 if (state > VCONFKEY_CALL_OFF)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/sim_controller.c _sim_controller_get_call_state 90 if (value == VCONFKEY_CALL_OFF)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-network/src/setting-network-main.c __setting_network_main_exp_cb 409 int status = VCONFKEY_CALL_OFF;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-network/src/setting-network-main.c __setting_network_main_exp_cb 411 if (VCONFKEY_CALL_OFF != status) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-network/src/setting-network-main.c setting_network_main_item_Gendial_mouse_up_cb 1322 int status = VCONFKEY_CALL_OFF;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-network/src/setting-network-main.c setting_network_main_item_Gendial_mouse_up_cb 1324 if (VCONFKEY_CALL_OFF != status) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-profile/src/setting-profile-common.c setting_sound_create_warning_popup_during_call 1004 if (call_state != VCONFKEY_CALL_OFF) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/setting.c setting_int_vconf_change_cb 513 status = (VCONFKEY_CALL_OFF != status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/swap-manager/daemon/device_vconf.c get_call_status 122 call_status = VCONFKEY_CALL_OFF;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-popup/system-servant/system-servant.c get_call_state 245 && state != VCONFKEY_CALL_OFF)

@@ -1,0 +1,15 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-sysman-keys.h <global> 40 VCONFKEY_SYSMAN_BAT_POWER_OFF = 1,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/application/app_common/app_event.c _app_convert_low_battery 70 case VCONFKEY_SYSMAN_BAT_POWER_OFF:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth/src/bt-util.c _bt_util_is_battery_low 490 if (value <= VCONFKEY_SYSMAN_BAT_POWER_OFF)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/device/src/device.c device_battery_get_warning_status 175 if (value == VCONFKEY_SYSMAN_BAT_POWER_OFF) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/battery/lowbat-handler-wearable.c check_extreme_status 29 if (status <= VCONFKEY_SYSMAN_BAT_POWER_OFF ||
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/battery/lowbat-handler.c lowbat_process 489 if (vconf_state != VCONFKEY_SYSMAN_BAT_POWER_OFF)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/battery/lowbat-handler.c lowbat_process 490 status = VCONFKEY_SYSMAN_BAT_POWER_OFF;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/battery/lowbat-handler.c lowbat_process 498 if (vconf_state != VCONFKEY_SYSMAN_BAT_POWER_OFF)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/battery/lowbat-handler.c lowbat_process 499 status = VCONFKEY_SYSMAN_BAT_POWER_OFF;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/core.c low_battery_state 501 case VCONFKEY_SYSMAN_BAT_POWER_OFF:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/led/torch.c torch_check_battery_status 119 status == VCONFKEY_SYSMAN_BAT_POWER_OFF ||
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/composer/src/bubble/msg-ui-composer-bubble-util.c msg_ui_bubble_launch_msg_viewer 197 if (BatteryStatus == VCONFKEY_SYSMAN_BAT_POWER_OFF) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/viewer/src/msg-ui-viewer-gadget.c __msg_ui_viewer_on_event 669 if (battey_level == VCONFKEY_SYSMAN_BAT_POWER_OFF) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-bluetooth-efl/src/libraries/bt-util.c _bt_util_is_battery_low 325 if (value <= VCONFKEY_SYSMAN_BAT_POWER_OFF)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-myfile-efl/src/common/mf-ug-list-play.c mf_ug_list_play_play_music_item 1413 if (error_code == 0 && key <= VCONFKEY_SYSMAN_BAT_POWER_OFF) {

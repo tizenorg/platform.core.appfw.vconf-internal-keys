@@ -1,0 +1,3 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-telephony-keys.h <global> 119 VCONFKEY_TELEPHONY_SIM_STATUS_CARD_BLOCKED = 0x06,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/manager/net_nfc_server_se.c _vconf_sim_status_cb 787 case VCONFKEY_TELEPHONY_SIM_STATUS_CARD_BLOCKED :
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/manager/net_nfc_server_se.c _se_uicc_init 889 case VCONFKEY_TELEPHONY_SIM_STATUS_CARD_BLOCKED :

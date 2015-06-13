@@ -1,0 +1,7 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-dnet-keys.h <global> 54 VCONFKEY_NETWORK_CELLULAR_FLIGHT_MODE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/connection/src/connection.c __connection_convert_cellular_state 51 case VCONFKEY_NETWORK_CELLULAR_FLIGHT_MODE:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-agent/src/mobileap_handler.c __handle_network_cellular_state_changed_cb 73 if (vconf_key != VCONFKEY_NETWORK_CELLULAR_FLIGHT_MODE)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-syspopup/src/ms_main.c _handle_network_cellular_state_changed_cb 93 if (vconf_key != VCONFKEY_NETWORK_CELLULAR_FLIGHT_MODE)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-mobile-ap/src/mh_common_utility.c _handle_network_cellular_state_changed_cb 46 if (vconf_key != VCONFKEY_NETWORK_CELLULAR_FLIGHT_MODE)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/video-player/src/common/mp-video-streaming-ctrl.c mp_streaming_ctrl_cellular_state_cb 290 case VCONFKEY_NETWORK_CELLULAR_FLIGHT_MODE:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/video-player/src/common/mp-video-streaming-ctrl.c mp_streaming_ctrl_get_cellular_state 561 case VCONFKEY_NETWORK_CELLULAR_FLIGHT_MODE:

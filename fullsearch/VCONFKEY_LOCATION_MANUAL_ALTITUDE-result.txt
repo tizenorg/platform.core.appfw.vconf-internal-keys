@@ -1,0 +1,2 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-location-keys.h <global> 116 #define VCONFKEY_LOCATION_MANUAL_ALTITUDE "db/location/replay/ManualAltitude"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libslp-lbs-plugin-replay/gps-plugin/src/gps_plugin_replay.c gps_plugin_replay_read_manual 343 if (setting_get_double(VCONFKEY_LOCATION_MANUAL_ALTITUDE, &pos_data->altitude) == FALSE) {

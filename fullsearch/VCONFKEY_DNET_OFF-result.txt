@@ -1,0 +1,13 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-dnet-keys.h <global> 61 VCONFKEY_DNET_OFF = 0x00,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/connection.c on_noti 304 if (val == VCONFKEY_DNET_OFF)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/connection.c on_noti 324 if (val == VCONFKEY_DNET_OFF)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/connection.c indicator_conn_change_cb 387 if (status == VCONFKEY_DNET_OFF)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/connection.c indicator_conn_change_cb 460 if (status == VCONFKEY_DNET_OFF)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/composer/src/bubble/msg-ui-composer-bubble-list.c __msg_ui_bubble_dnet_state_change 2318 if (is_network_in_use != VCONFKEY_DNET_OFF) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/composer/src/ui-composer/msg-ui-composer-common.c __msgc_dnet_state_change 279 if (is_network_in_use != VCONFKEY_DNET_OFF) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/msg-service/plugin/sms_cdma_plugin/SmsCdmaPluginCallback.cpp _dnet_state_changed_cb 549 if (dnet_state > VCONFKEY_DNET_OFF) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-network/src/setting-network-main.c __network_sub_list_sel_cb 328 if (value_use_packet != VCONFKEY_DNET_OFF) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-network/src/setting-network.c setting_network_searching_network 1854 if (value_use_packet != VCONFKEY_DNET_OFF) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/swap-manager/daemon/device_vconf.c get_dnet_status 136 dnet_status = VCONFKEY_DNET_OFF;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c on_hook_network_registration_status 841 __vconf_check_and_set_int(VCONFKEY_DNET_STATE, VCONFKEY_DNET_OFF);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tethering/src/tethering.c __check_precondition 1352 if(dnet_state > VCONFKEY_DNET_OFF) {

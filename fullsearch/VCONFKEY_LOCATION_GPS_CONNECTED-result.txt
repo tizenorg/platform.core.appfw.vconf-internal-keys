@@ -1,0 +1,3 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-location-keys.h <global> 46 VCONFKEY_LOCATION_GPS_CONNECTED,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/setting/gps.c indicator_gps_state_get 123 if(gps_status == VCONFKEY_LOCATION_GPS_CONNECTED)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/runtime-info/src/runtime_info_connectivity.c runtime_info_gps_status_get_value 207 case VCONFKEY_LOCATION_GPS_CONNECTED:

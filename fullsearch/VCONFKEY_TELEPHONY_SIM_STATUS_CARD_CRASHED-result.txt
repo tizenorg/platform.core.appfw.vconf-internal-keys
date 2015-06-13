@@ -1,0 +1,3 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-telephony-keys.h <global> 126 VCONFKEY_TELEPHONY_SIM_STATUS_CARD_CRASHED = 0x0d,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/manager/net_nfc_server_se.c _vconf_sim_status_cb 788 case VCONFKEY_TELEPHONY_SIM_STATUS_CARD_CRASHED :
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/manager/net_nfc_server_se.c _se_uicc_init 890 case VCONFKEY_TELEPHONY_SIM_STATUS_CARD_CRASHED :

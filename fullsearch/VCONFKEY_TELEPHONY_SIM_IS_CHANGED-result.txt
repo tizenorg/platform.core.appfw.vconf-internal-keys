@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-telephony-keys.h <global> 130 #define VCONFKEY_TELEPHONY_SIM_IS_CHANGED "memory/telephony/sim_is_changed"

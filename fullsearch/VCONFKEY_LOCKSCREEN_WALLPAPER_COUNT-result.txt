@@ -1,0 +1,4 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-lockscreen-keys.h <global> 35 #define VCONFKEY_LOCKSCREEN_WALLPAPER_COUNT "db/lockscreen/wallpaper_count"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wallpaper-ui-service/include/wallpaper-ui-service-main.h <global> 52 #ifndef VCONFKEY_LOCKSCREEN_WALLPAPER_COUNT
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wallpaper-ui-service/include/wallpaper-ui-service-main.h <global> 53 #define VCONFKEY_LOCKSCREEN_WALLPAPER_COUNT "db/lockscreen/wallpaper_count"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wallpaper-ui-service/src/wallpaper-ui-service-main.c _done_to_set_wallpaper 1239 vconf_set_int(VCONFKEY_LOCKSCREEN_WALLPAPER_COUNT, index);

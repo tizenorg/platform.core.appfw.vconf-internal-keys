@@ -1,0 +1,32 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-dnet-keys.h <global> 58 #define VCONFKEY_DNET_STATE "memory/dnet/state"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/connection/src/connection.c connection_get_cellular_state 647 rv = vconf_get_int(VCONFKEY_DNET_STATE, &cellular_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/connection.c on_noti 302 ret = vconf_get_int(VCONFKEY_DNET_STATE, &val);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/connection.c indicator_conn_change_cb 373 vconf_get_int(VCONFKEY_DNET_STATE, &mms_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/connection.c indicator_conn_change_cb 385 ret = vconf_get_int(VCONFKEY_DNET_STATE, &status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/connection.c __init_tel 650 ret = vconf_notify_key_changed(VCONFKEY_DNET_STATE, dnet_state_callback, data);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/connection.c unregister_conn_module 748 ret = ret | vconf_ignore_key_changed(VCONFKEY_DNET_STATE, dnet_state_callback);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/composer/src/bubble/msg-ui-composer-bubble-list.c __msg_ui_bubble_dnet_state_change 2313 vconf_get_int(VCONFKEY_DNET_STATE, &is_network_in_use);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/composer/src/bubble/msg-ui-composer-bubble-list.c __msg_ui_bubble_dnet_state_change 2326 if (vconf_ignore_key_changed(VCONFKEY_DNET_STATE, __msg_ui_bubble_dnet_state_change) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/composer/src/bubble/msg-ui-composer-bubble-list.c __msg_ui_bubble_dnet_state_change 2327 D_EMSG("Fail to remove vconf time with [%s]", VCONFKEY_DNET_STATE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/composer/src/bubble/msg-ui-composer-bubble-list.c __msg_ui_bubble_switch_network_popup_timeout_cb 2386 if (vconf_ignore_key_changed(VCONFKEY_DNET_STATE, __msg_ui_bubble_dnet_state_change) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/composer/src/bubble/msg-ui-composer-bubble-list.c __msg_ui_bubble_switch_network_popup_timeout_cb 2387 D_EMSG("Fail to remove vconf time with [%s]", VCONFKEY_DNET_STATE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/composer/src/bubble/msg-ui-composer-bubble-list.c __msg_net_switch_clicked_cb 2452 if (vconf_notify_key_changed(VCONFKEY_DNET_STATE, __msg_ui_bubble_dnet_state_change, (void *)switch_data) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/composer/src/ui-composer/msg-ui-composer-common.c __msgc_dnet_state_change 272 vconf_result = vconf_get_int(VCONFKEY_DNET_STATE, &is_network_in_use);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/composer/src/ui-composer/msg-ui-composer-common.c __msgc_dnet_state_change 288 if (vconf_ignore_key_changed(VCONFKEY_DNET_STATE, __msgc_dnet_state_change) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/composer/src/ui-composer/msg-ui-composer-common.c __msgc_dnet_state_change 289 D_EMSG("Fail to remove vconf time with [%s]", VCONFKEY_DNET_STATE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/composer/src/ui-composer/msg-ui-composer-common.c __msg_ui_composer_switch_network_popup_timeout_cb 321 if (vconf_ignore_key_changed(VCONFKEY_DNET_STATE, __msgc_dnet_state_change) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/composer/src/ui-composer/msg-ui-composer-common.c __msg_ui_composer_switch_network_popup_timeout_cb 322 D_EMSG("Fail to remove vconf time with [%s]", VCONFKEY_DNET_STATE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/composer/src/ui-composer/msg-ui-composer-common.c msg_ui_composer_common_sim_network_changed 440 if (vconf_notify_key_changed(VCONFKEY_DNET_STATE, __msgc_dnet_state_change, (void *)cd) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/msg-service/plugin/sms_cdma_plugin/SmsCdmaPluginCallback.cpp registerEvent 81 MsgSettingRegVconfCBCommon(VCONFKEY_DNET_STATE, _dnet_state_changed_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/msg-service/plugin/sms_cdma_plugin/SmsCdmaPluginCallback.cpp _dnet_state_changed_cb 547 int dnet_state = MsgSettingGetInt(VCONFKEY_DNET_STATE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/utils/emulator.c __netconfig_emulator_set_network_state 108 vconf_set_int(VCONFKEY_DNET_STATE, VCONFKEY_DNET_NORMAL_CONNECTED);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-network/src/setting-network-main.c __network_sub_list_sel_cb 326 vconf_get_int(VCONFKEY_DNET_STATE, &value_use_packet);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-network/src/setting-network-main.c setting_network_main_item_Gendial_mouse_up_cb 1331 vconf_get_int(VCONFKEY_DNET_STATE, &value_use_packet);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-network/src/setting-network.c setting_network_searching_network 1851 vconf_get_int(VCONFKEY_DNET_STATE, &value_use_packet);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/swap-manager/daemon/device_vconf.c get_dnet_status 133 res = vconf_get_int(VCONFKEY_DNET_STATE, &dnet_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/swap-manager/daemon/device_vconf.c get_dnet_status 135 LOG_ONCE_W("get err #%d <%s>\n", res, VCONFKEY_DNET_STATE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c convert_strgkey_to_vconf 179 return VCONFKEY_DNET_STATE;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c convert_vconf_to_strgkey 331 else if (g_str_equal(key, VCONFKEY_DNET_STATE) == TRUE) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c on_hook_network_registration_status 838 vconf_get_int(VCONFKEY_DNET_STATE, &pkg_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c on_hook_network_registration_status 841 __vconf_check_and_set_int(VCONFKEY_DNET_STATE, VCONFKEY_DNET_OFF);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tethering/src/tethering.c __check_precondition 1351 vconf_get_int(VCONFKEY_DNET_STATE, &dnet_state);

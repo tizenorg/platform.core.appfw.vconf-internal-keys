@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-hotfix.h <global> 178 #define VCONFKEY_MOBEX_ENGINE_MEMO_SYNC_STATUS "memory/mobex_engine/memo_sync_status"

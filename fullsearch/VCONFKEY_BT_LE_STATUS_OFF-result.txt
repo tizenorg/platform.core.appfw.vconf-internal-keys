@@ -1,0 +1,11 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-frwk/bt-core/bt-core-adapter.c <global> 40 static int bt_le_status_before[BT_MODE_MAX] = { VCONFKEY_BT_LE_STATUS_OFF, };
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-bt-keys.h <global> 36 VCONFKEY_BT_LE_STATUS_OFF = 0x0000,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-frwk/bt-core/bt-core-adapter.c __bt_core_update_status 296 int bt_le_status = VCONFKEY_BT_LE_STATUS_OFF;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-frwk/bt-core/bt-core-adapter.c __bt_core_update_status 310 if (bt_le_status == VCONFKEY_BT_LE_STATUS_OFF)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-frwk/bt-core/bt-core-adapter.c _bt_core_adapter_removed_cb 657 if (vconf_set_int(VCONFKEY_BT_LE_STATUS, VCONFKEY_BT_LE_STATUS_OFF) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-frwk/bt-core/bt-core-main.c __bt_check_bt_core 83 int bt_le_status = VCONFKEY_BT_LE_STATUS_OFF;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-frwk/bt-service/bt-service-adapter.c _bt_set_le_disabled 629 if (vconf_set_int(VCONFKEY_BT_LE_STATUS, VCONFKEY_BT_LE_STATUS_OFF) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-frwk/bt-service/bt-service-event-receiver.c __bt_adapter_property_changed_event 726 bt_state != VCONFKEY_BT_LE_STATUS_OFF) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-frwk/bt-service/bt-service-main.c _bt_terminate_service 100 if (bt_status != VCONFKEY_BT_LE_STATUS_OFF) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-frwk/bt-service/bt-service-main.c _bt_terminate_service 102 VCONFKEY_BT_LE_STATUS_OFF) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-frwk/bt-service/bt-service-main.c __bt_check_bt_service 154 int bt_le_status = VCONFKEY_BT_LE_STATUS_OFF;

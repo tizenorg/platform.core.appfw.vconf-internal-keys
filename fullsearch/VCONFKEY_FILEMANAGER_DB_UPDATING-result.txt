@@ -1,0 +1,4 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-filemanager-keys.h <global> 36 VCONFKEY_FILEMANAGER_DB_UPDATING = 0,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/media-server/src/scanner/media-scanner-scan.c __msc_set_db_status 119 if (!ms_config_set_int(VCONFKEY_FILEMANAGER_DB_STATUS, VCONFKEY_FILEMANAGER_DB_UPDATING)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/media-server/src/server/media-server-scanner.c ms_check_scanning_status 68 if (status == VCONFKEY_FILEMANAGER_DB_UPDATING) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/music-player/src/mp-main.c _mp_main_win_focus_in_cb 265 if (db_state == VCONFKEY_FILEMANAGER_DB_UPDATING) {

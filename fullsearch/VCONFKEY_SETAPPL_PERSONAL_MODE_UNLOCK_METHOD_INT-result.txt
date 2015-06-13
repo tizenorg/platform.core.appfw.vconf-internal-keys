@@ -1,0 +1,2 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 588 #define VCONFKEY_SETAPPL_PERSONAL_MODE_UNLOCK_METHOD_INT "db/setting/personal_unlock_method"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-password/src/setting-password-forgot-password.c __reset_personal_popup_resp_cb 57 vconf_set_int(VCONFKEY_SETAPPL_PERSONAL_MODE_UNLOCK_METHOD_INT, -1);

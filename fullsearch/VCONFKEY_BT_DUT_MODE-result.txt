@@ -1,0 +1,3 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-bt-keys.h <global> 40 #define VCONFKEY_BT_DUT_MODE "memory/bluetooth/dutmode"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-frwk/bt-service/bt-service-adapter-le.c __bt_is_factory_test_mode 143 if (vconf_get_bool(VCONFKEY_BT_DUT_MODE, &mode)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-frwk/bt-service/bt-service-adapter.c __bt_is_factory_test_mode 111 if (vconf_get_bool(VCONFKEY_BT_DUT_MODE, &mode)) {

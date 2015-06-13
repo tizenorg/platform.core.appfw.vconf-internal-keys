@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-telephony-keys.h <global> 252 #define VCONFKEY_TELEPHONY_CALL_SIGNAL_TYPE "memory/telephony/call_alert_signal_type"

@@ -1,0 +1,6 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-sound-keys.h <global> 27 VCONFKEY_SOUND_STATUS_AVRECORDING = 0x00000040
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/edje_multisense_plugin/src/tizen_sound_player/tizen_sound_player.c _vconf_noti_key_changed_cb 113 player->vrecord_on = sound_status & VCONFKEY_SOUND_STATUS_AVRECORDING;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/edje_multisense_plugin/src/tizen_sound_player/tizen_sound_player.c remix_player_init 186 player_data->vrecord_on = sound_status & VCONFKEY_SOUND_STATUS_AVRECORDING;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libfeedback/mobile/src/check.c mobile_get_always_off_case 335 if (CHECK_SOUND(type) && ret & VCONFKEY_SOUND_STATUS_AVRECORDING) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libfeedback/wearable/src/check.c wearable_get_always_off_case 346 if (CHECK_SOUND(type) && ret & VCONFKEY_SOUND_STATUS_AVRECORDING) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-popup/system-servant/system-servant.c get_voice_recording_state 254 && (state & VCONFKEY_SOUND_STATUS_AVRECORDING))

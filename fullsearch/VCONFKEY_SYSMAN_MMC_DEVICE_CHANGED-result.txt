@@ -1,0 +1,5 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-sysman-keys.h <global> 155 #define VCONFKEY_SYSMAN_MMC_DEVICE_CHANGED "db/sysman/mmc_dev_changed"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-provider-slave/src/main.c app_create 365 ret = vconf_notify_key_changed(VCONFKEY_SYSMAN_MMC_DEVICE_CHANGED, mmc_changed_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-provider-slave/src/main.c app_terminate 423 ret = vconf_ignore_key_changed(VCONFKEY_SYSMAN_MMC_DEVICE_CHANGED, mmc_changed_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-provider-slave/svc_src/main.c app_create 365 ret = vconf_notify_key_changed(VCONFKEY_SYSMAN_MMC_DEVICE_CHANGED, mmc_changed_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-provider-slave/svc_src/main.c app_terminate 422 ret = vconf_ignore_key_changed(VCONFKEY_SYSMAN_MMC_DEVICE_CHANGED, mmc_changed_cb);

@@ -1,0 +1,5 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-sysman-keys.h <global> 113 #define VCONFKEY_SYSMAN_MMC_MOUNT "memory/sysman/mmc_mount"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-storage/src/setting-storage-SD.c storageUg_SD_info_inserted_not_mounted 386 vconf_get_int(VCONFKEY_SYSMAN_MMC_MOUNT, &status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-popup/src/mmc/mmc-mobile.c mmc_mounted 68 if (vconf_get_int(VCONFKEY_SYSMAN_MMC_MOUNT, &val) == 0
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-popup/src/mmc/mmc-mobile.c register_mmc_mount_handler 189 if (vconf_notify_key_changed(VCONFKEY_SYSMAN_MMC_MOUNT,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-popup/src/mmc/mmc-mobile.c unregister_mmc_mount_handler 196 vconf_ignore_key_changed(VCONFKEY_SYSMAN_MMC_MOUNT,

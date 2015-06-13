@@ -1,0 +1,9 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-sysman-keys.h <global> 65 VCONFKEY_SYSMAN_USB_AVAILABLE
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-syspopup/src/ms_main.c __handle_popup_resp 371 if (_get_usb_state() != VCONFKEY_SYSMAN_USB_AVAILABLE) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-syspopup/src/ms_main.c __handle_popup_resp 387 if (_get_usb_state() != VCONFKEY_SYSMAN_USB_AVAILABLE) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/runtime-info/src/runtime_info_system.c runtime_info_usb_connected_get_value 230 case VCONFKEY_SYSMAN_USB_AVAILABLE:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-popup/src/usb/usb-mobile.c usb_state_changed 48 case VCONFKEY_SYSMAN_USB_AVAILABLE:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-mobile-ap/src/mh_common_utility.c _handle_usb_status_change 289 if (vconf_key != VCONFKEY_SYSMAN_USB_AVAILABLE) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-mobile-ap/src/mh_popup.c __handle_popup_resp 155 if (_get_vconf_usb_state() != VCONFKEY_SYSMAN_USB_AVAILABLE) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-mobile-ap/src/mh_view_main.c _update_main_view 454 if (_get_vconf_usb_state() != VCONFKEY_SYSMAN_USB_AVAILABLE) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-mobile-ap/src/mh_view_main.c __create_inner_contents 1313 if (_get_vconf_usb_state() != VCONFKEY_SYSMAN_USB_AVAILABLE) {

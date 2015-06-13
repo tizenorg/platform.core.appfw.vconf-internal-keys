@@ -1,0 +1,5 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-browser-keys.h <global> 32 #define VCONFKEY_BROWSER_BROWSER_USER_AGENT "db/browser/browser_user_agent"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/browser/src/settings-advanced.cpp _reset_to_default_setting 1008 if (vconf_set_str(VCONFKEY_BROWSER_BROWSER_USER_AGENT, "System user agent") < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/browser/src/user-agent-manager.cpp m_desktop_user_agent_string 47 if (vconf_notify_key_changed(VCONFKEY_BROWSER_BROWSER_USER_AGENT, __vconf_changed_cb, this) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/browser/src/user-agent-manager.cpp get_user_agent 60 char *user_agent_name = vconf_get_str(VCONFKEY_BROWSER_BROWSER_USER_AGENT);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/browser/user-agent-select/src/user-agent-view.cpp USERAGENT_KEY 35 #define USERAGENT_KEY VCONFKEY_BROWSER_BROWSER_USER_AGENT

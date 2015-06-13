@@ -1,0 +1,22 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-wifi-keys.h <global> 122 #define VCONFKEY_WIFI_DIRECT_STATE "memory/wifi_direct/state"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf/include/vconf-keys.h <global> 59 #define VCONFKEY_WIFI_DIRECT_STATE "memory/wifi_direct/state"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/setting/wifi-direct.c indicator_wifi_direct_change_cb 125 ret = vconf_get_int(VCONFKEY_WIFI_DIRECT_STATE, &status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/setting/wifi-direct.c access_info_cb 164 vconf_get_int(VCONFKEY_WIFI_DIRECT_STATE, &status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/setting/wifi-direct.c register_wifi_direct_module 190 ret = vconf_notify_key_changed(VCONFKEY_WIFI_DIRECT_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/setting/wifi-direct.c unregister_wifi_direct_module 202 ret = vconf_ignore_key_changed(VCONFKEY_WIFI_DIRECT_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-agent/src/mobileap_wifi.c __is_wifi_direct_on 210 ret = vconf_get_int(VCONFKEY_WIFI_DIRECT_STATE, &wifi_direct_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-syspopup/src/ms_wifi.c _is_wifi_direct_on 33 ret = vconf_get_int(VCONFKEY_WIFI_DIRECT_STATE, &wifi_direct_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/utils/util.c netconfig_is_wifi_direct_on 311 vconf_get_int(VCONFKEY_WIFI_DIRECT_STATE, &wifi_direct_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-mobile-ap/src/mh_func_onoff.c _is_wifi_direct_on 791 ret = vconf_get_int(VCONFKEY_WIFI_DIRECT_STATE, &wifi_direct_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-direct/popup-wifidirect/src/wfd-app-client.c _cb_connection 598 if (vconf_get_int(VCONFKEY_WIFI_DIRECT_STATE, &wfd_state) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-direct/popup-wifidirect/src/wfd-app-client.c _cb_connection 599 WFD_APP_LOG(WFD_APP_LOG_ERROR, "Error reading vconf (%s)\n", VCONFKEY_WIFI_DIRECT_STATE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-direct/ug-wifidirect/src/wfd_client.c wfd_get_vconf_status 1269 if (vconf_get_int(VCONFKEY_WIFI_DIRECT_STATE, &wifi_direct_state) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-direct/ug-wifidirect/src/wfd_client.c wfd_get_vconf_status 1270 DBG(LOG_ERROR, "Error reading vconf (%s)\n", VCONFKEY_WIFI_DIRECT_STATE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/video-player/playview/src/common/vp-play-vconf.c vp_play_vconf_get_wifi_direct_connect_status 147 nErr = vconf_get_int(VCONFKEY_WIFI_DIRECT_STATE, &nVal);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/video-player/playview/src/common/vp-play-vconf.c vp_play_vconf_get_wifi_direct_active_status 169 nErr = vconf_get_int(VCONFKEY_WIFI_DIRECT_STATE, &nVal);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/video-player/src/common/mp-util.c mp_util_is_connect_wifi_direct 1787 if (!vconf_get_int(VCONFKEY_WIFI_DIRECT_STATE, &ntmpGetWifiState)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wifi-direct-manager/src/wifi-direct-util.c wfd_util_get_wifi_direct_state 459 res = vconf_get_int(VCONFKEY_WIFI_DIRECT_STATE, &state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wifi-direct-manager/src/wifi-direct-util.c wfd_util_get_wifi_direct_state 461 WDS_LOGE("Failed to get vconf value [%s]\n", VCONFKEY_WIFI_DIRECT_STATE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wifi-direct-manager/src/wifi-direct-util.c wfd_util_set_wifi_direct_state 493 WDS_LOGD("Vconf key set [%s: %d]", VCONFKEY_WIFI_DIRECT_STATE, vconf_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wifi-direct-manager/src/wifi-direct-util.c wfd_util_set_wifi_direct_state 495 res = vconf_set_int(VCONFKEY_WIFI_DIRECT_STATE, vconf_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wifi-direct-manager/src/wifi-direct-util.c wfd_util_set_wifi_direct_state 497 WDS_LOGE("Failed to set vconf [%s]", VCONFKEY_WIFI_DIRECT_STATE);

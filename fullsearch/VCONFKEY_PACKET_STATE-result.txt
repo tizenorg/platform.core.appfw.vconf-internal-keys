@@ -1,0 +1,6 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-dnet-keys.h <global> 69 #define VCONFKEY_PACKET_STATE "memory/dnet/packet_state"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/connection.c show_connection_transfer_icon 111 ret = vconf_get_int(VCONFKEY_PACKET_STATE, &state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/connection.c __init_tel 660 ret = vconf_notify_key_changed(VCONFKEY_PACKET_STATE, packet_state_callback, data);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/connection.c unregister_conn_module 751 ret = ret | vconf_ignore_key_changed(VCONFKEY_PACKET_STATE, packet_state_callback);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c convert_strgkey_to_vconf 185 return VCONFKEY_PACKET_STATE;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c convert_vconf_to_strgkey 339 else if (g_str_equal(key, VCONFKEY_PACKET_STATE) == TRUE) {

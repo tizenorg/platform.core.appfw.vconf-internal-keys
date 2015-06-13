@@ -1,0 +1,3 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-sysman-keys.h <global> 118 VCONFKEY_SYSMAN_MMC_MOUNT_FAILED
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-popup/src/mmc/mmc-mobile.c mmc_mounted 69 && val == VCONFKEY_SYSMAN_MMC_MOUNT_FAILED)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-popup/src/mmc/mmc-mobile.c mmc_mount_status_changed 180 if (vconf_keynode_get_int(in_key) == VCONFKEY_SYSMAN_MMC_MOUNT_FAILED)

@@ -1,0 +1,10 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-data-slp-setting.c <global> 232 {"accept_call", "accessibility", BOOL_SLP_SETTING_ACCESSIBILITY_ACCEPT_CALL, VCONFKEY_CISSAPPL_ANSWERING_KEY_BOOL, eBOOL, {0}, export_json, import_default},
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-ciss-keys.h <global> 82 #define VCONFKEY_CISSAPPL_ANSWERING_KEY_BOOL "db/ciss/call_answering_key"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-answering.c __cst_on_click_onoff 60 _cst_vconf_set_bool(VCONFKEY_CISSAPPL_ANSWERING_KEY_BOOL, !check_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-answering.c __cst_on_changed_answering_key 92 _cst_vconf_set_bool(VCONFKEY_CISSAPPL_ANSWERING_KEY_BOOL, check_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-answering.c __cst_gl_answering_ending_icon_get 142 _cst_vconf_get_bool(VCONFKEY_CISSAPPL_ANSWERING_KEY_BOOL, &value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-answering.c __cst_create_gl_answering_ending 242 vconf_notify_key_changed(VCONFKEY_CISSAPPL_ANSWERING_KEY_BOOL,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-answering.c _cst_destroy_answering_call 340 vconf_ignore_key_changed(VCONFKEY_CISSAPPL_ANSWERING_KEY_BOOL,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-main.c setting_plugin_reset 551 ret += vconf_set_bool(VCONFKEY_CISSAPPL_ANSWERING_KEY_BOOL, EINA_FALSE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-ui/src/callui-common.c _callui_common_is_answering_mode_on 813 ret = vconf_get_bool(VCONFKEY_CISSAPPL_ANSWERING_KEY_BOOL, &bAnswerMode);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/ui/src/vcui-application.c _vcui_is_answering_mode_on 2247 ret = vconf_get_bool(VCONFKEY_CISSAPPL_ANSWERING_KEY_BOOL, &bAnswerMode);

@@ -1,0 +1,48 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-data-slp-setting.c <global> 292 {"sim_slot", "security", INT_SLP_SETTING_SIM_SLOT, VCONFKEY_TELEPHONY_SIM_SLOT, eINT, {0}, export_json, import_default},
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-telephony-keys.h <global> 90 #define VCONFKEY_TELEPHONY_SIM_SLOT "memory/telephony/sim_slot"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/browser/src/network-manager.cpp _check_sim_inserted 76 int ret = vconf_get_int(VCONFKEY_TELEPHONY_SIM_SLOT, &sim_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-util.c _cst_check_dual_sim_status 202 _cst_vconf_get_int(VCONFKEY_TELEPHONY_SIM_SLOT, &sim_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-util.c _cst_check_sim_status 223 _cst_vconf_get_int(VCONFKEY_TELEPHONY_SIM_SLOT, &sim_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/voice-call-engine.c vcall_engine_get_active_sim_slot_count 314 if (vconf_get_int(VCONFKEY_TELEPHONY_SIM_SLOT, &sim_status) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/email-service/email-core/email-network/email-network.c _get_sim_status 89 if (vconf_get_int(VCONFKEY_TELEPHONY_SIM_SLOT, &value) != 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/nosim.c indicator_nosim_change_cb 97 ret = vconf_get_int(VCONFKEY_TELEPHONY_SIM_SLOT, &status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/nosim.c register_nosim_module 120 ret = vconf_notify_key_changed(VCONFKEY_TELEPHONY_SIM_SLOT,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/nosim.c unregister_nosim_module 134 ret = vconf_ignore_key_changed(VCONFKEY_TELEPHONY_SIM_SLOT,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/information/noti.c indicator_noti_sim_slot_cb 628 ret = vconf_get_int(VCONFKEY_TELEPHONY_SIM_SLOT, &status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/information/noti.c register_noti_module 652 vconf_notify_key_changed(VCONFKEY_TELEPHONY_SIM_SLOT, indicator_noti_sim_slot_cb, data);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/information/noti.c unregister_noti_module 673 vconf_ignore_key_changed(VCONFKEY_TELEPHONY_SIM_SLOT, indicator_noti_sim_slot_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/network/roaming.c indicator_roaming_change_cb 78 ret = vconf_get_int(VCONFKEY_TELEPHONY_SIM_SLOT, &status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/network/roaming.c register_roaming_module 117 ret = vconf_notify_key_changed(VCONFKEY_TELEPHONY_SIM_SLOT,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/network/roaming.c unregister_roaming_module 135 ret = ret | vconf_ignore_key_changed(VCONFKEY_TELEPHONY_SIM_SLOT,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/common/msg-ui-common-utility.c msg_common_is_sim_inserted 874 if (vconf_get_int(VCONFKEY_TELEPHONY_SIM_SLOT, &sim_slot_status) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/common/msg-ui-common-utility.c msg_common_get_active_sim_count 4379 err = vconf_get_int(VCONFKEY_TELEPHONY_SIM_SLOT, &sim_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/setting/src/main/msg-ui-setting-common-util.c msg_ui_setting_common_get_inserted_sim_count 699 err = vconf_get_int(VCONFKEY_TELEPHONY_SIM_SLOT, &sim_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/setting/src/main/msg-ui-setting-common-util.c msg_ui_setting_common_get_sim_power_state 771 sim_slot_key = VCONFKEY_TELEPHONY_SIM_SLOT;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-syspopup/src/ms_util.c _get_sim_state 54 if (vconf_get_int(VCONFKEY_TELEPHONY_SIM_SLOT, &value) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-syspopup/src/ms_util.c _get_sim_state 57 DBG("%s : %d\n", VCONFKEY_TELEPHONY_SIM_SLOT, value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/msg-service/plugin/sms_plugin/SmsPluginDSHandler.cpp getTelHandle 106 SIM_Status = MsgSettingGetInt(VCONFKEY_TELEPHONY_SIM_SLOT);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/msg-service/plugin/sms_plugin/SmsPluginDSHandler.cpp getActiveSimCount 165 sim_status = MsgSettingGetInt(VCONFKEY_TELEPHONY_SIM_SLOT);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/notification/src/notification_noti.c notification_noti_get_count 1445 ret_vconf = vconf_get_int(VCONFKEY_TELEPHONY_SIM_SLOT, &status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/notification/src/notification_noti.c notification_noti_get_grouping_list 1578 ret = vconf_get_int(VCONFKEY_TELEPHONY_SIM_SLOT, &status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/notification/src/notification_noti.c notification_noti_get_detail_list 1684 ret = vconf_get_int(VCONFKEY_TELEPHONY_SIM_SLOT, &status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/notifications/noti.c _register_event_handler 1081 ret = vconf_notify_key_changed(VCONFKEY_TELEPHONY_SIM_SLOT,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/notifications/noti.c _unregister_event_handler 1103 ret = vconf_ignore_key_changed(VCONFKEY_TELEPHONY_SIM_SLOT,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/settings/modules/mobile_data.c _is_simcard_inserted 179 ret_1 = vconf_get_int(VCONFKEY_TELEPHONY_SIM_SLOT, &sim_status_1);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/settings/modules/mobile_data.c _register_module_event_handler 296 ret = vconf_notify_key_changed(VCONFKEY_TELEPHONY_SIM_SLOT,_mobiledata_vconf_cb, data);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/settings/modules/mobile_data.c _register_module_event_handler 297 msgif(ret != 0, "failed to notify key(%s) : %d", VCONFKEY_TELEPHONY_SIM_SLOT, ret);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/settings/modules/mobile_data.c _unregister_module_event_handler 312 ret = vconf_ignore_key_changed(VCONFKEY_TELEPHONY_SIM_SLOT,_mobiledata_vconf_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/settings/modules/mobile_data.c _unregister_module_event_handler 313 msgif(ret != 0, "failed to ignore key(%s) : %d", VCONFKEY_TELEPHONY_SIM_SLOT, ret);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-nitz/src/desc-nitz.c _check_fix_time_zone 212 vconf_get_int(VCONFKEY_TELEPHONY_SIM_SLOT, &icc_card_exist);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-nitz/src/desc-nitz.c on_vconf_sim_slot_state 465 vconf_get_int(VCONFKEY_TELEPHONY_SIM_SLOT, &icc_card_exist);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-nitz/src/desc-nitz.c on_init 527 vconf_notify_key_changed(VCONFKEY_TELEPHONY_SIM_SLOT, on_vconf_sim_slot_state, data);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-nitz/src/desc-nitz.c on_unload 561 vconf_ignore_key_changed(VCONFKEY_TELEPHONY_SIM_SLOT, on_vconf_sim_slot_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c convert_strgkey_to_vconf 169 return VCONFKEY_TELEPHONY_SIM_SLOT;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c convert_vconf_to_strgkey 320 else if (g_str_equal(key, VCONFKEY_TELEPHONY_SIM_SLOT) == TRUE) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c on_hook_sim_init 935 vconf_set_int(VCONFKEY_TELEPHONY_SIM_SLOT, VCONFKEY_TELEPHONY_SIM_CARD_ERROR);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c on_hook_sim_init 946 vconf_set_int(VCONFKEY_TELEPHONY_SIM_SLOT, VCONFKEY_TELEPHONY_SIM_NOT_PRESENT);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c on_hook_sim_init 965 vconf_set_int(VCONFKEY_TELEPHONY_SIM_SLOT, VCONFKEY_TELEPHONY_SIM_INSERTED);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c on_hook_sim_init 975 vconf_set_int(VCONFKEY_TELEPHONY_SIM_SLOT, VCONFKEY_TELEPHONY_SIM_UNKNOWN);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c reset_vconf 1156 vconf_set_int(VCONFKEY_TELEPHONY_SIM_SLOT, VCONFKEY_TELEPHONY_SIM_UNKNOWN);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-mobile-ap/src/mh_common_utility.c _get_sim_state 535 if (vconf_get_int(VCONFKEY_TELEPHONY_SIM_SLOT, &value) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-mobile-ap/src/mh_common_utility.c _get_sim_state 538 DBG("%s : %d\n", VCONFKEY_TELEPHONY_SIM_SLOT, value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-efl/sources/libraries/Common/common_utils.c common_utils_get_sim_state 802 value = common_util_get_system_registry(VCONFKEY_TELEPHONY_SIM_SLOT);

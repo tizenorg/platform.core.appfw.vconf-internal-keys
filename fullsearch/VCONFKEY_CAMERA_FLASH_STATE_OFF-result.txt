@@ -1,0 +1,5 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-camera-keys.h <global> 55 VCONFKEY_CAMERA_FLASH_STATE_OFF,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_attribute.c _mmcamcorder_commit_strobe 3836 set_flash_state = VCONFKEY_CAMERA_FLASH_STATE_OFF;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c __mm_camcorder_signal_handler 108 int vconf_flash_state = VCONFKEY_CAMERA_FLASH_STATE_OFF;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c __mm_camcorder_signal_handler 130 vconf_set_int(VCONFKEY_CAMERA_FLASH_STATE, VCONFKEY_CAMERA_FLASH_STATE_OFF);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c _mmcamcorder_destroy 769 vconf_set_int(VCONFKEY_CAMERA_FLASH_STATE, VCONFKEY_CAMERA_FLASH_STATE_OFF);

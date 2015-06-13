@@ -1,0 +1,28 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-sysman-keys.h <global> 109 VCONFKEY_SYSMAN_MMC_MOUNTED,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webapi-plugins/src/systeminfo/systeminfo-utils.cpp <global> 2635 if (VCONFKEY_SYSMAN_MMC_MOUNTED == sdcardState){
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wrt-installer/src/jobs/widget_install/task_file_manipulation.cpp <global> 179 if (VCONFKEY_SYSMAN_MMC_MOUNTED != mmcStatus) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/aul-1/am_daemon/amd_appinfo.c __amd_mmc_vconf_cb 686 } else if(status == VCONFKEY_SYSMAN_MMC_MOUNTED){
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/mmc/mmc-handler.c smack_timer_cb 143 vconf_set_int(VCONFKEY_SYSMAN_MMC_STATUS, VCONFKEY_SYSMAN_MMC_MOUNTED);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/mmc/mmc-handler.c mmc_mount 200 vconf_set_int(VCONFKEY_SYSMAN_MMC_STATUS, VCONFKEY_SYSMAN_MMC_MOUNTED);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/mmc/mmc-handler.c mmc_unmount 247 VCONFKEY_SYSMAN_MMC_MOUNTED);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/mmc/mmc-handler.c mmc_format 274 VCONFKEY_SYSMAN_MMC_MOUNTED);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/mmc/mmc-handler.c edbus_change_status 545 if (opt == VCONFKEY_SYSMAN_MMC_MOUNTED)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/information/mmc.c indicator_mmc_change_cb 118 if(mmc_status == VCONFKEY_SYSMAN_MMC_MOUNTED)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmedia-thumbnail/server/thumb-server-internal.c __thumb_daemon_all_extract 291 if (__thumb_daemon_mmc_status() == VCONFKEY_SYSMAN_MMC_MOUNTED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libstorage/src/storage-sdcard.c sdcard_get_state 48 case VCONFKEY_SYSMAN_MMC_MOUNTED:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/media-server/src/common/media-common-utils.c ms_is_mmc_inserted 83 if (data != VCONFKEY_SYSMAN_MMC_MOUNTED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/media-server/src/scanner/media-scanner-scan.c __msc_check_stop_status 229 if ((mmc_state != VCONFKEY_SYSMAN_MMC_MOUNTED) && (storage_type == MS_STORAGE_EXTERNAL)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/media-server/src/scanner/media-scanner-scan.c msc_metadata_update 1304 if (mmc_state == VCONFKEY_SYSMAN_MMC_MOUNTED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/media-server/src/scanner/media-scanner.c main 286 mmc_state = VCONFKEY_SYSMAN_MMC_MOUNTED;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/media-server/src/server/media-server-main.c _ms_mmc_vconf_cb 244 } else if (status == VCONFKEY_SYSMAN_MMC_MOUNTED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mtp-responder/src/util/mtp_util.c _util_get_mmc_status 244 VCONFKEY_SYSMAN_MMC_MOUNTED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-appmgr/src/setting-appmgr-pkginfo.c appmgrUg_pkg_append_toolbar 389 if (VCONFKEY_SYSMAN_MMC_MOUNTED != mmc || !info->is_movable || info->is_preload)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-appmgr/src/setting-appmgr-utils.c appmgrUg_info_2button2_gl_icon_get 835 if (VCONFKEY_SYSMAN_MMC_MOUNTED != mmc || !info->is_movable || info->is_preload)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-profile/src/setting-profile-common.c setting_sound_check_file_exist 219 if (VCONFKEY_SYSMAN_MMC_MOUNTED != mmc_status) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-profile/src/setting-profile-common.c ___sound_vconf_change_cb 359 if (VCONFKEY_SYSMAN_MMC_MOUNTED != status) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-profile/src/setting-profile-sound-main.c __get_lite_main_list 530 if (safeStrCmp(sdcard_filepath, "NONE") != 0 && sd_status == VCONFKEY_SYSMAN_MMC_MOUNTED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-storage/src/setting-storage-SD.c storageUg_SD_handle_mount_unmount 104 if (VCONFKEY_SYSMAN_MMC_MOUNTED == ad->mmc_status) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-storage/src/setting-storage-SD.c storageUg_main_append_SD_info 477 else if (VCONFKEY_SYSMAN_MMC_MOUNTED == mmc_mode)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-storage/src/setting-storage-default.c storageUg_default_mmc_changed_cb 203 if (VCONFKEY_SYSMAN_MMC_MOUNTED != status) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-storage/src/setting-storage-default.c storageUg_default_cur_storage_get 221 if (mmc_status != VCONFKEY_SYSMAN_MMC_MOUNTED && STORAGEUG_DEFAULT_STORAGE_SD == value) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-storage/src/setting-storage-default.c storageUg_default_main_item_sel 315 if (ad->mmc_status != VCONFKEY_SYSMAN_MMC_MOUNTED) {

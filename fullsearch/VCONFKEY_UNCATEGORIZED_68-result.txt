@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-uncategorized-keys.h <global> 117 #define VCONFKEY_UNCATEGORIZED_68 "db/private/msg-service/general/auto_erase"

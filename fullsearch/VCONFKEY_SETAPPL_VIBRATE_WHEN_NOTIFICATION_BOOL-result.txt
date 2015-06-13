@@ -1,0 +1,8 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 428 #define VCONFKEY_SETAPPL_VIBRATE_WHEN_NOTIFICATION_BOOL "db/setting/sound/vibrate_when_notification"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libfeedback/mobile/src/check.c mobile_init 193 if (vconf_get_bool(VCONFKEY_SETAPPL_VIBRATE_WHEN_NOTIFICATION_BOOL, &noti_vibstatus) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libfeedback/mobile/src/check.c mobile_init 213 vconf_notify_key_changed(VCONFKEY_SETAPPL_VIBRATE_WHEN_NOTIFICATION_BOOL, feedback_noti_vibstatus_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libfeedback/mobile/src/check.c mobile_exit 226 vconf_ignore_key_changed(VCONFKEY_SETAPPL_VIBRATE_WHEN_NOTIFICATION_BOOL, feedback_noti_vibstatus_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libfeedback/wearable/src/check.c wearable_init 194 if (vconf_get_bool(VCONFKEY_SETAPPL_VIBRATE_WHEN_NOTIFICATION_BOOL, &noti_vibstatus) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libfeedback/wearable/src/check.c wearable_init 213 vconf_notify_key_changed(VCONFKEY_SETAPPL_VIBRATE_WHEN_NOTIFICATION_BOOL, feedback_noti_vibstatus_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libfeedback/wearable/src/check.c wearable_exit 225 vconf_ignore_key_changed(VCONFKEY_SETAPPL_VIBRATE_WHEN_NOTIFICATION_BOOL, feedback_noti_vibstatus_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/msg-service/externals/MsgSoundPlayer.cpp MsgGetPlayStatus 308 MsgSettingGetBool(VCONFKEY_SETAPPL_VIBRATE_WHEN_NOTIFICATION_BOOL, &bNotiVibrationOn);

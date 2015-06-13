@@ -1,0 +1,7 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 298 #define VCONFKEY_SETAPPL_ACCESSIBILITY_LOCK_TIME_INT "db/setting/accessibility/lock_time"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 419 if (vconf_notify_key_changed(VCONFKEY_SETAPPL_ACCESSIBILITY_LOCK_TIME_INT, _status_passive_change_cb, NULL) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 420 _E("Failed to register add the callback for %s", VCONFKEY_SETAPPL_ACCESSIBILITY_LOCK_TIME_INT);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 421 } else if (vconf_get_int(VCONFKEY_SETAPPL_ACCESSIBILITY_LOCK_TIME_INT, &s_status_passive.setappl_accessibility_lock_time_int) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 422 _E("Failed to get vconfkey[%s]", VCONFKEY_SETAPPL_ACCESSIBILITY_LOCK_TIME_INT);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_unregister 555 if (vconf_ignore_key_changed(VCONFKEY_SETAPPL_ACCESSIBILITY_LOCK_TIME_INT, _status_passive_change_cb) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_unregister 556 _E("Failed to unregister the callback for %s", VCONFKEY_SETAPPL_ACCESSIBILITY_LOCK_TIME_INT);

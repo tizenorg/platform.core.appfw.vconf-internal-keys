@@ -1,0 +1,5 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-location-keys.h <global> 50 #define VCONFKEY_LOCATION_WPS_STATE "memory/location/wps/state"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/lbs-server/lbs_server.c nps_set_status 271 setting_set_int(VCONFKEY_LOCATION_WPS_STATE, POSITION_CONNECTED);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/lbs-server/lbs_server.c nps_set_status 273 setting_set_int(VCONFKEY_LOCATION_WPS_STATE, POSITION_SEARCHING);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/lbs-server/lbs_server.c nps_set_status 275 setting_set_int(VCONFKEY_LOCATION_WPS_STATE, POSITION_OFF);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libslp-location/location/manager/location-hybrid-mobile.c hybrid_service_updated 351 } else if (g_type == LOCATION_TYPE_WPS && location_setting_get_int(VCONFKEY_LOCATION_WPS_STATE) == VCONFKEY_LOCATION_WPS_SEARCHING) {

@@ -1,0 +1,7 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-camera-keys.h <global> 50 #define VCONFKEY_CAMERA_PID "memory/camera/pid"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_attribute.c _mmcamcorder_commit_strobe 3853 vconf_set_int(VCONFKEY_CAMERA_PID, (int )getpid());
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_attribute.c _mmcamcorder_commit_strobe 3920 vconf_set_int(VCONFKEY_CAMERA_PID, (int )getpid());
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c __mm_camcorder_signal_handler 127 vconf_get_int(VCONFKEY_CAMERA_PID, (int *)&vconf_camera_pid);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c __mm_camcorder_signal_handler 131 vconf_set_int(VCONFKEY_CAMERA_PID, -1);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c _mmcamcorder_destroy 756 vconf_get_int(VCONFKEY_CAMERA_PID, &camera_pid);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c _mmcamcorder_destroy 761 vconf_set_int(VCONFKEY_CAMERA_PID, -1);

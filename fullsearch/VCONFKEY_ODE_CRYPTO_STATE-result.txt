@@ -1,0 +1,7 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-hotfix.h <global> 46 #define VCONFKEY_ODE_CRYPTO_STATE "db/ode/crypto_state"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-manager/common/src/callmgr-util.c _callmgr_util_is_data_lock 493 char *data_lock = vconf_get_str(VCONFKEY_ODE_CRYPTO_STATE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/voice-call-service.c voicecall_service_contact_info_by_number 880 data_lock = vconf_get_str(VCONFKEY_ODE_CRYPTO_STATE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/ui/src/vcui-application.c _vcui_is_data_lock 2491 char *data_lock = vconf_get_str(VCONFKEY_ODE_CRYPTO_STATE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-security/src/setting-security-encryption.c setting_security_encryption_create 358 encryption_state = vconf_get_str(VCONFKEY_ODE_CRYPTO_STATE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-security/src/setting-security-locktype.c __update_locktype_items_status 363 encryption_state = vconf_get_str(VCONFKEY_ODE_CRYPTO_STATE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-security/src/setting-security-locktype.c __add_locktype_items 419 encryption_state = vconf_get_str(VCONFKEY_ODE_CRYPTO_STATE);

@@ -1,0 +1,5 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/include/setting-common-data-slp-setting.h <global> 84 #define VCONFKEY_SETAPPL_LED_INDICATOR_LOW_BATT VCONFKEY_SETAPPL_PREFIX"/led_indicator/low_batt"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 499 #define VCONFKEY_SETAPPL_LED_INDICATOR_LOW_BATT "db/setting/led_indicator/low_batt"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/led/rgb.c rgb_init 668 vconf_get_bool(VCONFKEY_SETAPPL_LED_INDICATOR_LOW_BATT, &lowbat_key);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/led/rgb.c rgb_init 676 vconf_notify_key_changed(VCONFKEY_SETAPPL_LED_INDICATOR_LOW_BATT,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/led/rgb.c rgb_exit 703 vconf_ignore_key_changed(VCONFKEY_SETAPPL_LED_INDICATOR_LOW_BATT,

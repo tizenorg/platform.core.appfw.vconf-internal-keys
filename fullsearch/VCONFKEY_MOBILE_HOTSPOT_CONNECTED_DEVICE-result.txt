@@ -1,0 +1,5 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-mobile-hotspot-keys.h <global> 34 #define VCONFKEY_MOBILE_HOTSPOT_CONNECTED_DEVICE "memory/mobile_hotspot/connected_device"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/mobile_hotspot.c indicator_mobile_hotspot_change_cb 136 vconf_get_int(VCONFKEY_MOBILE_HOTSPOT_CONNECTED_DEVICE,&connected_device);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/mobile_hotspot.c register_mobile_hotspot_module 241 ret = vconf_notify_key_changed(VCONFKEY_MOBILE_HOTSPOT_CONNECTED_DEVICE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/mobile_hotspot.c unregister_mobile_hotspot_module 261 ret = ret | vconf_ignore_key_changed(VCONFKEY_MOBILE_HOTSPOT_CONNECTED_DEVICE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-agent/src/mobileap_common.c _update_station_count 141 if (vconf_set_int(VCONFKEY_MOBILE_HOTSPOT_CONNECTED_DEVICE,

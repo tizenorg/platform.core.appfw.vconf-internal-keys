@@ -1,0 +1,3 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-wifi-keys.h <global> 54 VCONFKEY_WIFI_QS_WIFI_CONNECTED,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-efl/sources/wifi-syspopup/wifi-syspopup-engine-callback.c wlan_engine_callback 53 devpkr_app_state->connection_result = VCONFKEY_WIFI_QS_WIFI_CONNECTED;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-efl/sources/wifi-syspopup/wifi-syspopup.c wifi_devpkr_destroy 263 if (VCONFKEY_WIFI_QS_WIFI_CONNECTED == devpkr_app_state->connection_result) {

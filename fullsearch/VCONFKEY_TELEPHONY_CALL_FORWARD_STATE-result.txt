@@ -1,0 +1,3 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-telephony-keys.h <global> 140 #define VCONFKEY_TELEPHONY_CALL_FORWARD_STATE "db/telephony/call_forward_state"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c convert_strgkey_to_vconf 159 return VCONFKEY_TELEPHONY_CALL_FORWARD_STATE;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c convert_vconf_to_strgkey 293 else if (g_str_equal(key, VCONFKEY_TELEPHONY_CALL_FORWARD_STATE) == TRUE) {

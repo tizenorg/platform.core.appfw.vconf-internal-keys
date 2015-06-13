@@ -1,0 +1,17 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/chromium-efl/impl/browser/inputpicker/InputPicker.cc <global> 244 else if (timeValue == VCONFKEY_TIME_FORMAT_12 ||
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 402 VCONFKEY_TIME_FORMAT_12 = 1,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webapi-plugins/src/time/time_instance.cc <global> 464 value = VCONFKEY_TIME_FORMAT_12;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webapi-plugins/src/time/time_instance.cc <global> 466 if (VCONFKEY_TIME_FORMAT_12 == value) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-share-ui/src/bt-share-ui-view.c __bt_get_tr_timedate 275 if (format == VCONFKEY_TIME_FORMAT_12)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libug-worldclock-efl/clock-common/src/clock_fwk_icu.c clk_fwk_icu_time_format_get 62 value = VCONFKEY_TIME_FORMAT_12;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libug-worldclock-efl/clock-common/src/clock_fwk_icu.c clk_fwk_icu_time_format_get 65 case VCONFKEY_TIME_FORMAT_12:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libug-worldclock-efl/clock-common/src/clock_fwk_util.c get_string_from_time 146 case VCONFKEY_TIME_FORMAT_12:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-general-func.c get_pa_datetime_format_str 789 else if (time_val == VCONFKEY_TIME_FORMAT_12 || time_val == VCONFKEY_TIME_FORMAT_24)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-time/src/setting-time-main.c setting_time_update_time_date_format_string 163 value = VCONFKEY_TIME_FORMAT_12;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-time/src/setting-time-main.c setting_time_update_time_date_format_string 166 case VCONFKEY_TIME_FORMAT_12: {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-time/src/setting-time-main.c __setting_time_main_exp_cb 605 VCONFKEY_TIME_FORMAT_12,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-time/src/setting-time-main.c setting_time_main_create 888 value = VCONFKEY_TIME_FORMAT_12;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-time/src/setting-time-main.c setting_time_main_chk_btn_cb 1503 int value = VCONFKEY_TIME_FORMAT_12;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-settings/src/system_setting_platform.c system_setting_get_locale_timeformat_24hour 1521 if (vconf_value == VCONFKEY_TIME_FORMAT_12)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-settings/src/system_setting_platform.c system_setting_set_locale_timeformat_24hour 1543 if (system_setting_vconf_set_value_int(VCONFKEY_REGIONFORMAT_TIME1224, VCONFKEY_TIME_FORMAT_12)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webkit-efl/Source/WebKit2/UIProcess/API/efl/tizen/InputPicker.cpp datetimeFormat 85 else if(timeValue == VCONFKEY_TIME_FORMAT_12 || timeValue == VCONFKEY_TIME_FORMAT_24)

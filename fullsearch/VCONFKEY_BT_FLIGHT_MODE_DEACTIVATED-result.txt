@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-bt-keys.h <global> 53 #define VCONFKEY_BT_FLIGHT_MODE_DEACTIVATED "file/private/bt-core/flight_mode_deactivated"

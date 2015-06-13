@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-uncategorized-keys.h <global> 209 #define VCONFKEY_UNCATEGORIZED_119 "db/private/msg-service/mms_style/font_style/italic"

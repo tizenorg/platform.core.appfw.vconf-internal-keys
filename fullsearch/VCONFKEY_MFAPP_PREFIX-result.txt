@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-myfile-keys.h <global> 27 #define VCONFKEY_MFAPP_PREFIX "db/myfile"

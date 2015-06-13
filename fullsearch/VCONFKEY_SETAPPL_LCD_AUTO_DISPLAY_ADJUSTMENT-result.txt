@@ -1,0 +1,16 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/enhance-mobile.c <global> 52 #ifndef VCONFKEY_SETAPPL_LCD_AUTO_DISPLAY_ADJUSTMENT
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/enhance-mobile.c <global> 53 #define VCONFKEY_SETAPPL_LCD_AUTO_DISPLAY_ADJUSTMENT "db/setting/auto_display_adjustment"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 73 #define VCONFKEY_SETAPPL_LCD_AUTO_DISPLAY_ADJUSTMENT "db/setting/auto_display_adjustment"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/enhance-mobile.c enhance_auto_control_cb 493 if (vconf_get_bool(VCONFKEY_SETAPPL_LCD_AUTO_DISPLAY_ADJUSTMENT, &val) != 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/enhance-mobile.c enhance_auto_control_cb 494 _E("fail to get %s", VCONFKEY_SETAPPL_LCD_AUTO_DISPLAY_ADJUSTMENT);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/enhance-mobile.c init_default_enhance_status 667 if (vconf_get_bool(VCONFKEY_SETAPPL_LCD_AUTO_DISPLAY_ADJUSTMENT, &val) == 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/enhance-mobile.c init_default_enhance_status 672 if (vconf_notify_key_changed(VCONFKEY_SETAPPL_LCD_AUTO_DISPLAY_ADJUSTMENT,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/enhance-mobile.c init_default_enhance_status 674 _E("failed to set : KEY(%s)", VCONFKEY_SETAPPL_LCD_AUTO_DISPLAY_ADJUSTMENT);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-applications/src/setting-applications-main.c setting_applications_main_vconf_change_cb 443 } else if (!safeStrCmp(vconf_name, VCONFKEY_SETAPPL_LCD_AUTO_DISPLAY_ADJUSTMENT)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-display/src/setting-display-main.c setting_display_main_vconf_change_cb 397 } else if (!safeStrCmp(vconf_name, VCONFKEY_SETAPPL_LCD_AUTO_DISPLAY_ADJUSTMENT)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-display/src/setting-display-main.c setting_display_main_create 466 ret = vconf_notify_key_changed(VCONFKEY_SETAPPL_LCD_AUTO_DISPLAY_ADJUSTMENT,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-display/src/setting-display-main.c setting_display_main_destroy 606 ret = vconf_ignore_key_changed(VCONFKEY_SETAPPL_LCD_AUTO_DISPLAY_ADJUSTMENT,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-display/src/setting-display.c get_display_ug_auto_adjust_state 931 int ret = vconf_get_bool(VCONFKEY_SETAPPL_LCD_AUTO_DISPLAY_ADJUSTMENT, &value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-display/src/setting-display.c set_display_ug_auto_adjust_state 954 int ret = vconf_set_bool(VCONFKEY_SETAPPL_LCD_AUTO_DISPLAY_ADJUSTMENT, value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/setting-handler.c setting_main_display_auto_adjust_chk_btn_cb 1469 vconf_set_bool(VCONFKEY_SETAPPL_LCD_AUTO_DISPLAY_ADJUSTMENT, list_item->chk_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/setting-handler.c setting_main_display_list_cb 1511 vconf_set_bool(VCONFKEY_SETAPPL_LCD_AUTO_DISPLAY_ADJUSTMENT, list_item->chk_status);

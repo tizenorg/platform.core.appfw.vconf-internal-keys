@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-bt-keys.h <global> 44 VCONFKEY_BT_DUT_MODE_ON = 0x01

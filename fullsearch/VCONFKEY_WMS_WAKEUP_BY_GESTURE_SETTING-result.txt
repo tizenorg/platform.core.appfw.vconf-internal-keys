@@ -1,0 +1,8 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-wms-keys.h <global> 34 #define VCONFKEY_WMS_WAKEUP_BY_GESTURE_SETTING "db/wms/wakeup_by_gesture_setting"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c _status_passive_change_cb 226 if (!strcmp(key_name, VCONFKEY_WMS_WAKEUP_BY_GESTURE_SETTING)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 341 if (vconf_notify_key_changed(VCONFKEY_WMS_WAKEUP_BY_GESTURE_SETTING, _status_passive_change_cb, NULL) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 342 _E("Failed to register add the callback for %s", VCONFKEY_WMS_WAKEUP_BY_GESTURE_SETTING);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 343 } else if (vconf_get_int(VCONFKEY_WMS_WAKEUP_BY_GESTURE_SETTING, &s_status_passive.wms_wakeup_by_gesture_setting) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 344 _E("Failed to get vconfkey[%s]", VCONFKEY_WMS_WAKEUP_BY_GESTURE_SETTING);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_unregister 510 if (vconf_ignore_key_changed(VCONFKEY_WMS_WAKEUP_BY_GESTURE_SETTING, _status_passive_change_cb) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_unregister 511 _E("Failed to unregister the callback for %s", VCONFKEY_WMS_WAKEUP_BY_GESTURE_SETTING);

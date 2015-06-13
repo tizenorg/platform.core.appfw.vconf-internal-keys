@@ -1,0 +1,8 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/touch/touch-controller.c <global> 51 .vconf = VCONFKEY_ISF_INPUT_PANEL_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-isf-keys.h <global> 28 #define VCONFKEY_ISF_INPUT_PANEL_STATE "memory/isf/input_panel_state"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/touch/touch-controller.c touch_vconf_pm_sip_status 31 if (vconf_get_int(VCONFKEY_ISF_INPUT_PANEL_STATE, &sip_state) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/isf/ism/demos/isf_demo_efl.cpp app_create 357 vconf_notify_key_changed (VCONFKEY_ISF_INPUT_PANEL_STATE, input_panel_state_changed_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/isf/ism/extras/efl_panel/isf_panel_efl.cpp x_event_window_property_cb 5836 vconf_set_int (VCONFKEY_ISF_INPUT_PANEL_STATE, VCONFKEY_ISF_INPUT_PANEL_STATE_SHOW);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/isf/ism/extras/efl_panel/isf_panel_efl.cpp x_event_window_property_cb 5906 vconf_set_int (VCONFKEY_ISF_INPUT_PANEL_STATE, VCONFKEY_ISF_INPUT_PANEL_STATE_HIDE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/isf/ism/extras/efl_panel/isf_panel_efl.cpp x_event_client_message_cb 5962 vconf_set_int (VCONFKEY_ISF_INPUT_PANEL_STATE, VCONFKEY_ISF_INPUT_PANEL_STATE_WILL_SHOW);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/isf/ism/extras/efl_panel/isf_panel_efl.cpp x_event_client_message_cb 5999 vconf_set_int (VCONFKEY_ISF_INPUT_PANEL_STATE, VCONFKEY_ISF_INPUT_PANEL_STATE_WILL_HIDE);

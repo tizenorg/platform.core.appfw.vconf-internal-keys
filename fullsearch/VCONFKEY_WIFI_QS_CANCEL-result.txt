@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-wifi-keys.h <global> 53 VCONFKEY_WIFI_QS_CANCEL = 0x00,

@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-location-keys.h <global> 47 VCONFKEY_LOCATION_GPS_STATE_MAX

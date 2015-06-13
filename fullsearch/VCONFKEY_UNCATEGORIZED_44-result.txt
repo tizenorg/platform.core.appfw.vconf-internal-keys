@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-uncategorized-keys.h <global> 75 #define VCONFKEY_UNCATEGORIZED_44 "db/private/email-service/noti_vip_use_default_ringtone"

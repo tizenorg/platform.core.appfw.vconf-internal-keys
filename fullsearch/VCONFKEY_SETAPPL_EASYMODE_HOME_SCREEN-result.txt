@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-hotfix.h <global> 110 #define VCONFKEY_SETAPPL_EASYMODE_HOME_SCREEN "db/setting/easymoe/home_screen"

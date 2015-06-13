@@ -1,0 +1,10 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 670 #define VCONFKEY_DUALSIM_SELECTED_SIM "db/setting/dualsim/selected_sim"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-dual-sim-alwayson.c __cst_click_dual_sim_back 564 _cst_vconf_set_int(VCONFKEY_DUALSIM_SELECTED_SIM, VCONFKEY_DUALSIM_SELECT_UNKNOW);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-dual-sim-alwayson.c __cst_dualsim_done_button_sim_select 597 _cst_vconf_set_int(VCONFKEY_DUALSIM_SELECTED_SIM, value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-dual-sim-alwayson.c __cst_dualsim_done_button_sim_select 602 _cst_vconf_set_int(VCONFKEY_DUALSIM_SELECTED_SIM, value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-dual-sim-alwayson.c __cst_dualsim_done_button_sim_select 607 _cst_vconf_set_int(VCONFKEY_DUALSIM_SELECTED_SIM, value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-dual-sim-alwayson.c __cst_dualsim_done_button_phone_layout 651 _cst_vconf_get_int(VCONFKEY_DUALSIM_SELECTED_SIM , &ugd->dualsim_source_destination);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-dual-sim-alwayson.c __cst_gl_dualsim_simselect_contant_get 1685 radio = _cst_create_radio_icon(obj, ugd->rdg_dualsim_mode, item_data->index, 0, VCONFKEY_DUALSIM_SELECTED_SIM);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-dual-sim-alwayson.c __cst_on_click_dualsim_alwayson_process 1912 _cst_vconf_get_int(VCONFKEY_DUALSIM_SELECTED_SIM , &ugd->dualsim_source_destination);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-dual-sim-alwayson.c _cst_create_dual_sim_alwayson_ug 2324 _cst_vconf_get_int(VCONFKEY_DUALSIM_SELECTED_SIM , &ugd->dualsim_source_destination);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-dual-sim-alwayson.c _cst_create_dual_sim_alwayson_ug 2326 _cst_vconf_set_int(VCONFKEY_DUALSIM_SELECTED_SIM, VCONFKEY_DUALSIM_SELECT_BOTH_SIM);

@@ -1,0 +1,4 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-data-slp-setting.c <global> 235 {"rapid_key_input", "accessibility", BOOL_SLP_SETTING_ACCESSIBILITY_RAPID_KEY_INPUT, VCONFKEY_SETAPPL_ACCESSIBILITY_RAPID_KEY_INPUT, eBOOL, {0}, export_json, import_default},
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 292 #define VCONFKEY_SETAPPL_ACCESSIBILITY_RAPID_KEY_INPUT "db/setting/accessibility/rapid_key_input"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/e17-extra-modules/screen-reader/src/e_mod_main.c e_modapi_init 1738 vconf_notify_key_changed(VCONFKEY_SETAPPL_ACCESSIBILITY_RAPID_KEY_INPUT,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/e17-extra-modules/screen-reader/src/e_mod_main.c e_modapi_init 1761 if (vconf_get_bool(VCONFKEY_SETAPPL_ACCESSIBILITY_RAPID_KEY_INPUT, &rapid_input) != 0)

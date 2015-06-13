@@ -1,0 +1,5 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-telephony-keys.h <global> 67 #define VCONFKEY_TELEPHONY_SVC_CS "memory/telephony/svc_cs"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c convert_strgkey_to_vconf 151 return VCONFKEY_TELEPHONY_SVC_CS;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c convert_vconf_to_strgkey 281 else if (g_str_equal(key, VCONFKEY_TELEPHONY_SVC_CS) == TRUE) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c on_hook_network_registration_status 818 __vconf_check_and_set_int(VCONFKEY_TELEPHONY_SVC_CS, status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c reset_vconf 1150 vconf_set_int(VCONFKEY_TELEPHONY_SVC_CS, VCONFKEY_TELEPHONY_SVC_CS_UNKNOWN);

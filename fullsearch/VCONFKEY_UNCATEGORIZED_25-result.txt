@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-uncategorized-keys.h <global> 37 #define VCONFKEY_UNCATEGORIZED_25 "db/private/email-service/default_account_id"

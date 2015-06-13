@@ -1,0 +1,2 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-data-slp-setting.c <global> 327 {"simlock_timestamp", "security", STR_SLP_SETTING_SIM_LOCK_TIMESTAMP, VCONFKEY_SETAPPL_SIM_LOCK_TIMESTAMP_STR, eSTRING, {0}, export_json, import_default },
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 197 #define VCONFKEY_SETAPPL_SIM_LOCK_TIMESTAMP_STR "db/setting/sim_lock_timestamp"

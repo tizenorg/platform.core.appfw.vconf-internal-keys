@@ -1,0 +1,9 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-sysman-keys.h <global> 162 #define VCONFKEY_SYSMAN_HDMI "memory/sysman/hdmi"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webapi-plugins/src/systeminfo/systeminfo-utils.cpp <global> 1021 if (-1 != vconf_get_int(VCONFKEY_SYSMAN_HDMI, &value)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webapi-plugins/src/systeminfo/systeminfo-utils.cpp <global> 1022 CHECK_LISTENER_ERROR(RegisterVconfCallback(VCONFKEY_SYSMAN_HDMI,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webapi-plugins/src/systeminfo/systeminfo-utils.cpp <global> 1041 if (-1 != vconf_get_int(VCONFKEY_SYSMAN_HDMI, &value)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webapi-plugins/src/systeminfo/systeminfo-utils.cpp <global> 1042 CHECK_LISTENER_ERROR(UnregisterVconfCallback(VCONFKEY_SYSMAN_HDMI,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webapi-plugins/src/systeminfo/systeminfo-utils.cpp <global> 2573 PlatformResult ret = GetVconfInt(VCONFKEY_SYSMAN_HDMI, hdmi_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/extcon/hdmi.c hdmi_update 92 vconf_set_int(VCONFKEY_SYSMAN_HDMI, HDMI_NOT_SUPPORTED);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/extcon/hdmi.c hdmi_update 117 vconf_set_int(VCONFKEY_SYSMAN_HDMI, status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-player/src/mm_player_utils.c util_get_is_connected_external_display 490 if (vconf_get_int(VCONFKEY_SYSMAN_HDMI, &is_connected_hdmi))

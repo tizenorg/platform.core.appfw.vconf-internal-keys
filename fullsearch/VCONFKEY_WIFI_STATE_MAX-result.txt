@@ -1,0 +1,2 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-wifi-keys.h <global> 31 VCONFKEY_WIFI_STATE_MAX
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-direct/ug-wifidirect/src/wfd_ug.c _wifi_on_state_cb 92 if (wifi_state > VCONFKEY_WIFI_OFF && wifi_state < VCONFKEY_WIFI_STATE_MAX) {

@@ -1,0 +1,3 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-camera-keys.h <global> 37 VCONFKEY_CAMERA_SHUTTER_SOUND_POLICY_OFF,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_sound.c _mmcamcorder_sound_init 230 if (hcamcorder->shutter_sound_policy == VCONFKEY_CAMERA_SHUTTER_SOUND_POLICY_OFF &&
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_stillshot.c _mmcamcorder_image_cmd_preview_start 771 if (hcamcorder->shutter_sound_policy == VCONFKEY_CAMERA_SHUTTER_SOUND_POLICY_OFF &&

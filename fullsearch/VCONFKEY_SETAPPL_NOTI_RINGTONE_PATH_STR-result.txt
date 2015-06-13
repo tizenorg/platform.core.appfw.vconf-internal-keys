@@ -1,0 +1,2 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 132 #define VCONFKEY_SETAPPL_NOTI_RINGTONE_PATH_STR "VCONFKEY_SETAPPL_NOTI_MSG_RINGTONE_PATH_STR"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-ringtone/src/setting-ringtone-main.c get_default_filepath 204 default_ringtone = vconf_get_str(VCONFKEY_SETAPPL_NOTI_RINGTONE_PATH_STR);

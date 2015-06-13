@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-hotfix.h <global> 51 #define VCONFKEY_SDE_ENCRYPT_PROGRESS "db/sde/encrypt_progress"

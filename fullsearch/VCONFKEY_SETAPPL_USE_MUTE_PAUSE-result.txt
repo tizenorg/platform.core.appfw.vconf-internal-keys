@@ -1,0 +1,4 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/include/setting-common-data-slp-setting.h <global> 65 #ifndef VCONFKEY_SETAPPL_USE_MUTE_PAUSE
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/include/setting-common-data-slp-setting.h <global> 66 #define VCONFKEY_SETAPPL_USE_MUTE_PAUSE VCONFKEY_SETAPPL_PREFIX"db/setting/use_mute_pause"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-data-slp-setting.c <global> 252 {"use_mute_pause", "motion", BOOL_SLP_SETTING_MOTION_USE_MUTE_PAUSE, VCONFKEY_SETAPPL_USE_MUTE_PAUSE, eBOOL, {0}, export_json, import_default},
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 461 #define VCONFKEY_SETAPPL_USE_MUTE_PAUSE "db/setting/use_mute_pause"

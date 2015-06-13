@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-telephony-keys.h <global> 284 #define VCONFKEY_TELEPHONY_PRIVATE_MANUAL_PLMN "db/private/telephony/manual_plmn"

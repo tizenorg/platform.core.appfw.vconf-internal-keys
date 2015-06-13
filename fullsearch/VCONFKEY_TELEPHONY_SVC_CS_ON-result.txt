@@ -1,0 +1,3 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-telephony-keys.h <global> 72 VCONFKEY_TELEPHONY_SVC_CS_ON
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-manager/module/src/callmgr-telephony.c _callmgr_telephony_is_cs_available 1998 if (cs_type == VCONFKEY_TELEPHONY_SVC_CS_ON) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/core/vc-core-util.c _vc_core_util_is_cs_available 1075 if (cs_type == VCONFKEY_TELEPHONY_SVC_CS_ON) {

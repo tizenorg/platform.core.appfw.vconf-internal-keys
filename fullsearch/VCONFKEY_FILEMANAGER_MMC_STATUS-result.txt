@@ -1,0 +1,7 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-filemanager-keys.h <global> 24 #define VCONFKEY_FILEMANAGER_MMC_STATUS "memory/filemanager/Mmc"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/information/mmc.c indicator_mmc_change_cb 106 ret = vconf_get_int(VCONFKEY_FILEMANAGER_MMC_STATUS, &status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/information/mmc.c indicator_mmc_pm_state_change_cb 150 if (vconf_get_int(VCONFKEY_FILEMANAGER_MMC_STATUS, &sos_status) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/information/mmc.c register_mmc_module 188 ret = vconf_notify_key_changed(VCONFKEY_FILEMANAGER_MMC_STATUS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/information/mmc.c unregister_mmc_module 205 ret = vconf_ignore_key_changed(VCONFKEY_FILEMANAGER_MMC_STATUS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/media-server/src/scanner/media-scanner-scan.c __msc_set_db_status 125 if (!ms_config_set_int(VCONFKEY_FILEMANAGER_MMC_STATUS, VCONFKEY_FILEMANAGER_MMC_LOADING)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/media-server/src/scanner/media-scanner-scan.c __msc_set_db_status 137 if (!ms_config_set_int(VCONFKEY_FILEMANAGER_MMC_STATUS, VCONFKEY_FILEMANAGER_MMC_LOADED)) {

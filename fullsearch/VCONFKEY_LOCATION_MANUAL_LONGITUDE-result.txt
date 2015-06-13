@@ -1,0 +1,2 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-location-keys.h <global> 114 #define VCONFKEY_LOCATION_MANUAL_LONGITUDE "db/location/replay/ManualLongitude"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libslp-lbs-plugin-replay/gps-plugin/src/gps_plugin_replay.c gps_plugin_replay_read_manual 339 if (setting_get_double(VCONFKEY_LOCATION_MANUAL_LONGITUDE, &pos_data->longitude) == FALSE) {

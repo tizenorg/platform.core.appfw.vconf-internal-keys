@@ -1,0 +1,15 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-telephony-keys.h <global> 189 #define VCONFKEY_TELEPHONY_PSTYPE "memory/telephony/ps_type"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/connection.c indicator_conn_change_cb 394 ret = vconf_get_int(VCONFKEY_TELEPHONY_PSTYPE, &ps_type);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/connection.c indicator_conn_change_cb 468 ret = vconf_get_int(VCONFKEY_TELEPHONY_PSTYPE, &ps_type);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/connection.c ps_type_callback 567 vconf_get_int(VCONFKEY_TELEPHONY_PSTYPE, &type);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/connection.c register_conn_module 712 ret = vconf_notify_key_changed(VCONFKEY_TELEPHONY_PSTYPE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/connection.c unregister_conn_module 747 ret = ret | vconf_ignore_key_changed(VCONFKEY_TELEPHONY_PSTYPE, ps_type_callback);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/network-state.c __netconfig_adjust_tcp_buffer_size 475 vconf_get_int(VCONFKEY_TELEPHONY_PSTYPE, &telephony_pstype);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c _update_vconf_network_name 671 vconf_get_int(VCONFKEY_TELEPHONY_PSTYPE, &current);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c _update_vconf_network_name 674 __vconf_check_and_set_int(VCONFKEY_TELEPHONY_PSTYPE, VCONFKEY_TELEPHONY_PSTYPE_NONE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c on_hook_ps_protocol_status 1031 __vconf_check_and_set_int(VCONFKEY_TELEPHONY_PSTYPE, VCONFKEY_TELEPHONY_PSTYPE_NONE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c on_hook_ps_protocol_status 1037 __vconf_check_and_set_int(VCONFKEY_TELEPHONY_PSTYPE, VCONFKEY_TELEPHONY_PSTYPE_NONE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c on_hook_ps_protocol_status 1041 __vconf_check_and_set_int(VCONFKEY_TELEPHONY_PSTYPE, VCONFKEY_TELEPHONY_PSTYPE_HSDPA);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c on_hook_ps_protocol_status 1045 __vconf_check_and_set_int(VCONFKEY_TELEPHONY_PSTYPE, VCONFKEY_TELEPHONY_PSTYPE_HSUPA);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c on_hook_ps_protocol_status 1049 __vconf_check_and_set_int(VCONFKEY_TELEPHONY_PSTYPE, VCONFKEY_TELEPHONY_PSTYPE_HSPA);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c on_hook_ps_protocol_status 1052 __vconf_check_and_set_int(VCONFKEY_TELEPHONY_PSTYPE, VCONFKEY_TELEPHONY_PSTYPE_HSPAP);

@@ -1,0 +1,10 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-pm-keys.h <global> 53 #define VCONFKEY_PM_LCDOFF_SOURCE "memory/pm/lcdoff_source"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-ui/src/callui-common.c _callui_common_dvc_control_lcd_state 578 if (vconf_set_int(VCONFKEY_PM_LCDOFF_SOURCE, 3 ) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/voice-call-device.c _voicecall_dvc_control_lcd_state 134 if (vconf_set_int(VCONFKEY_PM_LCDOFF_SOURCE, 3 ) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/ui/src/vcui-application.c __vcui_app_create 529 if (vconf_notify_key_changed(VCONFKEY_PM_LCDOFF_SOURCE, _vcui_lcdoff_src_change_notify_cb, ad) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/ui/src/vcui-application.c __vcui_app_pause 548 if (vconf_get_int(VCONFKEY_PM_LCDOFF_SOURCE, &lcd_off_cause) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/ui/src/vcui-application.c __vcui_app_terminate 1543 if (vconf_ignore_key_changed(VCONFKEY_PM_LCDOFF_SOURCE, _vcui_lcdoff_src_change_notify_cb) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/ui/src/vcui-application.c __vcui_launch_lock_after_call 3975 if (vconf_get_int(VCONFKEY_PM_LCDOFF_SOURCE, &lcd_off_cause) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/volume-app/src/control.c volume_control_register_vconfkey 521 if (vconf_notify_key_changed(VCONFKEY_PM_LCDOFF_SOURCE, _notify_pm_lcdoff_cb, NULL) != 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/volume-app/src/control.c volume_control_unregister_vconfkey 541 (VCONFKEY_PM_LCDOFF_SOURCE, _notify_pm_lcdoff_cb) != 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/volume-app/src/view.c _lock_sound_check 405 if (vconf_get_int(VCONFKEY_PM_LCDOFF_SOURCE, &lcdoff_source) < 0) {

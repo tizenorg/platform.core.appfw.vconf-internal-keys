@@ -1,0 +1,6 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-telephony-keys.h <global> 87 VCONFKEY_TELEPHONY_SVC_ROAM_ON
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/email-service/email-core/email-network/email-network.c emnetwork_get_roaming_status 228 if(value == VCONFKEY_TELEPHONY_SVC_ROAM_ON)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/network/roaming.c indicator_roaming_change_cb 89 if (status == VCONFKEY_TELEPHONY_SVC_ROAM_ON) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/msg-service/plugin/mms_plugin/MmsPluginInternal.cpp checkRejectNotiInd 969 if (roamState == VCONFKEY_TELEPHONY_SVC_ROAM_ON) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wrt-security/src/services/ace/logic/simple_roaming_agent.cpp SimpleRoamingAgent 46 bool type = (result == VCONFKEY_TELEPHONY_SVC_ROAM_ON);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wrt-security/src/services/ace/logic/simple_roaming_agent.cpp vConfChagedCallback 91 bool type = (result == VCONFKEY_TELEPHONY_SVC_ROAM_ON);

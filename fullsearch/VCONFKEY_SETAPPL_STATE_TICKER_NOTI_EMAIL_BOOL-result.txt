@@ -1,0 +1,2 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-hotfix.h <global> 100 #define VCONFKEY_SETAPPL_STATE_TICKER_NOTI_EMAIL_BOOL "db/setting/ticker_noti/email"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/email-service/email-daemon/email-daemon-init.c emdaemon_initialize 590 vconf_notify_key_changed(VCONFKEY_SETAPPL_STATE_TICKER_NOTI_EMAIL_BOOL, callback_for_VCONFKEY_GLOBAL_BADGE_STATUS, multi_user_name);

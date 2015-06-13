@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-telephony-keys.h <global> 272 #define VCONFKEY_TELEPHONY_PRIVATE_NO_SIM_POPUP_CHECKBOX "db/private/telephony/no_sim_popup_checkbox"

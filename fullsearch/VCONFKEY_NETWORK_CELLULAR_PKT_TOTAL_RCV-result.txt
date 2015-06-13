@@ -1,0 +1,5 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-dnet-keys.h <global> 79 #define VCONFKEY_NETWORK_CELLULAR_PKT_TOTAL_RCV "db/dnet/statistics/cellular/totalrcv"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/connection/src/connection.c __get_cellular_statistic 1164 rv1 = vconf_get_int(VCONFKEY_NETWORK_CELLULAR_PKT_TOTAL_RCV, &size);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/network-statistics.c netconfig_iface_network_statistics_reset_cellular_total_rx_bytes 287 netconfig_set_vconf_int(VCONFKEY_NETWORK_CELLULAR_PKT_TOTAL_RCV, 0);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c convert_strgkey_to_vconf 199 return VCONFKEY_NETWORK_CELLULAR_PKT_TOTAL_RCV;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c convert_vconf_to_strgkey 351 else if (g_str_equal(key, VCONFKEY_NETWORK_CELLULAR_PKT_TOTAL_RCV) == TRUE) {

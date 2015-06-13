@@ -1,0 +1,2 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-dnet-keys.h <global> 72 VCONFKEY_PACKET_NORMAL = 0x00,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/connection.c show_connection_transfer_icon 123 case VCONFKEY_PACKET_NORMAL:

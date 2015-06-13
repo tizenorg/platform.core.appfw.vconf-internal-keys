@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 714 #define VCONFKEY_SETAPPL_BLOCKMODE_WEARABLE_R_BOOL "db/setting/blockmode_wearable_r"

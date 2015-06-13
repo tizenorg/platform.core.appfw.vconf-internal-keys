@@ -1,0 +1,4 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-location-keys.h <global> 93 #define VCONFKEY_LOCATION_NV_LAST_GPS_LOCATION "db/location/last/gps/Location"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/lbs-server/last_position.c gps_set_last_position 45 setting_set_string(VCONFKEY_LOCATION_NV_LAST_GPS_LOCATION, location);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/lbs-server/last_position.c gps_get_last_position 93 str = setting_get_string(VCONFKEY_LOCATION_NV_LAST_GPS_LOCATION);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/module/gps_module.c get_last_position 431 str = vconf_get_str(VCONFKEY_LOCATION_NV_LAST_GPS_LOCATION);

@@ -1,0 +1,7 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 134 #define VCONFKEY_SETAPPL_NOTI_VIBRATION_LEVEL_INT "db/setting/sound/noti/vibration_level"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libfeedback/mobile/src/check.c mobile_init 201 if (vconf_get_int(VCONFKEY_SETAPPL_NOTI_VIBRATION_LEVEL_INT, &noti_level) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libfeedback/mobile/src/check.c mobile_init 215 vconf_notify_key_changed(VCONFKEY_SETAPPL_NOTI_VIBRATION_LEVEL_INT, feedback_noti_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libfeedback/mobile/src/check.c mobile_exit 228 vconf_ignore_key_changed(VCONFKEY_SETAPPL_NOTI_VIBRATION_LEVEL_INT, feedback_noti_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libfeedback/wearable/src/check.c wearable_init 202 if (vconf_get_int(VCONFKEY_SETAPPL_NOTI_VIBRATION_LEVEL_INT, &noti_level) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libfeedback/wearable/src/check.c wearable_init 215 vconf_notify_key_changed(VCONFKEY_SETAPPL_NOTI_VIBRATION_LEVEL_INT, feedback_noti_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libfeedback/wearable/src/check.c wearable_exit 227 vconf_ignore_key_changed(VCONFKEY_SETAPPL_NOTI_VIBRATION_LEVEL_INT, feedback_noti_cb);

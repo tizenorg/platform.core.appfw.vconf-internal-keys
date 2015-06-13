@@ -1,0 +1,2 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-ciss-keys.h <global> 117 #define VCONFKEY_CISSAPPL_DOCOMO_INTL_DIAL_AUTO_CONVERSION_BOOL "db/ciss/intl_dial_auto_conversion"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/voice-call-service.c voicecall_service_get_intl_dial_assist_status 1391 ret_val = vconf_get_bool(VCONFKEY_CISSAPPL_DOCOMO_INTL_DIAL_AUTO_CONVERSION_BOOL, &assist_status);

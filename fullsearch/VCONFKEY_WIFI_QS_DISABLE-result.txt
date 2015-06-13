@@ -1,0 +1,4 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-wifi-keys.h <global> 61 VCONFKEY_WIFI_QS_DISABLE = 0x00,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-state.c __netconfig_notification_value_changed_cb 530 if (value == VCONFKEY_WIFI_QS_DISABLE) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-efl/sources/ui-gadget/viewers-layout/view_advanced.c _gl_changed_network_noti 330 value = VCONFKEY_WIFI_QS_DISABLE;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-efl/sources/ui-gadget/viewers-layout/view_advanced.c _gl_changed_network_noti 334 value = VCONFKEY_WIFI_QS_DISABLE;

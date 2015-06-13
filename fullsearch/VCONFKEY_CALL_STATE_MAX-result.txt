@@ -1,0 +1,4 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-call-keys.h <global> 35 VCONFKEY_CALL_STATE_MAX
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/email-service/email-core/email-core-utils.c emcore_get_alert_type 1231 if (call_state > VCONFKEY_CALL_OFF && call_state < VCONFKEY_CALL_STATE_MAX) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/msg-service/externals/MsgDevicedWrapper.cpp MsgChangePmState 86 if (callStatus > VCONFKEY_CALL_OFF && callStatus < VCONFKEY_CALL_STATE_MAX) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/msg-service/externals/MsgSoundPlayer.cpp MsgGetPlayStatus 330 if (callStatus > VCONFKEY_CALL_OFF && callStatus < VCONFKEY_CALL_STATE_MAX) {

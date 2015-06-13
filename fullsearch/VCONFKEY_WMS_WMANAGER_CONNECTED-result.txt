@@ -1,0 +1,3 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-wms-keys.h <global> 42 #define VCONFKEY_WMS_WMANAGER_CONNECTED "memory/wms/wmanager_connected"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/aul-1/am_daemon/amd_launch.c _start_app 1832 vconf_get_bool(VCONFKEY_WMS_WMANAGER_CONNECTED, &wmanager_connected);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/download-provider/provider/download-provider-network.c VCONFKEY_SAP_CONNECTION_NOTIFICATION 39 #define VCONFKEY_SAP_CONNECTION_NOTIFICATION VCONFKEY_WMS_WMANAGER_CONNECTED

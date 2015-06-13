@@ -1,0 +1,3 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-data-slp-setting.c <global> 234 {"easy_touch_mode", "accessibility", BOOL_SLP_SETTING_ACCESSIBILITY_EASY_TOUCH_MODE, VCONFKEY_SETAPPL_EASY_TOUCH_MODE_BOOL, eBOOL, {0}, export_json, import_default},
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 314 #define VCONFKEY_SETAPPL_EASY_TOUCH_MODE_BOOL "db/setting/accessibility/easy_touch_mode"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/ui/src/vcui-view-circle.c _vcui_view_circle_easy_touch_state 564 if (0 != vconf_get_bool(VCONFKEY_SETAPPL_EASY_TOUCH_MODE_BOOL, &value)) {

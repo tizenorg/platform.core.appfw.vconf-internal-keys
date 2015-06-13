@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-wifi-keys.h <global> 118 #define VCONFKEY_WIFI_DIRECT_P2P_LOCAL_IP "memory/private/wifi_direct_manager/p2p_local_ip"

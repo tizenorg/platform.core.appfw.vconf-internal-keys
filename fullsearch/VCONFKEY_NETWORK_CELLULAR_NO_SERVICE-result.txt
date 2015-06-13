@@ -1,0 +1,3 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-dnet-keys.h <global> 55 VCONFKEY_NETWORK_CELLULAR_NO_SERVICE
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/video-player/src/common/mp-video-streaming-ctrl.c mp_streaming_ctrl_cellular_state_cb 295 case VCONFKEY_NETWORK_CELLULAR_NO_SERVICE:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/video-player/src/common/mp-video-streaming-ctrl.c mp_streaming_ctrl_get_cellular_state 566 case VCONFKEY_NETWORK_CELLULAR_NO_SERVICE:

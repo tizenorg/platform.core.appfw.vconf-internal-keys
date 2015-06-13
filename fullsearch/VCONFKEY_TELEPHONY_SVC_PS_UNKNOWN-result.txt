@@ -1,0 +1,2 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-telephony-keys.h <global> 78 VCONFKEY_TELEPHONY_SVC_PS_UNKNOWN = 0x00,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c reset_vconf 1151 vconf_set_int(VCONFKEY_TELEPHONY_SVC_PS, VCONFKEY_TELEPHONY_SVC_PS_UNKNOWN);

@@ -1,0 +1,2 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 582 #define VCONFKEY_SETAPPL_USB_OTG_MODE "db/setting/usb_otg"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/usbhost/usb-host-storage.c usbhost_storage_init 1262 if (vconf_get_bool(VCONFKEY_SETAPPL_USB_OTG_MODE, &mode) < 0)

@@ -1,0 +1,33 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/chromium-efl/impl/device/battery/battery_status_manager_tizen.cc <global> 69 if (vconf_get_int(VCONFKEY_SYSMAN_BATTERY_CHARGE_NOW, &charging) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/chromium-efl/impl/device/battery/battery_status_manager_tizen.cc <global> 228 VCONFKEY_SYSMAN_BATTERY_CHARGE_NOW, OnChargingStatusChanged, this) ||
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/chromium-efl/impl/device/battery/battery_status_manager_tizen.cc <global> 239 if (vconf_get_int(VCONFKEY_SYSMAN_BATTERY_CHARGE_NOW, &charging) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/chromium-efl/impl/device/battery/battery_status_manager_tizen.cc <global> 261 vconf_ignore_key_changed(VCONFKEY_SYSMAN_BATTERY_CHARGE_NOW,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/runtime-info/src/runtime_info_system.c <global> 36 static const char *VCONF_BATTERY_CHARGING = VCONFKEY_SYSMAN_BATTERY_CHARGE_NOW;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-sysman-keys.h <global> 35 #define VCONFKEY_SYSMAN_BATTERY_CHARGE_NOW "memory/sysman/charge_now"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webapi-plugins/src/systeminfo/systeminfo-utils.cpp <global> 669 RegisterVconfCallback(VCONFKEY_SYSMAN_BATTERY_CHARGE_NOW, OnBatteryChangedCb, instance))
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webapi-plugins/src/systeminfo/systeminfo-utils.cpp <global> 683 UnregisterVconfCallback(VCONFKEY_SYSMAN_BATTERY_CHARGE_NOW, OnBatteryChangedCb))
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webapi-plugins/src/systeminfo/systeminfo-utils.cpp <global> 1709 ret = vconf_get_int(VCONFKEY_SYSMAN_BATTERY_CHARGE_NOW, &value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webkit-efl/Source/WebCore/platform/efl/BatteryProviderEfl.cpp <global> 76 if (!strncmp(key, VCONFKEY_SYSMAN_BATTERY_CHARGE_NOW, strlen(VCONFKEY_SYSMAN_BATTERY_CHARGE_NOW))) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webkit-efl/Source/WebCore/platform/efl/BatteryProviderEfl.cpp <global> 77 vconf_get_int(VCONFKEY_SYSMAN_BATTERY_CHARGE_NOW, &chargingInt);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webkit-efl/Source/WebCore/platform/efl/BatteryProviderEfl.cpp <global> 166 vconf_get_int(VCONFKEY_SYSMAN_BATTERY_CHARGE_NOW, &chargingInt);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webkit-efl/Source/WebCore/platform/efl/BatteryProviderEfl.cpp <global> 184 vconf_notify_key_changed(VCONFKEY_SYSMAN_BATTERY_CHARGE_NOW, batteryChargingAndLevelChangeCallback, static_cast<void *>(this));
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webkit-efl/Source/WebCore/platform/efl/BatteryProviderEfl.cpp <global> 207 vconf_ignore_key_changed(VCONFKEY_SYSMAN_BATTERY_CHARGE_NOW, batteryChargingAndLevelChangeCallback);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-agent/ag-agent/bluetooth-ag-agent.c _bt_ag_agent_get_battery_status 1190 if (vconf_get_int(VCONFKEY_SYSMAN_BATTERY_CHARGE_NOW,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth/src/bt-util.c _bt_util_is_battery_low 477 if (vconf_get_int(VCONFKEY_SYSMAN_BATTERY_CHARGE_NOW, (void *)&charging))
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/device/src/battery.c device_battery_is_charging 57 ret = vconf_get_int(VCONFKEY_SYSMAN_BATTERY_CHARGE_NOW, &val);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/device/src/callback.c register_request 227 return vconf_notify_key_changed(VCONFKEY_SYSMAN_BATTERY_CHARGE_NOW,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/device/src/callback.c release_request 257 return vconf_ignore_key_changed(VCONFKEY_SYSMAN_BATTERY_CHARGE_NOW,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/battery/power-supply.c process_power_supply 561 vconf_set_int(VCONFKEY_SYSMAN_BATTERY_CHARGE_NOW, battery.charge_now);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/battery/power-supply.c power_supply_status_init 627 vconf_set_int(VCONFKEY_SYSMAN_BATTERY_CHARGE_NOW, battery.charge_now);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/setting.c get_charging_status 111 return vconf_get_int(VCONFKEY_SYSMAN_BATTERY_CHARGE_NOW, val);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/efl/src/modules/ecore/system/tizen/ecore_system_tizen.c _charge_key_changed_cb 48 if (vconf_get_int(VCONFKEY_SYSMAN_BATTERY_CHARGE_NOW, &charging) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/efl/src/modules/ecore/system/tizen/ecore_system_tizen.c _ecore_system_tizen_init 136 if (vconf_notify_key_changed(VCONFKEY_SYSMAN_BATTERY_CHARGE_NOW, _charge_key_changed_cb, NULL) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/efl/src/modules/ecore/system/tizen/ecore_system_tizen.c _ecore_system_tizen_init 138 ERR("Unable to register a vconf changed cb to %s.", VCONFKEY_SYSMAN_BATTERY_CHARGE_NOW);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/efl/src/modules/ecore/system/tizen/ecore_system_tizen.c _ecore_system_tizen_init 178 vconf_ignore_key_changed(VCONFKEY_SYSMAN_BATTERY_CHARGE_NOW, _charge_key_changed_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/efl/src/modules/ecore/system/tizen/ecore_system_tizen.c _ecore_system_tizen_shutdown 193 vconf_ignore_key_changed(VCONFKEY_SYSMAN_BATTERY_CHARGE_NOW, _charge_key_changed_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/power/battery.c indicator_battery_check_charging 644 if (vconf_get_int(VCONFKEY_SYSMAN_BATTERY_CHARGE_NOW, &status) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/power/battery.c register_battery_module 765 ret = vconf_notify_key_changed(VCONFKEY_SYSMAN_BATTERY_CHARGE_NOW,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/power/battery.c unregister_battery_module 809 ret = ret | vconf_ignore_key_changed(VCONFKEY_SYSMAN_BATTERY_CHARGE_NOW,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/composer/src/bubble/msg-ui-composer-bubble-util.c msg_ui_bubble_launch_msg_viewer 199 vconf_get_int(VCONFKEY_SYSMAN_BATTERY_CHARGE_NOW, &charger_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/viewer/src/msg-ui-viewer-gadget.c __msg_ui_viewer_on_event 671 vconf_get_int(VCONFKEY_SYSMAN_BATTERY_CHARGE_NOW, &charger_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-bluetooth-efl/src/libraries/bt-util.c _bt_util_is_battery_low 312 if (vconf_get_int(VCONFKEY_SYSMAN_BATTERY_CHARGE_NOW, (void *)&charging))

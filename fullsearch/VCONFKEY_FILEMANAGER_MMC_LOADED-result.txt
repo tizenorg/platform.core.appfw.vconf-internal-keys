@@ -1,0 +1,2 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-filemanager-keys.h <global> 29 VCONFKEY_FILEMANAGER_MMC_LOADED,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/media-server/src/scanner/media-scanner-scan.c __msc_set_db_status 137 if (!ms_config_set_int(VCONFKEY_FILEMANAGER_MMC_STATUS, VCONFKEY_FILEMANAGER_MMC_LOADED)) {

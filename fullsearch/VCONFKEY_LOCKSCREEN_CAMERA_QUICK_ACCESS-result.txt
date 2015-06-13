@@ -1,0 +1,5 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-lockscreen-keys.h <global> 24 #define VCONFKEY_LOCKSCREEN_CAMERA_QUICK_ACCESS "db/lockscreen/camera_quick_access"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lockscreen/src/camera.c lock_camera_layout_create 154 ret = lock_property_get_bool(PROPERTY_TYPE_VCONFKEY, VCONFKEY_LOCKSCREEN_CAMERA_QUICK_ACCESS, &camera_shortcut);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-lockscreen-setting-efl/ug-lockscreen-setting-efl/src/lockscreen-options-main.c _lockscreen_options_set_menu_status 411 ret = vconf_set_bool(VCONFKEY_LOCKSCREEN_CAMERA_QUICK_ACCESS, value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-lockscreen-setting-efl/ug-lockscreen-setting-efl/src/lockscreen-options-main.c _lockscreen_options_get_menu_status 433 ret = vconf_get_bool(VCONFKEY_LOCKSCREEN_CAMERA_QUICK_ACCESS, &status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-lockscreen-setting-efl/ug-lockscreen-setting-efl/src/lockscreen-options.c setting_plugin_reset 793 ret += vconf_set_bool(VCONFKEY_LOCKSCREEN_CAMERA_QUICK_ACCESS, 0);

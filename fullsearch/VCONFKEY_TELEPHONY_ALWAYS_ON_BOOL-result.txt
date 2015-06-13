@@ -1,0 +1,8 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 665 #define VCONFKEY_TELEPHONY_ALWAYS_ON_BOOL "db/setting/dualsim/always_dualsim"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-dual-sim-alwayson.c __cst_click_dual_sim_done_press_cb 179 _cst_vconf_get_int(VCONFKEY_TELEPHONY_ALWAYS_ON_BOOL, &status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-dual-sim-alwayson.c __cst_click_dual_sim_done_press_cb 183 _cst_vconf_set_int(VCONFKEY_TELEPHONY_ALWAYS_ON_BOOL, ugd->dualsim_alwayson_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-dual-sim-alwayson.c __cst_click_dual_sim_back 554 _cst_vconf_get_int(VCONFKEY_TELEPHONY_ALWAYS_ON_BOOL, &status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-dual-sim-alwayson.c __cst_on_click_dualsim_alwayson 1941 _cst_vconf_get_int(VCONFKEY_TELEPHONY_ALWAYS_ON_BOOL, &value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-dual-sim-alwayson.c __cst_on_changed_dualsim_alwayson 1958 _cst_vconf_get_int(VCONFKEY_TELEPHONY_ALWAYS_ON_BOOL, &value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-dual-sim-alwayson.c __cst_gl_dualsim_alwayson_icon_get 1975 _cst_vconf_get_int(VCONFKEY_TELEPHONY_ALWAYS_ON_BOOL, &value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-dual-sim-alwayson.c _cst_create_dual_sim_alwayson_ug 2323 _cst_vconf_get_int(VCONFKEY_TELEPHONY_ALWAYS_ON_BOOL, &ugd->dualsim_alwayson_status);

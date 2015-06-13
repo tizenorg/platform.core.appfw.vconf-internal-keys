@@ -1,0 +1,25 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/haptic/haptic.c <global> 57 #ifndef VCONFKEY_RECORDER_STATE
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/haptic/haptic.c <global> 58 #define VCONFKEY_RECORDER_STATE "memory/recorder/state"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-camera-keys.h <global> 41 #define VCONFKEY_RECORDER_STATE "memory/recorder/state"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/haptic/haptic.c haptic_init 741 vconf_notify_key_changed(VCONFKEY_RECORDER_STATE, sound_capturing_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/haptic/haptic.c haptic_exit 752 vconf_ignore_key_changed(VCONFKEY_RECORDER_STATE, sound_capturing_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c __mm_camcorder_signal_handler 117 vconf_set_int(VCONFKEY_RECORDER_STATE, VCONFKEY_RECORDER_STATE_NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c _mmcamcorder_realize 998 vconf_get_int(VCONFKEY_RECORDER_STATE, &vconf_recorder_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c _mmcamcorder_realize 999 if (vconf_set_int(VCONFKEY_RECORDER_STATE, VCONFKEY_RECORDER_STATE_CREATED)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c _mmcamcorder_realize 1137 vconf_get_int(VCONFKEY_RECORDER_STATE, &vconf_recorder_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c _mmcamcorder_realize 1138 vconf_set_int(VCONFKEY_RECORDER_STATE, VCONFKEY_RECORDER_STATE_NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c _mmcamcorder_unrealize 1245 vconf_get_int(VCONFKEY_RECORDER_STATE, &vconf_recorder_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c _mmcamcorder_unrealize 1246 vconf_set_int(VCONFKEY_RECORDER_STATE, VCONFKEY_RECORDER_STATE_NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c _mmcamcorder_record 1649 vconf_get_int(VCONFKEY_RECORDER_STATE, &vconf_recorder_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c _mmcamcorder_record 1650 vconf_set_int(VCONFKEY_RECORDER_STATE, VCONFKEY_RECORDER_STATE_RECORDING);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c _mmcamcorder_pause 1730 vconf_get_int(VCONFKEY_RECORDER_STATE, &vconf_recorder_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c _mmcamcorder_pause 1731 vconf_set_int(VCONFKEY_RECORDER_STATE, VCONFKEY_RECORDER_STATE_RECORDING_PAUSE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c _mmcamcorder_commit 1803 vconf_get_int(VCONFKEY_RECORDER_STATE, &vconf_recorder_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c _mmcamcorder_commit 1804 vconf_set_int(VCONFKEY_RECORDER_STATE, VCONFKEY_RECORDER_STATE_CREATED);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c _mmcamcorder_cancel 1907 vconf_get_int(VCONFKEY_RECORDER_STATE, &vconf_recorder_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c _mmcamcorder_cancel 1908 vconf_set_int(VCONFKEY_RECORDER_STATE, VCONFKEY_RECORDER_STATE_CREATED);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-sound/common/mm_sound_utils.c _mm_sound_is_recording 351 vconf_get_int(VCONFKEY_RECORDER_STATE, &capture_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-sound/mm_sound_keysound.c mm_sound_play_keysound 64 vconf_get_int(VCONFKEY_RECORDER_STATE, &capture_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-sound/mm_sound_pcm.c mm_sound_pcm_play_write 1176 vconf_get_int(VCONFKEY_RECORDER_STATE, &vr_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-sound/server/mm_sound_mgr_asm.c __check_dead_process 1273 vconf_set_int(VCONFKEY_RECORDER_STATE, 0);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-sound/server/mm_sound_mgr_pulse.c _recorder_changed_cb 2016 vconf_get_int(VCONFKEY_RECORDER_STATE, &key_value);

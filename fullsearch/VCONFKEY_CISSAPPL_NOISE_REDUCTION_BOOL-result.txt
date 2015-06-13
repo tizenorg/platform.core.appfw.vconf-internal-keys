@@ -1,0 +1,9 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-ciss-keys.h <global> 92 #define VCONFKEY_CISSAPPL_NOISE_REDUCTION_BOOL "db/ciss/noise_reduction"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-manager/module/src/callmgr-audio.c __callmgr_audio_set_audio_control_state 309 if (vconf_get_bool(VCONFKEY_CISSAPPL_NOISE_REDUCTION_BOOL, &b_noise_reduction) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-call-setting.c __cst_on_changed_noise_reduction_check 130 _cst_vconf_set_bool(VCONFKEY_CISSAPPL_NOISE_REDUCTION_BOOL, check_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-call-setting.c __cst_on_click_noise_reduction 138 _cst_vconf_set_bool(VCONFKEY_CISSAPPL_NOISE_REDUCTION_BOOL, !check_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-call-setting.c __cst_gl_icon_get_phone 666 _cst_vconf_get_bool(VCONFKEY_CISSAPPL_NOISE_REDUCTION_BOOL, &value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-call-setting.c _cst_call_setting_unlisten_vconf_change 698 vconf_ignore_key_changed(VCONFKEY_CISSAPPL_NOISE_REDUCTION_BOOL,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-call-setting.c __cst_create_genlist_phone 833 vconf_notify_key_changed(VCONFKEY_CISSAPPL_NOISE_REDUCTION_BOOL,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-main.c setting_plugin_reset 591 ret += vconf_set_bool(VCONFKEY_CISSAPPL_NOISE_REDUCTION_BOOL, EINA_TRUE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/voice-call-sound.c __voicecall_snd_set_audio_control_state 1016 if (vconf_get_bool(VCONFKEY_CISSAPPL_NOISE_REDUCTION_BOOL, &b_noise_reduction) < 0) {

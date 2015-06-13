@@ -1,0 +1,11 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-mobile-hotspot-keys.h <global> 29 VCONFKEY_MOBILE_HOTSPOT_MODE_USB = 0x02,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/usb/usb-client-set.c get_usb_tethering_state 250 if (!ret && (state & VCONFKEY_MOBILE_HOTSPOT_MODE_USB)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/mobile_hotspot.c indicator_mobile_hotspot_change_cb 142 if(status&VCONFKEY_MOBILE_HOTSPOT_MODE_USB)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/usb.c _usb_change_cb 115 if (tethering & VCONFKEY_MOBILE_HOTSPOT_MODE_USB) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/runtime-info/src/runtime_info_connectivity.c runtime_info_usb_hotspot_get_value 130 value->b = (vconf_value&VCONFKEY_MOBILE_HOTSPOT_MODE_USB) ? true : false;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/setting-handler.c setting_main_click_list_usb_cb 597 if (value & VCONFKEY_MOBILE_HOTSPOT_MODE_USB) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tethering/src/tethering.c tethering_is_enabled 1767 vconf_type = VCONFKEY_MOBILE_HOTSPOT_MODE_USB;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-mobile-ap/src/mh_func_onoff.c _handle_usb_onoff_change 747 if (ad->main.hotspot_mode & VCONFKEY_MOBILE_HOTSPOT_MODE_USB) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-mobile-ap/src/mh_view_main.c _update_main_view 437 usb_state = (Eina_Bool)(state & VCONFKEY_MOBILE_HOTSPOT_MODE_USB);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-mobile-ap/src/mh_view_main.c __get_usb_icon 888 VCONFKEY_MOBILE_HOTSPOT_MODE_USB ? EINA_TRUE : EINA_FALSE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-mobile-ap/src/mh_view_main.c __create_inner_contents 1321 VCONFKEY_MOBILE_HOTSPOT_MODE_USB |

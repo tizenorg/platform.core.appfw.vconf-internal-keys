@@ -1,0 +1,839 @@
+From 0a3348a95c633953e535615b5f7f590c3b712df7 Mon Sep 17 00:00:00 2001
+From: MyoungJune Park <mj2004.park@samsung.com>
+Date: Wed, 3 Jun 2015 11:38:21 +0900
+Subject: [PATCH] sysman: Remove unused vconf key
+
+Change-Id: I7652afe770f4ab85d09273e290149652a5d0a8a8
+---
+ data/vconf-internal-setting-keys.xml    | 147 -----------------------
+ data/vconf-internal-sysman-keys.xml     |  32 -----
+ include/vconf-internal-setting-keys.h   |  92 --------------
+ include/vconf-internal-sysman-keys.h    |  29 -----
+ report/vconf-internal-setting-keys.html | 207 --------------------------------
+ report/vconf-internal-sysman-keys.html  |  27 -----
+ scripts/vconf-internal-setting-keys.sh  |  23 ----
+ scripts/vconf-internal-sysman-keys.sh   |   5 +-
+ 8 files changed, 1 insertion(+), 561 deletions(-)
+
+diff --git a/data/vconf-internal-setting-keys.xml b/data/vconf-internal-setting-keys.xml
+index c91708d..a733cee 100644
+--- a/data/vconf-internal-setting-keys.xml
++++ b/data/vconf-internal-setting-keys.xml
+@@ -441,30 +441,6 @@
+       <enumdata>SETTING_LANG_MAX</enumdata>
+     </enumlist>
+   </vconfkey>
+-  <vconfkey type="int" name="db/setting/ticker_noti/im" value="0" label="" headeronly="true" gid="6514" uid="">
+-    <header>VCONFKEY_SETAPPL_STATE_TICKER_NOTI_IM_BOOL</header>
+-    <creator/>
+-    <email/>
+-    <comment><![CDATA[ ]]></comment>
+-  </vconfkey>
+-  <vconfkey type="int" name="db/setting/ticker_noti/facebook" value="0" label="" headeronly="true" gid="6514" uid="">
+-    <header>VCONFKEY_SETAPPL_STATE_TICKER_NOTI_FACEBOOK_BOOL</header>
+-    <creator/>
+-    <email/>
+-    <comment><![CDATA[ ]]></comment>
+-  </vconfkey>
+-  <vconfkey type="int" name="db/setting/ticker_noti/twitter" value="0" label="" gid="6514" uid=""> headeronly="true"
+-<header>VCONFKEY_SETAPPL_STATE_TICKER_NOTI_TWITTER_BOOL</header>
+-<creator/>
+-<email/>
+-<comment><![CDATA[ ]]></comment>
+-</vconfkey>
+-  <vconfkey type="int" name="db/setting/ticker_noti/messages" value="0" label="" headeronly="true" gid="6514" uid="">
+-    <header>VCONFKEY_SETAPPL_STATE_TICKER_NOTI_MESSAGES_BOOL</header>
+-    <creator/>
+-    <email/>
+-    <comment><![CDATA[ ]]></comment>
+-  </vconfkey>
+   <vconfkey type="int" name="db/setting/ticker_noti/email" value="0" label="" headeronly="true" gid="6514" uid="">
+     <header>VCONFKEY_SETAPPL_STATE_TICKER_NOTI_EMAIL_BOOL</header>
+     <creator/>
+@@ -542,57 +518,12 @@
+     <email/>
+     <comment><![CDATA[ ]]></comment>
+   </vconfkey>
+-  <vconfkey type="bool" name="db/setting/pwrsv/system_mode/status" value="0" label="org.tizen.setting::private" gid="6514" uid="">
+-    <header>VCONFKEY_SETAPPL_PWRSV_SYSMODE_STATUS</header>
+-    <creator/>
+-    <email/>
+-    <comment><![CDATA[ ]]></comment>
+-  </vconfkey>
+-  <vconfkey type="int" name="db/setting/pwrsv/custom_mode/backlight/time" value="15" label="org.tizen.setting::private" gid="6514" uid="">
+-    <header>VCONFKEY_SETAPPL_PWRSV_CUSTMODE_BLTIME</header>
+-    <creator/>
+-    <email/>
+-    <comment><![CDATA[ ]]></comment>
+-    <enumlist>
+-      <enumdata val="8">SETTING_BACKLIGHT_TIME_8SEC</enumdata>
+-      <enumdata val="15">SETTING_BACKLIGHT_TIME_15SEC</enumdata>
+-      <enumdata val="30">SETTING_BACKLIGHT_TIME_30SEC</enumdata>
+-      <enumdata val="60">SETTING_BACKLIGHT_TIME_1MIN</enumdata>
+-      <enumdata val="180">SETTING_BACKLIGHT_TIME_3MIN</enumdata>
+-      <enumdata val="600">SETTING_BACKLIGHT_TIME_10MIN</enumdata>
+-      <enumdata>SETTING_BACKLIGHT_TIME_MAX</enumdata>
+-    </enumlist>
+-  </vconfkey>
+-  <vconfkey type="int" name="db/setting/pwrsv/custom_mode/at" value="30" label="org.tizen.setting::private" gid="6514" uid="">
+-    <header>VCONFKEY_SETAPPL_PWRSV_CUSTMODE_AT</header>
+-    <creator/>
+-    <email/>
+-    <comment><![CDATA[ ]]></comment>
+-  </vconfkey>
+   <vconfkey type="bool" name="db/setting/pwrsv/custom_mode/cpu" value="0" label="system::vconf_inhouse" gid="6514" uid="">
+     <header>VCONFKEY_SETAPPL_PWRSV_CUSTMODE_CPU</header>
+     <creator/>
+     <email/>
+     <comment><![CDATA[ ]]></comment>
+   </vconfkey>
+-  <vconfkey type="bool" name="db/setting/pwrsv/custom_mode/display" value="0" label="system::vconf_inhouse" gid="6514" uid="">
+-    <header>VCONFKEY_SETAPPL_PWRSV_CUSTMODE_DISPLAY</header>
+-    <creator/>
+-    <email/>
+-    <comment><![CDATA[ ]]></comment>
+-  </vconfkey>
+-  <vconfkey type="bool" name="db/setting/pwrsv/custom_mode/bg_color" value="0" label="system::vconf_inhouse" gid="6514" uid="">
+-    <header>VCONFKEY_SETAPPL_PWRSV_CUSTMODE_BG_COLOR</header>
+-    <creator/>
+-    <email/>
+-    <comment><![CDATA[ ]]></comment>
+-  </vconfkey>
+-  <vconfkey type="bool" name="db/setting/pwrsv/custom_mode/screen_vib" value="0" label="system::vconf_inhouse" gid="6514" uid="">
+-    <header>VCONFKEY_SETAPPL_PWRSV_CUSTMODE_SCREEN_VIB</header>
+-    <creator/>
+-    <email/>
+-    <comment><![CDATA[ ]]></comment>
+-  </vconfkey>
+   <vconfkey type="int" name="db/setting/ticker_noti/display_content/messages" value="0" label="" headeronly="true" gid="6514" uid="">
+     <header>VCONFKEY_TICKER_NOTI_DISPLAY_CONTENT_MESSASGES</header>
+     <creator/>
+@@ -677,12 +608,6 @@
+     <email/>
+     <comment><![CDATA[ ]]></comment>
+   </vconfkey>
+-  <vconfkey type="bool" name="db/setting/transaction_tracking" value="0" label="org.tizen.setting::private" gid="6514" uid="">
+-    <header>VCONFKEY_SETAPPL_STATE_TRANSACTION_TRACKING_BOOL</header>
+-    <creator/>
+-    <email/>
+-    <comment><![CDATA[ ]]></comment>
+-  </vconfkey>
+   <vconfkey type="bool" name="db/setting/expiry_reminder" value="0" label="org.tizen.setting::private" gid="6514" uid="">
+     <header>VCONFKEY_SETAPPL_STATE_EXPIRY_REMINDER_BOOL</header>
+     <creator/>
+@@ -701,30 +626,6 @@
+       <enumdata>SETTING_ROAM_NET_MAX</enumdata>
+     </enumlist>
+   </vconfkey>
+-  <vconfkey type="int" name="db/setting/default_memory/download" value="0" label="system::vconf_system" gid="6514" uid="">
+-    <header>VCONFKEY_SETAPPL_DEFAULT_MEM_DOWNLOAD_INT</header>
+-    <creator/>
+-    <email/>
+-    <comment><![CDATA[ ]]></comment>
+-  </vconfkey>
+-  <vconfkey type="int" name="db/setting/default_memory/download_nfc" value="0" label="" headeronly="true" gid="6514" uid="">
+-    <header>VCONFKEY_SETAPPL_DEFAULT_MEM_DOWNLOAD_NFC_INT</header>
+-    <creator/>
+-    <email/>
+-    <comment><![CDATA[ ]]></comment>
+-  </vconfkey>
+-  <vconfkey type="int" name="db/setting/default_memory/download_contents" value="0" label="system::vconf_system" gid="6514" uid="">
+-    <header>VCONFKEY_SETAPPL_DEFAULT_MEM_DOWNLOAD_CONTENTS_INT</header>
+-    <creator/>
+-    <email/>
+-    <comment><![CDATA[ ]]></comment>
+-  </vconfkey>
+-  <vconfkey type="int" name="db/setting/default_memory/download_application" value="0" label="system::vconf_system" gid="6514" uid="">
+-    <header>VCONFKEY_SETAPPL_DEFAULT_MEM_DOWNLOAD_APPLICATION_INT</header>
+-    <creator/>
+-    <email/>
+-    <comment><![CDATA[ ]]></comment>
+-  </vconfkey>
+   <vconfkey type="int" name="db/setting/default_memory/install_applications" value="0" label="system::vconf_system" gid="6514" uid="">
+     <header>VCONFKEY_SETAPPL_DEFAULT_MEM_INSTALL_APPLICATIONS_INT</header>
+     <creator/>
+@@ -1096,24 +997,6 @@
+     <email/>
+     <comment><![CDATA[ ]]></comment>
+   </vconfkey>
+-  <vconfkey type="int" name="db/setting/blockingmode/start_min" value="0" label="" headeronly="true" gid="6514" uid="">
+-    <header>VCONFKEY_SETAPPL_BM_START_MIN</header>
+-    <creator/>
+-    <email/>
+-    <comment><![CDATA[ ]]></comment>
+-  </vconfkey>
+-  <vconfkey type="int" name="db/setting/blockingmode/end_min" value="0" label="" headeronly="true" gid="6514" uid="">
+-    <header>VCONFKEY_SETAPPL_BM_END_MIN</header>
+-    <creator/>
+-    <email/>
+-    <comment><![CDATA[ ]]></comment>
+-  </vconfkey>
+-  <vconfkey type="int" name="db/setting/blockingmode/end_hour" value="0" label="" headeronly="true" gid="6514" uid="">
+-    <header>VCONFKEY_SETAPPL_BM_END_HOUR</header>
+-    <creator/>
+-    <email/>
+-    <comment><![CDATA[ ]]></comment>
+-  </vconfkey>
+   <vconfkey type="int" name="db/setting/blockingmode/end_alarm_id" value="0" label="" headeronly="true" gid="6514" uid="">
+     <header>VCONFKEY_SETAPPL_BM_ALARM_ID_END</header>
+     <creator/>
+@@ -1126,30 +1009,6 @@
+     <email/>
+     <comment><![CDATA[ ]]></comment>
+   </vconfkey>
+-  <vconfkey type="int" name="db/setting/blockingmode/start_hour" value="0" label="" headeronly="true" gid="6514" uid="">
+-    <header>VCONFKEY_SETAPPL_BM_START_HOUR</header>
+-    <creator/>
+-    <email/>
+-    <comment><![CDATA[ ]]></comment>
+-  </vconfkey>
+-  <vconfkey type="int" name="db/setting/blockingmode/inter/alarm_and_timer" value="0" label="" headeronly="true" gid="6514" uid="">
+-    <header>VCONFKEY_SETAPPL_BM_INTER_ALARM_AND_TIMER</header>
+-    <creator/>
+-    <email/>
+-    <comment><![CDATA[ ]]></comment>
+-  </vconfkey>
+-  <vconfkey type="int" name="db/setting/blockingmode/inter/incomingcall" value="0" label="" headeronly="true" gid="6514" uid="">
+-    <header>VCONFKEY_SETAPPL_BM_INTER_INCOMING_CALL</header>
+-    <creator/>
+-    <email/>
+-    <comment><![CDATA[ ]]></comment>
+-  </vconfkey>
+-  <vconfkey type="int" name="db/setting/blockingmode/inter/notifications" value="0" label="" headeronly="true" gid="6514" uid="">
+-    <header>VCONFKEY_SETAPPL_BM_INTER_NOTIFICATIONS</header>
+-    <creator/>
+-    <email/>
+-    <comment><![CDATA[ ]]></comment>
+-  </vconfkey>
+   <vconfkey type="int" name="db/setting/ticker_noti/sound/im" value="0" label="" headeronly="true" gid="6514" uid="">
+     <header>VCONFKEY_TICKER_NOTI_SOUND_IM</header>
+     <creator/>
+@@ -1339,12 +1198,6 @@
+     <email/>
+     <comment><![CDATA[ ]]></comment>
+   </vconfkey>
+-  <vconfkey type="int" name="db/setting/blockingmode/inter/led_indicator" value="0" label="" headeronly="true" gid="6514" uid="">
+-    <header>VCONFKEY_SETAPPL_BM_INTER_LED_INDICATOR</header>
+-    <creator/>
+-    <email/>
+-    <comment><![CDATA[ ]]></comment>
+-  </vconfkey>
+   <vconfkey type="int" name="db/setting/data_roaming_app/status" value="0" label="" headeronly="true" gid="6514" uid="">
+     <header>VCONFKEY_SETAPPL_STATE_DATA_ROAMING_APP_STATUS</header>
+     <creator/>
+diff --git a/data/vconf-internal-sysman-keys.xml b/data/vconf-internal-sysman-keys.xml
+index cb2d235..beb8585 100644
+--- a/data/vconf-internal-sysman-keys.xml
++++ b/data/vconf-internal-sysman-keys.xml
+@@ -213,36 +213,4 @@
+       <enumdata>VCONFKEY_SYSMAN_MMC_FORMAT_PROGRESS_NOW</enumdata>
+     </enumlist>
+   </vconfkey>
+-  <vconfkey type="int" name="db/deviced/string_option" value="0" label="" headeronly="true" gid="6514" uid="">
+-    <header>VCONFKEY_DEVICED_STRING_OPTION</header>
+-    <creator/>
+-    <email/>
+-    <comment><![CDATA[ ]]></comment>
+-    <enumlist>
+-      <enumdata>VCONFKEY_DEVICED_STRING_OPTION1</enumdata>
+-      <enumdata>VCONFKEY_DEVICED_STRING_OPTION2</enumdata>
+-      <enumdata>VCONFKEY_DEVICED_STRING_OPTION3</enumdata>
+-    </enumlist>
+-  </vconfkey>
+-  <vconfkey type="int" name="db/deviced/mount_path_option" value="0" label="" headeronly="true" gid="6514" uid="">
+-    <header>VCONFKEY_DEVICED_MOUNT_PATH_OPTION</header>
+-    <creator/>
+-    <email/>
+-    <comment><![CDATA[ ]]></comment>
+-    <enumlist>
+-      <enumdata>VCONFKEY_DEVICED_MOUNT_PATH_OPTION1</enumdata>
+-      <enumdata>VCONFKEY_DEVICED_MOUNT_PATH_OPTION2</enumdata>
+-      <enumdata>VCONFKEY_DEVICED_MOUNT_PATH_OPTION3</enumdata>
+-    </enumlist>
+-  </vconfkey>
+-  <vconfkey type="int" name="memory/deviced/boot_power_on" value="0" label="system::vconf_system" gid="6514" uid="">
+-    <header>VCONFKEY_DEVICED_BOOT_POWER_ON_STATUS</header>
+-    <creator/>
+-    <email/>
+-    <comment><![CDATA[ ]]></comment>
+-    <enumlist>
+-      <enumdata>VCONFKEY_DEVICED_BOOT_POWER_ON_NONE</enumdata>
+-      <enumdata>VCONFKEY_DEVICED_BOOT_POWER_ON_DONE</enumdata>
+-    </enumlist>
+-  </vconfkey>
+ </vconfkeylists>
+diff --git a/include/vconf-internal-setting-keys.h b/include/vconf-internal-setting-keys.h
+index f5d47f3..3885c81 100644
+--- a/include/vconf-internal-setting-keys.h
++++ b/include/vconf-internal-setting-keys.h
+@@ -292,23 +292,6 @@ enum {
+ #ifdef USE_NONCREATED_VCONF_KEY
+ #warning using non-created vconf-key ----- please make sure this key is in use actually
+ #endif
+-#define VCONFKEY_SETAPPL_STATE_TICKER_NOTI_IM_BOOL  "db/setting/ticker_noti/im"
+-
+-#ifdef USE_NONCREATED_VCONF_KEY
+-#warning using non-created vconf-key ----- please make sure this key is in use actually
+-#endif
+-#define VCONFKEY_SETAPPL_STATE_TICKER_NOTI_FACEBOOK_BOOL  "db/setting/ticker_noti/facebook"
+-
+-#define VCONFKEY_SETAPPL_STATE_TICKER_NOTI_TWITTER_BOOL  "db/setting/ticker_noti/twitter"
+-
+-#ifdef USE_NONCREATED_VCONF_KEY
+-#warning using non-created vconf-key ----- please make sure this key is in use actually
+-#endif
+-#define VCONFKEY_SETAPPL_STATE_TICKER_NOTI_MESSAGES_BOOL  "db/setting/ticker_noti/messages"
+-
+-#ifdef USE_NONCREATED_VCONF_KEY
+-#warning using non-created vconf-key ----- please make sure this key is in use actually
+-#endif
+ #define VCONFKEY_SETAPPL_STATE_TICKER_NOTI_EMAIL_BOOL  "db/setting/ticker_noti/email"
+ 
+ #define VCONFKEY_SETAPPL_ACCESSIBILITY_FONT_SIZE  "db/setting/accessibility/font_size"
+@@ -343,30 +326,8 @@ enum {
+ 
+ #define VCONFKEY_SETAPPL_ACCESSIBILITY_TTS  "db/setting/accessibility/tts"
+ 
+-#define VCONFKEY_SETAPPL_PWRSV_SYSMODE_STATUS  "db/setting/pwrsv/system_mode/status"
+-
+-#define VCONFKEY_SETAPPL_PWRSV_CUSTMODE_BLTIME  "db/setting/pwrsv/custom_mode/backlight/time"
+-
+-enum {
+-	SETTING_BACKLIGHT_TIME_8SEC = 8,
+-		SETTING_BACKLIGHT_TIME_15SEC = 15,
+-		SETTING_BACKLIGHT_TIME_30SEC = 30,
+-		SETTING_BACKLIGHT_TIME_1MIN = 60,
+-		SETTING_BACKLIGHT_TIME_3MIN = 180,
+-		SETTING_BACKLIGHT_TIME_10MIN = 600,
+-		SETTING_BACKLIGHT_TIME_MAX
+-};
+-
+-#define VCONFKEY_SETAPPL_PWRSV_CUSTMODE_AT  "db/setting/pwrsv/custom_mode/at"
+-
+ #define VCONFKEY_SETAPPL_PWRSV_CUSTMODE_CPU  "db/setting/pwrsv/custom_mode/cpu"
+ 
+-#define VCONFKEY_SETAPPL_PWRSV_CUSTMODE_DISPLAY  "db/setting/pwrsv/custom_mode/display"
+-
+-#define VCONFKEY_SETAPPL_PWRSV_CUSTMODE_BG_COLOR  "db/setting/pwrsv/custom_mode/bg_color"
+-
+-#define VCONFKEY_SETAPPL_PWRSV_CUSTMODE_SCREEN_VIB  "db/setting/pwrsv/custom_mode/screen_vib"
+-
+ #ifdef USE_NONCREATED_VCONF_KEY
+ #warning using non-created vconf-key ----- please make sure this key is in use actually
+ #endif
+@@ -428,8 +389,6 @@ enum {
+ #endif
+ #define VCONFKEY_SETAPPL_HOMESCREEN_EASYMODE_BOOL  "db/setting/homescreen/easymode"
+ 
+-#define VCONFKEY_SETAPPL_STATE_TRANSACTION_TRACKING_BOOL  "db/setting/transaction_tracking"
+-
+ #define VCONFKEY_SETAPPL_STATE_EXPIRY_REMINDER_BOOL  "db/setting/expiry_reminder"
+ 
+ #define VCONFKEY_SETAPPL_ROAMING_NETWORK_INT  "db/setting/roaming_network"
+@@ -441,17 +400,6 @@ enum {
+ 		SETTING_ROAM_NET_MAX
+ };
+ 
+-#define VCONFKEY_SETAPPL_DEFAULT_MEM_DOWNLOAD_INT  "db/setting/default_memory/download"
+-
+-#ifdef USE_NONCREATED_VCONF_KEY
+-#warning using non-created vconf-key ----- please make sure this key is in use actually
+-#endif
+-#define VCONFKEY_SETAPPL_DEFAULT_MEM_DOWNLOAD_NFC_INT  "db/setting/default_memory/download_nfc"
+-
+-#define VCONFKEY_SETAPPL_DEFAULT_MEM_DOWNLOAD_CONTENTS_INT  "db/setting/default_memory/download_contents"
+-
+-#define VCONFKEY_SETAPPL_DEFAULT_MEM_DOWNLOAD_APPLICATION_INT  "db/setting/default_memory/download_application"
+-
+ #define VCONFKEY_SETAPPL_DEFAULT_MEM_INSTALL_APPLICATIONS_INT  "db/setting/default_memory/install_applications"
+ 
+ #define VCONFKEY_SETAPPL_DEFAULT_MEM_WIFI_DIRECT_INT  "db/setting/default_memory/wifi_direct"
+@@ -636,21 +584,6 @@ enum {
+ #ifdef USE_NONCREATED_VCONF_KEY
+ #warning using non-created vconf-key ----- please make sure this key is in use actually
+ #endif
+-#define VCONFKEY_SETAPPL_BM_START_MIN  "db/setting/blockingmode/start_min"
+-
+-#ifdef USE_NONCREATED_VCONF_KEY
+-#warning using non-created vconf-key ----- please make sure this key is in use actually
+-#endif
+-#define VCONFKEY_SETAPPL_BM_END_MIN  "db/setting/blockingmode/end_min"
+-
+-#ifdef USE_NONCREATED_VCONF_KEY
+-#warning using non-created vconf-key ----- please make sure this key is in use actually
+-#endif
+-#define VCONFKEY_SETAPPL_BM_END_HOUR  "db/setting/blockingmode/end_hour"
+-
+-#ifdef USE_NONCREATED_VCONF_KEY
+-#warning using non-created vconf-key ----- please make sure this key is in use actually
+-#endif
+ #define VCONFKEY_SETAPPL_BM_ALARM_ID_END  "db/setting/blockingmode/end_alarm_id"
+ 
+ #ifdef USE_NONCREATED_VCONF_KEY
+@@ -661,26 +594,6 @@ enum {
+ #ifdef USE_NONCREATED_VCONF_KEY
+ #warning using non-created vconf-key ----- please make sure this key is in use actually
+ #endif
+-#define VCONFKEY_SETAPPL_BM_START_HOUR  "db/setting/blockingmode/start_hour"
+-
+-#ifdef USE_NONCREATED_VCONF_KEY
+-#warning using non-created vconf-key ----- please make sure this key is in use actually
+-#endif
+-#define VCONFKEY_SETAPPL_BM_INTER_ALARM_AND_TIMER  "db/setting/blockingmode/inter/alarm_and_timer"
+-
+-#ifdef USE_NONCREATED_VCONF_KEY
+-#warning using non-created vconf-key ----- please make sure this key is in use actually
+-#endif
+-#define VCONFKEY_SETAPPL_BM_INTER_INCOMING_CALL  "db/setting/blockingmode/inter/incomingcall"
+-
+-#ifdef USE_NONCREATED_VCONF_KEY
+-#warning using non-created vconf-key ----- please make sure this key is in use actually
+-#endif
+-#define VCONFKEY_SETAPPL_BM_INTER_NOTIFICATIONS  "db/setting/blockingmode/inter/notifications"
+-
+-#ifdef USE_NONCREATED_VCONF_KEY
+-#warning using non-created vconf-key ----- please make sure this key is in use actually
+-#endif
+ #define VCONFKEY_TICKER_NOTI_SOUND_IM  "db/setting/ticker_noti/sound/im"
+ 
+ #ifdef USE_NONCREATED_VCONF_KEY
+@@ -785,11 +698,6 @@ enum {
+ #ifdef USE_NONCREATED_VCONF_KEY
+ #warning using non-created vconf-key ----- please make sure this key is in use actually
+ #endif
+-#define VCONFKEY_SETAPPL_BM_INTER_LED_INDICATOR  "db/setting/blockingmode/inter/led_indicator"
+-
+-#ifdef USE_NONCREATED_VCONF_KEY
+-#warning using non-created vconf-key ----- please make sure this key is in use actually
+-#endif
+ #define VCONFKEY_SETAPPL_STATE_DATA_ROAMING_APP_STATUS  "db/setting/data_roaming_app/status"
+ 
+ #define VCONFKEY_SETAPPL_DYNAMIC_STATUS_BAR  "db/setting/display/dynamic_status_bar"
+diff --git a/include/vconf-internal-sysman-keys.h b/include/vconf-internal-sysman-keys.h
+index 899a33b..034b526 100644
+--- a/include/vconf-internal-sysman-keys.h
++++ b/include/vconf-internal-sysman-keys.h
+@@ -169,33 +169,4 @@ enum {
+ 		VCONFKEY_SYSMAN_MMC_FORMAT_PROGRESS_NOW
+ };
+ 
+-#ifdef USE_NONCREATED_VCONF_KEY
+-#warning using non-created vconf-key ----- please make sure this key is in use actually
+-#endif
+-#define VCONFKEY_DEVICED_STRING_OPTION  "db/deviced/string_option"
+-
+-enum {
+-	VCONFKEY_DEVICED_STRING_OPTION1,
+-		VCONFKEY_DEVICED_STRING_OPTION2,
+-		VCONFKEY_DEVICED_STRING_OPTION3
+-};
+-
+-#ifdef USE_NONCREATED_VCONF_KEY
+-#warning using non-created vconf-key ----- please make sure this key is in use actually
+-#endif
+-#define VCONFKEY_DEVICED_MOUNT_PATH_OPTION  "db/deviced/mount_path_option"
+-
+-enum {
+-	VCONFKEY_DEVICED_MOUNT_PATH_OPTION1,
+-		VCONFKEY_DEVICED_MOUNT_PATH_OPTION2,
+-		VCONFKEY_DEVICED_MOUNT_PATH_OPTION3
+-};
+-
+-#define VCONFKEY_DEVICED_BOOT_POWER_ON_STATUS  "memory/deviced/boot_power_on"
+-
+-enum {
+-	VCONFKEY_DEVICED_BOOT_POWER_ON_NONE,
+-		VCONFKEY_DEVICED_BOOT_POWER_ON_DONE
+-};
+-
+ #endif /*   __VCONF_INTERNAL_SYSMAN_KEYS_H__    */
+diff --git a/report/vconf-internal-setting-keys.html b/report/vconf-internal-setting-keys.html
+index c51ab36..cebc230 100644
+--- a/report/vconf-internal-setting-keys.html
++++ b/report/vconf-internal-setting-keys.html
+@@ -480,42 +480,6 @@
+ <td bgcolor="green" align="center"></td>
+ </tr>
+   <tr>
+-<td><a href="../fullsearch/VCONFKEY_SETAPPL_STATE_TICKER_NOTI_IM_BOOL-result.txt">VCONFKEY_SETAPPL_STATE_TICKER_NOTI_IM_BOOL</a></td>
+-<td>db/setting/ticker_noti/im</td>
+-<td>int</td>
+-<td>0</td>
+-<td></td>
+-<td> </td>
+-<td bgcolor="red" align="center">true</td>
+-</tr>
+-  <tr>
+-<td><a href="../fullsearch/VCONFKEY_SETAPPL_STATE_TICKER_NOTI_FACEBOOK_BOOL-result.txt">VCONFKEY_SETAPPL_STATE_TICKER_NOTI_FACEBOOK_BOOL</a></td>
+-<td>db/setting/ticker_noti/facebook</td>
+-<td>int</td>
+-<td>0</td>
+-<td></td>
+-<td> </td>
+-<td bgcolor="red" align="center">true</td>
+-</tr>
+-  <tr>
+-<td><a href="../fullsearch/VCONFKEY_SETAPPL_STATE_TICKER_NOTI_TWITTER_BOOL-result.txt">VCONFKEY_SETAPPL_STATE_TICKER_NOTI_TWITTER_BOOL</a></td>
+-<td>db/setting/ticker_noti/twitter</td>
+-<td>int</td>
+-<td>0</td>
+-<td></td>
+-<td> </td>
+-<td bgcolor="green" align="center"></td>
+-</tr>
+-  <tr>
+-<td><a href="../fullsearch/VCONFKEY_SETAPPL_STATE_TICKER_NOTI_MESSAGES_BOOL-result.txt">VCONFKEY_SETAPPL_STATE_TICKER_NOTI_MESSAGES_BOOL</a></td>
+-<td>db/setting/ticker_noti/messages</td>
+-<td>int</td>
+-<td>0</td>
+-<td></td>
+-<td> </td>
+-<td bgcolor="red" align="center">true</td>
+-</tr>
+-  <tr>
+ <td><a href="../fullsearch/VCONFKEY_SETAPPL_STATE_TICKER_NOTI_EMAIL_BOOL-result.txt">VCONFKEY_SETAPPL_STATE_TICKER_NOTI_EMAIL_BOOL</a></td>
+ <td>db/setting/ticker_noti/email</td>
+ <td>int</td>
+@@ -615,33 +579,6 @@
+ <td bgcolor="green" align="center"></td>
+ </tr>
+   <tr>
+-<td><a href="../fullsearch/VCONFKEY_SETAPPL_PWRSV_SYSMODE_STATUS-result.txt">VCONFKEY_SETAPPL_PWRSV_SYSMODE_STATUS</a></td>
+-<td>db/setting/pwrsv/system_mode/status</td>
+-<td>bool</td>
+-<td>0</td>
+-<td>org.tizen.setting::private</td>
+-<td> </td>
+-<td bgcolor="green" align="center"></td>
+-</tr>
+-  <tr>
+-<td><a href="../fullsearch/VCONFKEY_SETAPPL_PWRSV_CUSTMODE_BLTIME-result.txt">VCONFKEY_SETAPPL_PWRSV_CUSTMODE_BLTIME</a></td>
+-<td>db/setting/pwrsv/custom_mode/backlight/time</td>
+-<td>int</td>
+-<td>15</td>
+-<td>org.tizen.setting::private</td>
+-<td> </td>
+-<td bgcolor="green" align="center"></td>
+-</tr>
+-  <tr>
+-<td><a href="../fullsearch/VCONFKEY_SETAPPL_PWRSV_CUSTMODE_AT-result.txt">VCONFKEY_SETAPPL_PWRSV_CUSTMODE_AT</a></td>
+-<td>db/setting/pwrsv/custom_mode/at</td>
+-<td>int</td>
+-<td>30</td>
+-<td>org.tizen.setting::private</td>
+-<td> </td>
+-<td bgcolor="green" align="center"></td>
+-</tr>
+-  <tr>
+ <td><a href="../fullsearch/VCONFKEY_SETAPPL_PWRSV_CUSTMODE_CPU-result.txt">VCONFKEY_SETAPPL_PWRSV_CUSTMODE_CPU</a></td>
+ <td>db/setting/pwrsv/custom_mode/cpu</td>
+ <td>bool</td>
+@@ -651,33 +588,6 @@
+ <td bgcolor="green" align="center"></td>
+ </tr>
+   <tr>
+-<td><a href="../fullsearch/VCONFKEY_SETAPPL_PWRSV_CUSTMODE_DISPLAY-result.txt">VCONFKEY_SETAPPL_PWRSV_CUSTMODE_DISPLAY</a></td>
+-<td>db/setting/pwrsv/custom_mode/display</td>
+-<td>bool</td>
+-<td>0</td>
+-<td>system::vconf_inhouse</td>
+-<td> </td>
+-<td bgcolor="green" align="center"></td>
+-</tr>
+-  <tr>
+-<td><a href="../fullsearch/VCONFKEY_SETAPPL_PWRSV_CUSTMODE_BG_COLOR-result.txt">VCONFKEY_SETAPPL_PWRSV_CUSTMODE_BG_COLOR</a></td>
+-<td>db/setting/pwrsv/custom_mode/bg_color</td>
+-<td>bool</td>
+-<td>0</td>
+-<td>system::vconf_inhouse</td>
+-<td> </td>
+-<td bgcolor="green" align="center"></td>
+-</tr>
+-  <tr>
+-<td><a href="../fullsearch/VCONFKEY_SETAPPL_PWRSV_CUSTMODE_SCREEN_VIB-result.txt">VCONFKEY_SETAPPL_PWRSV_CUSTMODE_SCREEN_VIB</a></td>
+-<td>db/setting/pwrsv/custom_mode/screen_vib</td>
+-<td>bool</td>
+-<td>0</td>
+-<td>system::vconf_inhouse</td>
+-<td> </td>
+-<td bgcolor="green" align="center"></td>
+-</tr>
+-  <tr>
+ <td><a href="../fullsearch/VCONFKEY_TICKER_NOTI_DISPLAY_CONTENT_MESSASGES-result.txt">VCONFKEY_TICKER_NOTI_DISPLAY_CONTENT_MESSASGES</a></td>
+ <td>db/setting/ticker_noti/display_content/messages</td>
+ <td>int</td>
+@@ -804,15 +714,6 @@
+ <td bgcolor="red" align="center">true</td>
+ </tr>
+   <tr>
+-<td><a href="../fullsearch/VCONFKEY_SETAPPL_STATE_TRANSACTION_TRACKING_BOOL-result.txt">VCONFKEY_SETAPPL_STATE_TRANSACTION_TRACKING_BOOL</a></td>
+-<td>db/setting/transaction_tracking</td>
+-<td>bool</td>
+-<td>0</td>
+-<td>org.tizen.setting::private</td>
+-<td> </td>
+-<td bgcolor="green" align="center"></td>
+-</tr>
+-  <tr>
+ <td><a href="../fullsearch/VCONFKEY_SETAPPL_STATE_EXPIRY_REMINDER_BOOL-result.txt">VCONFKEY_SETAPPL_STATE_EXPIRY_REMINDER_BOOL</a></td>
+ <td>db/setting/expiry_reminder</td>
+ <td>bool</td>
+@@ -831,42 +732,6 @@
+ <td bgcolor="green" align="center"></td>
+ </tr>
+   <tr>
+-<td><a href="../fullsearch/VCONFKEY_SETAPPL_DEFAULT_MEM_DOWNLOAD_INT-result.txt">VCONFKEY_SETAPPL_DEFAULT_MEM_DOWNLOAD_INT</a></td>
+-<td>db/setting/default_memory/download</td>
+-<td>int</td>
+-<td>0</td>
+-<td>system::vconf_system</td>
+-<td> </td>
+-<td bgcolor="green" align="center"></td>
+-</tr>
+-  <tr>
+-<td><a href="../fullsearch/VCONFKEY_SETAPPL_DEFAULT_MEM_DOWNLOAD_NFC_INT-result.txt">VCONFKEY_SETAPPL_DEFAULT_MEM_DOWNLOAD_NFC_INT</a></td>
+-<td>db/setting/default_memory/download_nfc</td>
+-<td>int</td>
+-<td>0</td>
+-<td></td>
+-<td> </td>
+-<td bgcolor="red" align="center">true</td>
+-</tr>
+-  <tr>
+-<td><a href="../fullsearch/VCONFKEY_SETAPPL_DEFAULT_MEM_DOWNLOAD_CONTENTS_INT-result.txt">VCONFKEY_SETAPPL_DEFAULT_MEM_DOWNLOAD_CONTENTS_INT</a></td>
+-<td>db/setting/default_memory/download_contents</td>
+-<td>int</td>
+-<td>0</td>
+-<td>system::vconf_system</td>
+-<td> </td>
+-<td bgcolor="green" align="center"></td>
+-</tr>
+-  <tr>
+-<td><a href="../fullsearch/VCONFKEY_SETAPPL_DEFAULT_MEM_DOWNLOAD_APPLICATION_INT-result.txt">VCONFKEY_SETAPPL_DEFAULT_MEM_DOWNLOAD_APPLICATION_INT</a></td>
+-<td>db/setting/default_memory/download_application</td>
+-<td>int</td>
+-<td>0</td>
+-<td>system::vconf_system</td>
+-<td> </td>
+-<td bgcolor="green" align="center"></td>
+-</tr>
+-  <tr>
+ <td><a href="../fullsearch/VCONFKEY_SETAPPL_DEFAULT_MEM_INSTALL_APPLICATIONS_INT-result.txt">VCONFKEY_SETAPPL_DEFAULT_MEM_INSTALL_APPLICATIONS_INT</a></td>
+ <td>db/setting/default_memory/install_applications</td>
+ <td>int</td>
+@@ -1400,33 +1265,6 @@
+ <td bgcolor="green" align="center"></td>
+ </tr>
+   <tr>
+-<td><a href="../fullsearch/VCONFKEY_SETAPPL_BM_START_MIN-result.txt">VCONFKEY_SETAPPL_BM_START_MIN</a></td>
+-<td>db/setting/blockingmode/start_min</td>
+-<td>int</td>
+-<td>0</td>
+-<td></td>
+-<td> </td>
+-<td bgcolor="red" align="center">true</td>
+-</tr>
+-  <tr>
+-<td><a href="../fullsearch/VCONFKEY_SETAPPL_BM_END_MIN-result.txt">VCONFKEY_SETAPPL_BM_END_MIN</a></td>
+-<td>db/setting/blockingmode/end_min</td>
+-<td>int</td>
+-<td>0</td>
+-<td></td>
+-<td> </td>
+-<td bgcolor="red" align="center">true</td>
+-</tr>
+-  <tr>
+-<td><a href="../fullsearch/VCONFKEY_SETAPPL_BM_END_HOUR-result.txt">VCONFKEY_SETAPPL_BM_END_HOUR</a></td>
+-<td>db/setting/blockingmode/end_hour</td>
+-<td>int</td>
+-<td>0</td>
+-<td></td>
+-<td> </td>
+-<td bgcolor="red" align="center">true</td>
+-</tr>
+-  <tr>
+ <td><a href="../fullsearch/VCONFKEY_SETAPPL_BM_ALARM_ID_END-result.txt">VCONFKEY_SETAPPL_BM_ALARM_ID_END</a></td>
+ <td>db/setting/blockingmode/end_alarm_id</td>
+ <td>int</td>
+@@ -1445,42 +1283,6 @@
+ <td bgcolor="red" align="center">true</td>
+ </tr>
+   <tr>
+-<td><a href="../fullsearch/VCONFKEY_SETAPPL_BM_START_HOUR-result.txt">VCONFKEY_SETAPPL_BM_START_HOUR</a></td>
+-<td>db/setting/blockingmode/start_hour</td>
+-<td>int</td>
+-<td>0</td>
+-<td></td>
+-<td> </td>
+-<td bgcolor="red" align="center">true</td>
+-</tr>
+-  <tr>
+-<td><a href="../fullsearch/VCONFKEY_SETAPPL_BM_INTER_ALARM_AND_TIMER-result.txt">VCONFKEY_SETAPPL_BM_INTER_ALARM_AND_TIMER</a></td>
+-<td>db/setting/blockingmode/inter/alarm_and_timer</td>
+-<td>int</td>
+-<td>0</td>
+-<td></td>
+-<td> </td>
+-<td bgcolor="red" align="center">true</td>
+-</tr>
+-  <tr>
+-<td><a href="../fullsearch/VCONFKEY_SETAPPL_BM_INTER_INCOMING_CALL-result.txt">VCONFKEY_SETAPPL_BM_INTER_INCOMING_CALL</a></td>
+-<td>db/setting/blockingmode/inter/incomingcall</td>
+-<td>int</td>
+-<td>0</td>
+-<td></td>
+-<td> </td>
+-<td bgcolor="red" align="center">true</td>
+-</tr>
+-  <tr>
+-<td><a href="../fullsearch/VCONFKEY_SETAPPL_BM_INTER_NOTIFICATIONS-result.txt">VCONFKEY_SETAPPL_BM_INTER_NOTIFICATIONS</a></td>
+-<td>db/setting/blockingmode/inter/notifications</td>
+-<td>int</td>
+-<td>0</td>
+-<td></td>
+-<td> </td>
+-<td bgcolor="red" align="center">true</td>
+-</tr>
+-  <tr>
+ <td><a href="../fullsearch/VCONFKEY_TICKER_NOTI_SOUND_IM-result.txt">VCONFKEY_TICKER_NOTI_SOUND_IM</a></td>
+ <td>db/setting/ticker_noti/sound/im</td>
+ <td>int</td>
+@@ -1733,15 +1535,6 @@
+ <td bgcolor="red" align="center">true</td>
+ </tr>
+   <tr>
+-<td><a href="../fullsearch/VCONFKEY_SETAPPL_BM_INTER_LED_INDICATOR-result.txt">VCONFKEY_SETAPPL_BM_INTER_LED_INDICATOR</a></td>
+-<td>db/setting/blockingmode/inter/led_indicator</td>
+-<td>int</td>
+-<td>0</td>
+-<td></td>
+-<td> </td>
+-<td bgcolor="red" align="center">true</td>
+-</tr>
+-  <tr>
+ <td><a href="../fullsearch/VCONFKEY_SETAPPL_STATE_DATA_ROAMING_APP_STATUS-result.txt">VCONFKEY_SETAPPL_STATE_DATA_ROAMING_APP_STATUS</a></td>
+ <td>db/setting/data_roaming_app/status</td>
+ <td>int</td>
+diff --git a/report/vconf-internal-sysman-keys.html b/report/vconf-internal-sysman-keys.html
+index 4246e75..443a101 100644
+--- a/report/vconf-internal-sysman-keys.html
++++ b/report/vconf-internal-sysman-keys.html
+@@ -196,33 +196,6 @@
+ <td> </td>
+ <td bgcolor="green" align="center"></td>
+ </tr>
+-  <tr>
+-<td><a href="../fullsearch/VCONFKEY_DEVICED_STRING_OPTION-result.txt">VCONFKEY_DEVICED_STRING_OPTION</a></td>
+-<td>db/deviced/string_option</td>
+-<td>int</td>
+-<td>0</td>
+-<td></td>
+-<td> </td>
+-<td bgcolor="red" align="center">true</td>
+-</tr>
+-  <tr>
+-<td><a href="../fullsearch/VCONFKEY_DEVICED_MOUNT_PATH_OPTION-result.txt">VCONFKEY_DEVICED_MOUNT_PATH_OPTION</a></td>
+-<td>db/deviced/mount_path_option</td>
+-<td>int</td>
+-<td>0</td>
+-<td></td>
+-<td> </td>
+-<td bgcolor="red" align="center">true</td>
+-</tr>
+-  <tr>
+-<td><a href="../fullsearch/VCONFKEY_DEVICED_BOOT_POWER_ON_STATUS-result.txt">VCONFKEY_DEVICED_BOOT_POWER_ON_STATUS</a></td>
+-<td>memory/deviced/boot_power_on</td>
+-<td>int</td>
+-<td>0</td>
+-<td>system::vconf_system</td>
+-<td> </td>
+-<td bgcolor="green" align="center"></td>
+-</tr>
+ </table>
+ </body>
+ </html>
+diff --git a/scripts/vconf-internal-setting-keys.sh b/scripts/vconf-internal-setting-keys.sh
+index 500ad22..5607cff 100644
+--- a/scripts/vconf-internal-setting-keys.sh
++++ b/scripts/vconf-internal-setting-keys.sh
+@@ -51,10 +51,6 @@
+ /usr/bin/vconftool2 set -t string "db/setting/cityname_id"  "Seoul" -s "system::vconf_setting" -i  -g 6514
+ /usr/bin/vconftool2 set -t int "db/setting/weekofday_format"  "0" -s "system::vconf_inhouse" -i  -g 6514
+ /usr/bin/vconftool2 set -t int "db/setting/lang"  "2" -s "org.tizen.setting::private" -i  -g 6514
+-# DO NOT GENERATE # /usr/bin/vconftool2 set -t  "db/setting/ticker_noti/im"  "0" -s "" -i  -g 6514
+-# DO NOT GENERATE # /usr/bin/vconftool2 set -t  "db/setting/ticker_noti/facebook"  "0" -s "" -i  -g 6514
+-/usr/bin/vconftool2 set -t int "db/setting/ticker_noti/twitter"  "0" -s "" -i  -g 6514
+-# DO NOT GENERATE # /usr/bin/vconftool2 set -t  "db/setting/ticker_noti/messages"  "0" -s "" -i  -g 6514
+ # DO NOT GENERATE # /usr/bin/vconftool2 set -t  "db/setting/ticker_noti/email"  "0" -s "" -i  -g 6514
+ /usr/bin/vconftool2 set -t int "db/setting/accessibility/font_size"  "1" -s "system::vconf_misc" -i  -g 6514
+ /usr/bin/vconftool2 set -t string "db/setting/accessibility/font_name"  "HelveticaNeue" -s "system::vconf_misc" -i  -g 6514
+@@ -66,13 +62,7 @@
+ /usr/bin/vconftool2 set -t int "db/setting/accessibility/power_key_hold"  "1" -s "system::vconf_inhouse" -i  -g 6514
+ /usr/bin/vconftool2 set -t bool "db/setting/accessibility/easy_touch_mode"  "0" -s "system::vconf_system" -i  -g 6514
+ /usr/bin/vconftool2 set -t bool "db/setting/accessibility/tts"  "0" -s "system::vconf_system" -i  -g 6514
+-/usr/bin/vconftool2 set -t bool "db/setting/pwrsv/system_mode/status"  "0" -s "org.tizen.setting::private" -i  -g 6514
+-/usr/bin/vconftool2 set -t int "db/setting/pwrsv/custom_mode/backlight/time"  "15" -s "org.tizen.setting::private" -i  -g 6514
+-/usr/bin/vconftool2 set -t int "db/setting/pwrsv/custom_mode/at"  "30" -s "org.tizen.setting::private" -i  -g 6514
+ /usr/bin/vconftool2 set -t bool "db/setting/pwrsv/custom_mode/cpu"  "0" -s "system::vconf_inhouse" -i  -g 6514
+-/usr/bin/vconftool2 set -t bool "db/setting/pwrsv/custom_mode/display"  "0" -s "system::vconf_inhouse" -i  -g 6514
+-/usr/bin/vconftool2 set -t bool "db/setting/pwrsv/custom_mode/bg_color"  "0" -s "system::vconf_inhouse" -i  -g 6514
+-/usr/bin/vconftool2 set -t bool "db/setting/pwrsv/custom_mode/screen_vib"  "0" -s "system::vconf_inhouse" -i  -g 6514
+ # DO NOT GENERATE # /usr/bin/vconftool2 set -t  "db/setting/ticker_noti/display_content/messages"  "0" -s "" -i  -g 6514
+ # DO NOT GENERATE # /usr/bin/vconftool2 set -t  "db/setting/ticker_noti/display_content/email"  "0" -s "" -i  -g 6514
+ # DO NOT GENERATE # /usr/bin/vconftool2 set -t  "db/setting/ticker_noti/display_content/im"  "0" -s "" -i  -g 6514
+@@ -87,13 +77,8 @@
+ /usr/bin/vconftool2 set -t string "db/menu_widget/regionformat"  "en_US.UTF-8" -s "system::vconf_inhouse" -i  -g 6514
+ /usr/bin/vconftool2 set -t string "db/setting/menuscreen/package_name"  "org.tizen.homescreen" -s "system::vconf_inhouse" -i  -g 6514
+ # DO NOT GENERATE # /usr/bin/vconftool2 set -t  "db/setting/homescreen/easymode"  "0" -s "" -i  -g 6514
+-/usr/bin/vconftool2 set -t bool "db/setting/transaction_tracking"  "0" -s "org.tizen.setting::private" -i  -g 6514
+ /usr/bin/vconftool2 set -t bool "db/setting/expiry_reminder"  "0" -s "org.tizen.setting::private" -i  -g 6514
+ /usr/bin/vconftool2 set -t int "db/setting/roaming_network"  "0" -s "org.tizen.setting::private" -i  -g 6514
+-/usr/bin/vconftool2 set -t int "db/setting/default_memory/download"  "0" -s "system::vconf_system" -i  -g 6514
+-# DO NOT GENERATE # /usr/bin/vconftool2 set -t  "db/setting/default_memory/download_nfc"  "0" -s "" -i  -g 6514
+-/usr/bin/vconftool2 set -t int "db/setting/default_memory/download_contents"  "0" -s "system::vconf_system" -i  -g 6514
+-/usr/bin/vconftool2 set -t int "db/setting/default_memory/download_application"  "0" -s "system::vconf_system" -i  -g 6514
+ /usr/bin/vconftool2 set -t int "db/setting/default_memory/install_applications"  "0" -s "system::vconf_system" -i  -g 6514
+ /usr/bin/vconftool2 set -t int "db/setting/default_memory/wifi_direct"  "0" -s "system::vconf_network" -i  -g 6514
+ /usr/bin/vconftool2 set -t int "db/setting/default_memory/bluetooth"  "0" -s "system::vconf_system" -i  -g 6514
+@@ -153,15 +138,8 @@
+ /usr/bin/vconftool2 set -t int "db/setting/data_limit"  "1" -s "org.tizen.setting::private" -i  -g 6514
+ /usr/bin/vconftool2 set -t int "db/setting/select_network_act"  "0" -s "org.tizen.setting::private" -i  -g 6514
+ /usr/bin/vconftool2 set -t bool "db/setting/lang_automatic"  "0" -s "org.tizen.setting::private" -i  -g 6514
+-# DO NOT GENERATE # /usr/bin/vconftool2 set -t  "db/setting/blockingmode/start_min"  "0" -s "" -i  -g 6514
+-# DO NOT GENERATE # /usr/bin/vconftool2 set -t  "db/setting/blockingmode/end_min"  "0" -s "" -i  -g 6514
+-# DO NOT GENERATE # /usr/bin/vconftool2 set -t  "db/setting/blockingmode/end_hour"  "0" -s "" -i  -g 6514
+ # DO NOT GENERATE # /usr/bin/vconftool2 set -t  "db/setting/blockingmode/end_alarm_id"  "0" -s "" -i  -g 6514
+ # DO NOT GENERATE # /usr/bin/vconftool2 set -t  "db/setting/blockingmode/start_alarm_id"  "0" -s "" -i  -g 6514
+-# DO NOT GENERATE # /usr/bin/vconftool2 set -t  "db/setting/blockingmode/start_hour"  "0" -s "" -i  -g 6514
+-# DO NOT GENERATE # /usr/bin/vconftool2 set -t  "db/setting/blockingmode/inter/alarm_and_timer"  "0" -s "" -i  -g 6514
+-# DO NOT GENERATE # /usr/bin/vconftool2 set -t  "db/setting/blockingmode/inter/incomingcall"  "0" -s "" -i  -g 6514
+-# DO NOT GENERATE # /usr/bin/vconftool2 set -t  "db/setting/blockingmode/inter/notifications"  "0" -s "" -i  -g 6514
+ # DO NOT GENERATE # /usr/bin/vconftool2 set -t  "db/setting/ticker_noti/sound/im"  "0" -s "" -i  -g 6514
+ # DO NOT GENERATE # /usr/bin/vconftool2 set -t  "db/setting/ticker_noti/sound/email"  "0" -s "" -i  -g 6514
+ # DO NOT GENERATE # /usr/bin/vconftool2 set -t  "db/setting/ticker_noti/sound/messages"  "0" -s "" -i  -g 6514
+@@ -190,7 +168,6 @@
+ /usr/bin/vconftool2 set -t bool "db/setting/display/edit_after_screen_capture"  "0" -s "system::vconf_inhouse" -i  -g 6514
+ /usr/bin/vconftool2 set -t bool "db/setting/network_restrict_mode"  "0" -s "system::vconf_inhouse" -i  -g 6514
+ # DO NOT GENERATE # /usr/bin/vconftool2 set -t  "db/setting/blockingmode/led_indicator"  "0" -s "" -i  -g 6514
+-# DO NOT GENERATE # /usr/bin/vconftool2 set -t  "db/setting/blockingmode/inter/led_indicator"  "0" -s "" -i  -g 6514
+ # DO NOT GENERATE # /usr/bin/vconftool2 set -t  "db/setting/data_roaming_app/status"  "0" -s "" -i  -g 6514
+ /usr/bin/vconftool2 set -t bool "db/setting/display/dynamic_status_bar"  "0" -s "system::vconf_inhouse" -i  -g 6514
+ # DO NOT GENERATE # /usr/bin/vconftool2 set -t  "db/setting/idle_clock_type"  "0" -s "" -i  -g 6514
+diff --git a/scripts/vconf-internal-sysman-keys.sh b/scripts/vconf-internal-sysman-keys.sh
+index d8b08cc..a6aba17 100644
+--- a/scripts/vconf-internal-sysman-keys.sh
++++ b/scripts/vconf-internal-sysman-keys.sh
+@@ -19,7 +19,4 @@
+ /usr/bin/vconftool2 set -t int "memory/sysman/hdmi"  "0" -s "system::vconf_system" -i  -g 6514
+ /usr/bin/vconftool2 set -t int "memory/sysman/stime_changed"  "0" -s "system::vconf_system" -i  -g 6514
+ /usr/bin/vconftool2 set -t int "memory/sysman/power_off"  "0" -s "system::vconf_system" -i  -g 6514
+-/usr/bin/vconftool2 set -t int "memory/sysman/mmc_format_progress"  "0" -s "system::vconf_system" -i  -g 6514
+-# DO NOT GENERATE # /usr/bin/vconftool2 set -t  "db/deviced/string_option"  "0" -s "" -i  -g 6514
+-# DO NOT GENERATE # /usr/bin/vconftool2 set -t  "db/deviced/mount_path_option"  "0" -s "" -i  -g 6514
+-/usr/bin/vconftool2 set -t int "memory/deviced/boot_power_on"  "0" -s "system::vconf_system" -i  -g 6514
+\ No newline at end of file
++/usr/bin/vconftool2 set -t int "memory/sysman/mmc_format_progress"  "0" -s "system::vconf_system" -i  -g 6514
+\ No newline at end of file
+-- 
+1.9.1
+

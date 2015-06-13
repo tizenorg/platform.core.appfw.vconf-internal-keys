@@ -1,0 +1,11 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-mobile-hotspot-keys.h <global> 27 VCONFKEY_MOBILE_HOTSPOT_MODE_NONE = 0x00,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/mobile_hotspot.c indicator_mobile_hotspot_change_cb 127 if (status != VCONFKEY_MOBILE_HOTSPOT_MODE_NONE)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-general-func.c get_tethering_status 2150 int mobile_ap_status = VCONFKEY_MOBILE_HOTSPOT_MODE_NONE;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tethering/src/tethering.c tethering_is_enabled 1759 int vconf_type = VCONFKEY_MOBILE_HOTSPOT_MODE_NONE;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-mobile-ap/src/mh_common_utility.c _get_vconf_hotspot_mode 305 int value = VCONFKEY_MOBILE_HOTSPOT_MODE_NONE;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-mobile-ap/src/mh_view_main.c ap_get_data_statistics 122 if (ad->main.hotspot_mode == VCONFKEY_MOBILE_HOTSPOT_MODE_NONE) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-mobile-ap/src/mh_view_main.c ap_update_device_conn_time 150 if (ad->main.hotspot_mode == VCONFKEY_MOBILE_HOTSPOT_MODE_NONE) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-mobile-ap/src/mh_view_main.c __read_setting 262 if (ad->main.hotspot_mode != VCONFKEY_MOBILE_HOTSPOT_MODE_NONE)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-mobile-ap/src/mh_view_main.c _update_main_view 423 int state = VCONFKEY_MOBILE_HOTSPOT_MODE_NONE;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-mobile-ap/src/mh_view_main.c __get_help_label 908 int wifi_state = VCONFKEY_MOBILE_HOTSPOT_MODE_NONE;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-direct/ug-wifidirect/src/wfd_ug.c __wfd_hotspot_mode_vconf_change_cb 126 if (VCONFKEY_MOBILE_HOTSPOT_MODE_NONE == hotspot_mode) {

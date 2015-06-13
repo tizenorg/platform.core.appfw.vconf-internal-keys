@@ -1,0 +1,51 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-storage/src/setting-storage-main.c <global> 51 const char *storageUg_MMC_stat = VCONFKEY_SYSMAN_MMC_STATUS;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-sysman-keys.h <global> 105 #define VCONFKEY_SYSMAN_MMC_STATUS "memory/sysman/mmc"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webapi-plugins/src/systeminfo/systeminfo-utils.cpp <global> 718 RegisterVconfCallback(VCONFKEY_SYSMAN_MMC_STATUS, OnMmcChangedCb, instance))
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webapi-plugins/src/systeminfo/systeminfo-utils.cpp <global> 732 UnregisterVconfCallback(VCONFKEY_SYSMAN_MMC_STATUS, OnMmcChangedCb))
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webapi-plugins/src/systeminfo/systeminfo-utils.cpp <global> 2634 if (0 == vconf_get_int(VCONFKEY_SYSMAN_MMC_STATUS, &sdcardState)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wrt-installer/src/jobs/widget_install/task_file_manipulation.cpp <global> 174 if (vconf_get_int(VCONFKEY_SYSMAN_MMC_STATUS, &mmcStatus)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/aul-1/am_daemon/amd_appinfo.c appinfo_init 732 r = vconf_notify_key_changed(VCONFKEY_SYSMAN_MMC_STATUS, __amd_mmc_vconf_cb, _cf);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-share/bt-share/src/bt-share-noti-handler.c _bt_init_vconf_notification 120 ret = vconf_notify_key_changed(VCONFKEY_SYSMAN_MMC_STATUS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-share/bt-share/src/bt-share-noti-handler.c _bt_deinit_vconf_notification 136 ret = vconf_ignore_key_changed(VCONFKEY_SYSMAN_MMC_STATUS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/browser/src/settings-advanced.cpp m_theme 782 if (vconf_get_int(VCONFKEY_SYSMAN_MMC_STATUS, &mmc_mode) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/browser/src/settings-advanced.cpp m_mmc_mode 1635 if (vconf_get_int(VCONFKEY_SYSMAN_MMC_STATUS, &m_mmc_mode) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/block/block.c block_unmount 723 vconf_set_int(VCONFKEY_SYSMAN_MMC_STATUS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/mmc/mmc-handler.c smack_timer_cb 143 vconf_set_int(VCONFKEY_SYSMAN_MMC_STATUS, VCONFKEY_SYSMAN_MMC_MOUNTED);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/mmc/mmc-handler.c mmc_mount 200 vconf_set_int(VCONFKEY_SYSMAN_MMC_STATUS, VCONFKEY_SYSMAN_MMC_MOUNTED);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/mmc/mmc-handler.c mmc_mount 206 vconf_set_int(VCONFKEY_SYSMAN_MMC_STATUS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/mmc/mmc-handler.c mmc_mount 217 vconf_set_int(VCONFKEY_SYSMAN_MMC_STATUS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/mmc/mmc-handler.c mmc_unmount 237 vconf_set_int(VCONFKEY_SYSMAN_MMC_STATUS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/mmc/mmc-handler.c mmc_unmount 246 vconf_set_int(VCONFKEY_SYSMAN_MMC_STATUS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/mmc/mmc-handler.c mmc_format 273 vconf_set_int(VCONFKEY_SYSMAN_MMC_STATUS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/mmc/mmc-handler.c mmc_remove 326 vconf_set_int(VCONFKEY_SYSMAN_MMC_STATUS, VCONFKEY_SYSMAN_MMC_REMOVED);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/mmc/mmc-handler.c mmc_stop 629 vconf_set_int(VCONFKEY_SYSMAN_MMC_STATUS, VCONFKEY_SYSMAN_MMC_REMOVED);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/information/mmc.c indicator_mmc_change_cb 114 ret = vconf_get_int(VCONFKEY_SYSMAN_MMC_STATUS, &mmc_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmedia-thumbnail/server/thumb-server-internal.c __thumb_daemon_mmc_status 89 err = vconf_get_int(VCONFKEY_SYSMAN_MMC_STATUS, &status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmedia-thumbnail/server/thumb-server-internal.c _thumb_daemon_mmc_eject_vconf_cb 134 err = vconf_get_int(VCONFKEY_SYSMAN_MMC_STATUS, &status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmedia-thumbnail/server/thumb-server.c main 72 err = vconf_notify_key_changed(VCONFKEY_SYSMAN_MMC_STATUS, (vconf_callback_fn) _thumb_daemon_mmc_eject_vconf_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmedia-thumbnail/server/thumb-server.c main 74 thumb_err("vconf_notify_key_changed : %s fails", VCONFKEY_SYSMAN_MMC_STATUS);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libstorage/src/storage-sdcard.c sdcard_get_state 43 ret = vconf_get_int(VCONFKEY_SYSMAN_MMC_STATUS, &val);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libstorage/src/storage-sdcard.c register_request 112 return vconf_notify_key_changed(VCONFKEY_SYSMAN_MMC_STATUS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libstorage/src/storage-sdcard.c release_request 125 return vconf_ignore_key_changed(VCONFKEY_SYSMAN_MMC_STATUS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/media-server/src/common/media-common-utils.c ms_is_mmc_inserted 82 ms_config_get_int(VCONFKEY_SYSMAN_MMC_STATUS, &data);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/media-server/src/scanner/media-scanner.c _msc_mmc_vconf_cb 170 if (!ms_config_get_int(VCONFKEY_SYSMAN_MMC_STATUS, &status)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/media-server/src/scanner/media-scanner.c main 281 err = vconf_notify_key_changed(VCONFKEY_SYSMAN_MMC_STATUS, (vconf_callback_fn) _msc_mmc_vconf_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/media-server/src/scanner/media-scanner.c main 283 MSC_DBG_ERR("add call back function for event %s fails", VCONFKEY_SYSMAN_MMC_STATUS);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/media-server/src/server/media-server-main.c _ms_mmc_vconf_cb 229 if (!ms_config_get_int(VCONFKEY_SYSMAN_MMC_STATUS, &status)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/media-server/src/server/media-server-main.c __ms_add_event_receiver 440 err = vconf_notify_key_changed(VCONFKEY_SYSMAN_MMC_STATUS, (vconf_callback_fn) _ms_mmc_vconf_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/media-server/src/server/media-server-main.c __ms_add_event_receiver 442 MS_DBG_ERR("add call back function for event %s fails", VCONFKEY_SYSMAN_MMC_STATUS);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/media-server/src/server/media-server-main.c __ms_remove_event_receiver 459 vconf_ignore_key_changed(VCONFKEY_SYSMAN_MMC_STATUS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mtp-responder/src/mtp_init.c _mtp_init 189 vconf_ret = vconf_notify_key_changed(VCONFKEY_SYSMAN_MMC_STATUS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mtp-responder/src/mtp_init.c _mtp_init 192 ERR("vconf_notify_key_changed(%s) Fail", VCONFKEY_SYSMAN_MMC_STATUS);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mtp-responder/src/mtp_init.c _mtp_deinit 220 vconf_ignore_key_changed(VCONFKEY_SYSMAN_MMC_STATUS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mtp-responder/src/util/mtp_util.c _util_get_mmc_status 242 ret = vconf_get_int(VCONFKEY_SYSMAN_MMC_STATUS, &state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/rpm-installer/backend/src/coretpk/coretpk-installer.c __is_default_external_storage 158 ret = vconf_get_int(VCONFKEY_SYSMAN_MMC_STATUS, &mmc_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/rpm-installer/backend/src/coretpk/coretpk-installer.c _coretpk_installer_make_directory_for_ext 1601 res = vconf_get_int(VCONFKEY_SYSMAN_MMC_STATUS, &mmc_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-appmgr/src/setting-appmgr-pkginfo.c appmgrUg_pkg_append_toolbar 366 const char *mmc_key = VCONFKEY_SYSMAN_MMC_STATUS;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-appmgr/src/setting-appmgr-utils.c appmgrUg_info_2button2_gl_icon_get 816 const char *mmc_key = VCONFKEY_SYSMAN_MMC_STATUS;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-profile/src/setting-profile-common.c setting_sound_check_file_exist 218 vconf_get_int(VCONFKEY_SYSMAN_MMC_STATUS, &mmc_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-profile/src/setting-profile-common.c ___sound_vconf_change_cb 356 if (!safeStrCmp(vconf_name, VCONFKEY_SYSMAN_MMC_STATUS)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-profile/src/setting-profile-common.c setting_sound_listen_vconf_change 490 (void )vconf_notify_key_changed(VCONFKEY_SYSMAN_MMC_STATUS, ___sound_vconf_change_cb, data);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-profile/src/setting-profile-common.c setting_sound_unlisten_vconf_change 513 (void )vconf_ignore_key_changed(VCONFKEY_SYSMAN_MMC_STATUS, ___sound_vconf_change_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-profile/src/setting-profile-sound-main.c __get_lite_main_list 522 if (vconf_get_int(VCONFKEY_SYSMAN_MMC_STATUS, &sd_status) != 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-popup/src/mmc/mmc-mobile.c mmc_inserted 59 if (vconf_get_int(VCONFKEY_SYSMAN_MMC_STATUS, &val) == 0

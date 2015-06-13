@@ -1,0 +1,3 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 682 #define VCONFKEY_SETAPPL_SCREENROTATION_DEG_INT "db/setting/screen_rotation"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/e17-extra-modules/devicemgr-wearable/src/rotation_devicemgr.c e_mod_sf_rotation_init 108 ret = vconf_get_int(VCONFKEY_SETAPPL_SCREENROTATION_DEG_INT, &screen_rot);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/e17-mod-tizen-devicemgr-wearable/src/rotation_devicemgr.c e_mod_sf_rotation_init 108 ret = vconf_get_int(VCONFKEY_SETAPPL_SCREENROTATION_DEG_INT, &screen_rot);

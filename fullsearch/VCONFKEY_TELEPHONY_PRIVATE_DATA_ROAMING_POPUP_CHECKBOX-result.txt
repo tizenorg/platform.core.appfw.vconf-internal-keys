@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-telephony-keys.h <global> 274 #define VCONFKEY_TELEPHONY_PRIVATE_DATA_ROAMING_POPUP_CHECKBOX "db/private/telephony/data_roaming_popup_checkbox"

@@ -1,0 +1,12 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/runtime-info/src/runtime_info_connectivity.c <global> 39 static const char *VCONF_GPS_STATUS = VCONFKEY_LOCATION_GPS_STATE;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-location-keys.h <global> 41 #define VCONFKEY_LOCATION_GPS_STATE "memory/location/gps/state"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/lbs-server/server.c _gps_server_get_gps_state 193 if (setting_get_int(VCONFKEY_LOCATION_GPS_STATE, &val) == FALSE) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/lbs-server/server.c _gps_server_set_gps_state 206 ret = setting_set_int(VCONFKEY_LOCATION_GPS_STATE, POSITION_CONNECTED);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/lbs-server/server.c _gps_server_set_gps_state 210 ret = setting_set_int(VCONFKEY_LOCATION_GPS_STATE, POSITION_SEARCHING);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/lbs-server/server.c _gps_server_set_gps_state 214 ret = setting_set_int(VCONFKEY_LOCATION_GPS_STATE, POSITION_OFF);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/lbs-server/server.c _gps_server_set_gps_state 218 ret = setting_set_int(VCONFKEY_LOCATION_GPS_STATE, POSITION_OFF);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libslp-location/location/manager/location-gps.c location_gps_start 435 location_setting_add_notify(VCONFKEY_LOCATION_GPS_STATE, location_setting_search_cb, self);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libslp-location/location/manager/location-gps.c location_gps_stop 475 location_setting_ignore_notify(VCONFKEY_LOCATION_GPS_STATE, location_setting_search_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libslp-location/location/manager/location-gps.c location_gps_dispose 562 location_setting_ignore_notify(VCONFKEY_LOCATION_GPS_STATE, location_setting_search_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libslp-location/location/manager/location-hybrid-mobile.c hybrid_service_updated 336 } else if (location_setting_get_int(VCONFKEY_LOCATION_GPS_STATE) == VCONFKEY_LOCATION_GPS_SEARCHING) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/swap-manager/daemon/device_vconf.c get_gps_status 74 res = vconf_get_int(VCONFKEY_LOCATION_GPS_STATE, &gps_status);

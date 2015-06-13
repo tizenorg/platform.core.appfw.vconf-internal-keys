@@ -1,0 +1,2 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 673 VCONFKEY_DUALSIM_SELECT_UNKNOW = -1,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-dual-sim-alwayson.c __cst_click_dual_sim_back 564 _cst_vconf_set_int(VCONFKEY_DUALSIM_SELECTED_SIM, VCONFKEY_DUALSIM_SELECT_UNKNOW);

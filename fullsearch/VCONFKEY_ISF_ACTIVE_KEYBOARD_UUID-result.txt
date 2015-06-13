@@ -1,0 +1,2 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-isf-keys.h <global> 26 #define VCONFKEY_ISF_ACTIVE_KEYBOARD_UUID "db/isf/input_keyboard_uuid"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/isf/ism/extras/efl_panel/isf_panel_efl.cpp set_active_ise 1454 vconf_set_str (VCONFKEY_ISF_ACTIVE_KEYBOARD_UUID, uuid.c_str ());

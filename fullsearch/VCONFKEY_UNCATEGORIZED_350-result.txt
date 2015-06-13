@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-uncategorized-keys.h <global> 397 #define VCONFKEY_UNCATEGORIZED_350 "db/private/org.tizen.w-home/apps_flickup_count"

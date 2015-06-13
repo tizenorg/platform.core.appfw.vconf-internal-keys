@@ -1,0 +1,3 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-telephony-keys.h <global> 113 VCONFKEY_TELEPHONY_SIM_STATUS_CARD_ERROR = 0x00,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/manager/net_nfc_server_se.c _vconf_sim_status_cb 786 case VCONFKEY_TELEPHONY_SIM_STATUS_CARD_ERROR :
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/manager/net_nfc_server_se.c _se_uicc_init 888 case VCONFKEY_TELEPHONY_SIM_STATUS_CARD_ERROR :

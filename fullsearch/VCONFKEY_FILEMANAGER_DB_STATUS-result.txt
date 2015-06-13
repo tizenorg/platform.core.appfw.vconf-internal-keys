@@ -1,0 +1,13 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-filemanager-keys.h <global> 33 #define VCONFKEY_FILEMANAGER_DB_STATUS "db/filemanager/dbupdate"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/gallery/src/util/gl-util.c __gl_reg_db_noti 987 error_code = vconf_notify_key_changed(VCONFKEY_FILEMANAGER_DB_STATUS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/gallery/src/util/gl-util.c __gl_dereg_db_noti 999 error_code = vconf_ignore_key_changed(VCONFKEY_FILEMANAGER_DB_STATUS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/media-server/src/scanner/media-scanner-scan.c __msc_set_db_status 119 if (!ms_config_set_int(VCONFKEY_FILEMANAGER_DB_STATUS, VCONFKEY_FILEMANAGER_DB_UPDATING)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/media-server/src/scanner/media-scanner-scan.c __msc_set_db_status 131 if(!ms_config_set_int(VCONFKEY_FILEMANAGER_DB_STATUS, VCONFKEY_FILEMANAGER_DB_UPDATED)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/media-server/src/server/media-server-scanner.c ms_check_scanning_status 67 if(ms_config_get_int(VCONFKEY_FILEMANAGER_DB_STATUS, &status)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/music-player/src/common/mp-app.c _mp_app_noti_changed_cb 245 if (strcmp(keyname, VCONFKEY_FILEMANAGER_DB_STATUS) == 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/music-player/src/common/mp-app.c mp_app_noti_init 891 if (vconf_notify_key_changed(VCONFKEY_FILEMANAGER_DB_STATUS, _mp_app_noti_changed_cb, ad) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/music-player/src/common/mp-app.c mp_app_noti_ignore 987 if (vconf_ignore_key_changed(VCONFKEY_FILEMANAGER_DB_STATUS, _mp_app_noti_changed_cb) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/music-player/src/common/mp-util.c mp_util_is_db_updating 1126 vconf_get_int(VCONFKEY_FILEMANAGER_DB_STATUS, &db_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/music-player/src/mp-main.c _mp_main_win_focus_in_cb 264 vconf_get_int(VCONFKEY_FILEMANAGER_DB_STATUS, &db_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-gallery-efl/src/util/ge-util.c ge_reg_db_update_noti 129 error_code = vconf_notify_key_changed(VCONFKEY_FILEMANAGER_DB_STATUS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-gallery-efl/src/util/ge-util.c ge_dereg_db_update_noti 142 error_code = vconf_ignore_key_changed(VCONFKEY_FILEMANAGER_DB_STATUS,

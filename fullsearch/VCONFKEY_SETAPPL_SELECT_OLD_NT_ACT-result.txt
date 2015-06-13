@@ -1,0 +1,7 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 477 #define VCONFKEY_SETAPPL_SELECT_OLD_NT_ACT "db/setting/select_network_act"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-network/src/setting-network-main.c _get_network_selected_desc 726 vconf_get_int(VCONFKEY_SETAPPL_SELECT_OLD_NT_ACT, &ad->sel_act);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-network/src/setting-network-select-network.c setting_network_select_network_create 169 vconf_get_int(VCONFKEY_SETAPPL_SELECT_OLD_NT_ACT, &ad->sel_act);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-network/src/setting-network-select-network.c setting_network_select_network_destroy 356 if (0 != vconf_get_int(VCONFKEY_SETAPPL_SELECT_OLD_NT_ACT, &ad->sel_act)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-network/src/setting-network.c __selected_network_change_cb 166 if (0 != vconf_set_int(VCONFKEY_SETAPPL_SELECT_OLD_NT_ACT, ad->sel_act)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-network/src/setting-network.c setting_tapi_set_plmn_mode_cb 906 if (0 != vconf_set_int(VCONFKEY_SETAPPL_SELECT_OLD_NT_ACT, ad->sel_act)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-network/src/setting-network.c setting_tapi_get_serving_network_cb 1253 vconf_set_int(VCONFKEY_SETAPPL_SELECT_OLD_NT_ACT, ad->sel_act);

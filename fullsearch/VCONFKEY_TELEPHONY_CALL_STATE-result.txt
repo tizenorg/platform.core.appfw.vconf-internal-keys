@@ -1,0 +1,3 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-telephony-keys.h <global> 132 #define VCONFKEY_TELEPHONY_CALL_STATE "memory/telephony/call_state"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/music-player/music-chooser/src/mc-common.c mc_is_call_connected 142 DEBUG_TRACE("get setting failed %s", VCONFKEY_TELEPHONY_CALL_STATE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/volume-app/src/key_event.c _key_press_cb 527 if(vconf_get_int(VCONFKEY_TELEPHONY_CALL_STATE, &is_call) < 0 || is_call < 0) {

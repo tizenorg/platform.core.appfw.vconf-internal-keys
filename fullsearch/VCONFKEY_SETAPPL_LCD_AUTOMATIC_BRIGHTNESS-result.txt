@@ -1,0 +1,13 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/include/setting-common-data-slp-setting.h <global> 112 #ifndef VCONFKEY_SETAPPL_LCD_AUTOMATIC_BRIGHTNESS
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/include/setting-common-data-slp-setting.h <global> 113 #define VCONFKEY_SETAPPL_LCD_AUTOMATIC_BRIGHTNESS VCONFKEY_SETAPPL_PREFIX"/automatic_brightness_level"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 71 #define VCONFKEY_SETAPPL_LCD_AUTOMATIC_BRIGHTNESS "db/setting/automatic_brightness_level"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/auto-brightness.c prepare_lsensor 663 vconf_get_int(VCONFKEY_SETAPPL_LCD_AUTOMATIC_BRIGHTNESS, &brt);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/auto-brightness.c prepare_lsensor 671 vconf_notify_key_changed(VCONFKEY_SETAPPL_LCD_AUTOMATIC_BRIGHTNESS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/auto-brightness.c exit_lsensor 817 vconf_ignore_key_changed(VCONFKEY_SETAPPL_LCD_AUTOMATIC_BRIGHTNESS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-display/src/setting-display-brightness.c _brightness_register_event_cb 253 ret = vconf_notify_key_changed(VCONFKEY_SETAPPL_LCD_AUTOMATIC_BRIGHTNESS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-display/src/setting-display-brightness.c _brightness_deregister_event_cb 275 ret = vconf_ignore_key_changed(VCONFKEY_SETAPPL_LCD_AUTOMATIC_BRIGHTNESS, __display_int_vconf_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-display/src/setting-display-brightness.c __display_int_vconf_cb 555 vconf_get_int(VCONFKEY_SETAPPL_LCD_AUTOMATIC_BRIGHTNESS, &val);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-display/src/setting-display-brightness.c __display_int_vconf_cb 616 } else if (!safeStrCmp(vconf_name, VCONFKEY_SETAPPL_LCD_AUTOMATIC_BRIGHTNESS)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-display/src/setting-display-brightness.c __display_brightness_get_vconf_need_save 631 return VCONFKEY_SETAPPL_LCD_AUTOMATIC_BRIGHTNESS;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-display/src/setting-display-brightness.c setting_display_set_slider_value 1123 int ret = vconf_set_int(VCONFKEY_SETAPPL_LCD_AUTOMATIC_BRIGHTNESS, value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-display/src/setting-display.c setting_reset_display_brightness 755 ret += vconf_set_int(VCONFKEY_SETAPPL_LCD_AUTOMATIC_BRIGHTNESS, SETTING_BRIGHTNESS_DEFAULT_LEVEL);

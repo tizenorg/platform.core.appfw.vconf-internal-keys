@@ -1,0 +1,5 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/include/setting-common-data-slp-setting.h <global> 83 #define VCONFKEY_SETAPPL_LED_INDICATOR_CHARGING VCONFKEY_SETAPPL_PREFIX"/led_indicator/charging"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 497 #define VCONFKEY_SETAPPL_LED_INDICATOR_CHARGING "db/setting/led_indicator/charging"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/led/rgb.c rgb_init 667 vconf_get_bool(VCONFKEY_SETAPPL_LED_INDICATOR_CHARGING, &charging_key);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/led/rgb.c rgb_init 674 vconf_notify_key_changed(VCONFKEY_SETAPPL_LED_INDICATOR_CHARGING,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/led/rgb.c rgb_exit 701 vconf_ignore_key_changed(VCONFKEY_SETAPPL_LED_INDICATOR_CHARGING,

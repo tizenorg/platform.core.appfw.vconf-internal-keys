@@ -1,0 +1,4 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-call-keys.h <global> 34 VCONFKEY_CALL_VIDEO_ACTIVE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/core/vc-core-util.c _vc_core_util_check_video_call_status 675 if (call_status == VCONFKEY_CALL_VIDEO_CONNECTING || call_status == VCONFKEY_CALL_VIDEO_ACTIVE) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/processing/call.c show_call_icon 163 case VCONFKEY_CALL_VIDEO_ACTIVE:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/processing/call.c indicator_call_change_cb 204 case VCONFKEY_CALL_VIDEO_ACTIVE:

@@ -1,0 +1,8 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-account-keys.h <global> 24 #define VCONFKEY_ACCOUNT_MSG_STR "db/account/msg"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/account-manager/server/src/account-server-db.c _account_insert_delete_update_notification_send 115 if (vconf_set_str(VCONFKEY_ACCOUNT_MSG_STR, noti_name) != 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libaccounts-svc/src/account.c _account_subscribe_vconf_callback 2740 if(!memcmp(key_name, VCONFKEY_ACCOUNT_MSG_STR, strlen(VCONFKEY_ACCOUNT_MSG_STR)))
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libaccounts-svc/src/account.c account_subscribe_notification 2800 ret = vconf_notify_key_changed(VCONFKEY_ACCOUNT_MSG_STR,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libaccounts-svc/src/account.c account_unsubscribe_notification 2822 if (vconf_ignore_key_changed(VCONFKEY_ACCOUNT_MSG_STR,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libaccounts-svc/src/account.c _account_subscribe_vconf_callback_ex 2848 if(!memcmp(vconf_keynode_get_name(key), VCONFKEY_ACCOUNT_MSG_STR, strlen(VCONFKEY_ACCOUNT_MSG_STR)))
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libaccounts-svc/src/account.c account_unsubscribe_notification_ex 2887 if (vconf_ignore_key_changed(VCONFKEY_ACCOUNT_MSG_STR,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libaccounts-svc/src/account.c account_subscribe_notification_ex 2906 ret = vconf_notify_key_changed(VCONFKEY_ACCOUNT_MSG_STR,

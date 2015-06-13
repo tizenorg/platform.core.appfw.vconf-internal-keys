@@ -1,0 +1,29 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/runtime-info/src/runtime_info_connectivity.c <global> 34 static const char *VCONF_WIFI_HOTSPOT_ENABLED = VCONFKEY_MOBILE_HOTSPOT_MODE;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/runtime-info/src/runtime_info_connectivity.c <global> 35 static const char *VCONF_BT_HOTSPOT_ENABLED = VCONFKEY_MOBILE_HOTSPOT_MODE;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/runtime-info/src/runtime_info_connectivity.c <global> 36 static const char *VCONF_USB_HOTSPOT_ENABLED = VCONFKEY_MOBILE_HOTSPOT_MODE;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-data-slp-setting.c <global> 282 {"mobile_hotspot_mode", "connectivity", INT_SLP_SETTING_MOBILE_AP_STATUS, VCONFKEY_MOBILE_HOTSPOT_MODE, eINT, {0}, export_json, import_default},
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-mobile-hotspot-keys.h <global> 24 #define VCONFKEY_MOBILE_HOTSPOT_MODE "memory/mobile_hotspot/mode"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/telephony/telephony.c get_mobile_hotspot_mode 67 return vconf_get_int(VCONFKEY_MOBILE_HOTSPOT_MODE, mode);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/telephony/telephony.c telephony_exit 190 vconf_ignore_key_changed(VCONFKEY_MOBILE_HOTSPOT_MODE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/telephony/telephony.c telephony_init 474 vconf_notify_key_changed(VCONFKEY_MOBILE_HOTSPOT_MODE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/mobile_hotspot.c indicator_mobile_hotspot_change_cb 123 ret = vconf_get_int(VCONFKEY_MOBILE_HOTSPOT_MODE, &status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/mobile_hotspot.c register_mobile_hotspot_module 235 ret = vconf_notify_key_changed(VCONFKEY_MOBILE_HOTSPOT_MODE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/mobile_hotspot.c unregister_mobile_hotspot_module 258 ret = vconf_ignore_key_changed(VCONFKEY_MOBILE_HOTSPOT_MODE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/usb.c _usb_change_cb 114 vconf_get_int(VCONFKEY_MOBILE_HOTSPOT_MODE, &tethering);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/usb.c register_usb_module 164 ret = ret | vconf_notify_key_changed(VCONFKEY_MOBILE_HOTSPOT_MODE, _usb_change_cb, data);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/usb.c unregister_usb_module 178 ret = ret | vconf_ignore_key_changed(VCONFKEY_MOBILE_HOTSPOT_MODE, _usb_change_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libnet-client/src/network-wifi-intf.c net_wifi_power_on 383 vconf_get_int(VCONFKEY_MOBILE_HOTSPOT_MODE, &hotspot_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-agent/src/mobileap_main.c _mobileap_set_state 147 vconf_ret = vconf_set_int(VCONFKEY_MOBILE_HOTSPOT_MODE, mobileap_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-agent/src/mobileap_main.c _mobileap_clear_state 203 vconf_ret = vconf_set_int(VCONFKEY_MOBILE_HOTSPOT_MODE, mobileap_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-agent/src/mobileap_main.c main 593 if (vconf_get_int(VCONFKEY_MOBILE_HOTSPOT_MODE, &mobileap_state) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/utils/util.c netconfig_is_wifi_tethering_on 325 vconf_get_int(VCONFKEY_MOBILE_HOTSPOT_MODE, &wifi_tethering_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/setting.c setting_int_vconf_change_cb 536 } else if (!safeStrCmp(vconf_name, VCONFKEY_MOBILE_HOTSPOT_MODE)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tethering/src/tethering.c tethering_is_enabled 1761 if (vconf_get_int(VCONFKEY_MOBILE_HOTSPOT_MODE, &is_on) != 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-mobile-ap/src/mh_common_utility.c _get_vconf_hotspot_mode 307 if (vconf_get_int(VCONFKEY_MOBILE_HOTSPOT_MODE, &value) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-mobile-ap/src/mh_common_utility.c _get_vconf_hotspot_mode 311 DBG("%s : %d\n", VCONFKEY_MOBILE_HOTSPOT_MODE, value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-direct/ug-wifidirect/src/wfd_ug.c __wfd_hotspot_mode_vconf_change_cb 119 res = vconf_get_int(VCONFKEY_MOBILE_HOTSPOT_MODE, &hotspot_mode);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-direct/ug-wifidirect/src/wfd_ug.c on_create 533 ret = vconf_notify_key_changed(VCONFKEY_MOBILE_HOTSPOT_MODE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-direct/ug-wifidirect/src/wfd_ug.c on_destroy 659 ret = vconf_ignore_key_changed(VCONFKEY_MOBILE_HOTSPOT_MODE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wifi-direct-manager/src/wifi-direct-util.c wfd_util_check_mobile_ap_state 390 res = vconf_get_int(VCONFKEY_MOBILE_HOTSPOT_MODE, &mobile_ap_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wifi-direct-manager/src/wifi-direct-util.c wfd_util_check_mobile_ap_state 392 WDS_LOGE("Failed to get vconf value[%s]", VCONFKEY_MOBILE_HOTSPOT_MODE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wifi-direct-manager/src/wifi-direct-util.c wfd_util_check_mobile_ap_state 396 WDS_LOGD("[%s: %d]", VCONFKEY_MOBILE_HOTSPOT_MODE, mobile_ap_state);

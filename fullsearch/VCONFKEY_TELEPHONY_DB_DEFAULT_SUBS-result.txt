@@ -1,0 +1,3 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-telephony-keys.h <global> 262 #define VCONFKEY_TELEPHONY_DB_DEFAULT_SUBS "db/telephony/dualsim/default_subscription"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c convert_strgkey_to_vconf 245 return VCONFKEY_TELEPHONY_DB_DEFAULT_SUBS;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c convert_vconf_to_strgkey 414 else if (g_str_equal(key, VCONFKEY_TELEPHONY_DB_DEFAULT_SUBS) == TRUE) {

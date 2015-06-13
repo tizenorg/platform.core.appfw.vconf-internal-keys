@@ -1,0 +1,6 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-camera-keys.h <global> 44 VCONFKEY_RECORDER_STATE_NULL,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c __mm_camcorder_signal_handler 117 vconf_set_int(VCONFKEY_RECORDER_STATE, VCONFKEY_RECORDER_STATE_NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c _mmcamcorder_realize 1138 vconf_set_int(VCONFKEY_RECORDER_STATE, VCONFKEY_RECORDER_STATE_NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c _mmcamcorder_realize 1141 vconf_recorder_state, VCONFKEY_RECORDER_STATE_NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c _mmcamcorder_unrealize 1246 vconf_set_int(VCONFKEY_RECORDER_STATE, VCONFKEY_RECORDER_STATE_NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c _mmcamcorder_unrealize 1249 vconf_recorder_state, VCONFKEY_RECORDER_STATE_NULL);

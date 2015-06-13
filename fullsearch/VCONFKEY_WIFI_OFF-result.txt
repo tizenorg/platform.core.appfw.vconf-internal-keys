@@ -1,0 +1,29 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-wifi-keys.h <global> 27 VCONFKEY_WIFI_OFF = 0x00,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/signal-handler.c __netconfig_service_signal_handler 161 if (wifi_state == VCONFKEY_WIFI_OFF)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-power.c __netconfig_wifi_wearable_wifi_use_mode 473 if (wifi_state > VCONFKEY_WIFI_OFF) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-power.c __netconfig_wifi_wearable_wifi_use_mode 481 if (wifi_state == VCONFKEY_WIFI_OFF) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-power.c __netconfig_wifi_airplane_mode 568 if (wifi_state == VCONFKEY_WIFI_OFF)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-power.c __netconfig_wifi_airplane_mode 581 if (wifi_state > VCONFKEY_WIFI_OFF)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-power.c __netconfig_wifi_restrict_mode 609 if (wifi_state == VCONFKEY_WIFI_OFF)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-power.c __netconfig_wifi_restrict_mode 622 if (wifi_state > VCONFKEY_WIFI_OFF)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-power.c __netconfig_wifi_emergency_mode 662 if (wifi_state == VCONFKEY_WIFI_OFF)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-power.c __netconfig_wifi_emergency_mode 675 if (wifi_state > VCONFKEY_WIFI_OFF)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-power.c __netconfig_wifi_emergency_mode 683 if (wifi_state == VCONFKEY_WIFI_OFF)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-power.c __netconfig_wifi_emergency_mode 696 if (wifi_state > VCONFKEY_WIFI_OFF)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-power.c netconfig_wifi_power_initialize 840 if (wifi_last_power_state > VCONFKEY_WIFI_OFF) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-state.c netconfig_wifi_update_power_state 598 netconfig_set_vconf_int(VCONF_WIFI_LAST_POWER_STATE, VCONFKEY_WIFI_OFF);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-state.c netconfig_wifi_update_power_state 599 netconfig_set_vconf_int(VCONFKEY_WIFI_STATE, VCONFKEY_WIFI_OFF);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/commonlib/net_nfc_util.c net_nfc_util_get_cps 344 case VCONFKEY_WIFI_OFF :
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-cfg.c wifi_toggle_get_state 1171 if (value == VCONFKEY_WIFI_OFF)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-general-func.c get_pa_Wi_Fi_on_off_str 488 value = VCONFKEY_WIFI_OFF;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-general-func.c get_pa_Wi_Fi_on_off_str 490 VCONFKEY_WIFI_OFF, &err);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/setting-handler.c __alternate_wifi_mode 1003 int wifi_state = VCONFKEY_WIFI_OFF;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/setting-handler.c __alternate_wifi_mode 1010 if (wifi_state != VCONFKEY_WIFI_OFF) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/setting-handler.c __alternate_wifi_mode 1041 if (wifi_state == VCONFKEY_WIFI_OFF) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/setting.c setting_int_vconf_change_cb 442 case VCONFKEY_WIFI_OFF:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/swap-manager/daemon/device_vconf.c get_wifi_status 44 wifi_status = VCONFKEY_WIFI_OFF;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-direct/popup-wifidirect/src/wfd-app-util.c _wfd_wifi_status_changed 486 } else if (VCONFKEY_WIFI_OFF == wifi_status) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-direct/ug-wifidirect/src/wfd_client.c _wifi_state_cb 61 if (wifi_state == VCONFKEY_WIFI_OFF) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-direct/ug-wifidirect/src/wfd_client.c wfd_client_switch_on 1697 if (wifi_state > VCONFKEY_WIFI_OFF) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-direct/ug-wifidirect/src/wfd_ug.c _wifi_on_state_cb 92 if (wifi_state > VCONFKEY_WIFI_OFF && wifi_state < VCONFKEY_WIFI_STATE_MAX) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wifi-direct-manager/src/wifi-direct-util.c wfd_util_check_wifi_state 373 if (wifi_state > VCONFKEY_WIFI_OFF) {

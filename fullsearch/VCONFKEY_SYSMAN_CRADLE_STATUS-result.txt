@@ -1,0 +1,23 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-sysman-keys.h <global> 87 #define VCONFKEY_SYSMAN_CRADLE_STATUS "memory/sysman/cradle_status"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-manager/common/src/callmgr-util.c _callmgr_util_is_cradle_status 591 if (vconf_get_int(VCONFKEY_SYSMAN_CRADLE_STATUS, &cradle_state) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/voice-call-sound.c __voicecall_snd_route_changed_idle_cb 322 if (vconf_get_int(VCONFKEY_SYSMAN_CRADLE_STATUS, &dock_state) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/voice-call-sound.c __voicecall_snd_listen_dock_state_vconf_change 1890 ret = vconf_notify_key_changed(VCONFKEY_SYSMAN_CRADLE_STATUS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/voice-call-sound.c __voicecall_snd_unlisten_dock_state_vconf_change 1900 ret = vconf_ignore_key_changed(VCONFKEY_SYSMAN_CRADLE_STATUS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/ui/src/vcui-application.c _vcui_is_dock_conected 2201 if (!vconf_get_int(VCONFKEY_SYSMAN_CRADLE_STATUS, &status)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/extcon/cradle.c cradle_update 141 if (vconf_set_int(VCONFKEY_SYSMAN_CRADLE_STATUS, status) != 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/dock.c indicator_dock_change_cb 98 ret = vconf_get_int(VCONFKEY_SYSMAN_CRADLE_STATUS, &status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/dock.c register_dock_module 123 ret = vconf_notify_key_changed(VCONFKEY_SYSMAN_CRADLE_STATUS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/dock.c unregister_dock_module 141 ret = vconf_ignore_key_changed(VCONFKEY_SYSMAN_CRADLE_STATUS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/usb.c _cradle_change_cb 89 vconf_get_int(VCONFKEY_SYSMAN_CRADLE_STATUS, &cradle);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/usb.c _usb_change_cb 107 vconf_get_int(VCONFKEY_SYSMAN_CRADLE_STATUS, &cradle);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/usb.c register_usb_module 163 ret = ret | vconf_notify_key_changed(VCONFKEY_SYSMAN_CRADLE_STATUS, _cradle_change_cb, data);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/usb.c unregister_usb_module 177 ret = ret | vconf_ignore_key_changed(VCONFKEY_SYSMAN_CRADLE_STATUS, _cradle_change_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-sound/common/mm_sound_utils.c _mm_sound_get_dock_type 336 vconf_get_int(VCONFKEY_SYSMAN_CRADLE_STATUS, &dock_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-sound/common/mm_sound_utils.c _mm_sound_get_dock_type 337 debug_msg ("[%s] get dock status=[%d]\n", VCONFKEY_SYSMAN_CRADLE_STATUS, dock_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-sound/server/mm_sound_mgr_device_dock.c _dock_status_changed_cb 131 vconf_get_int(VCONFKEY_SYSMAN_CRADLE_STATUS, &dock_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-sound/server/mm_sound_mgr_device_dock.c _dock_status_changed_cb 132 debug_msg ("DOCK : [%s]=[%d]\n", VCONFKEY_SYSMAN_CRADLE_STATUS, dock_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-sound/server/mm_sound_mgr_device_dock.c _register_dock_status 184 int ret = vconf_notify_key_changed(VCONFKEY_SYSMAN_CRADLE_STATUS, _dock_status_changed_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-sound/server/mm_sound_mgr_device_dock.c _register_dock_status 185 debug_msg ("vconf [%s] set ret = [%d]\n", VCONFKEY_SYSMAN_CRADLE_STATUS, ret);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-sound/server/mm_sound_mgr_device_dock.c MMSoundMgrDockInit 196 ret = vconf_get_int(VCONFKEY_SYSMAN_CRADLE_STATUS, &g_saved_dock_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-sound/server/mm_sound_mgr_pulse.c new_card_info_cb 275 vconf_get_int(VCONFKEY_SYSMAN_CRADLE_STATUS, &dock_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/pulseaudio/src/modules/module-policy.c sink_put_hook_callback 3017 vconf_get_int(VCONFKEY_SYSMAN_CRADLE_STATUS, &dock_status);

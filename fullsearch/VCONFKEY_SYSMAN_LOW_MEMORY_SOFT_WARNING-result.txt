@@ -1,0 +1,15 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-sysman-keys.h <global> 93 VCONFKEY_SYSMAN_LOW_MEMORY_SOFT_WARNING = 0x02,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webapi-plugins/src/systeminfo/systeminfo-utils.cpp <global> 2591 case VCONFKEY_SYSMAN_LOW_MEMORY_SOFT_WARNING:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/app-core/src/appcore.c __sys_lowmem_post 292 if (val >= VCONFKEY_SYSMAN_LOW_MEMORY_SOFT_WARNING) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/app-core/src/appcore.c __sys_lowmem 314 if (val >= VCONFKEY_SYSMAN_LOW_MEMORY_SOFT_WARNING)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/appcore-agent/src/appcore-agent.c __sys_lowmem 383 if (val >= VCONFKEY_SYSMAN_LOW_MEMORY_SOFT_WARNING)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/appcore-watch/src/appcore-watch.c __sys_lowmem_post 487 if (val == VCONFKEY_SYSMAN_LOW_MEMORY_SOFT_WARNING) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/appcore-watch/src/appcore-watch.c __sys_lowmem 505 if (val == VCONFKEY_SYSMAN_LOW_MEMORY_SOFT_WARNING)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/appcore-widget/src/widget_app.c __on_low_memory 531 if (val == VCONFKEY_SYSMAN_LOW_MEMORY_SOFT_WARNING) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/application/app_common/app_event.c _app_convert_low_memory 58 case VCONFKEY_SYSMAN_LOW_MEMORY_SOFT_WARNING:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/browser/src/main.cpp __br_app_create 291 if (low_memory > VCONFKEY_SYSMAN_LOW_MEMORY_SOFT_WARNING) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-provider-master/src/setting.c low_mem_cb 177 if (val >= VCONFKEY_SYSMAN_LOW_MEMORY_SOFT_WARNING) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-provider-master/src/setting.c setting_oom_level 260 if (ret == 0 && status >= VCONFKEY_SYSMAN_LOW_MEMORY_SOFT_WARNING) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-resource/src/memory/lowmem-handler.c memory_low_act 422 VCONFKEY_SYSMAN_LOW_MEMORY_SOFT_WARNING);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-resource/src/memory/vmpressure-lowmem-handler.c low_act 1094 if (status != VCONFKEY_SYSMAN_LOW_MEMORY_SOFT_WARNING) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-resource/src/memory/vmpressure-lowmem-handler.c low_act 1096 VCONFKEY_SYSMAN_LOW_MEMORY_SOFT_WARNING);

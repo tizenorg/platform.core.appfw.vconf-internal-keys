@@ -1,0 +1,2 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-nfc-keys.h <global> 46 VCONFKEY_NFC_SE_POLICY_ESE_OFF
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/manager/net_nfc_server_se.c net_nfc_server_se_set_se_policy 584 vconf_key = VCONFKEY_NFC_SE_POLICY_ESE_OFF;

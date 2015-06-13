@@ -1,0 +1,19 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/dali-adaptor/adaptors/tizen/vsync-monitor-tizen.cpp <global> 65 const unsigned int screenOn( VCONFKEY_PM_STATE_NORMAL == status );
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-pm-keys.h <global> 27 VCONFKEY_PM_STATE_NORMAL = 1,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/add-viewer/src/util.c util_is_lcd_off 402 state = VCONFKEY_PM_STATE_NORMAL;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-provider-master/src/setting.c setting_is_lcd_off 92 state = VCONFKEY_PM_STATE_NORMAL;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/device/src/display.c device_display_get_state 174 if (val == VCONFKEY_PM_STATE_NORMAL)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/core.c lcd_on_procedure 359 update_pm_state_internal(VCONFKEY_PM_STATE_NORMAL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/daemon/box.c box_handle_animated_gif 1021 case VCONFKEY_PM_STATE_NORMAL :
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/daemon/main.c _indicator_notify_pm_state_cb 162 case VCONFKEY_PM_STATE_NORMAL:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-background-scan.c __netconfig_wifi_bgscan_next_scan 195 int pm_state = VCONFKEY_PM_STATE_NORMAL;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-background-scan.c netconfig_iface_wifi_set_bgscan 278 int pm_state = VCONFKEY_PM_STATE_NORMAL;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-indicator.c __netconfig_wifi_indicator_monitor 319 int pm_state = VCONFKEY_PM_STATE_NORMAL;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-power.c __netconfig_wifi_pm_state_mode 709 static int prev_state = VCONFKEY_PM_STATE_NORMAL;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-power.c __netconfig_wifi_pm_state_mode 730 if ((new_state == VCONFKEY_PM_STATE_NORMAL) &&
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/manager/net_nfc_server_common.c restart_polling_loop_thread_func 455 if (pm_state == VCONFKEY_PM_STATE_NORMAL)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/manager/net_nfc_server_vconf.c net_nfc_server_vconf_pm_state_changed 104 (pm_state == VCONFKEY_PM_STATE_NORMAL ||
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/manager/net_nfc_server_vconf.c net_nfc_server_vconf_pm_state_changed 107 if (pm_state == VCONFKEY_PM_STATE_NORMAL ||
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/manager/net_nfc_server_vconf.c net_nfc_check_start_polling_vconf 361 if (pm_state == VCONFKEY_PM_STATE_NORMAL)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/quickpanel-ui.c _vconf_event_lcdoff_cb 504 int pm_state = VCONFKEY_PM_STATE_NORMAL;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/volume-app/src/control.c volume_control_get_vconf_idlelock 202 int pm_state = VCONFKEY_PM_STATE_NORMAL;

@@ -1,0 +1,3 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-pm-keys.h <global> 56 VCONFKEY_PM_LCDOFF_BY_POWERKEY = 1,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/ui/src/vcui-application.c _vcui_lcdoff_src_change_notify_cb 445 if (lcdoff_src == VCONFKEY_PM_LCDOFF_BY_POWERKEY
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/volume-app/src/view.c _lock_sound_check 411 if (lcdoff_source != VCONFKEY_PM_LCDOFF_BY_POWERKEY) {

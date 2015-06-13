@@ -1,0 +1,4 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-location-keys.h <global> 89 #define VCONFKEY_LOCATION_NV_LAST_GPS_TIMESTAMP "db/location/last/gps/LocTimestamp"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/lbs-server/last_position.c gps_set_last_position 44 setting_set_int(VCONFKEY_LOCATION_NV_LAST_GPS_TIMESTAMP, pos->timestamp);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/lbs-server/last_position.c gps_set_position 73 setting_get_int(VCONFKEY_LOCATION_NV_LAST_GPS_TIMESTAMP, &last_timestamp);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/module/gps_module.c get_last_position 428 if (vconf_get_int(VCONFKEY_LOCATION_NV_LAST_GPS_TIMESTAMP, &timestamp)) {

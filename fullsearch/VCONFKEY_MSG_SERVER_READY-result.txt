@@ -1,0 +1,29 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-msg-keys.h <global> 24 #define VCONFKEY_MSG_SERVER_READY "memory/msg/ready"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/email-service/email-daemon/email-daemon-init.c emdaemon_initialize 526 vconf_notify_key_changed(VCONFKEY_MSG_SERVER_READY, callback_for_VCONFKEY_MSG_SERVER_READY, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/lbs-server/server.c _gps_register_msgfwcb 1055 ret = vconf_get_bool(VCONFKEY_MSG_SERVER_READY, &setValue);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/composer/src/ui-composer/msg-ui-composer-main.c __msgc_server_ready_change_cb 1997 int ret = vconf_get_bool(VCONFKEY_MSG_SERVER_READY, &b_ready);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/composer/src/ui-composer/msg-ui-composer-main.c msg_ui_composer_destroy 2099 if (vconf_ignore_key_changed(VCONFKEY_MSG_SERVER_READY, __msgc_server_ready_change_cb) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/composer/src/ui-composer/msg-ui-composer-main.c msg_ui_composer_destroy 2100 D_EMSG("Fail to remove vconf time with [%s]", VCONFKEY_MSG_SERVER_READY);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/composer/src/ui-composer/msg-ui-composer-main.c msg_ui_composer_init 3457 if (vconf_notify_key_changed(VCONFKEY_MSG_SERVER_READY, __msgc_server_ready_change_cb, (void *)cd) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/composer/src/ui-composer/msg-ui-composer-main.c msg_ui_composer_init 3458 D_EMSG("Fail to register vconf time with [%s]", VCONFKEY_MSG_SERVER_READY);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/main/message.c msg_server_ready_change_cb 1532 int ret = vconf_get_bool(VCONFKEY_MSG_SERVER_READY, &b_ready);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/main/message.c app_create 1710 if (vconf_notify_key_changed(VCONFKEY_MSG_SERVER_READY, msg_server_ready_change_cb, (void *)ad) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/main/message.c app_create 1711 D_EMSG("Fail to register vconf time with [%s]", VCONFKEY_MSG_SERVER_READY);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/main/message.c app_terminate 1774 if (vconf_ignore_key_changed(VCONFKEY_MSG_SERVER_READY, msg_server_ready_change_cb) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/main/message.c app_terminate 1775 D_EMSG("Fail to remove vconf time with [%s]", VCONFKEY_MSG_SERVER_READY);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/setting/src/main/msg-ui-setting-gadget.c __msg_ui_setting_on_destroy 380 if (vconf_ignore_key_changed(VCONFKEY_MSG_SERVER_READY, __msg_setting_server_ready_change_cb) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/setting/src/main/msg-ui-setting-gadget.c __msg_ui_setting_on_destroy 381 D_EMSG("Fail to remove vconf time with [%s]", VCONFKEY_MSG_SERVER_READY);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/setting/src/main/msg-ui-setting-gadget.c UG_MODULE_INIT 576 if (vconf_notify_key_changed(VCONFKEY_MSG_SERVER_READY, __msg_setting_server_ready_change_cb, (void *)ugd) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/setting/src/main/msg-ui-setting-main.c __msg_setting_server_ready_change_cb 277 int ret = vconf_get_bool(VCONFKEY_MSG_SERVER_READY, &b_ready);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/viewer/src/msg-ui-viewer-gadget.c __msg_ui_viewer_server_ready_change_cb 92 int ret = vconf_get_bool(VCONFKEY_MSG_SERVER_READY, &b_ready);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/viewer/src/msg-ui-viewer-gadget.c __msg_ui_viewer_on_create 404 if (vconf_notify_key_changed(VCONFKEY_MSG_SERVER_READY, __msg_ui_viewer_server_ready_change_cb, (void *)vmd) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/viewer/src/msg-ui-viewer-gadget.c __msg_ui_viewer_on_destroy 547 if (vconf_ignore_key_changed(VCONFKEY_MSG_SERVER_READY, __msg_ui_viewer_server_ready_change_cb) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/viewer/src/msg-ui-viewer-gadget.c __msg_ui_viewer_on_destroy 548 D_EMSG("Fail to remove vconf time with [%s]", VCONFKEY_MSG_SERVER_READY);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/msg-service/framework/main.cpp main 130 if(MsgSettingSetBool(VCONFKEY_MSG_SERVER_READY, false) != MSG_SUCCESS)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/msg-service/framework/transaction-manager/MsgTransManager.cpp run 225 if(MsgSettingSetBool(VCONFKEY_MSG_SERVER_READY, true) != MSG_SUCCESS)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/msg-service/proxy/MsgHandleControl.cpp openHandle 51 MsgSettingGetBool(VCONFKEY_MSG_SERVER_READY, &bReady);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/msg-service/proxy/MsgProxyListener.cpp MsgServerRestartCb 32 MsgSettingGetBool(VCONFKEY_MSG_SERVER_READY, &bReady);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/msg-service/proxy/MsgProxyListener.cpp running 120 MsgSettingRegVconfCBCommon(VCONFKEY_MSG_SERVER_READY, MsgServerRestartCb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/msg-service/proxy/MsgProxyListener.cpp MsgProxyListener 135 MsgSettingRemoveVconfCBCommon(VCONFKEY_MSG_SERVER_READY, MsgServerRestartCb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c convert_strgkey_to_vconf 241 return VCONFKEY_MSG_SERVER_READY;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c convert_vconf_to_strgkey 408 else if (g_str_equal(key, VCONFKEY_MSG_SERVER_READY) == TRUE) {

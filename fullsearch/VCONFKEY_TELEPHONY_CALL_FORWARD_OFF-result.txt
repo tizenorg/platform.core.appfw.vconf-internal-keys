@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-telephony-keys.h <global> 143 VCONFKEY_TELEPHONY_CALL_FORWARD_OFF = 0x00,

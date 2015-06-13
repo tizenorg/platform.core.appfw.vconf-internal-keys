@@ -1,0 +1,5 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-location-keys.h <global> 101 #define VCONFKEY_LOCATION_REPLAY_MODE "db/location/replay/ReplayMode"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libslp-lbs-plugin-replay/gps-plugin/src/gps_plugin_replay.c replay_mode_changed_cb 613 if (setting_get_int(VCONFKEY_LOCATION_REPLAY_MODE, &g_replay_timer->replay_mode) == FALSE) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libslp-lbs-plugin-replay/gps-plugin/src/gps_plugin_replay.c gps_plugin_replay_timer_init 647 if (setting_get_int(VCONFKEY_LOCATION_REPLAY_MODE, &timer->replay_mode) == FALSE) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libslp-lbs-plugin-replay/gps-plugin/src/gps_plugin_replay.c gps_plugin_replay_timer_init 650 setting_notify_key_changed(VCONFKEY_LOCATION_REPLAY_MODE, replay_mode_changed_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libslp-lbs-plugin-replay/gps-plugin/src/gps_plugin_replay.c gps_plugin_replay_timer_deinit 711 setting_ignore_key_changed(VCONFKEY_LOCATION_REPLAY_MODE, replay_mode_changed_cb);

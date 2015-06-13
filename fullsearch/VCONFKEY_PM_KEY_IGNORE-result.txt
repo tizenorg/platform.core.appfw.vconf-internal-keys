@@ -1,0 +1,11 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-pm-keys.h <global> 60 #define VCONFKEY_PM_KEY_IGNORE "memory/pm/key_ignore"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-frwk/bt-service/bt-service-adapter.c _bt_set_disabled 544 ret_pm_ignore = vconf_get_int(VCONFKEY_PM_KEY_IGNORE, &pm_ignore_mode);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/battery/lowbat-handler-wearable.c check_extreme_status 32 if (vconf_get_int(VCONFKEY_PM_KEY_IGNORE, &extreme) != 0 ||
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/battery/lowbat-handler-wearable.c check_extreme_status 35 if (vconf_set_int(VCONFKEY_PM_KEY_IGNORE, 0) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c _status_passive_change_cb 230 if (!strcmp(key_name, VCONFKEY_PM_KEY_IGNORE)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 349 if (vconf_notify_key_changed(VCONFKEY_PM_KEY_IGNORE, _status_passive_change_cb, NULL) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 350 _E("Failed to register add the callback for %s", VCONFKEY_PM_KEY_IGNORE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 351 } else if (vconf_get_int(VCONFKEY_PM_KEY_IGNORE, &s_status_passive.pm_key_ignore) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 352 _E("Failed to get vconfkey[%s]", VCONFKEY_PM_KEY_IGNORE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_unregister 515 if (vconf_ignore_key_changed(VCONFKEY_PM_KEY_IGNORE, _status_passive_change_cb) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_unregister 516 _E("Failed to unregister the callback for %s", VCONFKEY_PM_KEY_IGNORE);

@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-uncategorized-keys.h <global> 341 #define VCONFKEY_UNCATEGORIZED_297 "memory/private/msg-service/sim_mo_ctrl/2"

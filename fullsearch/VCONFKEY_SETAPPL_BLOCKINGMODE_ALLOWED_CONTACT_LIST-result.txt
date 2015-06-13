@@ -1,0 +1,4 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-hotfix.h <global> 125 #define VCONFKEY_SETAPPL_BLOCKINGMODE_ALLOWED_CONTACT_LIST "db/setting/blockingmode/allowed_contact_list"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/voice-call-service.c voicecall_service_check_block_mode 1510 char *white_list_str = vconf_get_str(VCONFKEY_SETAPPL_BLOCKINGMODE_ALLOWED_CONTACT_LIST);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/email-service/email-core/email-core-utils.c emcore_check_blocking_mode_internal 5074 person_id_string = vconf_get_str(VCONFKEY_SETAPPL_BLOCKINGMODE_ALLOWED_CONTACT_LIST);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/msg-service/utils/MsgContact.cpp checkBlockingMode 982 char *allowList = MsgSettingGetString(VCONFKEY_SETAPPL_BLOCKINGMODE_ALLOWED_CONTACT_LIST);

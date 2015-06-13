@@ -1,0 +1,6 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-sysman-keys.h <global> 94 VCONFKEY_SYSMAN_LOW_MEMORY_HARD_WARNING = 0x04
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webapi-plugins/src/systeminfo/systeminfo-utils.cpp <global> 2592 case VCONFKEY_SYSMAN_LOW_MEMORY_HARD_WARNING:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/application/app_common/app_event.c _app_convert_low_memory 60 case VCONFKEY_SYSMAN_LOW_MEMORY_HARD_WARNING:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/proc/proc-handler.c proc_change_lowmemory 777 if (state == VCONFKEY_SYSMAN_LOW_MEMORY_HARD_WARNING)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-resource/src/memory/lowmem-handler.c memory_oom_act 445 VCONFKEY_SYSMAN_LOW_MEMORY_HARD_WARNING);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-resource/src/memory/vmpressure-lowmem-handler.c medium_act 1156 VCONFKEY_SYSMAN_LOW_MEMORY_HARD_WARNING);

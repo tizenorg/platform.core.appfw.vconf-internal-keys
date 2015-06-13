@@ -1,0 +1,8 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-ciss-keys.h <global> 102 #define VCONFKEY_CISSAPPL_INCREASE_RINGTONE_BOOL "db/ciss/increase_ringtone"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-manager/common/src/callmgr-util.c _callmgr_util_get_increasing_volume_setting 363 ret = vconf_get_bool(VCONFKEY_CISSAPPL_INCREASE_RINGTONE_BOOL, &increasing_flag);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-call-setting.c __cst_on_click_increase_vol_in_pocket 360 _cst_vconf_set_bool(VCONFKEY_CISSAPPL_INCREASE_RINGTONE_BOOL, !check_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-call-setting.c __cst_on_changed_increase_vol_in_pocket_check 603 _cst_vconf_set_bool(VCONFKEY_CISSAPPL_INCREASE_RINGTONE_BOOL, check_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-call-setting.c __cst_gl_icon_get_phone 656 _cst_vconf_get_bool(VCONFKEY_CISSAPPL_INCREASE_RINGTONE_BOOL, &value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-call-setting.c _cst_call_setting_unlisten_vconf_change 693 vconf_ignore_key_changed(VCONFKEY_CISSAPPL_INCREASE_RINGTONE_BOOL,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-call-setting.c __cst_create_genlist_phone 829 vconf_notify_key_changed(VCONFKEY_CISSAPPL_INCREASE_RINGTONE_BOOL,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-main.c setting_plugin_reset 594 ret += vconf_set_bool(VCONFKEY_CISSAPPL_INCREASE_RINGTONE_BOOL, EINA_TRUE);

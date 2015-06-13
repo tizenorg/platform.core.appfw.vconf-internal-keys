@@ -1,0 +1,4 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 544 #define VCONFKEY_SETAPPL_BLOCKINGMODE_LED_INDICATOR "db/setting/blockingmode/led_indicator"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/led/rgb.c rgb_init 671 vconf_get_bool(VCONFKEY_SETAPPL_BLOCKINGMODE_LED_INDICATOR, &rgb_blocked);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/led/rgb.c rgb_init 680 vconf_notify_key_changed(VCONFKEY_SETAPPL_BLOCKINGMODE_LED_INDICATOR,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/led/rgb.c rgb_exit 707 vconf_ignore_key_changed(VCONFKEY_SETAPPL_BLOCKINGMODE_LED_INDICATOR,

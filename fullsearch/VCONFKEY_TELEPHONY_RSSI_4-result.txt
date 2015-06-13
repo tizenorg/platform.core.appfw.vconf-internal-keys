@@ -1,0 +1,2 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-telephony-keys.h <global> 184 VCONFKEY_TELEPHONY_RSSI_4,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-agent/ag-agent/bluetooth-ag-agent.h BT_CHECK_SIGNAL_STRENGTH 286 if (rssi >= VCONFKEY_TELEPHONY_RSSI_4) \

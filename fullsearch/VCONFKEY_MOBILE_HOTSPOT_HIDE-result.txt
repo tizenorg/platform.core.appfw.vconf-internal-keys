@@ -1,0 +1,3 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-mobile-hotspot-keys.h <global> 43 #define VCONFKEY_MOBILE_HOTSPOT_HIDE "db/mobile_hotspot/hide"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tethering/src/tethering.c __set_visible 162 if (vconf_set_int(VCONFKEY_MOBILE_HOTSPOT_HIDE, visible ? 0 : 1) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tethering/src/tethering.c __get_visible 179 if (vconf_get_int(VCONFKEY_MOBILE_HOTSPOT_HIDE, &hide) < 0) {

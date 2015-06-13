@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-bt-keys.h <global> 49 #define VCONFKEY_BT_OFF_DUE_TO_TIMEOUT "file/private/bt-service/bt_off_due_to_timeout"

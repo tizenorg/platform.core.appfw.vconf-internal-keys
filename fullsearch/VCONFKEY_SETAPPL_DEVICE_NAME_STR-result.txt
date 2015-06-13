@@ -1,0 +1,57 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 408 #define VCONFKEY_SETAPPL_DEVICE_NAME_STR "db/setting/device_name"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-agent/pb-agent/bluetooth_pb_vcard.c _bluetooth_pb_owner_name 2935 name = vconf_get_str(VCONFKEY_SETAPPL_DEVICE_NAME_STR);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-frwk/bt-service/bt-service-adapter.c __bt_set_local_name 484 phone_name = vconf_get_str(VCONFKEY_SETAPPL_DEVICE_NAME_STR);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-frwk/bt-service/bt-service-adapter.c _bt_handle_adapter_added 794 ret = vconf_notify_key_changed(VCONFKEY_SETAPPL_DEVICE_NAME_STR,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-frwk/bt-service/bt-service-adapter.c _bt_handle_adapter_removed 832 ret = vconf_ignore_key_changed(VCONFKEY_SETAPPL_DEVICE_NAME_STR,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth/src/bt-util.c _bt_util_set_phone_name 368 phone_name = vconf_get_str(VCONFKEY_SETAPPL_DEVICE_NAME_STR);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth/src/bt-util.c _bt_util_get_phone_name 387 if (_bt_util_store_get_value(VCONFKEY_SETAPPL_DEVICE_NAME_STR,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/lbs-server/setting.c _get_device_name 136 ret_str = vconf_get_str(VCONFKEY_SETAPPL_DEVICE_NAME_STR);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-agent/src/mobileap_handler.c _register_vconf_cb 183 {VCONFKEY_SETAPPL_DEVICE_NAME_STR,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-agent/src/mobileap_handler.c _unregister_vconf_cb 224 {VCONFKEY_SETAPPL_DEVICE_NAME_STR,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mtp-responder/src/mtp_init.c _mtp_init 117 device_name = vconf_get_str(VCONFKEY_SETAPPL_DEVICE_NAME_STR);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-about/src/setting-about-main.c __setting_about_popup_rsp_cb 173 name_value = vconf_get_str(VCONFKEY_SETAPPL_DEVICE_NAME_STR);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-about/src/setting-about-main.c setting_about_naviframe_btn_done_cb 826 name_value = vconf_get_str(VCONFKEY_SETAPPL_DEVICE_NAME_STR);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-about/src/setting-about-main.c setting_about_naviframe_btn_done_cb 829 if (0 != vconf_set_str(VCONFKEY_SETAPPL_DEVICE_NAME_STR, entry_str_utf8)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-about/src/setting-about-main.c setting_about_naviframe_btn_done_cb 830 SETTING_TRACE_ERROR("Set vconf[%s] failed", VCONFKEY_SETAPPL_DEVICE_NAME_STR);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-about/src/setting-about-main.c setting_about_naviframe_btn_cancel_cb 857 name = vconf_get_str(VCONFKEY_SETAPPL_DEVICE_NAME_STR);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-about/src/setting-about-main.c __setting_about_entry_unfocus_cb 1041 SETTING_TRACE("To store \"%s\" into vconf[%s]", entry_str_utf8, VCONFKEY_SETAPPL_DEVICE_NAME_STR);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-about/src/setting-about-main.c __setting_about_main_vconf_change_cb 1165 } else if (!safeStrCmp(vconf_name, VCONFKEY_SETAPPL_DEVICE_NAME_STR)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-about/src/setting-about-main.c __setting_about_main_vconf_change_cb 1167 name_value = vconf_get_str(VCONFKEY_SETAPPL_DEVICE_NAME_STR);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-about/src/setting-about-main.c __setting_about_main_creat_name_view 1541 char *name_value = vconf_get_str(VCONFKEY_SETAPPL_DEVICE_NAME_STR);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-about/src/setting-about-main.c setting_about_main_generate_genlist 1898 char *name_value = vconf_get_str(VCONFKEY_SETAPPL_DEVICE_NAME_STR);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-about/src/setting-about-main.c setting_about_main_generate_genlist 2271 ret = vconf_notify_key_changed(VCONFKEY_SETAPPL_DEVICE_NAME_STR,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-about/src/setting-about-main.c setting_about_main_generate_genlist 2303 ret = vconf_ignore_key_changed(VCONFKEY_SETAPPL_DEVICE_NAME_STR,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-settings/src/system_setting_platform.c system_setting_get_device_name 1898 if (system_setting_vconf_get_value_string(VCONFKEY_SETAPPL_DEVICE_NAME_STR, &vconf_value)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-settings/src/system_setting_platform.c system_setting_set_device_name 1911 if (system_setting_vconf_set_value_string(VCONFKEY_SETAPPL_DEVICE_NAME_STR, vconf_value)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-settings/src/system_setting_platform.c system_setting_set_changed_callback_device_name 1920 return system_setting_vconf_set_changed_cb(VCONFKEY_SETAPPL_DEVICE_NAME_STR, SYSTEM_SETTINGS_KEY_DEVICE_NAME, 0, user_data);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-settings/src/system_setting_platform.c system_setting_unset_changed_callback_device_name 1925 return system_setting_vconf_unset_changed_cb(VCONFKEY_SETAPPL_DEVICE_NAME_STR, 0);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tethering/src/tethering.c __get_common_ssid 1260 ptr = vconf_get_str(VCONFKEY_SETAPPL_DEVICE_NAME_STR);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tethering/src/tethering.c tethering_wifi_get_ssid 2685 if (__get_ssid_from_vconf(VCONFKEY_SETAPPL_DEVICE_NAME_STR,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-bluetooth-efl/src/libraries/bt-util.c _bt_util_set_phone_name 183 phone_name = vconf_get_str(VCONFKEY_SETAPPL_DEVICE_NAME_STR);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-bluetooth-efl/src/libraries/bt-util.c _bt_util_get_phone_name 202 if (_bt_util_store_get_value(VCONFKEY_SETAPPL_DEVICE_NAME_STR,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-bluetooth-efl/src/ui/bt-main-ug.c __bt_main_vconf_change_cb 256 if (!g_strcmp0(vconf_name, VCONFKEY_SETAPPL_DEVICE_NAME_STR)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-bluetooth-efl/src/ui/bt-main-ug.c __bt_main_vconf_change_cb 258 name_value = vconf_get_str(VCONFKEY_SETAPPL_DEVICE_NAME_STR);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-bluetooth-efl/src/ui/bt-main-ug.c __on_create 709 ret = vconf_notify_key_changed(VCONFKEY_SETAPPL_DEVICE_NAME_STR,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-bluetooth-efl/src/ui/bt-main-ug.c __on_destroy 875 err = vconf_ignore_key_changed(VCONFKEY_SETAPPL_DEVICE_NAME_STR,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-bluetooth-efl/src/ui/bt-main-view.c __bt_rename_device_ok_cb 926 if (0 != vconf_set_str(VCONFKEY_SETAPPL_DEVICE_NAME_STR, device_name_str)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-bluetooth-efl/src/ui/bt-main-view.c __bt_rename_device_ok_cb 927 BT_ERR("Set vconf[%s] failed", VCONFKEY_SETAPPL_DEVICE_NAME_STR);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-bluetooth-efl/src/ui/bt-main-view.c __bt_main_rename_entry_icon_get 1020 name_value_utf = vconf_get_str(VCONFKEY_SETAPPL_DEVICE_NAME_STR);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-mobile-ap/src/mh_device_rename.c __rename_popup_ok_cb 243 if (vconf_set_str(VCONFKEY_SETAPPL_DEVICE_NAME_STR, device_name_str) != 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-mobile-ap/src/mh_device_rename.c __rename_popup_ok_cb 244 DBG("Set vconf[%s] failed\n",VCONFKEY_SETAPPL_DEVICE_NAME_STR);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-mobile-ap/src/mh_device_rename.c __rename_entry_icon_get 349 device_name_utf = vconf_get_str(VCONFKEY_SETAPPL_DEVICE_NAME_STR);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-mobile-ap/src/mh_main_ug.c __set_callbacks 98 vconf_notify_key_changed(VCONFKEY_SETAPPL_DEVICE_NAME_STR,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-mobile-ap/src/mh_main_ug.c __unset_callbacks 156 vconf_ignore_key_changed(VCONFKEY_SETAPPL_DEVICE_NAME_STR,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-mobile-ap/src/mh_view_main.c __get_help_label 919 device_name_utf = vconf_get_str(VCONFKEY_SETAPPL_DEVICE_NAME_STR);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-mobile-ap/src/mh_view_wifi_setup.c __gl_device_name_title_label_get 133 device_name_utf = vconf_get_str(VCONFKEY_SETAPPL_DEVICE_NAME_STR);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-direct/ug-wifidirect/src/wfd_client.c wfd_get_vconf_device_name 1291 dev_name = vconf_get_str(VCONFKEY_SETAPPL_DEVICE_NAME_STR);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-direct/ug-wifidirect/src/wfd_ug.c __wfd_main_vconf_change_cb 61 if (!g_strcmp0(vconf_name, VCONFKEY_SETAPPL_DEVICE_NAME_STR)){
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-direct/ug-wifidirect/src/wfd_ug.c __wfd_main_vconf_change_cb 63 name_value = vconf_get_str(VCONFKEY_SETAPPL_DEVICE_NAME_STR);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-direct/ug-wifidirect/src/wfd_ug.c on_create 519 ret = vconf_notify_key_changed(VCONFKEY_SETAPPL_DEVICE_NAME_STR,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-direct/ug-wifidirect/src/wfd_ug.c on_destroy 646 ret = vconf_ignore_key_changed(VCONFKEY_SETAPPL_DEVICE_NAME_STR,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-direct/ug-wifidirect/src/wfd_ug_rename_popup.c _rename_popup_ok_cb 157 if (0 != vconf_set_str(VCONFKEY_SETAPPL_DEVICE_NAME_STR, device_name_str)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-direct/ug-wifidirect/src/wfd_ug_rename_popup.c _rename_popup_ok_cb 158 DBG(LOG_ERROR, "Set vconf[%s] failed\n",VCONFKEY_SETAPPL_DEVICE_NAME_STR);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wifi-direct-manager/src/wifi-direct-util.c wfd_util_get_phone_name 203 name = vconf_get_str(VCONFKEY_SETAPPL_DEVICE_NAME_STR);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wifi-direct-manager/src/wifi-direct-util.c wfd_util_get_phone_name 205 WDS_LOGE( "Failed to get vconf value for %s", VCONFKEY_SETAPPL_DEVICE_NAME_STR);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wifi-direct-manager/src/wifi-direct-util.c wfd_util_get_phone_name 209 WDS_LOGD( "[%s: %s]", VCONFKEY_SETAPPL_DEVICE_NAME_STR, phone_name);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wifi-direct-manager/src/wifi-direct-util.c wfd_util_set_dev_name_notification 240 res = vconf_notify_key_changed(VCONFKEY_SETAPPL_DEVICE_NAME_STR, _wfd_util_dev_name_changed_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wifi-direct-manager/src/wifi-direct-util.c wfd_util_unset_dev_name_notification 255 res = vconf_ignore_key_changed(VCONFKEY_SETAPPL_DEVICE_NAME_STR, _wfd_util_dev_name_changed_cb);

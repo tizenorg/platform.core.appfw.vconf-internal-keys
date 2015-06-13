@@ -1,0 +1,7 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-wifi-keys.h <global> 28 VCONFKEY_WIFI_UNCONNECTED,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-state.c netconfig_wifi_state_set_service_state 334 netconfig_set_vconf_int (VCONFKEY_WIFI_STATE, VCONFKEY_WIFI_UNCONNECTED);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-state.c netconfig_wifi_update_power_state 571 VCONFKEY_WIFI_UNCONNECTED);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-state.c netconfig_wifi_update_power_state 573 VCONFKEY_WIFI_UNCONNECTED);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/commonlib/net_nfc_util.c net_nfc_util_get_cps 338 case VCONFKEY_WIFI_UNCONNECTED :
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/setting.c setting_int_vconf_change_cb 446 case VCONFKEY_WIFI_UNCONNECTED: {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tethering/src/tethering.c __check_precondition 1360 if(wifi_state > VCONFKEY_WIFI_UNCONNECTED) {

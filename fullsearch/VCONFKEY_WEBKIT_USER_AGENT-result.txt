@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-webkit-keys.h <global> 24 #define VCONFKEY_WEBKIT_USER_AGENT "db/webkit/user_agent"

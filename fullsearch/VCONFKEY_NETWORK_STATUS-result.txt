@@ -1,0 +1,29 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-dnet-keys.h <global> 24 #define VCONFKEY_NETWORK_STATUS "memory/dnet/status"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webkit-efl/Source/WebCore/platform/network/tizen/NetworkStateNotifierTizen.cpp <global> 31 if (!vconf_get_int(VCONFKEY_NETWORK_STATUS, &state) && state == VCONFKEY_NETWORK_OFF)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webkit-efl/Source/WebCore/platform/network/tizen/NetworkStateNotifierTizen.cpp <global> 42 if (!vconf_get_int(VCONFKEY_NETWORK_STATUS, &state) && state == VCONFKEY_NETWORK_OFF)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/cbhm/2.2/src/item_manager.c get_network_state 131 vconf_get_int(VCONFKEY_NETWORK_STATUS, &net_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/cbhm/2.3-mobile/src/item_manager.c get_network_state 133 vconf_get_int(VCONFKEY_NETWORK_STATUS, &net_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/cbhm/2.3-wearable/src/item_manager.c get_network_state 131 vconf_get_int(VCONFKEY_NETWORK_STATUS, &net_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/connection/src/connection.c __connection_cb_type_changed_cb_idle 93 if (vconf_get_int(VCONFKEY_NETWORK_STATUS, &status) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/connection/src/connection.c __connection_set_type_changed_callback 160 vconf_notify_key_changed(VCONFKEY_NETWORK_STATUS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/connection/src/connection.c __connection_set_type_changed_callback 169 if (vconf_ignore_key_changed(VCONFKEY_NETWORK_STATUS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/connection/src/connection.c connection_get_type 457 if (vconf_get_int(VCONFKEY_NETWORK_STATUS, &status)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/connection.c on_noti 275 ret = vconf_get_int(VCONFKEY_NETWORK_STATUS, &val);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/connection.c __init_tel 670 ret = vconf_notify_key_changed(VCONFKEY_NETWORK_STATUS, _bt_tethering, data);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/connection.c unregister_conn_module 754 ret = ret | vconf_ignore_key_changed(VCONFKEY_NETWORK_STATUS, _bt_tethering);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/music-player/src/rich_info/src/core/mp-tag-mgr.c mp_tag_mgr_check_http_state 1104 if (vconf_get_int(VCONFKEY_NETWORK_STATUS, &status) == 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/network-state.c __netconfig_update_default_connection_info 588 vconf_get_int(VCONFKEY_NETWORK_STATUS, &old_network_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/network-state.c __netconfig_update_default_connection_info 591 netconfig_set_vconf_int(VCONFKEY_NETWORK_STATUS, VCONFKEY_NETWORK_OFF);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/network-state.c __netconfig_update_default_connection_info 604 netconfig_set_vconf_int(VCONFKEY_NETWORK_STATUS, VCONFKEY_NETWORK_WIFI);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/network-state.c __netconfig_update_default_connection_info 606 netconfig_set_vconf_int(VCONFKEY_NETWORK_STATUS, VCONFKEY_NETWORK_CELLULAR);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/network-state.c __netconfig_update_default_connection_info 608 netconfig_set_vconf_int(VCONFKEY_NETWORK_STATUS, VCONFKEY_NETWORK_ETHERNET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/network-state.c __netconfig_update_default_connection_info 610 netconfig_set_vconf_int(VCONFKEY_NETWORK_STATUS, VCONFKEY_NETWORK_BLUETOOTH);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/network-state.c __netconfig_update_default_connection_info 612 netconfig_set_vconf_int(VCONFKEY_NETWORK_STATUS, VCONFKEY_NETWORK_OFF);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/utils/emulator.c __netconfig_emulator_set_network_state 107 vconf_set_int(VCONFKEY_NETWORK_STATUS, VCONFKEY_NETWORK_ETHERNET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/stt/common/stt_network.c stt_network_is_connected 36 vconf_get_int(VCONFKEY_NETWORK_STATUS, &network_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tts/server/ttsd_network.c ttsd_network_is_connected 35 vconf_get_int(VCONFKEY_NETWORK_STATUS, &network_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/video-player/playview/src/common/vp-play-vconf.c vp_play_vconf_net_register_watch_noti 347 err = vconf_notify_key_changed(VCONFKEY_NETWORK_STATUS, pStatusFunc, pUserData);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/video-player/playview/src/common/vp-play-vconf.c vp_play_vconf_net_deregister_watch_noti 360 err = vconf_ignore_key_changed(VCONFKEY_NETWORK_STATUS, pStatusFunc);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/video-player/src/common/mp-video-streaming-ctrl.c mp_streaming_ctrl_network_status_cb 150 if (!strcmp(szkeyname, VCONFKEY_NETWORK_STATUS)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/video-player/src/common/mp-video-streaming-ctrl.c mp_streaming_ctrl_set_notify_network_status 355 nRet = vconf_notify_key_changed(VCONFKEY_NETWORK_STATUS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/video-player/src/common/mp-video-streaming-ctrl.c mp_streaming_ctrl_get_network_state 423 if (!vconf_get_int(VCONFKEY_NETWORK_STATUS, &ntmpGetNetworkStatus)) {

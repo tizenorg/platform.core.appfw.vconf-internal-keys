@@ -1,0 +1,4 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-wifi-keys.h <global> 103 #define VCONFKEY_WIFI_DIRECT_RECEIVING_STATE "memory/wifi_direct/share/receiving_state"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/processing/downloading.c indicator_downloading_change_cb 131 if (vconf_get_int(VCONFKEY_WIFI_DIRECT_RECEIVING_STATE, &status) == 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/processing/downloading.c register_downloading_module 193 ret = ret | vconf_notify_key_changed(VCONFKEY_WIFI_DIRECT_RECEIVING_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/processing/downloading.c unregister_downloading_module 208 ret = ret | vconf_ignore_key_changed(VCONFKEY_WIFI_DIRECT_RECEIVING_STATE,

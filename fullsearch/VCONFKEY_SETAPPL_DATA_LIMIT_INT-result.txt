@@ -1,0 +1,4 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-data-slp-setting.c <global> 308 {"data_limit", "datausage", INT_SLP_SETTING_DATAUSAGE_DATA_LIMIT_INT, VCONFKEY_SETAPPL_DATA_LIMIT_INT, eINT, {0}, export_json, import_default},
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-resource/src/network/datausage-vconf-common.c <global> 30 #ifndef VCONFKEY_SETAPPL_DATA_LIMIT_INT
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-resource/src/network/datausage-vconf-common.c <global> 31 #define VCONFKEY_SETAPPL_DATA_LIMIT_INT "db/setting/data_limit"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 475 #define VCONFKEY_SETAPPL_DATA_LIMIT_INT "db/setting/data_limit"

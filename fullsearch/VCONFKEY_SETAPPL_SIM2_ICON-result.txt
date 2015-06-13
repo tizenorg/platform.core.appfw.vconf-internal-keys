@@ -1,0 +1,26 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 634 #define VCONFKEY_SETAPPL_SIM2_ICON "db/setting/sim2_icon"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-manager/callmgr-popup/src/callmgr-popup-widget.c __callmgr_popup_sim_list_gl_icon_get 384 if(vconf_get_int(VCONFKEY_SETAPPL_SIM2_ICON, &sim_icon_index)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-video-call-img.c __cst_on_click_default_img_cb 153 _cst_vconf_get_int(VCONFKEY_SETAPPL_SIM2_ICON, &sim_icon_index);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-video-call-img.c __cst_video_call_img_sim2_sel_cb 721 _cst_vconf_get_int(VCONFKEY_SETAPPL_SIM2_ICON, &sim_icon_index);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-video-call-img.c __cst_create_video_call_img 779 _cst_vconf_get_int(VCONFKEY_SETAPPL_SIM2_ICON, &sim_icon_index);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-widget.c __cst_set_toolbar_item_icon 1514 vconf_get_int(VCONFKEY_SETAPPL_SIM2_ICON, &simIcon);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-widget.c _cst_create_dual_sim_tabbar 1589 vconf_get_int(VCONFKEY_SETAPPL_SIM2_ICON, &sim_icon_index);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/ui/src/vcui-view-effect-widget.c __vcui_view_effect_widget_get_current_theme 570 if(vconf_get_int(VCONFKEY_SETAPPL_SIM2_ICON, &nSimIconIndex) < 0 ) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/ui/src/vcui-view-elements.c vcall_engine_get_sim_color_code 3005 if(vconf_get_int(VCONFKEY_SETAPPL_SIM2_ICON, &sim_icon_index) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/ui/src/vcui-view-popup.c __sim_list_gl_icon_get_phone 2477 if(vconf_get_int(VCONFKEY_SETAPPL_SIM2_ICON, &sim_icon_index)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/network/rssi.c _get_sim_icon 588 ret = vconf_get_int(VCONFKEY_SETAPPL_SIM2_ICON, &status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/network/rssi.c register_rssi_module 1004 vconf_notify_key_changed(VCONFKEY_SETAPPL_SIM2_ICON, _sim_icon_update, data);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/network/rssi.c unregister_rssi_module 1042 ret = vconf_ignore_key_changed(VCONFKEY_SETAPPL_SIM2_ICON,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/processing/call_divert.c _get_sim_icon 176 ret = vconf_get_int(VCONFKEY_SETAPPL_SIM2_ICON, &status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/processing/call_divert.c unregister_call_divert_module 307 vconf_ignore_key_changed(VCONFKEY_SETAPPL_SIM2_ICON, _sim_icon_update);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/composer/src/ui-composer/msg-ui-composer-common.c msg_ui_composer_common_send_via_gl_content_get 554 vconf_get_int(VCONFKEY_SETAPPL_SIM2_ICON, &sel_icon_idx);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/composer/src/ui-composer/msg-ui-composer-main.c __msgc_sim2_icon_change_cb 1963 vconf_get_int(VCONFKEY_SETAPPL_SIM2_ICON, &sel_icon_idx);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/composer/src/ui-composer/msg-ui-composer-main.c msg_ui_composer_destroy 2096 if (vconf_ignore_key_changed(VCONFKEY_SETAPPL_SIM2_ICON, __msgc_sim2_icon_change_cb) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/composer/src/ui-composer/msg-ui-composer-main.c msg_ui_composer_destroy 2097 D_EMSG("Fail to remove vconf time with [%s]", VCONFKEY_SETAPPL_SIM2_ICON);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/composer/src/ui-composer/msg-ui-composer-main.c msg_ui_composer_init 3409 vconf_get_int(VCONFKEY_SETAPPL_SIM2_ICON, &sel_icon_idx);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/composer/src/ui-composer/msg-ui-composer-main.c msg_ui_composer_init 3415 if (vconf_notify_key_changed(VCONFKEY_SETAPPL_SIM2_ICON, __msgc_sim2_icon_change_cb, (void *)cd) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/setting/src/main/msg-ui-setting-gadget.c __msg_ui_setting_on_create 212 vconf_get_int(VCONFKEY_SETAPPL_SIM2_ICON, &sel_icon_idx);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/setting/src/main/msg-ui-setting-gadget.c __msg_ui_setting_on_destroy 377 if (vconf_ignore_key_changed(VCONFKEY_SETAPPL_SIM2_ICON, __msg_setting_sim2_icon_change_cb) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/setting/src/main/msg-ui-setting-gadget.c __msg_ui_setting_on_destroy 378 D_EMSG("Fail to remove vconf time with [%s]", VCONFKEY_SETAPPL_SIM2_ICON);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/setting/src/main/msg-ui-setting-gadget.c UG_MODULE_INIT 574 if (vconf_notify_key_changed(VCONFKEY_SETAPPL_SIM2_ICON, __msg_setting_sim2_icon_change_cb, (void *)ugd) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/setting/src/main/msg-ui-setting-main.c __msg_setting_sim2_icon_change_cb 233 vconf_get_int(VCONFKEY_SETAPPL_SIM2_ICON, &sel_icon_idx);

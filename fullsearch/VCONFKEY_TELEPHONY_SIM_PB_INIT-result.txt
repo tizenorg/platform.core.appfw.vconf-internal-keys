@@ -1,0 +1,6 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-telephony-keys.h <global> 103 #define VCONFKEY_TELEPHONY_SIM_PB_INIT "memory/telephony/pb_init"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c convert_strgkey_to_vconf 157 return VCONFKEY_TELEPHONY_SIM_PB_INIT;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c convert_vconf_to_strgkey 290 else if (g_str_equal(key, VCONFKEY_TELEPHONY_SIM_PB_INIT) == TRUE) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c on_hook_pb_init 1003 if (vconf_set_int(VCONFKEY_TELEPHONY_SIM_PB_INIT, pb->b_init) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c reset_vconf 1157 vconf_set_int(VCONFKEY_TELEPHONY_SIM_PB_INIT, VCONFKEY_TELEPHONY_SIM_PB_INIT_NONE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c reset_vconf 1161 vconf_set_int(VCONFKEY_TELEPHONY_SIM_PB_INIT, VCONFKEY_TELEPHONY_SIM_PB_INIT_NONE);

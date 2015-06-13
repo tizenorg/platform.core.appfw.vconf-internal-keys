@@ -1,0 +1,13 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 38 #define VCONFKEY_SETAPPL_BUTTON_SOUNDS_BOOL "db/setting/sound/button_sounds"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-call-setting.c __cst_click_ringtone_setting_onoff 257 _cst_vconf_set_bool(VCONFKEY_SETAPPL_BUTTON_SOUNDS_BOOL, !check_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-call-setting.c __cst_changed_keypad_tone 296 _cst_vconf_set_bool(VCONFKEY_SETAPPL_BUTTON_SOUNDS_BOOL, check_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-call-setting.c __cst_gl_icon_get_phone 633 _cst_vconf_get_bool(VCONFKEY_SETAPPL_BUTTON_SOUNDS_BOOL, &value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-call-setting.c __cst_create_genlist_phone 817 vconf_notify_key_changed(VCONFKEY_SETAPPL_BUTTON_SOUNDS_BOOL,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libfeedback/src/sound.c sound_init 113 if (vconf_get_bool(VCONFKEY_SETAPPL_BUTTON_SOUNDS_BOOL, &keytone_sndstatus) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libfeedback/src/sound.c sound_init 118 vconf_notify_key_changed(VCONFKEY_SETAPPL_BUTTON_SOUNDS_BOOL, feedback_keytone_sndstatus_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libfeedback/src/sound.c sound_exit 125 vconf_ignore_key_changed(VCONFKEY_SETAPPL_BUTTON_SOUNDS_BOOL, feedback_keytone_sndstatus_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-profile/src/setting-profile-common.c ___sound_vconf_change_cb 410 } else if (!safeStrCmp(vconf_name, VCONFKEY_SETAPPL_BUTTON_SOUNDS_BOOL)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-profile/src/setting-profile-common.c setting_sound_listen_vconf_change 497 (void )vconf_notify_key_changed(VCONFKEY_SETAPPL_BUTTON_SOUNDS_BOOL, ___sound_vconf_change_cb, data);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-profile/src/setting-profile-common.c setting_sound_unlisten_vconf_change 520 (void )vconf_ignore_key_changed(VCONFKEY_SETAPPL_BUTTON_SOUNDS_BOOL, ___sound_vconf_change_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-profile/src/setting-profile-sound-main.c setting_sound_main_mouse_up_Gendial_list_cb 1073 if (vconf_set_bool(VCONFKEY_SETAPPL_BUTTON_SOUNDS_BOOL, !old_status) == 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-profile/src/setting-profile-sound-main.c setting_sound_main_mouse_up_Gendial_list_cb 1098 if (vconf_get_bool(VCONFKEY_SETAPPL_BUTTON_SOUNDS_BOOL, &vconf_value) < 0)

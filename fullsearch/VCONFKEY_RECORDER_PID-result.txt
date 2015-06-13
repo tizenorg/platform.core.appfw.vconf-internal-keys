@@ -1,0 +1,3 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-camera-keys.h <global> 59 #define VCONFKEY_RECORDER_PID "memory/recorder/pid"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c __mm_camcorder_signal_handler 115 vconf_get_int(VCONFKEY_RECORDER_PID, (int *)&vconf_recorder_pid);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c __mm_camcorder_signal_handler 118 vconf_set_int(VCONFKEY_RECORDER_PID, -1);

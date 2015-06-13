@@ -1,0 +1,9 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-data-slp-setting.c <global> 244 {"use_pick_up", "motion", BOOL_SLP_SETTING_MOTION_USE_PICK_UP, VCONFKEY_SETAPPL_USE_PICK_UP, eBOOL, {0}, export_json, import_default},
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 455 #define VCONFKEY_SETAPPL_USE_PICK_UP "db/setting/use_pick_up"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/sensord/src/motion/motion_sensor.cpp init 419 vconf_notify_key_changed(VCONFKEY_SETAPPL_USE_PICK_UP, motion_enable_cb, this);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 412 if (vconf_notify_key_changed(VCONFKEY_SETAPPL_USE_PICK_UP, _status_passive_change_cb, NULL) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 413 _E("Failed to regitster add the callback for %s", VCONFKEY_SETAPPL_USE_PICK_UP);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 414 } else if (vconf_get_bool(VCONFKEY_SETAPPL_USE_PICK_UP, &s_status_passive.setappl_use_pick_up) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 415 _E("Failed to get vconfkey[%s]", VCONFKEY_SETAPPL_USE_PICK_UP);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_unregister 551 if (vconf_ignore_key_changed(VCONFKEY_SETAPPL_USE_PICK_UP, _status_passive_change_cb) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_unregister 552 _E("Failed to unregister the callback for %s", VCONFKEY_SETAPPL_USE_PICK_UP);

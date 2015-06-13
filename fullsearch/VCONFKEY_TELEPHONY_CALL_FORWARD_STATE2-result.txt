@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-telephony-keys.h <global> 147 #define VCONFKEY_TELEPHONY_CALL_FORWARD_STATE2 "db/telephony/call_forward_state2"

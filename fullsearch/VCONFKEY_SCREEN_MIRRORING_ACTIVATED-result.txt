@@ -1,0 +1,6 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-wifi-keys.h <global> 141 VCONFKEY_SCREEN_MIRRORING_ACTIVATED,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-player/src/mm_player_utils.c util_get_is_connected_external_display 504 if ((is_connected_mirroring == VCONFKEY_SCREEN_MIRRORING_ACTIVATED || is_connected_mirroring == VCONFKEY_SCREEN_MIRRORING_DEACTIVATED) && is_connected_hdmi == VCONFKEY_SYSMAN_HDMI_DISCONNECTED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-direct/popup-wifidirect/src/wfd-app-client.c _wfd_automatic_deactivated_for_no_connection_cb 244 if (screen_mirroring_status == VCONFKEY_SCREEN_MIRRORING_ACTIVATED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-direct/popup-wifidirect/src/wfd-app-util.c _wfd_allshare_cast_status_changed 535 } else if (screen_mirroring_status == VCONFKEY_SCREEN_MIRRORING_ACTIVATED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wifi-direct-manager/src/wifi-direct-client.c wfd_client_process_request 1944 if(screen_mirroring_status < VCONFKEY_SCREEN_MIRRORING_ACTIVATED)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wifi-direct-manager/src/wifi-direct-client.c wfd_client_process_request 1946 if (vconf_set_int(VCONFKEY_SCREEN_MIRRORING_STATE, VCONFKEY_SCREEN_MIRRORING_ACTIVATED) < 0)

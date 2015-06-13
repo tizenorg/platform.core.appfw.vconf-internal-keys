@@ -1,0 +1,3 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-ciss-keys.h <global> 112 #define VCONFKEY_CISSAPPL_CALL_SOUND_BOOL "db/ciss/call_sound"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-sound-eq.c __cst_gl_sel_in_call_sound_eq 100 _cst_vconf_set_bool(VCONFKEY_CISSAPPL_CALL_SOUND_BOOL, EINA_TRUE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-sound-eq.c __cst_gl_sel_in_call_sound_eq 127 _cst_vconf_set_bool(VCONFKEY_CISSAPPL_CALL_SOUND_BOOL, EINA_FALSE);

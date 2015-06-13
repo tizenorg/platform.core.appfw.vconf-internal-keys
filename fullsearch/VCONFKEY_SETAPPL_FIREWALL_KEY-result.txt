@@ -1,0 +1,4 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 584 #define VCONFKEY_SETAPPL_FIREWALL_KEY "db/setting/firewall"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c __mode_syspopup_flightmode_cb 2027 vconf_get_bool(VCONFKEY_SETAPPL_FIREWALL_KEY, &firewall_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c __mode_reboot_noti_method 3221 ret |= vconf_get_bool(VCONFKEY_SETAPPL_FIREWALL_KEY, &firewall);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/setting-handler.c setting_flightmode_turn_off_resp_cb 1298 vconf_get_bool(VCONFKEY_SETAPPL_FIREWALL_KEY, &firewall_state);

@@ -1,0 +1,8 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-wifi-keys.h <global> 142 VCONFKEY_SCREEN_MIRRORING_CONNECTED
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-player/src/mm_player_utils.c util_get_is_connected_external_display 496 if (is_connected_mirroring == VCONFKEY_SCREEN_MIRRORING_CONNECTED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-direct/popup-wifidirect/src/wfd-app-util.c _wfd_cpu_limit_mode_changed 365 if (screen_mirroring_status != VCONFKEY_SCREEN_MIRRORING_CONNECTED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-direct/popup-wifidirect/src/wfd-app-util.c _wfd_power_saving_mode_changed 408 if (screen_mirroring_status != VCONFKEY_SCREEN_MIRRORING_CONNECTED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-direct/popup-wifidirect/src/wfd-app-util.c _wfd_wifi_status_changed 462 if (screen_mirroring_status != VCONFKEY_SCREEN_MIRRORING_CONNECTED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-direct/popup-wifidirect/src/wfd-app-util.c _wfd_allshare_cast_status_changed 527 if (screen_mirroring_status == VCONFKEY_SCREEN_MIRRORING_CONNECTED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-direct/popup-wifidirect/src/wfd-app-util.c wfd_app_util_set_screen_mirroring_deactivated 840 if(screen_mirroring_status == VCONFKEY_SCREEN_MIRRORING_CONNECTED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wifi-direct-manager/src/wifi-direct-client.c wfd_client_process_request 1958 if(screen_mirroring_status < VCONFKEY_SCREEN_MIRRORING_CONNECTED)

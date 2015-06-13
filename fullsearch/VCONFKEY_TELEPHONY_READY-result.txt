@@ -1,0 +1,35 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-telephony-keys.h <global> 201 #define VCONFKEY_TELEPHONY_READY "memory/telephony/telephony_ready"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-manager/module/src/callmgr-telephony.c __callmgr_telephony_is_telephony_ready 671 vconf_get_int(VCONFKEY_TELEPHONY_READY, &is_ready);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-manager/module/src/callmgr-telephony.c __callmgr_telephony_telephony_ready_cb 741 vconf_ignore_key_changed(VCONFKEY_TELEPHONY_READY, __callmgr_telephony_telephony_ready_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-manager/module/src/callmgr-telephony.c _callmgr_telephony_init 766 vconf_notify_key_changed(VCONFKEY_TELEPHONY_READY, __callmgr_telephony_telephony_ready_cb, handle);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/contacts-service/server/ctsvc_server_sim.c __ctsvc_server_sim_get_tapi_handle 117 vconf_get_bool(VCONFKEY_TELEPHONY_READY, &bReady);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/telephony/telephony.c telephony_start 149 if (vconf_get_bool(VCONFKEY_TELEPHONY_READY, &ready) != 0 || ready != 1) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/telephony/telephony.c telephony_start 150 _E("fail to get %s(%d)", VCONFKEY_TELEPHONY_READY, ready);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/connection.c register_conn_module 725 vconf_get_bool(VCONFKEY_TELEPHONY_READY, &state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/connection.c register_conn_module 735 vconf_notify_key_changed(VCONFKEY_TELEPHONY_READY, tel_ready_cb, data);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/connection.c unregister_conn_module 752 ret = ret | vconf_ignore_key_changed(VCONFKEY_TELEPHONY_READY, tel_ready_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/network/rssi.c register_rssi_module 1006 vconf_get_bool(VCONFKEY_TELEPHONY_READY, &state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/network/rssi.c register_rssi_module 1016 vconf_notify_key_changed(VCONFKEY_TELEPHONY_READY, tel_ready_cb, data);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/network/rssi.c unregister_rssi_module 1027 ret = vconf_ignore_key_changed(VCONFKEY_TELEPHONY_READY,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/processing/call_divert.c register_call_divert_module 283 vconf_get_bool(VCONFKEY_TELEPHONY_READY, &state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/processing/call_divert.c register_call_divert_module 293 vconf_notify_key_changed(VCONFKEY_TELEPHONY_READY, tel_ready_cb, data);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lockscreen/src/sim_state.c lock_sim_state_init 596 ret = lock_property_get_bool(PROPERTY_TYPE_VCONFKEY, VCONFKEY_TELEPHONY_READY, &state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lockscreen/src/sim_state.c lock_sim_state_init 615 ret = vconf_notify_key_changed(VCONFKEY_TELEPHONY_READY, _tel_ready_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lockscreen/src/sim_state.c lock_sim_state_resume 641 ret = lock_property_get_bool(PROPERTY_TYPE_VCONFKEY, VCONFKEY_TELEPHONY_READY, &state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/composer/src/bubble/msg-ui-composer-bubble-list.c __msg_net_switch_clicked_cb 2446 vconf_get_bool(VCONFKEY_TELEPHONY_READY, &state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/composer/src/ui-composer/msg-ui-composer-common.c msg_ui_composer_common_sim_network_changed 436 vconf_get_bool(VCONFKEY_TELEPHONY_READY, &state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/composer/src/ui-composer/msg-ui-composer-common.c msg_ui_composer_sim_controller_init 1191 vconf_get_bool(VCONFKEY_TELEPHONY_READY, &state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/composer/src/ui-composer/msg-ui-composer-common.c msg_ui_composer_sim_controller_init 1207 if (vconf_notify_key_changed(VCONFKEY_TELEPHONY_READY, __msg_ui_tel_ready_cb, cd) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/composer/src/ui-composer/msg-ui-composer-common.c msg_common_get_sim_preference 1250 vconf_get_bool(VCONFKEY_TELEPHONY_READY, &state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/composer/src/ui-composer/msg-ui-composer-common.c msg_common_get_sim_preference 1283 vconf_get_bool(VCONFKEY_TELEPHONY_READY, &state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/sim_reset/msg-sim-reset-main.c msg_sim_reset_sim_controller_init 129 vconf_get_bool(VCONFKEY_TELEPHONY_READY, &state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/sim_reset/msg-sim-reset-main.c msg_sim_reset_sim_controller_init 141 if (vconf_notify_key_changed(VCONFKEY_TELEPHONY_READY, __msg_sim_reset_tel_ready_cb, ad) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/msg-service/plugin/sms_cdma_plugin/SmsCdmaPluginMain.cpp SmsPlgInitialize 123 MsgSettingGetBool(VCONFKEY_TELEPHONY_READY, &bReady);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/msg-service/plugin/sms_plugin/SmsPluginMain.cpp SmsPlgInitialize 117 MsgSettingGetBool(VCONFKEY_TELEPHONY_READY, &bReady);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/sim_controller.c sim_controller_init 681 ret = vconf_get_bool(VCONFKEY_TELEPHONY_READY, &state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/sim_controller.c sim_controller_init 701 ret = vconf_notify_key_changed(VCONFKEY_TELEPHONY_READY, tel_ready_cb, master_layout);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/sim_controller.c sim_controller_resume 724 ret = vconf_get_bool(VCONFKEY_TELEPHONY_READY, &state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c convert_strgkey_to_vconf 167 return VCONFKEY_TELEPHONY_READY;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c convert_vconf_to_strgkey 305 else if (g_str_equal(key, VCONFKEY_TELEPHONY_READY) == TRUE) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c on_init 1210 vconf_set_bool(VCONFKEY_TELEPHONY_READY, FALSE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c on_init 1225 vconf_notify_key_changed(VCONFKEY_TELEPHONY_READY, __telephony_ready_change_cb, NULL);

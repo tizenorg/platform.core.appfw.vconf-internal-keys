@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 704 #define VCONFKEY_SETAPPL_EMERGENCY_STATUS_BOOL "db/setting/emergency_status"

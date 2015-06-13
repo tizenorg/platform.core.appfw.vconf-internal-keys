@@ -1,0 +1,19 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/runtime-info/src/runtime_info_system.c <global> 33 static const char *VCONF_AUDIO_JACK = VCONFKEY_SYSMAN_EARJACK;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/runtime-info/src/runtime_info_system.c <global> 37 static const char *VCONF_TVOUT_CONNECTED = VCONFKEY_SYSMAN_EARJACK;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/runtime-info/src/runtime_info_system.c <global> 38 static const char *VCONF_AUDIO_JACK_STATUS = VCONFKEY_SYSMAN_EARJACK;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-sysman-keys.h <global> 76 #define VCONFKEY_SYSMAN_EARJACK "memory/sysman/earjack"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-ui/src/callui-common.c _callui_common_is_earjack_connected 117 if (!vconf_get_int(VCONFKEY_SYSMAN_EARJACK, &earjack_status)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/voice-call-device.c _voicecall_dvc_get_earjack_status 96 if (!vconf_get_int(VCONFKEY_SYSMAN_EARJACK, &earjack_status)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/voice-call-device.c _voicecall_dvc_get_earjack_connected 114 if (!vconf_get_int(VCONFKEY_SYSMAN_EARJACK, &earjack_status)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/ui/src/vcui-application.c _vcui_is_earjack_conected 2184 if (!vconf_get_int(VCONFKEY_SYSMAN_EARJACK, &status)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/extcon/earjack.c earjack_update 121 vconf_set_int(VCONFKEY_SYSMAN_EARJACK, status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/edje_multisense_plugin/src/tizen_sound_player/tizen_sound_player.c remix_player_init 176 if (vconf_notify_key_changed(VCONFKEY_SYSMAN_EARJACK,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/edje_multisense_plugin/src/tizen_sound_player/tizen_sound_player.c remix_player_destroy 215 if (vconf_ignore_key_changed(VCONFKEY_SYSMAN_EARJACK,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/information/earphone.c indicator_earphone_change_cb 110 ret = vconf_get_int(VCONFKEY_SYSMAN_EARJACK, &status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/information/earphone.c register_earphone_module 152 ret = vconf_notify_key_changed(VCONFKEY_SYSMAN_EARJACK,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/information/earphone.c unregister_earphone_module 166 ret = vconf_ignore_key_changed(VCONFKEY_SYSMAN_EARJACK,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-sound/common/mm_sound_utils.c _mm_sound_get_earjack_type 317 vconf_get_int(VCONFKEY_SYSMAN_EARJACK, &earjack_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-sound/common/mm_sound_utils.c _mm_sound_get_earjack_type 318 debug_msg ("[%s] get status=[%d]\n", VCONFKEY_SYSMAN_EARJACK, earjack_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-sound/server/mm_sound_mgr_device_headset.c _earjack_status_changed_cb 69 vconf_get_int(VCONFKEY_SYSMAN_EARJACK, &earjack_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-sound/server/mm_sound_mgr_device_headset.c _register_earjack_status 86 int ret = vconf_notify_key_changed(VCONFKEY_SYSMAN_EARJACK, _earjack_status_changed_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-sound/server/mm_sound_mgr_device_headset.c _register_earjack_status 87 debug_msg ("vconf [%s] set ret = [%d]\n", VCONFKEY_SYSMAN_EARJACK, ret);

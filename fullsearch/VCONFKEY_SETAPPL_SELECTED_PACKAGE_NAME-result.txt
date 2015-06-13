@@ -1,0 +1,19 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 356 #define VCONFKEY_SETAPPL_SELECTED_PACKAGE_NAME "db/setting/menuscreen/package_name"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/add-viewer/src/winset.c long_press_cb 256 pkgname = vconf_get_str(VCONFKEY_SETAPPL_SELECTED_PACKAGE_NAME);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/aul-1/am_daemon/amd_request.c _request_init 1209 home_appid = vconf_get_str(VCONFKEY_SETAPPL_SELECTED_PACKAGE_NAME);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/aul-1/am_daemon/amd_request.c _request_init 1210 if (vconf_notify_key_changed(VCONFKEY_SETAPPL_SELECTED_PACKAGE_NAME, __home_appid_vconf_cb, NULL) != 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/mobile/home_mgr.c _change_home_cb 100 if (vconf_set_str(VCONFKEY_SETAPPL_SELECTED_PACKAGE_NAME, MENU_SCREEN_PKG_NAME) != 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/mobile/home_mgr.c _show_home_cb 167 status = vconf_set_str(VCONFKEY_SETAPPL_SELECTED_PACKAGE_NAME, fallback_pkg);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/mobile/home_mgr.c _show_home_cb 172 _E("Failed to set vconfkey : %s (%d)", VCONFKEY_SETAPPL_SELECTED_PACKAGE_NAME, status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/mobile/home_mgr.c _dead_timer_cb 300 if (vconf_set_str(VCONFKEY_SETAPPL_SELECTED_PACKAGE_NAME, MENU_SCREEN_PKG_NAME) != 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c _status_active_change_cb 151 } else if (!strcmp(key_name, VCONFKEY_SETAPPL_SELECTED_PACKAGE_NAME)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 292 if (vconf_notify_key_changed(VCONFKEY_SETAPPL_SELECTED_PACKAGE_NAME, _status_active_change_cb, NULL) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 293 _E("Failed to register add the callback for %s", VCONFKEY_SETAPPL_SELECTED_PACKAGE_NAME);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 295 if (!(s_status_active.setappl_selected_package_name = vconf_get_str(VCONFKEY_SETAPPL_SELECTED_PACKAGE_NAME))) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 296 _E("Failed to get vconfkey[%s]", VCONFKEY_SETAPPL_SELECTED_PACKAGE_NAME);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_unregister 480 if (vconf_ignore_key_changed(VCONFKEY_SETAPPL_SELECTED_PACKAGE_NAME, _status_active_change_cb) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_unregister 481 _E("Failed to unregister the callback for %s", VCONFKEY_SETAPPL_SELECTED_PACKAGE_NAME);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-setting-homescreen-efl/ug-setting-homescreen-efl/src/home-setting-ug-data.c homescreen_setting_data_set_selected_homeapp 148 ret = vconf_set_str(VCONFKEY_SETAPPL_SELECTED_PACKAGE_NAME, appid);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-setting-homescreen-efl/ug-setting-homescreen-efl/src/home-setting-ug-data.c homescreen_setting_data_get_selected_homeapp 158 return vconf_get_str(VCONFKEY_SETAPPL_SELECTED_PACKAGE_NAME);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-setting-homescreen-efl/ug-setting-homescreen-efl/src/home-setting-ug-main.c on_create 145 if (vconf_notify_key_changed(VCONFKEY_SETAPPL_SELECTED_PACKAGE_NAME, _package_changed_cb, NULL) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-setting-homescreen-efl/ug-setting-homescreen-efl/src/home-setting-ug-main.c on_destroy 183 if (vconf_ignore_key_changed(VCONFKEY_SETAPPL_SELECTED_PACKAGE_NAME, _package_changed_cb) != 0)

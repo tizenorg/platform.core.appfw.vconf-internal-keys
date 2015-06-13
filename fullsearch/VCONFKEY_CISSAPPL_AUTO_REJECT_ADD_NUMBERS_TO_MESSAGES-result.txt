@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-ciss-keys.h <global> 42 #define VCONFKEY_CISSAPPL_AUTO_REJECT_ADD_NUMBERS_TO_MESSAGES "db/ciss/auto_reject_add_numbers_to_messages"

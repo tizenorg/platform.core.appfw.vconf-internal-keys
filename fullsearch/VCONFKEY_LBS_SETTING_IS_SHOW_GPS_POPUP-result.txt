@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-location-keys.h <global> 30 #define VCONFKEY_LBS_SETTING_IS_SHOW_GPS_POPUP "db/location/setting/GpsPopup"

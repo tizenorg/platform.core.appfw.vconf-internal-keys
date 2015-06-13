@@ -1,0 +1,45 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/app-core/src/appcore.c <global> 111 .key.vkey = VCONFKEY_SYSMAN_LOW_MEMORY,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/appcore-agent/src/appcore-agent.c <global> 216 .key.vkey = VCONFKEY_SYSMAN_LOW_MEMORY,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/appcore-watch/src/appcore-watch.c <global> 195 .key.vkey = VCONFKEY_SYSMAN_LOW_MEMORY,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-sysman-keys.h <global> 89 #define VCONFKEY_SYSMAN_LOW_MEMORY "memory/sysman/low_memory"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webapi-plugins/src/systeminfo/systeminfo-utils.cpp <global> 1058 if (-1 != vconf_get_int(VCONFKEY_SYSMAN_LOW_MEMORY, &value)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webapi-plugins/src/systeminfo/systeminfo-utils.cpp <global> 1059 CHECK_LISTENER_ERROR(RegisterVconfCallback(VCONFKEY_SYSMAN_LOW_MEMORY, OnMemoryChangedCb, instance))
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webapi-plugins/src/systeminfo/systeminfo-utils.cpp <global> 1072 if (-1 != vconf_get_int(VCONFKEY_SYSMAN_LOW_MEMORY, &value)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webapi-plugins/src/systeminfo/systeminfo-utils.cpp <global> 1073 CHECK_LISTENER_ERROR(UnregisterVconfCallback(VCONFKEY_SYSMAN_LOW_MEMORY, OnMemoryChangedCb))
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webapi-plugins/src/systeminfo/systeminfo-utils.cpp <global> 2588 PlatformResult ret = GetVconfInt(VCONFKEY_SYSMAN_LOW_MEMORY, status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/app-core/src/appcore.c __add_vconf 414 r = vconf_notify_key_changed(VCONFKEY_SYSMAN_LOW_MEMORY, __vconf_cb, ac);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/app-core/src/appcore.c __del_vconf 443 r = vconf_ignore_key_changed(VCONFKEY_SYSMAN_LOW_MEMORY, __vconf_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/appcore-agent/src/appcore-agent.c __add_vconf 523 r = vconf_notify_key_changed(VCONFKEY_SYSMAN_LOW_MEMORY, __vconf_cb, ac);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/appcore-agent/src/appcore-agent.c __del_vconf 552 r = vconf_ignore_key_changed(VCONFKEY_SYSMAN_LOW_MEMORY, __vconf_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/appcore-widget/src/widget_app.c __register_event 626 vconf_notify_key_changed(VCONFKEY_SYSMAN_LOW_MEMORY, __on_low_memory, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/appcore-widget/src/widget_app.c __unregister_event 648 vconf_ignore_key_changed(VCONFKEY_SYSMAN_LOW_MEMORY, __on_low_memory);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/browser/src/main.cpp __br_app_create 290 vconf_get_int(VCONFKEY_SYSMAN_LOW_MEMORY, &low_memory);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-provider-master/src/setting.c setting_oom_level 259 ret = vconf_get_int(VCONFKEY_SYSMAN_LOW_MEMORY, &status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-provider-master/src/setting.c setting_init 291 ret = vconf_notify_key_changed(VCONFKEY_SYSMAN_LOW_MEMORY, low_mem_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-provider-master/src/setting.c setting_fini 305 ret = vconf_ignore_key_changed(VCONFKEY_SYSMAN_LOW_MEMORY, low_mem_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/proc/proc-handler.c proc_change_lowmemory 774 if (vconf_get_int(VCONFKEY_SYSMAN_LOW_MEMORY, &state))
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/proc/proc-handler.c process_init 798 vconf_notify_key_changed(VCONFKEY_SYSMAN_LOW_MEMORY,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/efl/src/modules/ecore/system/tizen/ecore_system_tizen.c _low_mem_key_changed_cb 35 if (vconf_get_int(VCONFKEY_SYSMAN_LOW_MEMORY, &status) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/efl/src/modules/ecore/system/tizen/ecore_system_tizen.c _ecore_system_tizen_init 129 if (vconf_notify_key_changed(VCONFKEY_SYSMAN_LOW_MEMORY, _low_mem_key_changed_cb, NULL) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/efl/src/modules/ecore/system/tizen/ecore_system_tizen.c _ecore_system_tizen_init 131 ERR("Unable to register a vconf changed cb to %s.", VCONFKEY_SYSMAN_LOW_MEMORY);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/efl/src/modules/ecore/system/tizen/ecore_system_tizen.c _ecore_system_tizen_init 180 vconf_ignore_key_changed(VCONFKEY_SYSMAN_LOW_MEMORY, _low_mem_key_changed_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/efl/src/modules/ecore/system/tizen/ecore_system_tizen.c _ecore_system_tizen_shutdown 194 vconf_ignore_key_changed(VCONFKEY_SYSMAN_LOW_MEMORY, _low_mem_key_changed_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/sync-manager/src/sync-service/SyncManager_StorageChangeListener.cpp RegisterStorageChangeListener 52 return( vconf_notify_key_changed(VCONFKEY_SYSMAN_LOW_MEMORY, OnMemoryStatusChanged, NULL) );
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/sync-manager/src/sync-service/SyncManager_StorageChangeListener.cpp DeRegisterStorageChangeListener 60 return(vconf_ignore_key_changed(VCONFKEY_SYSMAN_LOW_MEMORY, OnMemoryStatusChanged));
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/sync-manager/src/sync-service/SyncManager_SyncManager.cpp Construct 857 int ret = vconf_get_int(VCONFKEY_SYSMAN_LOW_MEMORY, &storageState);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-resource/src/memory/lowmem-handler.c memory_low_act 421 vconf_set_int(VCONFKEY_SYSMAN_LOW_MEMORY,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-resource/src/memory/lowmem-handler.c memory_oom_act 444 vconf_set_int(VCONFKEY_SYSMAN_LOW_MEMORY,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-resource/src/memory/lowmem-handler.c memory_normal_act 453 vconf_set_int(VCONFKEY_SYSMAN_LOW_MEMORY,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-resource/src/memory/vmpressure-lowmem-handler.c normal_act 1052 ret = vconf_get_int(VCONFKEY_SYSMAN_LOW_MEMORY, &status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-resource/src/memory/vmpressure-lowmem-handler.c normal_act 1054 _D("vconf_get_int fail %s", VCONFKEY_SYSMAN_LOW_MEMORY);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-resource/src/memory/vmpressure-lowmem-handler.c normal_act 1056 vconf_set_int(VCONFKEY_SYSMAN_LOW_MEMORY,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-resource/src/memory/vmpressure-lowmem-handler.c swap_act 1068 ret = vconf_get_int(VCONFKEY_SYSMAN_LOW_MEMORY, &status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-resource/src/memory/vmpressure-lowmem-handler.c swap_act 1070 _E("vconf get failed %s", VCONFKEY_SYSMAN_LOW_MEMORY);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-resource/src/memory/vmpressure-lowmem-handler.c swap_act 1073 vconf_set_int(VCONFKEY_SYSMAN_LOW_MEMORY,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-resource/src/memory/vmpressure-lowmem-handler.c low_act 1084 ret = vconf_get_int(VCONFKEY_SYSMAN_LOW_MEMORY, &status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-resource/src/memory/vmpressure-lowmem-handler.c low_act 1087 _D("vconf_get_int fail %s", VCONFKEY_SYSMAN_LOW_MEMORY);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-resource/src/memory/vmpressure-lowmem-handler.c low_act 1095 vconf_set_int(VCONFKEY_SYSMAN_LOW_MEMORY,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-resource/src/memory/vmpressure-lowmem-handler.c medium_act 1155 vconf_set_int(VCONFKEY_SYSMAN_LOW_MEMORY,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wrt/src/wrt-client/wrt-client-lite.cpp OnCreate 207 vconf_notify_key_changed(VCONFKEY_SYSMAN_LOW_MEMORY, WrtClientLite::appcoreLowMemoryCallback, this);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wrt/src/wrt-client/wrt-client-lite.cpp OnTerminate 268 vconf_ignore_key_changed(VCONFKEY_SYSMAN_LOW_MEMORY,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wrt/src/wrt-client/wrt-client-lite.cpp appcoreLowMemoryCallback 678 if (!strcmp(key, VCONFKEY_SYSMAN_LOW_MEMORY)) {

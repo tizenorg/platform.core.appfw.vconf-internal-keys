@@ -1,0 +1,9 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-sysman-keys.h <global> 92 VCONFKEY_SYSMAN_LOW_MEMORY_NORMAL = 0x01,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webapi-plugins/src/systeminfo/systeminfo-utils.cpp <global> 2595 case VCONFKEY_SYSMAN_LOW_MEMORY_NORMAL:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/application/app_common/app_event.c _app_convert_low_memory 56 case VCONFKEY_SYSMAN_LOW_MEMORY_NORMAL:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/efl/src/modules/ecore/system/tizen/ecore_system_tizen.c _low_mem_key_changed_cb 38 if (status == VCONFKEY_SYSMAN_LOW_MEMORY_NORMAL)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-resource/src/memory/lowmem-handler.c memory_normal_act 454 VCONFKEY_SYSMAN_LOW_MEMORY_NORMAL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-resource/src/memory/vmpressure-lowmem-handler.c normal_act 1055 if (status != VCONFKEY_SYSMAN_LOW_MEMORY_NORMAL) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-resource/src/memory/vmpressure-lowmem-handler.c normal_act 1057 VCONFKEY_SYSMAN_LOW_MEMORY_NORMAL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-resource/src/memory/vmpressure-lowmem-handler.c swap_act 1072 if (status != VCONFKEY_SYSMAN_LOW_MEMORY_NORMAL) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-resource/src/memory/vmpressure-lowmem-handler.c swap_act 1074 VCONFKEY_SYSMAN_LOW_MEMORY_NORMAL);

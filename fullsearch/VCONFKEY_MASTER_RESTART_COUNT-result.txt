@@ -1,0 +1,10 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-provider-master/include/conf.h <global> 31 #if !defined(VCONFKEY_MASTER_RESTART_COUNT)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-provider-master/include/conf.h <global> 32 #define VCONFKEY_MASTER_RESTART_COUNT "memory/private/data-provider-master/restart_count"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/livebox-service/dynamicbox_service/include/dynamicbox_conf.h <global> 557 #if !defined(VCONFKEY_MASTER_RESTART_COUNT)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/livebox-service/dynamicbox_service/include/dynamicbox_conf.h <global> 558 #define VCONFKEY_MASTER_RESTART_COUNT "memory/private/data-provider-master/restart_count"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-livebox-keys.h <global> 28 #define VCONFKEY_MASTER_RESTART_COUNT "memory/private/data-provider-master/restart_count"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/widget-service/include/widget_conf.h <global> 572 #if !defined(VCONFKEY_MASTER_RESTART_COUNT)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/widget-service/include/widget_conf.h <global> 573 #define VCONFKEY_MASTER_RESTART_COUNT "memory/private/data-provider-master/restart_count"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-provider-master/src/main.c main 430 vconf_get_int(VCONFKEY_MASTER_RESTART_COUNT, &restart_count);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-provider-master/src/main.c main 432 vconf_set_int(VCONFKEY_MASTER_RESTART_COUNT, restart_count);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-provider-master/src/notification_service.c _notification_init 699 ret = vconf_get_int(VCONFKEY_MASTER_RESTART_COUNT, &restart_count);

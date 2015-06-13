@@ -1,0 +1,2 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-data-slp-setting.c <global> 293 {"phone_lock_attempt", "security", INT_SLP_SETTING_PHONE_LOCK_ATTEMPTS_LEFT, VCONFKEY_SETAPPL_PHONE_LOCK_ATTEMPTS_LEFT_INT, eINT, {0}, export_json, import_default},
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 193 #define VCONFKEY_SETAPPL_PHONE_LOCK_ATTEMPTS_LEFT_INT "db/setting/phone_lock_attempts_left"

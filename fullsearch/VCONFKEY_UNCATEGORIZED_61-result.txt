@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-uncategorized-keys.h <global> 107 #define VCONFKEY_UNCATEGORIZED_61 "db/private/msg-service/cb_msg/max_sim_count/3"

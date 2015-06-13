@@ -1,0 +1,3 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-nfc-keys.h <global> 60 VCONFKEY_NFC_OFF_BY_FLIGHT
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/manager/net_nfc_server_vconf.c net_nfc_server_vconf_flight_mode_changed 150 vconf_key = VCONFKEY_NFC_OFF_BY_FLIGHT;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/manager/net_nfc_server_vconf.c net_nfc_server_vconf_flight_mode_changed 174 if (vconf_key != VCONFKEY_NFC_OFF_BY_FLIGHT)

@@ -1,0 +1,3 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/ui/src/vcui-view-popup.c <global> 34 #define VCONFKEY_BT_HEADSET_NAME "memory/bluetooth/sco_headset_name"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-bt-keys.h <global> 31 #define VCONFKEY_BT_HEADSET_NAME "memory/bluetooth/sco_headset_name"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-frwk/bt-service/bt-service-event-receiver.c __bt_set_audio_values 1850 if (vconf_set_str(VCONFKEY_BT_HEADSET_NAME,

@@ -1,0 +1,8 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-usb-keys.h <global> 45 #define VCONFKEY_USB_SEL_MODE "db/usb/sel_mode"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/usb/usb-client-dbus.c change_usb_client_mode 75 if (vconf_set_int(VCONFKEY_USB_SEL_MODE, mode) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/usb/usb-client-event.c register_usb_handlers 76 VCONFKEY_USB_SEL_MODE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/usb/usb-client-event.c unregister_usb_handlers 92 VCONFKEY_USB_SEL_MODE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/usb/usb-client.c get_selected_usb_mode 232 ret = vconf_get_int(VCONFKEY_USB_SEL_MODE, &mode);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/usb/usb-client.c change_selected_usb_mode 261 return vconf_set_int(VCONFKEY_USB_SEL_MODE, mode);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/usb/usb-client.c notify_vconf_keys 299 VCONFKEY_USB_SEL_MODE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/usb/usb-client.c ignore_vconf_keys 320 VCONFKEY_USB_SEL_MODE,

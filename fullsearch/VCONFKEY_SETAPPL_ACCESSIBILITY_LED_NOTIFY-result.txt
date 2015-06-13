@@ -1,0 +1,3 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-data-slp-setting.c <global> 231 {"led_notify", "accessibility", BOOL_SLP_SETTING_ACCESSIBILITY_LED_NOTIFY, VCONFKEY_SETAPPL_ACCESSIBILITY_LED_NOTIFY, eBOOL, {0}, export_json, import_default},
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 296 #define VCONFKEY_SETAPPL_ACCESSIBILITY_LED_NOTIFY "db/setting/accessibility/led_notify"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/voice-call-sound.c voicecall_snd_prepare_alert 555 err_code = vconf_get_bool(VCONFKEY_SETAPPL_ACCESSIBILITY_LED_NOTIFY, &papp_snd->settings_led_status);

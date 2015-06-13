@@ -1,0 +1,8 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/haptic/haptic.c <global> 59 #define VCONFKEY_RECORDER_STATE_RECORDING 2
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-camera-keys.h <global> 46 VCONFKEY_RECORDER_STATE_RECORDING,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/haptic/haptic.c sound_capturing_cb 611 if (status == VCONFKEY_RECORDER_STATE_RECORDING)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c _mmcamcorder_record 1650 vconf_set_int(VCONFKEY_RECORDER_STATE, VCONFKEY_RECORDER_STATE_RECORDING);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c _mmcamcorder_record 1653 vconf_recorder_state, VCONFKEY_RECORDER_STATE_RECORDING);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-sound/common/mm_sound_utils.c _mm_sound_is_recording 352 if(capture_status == VCONFKEY_RECORDER_STATE_RECORDING) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-sound/mm_sound_keysound.c mm_sound_play_keysound 65 if(capture_status == VCONFKEY_RECORDER_STATE_RECORDING) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-sound/mm_sound_pcm.c mm_sound_pcm_play_write 1178 if (vr_state == VCONFKEY_RECORDER_STATE_RECORDING) {

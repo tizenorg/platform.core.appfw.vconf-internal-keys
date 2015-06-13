@@ -1,0 +1,5 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-share-ui/src/bt-share-ui-main.h <global> 48 #define VCONFKEY_SETAPPL_CHANGE_UI_THEME_INT VCONFKEY_SETAPPL_PREFIX"/change_ui/theme"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 592 #define VCONFKEY_SETAPPL_CHANGE_UI_THEME_INT "db/setting/change_ui/theme"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/my-account/src/myaccount_ug_main.c __init_changeable_resource 95 err = vconf_notify_key_changed(VCONFKEY_SETAPPL_CHANGE_UI_THEME_INT, __change_ui_theme_changed_cb, ugd);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/my-account/src/myaccount_ug_main.c __init_changeable_resource 99 MYACCOUNT_DBUG("VCONFKEY_SETAPPL_CHANGE_UI_THEME_INT[%s]", VCONFKEY_SETAPPL_CHANGE_UI_THEME_INT);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/my-account/src/myaccount_ug_main.c __free_changeable_resource 109 vconf_ignore_key_changed( VCONFKEY_SETAPPL_CHANGE_UI_THEME_INT, __change_ui_theme_changed_cb );

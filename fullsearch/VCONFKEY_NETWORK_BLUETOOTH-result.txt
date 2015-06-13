@@ -1,0 +1,5 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-dnet-keys.h <global> 31 VCONFKEY_NETWORK_BLUETOOTH
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/connection/src/connection.c __connection_convert_net_state 35 case VCONFKEY_NETWORK_BLUETOOTH:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/connection.c on_noti 276 if (ret == OK && val == VCONFKEY_NETWORK_BLUETOOTH) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/connection.c on_noti 283 else if (ret == OK && val != VCONFKEY_NETWORK_BLUETOOTH) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/network-state.c __netconfig_update_default_connection_info 610 netconfig_set_vconf_int(VCONFKEY_NETWORK_STATUS, VCONFKEY_NETWORK_BLUETOOTH);

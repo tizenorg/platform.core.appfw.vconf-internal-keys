@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-wifi-keys.h <global> 112 #define VCONFKEY_WIFI_DIRECT_DHCPC_SERVER_IP "memory/private/wifi_direct_manager/dhcpc_server_ip"

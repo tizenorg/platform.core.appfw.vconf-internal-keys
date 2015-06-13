@@ -1,0 +1,5 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-telephony-keys.h <global> 61 VCONFKEY_TELEPHONY_SVCTYPE_2_5G_EDGE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webapi-plugins/src/systeminfo/systeminfo-utils.cpp <global> 2038 || networkType == VCONFKEY_TELEPHONY_SVCTYPE_2_5G_EDGE) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/connection.c indicator_conn_change_cb 432 case VCONFKEY_TELEPHONY_SVCTYPE_2_5G_EDGE:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/connection.c indicator_conn_change_cb 508 case VCONFKEY_TELEPHONY_SVCTYPE_2_5G_EDGE:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/network-state.c __netconfig_adjust_tcp_buffer_size 503 case VCONFKEY_TELEPHONY_SVCTYPE_2_5G_EDGE:

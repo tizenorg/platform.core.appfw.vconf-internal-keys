@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-uncategorized-keys.h <global> 325 #define VCONFKEY_UNCATEGORIZED_283 "memory/private/msg-service/default_network_sim"

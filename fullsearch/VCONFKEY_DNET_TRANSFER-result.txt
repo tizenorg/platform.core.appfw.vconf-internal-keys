@@ -1,0 +1,2 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-dnet-keys.h <global> 64 VCONFKEY_DNET_TRANSFER
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/connection/src/connection.c connection_get_cellular_state 670 cellular_state == VCONFKEY_DNET_TRANSFER)

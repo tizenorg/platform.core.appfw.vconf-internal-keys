@@ -1,0 +1,3 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-mobile-hotspot-keys.h <global> 36 #define VCONFKEY_MOBILE_HOTSPOT_SECURITY "db/mobile_hotspot/security"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tethering/src/tethering.c __set_security_type 115 if (vconf_set_int(VCONFKEY_MOBILE_HOTSPOT_SECURITY, security_type) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tethering/src/tethering.c __get_security_type 130 if (vconf_get_int(VCONFKEY_MOBILE_HOTSPOT_SECURITY,

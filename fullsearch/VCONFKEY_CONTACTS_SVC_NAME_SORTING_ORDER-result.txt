@@ -1,0 +1,2 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/contacts-service/native/ctsvc_setting.c <global> 48 static const char *CTSVC_VCONF_SORTING_ORDER = VCONFKEY_CONTACTS_SVC_NAME_SORTING_ORDER;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-contacts-svc-keys.h <global> 31 #define VCONFKEY_CONTACTS_SVC_NAME_SORTING_ORDER "db/contacts-svc/name_sorting_order"

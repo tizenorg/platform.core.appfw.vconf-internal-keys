@@ -1,0 +1,5 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-dnet-keys.h <global> 45 VCONFKEY_NETWORK_WIFI_CONNECTED
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-state.c netconfig_wifi_state_set_service_state 322 VCONFKEY_NETWORK_WIFI_CONNECTED);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/video-player/src/common/mp-util.c mp_util_is_connect_wifi 1763 case VCONFKEY_NETWORK_WIFI_CONNECTED:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/video-player/src/common/mp-video-streaming-ctrl.c mp_streaming_ctrl_wifi_state_cb 244 case VCONFKEY_NETWORK_WIFI_CONNECTED:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/video-player/src/common/mp-video-streaming-ctrl.c mp_streaming_ctrl_get_wifi_state 471 case VCONFKEY_NETWORK_WIFI_CONNECTED:

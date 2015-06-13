@@ -1,0 +1,10 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-sysman-keys.h <global> 43 VCONFKEY_SYSMAN_BAT_NORMAL,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/device/src/device.c device_battery_get_warning_status 181 } else if (value == VCONFKEY_SYSMAN_BAT_NORMAL) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/battery/lowbat-handler.c lowbat_process 516 if (vconf_state != VCONFKEY_SYSMAN_BAT_NORMAL)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/battery/lowbat-handler.c lowbat_process 517 status = VCONFKEY_SYSMAN_BAT_NORMAL;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/battery/lowbat-handler.c lowbat_process 520 if (vconf_state != VCONFKEY_SYSMAN_BAT_NORMAL)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/battery/lowbat-handler.c lowbat_process 521 status = VCONFKEY_SYSMAN_BAT_NORMAL;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/core.c update_setting 1851 int bat_state = VCONFKEY_SYSMAN_BAT_NORMAL;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/core.c check_seed_status 1918 int bat_state = VCONFKEY_SYSMAN_BAT_NORMAL;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/efl/src/modules/ecore/system/tizen/ecore_system_tizen.c _charge_key_changed_cb 60 if (status == VCONFKEY_SYSMAN_BAT_NORMAL || status == VCONFKEY_SYSMAN_BAT_FULL)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-display/src/setting-display-brightness.c __toggle_automatic_chk 1023 ad->low_bat = VCONFKEY_SYSMAN_BAT_NORMAL;

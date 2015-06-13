@@ -1,0 +1,14 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-sysman-keys.h <global> 41 VCONFKEY_SYSMAN_BAT_CRITICAL_LOW,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/app-core/src/appcore.c __sys_lowbatt 328 if (val <= VCONFKEY_SYSMAN_BAT_CRITICAL_LOW)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/appcore-agent/src/appcore-agent.c __sys_lowbatt 397 if (val <= VCONFKEY_SYSMAN_BAT_CRITICAL_LOW)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/appcore-watch/src/appcore-watch.c __sys_lowbatt 519 if (val <= VCONFKEY_SYSMAN_BAT_CRITICAL_LOW)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/appcore-widget/src/widget_app.c __on_low_battery 555 if (val <= VCONFKEY_SYSMAN_BAT_CRITICAL_LOW) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/application/app_common/app_event.c _app_convert_low_battery 72 case VCONFKEY_SYSMAN_BAT_CRITICAL_LOW:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/device/src/device.c device_battery_get_warning_status 177 } else if (value == VCONFKEY_SYSMAN_BAT_CRITICAL_LOW) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/battery/lowbat-handler.c lowbat_process 502 if (vconf_state != VCONFKEY_SYSMAN_BAT_CRITICAL_LOW)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/battery/lowbat-handler.c lowbat_process 503 status = VCONFKEY_SYSMAN_BAT_CRITICAL_LOW;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/core.c low_battery_state 502 case VCONFKEY_SYSMAN_BAT_CRITICAL_LOW:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/led/torch.c torch_check_battery_status 118 if (status == VCONFKEY_SYSMAN_BAT_CRITICAL_LOW ||
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-display/src/setting-display-brightness.c setting_display_brightness_lowbat_cb 402 if (ad->low_bat <= VCONFKEY_SYSMAN_BAT_CRITICAL_LOW) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-display/src/setting-display-brightness.c __toggle_automatic_chk 1035 if (ad->low_bat <= VCONFKEY_SYSMAN_BAT_CRITICAL_LOW) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/setting.c setting_int_vconf_change_cb 539 status = (status <= VCONFKEY_SYSMAN_BAT_CRITICAL_LOW);

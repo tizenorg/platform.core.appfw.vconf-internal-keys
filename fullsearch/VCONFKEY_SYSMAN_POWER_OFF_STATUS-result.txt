@@ -1,0 +1,39 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-sysman-keys.h <global> 176 #define VCONFKEY_SYSMAN_POWER_OFF_STATUS "memory/sysman/power_off"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-frwk/bt-service/bt-service-adapter.c _bt_set_disabled 541 ret = vconf_get_int(VCONFKEY_SYSMAN_POWER_OFF_STATUS, &power_off_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-frwk/bt-service/bt-service-adapter.c _bt_set_le_disabled 623 ret = vconf_get_int(VCONFKEY_SYSMAN_POWER_OFF_STATUS, &power_off_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/crash-worker/src/crash-manager/worker.c launch_crash_popup 238 if (vconf_get_int(VCONFKEY_SYSMAN_POWER_OFF_STATUS, &val) == 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-provider-master/src/setting.c power_off_cb 104 if (vconf_get_int(VCONFKEY_SYSMAN_POWER_OFF_STATUS, &val) != 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-provider-master/src/setting.c setting_init 276 ret = vconf_notify_key_changed(VCONFKEY_SYSMAN_POWER_OFF_STATUS, power_off_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-provider-master/src/setting.c setting_fini 325 ret = vconf_ignore_key_changed(VCONFKEY_SYSMAN_POWER_OFF_STATUS, power_off_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/power/power-handler.c poweroff 292 vconf_ignore_key_changed(VCONFKEY_SYSMAN_POWER_OFF_STATUS, (void *)poweroff_control_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/power/power-handler.c power_reboot 335 vconf_ignore_key_changed(VCONFKEY_SYSMAN_POWER_OFF_STATUS, (void *)poweroff_control_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/power/power-handler.c power_off_execute 373 vconf_ignore_key_changed(VCONFKEY_SYSMAN_POWER_OFF_STATUS, (void *)poweroff_control_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/power/power-handler.c power_off_execute 374 vconf_set_int(VCONFKEY_SYSMAN_POWER_OFF_STATUS, val);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/power/power-handler.c poweroff_control_cb 511 if (vconf_get_int(VCONFKEY_SYSMAN_POWER_OFF_STATUS, &val) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/power/power-handler.c power_init 722 if (vconf_notify_key_changed(VCONFKEY_SYSMAN_POWER_OFF_STATUS, (void *)poweroff_control_cb, NULL) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/power/power-handler.c power_init 723 _E("Vconf notify key chaneged failed: KEY(%s)", VCONFKEY_SYSMAN_POWER_OFF_STATUS);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/power/systemd-power.c poweroff 88 return vconf_set_int(VCONFKEY_SYSMAN_POWER_OFF_STATUS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/power/systemd-power.c power_init 324 ret = vconf_notify_key_changed(VCONFKEY_SYSMAN_POWER_OFF_STATUS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/power/systemd-power.c power_init 329 VCONFKEY_SYSMAN_POWER_OFF_STATUS);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/daemon/main.c _indicator_power_off_status_cb 181 if (vconf_get_int(VCONFKEY_SYSMAN_POWER_OFF_STATUS, &val) < 0) return;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/daemon/main.c register_event_handler 543 if (vconf_notify_key_changed(VCONFKEY_SYSMAN_POWER_OFF_STATUS, _indicator_power_off_status_cb, (void *)ad) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/daemon/main.c unregister_event_handler 573 vconf_ignore_key_changed(VCONFKEY_SYSMAN_POWER_OFF_STATUS, _indicator_power_off_status_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmedia-thumbnail/server/thumb-server-internal.c _thumb_daemon_power_off_cb 108 err = vconf_get_int(VCONFKEY_SYSMAN_POWER_OFF_STATUS, &status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-sound/server/mm_sound_mgr_pulse.c _poweroff_changed_cb 2032 vconf_get_int(VCONFKEY_SYSMAN_POWER_OFF_STATUS, &key_value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-sound/server/mm_sound_mgr_pulse.c MMSoundMgrPulseHandleRegisterPowerOffMuteall 2042 int ret = vconf_notify_key_changed(VCONFKEY_SYSMAN_POWER_OFF_STATUS, _poweroff_changed_cb, pinfo);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-sound/server/mm_sound_mgr_pulse.c MMSoundMgrPulseHandleRegisterPowerOffMuteall 2043 debug_msg ("vconf [%s] set ret = %d\n", VCONFKEY_SYSMAN_POWER_OFF_STATUS, ret);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/media-server/src/server/media-server-main.c _ms_check_pw_status 305 if (!ms_config_get_int(VCONFKEY_SYSMAN_POWER_OFF_STATUS, &pw_status)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/quickpanel-ui.c _vconf_event_powerff_cb 494 if (vconf_get_int(VCONFKEY_SYSMAN_POWER_OFF_STATUS, &val) == 0 &&
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/quickpanel-ui.c _vconf_init 570 ret = vconf_notify_key_changed(VCONFKEY_SYSMAN_POWER_OFF_STATUS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/quickpanel-ui.c _vconf_fini 587 ret = vconf_ignore_key_changed(VCONFKEY_SYSMAN_POWER_OFF_STATUS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c _status_active_change_cb 188 } else if (!strcmp(key_name, VCONFKEY_SYSMAN_POWER_OFF_STATUS)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 317 if (vconf_notify_key_changed(VCONFKEY_SYSMAN_POWER_OFF_STATUS, _status_active_change_cb, NULL) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 318 _E("Failed to register add the callback for %s", VCONFKEY_SYSMAN_POWER_OFF_STATUS);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 319 } else if (vconf_get_int(VCONFKEY_SYSMAN_POWER_OFF_STATUS, &s_status_active.sysman_power_off_status ) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 320 _E("Failed to get vconfkey[%s]", VCONFKEY_SYSMAN_POWER_OFF_STATUS);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_unregister 493 if (vconf_ignore_key_changed(VCONFKEY_SYSMAN_POWER_OFF_STATUS, _status_active_change_cb) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_unregister 494 _E("Failed to unregister the callback for %s", VCONFKEY_SYSMAN_POWER_OFF_STATUS);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-popup/src/battery/lowbattery-mobile.c poweroff_clicked 105 if (vconf_set_int(VCONFKEY_SYSMAN_POWER_OFF_STATUS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-popup/src/cooldown/cooldown-micro.c cooldown_poweroff 178 if (vconf_set_int(VCONFKEY_SYSMAN_POWER_OFF_STATUS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-popup/src/poweroff/poweroff.c poweroff_clicked 87 if (vconf_set_int(VCONFKEY_SYSMAN_POWER_OFF_STATUS, SYSTEMD_STOP_POWER_OFF) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-popup/src/recovery/recovery-mobile.c reboot_now 30 if (vconf_set_int(VCONFKEY_SYSMAN_POWER_OFF_STATUS,

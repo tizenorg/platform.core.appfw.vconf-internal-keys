@@ -1,0 +1,6 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-nfc-keys.h <global> 52 VCONFKEY_NFC_WALLET_MODE_MANUAL = 0x00,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/manager/net_nfc_server_se.c net_nfc_server_se_set_se_policy 555 if (wallet_mode == VCONFKEY_NFC_WALLET_MODE_MANUAL) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-nfc-efl/ug-nfc-setting-efl/src/ug-nfc-setting-main.c __gl_text_get 505 if (intval == VCONFKEY_NFC_WALLET_MODE_MANUAL)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-nfc-efl/ug-nfc-setting-efl/src/ug-nfc-setting-secure-storage.c __radio_changed_cb 37 VCONFKEY_NFC_WALLET_MODE_MANUAL)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-nfc-efl/ug-nfc-setting-efl/src/ug-nfc-setting-secure-storage.c __gl_content_get 108 (intval == VCONFKEY_NFC_WALLET_MODE_MANUAL)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-nfc-efl/ug-nfc-setting-efl/src/ug-nfc-setting-secure-storage.c __gl_sel 153 VCONFKEY_NFC_WALLET_MODE_MANUAL)) {

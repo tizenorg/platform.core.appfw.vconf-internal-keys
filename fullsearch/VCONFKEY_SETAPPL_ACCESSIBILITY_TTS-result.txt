@@ -1,0 +1,50 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/dali-adaptor/adaptors/tizen/accessibility-manager-impl-tizen.cpp <global> 53 vconf_get_bool(VCONFKEY_SETAPPL_ACCESSIBILITY_TTS, &isEnabled);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/dali-adaptor/adaptors/tizen/accessibility-manager-impl-tizen.cpp <global> 301 vconf_get_bool(VCONFKEY_SETAPPL_ACCESSIBILITY_TTS, &isEnabled);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/dali-adaptor/adaptors/tizen/accessibility-manager-impl-tizen.cpp <global> 313 vconf_notify_key_changed( VCONFKEY_SETAPPL_ACCESSIBILITY_TTS, AccessibilityOnOffNotification, this );
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/dali-adaptor/adaptors/tizen/accessibility-manager-impl-tizen.cpp <global> 320 vconf_ignore_key_changed( VCONFKEY_SETAPPL_ACCESSIBILITY_TTS, AccessibilityOnOffNotification );
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 316 #define VCONFKEY_SETAPPL_ACCESSIBILITY_TTS "db/setting/accessibility/tts"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/at-spi2-core/bus/at-spi-bus-launcher.c main 732 int ret = vconf_get_bool(VCONFKEY_SETAPPL_ACCESSIBILITY_TTS, &_global_app->screen_reader_needed);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/at-spi2-core/bus/at-spi-bus-launcher.c main 735 LOGD("Could not read %s key value.\n", VCONFKEY_SETAPPL_ACCESSIBILITY_TTS);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/at-spi2-core/bus/at-spi-bus-launcher.c main 738 ret = vconf_notify_key_changed(VCONFKEY_SETAPPL_ACCESSIBILITY_TTS, screen_reader_cb, _global_app);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/aul-1/am_daemon/amd_launch.c __check_mode 1528 vconf_get_bool(VCONFKEY_SETAPPL_ACCESSIBILITY_TTS, &tts_mode);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-provider-slave/src/main.c app_create 370 ret = vconf_notify_key_changed(VCONFKEY_SETAPPL_ACCESSIBILITY_TTS, tts_changed_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-provider-slave/src/main.c app_terminate 413 ret = vconf_ignore_key_changed(VCONFKEY_SETAPPL_ACCESSIBILITY_TTS, tts_changed_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-provider-slave/svc_src/main.c app_create 370 ret = vconf_notify_key_changed(VCONFKEY_SETAPPL_ACCESSIBILITY_TTS, tts_changed_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-provider-slave/svc_src/main.c app_terminate 412 ret = vconf_ignore_key_changed(VCONFKEY_SETAPPL_ACCESSIBILITY_TTS, tts_changed_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/e17-extra-modules/screen-reader/src/e_mod_main.c e_modapi_init 1734 vconf_notify_key_changed(VCONFKEY_SETAPPL_ACCESSIBILITY_TTS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/e17-extra-modules/screen-reader/src/e_mod_main.c e_modapi_init 1758 if (vconf_get_bool(VCONFKEY_SETAPPL_ACCESSIBILITY_TTS, &g_enable) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/efl-assist/src/ui/efl_assist_screen_reader.c _is_screen_reader_enable 154 if (vconf_get_bool(VCONFKEY_SETAPPL_ACCESSIBILITY_TTS, &tts_val) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/efl-assist/src/ui/efl_assist_screen_reader.c _unsupported_popup_show 167 if (vconf_get_bool(VCONFKEY_SETAPPL_ACCESSIBILITY_TTS, &tts_val) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/homescreen/cluster/cluster-home-accessibility.cpp UpdateTTSMode 103 int ret = vconf_get_bool(VCONFKEY_SETAPPL_ACCESSIBILITY_TTS, &boolval);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/homescreen/cluster/cluster-view-controller.cpp mPageNeedToChangeFocusedPageAfterAddpage 108 if (vconf_notify_key_changed(VCONFKEY_SETAPPL_ACCESSIBILITY_TTS, AccessibilityTTSChangedCallback, this) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/homescreen/cluster/cluster-view-controller.cpp ClusterViewController 134 if (vconf_ignore_key_changed(VCONFKEY_SETAPPL_ACCESSIBILITY_TTS, AccessibilityTTSChangedCallback) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/daemon/tts.c _is_screenreader_on 121 ret = vconf_get_bool(VCONFKEY_SETAPPL_ACCESSIBILITY_TTS, &status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/daemon/tts.c indicator_service_tts_init 332 ret = vconf_notify_key_changed(VCONFKEY_SETAPPL_ACCESSIBILITY_TTS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/daemon/tts.c indicator_service_tts_fini 341 ret = vconf_notify_key_changed(VCONFKEY_SETAPPL_ACCESSIBILITY_TTS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ise-web-helper-agent/src/common.cpp accessibility_changed_cb 120 if (vconf_get_bool(VCONFKEY_SETAPPL_ACCESSIBILITY_TTS, &vconf_value) == 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ise-web-helper-agent/src/common.cpp run 252 vconf_notify_key_changed(VCONFKEY_SETAPPL_ACCESSIBILITY_TTS, accessibility_changed_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ise-web-helper-agent/src/common.cpp run 291 vconf_ignore_key_changed(VCONFKEY_SETAPPL_ACCESSIBILITY_TTS, accessibility_changed_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libscl-core/src/sclcoreui-efl.cpp accessibility_changed_cb 135 if (vconf_get_bool(VCONFKEY_SETAPPL_ACCESSIBILITY_TTS, &vconf_value) == 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libscl-core/src/sclcoreui-efl.cpp run 300 vconf_notify_key_changed(VCONFKEY_SETAPPL_ACCESSIBILITY_TTS, accessibility_changed_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libscl-core/src/sclcoreui-efl.cpp run 321 vconf_ignore_key_changed(VCONFKEY_SETAPPL_ACCESSIBILITY_TTS, accessibility_changed_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libscl-ui/scl/utils/linux/sclutils-linux.cpp accessibility_changed_cb 84 if (vconf_get_int(VCONFKEY_SETAPPL_ACCESSIBILITY_TTS, &enabled) == VCONF_OK) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libscl-ui/scl/utils/linux/sclutils-linux.cpp init 138 vconf_notify_key_changed(VCONFKEY_SETAPPL_ACCESSIBILITY_TTS, accessibility_changed_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libscl-ui/scl/utils/linux/sclutils-linux.cpp fini 146 vconf_ignore_key_changed(VCONFKEY_SETAPPL_ACCESSIBILITY_TTS, accessibility_changed_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/livebox-edje/src/script_port.c access_cb 1997 if (vconf_get_bool(VCONFKEY_SETAPPL_ACCESSIBILITY_TTS, &state) != 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/livebox-edje/src/script_port.c script_init 2122 ret = vconf_notify_key_changed(VCONFKEY_SETAPPL_ACCESSIBILITY_TTS, access_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/livebox-edje/src/script_port.c script_fini 2171 ret = vconf_ignore_key_changed(VCONFKEY_SETAPPL_ACCESSIBILITY_TTS, access_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/msg-service/framework/transaction-manager/MsgCmdHandlerTransport.cpp MsgIncomingMMSConfMsgHandler 673 if (MsgSettingGetBool(VCONFKEY_SETAPPL_ACCESSIBILITY_TTS, &bTTS) != MSG_SUCCESS) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/msg-service/plugin/sms_plugin/SmsPluginTransport.cpp submitRequest 348 if (MsgSettingGetBool(VCONFKEY_SETAPPL_ACCESSIBILITY_TTS, &bTTS) != MSG_SUCCESS) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-accessibility/setting-accessibility-main.c setting_accessibility_main_chk_screenreader_vconf_update 125 vconf_set_bool(VCONFKEY_SETAPPL_ACCESSIBILITY_TTS, state ? 1 : 0);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-accessibility/setting-accessibility-main.c setting_accessibility_main_generate_genlist 219 vconf_get_bool(VCONFKEY_SETAPPL_ACCESSIBILITY_TTS, &screen_reader);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-accessibility/setting-accessibility-main.c setting_accessibility_main_generate_genlist 222 int vconf_ret = vconf_notify_key_changed(VCONFKEY_SETAPPL_ACCESSIBILITY_TTS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-applications/src/setting-applications-main.c setting_applications_main_tts_chk_btn_cb 707 vconf_set_bool(VCONFKEY_SETAPPL_ACCESSIBILITY_TTS, 1);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-applications/src/setting-applications-main.c setting_applications_main_tts_chk_btn_cb 709 vconf_set_bool(VCONFKEY_SETAPPL_ACCESSIBILITY_TTS, 0);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-draw-popup.c setting_add_hardkey_features 238 vconf_get_bool(VCONFKEY_SETAPPL_ACCESSIBILITY_TTS, &value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-draw-popup.c __add_progressbar 339 vconf_get_bool(VCONFKEY_SETAPPL_ACCESSIBILITY_TTS, &value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/setting-handler.c setting_main_click_list_ex_ug_cb 753 vconf_get_bool(VCONFKEY_SETAPPL_ACCESSIBILITY_TTS, &tts_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tts/common/tts_defs.h TTS_ACCESSIBILITY_KEY 107 #define TTS_ACCESSIBILITY_KEY VCONFKEY_SETAPPL_ACCESSIBILITY_TTS
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-lockscreen-setting-efl/ug-lockscreen-setting-efl/src/lockscreen-options-util.c get_vconf_screenreader 563 if(vconf_get_bool(VCONFKEY_SETAPPL_ACCESSIBILITY_TTS, &is_screenreader) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/widget-edje/src/script_port.c access_cb 1997 if (vconf_get_bool(VCONFKEY_SETAPPL_ACCESSIBILITY_TTS, &state) != 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/widget-edje/src/script_port.c script_init 2122 ret = vconf_notify_key_changed(VCONFKEY_SETAPPL_ACCESSIBILITY_TTS, access_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/widget-edje/src/script_port.c script_fini 2171 ret = vconf_ignore_key_changed(VCONFKEY_SETAPPL_ACCESSIBILITY_TTS, access_cb);

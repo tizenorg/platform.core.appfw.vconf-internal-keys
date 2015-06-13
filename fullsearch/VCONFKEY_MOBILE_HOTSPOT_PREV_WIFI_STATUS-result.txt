@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-mobile-hotspot-keys.h <global> 52 #define VCONFKEY_MOBILE_HOTSPOT_PREV_WIFI_STATUS "db/private/libug-setting-mobileap-efl/prev_wifi_status"

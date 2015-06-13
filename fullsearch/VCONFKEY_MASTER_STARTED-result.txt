@@ -1,0 +1,48 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/badge/src/badge_ipc.c <global> 40 #if !defined(VCONFKEY_MASTER_STARTED)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/badge/src/badge_ipc.c <global> 41 #define VCONFKEY_MASTER_STARTED "memory/data-provider-master/started"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-provider-master/include/conf.h <global> 27 #if !defined(VCONFKEY_MASTER_STARTED)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-provider-master/include/conf.h <global> 28 #define VCONFKEY_MASTER_STARTED "memory/data-provider-master/started"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/livebox-service/dynamicbox_service/include/dynamicbox_conf.h <global> 553 #if !defined(VCONFKEY_MASTER_STARTED)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/livebox-service/dynamicbox_service/include/dynamicbox_conf.h <global> 554 #define VCONFKEY_MASTER_STARTED "memory/data-provider-master/started"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/livebox-viewer/dynamicbox_viewer/include/conf.h <global> 25 #if !defined(VCONFKEY_MASTER_STARTED)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/livebox-viewer/dynamicbox_viewer/include/conf.h <global> 26 #define VCONFKEY_MASTER_STARTED "memory/data-provider-master/started"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/notification/src/notification_ipc.c <global> 42 #if !defined(VCONFKEY_MASTER_STARTED)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/notification/src/notification_ipc.c <global> 43 #define VCONFKEY_MASTER_STARTED "memory/data-provider-master/started"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/shortcut/lib/include/shortcut_private.h <global> 32 #if !defined(VCONFKEY_MASTER_STARTED)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/shortcut/lib/include/shortcut_private.h <global> 33 #define VCONFKEY_MASTER_STARTED "memory/data-provider-master/started"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-livebox-keys.h <global> 24 #define VCONFKEY_MASTER_STARTED "memory/data-provider-master/started"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/widget-service/include/widget_conf.h <global> 568 #if !defined(VCONFKEY_MASTER_STARTED)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/widget-service/include/widget_conf.h <global> 569 #define VCONFKEY_MASTER_STARTED "memory/data-provider-master/started"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/widget-viewer/widget_viewer/include/conf.h <global> 25 #if !defined(VCONFKEY_MASTER_STARTED)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/widget-viewer/widget_viewer/include/conf.h <global> 26 #define VCONFKEY_MASTER_STARTED "memory/data-provider-master/started"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/badge/src/badge_ipc.c _set_master_started_cb 86 ret = vconf_notify_key_changed(VCONFKEY_MASTER_STARTED,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/badge/src/badge_ipc.c _set_master_started_cb 90 VCONFKEY_MASTER_STARTED, ret);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/badge/src/badge_ipc.c _unset_master_started_cb 97 ret = vconf_ignore_key_changed(VCONFKEY_MASTER_STARTED,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/badge/src/badge_ipc.c _unset_master_started_cb 101 VCONFKEY_MASTER_STARTED, ret);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/badge/src/badge_ipc.c badge_ipc_is_master_ready 109 ret = vconf_get_bool(VCONFKEY_MASTER_STARTED, &is_master_started);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-provider-master/src/main.c signal_cb 309 vconf_set_bool(VCONFKEY_MASTER_STARTED, 0);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-provider-master/src/main.c main 434 vconf_set_bool(VCONFKEY_MASTER_STARTED, 1);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-provider-master/src/main.c main 436 vconf_set_bool(VCONFKEY_MASTER_STARTED, 0);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/livebox-viewer/dynamicbox_viewer/src/client.c master_started_cb 2103 if (vconf_get_bool(VCONFKEY_MASTER_STARTED, &state) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/livebox-viewer/dynamicbox_viewer/src/client.c master_started_cb 2104 ErrPrint("Unable to get [%s]\n", VCONFKEY_MASTER_STARTED);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/livebox-viewer/dynamicbox_viewer/src/client.c master_started_cb 2110 ret = vconf_ignore_key_changed(VCONFKEY_MASTER_STARTED, master_started_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/livebox-viewer/dynamicbox_viewer/src/client.c timeout_cb 2119 if (vconf_notify_key_changed(VCONFKEY_MASTER_STARTED, master_started_cb, NULL) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/livebox-viewer/dynamicbox_viewer/src/client.c client_init 2237 if (vconf_notify_key_changed(VCONFKEY_MASTER_STARTED, master_started_cb, NULL) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/livebox-viewer/dynamicbox_viewer/src/client.c client_fini 2273 ret = vconf_ignore_key_changed(VCONFKEY_MASTER_STARTED, master_started_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/notification/src/notification_ipc.c _set_master_started_cb 109 ret = vconf_notify_key_changed(VCONFKEY_MASTER_STARTED,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/notification/src/notification_ipc.c _set_master_started_cb 113 VCONFKEY_MASTER_STARTED, ret);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/notification/src/notification_ipc.c _unset_master_started_cb 120 ret = vconf_ignore_key_changed(VCONFKEY_MASTER_STARTED,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/notification/src/notification_ipc.c _unset_master_started_cb 124 VCONFKEY_MASTER_STARTED, ret);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/notification/src/notification_ipc.c notification_ipc_is_master_ready 132 ret = vconf_get_bool(VCONFKEY_MASTER_STARTED, &is_master_started);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/shortcut/lib/src/main.c master_started_cb 209 if (vconf_get_bool(VCONFKEY_MASTER_STARTED, &state) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/shortcut/lib/src/main.c master_started_cb 210 ErrPrint("Unable to get \"%s\"\n", VCONFKEY_MASTER_STARTED);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/shortcut/lib/src/main.c master_started_cb 214 (void )vconf_ignore_key_changed(VCONFKEY_MASTER_STARTED, master_started_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/shortcut/lib/src/main.c shortcut_is_master_ready 224 ret = vconf_get_bool(VCONFKEY_MASTER_STARTED, &is_master_started);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/shortcut/lib/src/main.c timeout_cb 241 ret = vconf_notify_key_changed(VCONFKEY_MASTER_STARTED, master_started_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/shortcut/lib/src/main.c shortcut_set_request_cb 400 ret = vconf_notify_key_changed(VCONFKEY_MASTER_STARTED, master_started_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/widget-viewer/widget_viewer/src/client.c master_started_cb 2104 if (vconf_get_bool(VCONFKEY_MASTER_STARTED, &state) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/widget-viewer/widget_viewer/src/client.c master_started_cb 2105 ErrPrint("Unable to get [%s]\n", VCONFKEY_MASTER_STARTED);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/widget-viewer/widget_viewer/src/client.c master_started_cb 2111 ret = vconf_ignore_key_changed(VCONFKEY_MASTER_STARTED, master_started_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/widget-viewer/widget_viewer/src/client.c timeout_cb 2120 if (vconf_notify_key_changed(VCONFKEY_MASTER_STARTED, master_started_cb, NULL) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/widget-viewer/widget_viewer/src/client.c client_init 2238 if (vconf_notify_key_changed(VCONFKEY_MASTER_STARTED, master_started_cb, NULL) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/widget-viewer/widget_viewer/src/client.c client_fini 2274 ret = vconf_ignore_key_changed(VCONFKEY_MASTER_STARTED, master_started_cb);

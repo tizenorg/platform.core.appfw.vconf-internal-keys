@@ -1,0 +1,9 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-data-slp-setting.c <global> 287 {"mem_bluetooth", "memory", INT_SLP_SETTING_DEFAULT_MEM_BLUETOOTH, VCONFKEY_SETAPPL_DEFAULT_MEM_BLUETOOTH_INT, eINT, {0}, export_json, import_default},
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 376 #define VCONFKEY_SETAPPL_DEFAULT_MEM_BLUETOOTH_INT "db/setting/default_memory/bluetooth"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-share-ui/src/bt-share-ui-view.c __bt_tr_data_recv_item_sel 619 if (vconf_get_int(VCONFKEY_SETAPPL_DEFAULT_MEM_BLUETOOTH_INT,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-share/bt-share/src/bt-share-noti-handler.c __bt_mmc_status_changed_cb 81 retm_if(vconf_get_int(VCONFKEY_SETAPPL_DEFAULT_MEM_BLUETOOTH_INT,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-share/bt-share/src/bt-share-noti-handler.c __bt_mmc_status_changed_cb 98 VCONFKEY_SETAPPL_DEFAULT_MEM_BLUETOOTH_INT,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-share/bt-share/src/bt-share-noti-handler.c _bt_init_vconf_notification 114 ret = vconf_notify_key_changed(VCONFKEY_SETAPPL_DEFAULT_MEM_BLUETOOTH_INT,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-share/bt-share/src/bt-share-noti-handler.c _bt_deinit_vconf_notification 130 ret = vconf_ignore_key_changed(VCONFKEY_SETAPPL_DEFAULT_MEM_BLUETOOTH_INT,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-share/bt-share/src/obex-event-handler.c _bt_get_default_storage 697 if (vconf_get_int(VCONFKEY_SETAPPL_DEFAULT_MEM_BLUETOOTH_INT,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-share/bt-share/src/obex-event-handler.c __bt_obex_file_push_auth 848 if (vconf_get_int(VCONFKEY_SETAPPL_DEFAULT_MEM_BLUETOOTH_INT,

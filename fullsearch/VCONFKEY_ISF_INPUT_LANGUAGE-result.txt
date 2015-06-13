@@ -1,0 +1,5 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-isfsetting-efl/src/isf_setting_efl.cpp <global> 1692 vconf_set_str (VCONFKEY_ISF_INPUT_LANGUAGE, value_str);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-isf-keys.h <global> 24 #define VCONFKEY_ISF_INPUT_LANGUAGE "db/isf/input_language"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/isf/ism/extras/efl_immodule/isf_imf_context.cpp get_input_language 1080 char *input_lang_str = vconf_get_str (VCONFKEY_ISF_INPUT_LANGUAGE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/isf/ism/extras/efl_immodule/isf_imf_context.cpp _scim_initialize 1171 vconf_notify_key_changed (VCONFKEY_ISF_INPUT_LANGUAGE, input_language_changed_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/isf/ism/extras/efl_immodule/isf_imf_context.cpp _scim_finalize 1185 vconf_ignore_key_changed (VCONFKEY_ISF_INPUT_LANGUAGE, input_language_changed_cb);

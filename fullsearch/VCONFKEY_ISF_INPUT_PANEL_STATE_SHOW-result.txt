@@ -1,0 +1,4 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-isf-keys.h <global> 33 VCONFKEY_ISF_INPUT_PANEL_STATE_SHOW,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/touch/touch-controller.c touch_vconf_pm_sip_status 39 case VCONFKEY_ISF_INPUT_PANEL_STATE_SHOW:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/isf/ism/demos/isf_demo_efl.cpp input_panel_state_changed_cb 314 case VCONFKEY_ISF_INPUT_PANEL_STATE_SHOW:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/isf/ism/extras/efl_panel/isf_panel_efl.cpp x_event_window_property_cb 5836 vconf_set_int (VCONFKEY_ISF_INPUT_PANEL_STATE, VCONFKEY_ISF_INPUT_PANEL_STATE_SHOW);

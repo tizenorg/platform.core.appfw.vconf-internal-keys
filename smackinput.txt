@@ -1,0 +1,3 @@
+memory/factory/app_state vconf_test222
+memory/bluetooth/sco_headset_name system::vconf_network_helloworld
+memory/dnet/network_config system::vconf_network_hello2

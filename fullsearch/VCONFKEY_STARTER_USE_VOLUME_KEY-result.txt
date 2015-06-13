@@ -1,0 +1,12 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-starter-keys.h <global> 26 #define VCONFKEY_STARTER_USE_VOLUME_KEY "memory/starter/use_volume_key"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/ui/src/vcui-app-window.c _vcui_app_win_key_grab 594 vconf_set_int(VCONFKEY_STARTER_USE_VOLUME_KEY, 1);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-profile/src/setting-profile-common.c __setting_sound_ug_key_grab 839 vconf_set_int(VCONFKEY_STARTER_USE_VOLUME_KEY, 2);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-profile/src/setting-profile-common.c __setting_sound_ug_key_ungrab 883 vconf_set_int(VCONFKEY_STARTER_USE_VOLUME_KEY, 0);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-profile/src/setting-profile.c setting_sound_ug_on_pause 81 vconf_set_int(VCONFKEY_STARTER_USE_VOLUME_KEY, 0);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-profile/src/setting-profile.c setting_sound_ug_on_resume 93 vconf_set_int(VCONFKEY_STARTER_USE_VOLUME_KEY, 2);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-profile/src/setting-profile.c setting_sound_ug_on_resume 95 vconf_set_int(VCONFKEY_STARTER_USE_VOLUME_KEY, 0);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/volume-app/src/control.c volume_control_register_vconfkey 510 if(vconf_notify_key_changed(VCONFKEY_STARTER_USE_VOLUME_KEY, _starter_user_volume_key_vconf_changed_cb, NULL) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/volume-app/src/control.c volume_control_unregister_vconfkey 529 if(vconf_ignore_key_changed(VCONFKEY_STARTER_USE_VOLUME_KEY, _starter_user_volume_key_vconf_changed_cb) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/volume-app/src/control.c _starter_user_volume_key_vconf_changed_cb 763 if(vconf_get_int(VCONFKEY_STARTER_USE_VOLUME_KEY, &ret) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/volume-app/src/control.c _starter_user_volume_key_vconf_changed_cb 781 if(vconf_set_int(VCONFKEY_STARTER_USE_VOLUME_KEY, 0) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/volume-app/src/key_event.c _key_press_cb 512 if(vconf_get_int(VCONFKEY_STARTER_USE_VOLUME_KEY, &key_status) < 0) {

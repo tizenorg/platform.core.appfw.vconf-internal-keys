@@ -1,0 +1,2 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-sysman-keys.h <global> 116 VCONFKEY_SYSMAN_MMC_MOUNT_COMPLETED = 0,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-storage/src/setting-storage-SD.c storageUg_SD_info_inserted_not_mounted 387 if (VCONFKEY_SYSMAN_MMC_MOUNT_COMPLETED == status

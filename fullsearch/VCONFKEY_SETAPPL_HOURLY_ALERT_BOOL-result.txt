@@ -1,0 +1,10 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 561 #define VCONFKEY_SETAPPL_HOURLY_ALERT_BOOL "db/setting/hourly_alert"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/wearable/hourly_alert.c _hourly_alert_changed_cb 205 if (vconf_get_int(VCONFKEY_SETAPPL_HOURLY_ALERT_BOOL, &hourly_alert) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/wearable/hourly_alert.c _hourly_alert_changed_cb 206 _E("Failed to get %s", VCONFKEY_SETAPPL_HOURLY_ALERT_BOOL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/wearable/hourly_alert.c hourly_alert_init 235 ret = vconf_get_bool(VCONFKEY_SETAPPL_HOURLY_ALERT_BOOL, &hourly_alert);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/wearable/hourly_alert.c hourly_alert_init 237 _E("can't get vconfkey value of [%s], ret=[%d]", VCONFKEY_SETAPPL_HOURLY_ALERT_BOOL, ret);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/wearable/hourly_alert.c hourly_alert_init 240 _D("[%s] value is [%d], hourly_alert is set..!!", VCONFKEY_SETAPPL_HOURLY_ALERT_BOOL, hourly_alert);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/wearable/hourly_alert.c hourly_alert_init 246 if (vconf_notify_key_changed(VCONFKEY_SETAPPL_HOURLY_ALERT_BOOL, _hourly_alert_changed_cb, NULL) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/wearable/hourly_alert.c hourly_alert_init 247 _E("Failed to add the callback for %s changed", VCONFKEY_SETAPPL_HOURLY_ALERT_BOOL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/wearable/hourly_alert.c hourly_alert_fini 261 if (vconf_ignore_key_changed(VCONFKEY_SETAPPL_HOURLY_ALERT_BOOL, _hourly_alert_changed_cb) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/wearable/hourly_alert.c hourly_alert_fini 262 _E("Failed to ignore the callback for %s changed", VCONFKEY_SETAPPL_HOURLY_ALERT_BOOL);

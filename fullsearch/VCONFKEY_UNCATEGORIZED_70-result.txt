@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-uncategorized-keys.h <global> 121 #define VCONFKEY_UNCATEGORIZED_70 "db/private/msg-service/general/block_unknown_msg"

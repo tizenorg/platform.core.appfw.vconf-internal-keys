@@ -1,0 +1,5 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-data-slp-setting.c <global> 238 {"data_usage_limit_bool", "datausage", BOOL_SLP_SETTING_DATAUSAGE_SET_DATA_USAGE_LIMIT_BOOL, VCONFKEY_SETAPPL_SET_DATA_USAGE_LIMIT_BOOL, eBOOL, {0}, export_json, import_default},
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-resource/src/network/datausage-vconf-common.c <global> 26 #ifndef VCONFKEY_SETAPPL_SET_DATA_USAGE_LIMIT_BOOL
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-resource/src/network/datausage-vconf-common.c <global> 27 #define VCONFKEY_SETAPPL_SET_DATA_USAGE_LIMIT_BOOL "db/setting/set_data_usage_limit"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 485 #define VCONFKEY_SETAPPL_SET_DATA_USAGE_LIMIT_BOOL "db/setting/set_data_usage_limit"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-resource/src/network/datausage-vconf-common.c restriction_check_limit_status 40 if (vconf_get_bool(VCONFKEY_SETAPPL_SET_DATA_USAGE_LIMIT_BOOL, retval)) {

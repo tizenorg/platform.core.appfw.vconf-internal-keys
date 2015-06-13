@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-uncategorized-keys.h <global> 329 #define VCONFKEY_UNCATEGORIZED_288 "memory/private/msg-service/msisdn/2"

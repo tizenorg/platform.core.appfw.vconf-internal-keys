@@ -1,0 +1,8 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 614 #define VCONFKEY_SETAPPL_NETWORK_PERMIT_WITH_LCD_OFF_LIMIT "db/setting/network_with_lcd_off_limit"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-power.c __netconfig_wifi_emergency_mode 642 vconf_get_bool(VCONFKEY_SETAPPL_NETWORK_PERMIT_WITH_LCD_OFF_LIMIT, &emergency_by_fmm);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c __mode_syspopup_normal_cb 1796 vconf_get_bool(VCONFKEY_SETAPPL_NETWORK_PERMIT_WITH_LCD_OFF_LIMIT, &b_network_lcd_off);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c __mode_syspopup_normal_cb 1798 vconf_set_bool(VCONFKEY_SETAPPL_NETWORK_PERMIT_WITH_LCD_OFF_LIMIT, EINA_FALSE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c __mode_syspopup_add 2743 vconf_get_bool(VCONFKEY_SETAPPL_NETWORK_PERMIT_WITH_LCD_OFF_LIMIT, &b_network_lcd_off);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c __mode_syspopup_add 2745 vconf_set_bool(VCONFKEY_SETAPPL_NETWORK_PERMIT_WITH_LCD_OFF_LIMIT, EINA_FALSE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c __mode_syspopup_add 2895 vconf_get_bool(VCONFKEY_SETAPPL_NETWORK_PERMIT_WITH_LCD_OFF_LIMIT, &b_network_lcd_off);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c __mode_syspopup_add 2897 vconf_set_bool(VCONFKEY_SETAPPL_NETWORK_PERMIT_WITH_LCD_OFF_LIMIT, EINA_FALSE);

@@ -1,0 +1,17 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 619 #define VCONFKEY_SETAPPL_SIM1_NAME "db/setting/sim1_name"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-manager/callmgr-popup/src/callmgr-popup-widget.c __callmgr_popup_sim_list_gl_label_get 353 sim_name = vconf_get_str(VCONFKEY_SETAPPL_SIM1_NAME);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-dual-sim-alwayson.c _cst_dualsim_1btn_popup 206 char *sim1_name = vconf_get_str(VCONFKEY_SETAPPL_SIM1_NAME);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-dual-sim-alwayson.c __cst_gl_dualsim_initial_label_get 1825 sim_name = vconf_get_str(VCONFKEY_SETAPPL_SIM1_NAME);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-dual-sim-alwayson.c __cst_gl_dualsim_alwayson_label_get 2008 sim_name = vconf_get_str(VCONFKEY_SETAPPL_SIM1_NAME);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-dual-sim-alwayson.c __cst_gl_dualsim_alwayson_label_get 2023 sim_name = vconf_get_str(VCONFKEY_SETAPPL_SIM1_NAME);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-widget.c _cst_create_dual_sim_tabbar 1584 sim_name = vconf_get_str(VCONFKEY_SETAPPL_SIM1_NAME);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-ui/src/callui-common.c _callui_common_get_sim_name 262 sim_name = vconf_get_str(VCONFKEY_SETAPPL_SIM1_NAME);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/ui/src/vcui-document.c vcui_doc_sim_name_get 156 sim_name = vconf_get_str(VCONFKEY_SETAPPL_SIM1_NAME);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/ui/src/vcui-view-popup.c __sim_list_gl_label_get_option 2445 sim_name = vconf_get_str(VCONFKEY_SETAPPL_SIM1_NAME);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/composer/src/bubble/msg-ui-composer-bubble-list.c __msg_bubble_copy_to_sim_get_result_popup_text 1564 sim_name = vconf_get_str(VCONFKEY_SETAPPL_SIM1_NAME);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/composer/src/ui-composer/msg-ui-composer-common.c msg_ui_composer_common_send_via_gl_text_get 512 char *sim1_name = vconf_get_str(VCONFKEY_SETAPPL_SIM1_NAME);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/setting/src/main/msg-ui-setting-gadget.c __msg_ui_setting_on_create 209 ugd->sim1_name = vconf_get_str(VCONFKEY_SETAPPL_SIM1_NAME);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/setting/src/main/msg-ui-setting-gadget.c __msg_ui_setting_on_destroy 368 if (vconf_ignore_key_changed(VCONFKEY_SETAPPL_SIM1_NAME, __msg_setting_sim1_name_change_cb) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/setting/src/main/msg-ui-setting-gadget.c __msg_ui_setting_on_destroy 369 D_EMSG("Fail to remove vconf time with [%s]", VCONFKEY_SETAPPL_SIM1_NAME);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/setting/src/main/msg-ui-setting-gadget.c UG_MODULE_INIT 568 if (vconf_notify_key_changed(VCONFKEY_SETAPPL_SIM1_NAME, __msg_setting_sim1_name_change_cb, (void *)ugd) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/setting/src/main/msg-ui-setting-main.c __msg_setting_sim1_name_change_cb 248 settingData->sim1_name = vconf_get_str(VCONFKEY_SETAPPL_SIM1_NAME);

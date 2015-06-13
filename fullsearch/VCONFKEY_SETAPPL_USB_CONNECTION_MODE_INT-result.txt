@@ -1,0 +1,6 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/usb/usb-client.c <global> 31 #ifndef VCONFKEY_SETAPPL_USB_CONNECTION_MODE_INT
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/usb/usb-client.c <global> 32 #define VCONFKEY_SETAPPL_USB_CONNECTION_MODE_INT "db/setting/usb_connection_mode"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 166 #define VCONFKEY_SETAPPL_USB_CONNECTION_MODE_INT "db/setting/usb_connection_mode"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/usb/usb-client.c charge_only_mode 244 if (vconf_get_int(VCONFKEY_SETAPPL_USB_CONNECTION_MODE_INT, &state) == 0
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/usb/usb-client.c usbclient_init_booting_done 550 VCONFKEY_SETAPPL_USB_CONNECTION_MODE_INT,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/usb/usb-client.c usbclient_exit 579 VCONFKEY_SETAPPL_USB_CONNECTION_MODE_INT,

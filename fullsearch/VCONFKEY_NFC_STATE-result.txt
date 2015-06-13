@@ -1,0 +1,22 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-data-slp-setting.c <global> 223 {"nfc_mode", "connectivity", BOOL_SLP_SETTING_NFC_STATUS, VCONFKEY_NFC_STATE, eBOOL, {0}, export_json, import_default},
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-nfc-keys.h <global> 31 #define VCONFKEY_NFC_STATE "db/nfc/enable"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/setting/nfc.c indicator_nfc_change_cb 119 ret = vconf_get_bool(VCONFKEY_NFC_STATE, &status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/setting/nfc.c register_nfc_module 153 ret = vconf_notify_key_changed(VCONFKEY_NFC_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/setting/nfc.c unregister_nfc_module 167 ret = vconf_ignore_key_changed(VCONFKEY_NFC_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/clientlib/net_nfc_client_context.c net_nfc_client_get_nfc_state 81 if (vconf_get_bool(VCONFKEY_NFC_STATE, state) == 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/manager/net_nfc_manager.c on_bus_acquired 75 if (vconf_get_bool(VCONFKEY_NFC_STATE, &state) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/manager/net_nfc_manager.c main 180 if (vconf_set_bool(VCONFKEY_NFC_STATE, 0) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/manager/net_nfc_server_common.c restart_polling_loop_thread_func 435 if (vconf_get_bool(VCONFKEY_NFC_STATE, &state) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/manager/net_nfc_server_common.c force_polling_loop_thread_func 535 if (vconf_set_bool(VCONFKEY_NFC_STATE, TRUE) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/manager/net_nfc_server_manager.c manager_active 113 if (vconf_set_bool(VCONFKEY_NFC_STATE, TRUE) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/manager/net_nfc_server_manager.c manager_deactive 165 if (vconf_set_bool(VCONFKEY_NFC_STATE, FALSE) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/manager/net_nfc_server_manager.c net_nfc_server_manager_get_active 435 if (vconf_get_bool(VCONFKEY_NFC_STATE, &value) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/manager/net_nfc_server_vconf.c net_nfc_server_vconf_lock_state_changed 47 result = vconf_get_bool(VCONFKEY_NFC_STATE, &state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/manager/net_nfc_server_vconf.c net_nfc_server_vconf_pm_state_changed 77 result = vconf_get_bool(VCONFKEY_NFC_STATE, &state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/manager/net_nfc_server_vconf.c net_nfc_server_vconf_flight_mode_changed 132 result = vconf_get_bool(VCONFKEY_NFC_STATE, &nfc_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/setting.c setting_other_vconf_change_cb 369 } else if (!safeStrCmp(vconf_name, VCONFKEY_NFC_STATE)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/setting.c setting_other_vconf_change_cb 377 vconf_get_bool(VCONFKEY_NFC_STATE, &status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-nfc-efl/ug-nfc-setting-efl/src/ug-nfc-setting-main.c __get_text_turned_on_popup 146 if (!vconf_get_bool(VCONFKEY_NFC_STATE, &boolval)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-nfc-efl/ug-nfc-setting-efl/src/ug-nfc-setting-main.c __update_title_onoff_obj 228 if (!vconf_get_bool(VCONFKEY_NFC_STATE, &boolval) &&
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-nfc-efl/ug-nfc-setting-efl/src/ug-nfc-setting-main.c __change_nfc_onoff_setting 245 if (!vconf_get_bool(VCONFKEY_NFC_STATE, &boolval)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-nfc-efl/ug-nfc-setting-efl/src/ug-nfc-setting-main.c __gl_content_get 458 int ret = vconf_get_bool(VCONFKEY_NFC_STATE, &boolval);

@@ -1,0 +1,10 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-wifi-keys.h <global> 43 #define VCONFKEY_WIFI_STRENGTH "memory/wifi/strength"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/wifi.c _wifi_changed_cb 179 ret = vconf_get_int(VCONFKEY_WIFI_STRENGTH, &strength);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/wifi.c _wifi_device_state_changed_cb 230 ret = vconf_get_int(VCONFKEY_WIFI_STRENGTH, &strength);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/wifi.c register_wifi_module 319 ret = vconf_notify_key_changed(VCONFKEY_WIFI_STRENGTH, _wifi_changed_cb, data);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/wifi.c unregister_wifi_module 336 ret = ret | vconf_ignore_key_changed(VCONFKEY_WIFI_STRENGTH, _wifi_changed_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-indicator.c __netconfig_wifi_set_rssi_level 166 netconfig_set_vconf_int(VCONFKEY_WIFI_STRENGTH, snr_level);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-indicator.c netconfig_wifi_indicator_start 343 netconfig_set_vconf_int(VCONFKEY_WIFI_STRENGTH, VCONFKEY_WIFI_STRENGTH_MAX);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wifi/src/net_wifi.c __rssi_level_changed_cb_idle 37 if (vconf_get_int(VCONFKEY_WIFI_STRENGTH, &rssi_level) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wifi/src/net_wifi.c wifi_set_rssi_level_changed_cb 512 vconf_notify_key_changed(VCONFKEY_WIFI_STRENGTH, __rssi_level_changed_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wifi/src/net_wifi.c wifi_unset_rssi_level_changed_cb 527 vconf_ignore_key_changed(VCONFKEY_WIFI_STRENGTH, __rssi_level_changed_cb);

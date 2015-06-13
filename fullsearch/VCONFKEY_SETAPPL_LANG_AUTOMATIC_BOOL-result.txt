@@ -1,0 +1,4 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 479 #define VCONFKEY_SETAPPL_LANG_AUTOMATIC_BOOL "db/setting/lang_automatic"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-general-func.c get_pa_display_language_str 446 ret = vconf_get_bool(VCONFKEY_SETAPPL_LANG_AUTOMATIC_BOOL, &lang_automatic);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-phone/src/setting-phone-display-language.c setting_phone_display_language_close_popup_ex 127 vconf_set_bool(VCONFKEY_SETAPPL_LANG_AUTOMATIC_BOOL, TRUE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-phone/src/setting-phone-display-language.c setting_phone_display_language_close_popup_ex 148 vconf_set_bool(VCONFKEY_SETAPPL_LANG_AUTOMATIC_BOOL, FALSE);

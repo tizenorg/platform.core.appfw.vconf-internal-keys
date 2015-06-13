@@ -1,0 +1,3 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-wifi-keys.h <global> 30 VCONFKEY_WIFI_TRANSFER,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/commonlib/net_nfc_util.c net_nfc_util_get_cps 340 case VCONFKEY_WIFI_TRANSFER :
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/setting.c setting_int_vconf_change_cb 484 case VCONFKEY_WIFI_TRANSFER:

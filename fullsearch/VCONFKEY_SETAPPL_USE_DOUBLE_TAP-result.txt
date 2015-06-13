@@ -1,0 +1,5 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-data-slp-setting.c <global> 245 {"use_double_tap", "motion", BOOL_SLP_SETTING_MOTION_USE_DOUBLE_TAP, VCONFKEY_SETAPPL_USE_DOUBLE_TAP, eBOOL, {0}, export_json, import_default},
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 451 #define VCONFKEY_SETAPPL_USE_DOUBLE_TAP "db/setting/use_double_tap"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/sensord/src/motion/motion_sensor.cpp get_motion_setting 79 if (vconf_get_bool(VCONFKEY_SETAPPL_USE_DOUBLE_TAP, &vconf_val) == 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/sensord/src/motion/motion_sensor.cpp motion_enable_cb 140 } else if (!strcmp(vconf_keynode_get_name(node), VCONFKEY_SETAPPL_USE_DOUBLE_TAP)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/sensord/src/motion/motion_sensor.cpp init 420 vconf_notify_key_changed(VCONFKEY_SETAPPL_USE_DOUBLE_TAP, motion_enable_cb, this);

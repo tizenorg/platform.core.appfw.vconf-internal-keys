@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-wms-keys.h <global> 38 #define VCONFKEY_WMS_POWERKEY_DOUBLE_PRESSING "db/wms/powerkey_double_pressing"

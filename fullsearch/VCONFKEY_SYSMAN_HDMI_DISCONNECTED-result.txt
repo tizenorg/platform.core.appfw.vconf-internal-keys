@@ -1,0 +1,2 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-sysman-keys.h <global> 165 VCONFKEY_SYSMAN_HDMI_DISCONNECTED = 0,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-player/src/mm_player_utils.c util_get_is_connected_external_display 504 if ((is_connected_mirroring == VCONFKEY_SCREEN_MIRRORING_ACTIVATED || is_connected_mirroring == VCONFKEY_SCREEN_MIRRORING_DEACTIVATED) && is_connected_hdmi == VCONFKEY_SYSMAN_HDMI_DISCONNECTED) {

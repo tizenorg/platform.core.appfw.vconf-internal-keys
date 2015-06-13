@@ -1,0 +1,2 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-data-slp-setting.c <global> 301 {"sound_balance", "accessibility", INT_SLP_SETTING_ACCESSIBILITY_SOUND_BALANCE, VCONFKEY_SETAPPL_SOUND_BALANCE_INT, eINT, {0}, export_json, import_default},
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 489 #define VCONFKEY_SETAPPL_SOUND_BALANCE_INT "db/setting/accessibility/sound_balance"

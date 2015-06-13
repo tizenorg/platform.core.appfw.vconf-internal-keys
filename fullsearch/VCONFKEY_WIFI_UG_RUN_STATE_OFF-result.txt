@@ -1,0 +1,2 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-wifi-keys.h <global> 73 VCONFKEY_WIFI_UG_RUN_STATE_OFF,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-efl/sources/ui-gadget/wifi-efl-UG.c on_destroy 356 VCONFKEY_WIFI_UG_RUN_STATE_OFF);

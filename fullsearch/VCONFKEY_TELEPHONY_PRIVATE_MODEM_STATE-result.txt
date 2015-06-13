@@ -1,0 +1,3 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-telephony-keys.h <global> 280 #define VCONFKEY_TELEPHONY_PRIVATE_MODEM_STATE "memory/private/telephony/modem_state"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c on_hook_modem_power 1125 vconf_set_bool(VCONFKEY_TELEPHONY_PRIVATE_MODEM_STATE, FALSE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c on_hook_modem_power 1128 vconf_set_bool(VCONFKEY_TELEPHONY_PRIVATE_MODEM_STATE, TRUE);

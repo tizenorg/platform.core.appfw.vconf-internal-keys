@@ -1,0 +1,11 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-ciss-keys.h <global> 47 #define VCONFKEY_CISSAPPL_REJECT_CALL_MSG_INT "db/ciss/reject_call_message_cnt"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-main.c setting_plugin_reset 574 ret += vconf_set_int(VCONFKEY_CISSAPPL_REJECT_CALL_MSG_INT, 5);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-reject-msg.c _cst_set_num_of_reject_message 328 _cst_vconf_set_int(VCONFKEY_CISSAPPL_REJECT_CALL_MSG_INT, num);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-reject-msg.c _cst_get_num_of_reject_message 336 Eina_Bool result = _cst_vconf_get_int(VCONFKEY_CISSAPPL_REJECT_CALL_MSG_INT, &cnt);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-reject-msg.c __cst_rejectcall_message_check_same_data 352 Eina_Bool result = _cst_vconf_get_int(VCONFKEY_CISSAPPL_REJECT_CALL_MSG_INT, &reject_message_count);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-reject-msg.c __cst_create_genlist_reject_msg 484 vconf_notify_key_changed(VCONFKEY_CISSAPPL_REJECT_CALL_MSG_INT,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-reject-msg.c _cst_destroy_reject_message 1256 vconf_ignore_key_changed(VCONFKEY_CISSAPPL_REJECT_CALL_MSG_INT,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-ui/src/callui-view-incoming-lock.c __reject_msg_list_height_update 712 if (0 != vconf_get_int(VCONFKEY_CISSAPPL_REJECT_CALL_MSG_INT, &msg_cnt)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-ui/src/callui-view-incoming-lock.c __reject_msg_create_glist 761 if (0 != vconf_get_int(VCONFKEY_CISSAPPL_REJECT_CALL_MSG_INT, &msg_cnt)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/ui/src/vcui-view-incoming-lock.c __reject_msg_list_height_update 615 if (0 != vconf_get_int(VCONFKEY_CISSAPPL_REJECT_CALL_MSG_INT, &msg_cnt)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/ui/src/vcui-view-incoming-lock.c __reject_msg_create_glist 657 if (0 != vconf_get_int(VCONFKEY_CISSAPPL_REJECT_CALL_MSG_INT, &msg_cnt)) {

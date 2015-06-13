@@ -1,0 +1,8 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-mobile-hotspot-keys.h <global> 31 VCONFKEY_MOBILE_HOTSPOT_MODE_WIFI_AP = 0x08
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-general-func.c get_tethering_status 2164 if (mobile_ap_status & (VCONFKEY_MOBILE_HOTSPOT_MODE_WIFI | VCONFKEY_MOBILE_HOTSPOT_MODE_WIFI_AP)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tethering/src/tethering.c tethering_is_enabled 1779 vconf_type = VCONFKEY_MOBILE_HOTSPOT_MODE_WIFI_AP;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-mobile-ap/src/mh_view_main.c _update_main_view 438 wifi_ap_state = (Eina_Bool)(state & VCONFKEY_MOBILE_HOTSPOT_MODE_WIFI_AP);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-mobile-ap/src/mh_view_main.c __create_inner_contents 1349 if (ad->main.hotspot_mode & VCONFKEY_MOBILE_HOTSPOT_MODE_WIFI_AP) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-direct/ug-wifidirect/src/wfd_ug.c __wfd_hotspot_mode_vconf_change_cb 134 hotspot_mode == VCONFKEY_MOBILE_HOTSPOT_MODE_WIFI_AP) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-efl/sources/libraries/WlanManager/WlanManager/wlan_manager.c wlan_manager_power_on 513 } else if (VCONFKEY_MOBILE_HOTSPOT_MODE_WIFI_AP & tethering) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wifi-direct-manager/src/wifi-direct-util.c wfd_util_check_mobile_ap_state 399 || (mobile_ap_state & VCONFKEY_MOBILE_HOTSPOT_MODE_WIFI_AP) ) {

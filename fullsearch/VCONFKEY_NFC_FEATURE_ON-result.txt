@@ -1,0 +1,4 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-nfc-keys.h <global> 28 VCONFKEY_NFC_FEATURE_ON
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/manager/net_nfc_manager.c main 189 if (vconf_set_bool(VCONFKEY_NFC_FEATURE, VCONFKEY_NFC_FEATURE_ON) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/manager/net_nfc_manager.c main 192 VCONFKEY_NFC_FEATURE_ON);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-general-func.c is_NFC_feature_supported 2318 if (nfc_value != VCONFKEY_NFC_FEATURE_ON || !is_ug_installed_by_ug_args("setting-nfc-efl")) {

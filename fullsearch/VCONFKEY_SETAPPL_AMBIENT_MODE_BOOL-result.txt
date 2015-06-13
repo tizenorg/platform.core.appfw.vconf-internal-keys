@@ -1,0 +1,10 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 719 #define VCONFKEY_SETAPPL_AMBIENT_MODE_BOOL "db/setting/ambient_mode"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/alpm-wearable.c alpm_init 237 ret = vconf_get_bool(VCONFKEY_SETAPPL_AMBIENT_MODE_BOOL,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/alpm-wearable.c alpm_init 245 vconf_notify_key_changed(VCONFKEY_SETAPPL_AMBIENT_MODE_BOOL,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c _status_passive_change_cb 248 } else if (!strcmp(key_name, VCONFKEY_SETAPPL_AMBIENT_MODE_BOOL)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 440 if (vconf_notify_key_changed(VCONFKEY_SETAPPL_AMBIENT_MODE_BOOL, _status_passive_change_cb, NULL) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 441 _E("Failed to register add the callback for %s", VCONFKEY_SETAPPL_AMBIENT_MODE_BOOL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 442 } else if (vconf_get_int(VCONFKEY_SETAPPL_AMBIENT_MODE_BOOL, &s_status_passive.setappl_ambient_mode_bool) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 443 _E("Failed to get vconfkey[%s]", VCONFKEY_SETAPPL_AMBIENT_MODE_BOOL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_unregister 567 if (vconf_ignore_key_changed(VCONFKEY_SETAPPL_AMBIENT_MODE_BOOL, _status_passive_change_cb) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_unregister 568 _E("Failed to unregister the callback for %s", VCONFKEY_SETAPPL_AMBIENT_MODE_BOOL);

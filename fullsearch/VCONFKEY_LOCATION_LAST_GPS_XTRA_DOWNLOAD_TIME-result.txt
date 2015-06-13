@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-location-keys.h <global> 155 #define VCONFKEY_LOCATION_LAST_GPS_XTRA_DOWNLOAD_TIME "db/location/gps/XtraDownloadTime"

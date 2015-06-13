@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-mobile-hotspot-keys.h <global> 54 #define VCONFKEY_MOBILE_HOTSPOT_IS_DEVICE_RENAME_LOCAL "file/private/libug-setting-mobileap-efl/is_device_rename_local"

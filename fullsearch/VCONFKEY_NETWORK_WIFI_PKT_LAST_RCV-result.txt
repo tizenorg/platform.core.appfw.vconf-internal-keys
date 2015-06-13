@@ -1,0 +1,8 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-dnet-keys.h <global> 99 #define VCONFKEY_NETWORK_WIFI_PKT_LAST_RCV "db/dnet/statistics/wifi/lastrcv"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/network-statistics.c netconfig_iface_network_statistics_get_wifi_last_rx_bytes 261 vconf_get_int(VCONFKEY_NETWORK_WIFI_PKT_LAST_RCV, &val);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/network-statistics.c netconfig_iface_network_statistics_reset_wifi_last_rx_bytes 355 netconfig_set_vconf_int(VCONFKEY_NETWORK_WIFI_PKT_LAST_RCV, 0);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/network-statistics.c netconfig_iface_network_statistics_reset_wifi_last_rx_bytes 360 netconfig_set_vconf_int(VCONFKEY_NETWORK_WIFI_PKT_LAST_RCV, (int )rx);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/network-statistics.c netconfig_iface_network_statistics_reset_wifi_last_rx_bytes 362 netconfig_set_vconf_int(VCONFKEY_NETWORK_WIFI_PKT_LAST_RCV, 0);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/network-statistics.c netconfig_wifi_statistics_update_state 400 netconfig_set_vconf_int(VCONFKEY_NETWORK_WIFI_PKT_LAST_RCV, 0);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/network-statistics.c netconfig_wifi_statistics_update_state 419 vconf_get_int(VCONFKEY_NETWORK_WIFI_PKT_LAST_RCV, &val);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/network-statistics.c netconfig_wifi_statistics_update_state 427 netconfig_set_vconf_int(VCONFKEY_NETWORK_WIFI_PKT_LAST_RCV, (int )last_rx);

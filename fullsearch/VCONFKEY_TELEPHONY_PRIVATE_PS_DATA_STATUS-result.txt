@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-telephony-keys.h <global> 270 #define VCONFKEY_TELEPHONY_PRIVATE_PS_DATA_STATUS "memory/private/telephony/ps_data_status"

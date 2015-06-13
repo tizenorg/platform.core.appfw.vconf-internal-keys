@@ -1,0 +1,2 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-telephony-keys.h <global> 57 VCONFKEY_TELEPHONY_SVCTYPE_EMERGENCY,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-general-func.c get_pa_select_network 853 retv_if(service_type == VCONFKEY_TELEPHONY_SVCTYPE_EMERGENCY, (char *)strdup(_("IDS_CALL_POP_CALLING_EMERG_ONLY")));

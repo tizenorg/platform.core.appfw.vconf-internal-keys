@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-uncategorized-keys.h <global> 221 #define VCONFKEY_UNCATEGORIZED_125 "db/private/msg-service/push_msg/recv_option"

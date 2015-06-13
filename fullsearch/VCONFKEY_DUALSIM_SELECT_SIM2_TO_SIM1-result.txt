@@ -1,0 +1,6 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 676 VCONFKEY_DUALSIM_SELECT_SIM2_TO_SIM1
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-dual-sim-alwayson.c _cst_dualsim_1btn_popup 287 } else if (ugd->dualsim_source_destination == VCONFKEY_DUALSIM_SELECT_SIM2_TO_SIM1) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-dual-sim-alwayson.c __cst_dualsim_done_button_phone_layout 656 case VCONFKEY_DUALSIM_SELECT_SIM2_TO_SIM1:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-dual-sim-alwayson.c _cst_sent_request_to_tapi 1590 } else if (ugd->dualsim_source_destination == VCONFKEY_DUALSIM_SELECT_SIM2_TO_SIM1) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-dual-sim-alwayson.c __cst_gl_dualsim_initial_label_get 1831 case VCONFKEY_DUALSIM_SELECT_SIM2_TO_SIM1:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-dual-sim-alwayson.c __cst_on_click_dualsim_alwayson_process 1918 case VCONFKEY_DUALSIM_SELECT_SIM2_TO_SIM1:

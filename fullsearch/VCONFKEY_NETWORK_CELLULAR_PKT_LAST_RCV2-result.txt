@@ -1,0 +1,5 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-dnet-keys.h <global> 89 #define VCONFKEY_NETWORK_CELLULAR_PKT_LAST_RCV2 "db/dnet/statistics/cellular/lastrcv2"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/connection/src/connection.c __get_cellular_statistic 1175 rv = vconf_get_int(VCONFKEY_NETWORK_CELLULAR_PKT_LAST_RCV2, &last_size);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/connection/src/connection.c __get_cellular_statistic 1182 rv = vconf_get_int(VCONFKEY_NETWORK_CELLULAR_PKT_LAST_RCV2, &last_size);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c convert_strgkey_to_vconf 214 return VCONFKEY_NETWORK_CELLULAR_PKT_LAST_RCV2;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c convert_vconf_to_strgkey 371 else if (g_str_equal(key, VCONFKEY_NETWORK_CELLULAR_PKT_LAST_RCV2) == TRUE) {

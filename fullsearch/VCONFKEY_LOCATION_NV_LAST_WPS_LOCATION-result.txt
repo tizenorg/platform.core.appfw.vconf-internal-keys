@@ -1,0 +1,4 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-location-keys.h <global> 95 #define VCONFKEY_LOCATION_NV_LAST_WPS_LOCATION "db/location/last/wps/Location"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/lbs-server/lbs_server.c nps_set_last_position 221 setting_set_string(VCONFKEY_LOCATION_NV_LAST_WPS_LOCATION, location);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/lbs-server/lbs_server.c nps_get_last_position 1331 str = setting_get_string(VCONFKEY_LOCATION_NV_LAST_WPS_LOCATION);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/module/nps_module.c get_last_position 241 str = vconf_get_str(VCONFKEY_LOCATION_NV_LAST_WPS_LOCATION);

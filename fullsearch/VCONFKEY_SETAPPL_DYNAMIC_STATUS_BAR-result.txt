@@ -1,0 +1,10 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 551 #define VCONFKEY_SETAPPL_DYNAMIC_STATUS_BAR "db/setting/display/dynamic_status_bar"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/daemon/util.c util_dynamic_state_get 556 vconf_get_bool(VCONFKEY_SETAPPL_DYNAMIC_STATUS_BAR, &val);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-applications/src/setting-applications-main.c setting_applications_main_chk_btn_cb 341 vconf_set_bool(VCONFKEY_SETAPPL_DYNAMIC_STATUS_BAR, list_item->chk_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-applications/src/setting-applications-main.c setting_applications_main_vconf_change_cb 445 } else if (!safeStrCmp(vconf_name, VCONFKEY_SETAPPL_DYNAMIC_STATUS_BAR)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-display/src/setting-display-main.c setting_display_main_vconf_change_cb 399 } else if (!safeStrCmp(vconf_name, VCONFKEY_SETAPPL_DYNAMIC_STATUS_BAR)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-display/src/setting-display-main.c setting_display_main_create 471 ret = vconf_notify_key_changed(VCONFKEY_SETAPPL_DYNAMIC_STATUS_BAR,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-display/src/setting-display-main.c setting_display_main_destroy 611 ret = vconf_ignore_key_changed(VCONFKEY_SETAPPL_DYNAMIC_STATUS_BAR,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-display/src/setting-display-main.c setting_display_main_mouse_up_Gendial_list_cb 836 vconf_set_bool(VCONFKEY_SETAPPL_DYNAMIC_STATUS_BAR, list_item->chk_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-display/src/setting-display.c get_display_ug_dynamic_status_state 975 int ret = vconf_get_bool(VCONFKEY_SETAPPL_DYNAMIC_STATUS_BAR, &value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-display/src/setting-display.c set_display_ug_dynamic_status_state 998 int ret = vconf_set_bool(VCONFKEY_SETAPPL_DYNAMIC_STATUS_BAR, value);

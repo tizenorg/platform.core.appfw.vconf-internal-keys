@@ -1,0 +1,2 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-data-slp-setting.c <global> 273 {"call_alert_vib", "sound", INT_SLP_SETTING_CALL_ALERT_VIB, VCONFKEY_SETAPPL_CALL_VIBRATION_PATTERN_INT, eINT, {0}, export_json, import_default},
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 100 #define VCONFKEY_SETAPPL_CALL_VIBRATION_PATTERN_INT "db/setting/sound/call/vibration_type"

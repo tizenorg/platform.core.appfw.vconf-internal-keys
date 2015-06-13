@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-telephony-keys.h <global> 49 VCONFKEY_TELEPHONY_ROAM_ICON_FLASHING_MODE

@@ -1,0 +1,5 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-sound-keys.h <global> 50 #define VCONFKEY_SOUND_BOOT_SOUND "memory/private/sound/booting"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-sound/mm_sound_bootsound.c mm_sound_boot_play_sound 81 return vconf_set_str(VCONFKEY_SOUND_BOOT_SOUND, path);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-sound/server/mm_sound_mgr_pulse.c _booting_changed_cb 2589 booting = vconf_get_str(VCONFKEY_SOUND_BOOT_SOUND);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-sound/server/mm_sound_mgr_pulse.c MMSoundMgrPulseHandleRegisterBooting 2621 int ret = vconf_notify_key_changed(VCONFKEY_SOUND_BOOT_SOUND, _booting_changed_cb, pinfo);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-sound/server/mm_sound_mgr_pulse.c MMSoundMgrPulseHandleRegisterBooting 2622 debug_msg ("vconf [%s] set ret = %d\n", VCONFKEY_SOUND_BOOT_SOUND, ret);

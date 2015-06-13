@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-desktop-mode-keys.h <global> 27 #define VCONFKEY_DESKTOP_MODE_ENABLED_STATUS "db/desktop_mode/desktop_mode_status"

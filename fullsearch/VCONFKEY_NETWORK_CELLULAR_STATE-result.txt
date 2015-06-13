@@ -1,0 +1,20 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-dnet-keys.h <global> 48 #define VCONFKEY_NETWORK_CELLULAR_STATE "memory/dnet/cellular"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/connection/src/connection.c connection_get_cellular_state 626 rv = vconf_get_int(VCONFKEY_NETWORK_CELLULAR_STATE, &status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-agent/src/mobileap_handler.c _register_vconf_cb 181 {VCONFKEY_NETWORK_CELLULAR_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-agent/src/mobileap_handler.c _unregister_vconf_cb 222 {VCONFKEY_NETWORK_CELLULAR_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-agent/src/mobileap_network.c __profile_state_changed_cb 519 ret = vconf_get_int(VCONFKEY_NETWORK_CELLULAR_STATE, &cellular_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-agent/src/mobileap_network.c __profile_state_changed_cb 522 if (vconf_ignore_key_changed(VCONFKEY_NETWORK_CELLULAR_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-agent/src/mobileap_network.c _open_network 1023 if (vconf_get_int(VCONFKEY_NETWORK_CELLULAR_STATE, &cellular_state) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-agent/src/mobileap_network.c _init_network 1148 ret = vconf_notify_key_changed(VCONFKEY_NETWORK_CELLULAR_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-agent/src/mobileap_network.c _deinit_network 1179 vconf_ignore_key_changed(VCONFKEY_NETWORK_CELLULAR_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-syspopup/src/ms_main.c _quit 209 vconf_ignore_key_changed(VCONFKEY_NETWORK_CELLULAR_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-syspopup/src/ms_main.c __app_create 1670 vconf_notify_key_changed(VCONFKEY_NETWORK_CELLULAR_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c convert_strgkey_to_vconf 197 return VCONFKEY_NETWORK_CELLULAR_STATE;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c convert_vconf_to_strgkey 348 else if (g_str_equal(key, VCONFKEY_NETWORK_CELLULAR_STATE) == TRUE) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tethering/src/tethering.c __check_precondition 1345 vconf_get_int(VCONFKEY_NETWORK_CELLULAR_STATE, &cellular_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-mobile-ap/src/mh_main_ug.c __set_callbacks 101 vconf_notify_key_changed(VCONFKEY_NETWORK_CELLULAR_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-mobile-ap/src/mh_main_ug.c __unset_callbacks 159 vconf_ignore_key_changed(VCONFKEY_NETWORK_CELLULAR_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/video-player/src/common/mp-video-streaming-ctrl.c mp_streaming_ctrl_cellular_state_cb 273 if (!strcmp(szkeyname, VCONFKEY_NETWORK_CELLULAR_STATE)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/video-player/src/common/mp-video-streaming-ctrl.c mp_streaming_ctrl_set_notify_cellular_state 405 nRet = vconf_notify_key_changed(VCONFKEY_NETWORK_CELLULAR_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/video-player/src/common/mp-video-streaming-ctrl.c mp_streaming_ctrl_get_cellular_state 543 (VCONFKEY_NETWORK_CELLULAR_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/web-provider/src/Daemon/BoxDaemonImpl.cpp create 67 if (vconf_notify_key_changed(VCONFKEY_NETWORK_CELLULAR_STATE, requestUpdateAppBoxCallback, this) != 0) {

@@ -1,0 +1,10 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-location-keys.h <global> 99 #define VCONFKEY_LOCATION_REPLAY_ENABLED "db/location/replay/ReplayEnabled"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/lbs-server/gps_plugin_module.c load_plugin_module 54 setting_set_int(VCONFKEY_LOCATION_REPLAY_ENABLED, 1);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/lbs-server/server.c get_replay_enabled 142 if (setting_get_int(VCONFKEY_LOCATION_REPLAY_ENABLED, &int_val) == FALSE) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/lbs-server/server.c request_start_session 278 setting_ignore_key_changed(VCONFKEY_LOCATION_REPLAY_ENABLED, _gps_replay_changed_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/lbs-server/server.c request_stop_session 301 setting_notify_key_changed(VCONFKEY_LOCATION_REPLAY_ENABLED, _gps_replay_changed_cb, (void *)server);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/lbs-server/server.c request_start_batch_session 340 setting_ignore_key_changed(VCONFKEY_LOCATION_REPLAY_ENABLED, _gps_replay_changed_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/lbs-server/server.c request_stop_batch_session 363 setting_notify_key_changed(VCONFKEY_LOCATION_REPLAY_ENABLED, _gps_replay_changed_cb, (void *)server);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/lbs-server/server.c _gps_get_nmea_replay_mode 501 if (setting_get_int(VCONFKEY_LOCATION_REPLAY_ENABLED, &int_val) == FALSE) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/lbs-server/server.c _gps_notify_params 511 setting_notify_key_changed(VCONFKEY_LOCATION_REPLAY_ENABLED, _gps_replay_changed_cb, (void *)server);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/lbs-server/server.c _gps_ignore_params 517 setting_ignore_key_changed(VCONFKEY_LOCATION_REPLAY_ENABLED, _gps_replay_changed_cb);

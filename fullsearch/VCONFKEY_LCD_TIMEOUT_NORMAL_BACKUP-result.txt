@@ -1,0 +1,7 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-data-slp-setting.c <global> 262 {"lcd_timeout_normal_backup", "display", INT_SLP_SETTING_LCD_TIMEOUT_NORMAL_BACKUP, VCONFKEY_LCD_TIMEOUT_NORMAL_BACKUP, eINT, {0}, export_json, import_default},
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 495 #define VCONFKEY_LCD_TIMEOUT_NORMAL_BACKUP "db/setting/lcd_timeout_normal_backup"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-general-func.c get_pa_backlight_time_str 207 if (0 != vconf_get_int(VCONFKEY_LCD_TIMEOUT_NORMAL_BACKUP, &value)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-general-func.c get_pa_backlight_time_str 213 vconf_set_int(VCONFKEY_LCD_TIMEOUT_NORMAL_BACKUP, value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-display/src/setting-display.c setting_reset_display_backlight 766 ret += vconf_set_int(VCONFKEY_LCD_TIMEOUT_NORMAL_BACKUP, 0);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/setting.c setting_main_app_terminate 789 vconf_get_int(VCONFKEY_LCD_TIMEOUT_NORMAL_BACKUP, &back_value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/setting.c setting_main_app_pause 823 vconf_get_int(VCONFKEY_LCD_TIMEOUT_NORMAL_BACKUP, &back_value);

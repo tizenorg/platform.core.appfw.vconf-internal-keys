@@ -1,0 +1,5 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-data-slp-setting.c <global> 248 {"use_panning_browser", "motion", BOOL_SLP_SETTING_MOTION_USE_PANNING_BROWSER, VCONFKEY_SETAPPL_USE_PANNING_BROWSER, eBOOL, {0}, export_json, import_default},
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 445 #define VCONFKEY_SETAPPL_USE_PANNING_BROWSER "db/setting/use_panning_browser"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/sensord/src/motion/motion_sensor.cpp get_motion_setting 94 if (vconf_get_bool(VCONFKEY_SETAPPL_USE_PANNING_BROWSER, &vconf_val) == 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/sensord/src/motion/motion_sensor.cpp motion_enable_cb 146 } else if (!strcmp(vconf_keynode_get_name(node), VCONFKEY_SETAPPL_USE_PANNING_BROWSER)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/sensord/src/motion/motion_sensor.cpp init 423 vconf_notify_key_changed(VCONFKEY_SETAPPL_USE_PANNING_BROWSER, motion_enable_cb, this);

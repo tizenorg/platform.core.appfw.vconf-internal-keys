@@ -1,0 +1,74 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/dali-adaptor/adaptors/tizen/vsync-monitor-tizen.cpp <global> 58 vconf_get_int( VCONFKEY_PM_STATE, &status );
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/dali-adaptor/adaptors/tizen/vsync-monitor-tizen.cpp <global> 79 vconf_notify_key_changed( VCONFKEY_PM_STATE, ScreenStatusChanged, this );
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/dali-adaptor/adaptors/tizen/vsync-monitor-tizen.cpp <global> 86 vconf_ignore_key_changed( VCONFKEY_PM_STATE, ScreenStatusChanged );
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-pm-keys.h <global> 24 #define VCONFKEY_PM_STATE "memory/pm/state"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/add-viewer/src/util.c util_is_lcd_off 400 if (vconf_get_int(VCONFKEY_PM_STATE, &state) != 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/app-core/src/appcore-efl.c __visibility_cb 888 vconf_get_int(VCONFKEY_PM_STATE, &lcd_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth/src/bt-util.c _bt_util_get_lcd_status 463 if(vconf_get_int(VCONFKEY_PM_STATE, val) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-provider-master/src/setting.c setting_is_lcd_off 90 if (vconf_get_int(VCONFKEY_PM_STATE, &state) != 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-provider-master/src/setting.c setting_init 271 ret = vconf_notify_key_changed(VCONFKEY_PM_STATE, lcd_state_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-provider-master/src/setting.c setting_fini 320 ret = vconf_ignore_key_changed(VCONFKEY_PM_STATE, lcd_state_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/device/src/callback.c register_request 230 return vconf_notify_key_changed(VCONFKEY_PM_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/device/src/callback.c release_request 260 return vconf_ignore_key_changed(VCONFKEY_PM_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/device/src/display.c device_display_get_state 170 ret = vconf_get_int(VCONFKEY_PM_STATE, &val);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/setting.c set_setting_pmstate 127 return vconf_set_int(VCONFKEY_PM_STATE, val);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/proc/proc-handler.c siop_mode_lcd 256 if (vconf_get_int(VCONFKEY_PM_STATE, &pm_state) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/proc/proc-handler.c proc_booting_done 704 if (vconf_notify_key_changed(VCONFKEY_PM_STATE, (void *)siop_mode_lcd, NULL) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/proc/proc-handler.c proc_booting_done 705 _E("Vconf notify key chaneged failed: KEY(%s)", VCONFKEY_PM_STATE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/elm-modules/access_output_tts/src/mod.c _text_add 39 vconf_get_int(VCONFKEY_PM_STATE, &lcd_val);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/daemon/box.c box_handle_animated_gif 1013 if (vconf_get_int(VCONFKEY_PM_STATE, &val) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/daemon/main.c _indicator_notify_pm_state_cb 139 if (vconf_get_int(VCONFKEY_PM_STATE, &val) < 0) return;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/daemon/main.c register_event_handler 539 if (vconf_notify_key_changed(VCONFKEY_PM_STATE, _indicator_notify_pm_state_cb, (void *)ad) != 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/daemon/main.c unregister_event_handler 572 vconf_ignore_key_changed(VCONFKEY_PM_STATE, _indicator_notify_pm_state_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/information/lowmem.c register_lowmem_module 219 ret = vconf_notify_key_changed(VCONFKEY_PM_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/information/lowmem.c unregister_lowmem_module 235 ret = vconf_ignore_key_changed(VCONFKEY_PM_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/information/mmc.c indicator_mmc_pm_state_change_cb 141 if (vconf_get_int(VCONFKEY_PM_STATE, &status) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/information/mmc.c register_mmc_module 191 ret = ret | vconf_notify_key_changed(VCONFKEY_PM_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/information/mmc.c unregister_mmc_module 208 ret = ret | vconf_ignore_key_changed(VCONFKEY_PM_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/power/battery.c indicator_battery_pm_state_change_cb 680 vconf_get_int(VCONFKEY_PM_STATE, &status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/power/battery.c register_battery_module 776 ret = vconf_notify_key_changed(VCONFKEY_PM_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/power/battery.c unregister_battery_module 812 ret = ret | vconf_ignore_key_changed(VCONFKEY_PM_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/processing/downloading.c indicator_downloading_pm_state_change_cb 152 if (vconf_get_int(VCONFKEY_PM_STATE, &status) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/processing/downloading.c register_downloading_module 196 ret = ret | vconf_notify_key_changed(VCONFKEY_PM_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/processing/downloading.c unregister_downloading_module 211 ret = ret | vconf_ignore_key_changed(VCONFKEY_PM_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/processing/uploading.c indicator_uploading_pm_state_change_cb 152 vconf_get_int(VCONFKEY_PM_STATE, &status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/processing/uploading.c register_uploading_module 185 ret = ret | vconf_notify_key_changed(VCONFKEY_PM_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/processing/uploading.c unregister_uploading_module 200 ret = ret | vconf_ignore_key_changed(VCONFKEY_PM_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/setting/gps.c indicator_gps_pm_state_change_cb 188 if (vconf_get_int(VCONFKEY_PM_STATE, &status) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/setting/gps.c register_gps_module 257 ret = vconf_notify_key_changed(VCONFKEY_PM_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/setting/gps.c unregister_gps_module 271 ret = ret | vconf_ignore_key_changed(VCONFKEY_PM_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-background-scan.c __netconfig_wifi_bgscan_next_scan 201 vconf_get_int(VCONFKEY_PM_STATE, &pm_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-background-scan.c netconfig_iface_wifi_set_bgscan 289 vconf_get_int(VCONFKEY_PM_STATE, &pm_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-indicator.c __netconfig_wifi_indicator_monitor 325 vconf_get_int(VCONFKEY_PM_STATE, &pm_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-power.c __netconfig_wifi_pm_state_mode 725 vconf_get_int(VCONFKEY_PM_STATE, &new_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-power.c netconfig_wifi_power_initialize 889 vconf_notify_key_changed(VCONFKEY_PM_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/manager/net_nfc_server_common.c restart_polling_loop_thread_func 447 if (vconf_get_int(VCONFKEY_PM_STATE, &pm_state) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/manager/net_nfc_server_vconf.c net_nfc_server_vconf_pm_state_changed 88 result = vconf_get_int(VCONFKEY_PM_STATE, &pm_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/manager/net_nfc_server_vconf.c net_nfc_server_vconf_init 268 vconf_notify_key_changed(VCONFKEY_PM_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/manager/net_nfc_server_vconf.c net_nfc_check_start_polling_vconf 352 if (vconf_get_int(VCONFKEY_PM_STATE, &pm_state) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/quickpanel-ui.c _vconf_event_lcdoff_cb 506 ret = vconf_get_int(VCONFKEY_PM_STATE, &pm_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/quickpanel-ui.c _vconf_init 564 ret = vconf_notify_key_changed(VCONFKEY_PM_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/quickpanel-ui.c _vconf_fini 581 ret = vconf_ignore_key_changed(VCONFKEY_PM_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/sensord/src/context/context_sensor.cpp is_display_on 296 if (vconf_get_int(VCONFKEY_PM_STATE, &lcd_state) != 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/sensord/src/libsensord/client.cpp set_power_save_state_cb 78 vconf_notify_key_changed(VCONFKEY_PM_STATE, power_save_state_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/sensord/src/libsensord/client.cpp unset_power_save_state_cb 92 vconf_ignore_key_changed(VCONFKEY_PM_STATE, power_save_state_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/sensord/src/libsensord/client.cpp get_power_save_state 117 vconf_get_int(VCONFKEY_PM_STATE, &pm_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c lcd_state_changed 1195 if (vconf_ignore_key_changed(VCONFKEY_PM_STATE, lcd_state_changed) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c __progress_popup_cb 1551 if (vconf_ignore_key_changed(VCONFKEY_PM_STATE, lcd_state_changed) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c __mode_syspopup_add 2769 if (vconf_notify_key_changed(VCONFKEY_PM_STATE, lcd_state_changed, ad) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c __mode_syspopup_add 2839 if (vconf_notify_key_changed(VCONFKEY_PM_STATE, lcd_state_changed, ad) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c __mode_syspopup_app_terminate 3313 if (vconf_ignore_key_changed(VCONFKEY_PM_STATE, lcd_state_changed) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c _status_active_change_cb 145 if (!strcmp(key_name, VCONFKEY_PM_STATE)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 285 if (vconf_notify_key_changed(VCONFKEY_PM_STATE, _status_active_change_cb, NULL) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 286 _E("Failed to register add the callback for %s", VCONFKEY_PM_STATE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 287 } else if (vconf_get_int(VCONFKEY_PM_STATE, &s_status_active.pm_state) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 288 _E("Failed to get vconfkey[%s]", VCONFKEY_PM_STATE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_unregister 476 if (vconf_ignore_key_changed(VCONFKEY_PM_STATE, _status_active_change_cb) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_unregister 477 _E("Failed to unregister the callback for %s", VCONFKEY_PM_STATE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-popup/src/poweroff/poweroff.c pm_state_changed 34 vconf_ignore_key_changed(VCONFKEY_PM_STATE, pm_state_changed);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-popup/src/poweroff/poweroff.c register_handlers 43 VCONFKEY_PM_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-popup/src/poweroff/poweroff.c unregister_handlers 51 vconf_ignore_key_changed(VCONFKEY_PM_STATE, pm_state_changed);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c convert_strgkey_to_vconf 177 return VCONFKEY_PM_STATE;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c convert_vconf_to_strgkey 317 else if (g_str_equal(key, VCONFKEY_PM_STATE) == TRUE) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/video-player/playview/src/common/vp-play-vconf.c vp_play_vconf_get_lcd_off_state 234 nErr = vconf_get_int(VCONFKEY_PM_STATE, &nVal);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/volume-app/src/control.c volume_control_get_vconf_idlelock 213 if(vconf_get_int(VCONFKEY_PM_STATE, &pm_state) < 0)

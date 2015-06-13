@@ -1,0 +1,37 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/setting.c <global> 38 [SETTING_BRT_LEVEL] = VCONFKEY_SETAPPL_LCD_BRIGHTNESS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-data-slp-setting.c <global> 260 {"lcd_brightness", "display", INT_SLP_SETTING_LCD_BRIGHTNESS, VCONFKEY_SETAPPL_LCD_BRIGHTNESS, eINT, {0}, export_json, import_default},
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 46 #define VCONFKEY_SETAPPL_LCD_BRIGHTNESS "db/setting/Brightness"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webapi-plugins/src/power/power_manager.cc <global> 406 vconf_get_int(VCONFKEY_SETAPPL_LCD_BRIGHTNESS, &brightness);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webapi-plugins/src/systeminfo/systeminfo-utils.cpp <global> 748 RegisterVconfCallback(VCONFKEY_SETAPPL_LCD_BRIGHTNESS, OnDisplayChangedCb, instance))
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webapi-plugins/src/systeminfo/systeminfo-utils.cpp <global> 760 UnregisterVconfCallback(VCONFKEY_SETAPPL_LCD_BRIGHTNESS, OnDisplayChangedCb))
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webapi-plugins/src/systeminfo/systeminfo-utils.cpp <global> 1821 if (kVconfErrorNone == vconf_get_int(VCONFKEY_SETAPPL_LCD_BRIGHTNESS, &brightness)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/auto-brightness-sensorhub.c set_default_brightness 117 vconf_set_int(VCONFKEY_SETAPPL_LCD_BRIGHTNESS, brt);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/auto-brightness.c set_autobrightness_state 537 vconf_set_int(VCONFKEY_SETAPPL_LCD_BRIGHTNESS, brt);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/brightness-mobile.c update_brightness 49 ret = vconf_get_int(VCONFKEY_SETAPPL_LCD_BRIGHTNESS, &val);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/brightness-mobile.c update_brightness 60 ret = vconf_set_int(VCONFKEY_SETAPPL_LCD_BRIGHTNESS, new_val);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/core.c check_seed_status 1933 vconf_set_int(VCONFKEY_SETAPPL_LCD_BRIGHTNESS, brt);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/display-dbus.c edbus_setbrightness 450 if (vconf_set_int(VCONFKEY_SETAPPL_LCD_BRIGHTNESS, brt) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/display-dbus.c edbus_releasebrightness 546 if (vconf_get_int(VCONFKEY_SETAPPL_LCD_BRIGHTNESS, &setting) != 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/display-dbus.c sim_signal_handler 1415 vconf_set_int(VCONFKEY_SETAPPL_LCD_BRIGHTNESS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/enhance-mobile.c set_mbm_on 261 ret = vconf_get_int(VCONFKEY_SETAPPL_LCD_BRIGHTNESS, &val);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/hbm.c hbm_off_cb 94 vconf_set_int(VCONFKEY_SETAPPL_LCD_BRIGHTNESS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/hbm.c hbm_check_timeout 221 vconf_set_int(VCONFKEY_SETAPPL_LCD_BRIGHTNESS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/hbm.c hbm_exit 328 vconf_set_int(VCONFKEY_SETAPPL_LCD_BRIGHTNESS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/setting.c get_setting_brightness 132 return vconf_get_int(VCONFKEY_SETAPPL_LCD_BRIGHTNESS, level);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/device/brightness.c _brightness_get_level 208 if (vconf_get_int(VCONFKEY_SETAPPL_LCD_BRIGHTNESS, &level) == 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/device/brightness.c _brightness_register_event_cb 582 ret = vconf_notify_key_changed(VCONFKEY_SETAPPL_LCD_BRIGHTNESS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/device/brightness.c _brightness_deregister_event_cb 598 ret = vconf_ignore_key_changed(VCONFKEY_SETAPPL_LCD_BRIGHTNESS, _brightness_vconf_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-display/src/setting-display-brightness.c setting_brightness_dbus_signal_filter 141 vconf_get_int(VCONFKEY_SETAPPL_LCD_BRIGHTNESS, &value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-display/src/setting-display-brightness.c setting_brightness_dbus_signal_filter 143 vconf_set_int(VCONFKEY_SETAPPL_LCD_BRIGHTNESS, ad->data_br_sli->slider_max);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-display/src/setting-display-brightness.c _brightness_register_event_cb 247 ret = vconf_notify_key_changed(VCONFKEY_SETAPPL_LCD_BRIGHTNESS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-display/src/setting-display-brightness.c _brightness_deregister_event_cb 271 ret = vconf_ignore_key_changed(VCONFKEY_SETAPPL_LCD_BRIGHTNESS, __display_int_vconf_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-display/src/setting-display-brightness.c __display_int_vconf_cb 505 if (!safeStrCmp(vconf_name, VCONFKEY_SETAPPL_LCD_BRIGHTNESS)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-display/src/setting-display-brightness.c __display_brightness_get_vconf_need_save 633 return VCONFKEY_SETAPPL_LCD_BRIGHTNESS;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-display/src/setting-display-brightness.c setting_display_set_slider_value 1096 if (!safeStrCmp(vconf_str, VCONFKEY_SETAPPL_LCD_BRIGHTNESS)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-display/src/setting-display-brightness.c setting_display_set_slider_value 1117 vconf_get_int(VCONFKEY_SETAPPL_LCD_BRIGHTNESS, &tmp);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-display/src/setting-display.c setting_reset_display_brightness 745 ret += vconf_set_int(VCONFKEY_SETAPPL_LCD_BRIGHTNESS, SETTING_BRIGHTNESS_DEFAULT_LEVEL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-display/src/setting-display.c setting_reset_display_brightness 750 ret += vconf_set_int(VCONFKEY_SETAPPL_LCD_BRIGHTNESS, SETTING_BRIGHTNESS_DEFAULT_LEVEL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c _mode_backup_settings 686 vconf_get_int(VCONFKEY_SETAPPL_LCD_BRIGHTNESS, &val);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c _mode_power_backup_settings 805 vconf_get_int(VCONFKEY_SETAPPL_LCD_BRIGHTNESS, &val);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c _mode_apply_settings 930 vconf_get_int(VCONFKEY_SETAPPL_LCD_BRIGHTNESS, &crt_val);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c _mode_apply_settings 972 ret = vconf_set_int(VCONFKEY_SETAPPL_LCD_BRIGHTNESS, val);

@@ -1,0 +1,5 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 501 #define VCONFKEY_SETAPPL_LED_INDICATOR_NOTIFICATIONS "db/setting/led_indicator/notifications"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/service/noti_led.c _is_led_enabled 151 ret = vconf_get_bool(VCONFKEY_SETAPPL_LED_INDICATOR_NOTIFICATIONS, &status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/service/noti_led.c quickpanel_noti_led_init 347 ret = vconf_notify_key_changed(VCONFKEY_SETAPPL_LED_INDICATOR_NOTIFICATIONS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/service/noti_led.c quickpanel_noti_led_fini 366 ret = vconf_ignore_key_changed(VCONFKEY_SETAPPL_LED_INDICATOR_NOTIFICATIONS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/service/noti_led.c quickpanel_noti_led_fini 370 VCONFKEY_SETAPPL_LED_INDICATOR_NOTIFICATIONS, ret);

@@ -1,0 +1,8 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-sysman-keys.h <global> 50 #define VCONFKEY_SYSMAN_BATTERY_LEVEL_STATUS "memory/sysman/battery_level_status"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/device/src/battery.c device_battery_get_level_status 75 ret = vconf_get_int(VCONFKEY_SYSMAN_BATTERY_LEVEL_STATUS, &val);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/device/src/callback.c register_request 224 return vconf_notify_key_changed(VCONFKEY_SYSMAN_BATTERY_LEVEL_STATUS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/device/src/callback.c release_request 254 return vconf_ignore_key_changed(VCONFKEY_SYSMAN_BATTERY_LEVEL_STATUS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/battery/lowbat-handler.c change_lowbat_level 432 if (vconf_get_int(VCONFKEY_SYSMAN_BATTERY_LEVEL_STATUS, &prev) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/battery/lowbat-handler.c change_lowbat_level 451 vconf_set_int(VCONFKEY_SYSMAN_BATTERY_LEVEL_STATUS, now);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/led/torch.c torch_led_status_cb 145 vconf_notify_key_changed(VCONFKEY_SYSMAN_BATTERY_LEVEL_STATUS, torch_battery_status_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/led/torch.c torch_led_status_cb 153 vconf_ignore_key_changed(VCONFKEY_SYSMAN_BATTERY_LEVEL_STATUS, torch_battery_status_cb);

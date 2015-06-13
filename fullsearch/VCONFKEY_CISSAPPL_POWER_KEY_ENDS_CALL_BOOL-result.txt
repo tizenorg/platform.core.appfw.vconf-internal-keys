@@ -1,0 +1,16 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-data-slp-setting.c <global> 233 {"powerkey_end_calls", "accessibility", BOOL_SLP_SETTING_ACCESSIBILITY_POWERKEY_END_CALLS, VCONFKEY_CISSAPPL_POWER_KEY_ENDS_CALL_BOOL, eBOOL, {0}, export_json, import_default},
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-ciss-keys.h <global> 87 #define VCONFKEY_CISSAPPL_POWER_KEY_ENDS_CALL_BOOL "db/ciss/call_power_key_ends_call"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-answering.c __cst_on_click_power_key_ends_call 83 _cst_vconf_set_bool(VCONFKEY_CISSAPPL_POWER_KEY_ENDS_CALL_BOOL, !check_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-answering.c __cst_on_changed_power_key_ends_call 113 _cst_vconf_set_bool(VCONFKEY_CISSAPPL_POWER_KEY_ENDS_CALL_BOOL, check_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-answering.c __cst_gl_answering_ending_icon_get 146 _cst_vconf_get_bool(VCONFKEY_CISSAPPL_POWER_KEY_ENDS_CALL_BOOL, &value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-answering.c __cst_create_gl_answering_ending 248 vconf_notify_key_changed(VCONFKEY_CISSAPPL_POWER_KEY_ENDS_CALL_BOOL,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-answering.c _cst_destroy_answering_call 342 vconf_ignore_key_changed(VCONFKEY_CISSAPPL_POWER_KEY_ENDS_CALL_BOOL,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-call-setting.c __cst_on_click_proximity_sensor 510 _cst_vconf_get_bool(VCONFKEY_CISSAPPL_POWER_KEY_ENDS_CALL_BOOL, &value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-call-setting.c __cst_on_changed_proximity_sensor_check 575 _cst_vconf_get_bool(VCONFKEY_CISSAPPL_POWER_KEY_ENDS_CALL_BOOL, &value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-main.c setting_plugin_reset 552 ret += vconf_set_bool(VCONFKEY_CISSAPPL_POWER_KEY_ENDS_CALL_BOOL, EINA_FALSE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-ui/src/callui-common.c _callui_common_dvc_set_lcd_timeout 732 int ret = vconf_get_bool(VCONFKEY_CISSAPPL_POWER_KEY_ENDS_CALL_BOOL, &bPowerkeyMode);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-ui/src/callui-common.c _callui_common_is_powerkey_mode_on 828 ret = vconf_get_bool(VCONFKEY_CISSAPPL_POWER_KEY_ENDS_CALL_BOOL, &bPowerkeyMode);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/voice-call-device.c _voicecall_dvc_set_lcd_timeout 341 int ret = vconf_get_bool(VCONFKEY_CISSAPPL_POWER_KEY_ENDS_CALL_BOOL, &bPowerkeyMode);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/ui/src/vcui-application.c __vcui_app_service 594 if (vconf_notify_key_changed(VCONFKEY_CISSAPPL_POWER_KEY_ENDS_CALL_BOOL,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/ui/src/vcui-application.c __vcui_app_terminate 1546 ret_value = vconf_ignore_key_changed(VCONFKEY_CISSAPPL_POWER_KEY_ENDS_CALL_BOOL,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/ui/src/vcui-application.c _vcui_is_powerkey_mode_on 2262 ret = vconf_get_bool(VCONFKEY_CISSAPPL_POWER_KEY_ENDS_CALL_BOOL, &bPowerkeyMode);

@@ -1,0 +1,17 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-sysman-keys.h <global> 182 VCONFKEY_SYSMAN_POWER_OFF_RESTART = 3
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/crash-worker/src/crash-manager/worker.c launch_crash_popup 240 val == VCONFKEY_SYSMAN_POWER_OFF_RESTART)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-provider-master/src/setting.c power_off_cb 109 if (val == VCONFKEY_SYSMAN_POWER_OFF_DIRECT || val == VCONFKEY_SYSMAN_POWER_OFF_RESTART) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/core.c update_setting 1902 case VCONFKEY_SYSMAN_POWER_OFF_RESTART:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/power/power-handler.c power_off_execute 348 if (power_off == VCONFKEY_SYSMAN_POWER_OFF_DIRECT || power_off == VCONFKEY_SYSMAN_POWER_OFF_RESTART) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/power/power-handler.c power_off_execute 369 val = VCONFKEY_SYSMAN_POWER_OFF_RESTART;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/power/power-handler.c power_off_execute 378 if (val == VCONFKEY_SYSMAN_POWER_OFF_DIRECT || val == VCONFKEY_SYSMAN_POWER_OFF_RESTART) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/power/power-handler.c power_off_execute 391 case VCONFKEY_SYSMAN_POWER_OFF_RESTART:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/power/systemd-power.c poweroff_control_cb 146 case VCONFKEY_SYSMAN_POWER_OFF_RESTART:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/power/systemd-power.c poweroff_control_cb 147 val = VCONFKEY_SYSMAN_POWER_OFF_RESTART;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/power/systemd-power.c poweroff_control_cb 154 val = VCONFKEY_SYSMAN_POWER_OFF_RESTART;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/daemon/main.c _indicator_power_off_status_cb 185 case VCONFKEY_SYSMAN_POWER_OFF_RESTART:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmedia-thumbnail/server/thumb-server-internal.c _thumb_daemon_power_off_cb 111 if (status == VCONFKEY_SYSMAN_POWER_OFF_DIRECT || status == VCONFKEY_SYSMAN_POWER_OFF_RESTART)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/media-server/src/server/media-server-main.c _ms_check_pw_status 310 pw_status == VCONFKEY_SYSMAN_POWER_OFF_RESTART) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/quickpanel-ui.c _vconf_event_powerff_cb 495 (val == VCONFKEY_SYSMAN_POWER_OFF_DIRECT || val == VCONFKEY_SYSMAN_POWER_OFF_RESTART)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/mobile/home_mgr.c _power_off_cb 378 if (val == VCONFKEY_SYSMAN_POWER_OFF_DIRECT || val == VCONFKEY_SYSMAN_POWER_OFF_RESTART) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/mobile/starter.c _power_off_cb 107 || val == VCONFKEY_SYSMAN_POWER_OFF_RESTART)

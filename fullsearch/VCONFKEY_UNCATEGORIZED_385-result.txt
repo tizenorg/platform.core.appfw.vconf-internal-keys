@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-uncategorized-keys.h <global> 422 #define VCONFKEY_UNCATEGORIZED_385 "db/wms/home_bg_mode"

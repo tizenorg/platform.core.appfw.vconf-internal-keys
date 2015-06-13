@@ -1,0 +1,4 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-alarm-keys.h <global> 32 #define VCONFKEY_ALARM_RINGING "memory/alarm/ringing"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/ui/src/vcui-view-dialing.c __vcui_view_dialing_onshow 393 if (vconf_get_bool(VCONFKEY_ALARM_RINGING, &balarm_status) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/ui/src/vcui-view-popup.c _vcui_view_popup_load_intl_dial_assist 2320 if (vconf_get_bool(VCONFKEY_ALARM_RINGING, &balarm_status) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/core.c default_check 1741 vconf_get_bool(VCONFKEY_ALARM_RINGING, &app_state);

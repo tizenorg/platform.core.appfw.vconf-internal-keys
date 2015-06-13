@@ -1,0 +1,3 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 69 #define VCONFKEY_SETAPPL_EMERGENCY_LCD_TIMEOUT_INT "db/setting/lcd_timeout_emergency"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/powersaver/powersaver-mobile.c set_powersaver_mode 71 ret = vconf_get_int(VCONFKEY_SETAPPL_EMERGENCY_LCD_TIMEOUT_INT,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/powersaver/powersaver-wearable.c set_powersaver_mode 62 ret = vconf_get_int(VCONFKEY_SETAPPL_EMERGENCY_LCD_TIMEOUT_INT,

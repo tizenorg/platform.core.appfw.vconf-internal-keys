@@ -1,0 +1,8 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 586 #define VCONFKEY_SETAPPL_PERSONAL_MODE_STATUS_BOOL "memory/setting/personal"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-cfg.c personalmode_toggle_get_state 1273 int ret = vconf_get_bool(VCONFKEY_SETAPPL_PERSONAL_MODE_STATUS_BOOL, &value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-password/src/setting-password-forgot-password.c __reset_personal_popup_resp_cb 58 vconf_set_bool(VCONFKEY_SETAPPL_PERSONAL_MODE_STATUS_BOOL, 0);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/personal_mode_util/setting_personal_mode.c personal_mode_unmount 82 vconf_set_bool(VCONFKEY_SETAPPL_PERSONAL_MODE_STATUS_BOOL, 0);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/personal_mode_util/setting_personal_mode.c personal_mode_service 226 vconf_get_bool(VCONFKEY_SETAPPL_PERSONAL_MODE_STATUS_BOOL, &curStatus);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/setting-handler.c __personal_mode_handler 213 int ret = vconf_get_bool(VCONFKEY_SETAPPL_PERSONAL_MODE_STATUS_BOOL, &value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/setting-handler.c __personal_mode_cb 798 vconf_get_bool(VCONFKEY_SETAPPL_PERSONAL_MODE_STATUS_BOOL, &status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/setting.c setting_main_app_resume 859 vconf_get_bool(VCONFKEY_SETAPPL_PERSONAL_MODE_STATUS_BOOL, &status);

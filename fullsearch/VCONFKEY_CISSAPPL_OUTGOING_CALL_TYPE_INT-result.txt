@@ -1,0 +1,4 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-hotfix.h <global> 76 #define VCONFKEY_CISSAPPL_OUTGOING_CALL_TYPE_INT "db/ciss/outgoing_call_type"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-agent/ag-agent/bluetooth-ag-agent.c __bt_get_outgoing_callapp_type 509 VCONFKEY_CISSAPPL_OUTGOING_CALL_TYPE_INT,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-agent/ag-agent/bluetooth-ag-agent.c __bt_get_outgoing_callapp_type 513 VCONFKEY_CISSAPPL_OUTGOING_CALL_TYPE_INT);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-agent/ag-agent/bluetooth-ag-agent.c __bt_get_outgoing_callapp_type 518 VCONFKEY_CISSAPPL_OUTGOING_CALL_TYPE_INT, *callapp_type);

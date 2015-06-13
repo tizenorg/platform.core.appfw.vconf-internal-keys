@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-pm-keys.h <global> 51 #define VCONFKEY_PM_BRIGHTNESS_CHANGED_IN_LPM "memory/pm/brt_changed_lpm"

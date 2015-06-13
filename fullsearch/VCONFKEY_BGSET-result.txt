@@ -1,0 +1,9 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 463 #define VCONFKEY_BGSET "db/menu_widget/bgset"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/setting.c setting_string_vconf_change_cb 623 } else if (!safeStrCmp(vconf_name, VCONFKEY_BGSET)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/setting.c setting_main_app_reset 1003 REGISTER_VCONF_NODE(ad->listened_list, VCONFKEY_BGSET, cb, ad);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-settings/src/system_setting_platform.c system_setting_get_wallpaper_home_screen 139 if (system_setting_vconf_get_value_string(VCONFKEY_BGSET, &vconf_value)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-settings/src/system_setting_platform.c system_setting_set_wallpaper_home_screen 523 if (system_setting_vconf_set_value_string(VCONFKEY_BGSET, vconf_value)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-settings/src/system_setting_platform.c system_setting_set_wallpaper_home_screen 581 if (system_setting_vconf_set_value_string(VCONFKEY_BGSET, file_name_buffer)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-settings/src/system_setting_platform.c system_setting_set_wallpaper_home_screen 590 if (system_setting_vconf_set_value_string(VCONFKEY_BGSET, vconf_value)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-settings/src/system_setting_platform.c system_setting_set_changed_callback_wallpaper_home_screen 927 return system_setting_vconf_set_changed_cb(VCONFKEY_BGSET, SYSTEM_SETTINGS_KEY_WALLPAPER_HOME_SCREEN, 0, user_data);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-settings/src/system_setting_platform.c system_setting_unset_changed_callback_wallpaper_home_screen 932 return system_setting_vconf_unset_changed_cb(VCONFKEY_BGSET, 0);

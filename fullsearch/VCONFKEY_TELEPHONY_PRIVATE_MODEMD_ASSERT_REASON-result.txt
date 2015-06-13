@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-telephony-keys.h <global> 294 #define VCONFKEY_TELEPHONY_PRIVATE_MODEMD_ASSERT_REASON "memory/private/telephony/modemd_assert_reason"

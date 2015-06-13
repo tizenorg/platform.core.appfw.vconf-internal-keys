@@ -1,0 +1,48 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/app-core/src/appcore.c <global> 117 .key.vkey = VCONFKEY_SYSMAN_BATTERY_STATUS_LOW,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/appcore-agent/src/appcore-agent.c <global> 222 .key.vkey = VCONFKEY_SYSMAN_BATTERY_STATUS_LOW,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/appcore-watch/src/appcore-watch.c <global> 201 .key.vkey = VCONFKEY_SYSMAN_BATTERY_STATUS_LOW,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-sysman-keys.h <global> 37 #define VCONFKEY_SYSMAN_BATTERY_STATUS_LOW "memory/sysman/battery_status_low"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/app-core/src/appcore.c __add_vconf 417 r = vconf_notify_key_changed(VCONFKEY_SYSMAN_BATTERY_STATUS_LOW, __vconf_cb, ac);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/app-core/src/appcore.c __del_vconf 446 r = vconf_ignore_key_changed(VCONFKEY_SYSMAN_BATTERY_STATUS_LOW, __vconf_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/appcore-agent/src/appcore-agent.c __add_vconf 526 r = vconf_notify_key_changed(VCONFKEY_SYSMAN_BATTERY_STATUS_LOW, __vconf_cb, ac);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/appcore-agent/src/appcore-agent.c __del_vconf 555 r = vconf_ignore_key_changed(VCONFKEY_SYSMAN_BATTERY_STATUS_LOW, __vconf_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/appcore-widget/src/widget_app.c __register_event 630 vconf_notify_key_changed(VCONFKEY_SYSMAN_BATTERY_STATUS_LOW, __on_low_battery,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/appcore-widget/src/widget_app.c __unregister_event 652 vconf_ignore_key_changed(VCONFKEY_SYSMAN_BATTERY_STATUS_LOW, __on_low_battery);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth/src/bt-util.c _bt_util_is_battery_low 485 if (vconf_get_int(VCONFKEY_SYSMAN_BATTERY_STATUS_LOW, (void *)&value)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/device/src/device.c device_battery_get_warning_status 171 err = vconf_get_int(VCONFKEY_SYSMAN_BATTERY_STATUS_LOW, &value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/device/src/device.c battery_warn_changed_inside_cb 199 if (keyname != NULL && warn_changed_callback != NULL && strcmp(keyname, VCONFKEY_SYSMAN_BATTERY_STATUS_LOW) == 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/device/src/device.c battery_warn_changed_inside_cb 201 if (vconf_get_int(VCONFKEY_SYSMAN_BATTERY_STATUS_LOW, &bat_state) == 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/device/src/device.c device_battery_warning_set_cb 218 err = vconf_notify_key_changed(VCONFKEY_SYSMAN_BATTERY_STATUS_LOW, battery_warn_changed_inside_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/device/src/device.c device_battery_warning_unset_cb 227 int err = vconf_ignore_key_changed(VCONFKEY_SYSMAN_BATTERY_STATUS_LOW, battery_warn_changed_inside_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/battery/lowbat-handler.c lowbat_process 480 if (vconf_get_int(VCONFKEY_SYSMAN_BATTERY_STATUS_LOW, &vconf_state) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/battery/lowbat-handler.c lowbat_process 528 ret = vconf_set_int(VCONFKEY_SYSMAN_BATTERY_STATUS_LOW, status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/battery/power-supply.c dbus_get_charge_level 721 if (vconf_get_int(VCONFKEY_SYSMAN_BATTERY_STATUS_LOW, &ret) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/core.c update_setting 1852 vconf_get_int(VCONFKEY_SYSMAN_BATTERY_STATUS_LOW,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/core.c check_seed_status 1939 vconf_get_int(VCONFKEY_SYSMAN_BATTERY_STATUS_LOW, &bat_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/display-dbus.c edbus_releasebrightness 534 if (vconf_get_int(VCONFKEY_SYSMAN_BATTERY_STATUS_LOW, &bat) != 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/setting.c get_lowbatt_status 116 return vconf_get_int(VCONFKEY_SYSMAN_BATTERY_STATUS_LOW, val);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/led/torch.c torch_check_battery_status 115 if (vconf_get_int(VCONFKEY_SYSMAN_BATTERY_STATUS_LOW, &status) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/efl/src/modules/ecore/system/tizen/ecore_system_tizen.c _charge_key_changed_cb 57 if (vconf_get_int(VCONFKEY_SYSMAN_BATTERY_STATUS_LOW, &status) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/efl/src/modules/ecore/system/tizen/ecore_system_tizen.c _ecore_system_tizen_init 142 if (vconf_notify_key_changed(VCONFKEY_SYSMAN_BATTERY_STATUS_LOW, _low_batt_key_changed_cb, NULL) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/efl/src/modules/ecore/system/tizen/ecore_system_tizen.c _ecore_system_tizen_init 144 ERR("Unable to register a vconf changed cb to %s.", VCONFKEY_SYSMAN_BATTERY_STATUS_LOW);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/efl/src/modules/ecore/system/tizen/ecore_system_tizen.c _ecore_system_tizen_init 176 vconf_ignore_key_changed(VCONFKEY_SYSMAN_BATTERY_STATUS_LOW, _low_batt_key_changed_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/efl/src/modules/ecore/system/tizen/ecore_system_tizen.c _ecore_system_tizen_shutdown 192 vconf_ignore_key_changed(VCONFKEY_SYSMAN_BATTERY_STATUS_LOW, _low_batt_key_changed_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/power/battery.c indicator_battery_batt_low_state_change_cb 723 vconf_get_int(VCONFKEY_SYSMAN_BATTERY_STATUS_LOW, &status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/power/battery.c register_battery_module 759 ret = vconf_notify_key_changed(VCONFKEY_SYSMAN_BATTERY_STATUS_LOW,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/power/battery.c register_battery_module 787 ret = vconf_notify_key_changed(VCONFKEY_SYSMAN_BATTERY_STATUS_LOW,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/power/battery.c unregister_battery_module 806 ret = ret | vconf_ignore_key_changed(VCONFKEY_SYSMAN_BATTERY_STATUS_LOW,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/power/battery.c unregister_battery_module 817 ret = ret | vconf_ignore_key_changed(VCONFKEY_SYSMAN_BATTERY_STATUS_LOW,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/composer/src/bubble/msg-ui-composer-bubble-util.c msg_ui_bubble_launch_msg_viewer 194 vconf_get_int(VCONFKEY_SYSMAN_BATTERY_STATUS_LOW, &BatteryStatus);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/viewer/src/msg-ui-viewer-gadget.c __msg_ui_viewer_on_event 667 vconf_get_int(VCONFKEY_SYSMAN_BATTERY_STATUS_LOW , &battey_level);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-applications/src/setting-applications-main.c setting_applications_main_lowbat_cb 247 vconf_get_int(VCONFKEY_SYSMAN_BATTERY_STATUS_LOW, &battery_value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-display/src/setting-display-brightness.c setting_display_brightness_destroy 925 vconf_ignore_key_changed(VCONFKEY_SYSMAN_BATTERY_STATUS_LOW, setting_display_brightness_lowbat_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-display/src/setting-display-brightness.c __toggle_automatic_chk 1026 ret = vconf_get_int(VCONFKEY_SYSMAN_BATTERY_STATUS_LOW, &ad->low_bat);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-display/src/setting-display-main.c setting_display_main_lowbat_cb 227 vconf_get_int(VCONFKEY_SYSMAN_BATTERY_STATUS_LOW, &battery_value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-display/src/setting-display-main.c setting_display_main_create 552 vconf_get_int(VCONFKEY_SYSMAN_BATTERY_STATUS_LOW, &battery_value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-display/src/setting-display-main.c setting_display_main_create 567 vconf_notify_key_changed(VCONFKEY_SYSMAN_BATTERY_STATUS_LOW, setting_display_main_lowbat_cb, ad);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-display/src/setting-display-main.c setting_display_main_destroy 597 vconf_ignore_key_changed(VCONFKEY_SYSMAN_BATTERY_STATUS_LOW, setting_display_main_lowbat_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/setting.c setting_int_vconf_change_cb 537 } else if (!safeStrCmp(vconf_name, VCONFKEY_SYSMAN_BATTERY_STATUS_LOW)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/sync-manager/src/sync-service/SyncManager_BatteryStatusListener.cpp RegisterBatteryStatusListener 60 return(vconf_notify_key_changed(VCONFKEY_SYSMAN_BATTERY_STATUS_LOW, OnBatteryStatusChanged, NULL));
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/sync-manager/src/sync-service/SyncManager_BatteryStatusListener.cpp DeRegisterBatteryStatusListener 69 return(vconf_ignore_key_changed(VCONFKEY_SYSMAN_BATTERY_STATUS_LOW, OnBatteryStatusChanged));
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-bluetooth-efl/src/libraries/bt-util.c _bt_util_is_battery_low 320 if (vconf_get_int(VCONFKEY_SYSMAN_BATTERY_STATUS_LOW, (void *)&value)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-myfile-efl/src/common/mf-ug-list-play.c mf_ug_list_play_play_music_item 1408 error_code = vconf_get_int(VCONFKEY_SYSMAN_BATTERY_STATUS_LOW, &key);

@@ -1,0 +1,8 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-telephony-keys.h <global> 101 #define VCONFKEY_TELEPHONY_SIM_SLOT_COUNT "memory/telephony/sim_slot_count"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/network/rssi.c on_noti 372 ret = vconf_get_int(VCONFKEY_TELEPHONY_SIM_SLOT_COUNT, &sim_slot_count);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/common/msg-system-util.c msg_sys_sim_slot_count_get 41 vconf_get_int(VCONFKEY_TELEPHONY_SIM_SLOT_COUNT, &res);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-tel-intf.c _check_current_sim 44 if ((vconf_get_int(VCONFKEY_TELEPHONY_SIM_SLOT_COUNT, &sim_slot_count) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-resource/src/network/telephony.c get_current_sim 141 VCONFKEY_TELEPHONY_SIM_SLOT_COUNT, &sim_slot_count) != 0, -1,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c convert_strgkey_to_vconf 175 return VCONFKEY_TELEPHONY_SIM_SLOT_COUNT;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c convert_vconf_to_strgkey 328 else if (g_str_equal(key, VCONFKEY_TELEPHONY_SIM_SLOT_COUNT) == TRUE) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-efl/sources/libraries/Common/common_utils.c common_utils_get_sim_state 809 VCONFKEY_TELEPHONY_SIM_SLOT_COUNT);

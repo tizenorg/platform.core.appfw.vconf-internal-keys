@@ -1,0 +1,2 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-hotfix.h <global> 105 #define VCONFKEY_SETAPPL_ACCESSORY_DOCK_SOUND "db/setting/accessories/dock_sound"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-sound/server/mm_sound_mgr_device_dock.c __play_dock_sound_sync 94 vconf_get_bool(VCONFKEY_SETAPPL_ACCESSORY_DOCK_SOUND, &dock_sound);

@@ -1,0 +1,10 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/chromium-efl/impl/device/battery/battery_status_manager_tizen.cc <global> 32 if (strcmp(keyname, VCONFKEY_PM_BATTERY_TIMETOFULL) == 0 &&
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/chromium-efl/impl/device/battery/battery_status_manager_tizen.cc <global> 133 if (vconf_notify_key_changed(VCONFKEY_PM_BATTERY_TIMETOFULL,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/chromium-efl/impl/device/battery/battery_status_manager_tizen.cc <global> 157 if (vconf_ignore_key_changed(VCONFKEY_PM_BATTERY_TIMETOFULL,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/chromium-efl/impl/device/battery/battery_status_manager_tizen.cc <global> 201 if (vconf_get_int(VCONFKEY_PM_BATTERY_TIMETOFULL, &temp_time) < 0 ||
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-pm-keys.h <global> 49 #define VCONFKEY_PM_BATTERY_TIMETOFULL "memory/pm/battery_timetofull"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webkit-efl/Source/WebCore/platform/efl/BatteryProviderEfl.cpp <global> 86 vconf_get_int(VCONFKEY_PM_BATTERY_TIMETOFULL, &chargingTime);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webkit-efl/Source/WebCore/platform/efl/BatteryProviderEfl.cpp <global> 140 vconf_get_int(VCONFKEY_PM_BATTERY_TIMETOFULL, &chargingTime);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webkit-efl/Source/WebCore/platform/efl/BatteryProviderEfl.cpp <global> 169 vconf_get_int(VCONFKEY_PM_BATTERY_TIMETOFULL, &chargingTime);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webkit-efl/Source/WebCore/platform/efl/BatteryProviderEfl.cpp <global> 186 vconf_notify_key_changed(VCONFKEY_PM_BATTERY_TIMETOFULL, batteryTimeToFullyChargedChangeCallback, static_cast<void *>(this));
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webkit-efl/Source/WebCore/platform/efl/BatteryProviderEfl.cpp <global> 209 vconf_ignore_key_changed(VCONFKEY_PM_BATTERY_TIMETOFULL, batteryTimeToFullyChargedChangeCallback);

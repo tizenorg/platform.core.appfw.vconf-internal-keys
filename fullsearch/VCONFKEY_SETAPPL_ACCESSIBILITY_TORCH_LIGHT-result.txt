@@ -1,0 +1,18 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-data-slp-setting.c <global> 228 {"assistive_light", "accessibility", BOOL_SLP_SETTING_ACCESSIBILITY_ASSISTIVE_LIGHT, VCONFKEY_SETAPPL_ACCESSIBILITY_TORCH_LIGHT, eBOOL, {0}, export_json, import_default},
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 290 #define VCONFKEY_SETAPPL_ACCESSIBILITY_TORCH_LIGHT "memory/setting/accessibility/torch_light"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/led/pattern.c clean_up 80 if (vconf_get_bool(VCONFKEY_SETAPPL_ACCESSIBILITY_TORCH_LIGHT, &torch_status) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/led/torch.c torch_turn_off_led_cb 79 if (vconf_get_bool(VCONFKEY_SETAPPL_ACCESSIBILITY_TORCH_LIGHT, &status) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/led/torch.c torch_turn_off_led_cb 95 vconf_set_bool(VCONFKEY_SETAPPL_ACCESSIBILITY_TORCH_LIGHT, 0);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/led/torch.c torch_led_status_cb 140 if (vconf_get_bool(VCONFKEY_SETAPPL_ACCESSIBILITY_TORCH_LIGHT, &enabled) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/led/torch.c torch_init 365 vconf_notify_key_changed(VCONFKEY_SETAPPL_ACCESSIBILITY_TORCH_LIGHT, torch_led_status_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/settings/modules/assistive_light.c _init 58 vconf_notify_key_changed(VCONFKEY_SETAPPL_ACCESSIBILITY_TORCH_LIGHT, _on_vconf_assetive_light_changed, data);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/settings/modules/assistive_light.c _set_assetive_light_mode 82 if (vconf_set_bool(VCONFKEY_SETAPPL_ACCESSIBILITY_TORCH_LIGHT, 1) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/settings/modules/assistive_light.c _set_assetive_light_mode 91 if (vconf_set_bool(VCONFKEY_SETAPPL_ACCESSIBILITY_TORCH_LIGHT, 0) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c __mode_syspopup_emergency_cb 1619 vconf_set_bool(VCONFKEY_SETAPPL_ACCESSIBILITY_TORCH_LIGHT, EINA_FALSE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c __mode_syspopup_normal_cb 1790 vconf_set_bool(VCONFKEY_SETAPPL_ACCESSIBILITY_TORCH_LIGHT, EINA_FALSE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c _ultra_popup_cb 2160 vconf_set_bool(VCONFKEY_SETAPPL_ACCESSIBILITY_TORCH_LIGHT, EINA_FALSE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c __mode_syspopup_add 2656 vconf_set_bool(VCONFKEY_SETAPPL_ACCESSIBILITY_TORCH_LIGHT, EINA_FALSE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c __mode_syspopup_add 2691 vconf_set_bool(VCONFKEY_SETAPPL_ACCESSIBILITY_TORCH_LIGHT, EINA_FALSE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c __mode_syspopup_add 2736 vconf_set_bool(VCONFKEY_SETAPPL_ACCESSIBILITY_TORCH_LIGHT, EINA_FALSE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c __mode_syspopup_add 2888 vconf_set_bool(VCONFKEY_SETAPPL_ACCESSIBILITY_TORCH_LIGHT, EINA_FALSE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/assistive_light_util/setting_turnoff_light.c turnofflight_service 46 vconf_set_bool(VCONFKEY_SETAPPL_ACCESSIBILITY_TORCH_LIGHT, 0);

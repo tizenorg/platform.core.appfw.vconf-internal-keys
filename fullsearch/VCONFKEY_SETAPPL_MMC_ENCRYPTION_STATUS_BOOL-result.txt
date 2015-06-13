@@ -1,0 +1,2 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 518 #define VCONFKEY_SETAPPL_MMC_ENCRYPTION_STATUS_BOOL "db/setting/mmc_encryption/status"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-security/src/setting-security-locktype.c __update_locktype_items_status 372 vconf_get_bool(VCONFKEY_SETAPPL_MMC_ENCRYPTION_STATUS_BOOL, &enc_sde);

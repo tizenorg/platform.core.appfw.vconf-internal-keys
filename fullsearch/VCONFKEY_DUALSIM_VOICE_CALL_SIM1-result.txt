@@ -1,0 +1,2 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 658 VCONFKEY_DUALSIM_VOICE_CALL_SIM1,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/voice-call-engine.c vcall_engine_check_slot_id_through_sim_mgr_setting_values 240 case VCONFKEY_DUALSIM_VOICE_CALL_SIM1:

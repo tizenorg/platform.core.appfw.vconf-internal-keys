@@ -1,0 +1,5 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-data-slp-setting.c <global> 267 {"network_mode", "network", INT_SLP_SETTING_NETWORK_MODE, VCONFKEY_SETAPPL_NETWORK_MODE_INT, eINT, {0}, export_json, import_default},
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 181 #define VCONFKEY_SETAPPL_NETWORK_MODE_INT "db/setting/network_mode"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-network/src/setting-network-main.c __change_3g_on_resp_cb 285 vconf_get_int(VCONFKEY_SETAPPL_NETWORK_MODE_INT, &value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-network/src/setting-network-main.c _get_network_mode_sub_desc 679 k = vconf_get_int(VCONFKEY_SETAPPL_NETWORK_MODE_INT, &value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-network/src/setting-network.c setting_tapi_get_band_cb 780 vconf_set_int(VCONFKEY_SETAPPL_NETWORK_MODE_INT, ad->net_mode);

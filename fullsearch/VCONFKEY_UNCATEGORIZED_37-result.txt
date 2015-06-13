@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-uncategorized-keys.h <global> 61 #define VCONFKEY_UNCATEGORIZED_37 "db/private/email-service/noti_private_id/7"

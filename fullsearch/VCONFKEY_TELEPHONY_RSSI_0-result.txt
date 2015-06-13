@@ -1,0 +1,4 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-telephony-keys.h <global> 180 VCONFKEY_TELEPHONY_RSSI_0 = 0x00,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/swap-manager/daemon/device_vconf.c get_rssi_status 103 rssi_status = VCONFKEY_TELEPHONY_RSSI_0;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/swap-manager/daemon/device_vconf.c get_rssi_status 106 rssi_status = VCONFKEY_TELEPHONY_RSSI_0;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c reset_vconf 1160 vconf_set_int(VCONFKEY_TELEPHONY_RSSI, VCONFKEY_TELEPHONY_RSSI_0);

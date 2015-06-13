@@ -1,0 +1,7 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-call-keys.h <global> 31 VCONFKEY_CALL_VOICE_CONNECTING,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/voice-call-core.c __voicecall_core_handle_normal_end 727 _vc_core_util_set_call_status(VCONFKEY_CALL_VOICE_CONNECTING);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/voice-call-core.c voicecall_core_cb 1033 _vc_core_util_set_call_status(VCONFKEY_CALL_VOICE_CONNECTING);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/voice-call-core.c voicecall_core_make_call 2661 _vc_core_util_set_call_status(VCONFKEY_CALL_VOICE_CONNECTING);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/voice-call-core.c __voicecall_core_callstatus_set_timer_cb 3419 _vc_core_util_set_call_status(VCONFKEY_CALL_VOICE_CONNECTING);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/processing/call.c show_call_icon 157 case VCONFKEY_CALL_VOICE_CONNECTING:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/processing/call.c indicator_call_change_cb 198 case VCONFKEY_CALL_VOICE_CONNECTING:

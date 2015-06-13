@@ -1,0 +1,10 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-dnet-keys.h <global> 36 #define VCONFKEY_NETWORK_IP "memory/dnet/ip"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/connection/src/connection.c __connection_cb_ip_changed_cb_idle 209 ip_addr = vconf_get_str(VCONFKEY_NETWORK_IP);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/connection/src/connection.c __connection_set_ip_changed_callback 247 vconf_notify_key_changed(VCONFKEY_NETWORK_IP,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/connection/src/connection.c __connection_set_ip_changed_callback 256 if (vconf_ignore_key_changed(VCONFKEY_NETWORK_IP,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/connection/src/connection.c connection_get_ip_address 482 *ip_address = vconf_get_str(VCONFKEY_NETWORK_IP);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/network-state.c __netconfig_update_default_connection_info 593 netconfig_set_vconf_str(VCONFKEY_NETWORK_IP, "");
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/network-state.c __netconfig_update_default_connection_info 600 char *old_ip = vconf_get_str(VCONFKEY_NETWORK_IP);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/network-state.c __netconfig_update_default_connection_info 616 netconfig_set_vconf_str(VCONFKEY_NETWORK_IP, "");
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/network-state.c __netconfig_update_default_connection_info 618 netconfig_set_vconf_str(VCONFKEY_NETWORK_IP, ip_addr);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/utils/emulator.c __netconfig_emulator_set_ip 87 vconf_set_str(VCONFKEY_NETWORK_IP, ip);

@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-hotfix.h <global> 169 VCONFKEY_MOBEX_ENGINE_STATUS_NOT_CONNECT = 0x00,

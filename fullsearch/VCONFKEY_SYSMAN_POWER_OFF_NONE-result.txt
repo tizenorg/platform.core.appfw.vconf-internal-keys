@@ -1,0 +1,4 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-sysman-keys.h <global> 179 VCONFKEY_SYSMAN_POWER_OFF_NONE = 0,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-frwk/bt-service/bt-service-adapter.c _bt_set_disabled 547 if (ret == 0 && power_off_status == VCONFKEY_SYSMAN_POWER_OFF_NONE &&
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/core.c update_setting 1897 case VCONFKEY_SYSMAN_POWER_OFF_NONE:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/led/rgb.c led_poweroff_changed_cb 363 if (state == VCONFKEY_SYSMAN_POWER_OFF_NONE ||

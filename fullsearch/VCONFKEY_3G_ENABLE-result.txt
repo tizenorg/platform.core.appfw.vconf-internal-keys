@@ -1,0 +1,22 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/runtime-info/src/runtime_info_connectivity.c <global> 37 static const char *VCONF_PACKET_DATA_ENABLED = VCONFKEY_3G_ENABLE;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-data-slp-setting.c <global> 225 {"use_packetdata", "connectivity", BOOL_SLP_SETTING_USE_PACKET_DATA, VCONFKEY_3G_ENABLE, eBOOL, {0}, export_json, import_default},
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-telephony-keys.h <global> 199 #define VCONFKEY_3G_ENABLE "db/setting/3gEnabled"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/composer/src/ui-composer/msg-ui-composer-common.c msg_common_get_sim_preference 1244 vconf_get_bool(VCONFKEY_3G_ENABLE, &mobile_data);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/composer/src/ui-composer/msg-ui-composer-common.c msg_ui_composer_message_mobile_data_roaming_check_and_send 3667 vconf_get_bool(VCONFKEY_3G_ENABLE, &mobile_data);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-syspopup/src/ms_main.c __handle_precondition 1457 if (vconf_get_bool(VCONFKEY_3G_ENABLE , &dnet_state) != 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/settings/modules/mobile_data.c _handler_off 403 ret = vconf_set_bool(VCONFKEY_3G_ENABLE, 0);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-network/src/setting-network-3gcon-option.c setting_network_3gcon_create 90 err = vconf_get_int(VCONFKEY_3G_ENABLE, &value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-network/src/setting-network-3gcon-option.c setting_network_3gcon_click_softkey_set_cb 152 err = vconf_set_int(VCONFKEY_3G_ENABLE, value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-network/src/setting-network-main.c __3g_change_cb 585 if (!safeStrCmp(vconf_name, VCONFKEY_3G_ENABLE)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-network/src/setting-network-main.c _get_network_mode_sub_desc 681 vconf_get_bool(VCONFKEY_3G_ENABLE, &status_3G);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-network/src/setting-network-main.c setting_network_main_create 1024 vconf_notify_key_changed(VCONFKEY_3G_ENABLE, __3g_change_cb, ad);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-network/src/setting-network-main.c setting_network_main_destroy 1062 vconf_ignore_key_changed(VCONFKEY_3G_ENABLE, __3g_change_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c __mode_syspopup_mobiledata_cb 1966 ret = vconf_set_bool(VCONFKEY_3G_ENABLE, 1);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c __mode_syspopup_mobiledata_cb 1979 ret = vconf_set_bool(VCONFKEY_3G_ENABLE, 0);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-settings/src/system_setting_platform.c system_setting_get_3g_data_network 223 if (system_setting_vconf_get_value_bool(VCONFKEY_3G_ENABLE, &vconf_value)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-settings/src/system_setting_platform.c system_setting_set_3g_data_network 805 if (system_setting_vconf_set_value_bool(VCONFKEY_3G_ENABLE, *vconf_value)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-settings/src/system_setting_platform.c system_setting_set_changed_callback_3g_data_network 967 return system_setting_vconf_set_changed_cb(VCONFKEY_3G_ENABLE, SYSTEM_SETTINGS_KEY_3G_DATA_NETWORK_ENABLED, 1, user_data);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-settings/src/system_setting_platform.c system_setting_unset_changed_callback_3g_data_network 972 return system_setting_vconf_unset_changed_cb(VCONFKEY_3G_ENABLE, 1);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c convert_strgkey_to_vconf 187 return VCONFKEY_3G_ENABLE;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c convert_vconf_to_strgkey 308 else if (g_str_equal(key, VCONFKEY_3G_ENABLE) == TRUE) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-mobile-ap/src/mh_func_onoff.c __is_preconditions_handled 228 if (vconf_get_bool(VCONFKEY_3G_ENABLE , &dnet_state) < 0) {

@@ -1,0 +1,3 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-alarm-keys.h <global> 37 #define VCONFKEY_ALARM_VOLUME_POPUP_ENABLE "memory/alarm/volume_popup_enable"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/volume-app/src/key_event.c <global> 36 #define VCONFKEY_ALARM_VOLUME_POPUP_ENABLE "memory/alarm/volume_popup_enable"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/volume-app/src/key_event.c _volume_popup_check_in_alarm_type 467 if(vconf_get_bool(VCONFKEY_ALARM_VOLUME_POPUP_ENABLE, &is_enabled) < 0) {

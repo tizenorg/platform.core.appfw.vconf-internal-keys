@@ -1,0 +1,168 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/app-core/src/appcore.c <global> 122 .key.vkey = VCONFKEY_LANGSET,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/appcore-agent/src/appcore-agent.c <global> 227 .key.vkey = VCONFKEY_LANGSET,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/appcore-watch/src/appcore-watch.c <global> 206 .key.vkey = VCONFKEY_LANGSET,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/chromium-efl/impl/locale_efl.cc <global> 35 std::string new_locale(vconf_get_str(VCONFKEY_LANGSET));
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/chromium-efl/impl/locale_efl.cc <global> 75 const char * lang = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/chromium-efl/impl/locale_efl.cc <global> 103 vconf_notify_key_changed(VCONFKEY_LANGSET, PlatformLanguageChanged, 0);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/chromium-efl/impl/selection_controller_efl.cc <global> 47 vconf_notify_key_changed(VCONFKEY_LANGSET, PlatformLanguageChanged, this);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/isf/ism/extras/efl_panel/isf_panel_efl.cpp <global> 3622 char *lang_str = vconf_get_str (VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 352 #define VCONFKEY_LANGSET "db/menu_widget/language"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webkit-efl/Source/WebCore/platform/efl/LanguageEfl.cpp <global> 45 char * localeDefault = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webkit-efl/Source/WebKit2/UIProcess/WebProcessProxy.cpp <global> 591 setlocale(LC_ALL, vconf_get_str(VCONFKEY_LANGSET));
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webkit-efl/Source/WebKit2/WebProcess/WebProcess.cpp <global> 146 setlocale(LC_ALL, vconf_get_str(VCONFKEY_LANGSET));
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webkit-efl/Source/WebKit2/WebProcess/WebProcess.cpp <global> 290 setlocale(LC_ALL, vconf_get_str(VCONFKEY_LANGSET));
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webkit-efl/Source/WebKit2/WebProcess/WebProcess.cpp <global> 293 vconf_notify_key_changed(VCONFKEY_LANGSET, platformLanguageChanged, this);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wrt/src/view/common/view_logic_custom_header_support.cpp <global> 44 systemLanguageSet = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ail/src/ail_sql.c sql_get_locale 80 retv_if ((l = vconf_get_str(VCONFKEY_LANGSET)) == NULL, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/app-core/src/appcore-i18n.c update_lang 55 char *lang = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/app-core/src/appcore-i18n.c __set_i18n 115 char *lang = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/app-core/src/appcore.c __add_vconf 420 r = vconf_notify_key_changed(VCONFKEY_LANGSET, __vconf_cb, ac);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/app-core/src/appcore.c __del_vconf 449 r = vconf_ignore_key_changed(VCONFKEY_LANGSET, __vconf_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/app-selector-wearable/app-selector.c __lang_changed 347 lang = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/app-selector/app-selector.c __lang_changed 344 lang = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/appcore-agent/src/appcore-agent.c __add_vconf 529 r = vconf_notify_key_changed(VCONFKEY_LANGSET, __vconf_cb, ac);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/appcore-agent/src/appcore-agent.c __del_vconf 558 r = vconf_ignore_key_changed(VCONFKEY_LANGSET, __vconf_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/appcore-watch/src/appcore-watch-i18n.c _update_lang 41 char *lang = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/appcore-watch/src/appcore-watch-i18n.c __set_i18n 159 char *lang = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/appcore-widget/src/widget-i18n.c _update_lang 42 char *lang = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/appcore-widget/src/widget-i18n.c __set_i18n 195 char *lang = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/appcore-widget/src/widget_app.c __register_event 635 vconf_notify_key_changed(VCONFKEY_LANGSET, __on_lang_changed, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/appcore-widget/src/widget_app.c __unregister_event 656 vconf_ignore_key_changed(VCONFKEY_LANGSET, __on_lang_changed);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/browser/src/main.cpp _set_locale 77 char *lang_set = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/browser/src/main.cpp _create_main_window 173 vconf_notify_key_changed(VCONFKEY_LANGSET, __platform_language_changed_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/browser/src/main.cpp __br_app_terminate 529 vconf_ignore_key_changed(VCONFKEY_LANGSET, __platform_language_changed_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/browser/src/main.cpp __br_lang_changed_cb 544 char *lang_set = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/browser/src/platform-service.cpp get_system_language_set 700 char *langset = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/browser/src/platform-service.cpp get_system_region_set 717 char *langset = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/browser/src/platform-service.cpp get_system_encoding_set 736 char *langset = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/ui/src/vcui-application.c __vcui_lang_changed_cb 1712 char *locale = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/ui/src/vcui-view-elements.c _vcui_create_voice_control_guide 2823 char *sys_lang = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/contacts-service/server/ctsvc_server_utils.c ctsvc_server_final_configuration 130 ret = vconf_ignore_key_changed(VCONFKEY_LANGSET, __ctsvc_server_change_language_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/contacts-service/server/ctsvc_server_utils.c ctsvc_server_final_configuration 131 RETM_IF(ret<0,"vconf_ignore_key_changed(%s) Fail(%d)", VCONFKEY_LANGSET, ret);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/contacts-service/server/ctsvc_server_utils.c ctsvc_server_init_configuration 144 langset = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/contacts-service/server/ctsvc_server_utils.c ctsvc_server_init_configuration 158 ret = vconf_notify_key_changed(VCONFKEY_LANGSET,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/contacts-service/server/ctsvc_server_utils.c ctsvc_server_init_configuration 161 VCONFKEY_LANGSET, ret);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-provider-master/src/setting.c lang_changed_cb 151 lang = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-provider-master/src/setting.c setting_init 281 ret = vconf_notify_key_changed(VCONFKEY_LANGSET, lang_changed_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-provider-master/src/setting.c setting_fini 315 ret = vconf_ignore_key_changed(VCONFKEY_LANGSET, lang_changed_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/core/launch.c set_current_lang 43 lang = (char *)vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/download-manager/src/main.cpp __lang_changed_cb 97 char *lang_set = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/download-provider/provider/download-provider-notification.c __lang_changed_cb 219 str = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/download-provider/provider/download-provider-notification.c dp_notification_set_locale 233 if (vconf_notify_key_changed(VCONFKEY_LANGSET, __lang_changed_cb, NULL) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/download-provider/provider/download-provider-notification.c dp_notification_clear_locale 240 if (vconf_ignore_key_changed(VCONFKEY_LANGSET, __lang_changed_cb) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/e17-extra-modules-tv/extndialog/src/extndialog.c _update_locale 11 lang = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/e17-extra-modules/extndialog/src/extndialog.c _update_locale 11 lang = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/e17-mod-tizen-extndialog/src/extndialog.c _update_locale 11 lang = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/efl/src/modules/ecore/system/tizen/ecore_system_tizen.c _lang_key_changed_cb 75 lang = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/efl/src/modules/ecore/system/tizen/ecore_system_tizen.c _ecore_system_tizen_init 149 if (vconf_notify_key_changed(VCONFKEY_LANGSET, _lang_key_changed_cb, NULL) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/efl/src/modules/ecore/system/tizen/ecore_system_tizen.c _ecore_system_tizen_init 151 ERR("Unable to register a vconf changed cb to %s.", VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/efl/src/modules/ecore/system/tizen/ecore_system_tizen.c _ecore_system_tizen_init 174 vconf_ignore_key_changed(VCONFKEY_LANGSET, _lang_key_changed_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/efl/src/modules/ecore/system/tizen/ecore_system_tizen.c _ecore_system_tizen_shutdown 191 vconf_ignore_key_changed(VCONFKEY_LANGSET, _lang_key_changed_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/email-service/email-core/email-core-utils.c emcore_add_notification_for_send 1725 setlocale(LC_MESSAGES, vconf_get_str(VCONFKEY_LANGSET));
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/email-service/email-core/email-core-utils.c emcore_add_notification_for_send 1809 setlocale(LC_MESSAGES, vconf_get_str(VCONFKEY_LANGSET));
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/clock/clock.c language_changed_cb 324 const char *pa_lang = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ise-web-helper-agent/src/common.cpp language_changed_cb 101 char *vconf_str = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ise-web-helper-agent/src/common.cpp run 251 vconf_notify_key_changed(VCONFKEY_LANGSET, language_changed_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ise-web-helper-agent/src/common.cpp run 290 vconf_ignore_key_changed(VCONFKEY_LANGSET, language_changed_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/isf/ism/extras/efl_panel/isf_panel_efl.cpp update_ise_locale 5545 char *lang_str = vconf_get_str (VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/isf/ism/extras/efl_panel/isf_panel_efl.cpp set_language_and_locale 5596 char *lang_str = vconf_get_str (VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/isf/ism/extras/efl_panel/isf_panel_efl.cpp main 6570 vconf_notify_key_changed (VCONFKEY_LANGSET, display_language_changed_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/isf/ism/extras/efl_panel/isf_panel_efl.cpp main 6669 vconf_ignore_key_changed (VCONFKEY_LANGSET, display_language_changed_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/isf/ism/src/isf_query_engines.cpp main 126 char *lang_str = vconf_get_str (VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/isf/ism/src/scim_launcher.cpp main 234 char *lang_str = vconf_get_str (VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/src/lbs-setting.c _app_language_changed_cb 217 char *locale = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmedia-service/src/common/media-svc-localize-utils.c __media_svc_collation_str 122 lang = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmedia-service/src/common/media-svc-util.c _media_svc_get_pinyin_str 1992 lang = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-fileinfo/utils/mm_file_util_locale.c _MMFileUtilGetLocaleindex 92 lang = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libscl-core/src/sclcoreui-efl.cpp language_changed_cb 116 char *vconf_str = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libscl-core/src/sclcoreui-efl.cpp run 299 vconf_notify_key_changed(VCONFKEY_LANGSET, language_changed_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libscl-core/src/sclcoreui-efl.cpp run 320 vconf_ignore_key_changed(VCONFKEY_LANGSET, language_changed_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libug-worldclock-efl/src/ug_worldclock_efl.c on_event 466 char *lang = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libug-worldclock-efl/src/worldclock_add_view.c __ugview_index_update 878 char *temp = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libug-worldclock-efl/src/worldclock_add_view.c worldclock_ugview_add 1671 char *lang = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/livebox-service/dynamicbox_service/src/dynamicbox_service.c cur_locale 264 language = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/livebox-service/dynamicbox_service/src/dynamicbox_service.c update_lang_info 473 syslang = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/media-content/src/media_content.c __media_content_create_collate 92 lang = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/media-content/src/media_filter.c __is_pinyin_needed 69 lang = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/media-server/src/common/media-common-external-storage.c update_lang 237 lang = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/media-server/src/common/media-common-external-storage.c update_lang 243 r = setlocale(LC_ALL, vconf_get_str(VCONFKEY_LANGSET));
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/media-server/src/server/media-server-main.c _ms_change_lang_vconf_cb 266 if (!ms_config_get_str(VCONFKEY_LANGSET, lang)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/media-server/src/server/media-server-main.c __ms_add_event_receiver 444 if (!ms_config_get_str(VCONFKEY_LANGSET, lang)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/media-server/src/server/media-server-main.c __ms_add_event_receiver 451 err = vconf_notify_key_changed(VCONFKEY_LANGSET, (vconf_callback_fn) _ms_change_lang_vconf_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/media-server/src/server/media-server-main.c __ms_add_event_receiver 453 MS_DBG_ERR("add call back function for event %s fails", VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-agent/src/mobileap_handler.c __handle_language_changed_cb 144 language = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-agent/src/mobileap_handler.c _register_vconf_cb 185 {VCONFKEY_LANGSET,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-agent/src/mobileap_handler.c _unregister_vconf_cb 226 {VCONFKEY_LANGSET,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/msg-service/externals/MsgNotificationWrapper.cpp getTranslateText 3122 lang = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/my-account/src/myaccount_ug_main.c lang_changed 133 language = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/my-account/src/myaccount_ug_main.c myaccount_account_list_create 270 language = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/my-account/src/myaccount_ug_main.c myaccount_account_list_resume 353 language = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/myplace/src/myplace.c _app_language_changed_cb 155 char *locale = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/manager/net_nfc_app_util.c net_nfc_app_util_show_notification 1096 lang = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/pkgmgr-info/src/pkgmgrinfo_private.c __convert_system_locale_to_manifest_locale 371 syslocale = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-draw-naviframe.c __ctxpopup_lang_change_cb 275 if (!safeStrCmp(vconf_name, VCONFKEY_LANGSET)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-draw-naviframe.c __delete_rotate_ctxpopup_cb 296 (void )vconf_ignore_key_changed(VCONFKEY_LANGSET, __ctxpopup_lang_change_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-draw-naviframe.c setting_create_more_btn_click_cb 339 vconf_notify_key_changed(VCONFKEY_LANGSET, __ctxpopup_lang_change_cb, btn_data);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-draw-popup.c __popup_lang_change_cb 200 if (!safeStrCmp(vconf_name, VCONFKEY_LANGSET)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-draw-popup.c __popup_del_cb3 210 (void )vconf_ignore_key_changed(VCONFKEY_LANGSET, __popup_lang_change_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-draw-popup.c ADD_POPUP_MULTI_LANGUAGE_AUTO_UPDATE 228 vconf_notify_key_changed(VCONFKEY_LANGSET, __popup_lang_change_cb, popup);\
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-general-func.c get_pa_display_language_str 455 locale = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-general-func.c update_lang 1815 lang = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-general-func.c update_lang 1821 setlocale(LC_ALL, vconf_get_str(VCONFKEY_LANGSET));
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-general-func.c __set_i18n 1859 r = setlocale(LC_ALL, vconf_get_str(VCONFKEY_LANGSET));
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-search.c __setting_init_search_index_module 563 char *backup_langset = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-search.c __setting_init_search_index_app 764 char *backup_langset = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-phone/src/setting-phone-display-language.c setting_phone_display_language_close_popup_ex 177 const char *pa_lang = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-phone/src/setting-phone-display-language.c setting_phone_display_language_close_popup_ex 202 const char *lang = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-phone/src/setting-phone-region-format.c setting_phone_region_format_mouse_up_Gendial_list_radio_cb 643 lang = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-phone/src/setting-phone.c setting_phone_lang_get_region_str 224 const char *pa_lang = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-phone/src/setting-phone.c setting_phone_ug_on_create 538 pa_path = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-phone/src/setting-phone.c setting_phone_ug_on_create 572 phoneUG->sim_lang = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-phone/src/setting-phone.c set_language_helper 821 int ret = vconf_set_str(VCONFKEY_LANGSET, lang);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-profile/src/volume_popup.c vp_app_lang_changed 152 lang = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-time/src/setting-time.c setting_time_ug_on_event 162 const char *pa_lang = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/setting-support-shortcut/support_help_ringtone.c update_lang 275 lang = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/setting-support-shortcut/support_help_ringtone.c update_lang 281 setlocale(LC_ALL, vconf_get_str(VCONFKEY_LANGSET));
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/setting-support-shortcut/support_help_ringtone.c __set_i18n 319 r = setlocale(LC_ALL, vconf_get_str(VCONFKEY_LANGSET));
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/setting-support-shortcut/support_help_ringtone.c support_help_app_lang_changed 412 lang = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/setting-support-shortcut/support_shortcut_wallpaper.c update_lang 276 lang = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/setting-support-shortcut/support_shortcut_wallpaper.c update_lang 282 setlocale(LC_ALL, vconf_get_str(VCONFKEY_LANGSET));
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/setting-support-shortcut/support_shortcut_wallpaper.c __set_i18n 320 r = setlocale(LC_ALL, vconf_get_str(VCONFKEY_LANGSET));
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/setting-support-shortcut/support_shortcut_wallpaper.c support_display_app_lang_changed 394 lang = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/shortcut/lib/src/main.c cur_locale 976 language = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/slp-pkgmgr/tool/pkg_info.c main 1656 locale = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/mobile/starter.c _set_i18n 127 char *lang = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c _status_active_change_cb 194 } else if (!strcmp(key_name, VCONFKEY_LANGSET)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 324 if (vconf_notify_key_changed(VCONFKEY_LANGSET, _status_active_change_cb, NULL) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 325 _E("Failed to register add the callback for %s", VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 326 } else if (!(s_status_active.langset = vconf_get_str(VCONFKEY_LANGSET))) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 327 _E("Failed to get vconfkey[%s]", VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_unregister 497 if (vconf_ignore_key_changed(VCONFKEY_LANGSET, _status_active_change_cb) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_unregister 498 _E("Failed to unregister the callback for %s", VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/stt/common/stt_config_mgr.c __stt_config_set_auto_language 347 value = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/stt/common/stt_config_mgr.c stt_config_mgr_initialize 598 vconf_notify_key_changed(VCONFKEY_LANGSET, __stt_config_language_changed_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/stt/common/stt_config_mgr.c stt_config_mgr_finalize 667 vconf_ignore_key_changed(VCONFKEY_LANGSET, __stt_config_language_changed_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-popup/src/launcher/noti.c set_language 59 lang = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-popup/src/usbhost-devices/host-devices.c _lang_changed 593 char *locale = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-settings/src/system_setting_platform.c system_setting_get_locale_language 1468 if (system_setting_vconf_get_value_string(VCONFKEY_LANGSET, &vconf_value)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-settings/src/system_setting_platform.c system_setting_set_locale_language 1493 if (system_setting_vconf_set_value_string(VCONFKEY_LANGSET, arr)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-settings/src/system_setting_platform.c system_setting_set_changed_callback_locale_language 1503 return system_setting_vconf_set_changed_cb(VCONFKEY_LANGSET, SYSTEM_SETTINGS_KEY_LOCALE_LANGUAGE, 100, user_data);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-settings/src/system_setting_platform.c system_setting_unset_changed_callback_locale_language 1508 return system_setting_vconf_unset_changed_cb(VCONFKEY_LANGSET, 100);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c convert_strgkey_to_vconf 223 return VCONFKEY_LANGSET;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c convert_vconf_to_strgkey 383 else if (g_str_equal(key, VCONFKEY_LANGSET) == TRUE) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tts/common/tts_defs.h TTS_LANGSET_KEY 109 #define TTS_LANGSET_KEY VCONFKEY_LANGSET
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ui-gadget-1/client/ug-client.c _ug_client_lang_changed 896 lang = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/voice-control/common/vc_config_mgr.c __vc_config_set_auto_language 383 value = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/voice-control/common/vc_config_mgr.c vc_config_mgr_initialize 662 vconf_notify_key_changed(VCONFKEY_LANGSET, __vc_config_language_changed_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/voice-control/common/vc_config_mgr.c vc_config_mgr_finalize 731 vconf_ignore_key_changed(VCONFKEY_LANGSET, __vc_config_language_changed_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/voice-control/common/vc_config_mgr.c __vc_config_mgr_unregister_config_event 792 vconf_ignore_key_changed(VCONFKEY_LANGSET, __vc_config_language_changed_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/volume-app/src/main.c _changed_language 112 char *locale = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wallpaper-ui-service/src/wallpaper-ui-service.c _app_lang_changed 744 lang = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/widget-service/src/widget_service.c cur_locale 276 language = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/widget-service/src/widget_service.c update_lang_info 485 syslang = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wrt-commons/modules/localization/src/LanguageTagsProvider.cpp loadSystemTags 120 char * language = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wrt-commons/tests/localizationTagsProvider/Localization_testcases.cpp RUNNER_TEST 35 char * currlocals = vconf_get_str(VCONFKEY_LANGSET);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wrt-commons/tests/localizationTagsProvider/Localization_testcases.cpp RUNNER_TEST 38 int result = vconf_set_str(VCONFKEY_LANGSET, "en_US.UTF-8");
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wrt-commons/tests/localizationTagsProvider/Localization_testcases.cpp RUNNER_TEST 58 result = vconf_set_str(VCONFKEY_LANGSET, currlocals);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wrt/src/wrt-client/wrt-client.cpp main 1238 vconf_notify_key_changed(VCONFKEY_LANGSET, vconf_changed_handler, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/wrt/src/wrt-client/wrt-client.cpp main 1257 vconf_ignore_key_changed(VCONFKEY_LANGSET, vconf_changed_handler);

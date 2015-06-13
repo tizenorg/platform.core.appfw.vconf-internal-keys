@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-uncategorized-keys.h <global> 357 #define VCONFKEY_UNCATEGORIZED_308 "memory/private/org.tizen.indicator/show_more_noti_port"

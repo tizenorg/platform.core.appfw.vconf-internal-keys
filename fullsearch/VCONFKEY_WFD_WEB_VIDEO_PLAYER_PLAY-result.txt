@@ -1,0 +1,3 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-miracast-keys.h <global> 41 VCONFKEY_WFD_WEB_VIDEO_PLAYER_PLAY = 1
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webkit-efl/Source/WebCore/platform/graphics/gstreamer/tizen/MediaResourceControllerGStreamerTizen.cpp <global> 500 if (wfdPlayerState != VCONFKEY_WFD_WEB_VIDEO_PLAYER_PLAY)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webkit-efl/Source/WebCore/platform/graphics/gstreamer/tizen/MediaResourceControllerGStreamerTizen.cpp <global> 501 vconf_set_int(VCONFKEY_WFD_WEB_VIDEO_PLAYER_STATE, VCONFKEY_WFD_WEB_VIDEO_PLAYER_PLAY);

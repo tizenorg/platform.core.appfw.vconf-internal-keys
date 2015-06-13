@@ -1,0 +1,3 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 127 #define VCONFKEY_SETAPPL_NOTI_RINGTONE_DEFAULT_PATH_STR "db/setting/sound/noti/ringtone_default_path"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/msg-service/externals/MsgSoundPlayer.cpp MsgSoundPlayer 165 defaultRingtonePath = MsgSettingGetString(VCONFKEY_SETAPPL_NOTI_RINGTONE_DEFAULT_PATH_STR);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-settings/src/system_setting_platform.c system_setting_get_email_alert_ringtone 129 *value = vconf_get_str(VCONFKEY_SETAPPL_NOTI_RINGTONE_DEFAULT_PATH_STR);

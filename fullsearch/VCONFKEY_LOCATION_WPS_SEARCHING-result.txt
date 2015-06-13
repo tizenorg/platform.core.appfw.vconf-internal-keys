@@ -1,0 +1,2 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-location-keys.h <global> 54 VCONFKEY_LOCATION_WPS_SEARCHING,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libslp-location/location/manager/location-hybrid-mobile.c hybrid_service_updated 351 } else if (g_type == LOCATION_TYPE_WPS && location_setting_get_int(VCONFKEY_LOCATION_WPS_STATE) == VCONFKEY_LOCATION_WPS_SEARCHING) {

@@ -1,0 +1,2 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/include/setting-common-data-slp-setting.h <global> 117 #define VCONFKEY_SETAPPL_DATA_USAGE_ROAMING_STATUS VCONFKEY_SETAPPL_PREFIX"/data_usage_roaming_status"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 483 #define VCONFKEY_SETAPPL_DATA_USAGE_ROAMING_STATUS "db/setting/data_usage_roaming_status"

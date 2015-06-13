@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-uncategorized-keys.h <global> 313 #define VCONFKEY_UNCATEGORIZED_269 "file/private/wifi/wifi_off_by_airplane"

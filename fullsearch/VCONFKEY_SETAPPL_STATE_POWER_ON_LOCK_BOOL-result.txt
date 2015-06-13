@@ -1,0 +1,2 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-data-slp-setting.c <global> 215 {"power_on_lock", "security", BOOL_SLP_SETTING_POWER_ON_LOCK, VCONFKEY_SETAPPL_STATE_POWER_ON_LOCK_BOOL, eBOOL, {0}, export_json, import_default},
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 191 #define VCONFKEY_SETAPPL_STATE_POWER_ON_LOCK_BOOL "db/setting/power_on_lock"

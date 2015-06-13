@@ -1,0 +1,15 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-nfc-keys.h <global> 39 #define VCONFKEY_NFC_SE_TYPE "db/nfc/se_type"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/clientlib/net_nfc_client_se.c net_nfc_client_se_get_secure_element_type_sync 547 if (vconf_get_int(VCONFKEY_NFC_SE_TYPE, &type) == 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/manager/net_nfc_server_se.c net_nfc_server_se_get_se_state 253 if (vconf_get_int(VCONFKEY_NFC_SE_TYPE, &se_policy) != 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/manager/net_nfc_server_se.c net_nfc_server_se_set_se_state 270 if (vconf_get_int(VCONFKEY_NFC_SE_TYPE, &se_policy) != 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/manager/net_nfc_server_se.c net_nfc_server_se_set_se_state 322 if (vconf_set_int(VCONFKEY_NFC_SE_TYPE, se_policy) == 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/manager/net_nfc_server_se.c net_nfc_server_se_get_se_type 406 if (vconf_get_int(VCONFKEY_NFC_SE_TYPE, &se_policy) != 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/manager/net_nfc_server_se.c net_nfc_server_se_set_se_type 432 if (vconf_get_int(VCONFKEY_NFC_SE_TYPE, &se_policy) != 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/manager/net_nfc_server_se.c net_nfc_server_se_set_se_type 479 if (vconf_set_int(VCONFKEY_NFC_SE_TYPE, se_policy) == 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/manager/net_nfc_server_se.c __se_get_se_policy 504 if (vconf_get_int(VCONFKEY_NFC_SE_TYPE, &se_policy) != 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/manager/net_nfc_server_se.c net_nfc_server_se_set_se_policy 551 if (vconf_get_int(VCONFKEY_NFC_SE_TYPE, &se_type) != 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/manager/net_nfc_server_se.c net_nfc_server_se_set_se_policy 592 if (vconf_set_int(VCONFKEY_NFC_SE_TYPE, vconf_key) != 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/manager/net_nfc_server_se.c _vconf_sim_status_cb 803 ret = vconf_get_int(VCONFKEY_NFC_SE_TYPE, &se_type);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/manager/net_nfc_server_se.c _se_uicc_init 865 ret = vconf_get_int(VCONFKEY_NFC_SE_TYPE, &se_type);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/manager/net_nfc_server_vconf.c net_nfc_server_vconf_init 278 vconf_notify_key_changed(VCONFKEY_NFC_SE_TYPE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/nfc-manager/src/manager/net_nfc_server_vconf.c net_nfc_server_vconf_deinit 304 vconf_ignore_key_changed(VCONFKEY_NFC_SE_TYPE,

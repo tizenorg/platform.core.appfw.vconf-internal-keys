@@ -1,0 +1,10 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 493 #define VCONFKEY_SETAPPL_SCREENMODE_SELNAME "db/setting/screenmode/selected_name"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-applications/src/setting-applications-main.c setting_applications_main_update 567 char *curmode = vconf_get_str(VCONFKEY_SETAPPL_SCREENMODE_SELNAME);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-general-func.c get_pa_screen_mode_str 170 curmode = vconf_get_str(VCONFKEY_SETAPPL_SCREENMODE_SELNAME);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-general-func.c get_pa_screen_mode_str 182 vconf_set_str(VCONFKEY_SETAPPL_SCREENMODE_SELNAME, str_in_arr[screen_mode]);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-display/src/setting-display-main.c setting_display_main_update 668 char *curmode = vconf_get_str(VCONFKEY_SETAPPL_SCREENMODE_SELNAME);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-display/src/setting-display-screen-mode.c setting_display_screen_mode_create 185 char *curmode = vconf_get_str(VCONFKEY_SETAPPL_SCREENMODE_SELNAME);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-display/src/setting-display-screen-mode.c setting_display_screen_mode_mouse_up_Gendial_list_radio_cb 297 vconf_set_str(VCONFKEY_SETAPPL_SCREENMODE_SELNAME, str_in_arr[list_item->chk_status]);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-display/src/setting-display.c setting_reset_display_main 834 ret += vconf_set_str(VCONFKEY_SETAPPL_SCREENMODE_SELNAME, "Dynamic");
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/setting.c setting_string_vconf_change_cb 609 else if (!safeStrCmp(vconf_name, VCONFKEY_SETAPPL_SCREENMODE_SELNAME)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/setting.c setting_main_app_reset 1002 REGISTER_VCONF_NODE(ad->listened_list, VCONFKEY_SETAPPL_SCREENMODE_SELNAME, cb, ad);

@@ -1,0 +1,5 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-location-keys.h <global> 97 #define VCONFKEY_LOCATION_NMEA_LOGGING "db/location/nmea/LoggingEnabled"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/lbs-server/server.c _gps_nmea_changed_cb 129 if (setting_get_int(VCONFKEY_LOCATION_NMEA_LOGGING, &int_val) == FALSE) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/lbs-server/server.c _gps_get_nmea_replay_mode 495 if (setting_get_int(VCONFKEY_LOCATION_NMEA_LOGGING, &int_val) == FALSE) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/lbs-server/server.c _gps_notify_params 510 setting_notify_key_changed(VCONFKEY_LOCATION_NMEA_LOGGING, _gps_nmea_changed_cb, (void *)server);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/lbs-server/server.c _gps_ignore_params 516 setting_ignore_key_changed(VCONFKEY_LOCATION_NMEA_LOGGING, _gps_nmea_changed_cb);

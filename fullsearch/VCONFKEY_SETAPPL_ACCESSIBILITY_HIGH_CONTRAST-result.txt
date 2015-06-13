@@ -1,0 +1,9 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-data-slp-setting.c <global> 226 {"high_contract", "accessibility", BOOL_SLP_SETTING_ACCESSIBILITY_HIGH_CONTRAST, VCONFKEY_SETAPPL_ACCESSIBILITY_HIGH_CONTRAST, eBOOL, {0}, export_json, import_default},
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 383 #define VCONFKEY_SETAPPL_ACCESSIBILITY_HIGH_CONTRAST "db/setting/accessibility/high_contrast"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/enhance-wearable.c VCONF_HIGH_CONTRAST 32 #define VCONF_HIGH_CONTRAST VCONFKEY_SETAPPL_ACCESSIBILITY_HIGH_CONTRAST
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c __mode_syspopup_powerful_cb 1683 ret = vconf_get_bool(VCONFKEY_SETAPPL_ACCESSIBILITY_HIGH_CONTRAST, &opposite);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c __mode_syspopup_normal_cb 1820 ret = vconf_get_bool(VCONFKEY_SETAPPL_ACCESSIBILITY_HIGH_CONTRAST, &opposite);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c __mode_syspopup_add 2751 ret = vconf_get_bool(VCONFKEY_SETAPPL_ACCESSIBILITY_HIGH_CONTRAST, &opposite);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c __mode_syspopup_add 2820 ret = vconf_get_bool(VCONFKEY_SETAPPL_ACCESSIBILITY_HIGH_CONTRAST, &opposite);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c __mode_syspopup_add 2867 ret = vconf_get_bool(VCONFKEY_SETAPPL_ACCESSIBILITY_HIGH_CONTRAST, &opposite);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c __mode_syspopup_add 2905 ret = vconf_get_bool(VCONFKEY_SETAPPL_ACCESSIBILITY_HIGH_CONTRAST, &opposite);

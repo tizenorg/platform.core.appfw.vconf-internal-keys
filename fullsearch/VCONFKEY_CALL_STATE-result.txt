@@ -1,0 +1,41 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-call-keys.h <global> 27 #define VCONFKEY_CALL_STATE "memory/call/state"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-agent/ag-agent/bluetooth-ag-manager.c _bt_hfp_voice_dial_request 1559 if (vconf_get_int(VCONFKEY_CALL_STATE, &call_state) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/core/vc-core-util.c _vc_core_util_set_call_status 637 if (vconf_set_int(VCONFKEY_CALL_STATE, call_status)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/core/vc-core-util.c _vc_core_util_check_video_call_status 672 ret = vconf_get_int(VCONFKEY_CALL_STATE, &call_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/telephony/telephony.c get_call_state 51 return vconf_get_int(VCONFKEY_CALL_STATE, state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/email-service/email-core/email-core-utils.c emcore_get_alert_type 1215 if (vconf_get_int(VCONFKEY_CALL_STATE, &call_state) != 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/processing/call.c __bt_ag_sco_state_changed_cb 109 vconf_get_int(VCONFKEY_CALL_STATE, &status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/processing/call.c show_call_icon 150 ret = vconf_get_int(VCONFKEY_CALL_STATE, &status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/processing/call.c indicator_call_change_cb 185 ret = vconf_get_int(VCONFKEY_CALL_STATE, &status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/processing/call.c register_call_module 225 ret = vconf_notify_key_changed(VCONFKEY_CALL_STATE, indicator_call_change_cb, data);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/processing/call.c unregister_call_module 236 ret = vconf_ignore_key_changed(VCONFKEY_CALL_STATE, indicator_call_change_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libfeedback/mobile/src/check.c mobile_init 173 if (vconf_get_int(VCONFKEY_CALL_STATE, &callstatus) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libfeedback/mobile/src/check.c mobile_init 209 vconf_notify_key_changed(VCONFKEY_CALL_STATE, feedback_callstatus_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libfeedback/mobile/src/check.c mobile_exit 222 vconf_ignore_key_changed(VCONFKEY_CALL_STATE, feedback_callstatus_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libfeedback/wearable/src/check.c wearable_init 177 if (vconf_get_int(VCONFKEY_CALL_STATE, &callstatus) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libfeedback/wearable/src/check.c wearable_init 210 vconf_notify_key_changed(VCONFKEY_CALL_STATE, feedback_callstatus_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libfeedback/wearable/src/check.c wearable_exit 222 vconf_ignore_key_changed(VCONFKEY_CALL_STATE, feedback_callstatus_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lockscreen/src/sim_state.c _sim_controller_get_call_state 122 ret = lock_property_get_int(PROPERTY_TYPE_VCONFKEY, VCONFKEY_CALL_STATE, &value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lockscreen/src/sim_state.c lock_sim_state_init 625 ret = vconf_notify_key_changed(VCONFKEY_CALL_STATE, _sim_controller_call_state_changed_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/common/msg-ui-common-utility.c msg_common_is_connected_call 859 if (vconf_get_int(VCONFKEY_CALL_STATE, &call_status) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/composer/src/ui-composer/msg-ui-composer-main.c msg_ui_composer_destroy 2102 if (vconf_ignore_key_changed(VCONFKEY_CALL_STATE, __msgc_call_connection_state_change_cb) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/composer/src/ui-composer/msg-ui-composer-main.c msg_ui_composer_destroy 2103 D_EMSG("Fail to remove vconf time with [%s]", VCONFKEY_CALL_STATE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/composer/src/ui-composer/msg-ui-composer-main.c msg_ui_composer_init 3420 if (vconf_notify_key_changed(VCONFKEY_CALL_STATE, __msgc_call_connection_state_change_cb, (void *)cd) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/msg-service/externals/MsgDevicedWrapper.cpp MsgChangePmState 83 callStatus = MsgSettingGetInt(VCONFKEY_CALL_STATE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/msg-service/externals/MsgSoundPlayer.cpp MsgGetPlayStatus 326 callStatus = MsgSettingGetInt(VCONFKEY_CALL_STATE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/music-player/music-chooser/src/mc-common.c mc_is_call_connected 137 if (!vconf_get_int(VCONFKEY_CALL_STATE, &state)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/sim_controller.c _sim_controller_get_call_state 83 ret = vconf_get_int(VCONFKEY_CALL_STATE, &value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/sim_controller.c sim_controller_init 709 ret = vconf_notify_key_changed(VCONFKEY_CALL_STATE, __sim_controller_call_state_changed_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-network/src/setting-network-main.c __setting_network_main_exp_cb 410 vconf_get_int(VCONFKEY_CALL_STATE, &status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-network/src/setting-network-main.c setting_network_main_item_Gendial_mouse_up_cb 1323 vconf_get_int(VCONFKEY_CALL_STATE, &status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-profile/src/setting-profile-common.c setting_sound_create_warning_popup_during_call 1003 vconf_get_int(VCONFKEY_CALL_STATE, &call_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/setting.c setting_int_vconf_change_cb 509 } else if (!safeStrCmp(vconf_name, VCONFKEY_CALL_STATE)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c _status_passive_change_cb 232 } else if (!strcmp(key_name, VCONFKEY_CALL_STATE)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 356 if (vconf_notify_key_changed(VCONFKEY_CALL_STATE, _status_passive_change_cb, NULL) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 357 _E("Failed to register add the callback for %s", VCONFKEY_CALL_STATE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 358 } else if (vconf_get_int(VCONFKEY_CALL_STATE, &s_status_passive.call_state) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 359 _E("Failed to get vconfkey[%s]", VCONFKEY_CALL_STATE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_unregister 519 if (vconf_ignore_key_changed(VCONFKEY_CALL_STATE, _status_passive_change_cb) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_unregister 520 _E("Failed to unregister the callback for %s", VCONFKEY_CALL_STATE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/swap-manager/daemon/device_vconf.c get_call_status 119 res = vconf_get_int(VCONFKEY_CALL_STATE, &call_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-popup/system-servant/system-servant.c get_call_state 244 if (vconf_get_int(VCONFKEY_CALL_STATE, &state) == 0

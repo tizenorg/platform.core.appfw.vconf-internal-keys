@@ -1,0 +1,8 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-ciss-keys.h <global> 107 #define VCONFKEY_CISSAPPL_PERSONALISED_EQ_STR "db/ciss/personalised_eq"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-sound-eq.c __cst_gl_sel_in_call_sound_eq 97 buf = _cst_vconf_get_str(VCONFKEY_CISSAPPL_PERSONALISED_EQ_STR);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-sound-eq.c __cst_call_personalise_eq_changed_cb 166 buf = _cst_vconf_get_str(VCONFKEY_CISSAPPL_PERSONALISED_EQ_STR);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-sound-eq.c __cst_call_personalise_eq_changed_cb 181 vconf_ignore_key_changed(VCONFKEY_CISSAPPL_PERSONALISED_EQ_STR, __cst_call_personalise_eq_changed_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-sound-eq.c __cst_create_genlist_sound_eq_cst 343 buf = _cst_vconf_get_str(VCONFKEY_CISSAPPL_PERSONALISED_EQ_STR);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-sound-eq.c __cst_create_genlist_sound_eq_cst 356 vconf_notify_key_changed(VCONFKEY_CISSAPPL_PERSONALISED_EQ_STR, __cst_call_personalise_eq_changed_cb,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-sound-eq.c _cst_sound_eq_unlisten_vconf_change 385 vconf_ignore_key_changed(VCONFKEY_CISSAPPL_PERSONALISED_EQ_STR, __cst_call_personalise_eq_changed_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-widget.c _cst_gl_realized_cb 295 buf = _cst_vconf_get_str(VCONFKEY_CISSAPPL_PERSONALISED_EQ_STR);

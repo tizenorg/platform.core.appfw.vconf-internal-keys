@@ -1,0 +1,3 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-system-keys.h <global> 28 #define VCONFKEY_SYSTEM_TIMECHANGE_EXTERNAL "db/system/timechange_external"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/alarm-manager/alarm-manager.c __on_system_time_external_changed 1778 if (vconf_get_dbl(VCONFKEY_SYSTEM_TIMECHANGE_EXTERNAL, &diff_time) != VCONF_OK) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/alarm-manager/alarm-manager.c __initialize_noti 3478 (VCONFKEY_SYSTEM_TIMECHANGE_EXTERNAL, __on_system_time_external_changed, NULL) < 0) {

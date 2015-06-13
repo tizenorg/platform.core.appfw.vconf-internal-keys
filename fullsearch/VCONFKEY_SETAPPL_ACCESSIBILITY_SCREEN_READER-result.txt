@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 387 #define VCONFKEY_SETAPPL_ACCESSIBILITY_SCREEN_READER "db/setting/accessibility/screen_reader"

@@ -1,0 +1,5 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-telephony-keys.h <global> 234 #define VCONFKEY_TELEPHONY_SIM_POWER_STATE2 "db/telephony/sim_power_state2"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/voice-call-engine.c vcall_engine_get_active_sim_slot_count 333 if (vconf_get_bool(VCONFKEY_TELEPHONY_SIM_POWER_STATE2, &sim_power_status) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/common/msg-ui-common-utility.c msg_common_get_active_sim_count 4414 vconf_get_bool(VCONFKEY_TELEPHONY_SIM_POWER_STATE2, &sim_power_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/composer/src/bubble/msg-ui-composer-bubble-list.c msg_ui_bubble_retrieve_message 2554 vconf_get_bool(VCONFKEY_TELEPHONY_SIM_POWER_STATE2, &sim_power_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/setting/src/main/msg-ui-setting-common-util.c msg_ui_setting_common_get_sim_power_state 778 sim_power_state_key = VCONFKEY_TELEPHONY_SIM_POWER_STATE2;

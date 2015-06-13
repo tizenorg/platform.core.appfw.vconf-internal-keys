@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-wms-keys.h <global> 36 #define VCONFKEY_WMS_CLOCKS_SET_IDLE "db/wms/clocks_set_idle"

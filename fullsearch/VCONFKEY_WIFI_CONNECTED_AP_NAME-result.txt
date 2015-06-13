@@ -1,0 +1,7 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-wifi-keys.h <global> 65 #define VCONFKEY_WIFI_CONNECTED_AP_NAME "memory/wifi/connected_ap_name"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-state.c __netconfig_wifi_set_essid 100 netconfig_set_vconf_str(VCONFKEY_WIFI_CONNECTED_AP_NAME, essid_name);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-state.c __netconfig_wifi_unset_essid 107 netconfig_set_vconf_str(VCONFKEY_WIFI_CONNECTED_AP_NAME, "");
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-general-func.c get_pa_Wi_Fi_on_off_str 494 char *pa_wifi_device = vconf_get_str(VCONFKEY_WIFI_CONNECTED_AP_NAME);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/setting.c setting_int_vconf_change_cb 457 char *ap_name = vconf_get_str(VCONFKEY_WIFI_CONNECTED_AP_NAME);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/setting.c setting_string_vconf_change_cb 607 if (!safeStrCmp(vconf_name, VCONFKEY_WIFI_CONNECTED_AP_NAME)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/setting.c setting_main_app_reset 1001 REGISTER_VCONF_NODE(ad->listened_list, VCONFKEY_WIFI_CONNECTED_AP_NAME, cb, ad);

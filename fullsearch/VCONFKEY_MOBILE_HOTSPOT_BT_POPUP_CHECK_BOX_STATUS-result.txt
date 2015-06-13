@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-mobile-hotspot-keys.h <global> 58 #define VCONFKEY_MOBILE_HOTSPOT_BT_POPUP_CHECK_BOX_STATUS "file/private/libug-setting-mobileap-efl/bt_popup_check_box_status"

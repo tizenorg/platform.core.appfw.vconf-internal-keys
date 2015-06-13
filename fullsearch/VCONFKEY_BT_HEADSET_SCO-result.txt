@@ -1,0 +1,2 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-bt-keys.h <global> 24 #define VCONFKEY_BT_HEADSET_SCO "memory/bluetooth/btsco"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/voice-call-bt.c _vc_bt_get_bt_sco_status 1169 ret = vconf_get_bool(VCONFKEY_BT_HEADSET_SCO, &sco_status);

@@ -1,0 +1,24 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/runtime-info/src/runtime_info_system.c <global> 40 static const char *VCONF_CHARGER_CONNECTED = VCONFKEY_SYSMAN_CHARGER_STATUS;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-sysman-keys.h <global> 28 #define VCONFKEY_SYSMAN_CHARGER_STATUS "memory/sysman/charger_status"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/battery/power-supply.c check_online 492 vconf_set_int(VCONFKEY_SYSMAN_CHARGER_STATUS, old_online);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/battery/power-supply.c check_online 499 vconf_set_int(VCONFKEY_SYSMAN_CHARGER_STATUS, old_online);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/battery/power-supply.c dbus_get_charger_status 691 if (vconf_get_int(VCONFKEY_SYSMAN_CHARGER_STATUS, &ret) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/display-dbus.c edbus_releasebrightness 540 if (vconf_get_int(VCONFKEY_SYSMAN_CHARGER_STATUS, &charger) != 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/led/torch.c torch_turn_off_led_cb 85 if (vconf_get_int(VCONFKEY_SYSMAN_CHARGER_STATUS, &status) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/led/torch.c torch_check_battery_status 109 if (vconf_get_int(VCONFKEY_SYSMAN_CHARGER_STATUS, &status) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/led/torch.c torch_led_status_cb 144 vconf_notify_key_changed(VCONFKEY_SYSMAN_CHARGER_STATUS, torch_battery_status_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/led/torch.c torch_led_status_cb 152 vconf_ignore_key_changed(VCONFKEY_SYSMAN_CHARGER_STATUS, torch_battery_status_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/clock/clock.c indicator_clock_charging_now_cb 315 vconf_get_int(VCONFKEY_SYSMAN_CHARGER_STATUS, &status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/sensord/src/context/context_sensor.cpp initialize 173 if (vconf_notify_key_changed(VCONFKEY_SYSMAN_CHARGER_STATUS, charger_state_cb, this) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/sensord/src/context/context_sensor.cpp initialize 174 ERR("Fail to set notify callback for %s", VCONFKEY_SYSMAN_CHARGER_STATUS);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/sensord/src/context/context_sensor.cpp finalize 179 if (vconf_ignore_key_changed(VCONFKEY_SYSMAN_CHARGER_STATUS, charger_state_cb) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/sensord/src/context/context_sensor.cpp finalize 180 ERR("Can't unset callback for %s", VCONFKEY_SYSMAN_CHARGER_STATUS);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/sensord/src/context/context_sensor.cpp is_charger_connected 333 if (vconf_get_int(VCONFKEY_SYSMAN_CHARGER_STATUS, &charger_state) != 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-security/src/setting-security-encryption.c __update_toolbar_status 73 vconf_get_int(VCONFKEY_SYSMAN_CHARGER_STATUS, &charger_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-security/src/setting-security-encryption.c __add_encryption_content 280 vconf_get_int(VCONFKEY_SYSMAN_CHARGER_STATUS, &charger_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-security/src/setting-security-encryption.c __add_encryption_content 328 vconf_get_int(VCONFKEY_SYSMAN_CHARGER_STATUS, &charger_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-security/src/setting-security-encryption.c setting_security_encryption_create 415 ret = vconf_notify_key_changed(VCONFKEY_SYSMAN_CHARGER_STATUS, __enc_vconf_changed_cb, ad);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-security/src/setting-security-encryption.c setting_security_encryption_destroy 438 (void )vconf_ignore_key_changed(VCONFKEY_SYSMAN_CHARGER_STATUS, __enc_vconf_changed_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-popup/src/battery/lowbattery-mobile.c charger_status_changed 66 if (vconf_ignore_key_changed(VCONFKEY_SYSMAN_CHARGER_STATUS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-popup/src/battery/lowbattery-mobile.c unregister_charger_status_handler 77 vconf_ignore_key_changed(VCONFKEY_SYSMAN_CHARGER_STATUS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-popup/src/battery/lowbattery-mobile.c register_charger_status_handler 83 if (vconf_notify_key_changed(VCONFKEY_SYSMAN_CHARGER_STATUS,

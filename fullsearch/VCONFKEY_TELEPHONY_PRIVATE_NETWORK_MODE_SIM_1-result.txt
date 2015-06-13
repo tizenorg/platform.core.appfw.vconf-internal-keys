@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-telephony-keys.h <global> 264 #define VCONFKEY_TELEPHONY_PRIVATE_NETWORK_MODE_SIM_1 "db/private/telephony/sim1_network_mode"

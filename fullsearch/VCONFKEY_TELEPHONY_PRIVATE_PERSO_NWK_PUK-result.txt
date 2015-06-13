@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-telephony-keys.h <global> 278 #define VCONFKEY_TELEPHONY_PRIVATE_PERSO_NWK_PUK "memory/private/telephony/perso_nwk_puk"

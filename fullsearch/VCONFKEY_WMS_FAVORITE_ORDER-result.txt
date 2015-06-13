@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-wms-keys.h <global> 27 #define VCONFKEY_WMS_FAVORITE_ORDER "memory/wms/favorites_order"

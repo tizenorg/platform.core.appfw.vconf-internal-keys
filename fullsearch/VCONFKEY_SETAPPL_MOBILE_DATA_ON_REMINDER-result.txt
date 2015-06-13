@@ -1,0 +1,8 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/settings/modules/mobile_data.c <global> 37 #ifndef VCONFKEY_SETAPPL_MOBILE_DATA_ON_REMINDER
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/settings/modules/mobile_data.c <global> 38 #define VCONFKEY_SETAPPL_MOBILE_DATA_ON_REMINDER "db/setting/network/mobile_data_on_reminder"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 578 #define VCONFKEY_SETAPPL_MOBILE_DATA_ON_REMINDER "db/setting/network/mobile_data_on_reminder"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/settings/modules/mobile_data.c _need_display_popup 96 ret = vconf_get_bool(VCONFKEY_SETAPPL_MOBILE_DATA_ON_REMINDER,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-network/src/setting-network-main.c setting_network_main_item_Gendial_mouse_up_cb 1400 ret = vconf_get_bool(VCONFKEY_SETAPPL_MOBILE_DATA_ON_REMINDER, &reminder_flag);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-network/src/setting-network-main.c setting_network_main_chk_btn_cb 1504 ret = vconf_get_bool(VCONFKEY_SETAPPL_MOBILE_DATA_ON_REMINDER, &reminder_flag);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-network/src/setting-network-main.c setting_network_use_packet_resp_cb 1567 (void )vconf_set_bool(VCONFKEY_SETAPPL_MOBILE_DATA_ON_REMINDER, 0);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c __mode_syspopup_mobiledata_cb 1971 ret = vconf_set_bool(VCONFKEY_SETAPPL_MOBILE_DATA_ON_REMINDER, 0);

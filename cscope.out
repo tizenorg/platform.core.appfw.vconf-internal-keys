@@ -1,0 +1,10032 @@
+cscope 15 $HOME/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys               0000097293
+	@/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-account-keys.h
+
+22 #i‚de‡
+__VCONF_INTERNAL_ACCOUNT_KEYS_H__
+
+
+23 
+	#__VCONF_INTERNAL_ACCOUNT_KEYS_H__
+
+
+	)
+
+24 
+	#VCONFKEY_ACCOUNT_MSG_STR
+ "db/accou¡/msg"
+
+	)
+
+	@/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-alarm-keys.h
+
+22 #i‚de‡
+__VCONF_INTERNAL_ALARM_KEYS_H__
+
+
+23 
+	#__VCONF_INTERNAL_ALARM_KEYS_H__
+
+
+	)
+
+24 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+25 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+27 
+	#VCONFKEY_ALARM_STATE
+ "db/Æ¨m/°©e"
+
+	)
+
+29 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+30 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+32 
+	#VCONFKEY_ALARM_RINGING
+ "mem‹y/Æ¨m/rögög"
+
+	)
+
+34 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+35 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+37 
+	#VCONFKEY_ALARM_VOLUME_POPUP_ENABLE
+ "mem‹y/Æ¨m/vﬁume_p›up_íabÀ"
+
+	)
+
+	@/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-boot-animation-keys.h
+
+22 #i‚de‡
+__VCONF_INTERNAL_BOOT_ANIMATION_KEYS_H__
+
+
+23 
+	#__VCONF_INTERNAL_BOOT_ANIMATION_KEYS_H__
+
+
+	)
+
+24 
+	#VCONFKEY_BOOT_ANIMATION_FINISHED
+ "mem‹y/boŸ_™im©i⁄/föished"
+
+	)
+
+	@/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-browser-keys.h
+
+22 #i‚de‡
+__VCONF_INTERNAL_BROWSER_KEYS_H__
+
+
+23 
+	#__VCONF_INTERNAL_BROWSER_KEYS_H__
+
+
+	)
+
+24 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+25 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+27 
+	#VCONFKEY_BROWSER_PREFIX
+ "db/brow£r"
+
+	)
+
+29 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+30 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+32 
+	#VCONFKEY_BROWSER_BROWSER_USER_AGENT
+ "db/brow£r/brow£r_u£r_agít"
+
+	)
+
+34 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+35 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+37 
+	#VCONFKEY_BROWSER_CUSTOM_USER_AGENT
+ "db/brow£r/cu°om_u£r_agít"
+
+	)
+
+	@/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-bt-keys.h
+
+22 #i‚de‡
+__VCONF_INTERNAL_BT_KEYS_H__
+
+
+23 
+	#__VCONF_INTERNAL_BT_KEYS_H__
+
+
+	)
+
+24 
+	#VCONFKEY_BT_HEADSET_SCO
+ "mem‹y/bluëoŸh/btsco"
+
+	)
+
+27 
+	mVCONFKEY_BT_SCO_DISCONNECT
+ = 0x00,
+
+28 
+	mVCONFKEY_BT_SCO_CONNECT
+ = 0x01
+
+31 
+	#VCONFKEY_BT_HEADSET_NAME
+ "mem‹y/bluëoŸh/sco_hód£t_«me"
+
+	)
+
+33 
+	#VCONFKEY_BT_LE_STATUS
+ "db/bluëoŸh/À°©us"
+
+	)
+
+36 
+	mVCONFKEY_BT_LE_STATUS_OFF
+ = 0x0000,
+
+37 
+	mVCONFKEY_BT_LE_STATUS_ON
+ = 0x0001
+
+40 
+	#VCONFKEY_BT_DUT_MODE
+ "mem‹y/bluëoŸh/dutmode"
+
+	)
+
+43 
+	mVCONFKEY_BT_DUT_MODE_OFF
+ = 0x00,
+
+44 
+	mVCONFKEY_BT_DUT_MODE_ON
+ = 0x01
+
+47 
+	#VCONFKEY_BT_FILE_VISIBLE_TIME
+ "fûe/¥iv©e/libug-£âög-bluëoŸh-eÊ/visibûôy_time"
+
+	)
+
+49 
+	#VCONFKEY_BT_OFF_DUE_TO_TIMEOUT
+ "fûe/¥iv©e/bt-£rvi˚/bt_off_due_to_timeout"
+
+	)
+
+51 
+	#VCONFKEY_BT_POWERSAVING_MODE_DEACTIVATED
+ "fûe/¥iv©e/bt-c‹e/powîßvög_mode_dó˘iv©ed"
+
+	)
+
+53 
+	#VCONFKEY_BT_FLIGHT_MODE_DEACTIVATED
+ "fûe/¥iv©e/bt-c‹e/Êight_mode_dó˘iv©ed"
+
+	)
+
+55 
+	#VCONFKEY_BT_DEVICE
+ "mem‹y/bluëoŸh/devi˚"
+
+	)
+
+	@/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-call-keys.h
+
+22 #i‚de‡
+__VCONF_INTERNAL_CALL_KEYS_H__
+
+
+23 
+	#__VCONF_INTERNAL_CALL_KEYS_H__
+
+
+	)
+
+24 
+	#VCONFKEY_CALL_STATE
+ "mem‹y/ˇŒ/°©e"
+
+	)
+
+27 
+	mVCONFKEY_CALL_OFF
+ = 0x00,
+
+28 
+	mVCONFKEY_CALL_VOICE_CONNECTING
+,
+
+29 
+	mVCONFKEY_CALL_VOICE_ACTIVE
+,
+
+30 
+	mVCONFKEY_CALL_VIDEO_CONNECTING
+,
+
+31 
+	mVCONFKEY_CALL_VIDEO_ACTIVE
+,
+
+32 
+	mVCONFKEY_CALL_STATE_MAX
+
+
+	@/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-camera-keys.h
+
+22 #i‚de‡
+__VCONF_INTERNAL_CAMERA_KEYS_H__
+
+
+23 
+	#__VCONF_INTERNAL_CAMERA_KEYS_H__
+
+
+	)
+
+24 
+	#VCONFKEY_CAMERA_STATE
+ "mem‹y/ˇmîa/°©e"
+
+	)
+
+27 
+	mVCONFKEY_CAMERA_STATE_NULL
+,
+
+28 
+	mVCONFKEY_CAMERA_STATE_OPEN
+,
+
+29 
+	mVCONFKEY_CAMERA_STATE_PREVIEW
+,
+
+30 
+	mVCONFKEY_CAMERA_STATE_RECORDING
+,
+
+31 
+	mVCONFKEY_CAMERA_STATE_RECORDING_PAUSE
+
+
+34 
+	#VCONFKEY_CAMERA_SHUTTER_SOUND_POLICY
+ "fûe/ˇmîa/shuâî_sound_pﬁicy"
+
+	)
+
+37 
+	mVCONFKEY_CAMERA_SHUTTER_SOUND_POLICY_OFF
+,
+
+38 
+	mVCONFKEY_CAMERA_SHUTTER_SOUND_POLICY_ON
+
+
+41 
+	#VCONFKEY_RECORDER_STATE
+ "mem‹y/ªc‹dî/°©e"
+
+	)
+
+44 
+	mVCONFKEY_RECORDER_STATE_NULL
+,
+
+45 
+	mVCONFKEY_RECORDER_STATE_CREATED
+,
+
+46 
+	mVCONFKEY_RECORDER_STATE_RECORDING
+,
+
+47 
+	mVCONFKEY_RECORDER_STATE_RECORDING_PAUSE
+
+
+50 
+	#VCONFKEY_CAMERA_PID
+ "mem‹y/ˇmîa/pid"
+
+	)
+
+52 
+	#VCONFKEY_CAMERA_FLASH_STATE
+ "mem‹y/ˇmîa/Êash_°©e"
+
+	)
+
+55 
+	mVCONFKEY_CAMERA_FLASH_STATE_OFF
+,
+
+56 
+	mVCONFKEY_CAMERA_FLASH_STATE_ON
+
+
+59 
+	#VCONFKEY_RECORDER_PID
+ "mem‹y/ªc‹dî/pid"
+
+	)
+
+	@/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-ciss-keys.h
+
+22 #i‚de‡
+__VCONF_INTERNAL_CISS_KEYS_H__
+
+
+23 
+	#__VCONF_INTERNAL_CISS_KEYS_H__
+
+
+	)
+
+24 
+	#VCONFKEY_CISSAPPL_PREFIX
+ "db/ciss"
+
+	)
+
+26 
+	#VCONFKEY_CISSAPPL_SHOW_MY_NUMBER_INT
+ "db/ciss/show_my_numbî"
+
+	)
+
+28 
+	#VCONFKEY_CISSAPPL_INCOMING_CALL_NOTIFICATION_BOOL
+ "db/ciss/öcomög_ˇŒ_nŸifiˇti⁄"
+
+	)
+
+30 
+	#VCONFKEY_CISSAPPL_AUTO_REJECT_ADD_NUMBERS_TO_MESSAGES
+ "db/ciss/auto_ªje˘_add_numbîs_to_mesßges"
+
+	)
+
+32 
+	#VCONFKEY_CISSAPPL_REJECT_CALL_MSG_INT
+ "db/ciss/ªje˘_ˇŒ_mesßge_˙t"
+
+	)
+
+34 
+	#VCONFKEY_CISSAPPL_USER_CREATE_MSG1_STR
+ "db/ciss/u£r_¸óã_mesßge1"
+
+	)
+
+36 
+	#VCONFKEY_CISSAPPL_USER_CREATE_MSG2_STR
+ "db/ciss/u£r_¸óã_mesßge2"
+
+	)
+
+38 
+	#VCONFKEY_CISSAPPL_USER_CREATE_MSG3_STR
+ "db/ciss/u£r_¸óã_mesßge3"
+
+	)
+
+40 
+	#VCONFKEY_CISSAPPL_USER_CREATE_MSG4_STR
+ "db/ciss/u£r_¸óã_mesßge4"
+
+	)
+
+42 
+	#VCONFKEY_CISSAPPL_USER_CREATE_MSG5_STR
+ "db/ciss/u£r_¸óã_mesßge5"
+
+	)
+
+44 
+	#VCONFKEY_CISSAPPL_USER_CREATE_MSG6_STR
+ "db/ciss/u£r_¸óã_mesßge6"
+
+	)
+
+46 
+	#VCONFKEY_CISSAPPL_ANSWERING_KEY_BOOL
+ "db/ciss/ˇŒ_™swîög_key"
+
+	)
+
+48 
+	#VCONFKEY_CISSAPPL_POWER_KEY_ENDS_CALL_BOOL
+ "db/ciss/ˇŒ_powî_key_íds_ˇŒ"
+
+	)
+
+50 
+	#VCONFKEY_CISSAPPL_NOISE_REDUCTION_BOOL
+ "db/ciss/noi£_ªdu˘i⁄"
+
+	)
+
+52 
+	#VCONFKEY_CISSAPPL_IN_CALL_SOUND_EQ_INT
+ "db/ciss/ö_ˇŒ_sound_eq"
+
+	)
+
+54 
+	#VCONFKEY_CISSAPPL_INCREASE_RINGTONE_BOOL
+ "db/ciss/ö¸ó£_rögt⁄e"
+
+	)
+
+56 
+	#VCONFKEY_CISSAPPL_PERSONALISED_EQ_STR
+ "db/ciss/≥rs⁄Æi£d_eq"
+
+	)
+
+58 
+	#VCONFKEY_CISSAPPL_CALL_SOUND_BOOL
+ "db/ciss/ˇŒ_sound"
+
+	)
+
+60 
+	#VCONFKEY_CISSAPPL_DOCOMO_INTL_DIAL_AUTO_CONVERSION_BOOL
+ "db/ciss/öé_dül_auto_c⁄vîsi⁄"
+
+	)
+
+62 
+	#VCONFKEY_CISSAPPL_MSG_NOTI_VIB_INT
+ "db/ciss/msg_nŸi_vib"
+
+	)
+
+64 
+	#VCONFKEY_CISSAPPL_MSG_NOTI_SOUND_BOOL
+ "db/ciss/msg_nŸi_sound"
+
+	)
+
+	@/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-contacts-svc-keys.h
+
+22 #i‚de‡
+__VCONF_INTERNAL_CONTACTS_SVC_KEYS_H__
+
+
+23 
+	#__VCONF_INTERNAL_CONTACTS_SVC_KEYS_H__
+
+
+	)
+
+24 
+	#VCONFKEY_CONTACTS_SVC_NAME_DISPLAY_ORDER
+ "db/c⁄è˘s-svc/«me_di•œy_‹dî"
+
+	)
+
+27 
+	mVCONFKEY_CONTACTS_SVC_NAME_DISPLAY_ORDER_FIRSTLAST
+ = 0,
+
+28 
+	mVCONFKEY_CONTACTS_SVC_NAME_DISPLAY_ORDER_LASTFIRST
+ = 1
+
+31 
+	#VCONFKEY_CONTACTS_SVC_NAME_SORTING_ORDER
+ "db/c⁄è˘s-svc/«me_s‹tög_‹dî"
+
+	)
+
+34 
+	mVCONFKEY_CONTACTS_SVC_NAME_SORTING_ORDER_FIRSTLAST
+ = 0,
+
+35 
+	mVCONFKEY_CONTACTS_SVC_NAME_SORTING_ORDER_LASTFIRST
+ = 1
+
+38 
+	#VCONFKEY_CONTACTS_SVC_PHONENUMBER_MIN_MATCH_DIGIT
+ "db/c⁄è˘s-svc/ph⁄íumbî_mö_m©ch_digô"
+
+	)
+
+	@/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-desktop-mode-keys.h
+
+22 #i‚de‡
+__VCONF_INTERNAL_DESKTOP_MODE_KEYS_H__
+
+
+23 
+	#__VCONF_INTERNAL_DESKTOP_MODE_KEYS_H__
+
+
+	)
+
+24 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+25 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+27 
+	#VCONFKEY_DESKTOP_MODE_ENABLED_STATUS
+ "db/deskt›_mode/deskt›_mode_°©us"
+
+	)
+
+	@/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-dnet-keys.h
+
+22 #i‚de‡
+__VCONF_INTERNAL_DNET_KEYS_H__
+
+
+23 
+	#__VCONF_INTERNAL_DNET_KEYS_H__
+
+
+	)
+
+24 
+	#VCONFKEY_NETWORK_STATUS
+ "mem‹y/d√t/°©us"
+
+	)
+
+27 
+	mVCONFKEY_NETWORK_OFF
+ = 0,
+
+28 
+	mVCONFKEY_NETWORK_CELLULAR
+,
+
+29 
+	mVCONFKEY_NETWORK_WIFI
+,
+
+30 
+	mVCONFKEY_NETWORK_ETHERNET
+,
+
+31 
+	mVCONFKEY_NETWORK_BLUETOOTH
+
+
+34 
+	#VCONFKEY_NETWORK_CONFIGURATION_CHANGE_IND
+ "mem‹y/d√t/√tw‹k_c⁄fig"
+
+	)
+
+36 
+	#VCONFKEY_NETWORK_IP
+ "mem‹y/d√t/ù"
+
+	)
+
+38 
+	#VCONFKEY_NETWORK_PROXY
+ "mem‹y/d√t/¥oxy"
+
+	)
+
+40 
+	#VCONFKEY_NETWORK_WIFI_STATE
+ "mem‹y/d√t/wifi"
+
+	)
+
+43 
+	mVCONFKEY_NETWORK_WIFI_OFF
+,
+
+44 
+	mVCONFKEY_NETWORK_WIFI_NOT_CONNECTED
+,
+
+45 
+	mVCONFKEY_NETWORK_WIFI_CONNECTED
+
+
+48 
+	#VCONFKEY_NETWORK_CELLULAR_STATE
+ "mem‹y/d√t/˚Œuœr"
+
+	)
+
+51 
+	mVCONFKEY_NETWORK_CELLULAR_ON
+ = 0x00,
+
+52 
+	mVCONFKEY_NETWORK_CELLULAR_3G_OPTION_OFF
+,
+
+53 
+	mVCONFKEY_NETWORK_CELLULAR_ROAMING_OFF
+,
+
+54 
+	mVCONFKEY_NETWORK_CELLULAR_FLIGHT_MODE
+,
+
+55 
+	mVCONFKEY_NETWORK_CELLULAR_NO_SERVICE
+
+
+58 
+	#VCONFKEY_DNET_STATE
+ "mem‹y/d√t/°©e"
+
+	)
+
+61 
+	mVCONFKEY_DNET_OFF
+ = 0x00,
+
+62 
+	mVCONFKEY_DNET_NORMAL_CONNECTED
+,
+
+63 
+	mVCONFKEY_DNET_SECURE_CONNECTED
+,
+
+64 
+	mVCONFKEY_DNET_TRANSFER
+
+
+67 
+	#VCONFKEY_DNET_STATE2
+ "mem‹y/d√t/°©e2"
+
+	)
+
+69 
+	#VCONFKEY_PACKET_STATE
+ "mem‹y/d√t/∑ckë_°©e"
+
+	)
+
+72 
+	mVCONFKEY_PACKET_NORMAL
+ = 0x00,
+
+73 
+	mVCONFKEY_PACKET_RX
+,
+
+74 
+	mVCONFKEY_PACKET_TX
+,
+
+75 
+	mVCONFKEY_PACKET_RXTX
+,
+
+76 
+	mVCONFKEY_PACKET_MAX
+
+
+79 
+	#VCONFKEY_NETWORK_CELLULAR_PKT_TOTAL_RCV
+ "db/d√t/°©i°ics/˚Œuœr/tŸÆrcv"
+
+	)
+
+81 
+	#VCONFKEY_NETWORK_CELLULAR_PKT_TOTAL_RCV2
+ "db/d√t/°©i°ics/˚Œuœr/tŸÆrcv2"
+
+	)
+
+83 
+	#VCONFKEY_NETWORK_CELLULAR_PKT_TOTAL_SNT
+ "db/d√t/°©i°ics/˚Œuœr/tŸÆ¢t"
+
+	)
+
+85 
+	#VCONFKEY_NETWORK_CELLULAR_PKT_TOTAL_SNT2
+ "db/d√t/°©i°ics/˚Œuœr/tŸÆ¢t2"
+
+	)
+
+87 
+	#VCONFKEY_NETWORK_CELLULAR_PKT_LAST_RCV
+ "db/d√t/°©i°ics/˚Œuœr/œ°rcv"
+
+	)
+
+89 
+	#VCONFKEY_NETWORK_CELLULAR_PKT_LAST_RCV2
+ "db/d√t/°©i°ics/˚Œuœr/œ°rcv2"
+
+	)
+
+91 
+	#VCONFKEY_NETWORK_CELLULAR_PKT_LAST_SNT
+ "db/d√t/°©i°ics/˚Œuœr/œ°¢t"
+
+	)
+
+93 
+	#VCONFKEY_NETWORK_CELLULAR_PKT_LAST_SNT2
+ "db/d√t/°©i°ics/˚Œuœr/œ°¢t2"
+
+	)
+
+95 
+	#VCONFKEY_NETWORK_WIFI_PKT_TOTAL_RCV
+ "db/d√t/°©i°ics/wifi/tŸÆrcv"
+
+	)
+
+97 
+	#VCONFKEY_NETWORK_WIFI_PKT_TOTAL_SNT
+ "db/d√t/°©i°ics/wifi/tŸÆ¢t"
+
+	)
+
+99 
+	#VCONFKEY_NETWORK_WIFI_PKT_LAST_RCV
+ "db/d√t/°©i°ics/wifi/œ°rcv"
+
+	)
+
+101 
+	#VCONFKEY_NETWORK_WIFI_PKT_LAST_SNT
+ "db/d√t/°©i°ics/wifi/œ°¢t"
+
+	)
+
+	@/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-dr-keys.h
+
+22 #i‚de‡
+__VCONF_INTERNAL_DR_KEYS_H__
+
+
+23 
+	#__VCONF_INTERNAL_DR_KEYS_H__
+
+
+	)
+
+24 
+	#VCONFKEY_DR_OSP_SERIAL_OPEN_INT
+ "mem‹y/d©a_rouãr/o•_£rül_›í"
+
+	)
+
+27 
+	mVCONFKEY_DR_OSP_SERIAL_CLOSE
+ = 0,
+
+28 
+	mVCONFKEY_DR_OSP_SERIAL_OPEN
+ = 1
+
+	@/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-email-keys.h
+
+22 #i‚de‡
+__VCONF_INTERNAL_EMAIL_KEYS_H__
+
+
+23 
+	#__VCONF_INTERNAL_EMAIL_KEYS_H__
+
+
+	)
+
+24 
+	#EMAIL_VCONF_KEY_IS_TOPMOST_WINDOW
+ "db/¥iv©e/‹g.tizí.emaû/is_t›mo°_wödow"
+
+	)
+
+	@/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-filemanager-keys.h
+
+22 #i‚de‡
+__VCONF_INTERNAL_FILEMANAGER_KEYS_H__
+
+
+23 
+	#__VCONF_INTERNAL_FILEMANAGER_KEYS_H__
+
+
+	)
+
+24 
+	#VCONFKEY_FILEMANAGER_MMC_STATUS
+ "mem‹y/fûem™agî/Mmc"
+
+	)
+
+27 
+	mVCONFKEY_FILEMANAGER_MMC_REMOVED
+ = 0,
+
+28 
+	mVCONFKEY_FILEMANAGER_MMC_LOADING
+,
+
+29 
+	mVCONFKEY_FILEMANAGER_MMC_LOADED
+,
+
+30 
+	mVCONFKEY_FILEMANAGER_MMC_FULL
+
+
+33 
+	#VCONFKEY_FILEMANAGER_DB_STATUS
+ "db/fûem™agî/dbupd©e"
+
+	)
+
+36 
+	mVCONFKEY_FILEMANAGER_DB_UPDATING
+ = 0,
+
+37 
+	mVCONFKEY_FILEMANAGER_DB_UPDATED
+
+
+	@/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-hotfix.h
+
+22 #i‚de‡
+__VCONF_INTERNAL_HOTFIX_KEYS_H__
+
+
+23 
+	#__VCONF_INTERNAL_HOTFIX_KEYS_H__
+
+
+	)
+
+24 
+	#VCONFKEY_SETAPPL_TOUCH_FEEDBACK_SOUND_VOLUME_INT
+ "db/£âög/sound/touch_„edback/sound_vﬁume"
+
+	)
+
+26 
+	#VCONFKEY_SETAPPL_NOTI_SOUND_VOLUME_INT
+ "db/£âög/sound/nŸi/sound_vﬁume"
+
+	)
+
+28 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+29 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+31 
+	#VCONFKEY_SETUP_WIZARD_FIRST_BOOT
+ "db/£tup_wiz¨d/fú°_boŸ"
+
+	)
+
+33 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+34 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+36 
+	#VCONFKEY_SETUP_WIZARD_STATE
+ "mem‹y/£tup_wiz¨d/°©e"
+
+	)
+
+39 
+	mVCONFKEY_SETUP_WIZARD_UNLOCK
+ = 0x00,
+
+40 
+	mVCONFKEY_SETUP_WIZARD_LOCK
+
+
+43 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+44 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+46 
+	#VCONFKEY_ODE_CRYPTO_STATE
+ "db/ode/¸y±o_°©e"
+
+	)
+
+48 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+49 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+51 
+	#VCONFKEY_SDE_ENCRYPT_PROGRESS
+ "db/sde/í¸y±_¥ogªss"
+
+	)
+
+53 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+54 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+56 
+	#VCONFKEY_SDE_CRYPTO_STATE
+ "db/sde/¸y±o_°©e"
+
+	)
+
+58 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+59 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+61 
+	#VCONFKEY_CISSAPPL_ANSWERING_MODE_INT
+ "db/ciss/™swîög_mode"
+
+	)
+
+63 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+64 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+66 
+	#VCONFKEY_CISSAPPL_ANSWERING_MODE_TIME_INT
+ "db/ciss/™swîög_mode_time"
+
+	)
+
+68 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+69 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+71 
+	#VCONFKEY_CISSAPPL_OUTGOING_CALL_CONDITIONS_INT
+ "db/ciss/outgoög_ˇŒ_c⁄dôi⁄s"
+
+	)
+
+73 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+74 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+76 
+	#VCONFKEY_CISSAPPL_OUTGOING_CALL_TYPE_INT
+ "db/ciss/outgoög_ˇŒ_ty≥"
+
+	)
+
+78 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+79 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+81 
+	#VCONFKEY_SETAPPL_PERFERED_ARM_LEFT_BOOL
+ "db/£âög/¥e„r_¨m_À·"
+
+	)
+
+83 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+84 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+86 
+	#VCONFKEY_SETAPPL_COLORBLIND_STATUS_BOOL
+ "db/£âög/cﬁ‹blöd/°©us"
+
+	)
+
+88 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+89 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+91 
+	#VCONFKEY_SETAPPL_COLORBLIND_LAST_RGBCMY_STR
+ "db/£âög/cﬁ‹blöd/rgbcmy"
+
+	)
+
+93 
+	#VCONFKEY_SETAPPL_PALM_SWIP_CAPTURE
+ "db/£âög/mŸi⁄/∑lm_swùe_ˇ±uª"
+
+	)
+
+95 
+	#VCONFKEY_SETAPPL_PALM_TOUCH_MUTE
+ "db/£âög/mŸi⁄/∑lm_touch_muã"
+
+	)
+
+97 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+98 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+100 
+	#VCONFKEY_SETAPPL_STATE_TICKER_NOTI_EMAIL_BOOL
+ "db/£âög/tickî_nŸi/emaû"
+
+	)
+
+102 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+103 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+105 
+	#VCONFKEY_SETAPPL_ACCESSORY_DOCK_SOUND
+ "db/£âög/ac˚ss‹õs/dock_sound"
+
+	)
+
+107 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+108 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+110 
+	#VCONFKEY_SETAPPL_EASYMODE_HOME_SCREEN
+ "db/£âög/ósym€/home_s¸ìn"
+
+	)
+
+112 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+113 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+115 
+	#VCONFKEY_SETAPPL_SMARTSCREEN_SMARTSTAY_STATUS
+ "db/£âög/sm¨ts¸ìn/sm¨t_°ay"
+
+	)
+
+117 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+118 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+120 
+	#VCONFKEY_SETAPPL_BLOCKINGMODE_ALLOWED_CONTACT_TYPE
+ "db/£âög/blockögmode/Ælowed_c⁄è˘_ty≥"
+
+	)
+
+122 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+123 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+125 
+	#VCONFKEY_SETAPPL_BLOCKINGMODE_ALLOWED_CONTACT_LIST
+ "db/£âög/blockögmode/Ælowed_c⁄è˘_li°"
+
+	)
+
+127 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+128 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+130 
+	#VCONFKEY_SETAPPL_BLOCKINGMODE_NOTIFICATIONS
+ "db/£âög/blockögmode/nŸifiˇti⁄s"
+
+	)
+
+132 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+133 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+135 
+	#VCONFKEY_CSC_SALESCODE
+ "db/csc/ßÀscode"
+
+	)
+
+137 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+138 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+140 
+	#VCONFKEY_CSC_CONFIG_MODE_RUNNING
+ "mem‹y/csc/c⁄fig_mode_ru¬ög"
+
+	)
+
+142 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+143 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+145 
+	#VCONFKEY_MOBEX_CONNECTOR_PREFIX
+ "mem‹y/mobex_c⁄√˘‹"
+
+	)
+
+147 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+148 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+150 
+	#VCONFKEY_MOBEX_CONNECTOR_STATUS
+ "mem‹y/mobex_c⁄√˘‹/°©us"
+
+	)
+
+153 
+	mVCONFKEY_MOBEX_CONNECTOR_STATUS_DISCONNECTED
+ = 0,
+
+154 
+	mVCONFKEY_MOBEX_CONNECTOR_STATUS_WAITING
+,
+
+155 
+	mVCONFKEY_MOBEX_CONNECTOR_STATUS_CONNECTED
+
+
+158 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+159 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+161 
+	#VCONFKEY_MOBEX_ENGINE_PREFIX
+ "mem‹y/mobex_ígöe"
+
+	)
+
+163 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+164 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+166 
+	#VCONFKEY_MOBEX_ENGINE_STATUS_INT
+ "mem‹y/mobex_ígöe/°©us"
+
+	)
+
+169 
+	mVCONFKEY_MOBEX_ENGINE_STATUS_NOT_CONNECT
+ = 0x00,
+
+170 
+	mVCONFKEY_MOBEX_ENGINE_STATUS_CONNECTED
+ = 0x01,
+
+171 
+	mVCONFKEY_MOBEX_ENGINE_STATUS_SYNC_START
+ = 0x02,
+
+172 
+	mVCONFKEY_MOBEX_ENGINE_STATUS_SYNC_END
+ = 0x04
+
+175 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+176 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+178 
+	#VCONFKEY_MOBEX_ENGINE_MEMO_SYNC_STATUS
+ "mem‹y/mobex_ígöe/memo_sync_°©us"
+
+	)
+
+180 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+181 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+183 
+	#VCONFKEY_MOBEX_ENGINE_CONNECTION_METHOD_INT
+ "mem‹y/mobex_ígöe/c⁄n_mëhod"
+
+	)
+
+186 
+	mVCONFKEY_MOBEX_ENGIN_NONE
+ = 0,
+
+187 
+	mVCONFKEY_MOBEX_ENGIN_USB
+,
+
+188 
+	mVCONFKEY_MOBEX_ENGIN_WIFI
+
+
+191 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+192 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+194 
+	#VCONFKEY_MOBEX_ENGINE_FUS_ODE_STATUS_INT
+ "mem‹y/mobex_ígöe/fus_ode_°©us"
+
+	)
+
+197 
+	mVCONFKEY_MOBEX_ENGINE_FUS_ODE_STATUS_UNSET
+ = 0,
+
+198 
+	mVCONFKEY_MOBEX_ENGINE_FUS_ODE_STATUS_SET
+
+
+	@/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-idle-lock-keys.h
+
+22 #i‚de‡
+__VCONF_INTERNAL_IDLE_LOCK_KEYS_H__
+
+
+23 
+	#__VCONF_INTERNAL_IDLE_LOCK_KEYS_H__
+
+
+	)
+
+24 
+	#VCONFKEY_IDLE_LOCK_BGSET
+ "db/idÀ_lock/bg£t"
+
+	)
+
+26 
+	#VCONFKEY_IDLE_LOCK_STATE
+ "mem‹y/idÀ_lock/°©e"
+
+	)
+
+29 
+	mVCONFKEY_IDLE_UNLOCK
+ = 0,
+
+30 
+	mVCONFKEY_IDLE_LOCK
+,
+
+31 
+	mVCONFKEY_IDLE_LAUNCHING_LOCK
+
+
+	@/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-isf-keys.h
+
+22 #i‚de‡
+__VCONF_INTERNAL_ISF_KEYS_H__
+
+
+23 
+	#__VCONF_INTERNAL_ISF_KEYS_H__
+
+
+	)
+
+24 
+	#VCONFKEY_ISF_INPUT_LANGUAGE
+ "db/isf/öput_œnguage"
+
+	)
+
+26 
+	#VCONFKEY_ISF_ACTIVE_KEYBOARD_UUID
+ "db/isf/öput_keybﬂrd_uuid"
+
+	)
+
+28 
+	#VCONFKEY_ISF_INPUT_PANEL_STATE
+ "mem‹y/isf/öput_∑√l_°©e"
+
+	)
+
+31 
+	mVCONFKEY_ISF_INPUT_PANEL_STATE_HIDE
+ = 0,
+
+32 
+	mVCONFKEY_ISF_INPUT_PANEL_STATE_WILL_HIDE
+,
+
+33 
+	mVCONFKEY_ISF_INPUT_PANEL_STATE_SHOW
+,
+
+34 
+	mVCONFKEY_ISF_INPUT_PANEL_STATE_WILL_SHOW
+
+
+	@/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-keys.h
+
+1 #i‚de‡
+__VCONF_INTERNAL_KEYS_H__
+
+
+2 
+	#__VCONF_INTERNAL_KEYS_H__
+
+
+	)
+
+3 
+	~"vc⁄f-öã∫Æ-webkô-keys.h
+"
+
+4 
+	~"vc⁄f-öã∫Æ-idÀ-lock-keys.h
+"
+
+5 
+	~"vc⁄f-öã∫Æ-wifi-keys.h
+"
+
+6 
+	~"vc⁄f-öã∫Æ-wms-keys.h
+"
+
+7 
+	~"vc⁄f-öã∫Æ-£âög-keys.h
+"
+
+8 
+	~"vc⁄f-öã∫Æ-accou¡-keys.h
+"
+
+9 
+	~"vc⁄f-öã∫Æ-locks¸ìn-keys.h
+"
+
+10 
+	~"vc⁄f-öã∫Æ-ˇmîa-keys.h
+"
+
+11 
+	~"vc⁄f-öã∫Æ-ˇŒ-keys.h
+"
+
+12 
+	~"vc⁄f-öã∫Æ-bt-keys.h
+"
+
+13 
+	~"vc⁄f-öã∫Æ-sysm™-keys.h
+"
+
+14 
+	~"vc⁄f-öã∫Æ-d√t-keys.h
+"
+
+15 
+	~"vc⁄f-öã∫Æ-usb-keys.h
+"
+
+16 
+	~"vc⁄f-öã∫Æ-msg-keys.h
+"
+
+17 
+	~"vc⁄f-öã∫Æ-hŸfix.h
+"
+
+18 
+	~"vc⁄f-öã∫Æ-fûem™agî-keys.h
+"
+
+19 
+	~"vc⁄f-öã∫Æ-Æ¨m-keys.h
+"
+
+20 
+	~"vc⁄f-öã∫Æ-pm-keys.h
+"
+
+21 
+	~"vc⁄f-öã∫Æ-brow£r-keys.h
+"
+
+22 
+	~"vc⁄f-öã∫Æ-isf-keys.h
+"
+
+23 
+	~"vc⁄f-öã∫Æ-c⁄è˘s-svc-keys.h
+"
+
+24 
+	~"vc⁄f-öã∫Æ-sound-keys.h
+"
+
+25 
+	~"vc⁄f-öã∫Æ-livebox-keys.h
+"
+
+26 
+	~"vc⁄f-öã∫Æ-nfc-keys.h
+"
+
+27 
+	~"vc⁄f-öã∫Æ-múaˇ°-keys.h
+"
+
+28 
+	~"vc⁄f-öã∫Æ-unˇãg‹ized-keys.h
+"
+
+29 
+	~"vc⁄f-öã∫Æ-dr-keys.h
+"
+
+30 
+	~"vc⁄f-öã∫Æ-sy°em-keys.h
+"
+
+31 
+	~"vc⁄f-öã∫Æ-loˇti⁄-keys.h
+"
+
+32 
+	~"vc⁄f-öã∫Æ-ãÀph⁄y-keys.h
+"
+
+33 
+	~"vc⁄f-öã∫Æ-mobûe-hŸ•Ÿ-keys.h
+"
+
+34 
+	~"vc⁄f-öã∫Æ-boŸ-™im©i⁄-keys.h
+"
+
+35 
+	~"vc⁄f-öã∫Æ-deskt›-mode-keys.h
+"
+
+36 
+	~"vc⁄f-öã∫Æ-ciss-keys.h
+"
+
+37 
+	~"vc⁄f-öã∫Æ-°¨ãr-keys.h
+"
+
+38 
+	~"vc⁄f-öã∫Æ-myfûe-keys.h
+"
+
+39 
+	~"vc⁄f-öã∫Æ-emaû-keys.h
+"
+
+	@/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-livebox-keys.h
+
+22 #i‚de‡
+__VCONF_INTERNAL_LIVEBOX_KEYS_H__
+
+
+23 
+	#__VCONF_INTERNAL_LIVEBOX_KEYS_H__
+
+
+	)
+
+24 
+	#VCONFKEY_MASTER_STARTED
+ "mem‹y/d©a-¥ovidî-ma°î/°¨ãd"
+
+	)
+
+26 
+	#VCONFKEY_MASTER_CLIENT_ADDR
+ "db/d©a-¥ovidî-ma°î/£rvîaddr"
+
+	)
+
+28 
+	#VCONFKEY_MASTER_RESTART_COUNT
+ "mem‹y/¥iv©e/d©a-¥ovidî-ma°î/ª°¨t_cou¡"
+
+	)
+
+	@/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-location-keys.h
+
+22 #i‚de‡
+__VCONF_INTERNAL_LOCATION_KEYS_H__
+
+
+23 
+	#__VCONF_INTERNAL_LOCATION_KEYS_H__
+
+
+	)
+
+24 
+	#VCONFKEY_LOCATION_USE_MY_LOCATION
+ "db/loˇti⁄/£âög/U£myloˇti⁄"
+
+	)
+
+26 
+	#VCONFKEY_LOCATION_ENABLED
+ "db/loˇti⁄/£âög/GpsE«bÀd"
+
+	)
+
+28 
+	#VCONFKEY_LOCATION_NETWORK_ENABLED
+ "db/loˇti⁄/£âög/Nëw‹kE«bÀd"
+
+	)
+
+30 
+	#VCONFKEY_LBS_SETTING_IS_SHOW_GPS_POPUP
+ "db/loˇti⁄/£âög/GpsP›up"
+
+	)
+
+32 
+	#VCONFKEY_LOCATION_POSITION_STATE
+ "mem‹y/loˇti⁄/posôi⁄/°©e"
+
+	)
+
+35 
+	mVCONFKEY_LOCATION_POSITION_OFF
+ = 0,
+
+36 
+	mVCONFKEY_LOCATION_POSITION_SEARCHING
+,
+
+37 
+	mVCONFKEY_LOCATION_POSITION_CONNECTED
+,
+
+38 
+	mVCONFKEY_LOCATION_POSITION_STATE_MAX
+
+
+41 
+	#VCONFKEY_LOCATION_GPS_STATE
+ "mem‹y/loˇti⁄/gps/°©e"
+
+	)
+
+44 
+	mVCONFKEY_LOCATION_GPS_OFF
+ = 0,
+
+45 
+	mVCONFKEY_LOCATION_GPS_SEARCHING
+,
+
+46 
+	mVCONFKEY_LOCATION_GPS_CONNECTED
+,
+
+47 
+	mVCONFKEY_LOCATION_GPS_STATE_MAX
+
+
+50 
+	#VCONFKEY_LOCATION_WPS_STATE
+ "mem‹y/loˇti⁄/wps/°©e"
+
+	)
+
+53 
+	mVCONFKEY_LOCATION_WPS_OFF
+ = 0,
+
+54 
+	mVCONFKEY_LOCATION_WPS_SEARCHING
+,
+
+55 
+	mVCONFKEY_LOCATION_WPS_CONNECTED
+,
+
+56 
+	mVCONFKEY_LOCATION_WPS_STATE_MAX
+
+
+59 
+	#VCONFKEY_LOCATION_LAST_GPS_TIMESTAMP
+ "mem‹y/loˇti⁄/œ°/gps/Time°amp"
+
+	)
+
+61 
+	#VCONFKEY_LOCATION_LAST_GPS_LATITUDE
+ "mem‹y/loˇti⁄/œ°/gps/L©ôude"
+
+	)
+
+63 
+	#VCONFKEY_LOCATION_LAST_GPS_LONGITUDE
+ "mem‹y/loˇti⁄/œ°/gps/L⁄gôude"
+
+	)
+
+65 
+	#VCONFKEY_LOCATION_LAST_GPS_ALTITUDE
+ "mem‹y/loˇti⁄/œ°/gps/A…ôude"
+
+	)
+
+67 
+	#VCONFKEY_LOCATION_LAST_GPS_SPEED
+ "mem‹y/loˇti⁄/œ°/gps/S≥ed"
+
+	)
+
+69 
+	#VCONFKEY_LOCATION_LAST_GPS_DIRECTION
+ "mem‹y/loˇti⁄/œ°/gps/Dúe˘i⁄"
+
+	)
+
+71 
+	#VCONFKEY_LOCATION_LAST_GPS_HOR_ACCURACY
+ "mem‹y/loˇti⁄/œ°/gps/H‹Accuøcy"
+
+	)
+
+73 
+	#VCONFKEY_LOCATION_LAST_GPS_VER_ACCURACY
+ "mem‹y/loˇti⁄/œ°/gps/VîAccuøcy"
+
+	)
+
+75 
+	#VCONFKEY_LOCATION_LAST_WPS_TIMESTAMP
+ "mem‹y/loˇti⁄/œ°/wps/Time°amp"
+
+	)
+
+77 
+	#VCONFKEY_LOCATION_LAST_WPS_LATITUDE
+ "mem‹y/loˇti⁄/œ°/wps/L©ôude"
+
+	)
+
+79 
+	#VCONFKEY_LOCATION_LAST_WPS_LONGITUDE
+ "mem‹y/loˇti⁄/œ°/wps/L⁄gôude"
+
+	)
+
+81 
+	#VCONFKEY_LOCATION_LAST_WPS_ALTITUDE
+ "mem‹y/loˇti⁄/œ°/wps/A…ôude"
+
+	)
+
+83 
+	#VCONFKEY_LOCATION_LAST_WPS_SPEED
+ "mem‹y/loˇti⁄/œ°/wps/S≥ed"
+
+	)
+
+85 
+	#VCONFKEY_LOCATION_LAST_WPS_DIRECTION
+ "mem‹y/loˇti⁄/œ°/wps/Dúe˘i⁄"
+
+	)
+
+87 
+	#VCONFKEY_LOCATION_LAST_WPS_HOR_ACCURACY
+ "mem‹y/loˇti⁄/œ°/wps/H‹Accuøcy"
+
+	)
+
+89 
+	#VCONFKEY_LOCATION_NV_LAST_GPS_TIMESTAMP
+ "db/loˇti⁄/œ°/gps/LocTime°amp"
+
+	)
+
+91 
+	#VCONFKEY_LOCATION_NV_LAST_WPS_TIMESTAMP
+ "db/loˇti⁄/œ°/wps/LocTime°amp"
+
+	)
+
+93 
+	#VCONFKEY_LOCATION_NV_LAST_GPS_LOCATION
+ "db/loˇti⁄/œ°/gps/Loˇti⁄"
+
+	)
+
+95 
+	#VCONFKEY_LOCATION_NV_LAST_WPS_LOCATION
+ "db/loˇti⁄/œ°/wps/Loˇti⁄"
+
+	)
+
+97 
+	#VCONFKEY_LOCATION_NMEA_LOGGING
+ "db/loˇti⁄/nmó/LoggögE«bÀd"
+
+	)
+
+99 
+	#VCONFKEY_LOCATION_REPLAY_ENABLED
+ "db/loˇti⁄/ª∂ay/RïœyE«bÀd"
+
+	)
+
+101 
+	#VCONFKEY_LOCATION_REPLAY_MODE
+ "db/loˇti⁄/ª∂ay/RïœyMode"
+
+	)
+
+104 
+	mVCONFKEY_GPS_REPLAY_OFF
+ = 0,
+
+105 
+	mVCONFKEY_GPS_REPLAY_NMEA
+,
+
+106 
+	mVCONFKEY_GPS_REPLAY_MANAUL
+,
+
+107 
+	mVCONFKEY_GPS_REPLAY_MODE_MAX
+
+
+110 
+	#VCONFKEY_LOCATION_NMEA_FILE_NAME
+ "db/loˇti⁄/ª∂ay/FûeName"
+
+	)
+
+112 
+	#VCONFKEY_LOCATION_MANUAL_LATITUDE
+ "db/loˇti⁄/ª∂ay/M™uÆL©ôude"
+
+	)
+
+114 
+	#VCONFKEY_LOCATION_MANUAL_LONGITUDE
+ "db/loˇti⁄/ª∂ay/M™uÆL⁄gôude"
+
+	)
+
+116 
+	#VCONFKEY_LOCATION_MANUAL_ALTITUDE
+ "db/loˇti⁄/ª∂ay/M™uÆA…ôude"
+
+	)
+
+118 
+	#VCONFKEY_LOCATION_MANUAL_HORIZONTAL_ACCURACY
+ "db/loˇti⁄/ª∂ay/M™uÆHAccuøcy"
+
+	)
+
+120 
+	#VCONFKEY_LOCATION_GPS_OPERATION
+ "db/loˇti⁄/gps/O≥øti⁄"
+
+	)
+
+123 
+	mVCONFKEY_GPS_OPERATION_STANDALONE
+ = 0,
+
+124 
+	mVCONFKEY_GPS_OPERATION_MS_BASED
+,
+
+125 
+	mVCONFKEY_GPS_OPERATION_MS_ASSISTED
+,
+
+126 
+	mVCONFKEY_GPS_OPERATION_MAX
+
+
+129 
+	#VCONFKEY_LOCATION_GPS_OPERATION_TEST
+ "db/loˇti⁄/gps/O≥øti⁄Te°"
+
+	)
+
+132 
+	mVCONFKEY_GPS_OPERATION_TEST_NORMAL
+ = 0,
+
+133 
+	mVCONFKEY_GPS_OPERATION_TEST_HW_SENSITIVITY
+,
+
+134 
+	mVCONFKEY_GPS_OPERATION_TEST_HW_CN0
+,
+
+135 
+	mVCONFKEY_GPS_OPERATION_TEST_HW_CW
+,
+
+136 
+	mVCONFKEY_GPS_OPERATION_TEST_MAX
+
+
+139 
+	#VCONFKEY_LOCATION_GPS_STARTING
+ "db/loˇti⁄/gps/Sèπög"
+
+	)
+
+142 
+	mVCONFKEY_GPS_STARTING_HOT
+ = 0,
+
+143 
+	mVCONFKEY_GPS_STARTING_COLD
+,
+
+144 
+	mVCONFKEY_GPS_STARTING_MAX
+
+
+147 
+	#VCONFKEY_LOCATION_GPS_SESSION
+ "db/loˇti⁄/gps/Sessi⁄"
+
+	)
+
+150 
+	mVCONFKEY_GPS_SESSION_SINGLE_FIX
+ = 0,
+
+151 
+	mVCONFKEY_GPS_SESSION_TRACKING
+,
+
+152 
+	mVCONFKEY_GPS_SESSION_MAX
+
+
+155 
+	#VCONFKEY_LOCATION_LAST_GPS_XTRA_DOWNLOAD_TIME
+ "db/loˇti⁄/gps/XåaDow∆ﬂdTime"
+
+	)
+
+157 
+	#VCONFKEY_LOCATION_SUPL_SERVER
+ "db/loˇti⁄/su∂/Sîvî"
+
+	)
+
+159 
+	#VCONFKEY_LOCATION_SUPL_PORT
+ "db/loˇti⁄/su∂/P‹t"
+
+	)
+
+161 
+	#VCONFKEY_LOCATION_SUPL_SSL
+ "db/loˇti⁄/su∂/S¶E«bÀd"
+
+	)
+
+163 
+	#VCONFKEY_LOCATION_SUPL_FQDNTYPE
+ "db/loˇti⁄/su∂/FQDNTy≥"
+
+	)
+
+166 
+	mVCONFKEY_LOCATION_SUPL_FQDN_CUSTOM
+ = 0,
+
+167 
+	mVCONFKEY_LOCATION_SUPL_FQDN_AUTO
+,
+
+168 
+	mVCONFKEY_LOCATION_SUPL_FQDN_SPIRENT
+,
+
+169 
+	mVCONFKEY_LOCATION_SUPL_FQDN_DOCOMO
+,
+
+170 
+	mVCONFKEY_LOCATION_SUPL_FQDN_BUILD
+,
+
+171 
+	mVCONFKEY_LOCATION_SUPL_FQDN_HERE
+,
+
+172 
+	mVCONFKEY_LOCATION_SUPL_FQDN_VFONE
+
+
+175 
+	#VCONFKEY_LOCATION_SUPL_VERSION
+ "db/loˇti⁄/su∂/Vîsi⁄"
+
+	)
+
+	@/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-lockscreen-keys.h
+
+22 #i‚de‡
+__VCONF_INTERNAL_LOCKSCREEN_KEYS_H__
+
+
+23 
+	#__VCONF_INTERNAL_LOCKSCREEN_KEYS_H__
+
+
+	)
+
+24 
+	#VCONFKEY_LOCKSCREEN_CAMERA_QUICK_ACCESS
+ "db/locks¸ìn/ˇmîa_quick_ac˚ss"
+
+	)
+
+26 
+	#VCONFKEY_LOCKSCREEN_WALLPAPER_TYPE
+ "db/locks¸ìn/wÆÕ≠î_ty≥"
+
+	)
+
+29 
+	mLOCKSCREEN_WALLPAPER_TYPE_DEFAULT
+ = 0,
+
+30 
+	mLOCKSCREEN_WALLPAPER_TYPE_GALLERY
+,
+
+31 
+	mLOCKSCREEN_WALLPAPER_TYPE_MULTIPLE
+,
+
+32 
+	mLOCKSCREEN_WALLPAPER_TYPE_MAX
+
+
+35 
+	#VCONFKEY_LOCKSCREEN_WALLPAPER_COUNT
+ "db/locks¸ìn/wÆÕ≠î_cou¡"
+
+	)
+
+	@/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-miracast-keys.h
+
+22 #i‚de‡
+__VCONF_INTERNAL_MIRACAST_KEYS_H__
+
+
+23 
+	#__VCONF_INTERNAL_MIRACAST_KEYS_H__
+
+
+	)
+
+24 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+25 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+27 
+	#VCONFKEY_MIRACAST_WFD_SOURCE_STATUS
+ "mem‹y/wifi/múaˇ°/sour˚_°©us"
+
+	)
+
+30 
+	mVCONFKEY_MIRACAST_WFD_SOURCE_OFF
+,
+
+31 
+	mVCONFKEY_MIRACAST_WFD_SOURCE_ON
+
+
+34 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+35 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+37 
+	#VCONFKEY_WFD_WEB_VIDEO_PLAYER_STATE
+ "mem‹y/wifi/múaˇ°/web_video_∂ayî_°©e"
+
+	)
+
+40 
+	mVCONFKEY_WFD_WEB_VIDEO_PLAYER_STOP
+ = 0,
+
+41 
+	mVCONFKEY_WFD_WEB_VIDEO_PLAYER_PLAY
+ = 1
+
+	@/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-mobile-hotspot-keys.h
+
+22 #i‚de‡
+__VCONF_INTERNAL_MOBILE_HOTSPOT_KEYS_H__
+
+
+23 
+	#__VCONF_INTERNAL_MOBILE_HOTSPOT_KEYS_H__
+
+
+	)
+
+24 
+	#VCONFKEY_MOBILE_HOTSPOT_MODE
+ "mem‹y/mobûe_hŸ•Ÿ/mode"
+
+	)
+
+27 
+	mVCONFKEY_MOBILE_HOTSPOT_MODE_NONE
+ = 0x00,
+
+28 
+	mVCONFKEY_MOBILE_HOTSPOT_MODE_WIFI
+ = 0x01,
+
+29 
+	mVCONFKEY_MOBILE_HOTSPOT_MODE_USB
+ = 0x02,
+
+30 
+	mVCONFKEY_MOBILE_HOTSPOT_MODE_BT
+ = 0x04,
+
+31 
+	mVCONFKEY_MOBILE_HOTSPOT_MODE_WIFI_AP
+ = 0x08
+
+34 
+	#VCONFKEY_MOBILE_HOTSPOT_CONNECTED_DEVICE
+ "mem‹y/mobûe_hŸ•Ÿ/c⁄√˘ed_devi˚"
+
+	)
+
+36 
+	#VCONFKEY_MOBILE_HOTSPOT_SECURITY
+ "db/mobûe_hŸ•Ÿ/£curôy"
+
+	)
+
+39 
+	mVCONFKEY_MOBILE_AP_SECURITY_OFF
+ = 0x00,
+
+40 
+	mVCONFKEY_MOBILE_AP_SECURITY_ON
+
+
+43 
+	#VCONFKEY_MOBILE_HOTSPOT_HIDE
+ "db/mobûe_hŸ•Ÿ/hide"
+
+	)
+
+46 
+	mVCONFKEY_MOBILE_AP_HIDE_OFF
+ = 0x00,
+
+47 
+	mVCONFKEY_MOBILE_AP_HIDE_ON
+
+
+50 
+	#VCONFKEY_MOBILE_HOTSPOT_SSID
+ "mem‹y/¥iv©e/mobûóp-agít/ssid"
+
+	)
+
+52 
+	#VCONFKEY_MOBILE_HOTSPOT_PREV_WIFI_STATUS
+ "db/¥iv©e/libug-£âög-mobûóp-eÊ/¥ev_wifi_°©us"
+
+	)
+
+54 
+	#VCONFKEY_MOBILE_HOTSPOT_IS_DEVICE_RENAME_LOCAL
+ "fûe/¥iv©e/libug-£âög-mobûóp-eÊ/is_devi˚_ª«me_loˇl"
+
+	)
+
+56 
+	#VCONFKEY_MOBILE_HOTSPOT_WIFI_POPUP_CHECK_BOX_STATUS
+ "fûe/¥iv©e/libug-£âög-mobûóp-eÊ/wifi_p›up_check_box_°©us"
+
+	)
+
+58 
+	#VCONFKEY_MOBILE_HOTSPOT_BT_POPUP_CHECK_BOX_STATUS
+ "fûe/¥iv©e/libug-£âög-mobûóp-eÊ/bt_p›up_check_box_°©us"
+
+	)
+
+60 
+	#VCONFKEY_MOBILE_HOTSPOT_USB_POPUP_CHECK_BOX_STATUS
+ "fûe/¥iv©e/libug-£âög-mobûóp-eÊ/usb_p›up_check_box_°©us"
+
+	)
+
+62 
+	#VCONFKEY_MOBILE_HOTSPOT_TRYING_USB_TETHERING
+ "mem‹y/¥iv©e/libug-£âög-mobûóp-eÊ/åyög_usb_ãthîög"
+
+	)
+
+	@/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-msg-keys.h
+
+22 #i‚de‡
+__VCONF_INTERNAL_MSG_KEYS_H__
+
+
+23 
+	#__VCONF_INTERNAL_MSG_KEYS_H__
+
+
+	)
+
+24 
+	#VCONFKEY_MSG_SERVER_READY
+ "mem‹y/msg/ªady"
+
+	)
+
+26 
+	#VCONFKEY_MESSAGE_RECV_SMS_STATE
+ "db/msg/ªcv_sms"
+
+	)
+
+28 
+	#VCONFKEY_MESSAGE_RECV_MMS_STATE
+ "db/msg/ªcv_mms"
+
+	)
+
+30 
+	#VCONFKEY_MESSAGE_NETWORK_MODE
+ "db/msg/√tw‹k_mode"
+
+	)
+
+33 
+	mVCONFKEY_MESSAGE_NETWORK_PS_ONLY
+ = 0x01,
+
+34 
+	mVCONFKEY_MESSAGE_NETWORK_CS_ONLY
+ = 0x02,
+
+35 
+	mVCONFKEY_MESSAGE_NETWORK_PS_PREFER
+ = 0x03,
+
+36 
+	mVCONFKEY_MESSAGE_NETWORK_CS_PREFER
+ = 0x04
+
+	@/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-myfile-keys.h
+
+22 #i‚de‡
+__VCONF_INTERNAL_MYFILE_KEYS_H__
+
+
+23 
+	#__VCONF_INTERNAL_MYFILE_KEYS_H__
+
+
+	)
+
+24 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+25 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+27 
+	#VCONFKEY_MFAPP_PREFIX
+ "db/myfûe"
+
+	)
+
+29 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+30 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+32 
+	#VCONFKEY_MFAPP_CURRENT_FOLDER_STR
+ "db/myfûe/cuºít_fﬁdî"
+
+	)
+
+34 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+35 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+37 
+	#VCONFKEY_MFAPP_PERMISSION_COPY_BOOL
+ "db/myfûe/≥rmissi⁄_c›y"
+
+	)
+
+	@/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-nfc-keys.h
+
+22 #i‚de‡
+__VCONF_INTERNAL_NFC_KEYS_H__
+
+
+23 
+	#__VCONF_INTERNAL_NFC_KEYS_H__
+
+
+	)
+
+24 
+	#VCONFKEY_NFC_FEATURE
+ "db/nfc/„©uª"
+
+	)
+
+27 
+	mVCONFKEY_NFC_FEATURE_OFF
+ = 0x00,
+
+28 
+	mVCONFKEY_NFC_FEATURE_ON
+
+
+31 
+	#VCONFKEY_NFC_STATE
+ "db/nfc/íabÀ"
+
+	)
+
+34 
+	mVCONFKEY_NFC_STATE_OFF
+ = 0,
+
+35 
+	mVCONFKEY_NFC_STATE_ON
+,
+
+36 
+	mVCONFKEY_NFC_STATE_MAX
+
+
+39 
+	#VCONFKEY_NFC_SE_TYPE
+ "db/nfc/£_ty≥"
+
+	)
+
+42 
+	mVCONFKEY_NFC_SE_POLICY_NONE
+ = 0x00,
+
+43 
+	mVCONFKEY_NFC_SE_POLICY_UICC_ON
+ ,
+
+44 
+	mVCONFKEY_NFC_SE_POLICY_UICC_OFF
+ ,
+
+45 
+	mVCONFKEY_NFC_SE_POLICY_ESE_ON
+ ,
+
+46 
+	mVCONFKEY_NFC_SE_POLICY_ESE_OFF
+
+
+49 
+	#VCONFKEY_NFC_WALLET_MODE
+ "db/nfc/wÆÀt_mode"
+
+	)
+
+52 
+	mVCONFKEY_NFC_WALLET_MODE_MANUAL
+ = 0x00,
+
+53 
+	mVCONFKEY_NFC_WALLET_MODE_AUTOMATIC
+
+
+56 
+	#VCONFKEY_NFC_STATE_OFF_BY_FLIGHT
+ "db/nfc/°©e_by_Êight"
+
+	)
+
+59 
+	mVCONFKEY_NFC_NONE_BY_FLIGHT
+ = 0x00,
+
+60 
+	mVCONFKEY_NFC_OFF_BY_FLIGHT
+
+
+	@/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-pm-keys.h
+
+22 #i‚de‡
+__VCONF_INTERNAL_PM_KEYS_H__
+
+
+23 
+	#__VCONF_INTERNAL_PM_KEYS_H__
+
+
+	)
+
+24 
+	#VCONFKEY_PM_STATE
+ "mem‹y/pm/°©e"
+
+	)
+
+27 
+	mVCONFKEY_PM_STATE_NORMAL
+ = 1,
+
+28 
+	mVCONFKEY_PM_STATE_LCDDIM
+,
+
+29 
+	mVCONFKEY_PM_STATE_LCDOFF
+,
+
+30 
+	mVCONFKEY_PM_STATE_SLEEP
+
+
+33 
+	#VCONFKEY_PM_CUSTOM_BRIGHTNESS_STATUS
+ "mem‹y/pm/cu°om_brighäess_°©us"
+
+	)
+
+36 
+	mVCONFKEY_PM_CUSTOM_BRIGHTNESS_OFF
+ = 0,
+
+37 
+	mVCONFKEY_PM_CUSTOM_BRIGHTNESS_ON
+
+
+40 
+	#VCONFKEY_PM_CAMERA_STATUS
+ "mem‹y/pm/ˇmîa_°©us"
+
+	)
+
+43 
+	mVCONFKEY_PM_CAMERA_OFF
+ = 0,
+
+44 
+	mVCONFKEY_PM_CAMERA_ON
+
+
+47 
+	#VCONFKEY_PM_BATTERY_TIMETOEMPTY
+ "mem‹y/pm/b©ãry_timë€m±y"
+
+	)
+
+49 
+	#VCONFKEY_PM_BATTERY_TIMETOFULL
+ "mem‹y/pm/b©ãry_timëofuŒ"
+
+	)
+
+51 
+	#VCONFKEY_PM_BRIGHTNESS_CHANGED_IN_LPM
+ "mem‹y/pm/bπ_ch™ged_Õm"
+
+	)
+
+53 
+	#VCONFKEY_PM_LCDOFF_SOURCE
+ "mem‹y/pm/lcdoff_sour˚"
+
+	)
+
+56 
+	mVCONFKEY_PM_LCDOFF_BY_POWERKEY
+ = 1,
+
+57 
+	mVCONFKEY_PM_LCDOFF_BY_TIMEOUT
+
+
+60 
+	#VCONFKEY_PM_KEY_IGNORE
+ "mem‹y/pm/key_ign‹e"
+
+	)
+
+63 
+	mVCONFKEY_PM_KEY_LOCK
+ = 0x01,
+
+64 
+	mVCONFKEY_PM_KEY_STARTER
+ = 0x02,
+
+65 
+	mVCONFKEY_PM_KEY_EXTRA1
+ = 0x04,
+
+66 
+	mVCONFKEY_PM_KEY_EXTRA2
+ = 0x08
+
+69 
+	#VCONFKEY_PM_CURRENT_BRIGHTNESS
+ "mem‹y/pm/cuºít_bπ"
+
+	)
+
+71 
+	#VCONFKEY_PM_SIP_STATUS
+ "mem‹y/pm/sù_°©us"
+
+	)
+
+74 
+	mVCONFKEY_PM_SIP_OFF
+ = 0,
+
+75 
+	mVCONFKEY_PM_SIP_ON
+
+
+	@/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-setting-keys.h
+
+22 #i‚de‡
+__VCONF_INTERNAL_SETTING_KEYS_H__
+
+
+23 
+	#__VCONF_INTERNAL_SETTING_KEYS_H__
+
+
+	)
+
+24 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+25 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+27 
+	#VCONFKEY_SETAPPL_PREFIX
+ "db/£âög"
+
+	)
+
+29 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+30 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+32 
+	#VCONFKEY_SETAPPL_MEM_PREFIX
+ "mem‹y/£âög"
+
+	)
+
+34 
+	#VCONFKEY_SETAPPL_CALL_VIBRATION_PATTERN_STR
+ "db/£âög/sound/ˇŒ/vibøti⁄_∑âîn_∑th"
+
+	)
+
+36 
+	#VCONFKEY_SETAPPL_TOUCH_SOUNDS_BOOL
+ "db/£âög/sound/touch_sounds"
+
+	)
+
+38 
+	#VCONFKEY_SETAPPL_BUTTON_SOUNDS_BOOL
+ "db/£âög/sound/buâ⁄_sounds"
+
+	)
+
+40 
+	#VCONFKEY_SETAPPL_SOUND_LOCK_BOOL
+ "db/£âög/sound/sound_lock"
+
+	)
+
+42 
+	#VCONFKEY_SETAPPL_REGION_AUTOMATIC_BOOL
+ "db/£âög/ªgi⁄_autom©ic"
+
+	)
+
+44 
+	#VCONFKEY_SETAPPL_MEDIA_SOUND_VOLUME_INT
+ "db/£âög/sound/medü/sound_vﬁume"
+
+	)
+
+46 
+	#VCONFKEY_SETAPPL_LCD_BRIGHTNESS
+ "db/£âög/Brighäess"
+
+	)
+
+49 
+	mSETTING_BRIGHTNESS_LEVEL1
+ = 1,
+
+50 
+	mSETTING_BRIGHTNESS_LEVEL2
+,
+
+51 
+	mSETTING_BRIGHTNESS_LEVEL3
+,
+
+52 
+	mSETTING_BRIGHTNESS_LEVEL4
+,
+
+53 
+	mSETTING_BRIGHTNESS_LEVEL5
+,
+
+54 
+	mSETTING_BRIGHTNESS_LEVEL6
+,
+
+55 
+	mSETTING_BRIGHTNESS_LEVEL7
+,
+
+56 
+	mSETTING_BRIGHTNESS_LEVEL8
+,
+
+57 
+	mSETTING_BRIGHTNESS_LEVEL9
+,
+
+58 
+	mSETTING_BRIGHTNESS_LEVEL10
+
+
+61 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+62 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+64 
+	#VCONFKEY_SETAPPL_EMERGENCY_LCD_BRIGHTNESS_INT
+ "db/£âög/lcd_brighäess_emîgícy"
+
+	)
+
+66 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+67 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+69 
+	#VCONFKEY_SETAPPL_EMERGENCY_LCD_TIMEOUT_INT
+ "db/£âög/lcd_timeout_emîgícy"
+
+	)
+
+71 
+	#VCONFKEY_SETAPPL_LCD_AUTOMATIC_BRIGHTNESS
+ "db/£âög/autom©ic_brighäess_Àvñ"
+
+	)
+
+73 
+	#VCONFKEY_SETAPPL_LCD_AUTO_DISPLAY_ADJUSTMENT
+ "db/£âög/auto_di•œy_adju°mít"
+
+	)
+
+75 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+76 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+78 
+	#VCONFKEY_SETAPPL_SCREEN_MODE_INT
+ "db/£âög/s¸ìn_mode"
+
+	)
+
+81 
+	mSETTING_SCREEN_MODE_DYNAMIC
+ = 0,
+
+82 
+	mSETTING_SCREEN_MODE_STANDARD
+,
+
+83 
+	mSETTING_SCREEN_MODE_NATURAL
+,
+
+84 
+	mSETTING_SCREEN_MODE_MOVIE
+,
+
+85 
+	mSETTING_SCREEN_MODE_MAX
+
+
+88 
+	#VCONFKEY_SETAPPL_LCD_TIMEOUT_NORMAL
+ "db/£âög/lcd_backlight_n‹mÆ"
+
+	)
+
+90 
+	#VCONFKEY_SETAPPL_CALL_RINGTONE_SOUND_VOLUME_INT
+ "db/£âög/sound/ˇŒ/rögt⁄e_sound_vﬁume"
+
+	)
+
+92 
+	#VCONFKEY_SETAPPL_CALL_RINGTONE_PATH_STR
+ "db/£âög/sound/ˇŒ/rögt⁄e_∑th"
+
+	)
+
+94 
+	#VCONFKEY_SETAPPL_CALL_RINGTONE_PATH_WITH_RECOMMENDATION_TIME_STR
+ "db/£âög/sound/ˇŒ/rögt⁄e_∑th_wôh_time"
+
+	)
+
+96 
+	#VCONFKEY_SETAPPL_CALL_RINGTONE_DEFAULT_PATH_STR
+ "db/£âög/sound/ˇŒ/rögt⁄e_deÁu…_∑th"
+
+	)
+
+98 
+	#VCONFKEY_SETAPPL_CALL_VIBRATION_LEVEL_INT
+ "db/£âög/sound/ˇŒ/vibøti⁄_Àvñ"
+
+	)
+
+100 
+	#VCONFKEY_SETAPPL_CALL_VIBRATION_PATTERN_INT
+ "db/£âög/sound/ˇŒ/vibøti⁄_ty≥"
+
+	)
+
+103 
+	mSETTING_CALL_ALERT_VIB_TYPE1
+ = 0,
+
+104 
+	mSETTING_CALL_ALERT_VIB_TYPE2
+,
+
+105 
+	mSETTING_CALL_ALERT_VIB_TYPE3
+,
+
+106 
+	mSETTING_CALL_ALERT_VIB_TYPE4
+,
+
+107 
+	mSETTING_CALL_ALERT_VIB_TYPE5
+,
+
+108 
+	mSETTING_CALL_ALERT_VIB_TYPE6
+,
+
+109 
+	mSETTING_CALL_ALERT_VIB_TYPE7
+,
+
+110 
+	mSETTING_CALL_ALERT_VIB_TYPE8
+,
+
+111 
+	mSETTING_CALL_ALERT_VIB_TYPE9
+,
+
+112 
+	mSETTING_CALL_ALERT_VIB_TYPE10
+,
+
+113 
+	mSETTING_CALL_ALERT_VIB_MAX
+
+
+116 
+	#VCONFKEY_SETAPPL_NOTI_MSG_ALERT_REP_TYPE_INT
+ "db/£âög/sound/nŸi/msg_Æît_ªp_ty≥"
+
+	)
+
+119 
+	mSETTING_SOUND_REP_ONCE
+ = 0,
+
+120 
+	mSETTING_SOUND_REP_EVERY_2_MIN
+,
+
+121 
+	mSETTING_SOUND_REP_EVERY_5_MIN
+,
+
+122 
+	mSETTING_SOUND_REP_EVERY_10_MIN
+
+
+125 
+	#VCONFKEY_SETAPPL_NOTI_MSG_RINGTONE_PATH_STR
+ "db/£âög/sound/nŸi/msg_rögt⁄e_∑th"
+
+	)
+
+127 
+	#VCONFKEY_SETAPPL_NOTI_RINGTONE_DEFAULT_PATH_STR
+ "db/£âög/sound/nŸi/rögt⁄e_deÁu…_∑th"
+
+	)
+
+129 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+130 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+132 
+	#VCONFKEY_SETAPPL_NOTI_RINGTONE_PATH_STR
+ "VCONFKEY_SETAPPL_NOTI_MSG_RINGTONE_PATH_STR"
+
+	)
+
+134 
+	#VCONFKEY_SETAPPL_NOTI_VIBRATION_LEVEL_INT
+ "db/£âög/sound/nŸi/vibøti⁄_Àvñ"
+
+	)
+
+136 
+	#VCONFKEY_SETAPPL_TOUCH_FEEDBACK_VIBRATION_LEVEL_INT
+ "db/£âög/sound/touch_„edback/vibøti⁄_Àvñ"
+
+	)
+
+139 
+	mSETTING_VIB_FEEDBACK_LEVEL0
+ = 0,
+
+140 
+	mSETTING_VIB_FEEDBACK_LEVEL1
+,
+
+141 
+	mSETTING_VIB_FEEDBACK_LEVEL2
+,
+
+142 
+	mSETTING_VIB_FEEDBACK_LEVEL3
+,
+
+143 
+	mSETTING_VIB_FEEDBACK_LEVEL4
+,
+
+144 
+	mSETTING_VIB_FEEDBACK_LEVEL5
+
+
+147 
+	#VCONFKEY_SETAPPL_USB_IN_MODE_CHANGE
+ "mem‹y/£âög/usb_ö_mode_ch™ge"
+
+	)
+
+149 
+	#VCONFKEY_SETAPPL_USB_MODE_INT
+ "mem‹y/£âög/usb_mode"
+
+	)
+
+152 
+	mSETTING_USB_NONE_MODE
+ = -1,
+
+153 
+	mSETTING_USB_DEFAULT_MODE
+ = 0,
+
+154 
+	mSETTING_USB_SAMSUNG_KIES
+ = 0,
+
+155 
+	mSETTING_USB_DEBUG_MODE
+ = 3,
+
+156 
+	mSETTING_USB_ETHERNET_MODE
+ = 3,
+
+157 
+	mSETTING_USB_TETHERING_MODE
+ = 4,
+
+158 
+	mSETTING_USB_ACCESSORY_MODE
+ = 5
+
+161 
+	#VCONFKEY_SETAPPL_USB_DEBUG_MODE_BOOL
+ "db/£âög/debug_mode"
+
+	)
+
+163 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+164 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+166 
+	#VCONFKEY_SETAPPL_USB_CONNECTION_MODE_INT
+ "db/£âög/usb_c⁄√˘i⁄_mode"
+
+	)
+
+169 
+	mSETTING_USB_CONNECTION_MODE_CHARGING_ONLY
+ = 0,
+
+170 
+	mSETTING_USB_CONNECTION_MODE_USB_DEBUGGING
+
+
+173 
+	#VCONFKEY_SETAPPL_SELECT_NETWORK_INT
+ "db/£âög/£À˘_√tw‹k"
+
+	)
+
+176 
+	mSETTING_SELECT_NETWORK_AUTOMATIC
+ = 0,
+
+177 
+	mSETTING_SELECT_NETWORK_MANUAL
+,
+
+178 
+	mSETTING_SELECT_NETWORK_MAX
+
+
+181 
+	#VCONFKEY_SETAPPL_NETWORK_MODE_INT
+ "db/£âög/√tw‹k_mode"
+
+	)
+
+184 
+	mSETTING_NETWORK_MODE_AUTOMATIC
+ = 0,
+
+185 
+	mSETTING_NETWORK_MODE_GSM_900_1800
+,
+
+186 
+	mSETTING_NETWORK_MODE_GSM_850_1900
+,
+
+187 
+	mSETTING_NETWORK_MODE_UTMS
+,
+
+188 
+	mSETTING_NETWORK_MODE_MAX
+
+
+191 
+	#VCONFKEY_SETAPPL_STATE_POWER_ON_LOCK_BOOL
+ "db/£âög/powî_⁄_lock"
+
+	)
+
+193 
+	#VCONFKEY_SETAPPL_PHONE_LOCK_ATTEMPTS_LEFT_INT
+ "db/£âög/ph⁄e_lock_©ãm±s_À·"
+
+	)
+
+195 
+	#VCONFKEY_SETAPPL_PHONE_LOCK_TIMESTAMP_STR
+ "db/£âög/ph⁄e_lock_time°amp"
+
+	)
+
+197 
+	#VCONFKEY_SETAPPL_SIM_LOCK_TIMESTAMP_STR
+ "db/£âög/sim_lock_time°amp"
+
+	)
+
+199 
+	#VCONFKEY_SETAPPL_STATE_SIMPLE_PASSWORD_BOOL
+ "db/£âög/sim∂e_∑ssw‹d"
+
+	)
+
+201 
+	#VCONFKEY_SETAPPL_SCREEN_LOCK_TYPE_INT
+ "db/£âög/s¸ìn_lock_ty≥"
+
+	)
+
+204 
+	mSETTING_SCREEN_LOCK_TYPE_NONE
+ = 0,
+
+205 
+	mSETTING_SCREEN_LOCK_TYPE_SWIPE
+,
+
+206 
+	mSETTING_SCREEN_LOCK_TYPE_MOTION
+,
+
+207 
+	mSETTING_SCREEN_LOCK_TYPE_FINGERPRINT
+,
+
+208 
+	mSETTING_SCREEN_LOCK_TYPE_FACE_AND_VOICE
+,
+
+209 
+	mSETTING_SCREEN_LOCK_TYPE_SIMPLE_PASSWORD
+,
+
+210 
+	mSETTING_SCREEN_LOCK_TYPE_PASSWORD
+,
+
+211 
+	mSETTING_SCREEN_LOCK_TYPE_AUTO_LOCK
+,
+
+212 
+	mSETTING_SCREEN_LOCK_TYPE_OTHER
+,
+
+213 
+	mSETTING_SCREEN_LOCK_TYPE_MAX
+
+
+216 
+	#VCONFKEY_SETAPPL_3RD_LOCK_PKG_NAME_STR
+ "db/£âög/3rd_lock_pkg_«me"
+
+	)
+
+218 
+	#VCONFKEY_SETAPPL_FONT_SIZE_INT
+ "db/£âög/f⁄t_size"
+
+	)
+
+221 
+	mSETTING_FONT_SIZE_SMALL
+ = 0,
+
+222 
+	mSETTING_FONT_SIZE_MIDDLE
+,
+
+223 
+	mSETTING_FONT_SIZE_LARGE
+,
+
+224 
+	mSETTING_FONT_SIZE_MAX
+
+
+227 
+	#VCONFKEY_SETAPPL_FONT_TYPE_INT
+ "db/£âög/f⁄t_ty≥"
+
+	)
+
+229 
+	#VCONFKEY_SETAPPL_BRIGHTNESS_AUTOMATIC_INT
+ "db/£âög/brighäess_autom©ic"
+
+	)
+
+232 
+	mSETTING_BRIGHTNESS_AUTOMATIC_OFF
+ = 0,
+
+233 
+	mSETTING_BRIGHTNESS_AUTOMATIC_ON
+ ,
+
+234 
+	mSETTING_BRIGHTNESS_AUTOMATIC_PAUSE
+
+
+237 
+	#VCONFKEY_SETAPPL_STATE_AUTOMATIC_TIME_UPDATE_BOOL
+ "db/£âög/autom©ic_time_upd©e"
+
+	)
+
+239 
+	#VCONFKEY_SETAPPL_DATE_FORMAT_INT
+ "db/£âög/d©e_f‹m©"
+
+	)
+
+242 
+	mSETTING_DATE_FORMAT_DD_MM_YYYY
+ = 0,
+
+243 
+	mSETTING_DATE_FORMAT_MM_DD_YYYY
+,
+
+244 
+	mSETTING_DATE_FORMAT_YYYY_MM_DD
+,
+
+245 
+	mSETTING_DATE_FORMAT_YYYY_DD_MM
+,
+
+246 
+	mSETTING_DATE_FORMAT_MAX
+
+
+249 
+	#VCONFKEY_SETAPPL_CITYNAME_INDEX_INT
+ "db/£âög/côy«me_id"
+
+	)
+
+251 
+	#VCONFKEY_SETAPPL_WEEKOFDAY_FORMAT_INT
+ "db/£âög/wìkofday_f‹m©"
+
+	)
+
+254 
+	mSETTING_WEEKOFDAY_FORMAT_SUNDAY
+ = 0,
+
+255 
+	mSETTING_WEEKOFDAY_FORMAT_MONDAY
+,
+
+256 
+	mSETTING_WEEKOFDAY_FORMAT_TUESDAY
+,
+
+257 
+	mSETTING_WEEKOFDAY_FORMAT_WEDNESDAY
+,
+
+258 
+	mSETTING_WEEKOFDAY_FORMAT_THURSDAY
+,
+
+259 
+	mSETTING_WEEKOFDAY_FORMAT_FRIDAY
+,
+
+260 
+	mSETTING_WEEKOFDAY_FORMAT_SATURDAY
+,
+
+261 
+	mSETTING_WEEKOFDAY_FORMAT_MAX
+
+
+264 
+	#VCONFKEY_SETAPPL_LANG_INT
+ "db/£âög/œng"
+
+	)
+
+267 
+	mSETTING_LANG_AUTOMATIC
+ = 0,
+
+268 
+	mSETTING_LANG_KOREA
+,
+
+269 
+	mSETTING_LANG_ENGLISH
+,
+
+270 
+	mSETTING_LANG_CHINA
+ ,
+
+271 
+	mSETTING_LANG_CANTONESE
+,
+
+272 
+	mSETTING_LANG_TAIWAN
+,
+
+273 
+	mSETTING_LANG_GERMAN
+,
+
+274 
+	mSETTING_LANG_DUTCH
+,
+
+275 
+	mSETTING_LANG_SPAINISH
+,
+
+276 
+	mSETTING_LANG_PORTUGUESE
+,
+
+277 
+	mSETTING_LANG_GREEK
+,
+
+278 
+	mSETTING_LANG_ITALIAN
+,
+
+279 
+	mSETTING_LANG_FRENCH
+,
+
+280 
+	mSETTING_LANG_TURKISH
+,
+
+281 
+	mSETTING_LANG_JAPAN
+,
+
+282 
+	mSETTING_LANG_RUSSIAN
+,
+
+283 
+	mSETTING_LANG_MAX
+
+
+286 
+	#VCONFKEY_SETAPPL_ACCESSIBILITY_FONT_SIZE
+ "db/£âög/ac˚ssibûôy/f⁄t_size"
+
+	)
+
+288 
+	#VCONFKEY_SETAPPL_ACCESSIBILITY_FONT_NAME
+ "db/£âög/ac˚ssibûôy/f⁄t_«me"
+
+	)
+
+290 
+	#VCONFKEY_SETAPPL_ACCESSIBILITY_TORCH_LIGHT
+ "mem‹y/£âög/ac˚ssibûôy/t‹ch_light"
+
+	)
+
+292 
+	#VCONFKEY_SETAPPL_ACCESSIBILITY_RAPID_KEY_INPUT
+ "db/£âög/ac˚ssibûôy/øpid_key_öput"
+
+	)
+
+294 
+	#VCONFKEY_SETAPPL_ACCESSIBILITY_TURN_OFF_ALL_SOUNDS
+ "db/£âög/ac˚ssibûôy/tu∫_off_Æl_sounds"
+
+	)
+
+296 
+	#VCONFKEY_SETAPPL_ACCESSIBILITY_LED_NOTIFY
+ "db/£âög/ac˚ssibûôy/Àd_nŸify"
+
+	)
+
+298 
+	#VCONFKEY_SETAPPL_ACCESSIBILITY_LOCK_TIME_INT
+ "db/£âög/ac˚ssibûôy/lock_time"
+
+	)
+
+300 
+	#VCONFKEY_SETAPPL_ACCESSIBILITY_POWER_KEY_HOLD
+ "db/£âög/ac˚ssibûôy/powî_key_hﬁd"
+
+	)
+
+303 
+	mSETTING_POWERKEY_SHORTCUT_OFF
+ = 0,
+
+304 
+	mSETTING_POWERKEY_SHORTCUT_ALWAYS_ASK
+ = 1,
+
+305 
+	mSETTING_POWERKEY_SHORTCUT_SCREEN_READER_TTS
+,
+
+306 
+	mSETTING_POWERKEY_SHORTCUT_NEGATIVE_COLOURS
+,
+
+307 
+	mSETTING_POWERKEY_SHORTCUT_ZOOM
+,
+
+308 
+	mSETTING_POWERKEY_SHORTCUT_ASSISTIVE_LIGHT
+,
+
+309 
+	mSETTING_POWERKEY_SHORTCUT_SHOT_READER
+,
+
+310 
+	mSETTING_POWERKEY_SHORTCUT_ACCESSIBILITY
+,
+
+311 
+	mSETTING_POWERKEY_SHORTCUT_MAX
+
+
+314 
+	#VCONFKEY_SETAPPL_EASY_TOUCH_MODE_BOOL
+ "db/£âög/ac˚ssibûôy/ósy_touch_mode"
+
+	)
+
+316 
+	#VCONFKEY_SETAPPL_ACCESSIBILITY_TTS
+ "db/£âög/ac˚ssibûôy/âs"
+
+	)
+
+318 
+	#VCONFKEY_SETAPPL_PWRSV_CUSTMODE_BLTIME
+ "db/£âög/pwrsv/cu°om_mode/backlight/time"
+
+	)
+
+321 
+	mSETTING_BACKLIGHT_TIME_8SEC
+ = 8,
+
+322 
+	mSETTING_BACKLIGHT_TIME_15SEC
+ = 15,
+
+323 
+	mSETTING_BACKLIGHT_TIME_30SEC
+ = 30,
+
+324 
+	mSETTING_BACKLIGHT_TIME_1MIN
+ = 60,
+
+325 
+	mSETTING_BACKLIGHT_TIME_3MIN
+ = 180,
+
+326 
+	mSETTING_BACKLIGHT_TIME_10MIN
+ = 600,
+
+327 
+	mSETTING_BACKLIGHT_TIME_MAX
+
+
+330 
+	#VCONFKEY_SETAPPL_PWRSV_CUSTMODE_CPU
+ "db/£âög/pwrsv/cu°om_mode/˝u"
+
+	)
+
+332 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+333 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+335 
+	#VCONFKEY_TICKER_NOTI_DISPLAY_CONTENT_MESSASGES
+ "db/£âög/tickî_nŸi/di•œy_c⁄ã¡/mesßges"
+
+	)
+
+337 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+338 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+340 
+	#VCONFKEY_TICKER_NOTI_DISPLAY_CONTENT_EMAIL
+ "db/£âög/tickî_nŸi/di•œy_c⁄ã¡/emaû"
+
+	)
+
+342 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+343 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+345 
+	#VCONFKEY_TICKER_NOTI_DISPLAY_CONTENT_IM
+ "db/£âög/tickî_nŸi/di•œy_c⁄ã¡/im"
+
+	)
+
+347 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+348 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+350 
+	#VCONFKEY_TICKER_NOTI_BADGE_EMAIL
+ "db/£âög/tickî_nŸi/badge/emaû"
+
+	)
+
+352 
+	#VCONFKEY_LANGSET
+ "db/míu_widgë/œnguage"
+
+	)
+
+354 
+	#VCONFKEY_REGIONFORMAT
+ "db/míu_widgë/ªgi⁄f‹m©"
+
+	)
+
+356 
+	#VCONFKEY_SETAPPL_SELECTED_PACKAGE_NAME
+ "db/£âög/míus¸ìn/∑ckage_«me"
+
+	)
+
+358 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+359 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+361 
+	#VCONFKEY_SETAPPL_HOMESCREEN_EASYMODE_BOOL
+ "db/£âög/homes¸ìn/ósymode"
+
+	)
+
+363 
+	#VCONFKEY_SETAPPL_ROAMING_NETWORK_INT
+ "db/£âög/rﬂmög_√tw‹k"
+
+	)
+
+366 
+	mSETTING_ROAM_NET_AUTO_DOWNLOAD
+ = 0,
+
+367 
+	mSETTING_ROAM_NET_MANUAL
+,
+
+368 
+	mSETTING_ROAM_NET_ALWAYS_REJECT
+,
+
+369 
+	mSETTING_ROAM_NET_MAX
+
+
+372 
+	#VCONFKEY_SETAPPL_DEFAULT_MEM_INSTALL_APPLICATIONS_INT
+ "db/£âög/deÁu…_mem‹y/ö°Æl_≠∂iˇti⁄s"
+
+	)
+
+374 
+	#VCONFKEY_SETAPPL_DEFAULT_MEM_WIFI_DIRECT_INT
+ "db/£âög/deÁu…_mem‹y/wifi_dúe˘"
+
+	)
+
+376 
+	#VCONFKEY_SETAPPL_DEFAULT_MEM_BLUETOOTH_INT
+ "db/£âög/deÁu…_mem‹y/bluëoŸh"
+
+	)
+
+378 
+	#VCONFKEY_SETAPPL_BATTERY_PERCENTAGE_BOOL
+ "db/£âög/b©ãry_≥r˚¡age"
+
+	)
+
+380 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+381 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+383 
+	#VCONFKEY_SETAPPL_ACCESSIBILITY_HIGH_CONTRAST
+ "db/£âög/ac˚ssibûôy/high_c⁄åa°"
+
+	)
+
+385 
+	#VCONFKEY_SETAPPL_ACCESSIBILITY_SCREEN_ZOOM
+ "db/£âög/ac˚ssibûôy/s¸ìn_zoom"
+
+	)
+
+387 
+	#VCONFKEY_SETAPPL_ACCESSIBILITY_SCREEN_READER
+ "db/£âög/ac˚ssibûôy/s¸ìn_ªadî"
+
+	)
+
+389 
+	#VCONFKEY_SETAPPL_TIMEZONE_ID
+ "db/£âög/timez⁄e_id"
+
+	)
+
+391 
+	#VCONFKEY_SETAPPL_TIMEZONE_INT
+ "db/£âög/timez⁄e"
+
+	)
+
+393 
+	#VCONFKEY_SETAPPL_ROTATE_LOCK_BOOL
+ "db/£âög/rŸ©e_lock"
+
+	)
+
+395 
+	#VCONFKEY_SETAPPL_AUTO_ROTATE_SCREEN_BOOL
+ "db/£âög/auto_rŸ©e_s¸ìn"
+
+	)
+
+397 
+	#VCONFKEY_SETAPPL_ACCESSIBILITY_MONO_AUDIO
+ "db/£âög/ac˚ssibûôy/m⁄o_audio"
+
+	)
+
+399 
+	#VCONFKEY_REGIONFORMAT_TIME1224
+ "db/míu_widgë/ªgi⁄f‹m©_time1224"
+
+	)
+
+402 
+	mVCONFKEY_TIME_FORMAT_12
+ = 1,
+
+403 
+	mVCONFKEY_TIME_FORMAT_24
+
+
+406 
+	#VCONFKEY_SETAPPL_SIM_LOCK_ATTEMPTS_LEFT_INT
+ "db/£âög/sim_lock_©ãm±s_À·"
+
+	)
+
+408 
+	#VCONFKEY_SETAPPL_DEVICE_NAME_STR
+ "db/£âög/devi˚_«me"
+
+	)
+
+410 
+	#VCONFKEY_SETAPPL_SOUND_STATUS_BOOL
+ "db/£âög/sound/sound_⁄"
+
+	)
+
+412 
+	#VCONFKEY_SETAPPL_VIBRATION_STATUS_BOOL
+ "db/£âög/sound/vibøti⁄_⁄"
+
+	)
+
+414 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+415 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+417 
+	#VCONFKEY_SETAPPL_SOUND_MODE
+ "db/£âög/sound/sound_mode"
+
+	)
+
+420 
+	mSETTING_SOUNDMODE_SOUND
+ = 0,
+
+421 
+	mSETTING_SOUNDMODE_VIBRATION
+,
+
+422 
+	mSETTING_SOUNDMODE_SILENT
+,
+
+423 
+	mSETTING_SOUNDMODE_MAX
+
+
+426 
+	#VCONFKEY_SETAPPL_VIBRATE_WHEN_RINGING_BOOL
+ "db/£âög/sound/vibøã_whí_rögög"
+
+	)
+
+428 
+	#VCONFKEY_SETAPPL_VIBRATE_WHEN_NOTIFICATION_BOOL
+ "db/£âög/sound/vibøã_whí_nŸifiˇti⁄"
+
+	)
+
+430 
+	#VCONFKEY_SETAPPL_HAPTIC_FEEDBACK_STATUS_BOOL
+ "db/£âög/sound/h≠tic_„edback_⁄"
+
+	)
+
+432 
+	#VCONFKEY_SETAPPL_STATE_DATA_ROAMING_BOOL
+ "db/£âög/d©a_rﬂmög"
+
+	)
+
+434 
+	#VCONFKEY_SETAPPL_MOTION_ACTIVATION
+ "db/£âög/mŸi⁄_a˘ive"
+
+	)
+
+436 
+	#VCONFKEY_SETAPPL_USE_TILT
+ "db/£âög/u£_tût"
+
+	)
+
+438 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+439 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+441 
+	#VCONFKEY_SETAPPL_TILT_SENSITIVITY
+ "db/£âög/tût_£nsôivôy"
+
+	)
+
+443 
+	#VCONFKEY_SETAPPL_USE_PANNING
+ "db/£âög/u£_∑¬ög"
+
+	)
+
+445 
+	#VCONFKEY_SETAPPL_USE_PANNING_BROWSER
+ "db/£âög/u£_∑¬ög_brow£r"
+
+	)
+
+447 
+	#VCONFKEY_SETAPPL_PANNING_SENSITIVITY
+ "db/£âög/∑¬ög_£nsôivôy"
+
+	)
+
+449 
+	#VCONFKEY_SETAPPL_PANNING_BROWSER_SENSITIVITY
+ "db/£âög/∑¬ög_brow£r_£nsôivôy"
+
+	)
+
+451 
+	#VCONFKEY_SETAPPL_USE_DOUBLE_TAP
+ "db/£âög/u£_doubÀ_èp"
+
+	)
+
+453 
+	#VCONFKEY_SETAPPL_USE_TURN_OVER
+ "db/£âög/u£_tu∫_ovî"
+
+	)
+
+455 
+	#VCONFKEY_SETAPPL_USE_PICK_UP
+ "db/£âög/u£_pick_up"
+
+	)
+
+457 
+	#VCONFKEY_SETAPPL_USE_PICK_UP_CALL
+ "db/£âög/u£_pick_up_ˇŒ"
+
+	)
+
+459 
+	#VCONFKEY_SETAPPL_USE_SHAKE
+ "db/£âög/u£_shake"
+
+	)
+
+461 
+	#VCONFKEY_SETAPPL_USE_MUTE_PAUSE
+ "db/£âög/u£_muã_∑u£"
+
+	)
+
+463 
+	#VCONFKEY_BGSET
+ "db/míu_widgë/bg£t"
+
+	)
+
+465 
+	#VCONFKEY_SETAPPL_DEVOPTION_BGPROCESS
+ "db/£âög/dev›ti⁄/bg¥o˚ss"
+
+	)
+
+467 
+	#VCONFKEY_SETAPPL_DEFAULT_RENDERING_ENGINE_TYPE_INT
+ "db/£âög/deÁu…_ªndîög_ígöe"
+
+	)
+
+470 
+	mSETTING_RENDERING_ENGINE_HW
+ ,
+
+471 
+	mSETTING_RENDERING_ENGINE_SW
+ ,
+
+472 
+	mSETTING_RENDERING_ENGINE_MAX
+
+
+475 
+	#VCONFKEY_SETAPPL_DATA_LIMIT_INT
+ "db/£âög/d©a_limô"
+
+	)
+
+477 
+	#VCONFKEY_SETAPPL_SELECT_OLD_NT_ACT
+ "db/£âög/£À˘_√tw‹k_a˘"
+
+	)
+
+479 
+	#VCONFKEY_SETAPPL_LANG_AUTOMATIC_BOOL
+ "db/£âög/œng_autom©ic"
+
+	)
+
+481 
+	#VCONFKEY_SETAPPL_DATA_USAGE_CYCLE_INT
+ "db/£âög/d©a_ußge_cy˛e"
+
+	)
+
+483 
+	#VCONFKEY_SETAPPL_DATA_USAGE_ROAMING_STATUS
+ "db/£âög/d©a_ußge_rﬂmög_°©us"
+
+	)
+
+485 
+	#VCONFKEY_SETAPPL_SET_DATA_USAGE_LIMIT_BOOL
+ "db/£âög/£t_d©a_ußge_limô"
+
+	)
+
+487 
+	#VCONFKEY_SETAPPL_ACCESSIBILITY_TAP_HOLD_DELAY_STR
+ "db/£âög/ac˚ssibûôy/èphﬁd_dñay"
+
+	)
+
+489 
+	#VCONFKEY_SETAPPL_SOUND_BALANCE_INT
+ "db/£âög/ac˚ssibûôy/sound_bÆ™˚"
+
+	)
+
+491 
+	#VCONFKEY_SETAPPL_SELECTED_NUM
+ "db/£âög/£À˘ed_num"
+
+	)
+
+493 
+	#VCONFKEY_SETAPPL_SCREENMODE_SELNAME
+ "db/£âög/s¸ìnmode/£À˘ed_«me"
+
+	)
+
+495 
+	#VCONFKEY_LCD_TIMEOUT_NORMAL_BACKUP
+ "db/£âög/lcd_timeout_n‹mÆ_backup"
+
+	)
+
+497 
+	#VCONFKEY_SETAPPL_LED_INDICATOR_CHARGING
+ "db/£âög/Àd_ödiˇt‹/ch¨gög"
+
+	)
+
+499 
+	#VCONFKEY_SETAPPL_LED_INDICATOR_LOW_BATT
+ "db/£âög/Àd_ödiˇt‹/low_b©t"
+
+	)
+
+501 
+	#VCONFKEY_SETAPPL_LED_INDICATOR_NOTIFICATIONS
+ "db/£âög/Àd_ödiˇt‹/nŸifiˇti⁄s"
+
+	)
+
+503 
+	#VCONFKEY_SETAPPL_ROTATE_HOLD_BOOL
+ "mem‹y/£âög/rŸ©e_hﬁd"
+
+	)
+
+505 
+	#VCONFKEY_SETAPPL_PSMODE
+ "db/£âög/psmode"
+
+	)
+
+508 
+	mSETTING_PSMODE_NORMAL
+ = 0,
+
+509 
+	mSETTING_PSMODE_POWERFUL
+ = 1,
+
+510 
+	mSETTING_PSMODE_ADVISOR
+ = 1,
+
+511 
+	mSETTING_PSMODE_SURVIVAL
+ = 2,
+
+512 
+	mSETTING_PSMODE_EMERGENCY
+ = 2,
+
+513 
+	mSETTING_PSMODE_WEARABLE
+ = 3,
+
+514 
+	mSETTING_PSMODE_WEARABLE_ENHANCED
+ = 4,
+
+515 
+	mSETTING_PSMODE_MAX
+ = 0
+
+518 
+	#VCONFKEY_SETAPPL_MMC_ENCRYPTION_STATUS_BOOL
+ "db/£âög/mmc_í¸y±i⁄/°©us"
+
+	)
+
+520 
+	#VCONFKEY_SETAPPL_TOUCHKEY_LIGHT_DURATION
+ "db/£âög/di•œy/touchkey_light_duøti⁄"
+
+	)
+
+523 
+	mSETTING_TOUCHKEY_LIGIT_DURATION_90SEC
+ = 90,
+
+524 
+	mSETTING_TOUCHKEY_LIGIT_DURATION_360SEC
+ = 360,
+
+525 
+	mSETTING_TOUCHKEY_LIGIT_DURATION_ALWAYS_OFF
+ = 0,
+
+526 
+	mSETTING_TOUCHKEY_LIGIT_DURATION_ALWAYS_ON
+ = -1
+
+529 
+	#VCONFKEY_SETAPPL_SCREEN_CAPTURE_DESTINATION
+ "db/£âög/di•œy/s¸ìn_ˇ±uª_de°ö©i⁄"
+
+	)
+
+532 
+	mSETTING_SCREEN_CAPTURE_DESTINATION_ASK
+ = 0,
+
+533 
+	mSETTING_SCREEN_CAPTURE_DESTINATION_GALLERY
+,
+
+534 
+	mSETTING_SCREEN_CAPTURE_DESTINATION_KEEPIT
+
+
+537 
+	#VCONFKEY_SETAPPL_SCREEN_CAPTURE_EDIT_AFTER_CAPTURE
+ "db/£âög/di•œy/edô_a·î_s¸ìn_ˇ±uª"
+
+	)
+
+539 
+	#VCONFKEY_SETAPPL_NETWORK_RESTRICT_MODE
+ "db/£âög/√tw‹k_ª°ri˘_mode"
+
+	)
+
+541 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+542 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+544 
+	#VCONFKEY_SETAPPL_BLOCKINGMODE_LED_INDICATOR
+ "db/£âög/blockögmode/Àd_ödiˇt‹"
+
+	)
+
+546 
+	#VCONFKEY_SETAPPL_DYNAMIC_STATUS_BAR
+ "db/£âög/di•œy/dy«mic_°©us_b¨"
+
+	)
+
+548 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+549 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+551 
+	#VCONFKEY_SETAPPL_CLOCK_TYPE_INT
+ "db/£âög/idÀ_˛ock_ty≥"
+
+	)
+
+553 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+554 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+556 
+	#VCONFKEY_SETAPPL_HOURLY_ALERT_BOOL
+ "db/£âög/houæy_Æît"
+
+	)
+
+558 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+559 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+561 
+	#VCONFKEY_SETAPPL_HOMESCREEN_TYPE_INT
+ "db/£âög/homes¸ìn_ty≥"
+
+	)
+
+564 
+	mSETTING_HOMESCREEN_TYPE_1_1
+ = 0,
+
+565 
+	mSETTING_HOMESCREEN_TYPE_2_2
+ = 1
+
+568 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+569 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+571 
+	#VCONFKEY_SETAPPL_MOBILE_DATA_POPUP_DONE
+ "db/£âög/mobûe_d©a_p›up"
+
+	)
+
+573 
+	#VCONFKEY_SETAPPL_MOBILE_DATA_ON_REMINDER
+ "db/£âög/√tw‹k/mobûe_d©a_⁄_ªmödî"
+
+	)
+
+575 
+	#VCONFKEY_SETAPPL_MOBILE_DATA_OFF_REMINDER
+ "db/£âög/√tw‹k/mobûe_d©a_off_ªmödî"
+
+	)
+
+577 
+	#VCONFKEY_SETAPPL_USB_OTG_MODE
+ "db/£âög/usb_Ÿg"
+
+	)
+
+579 
+	#VCONFKEY_SETAPPL_FIREWALL_KEY
+ "db/£âög/fúewÆl"
+
+	)
+
+581 
+	#VCONFKEY_SETAPPL_PERSONAL_MODE_STATUS_BOOL
+ "mem‹y/£âög/≥rs⁄Æ"
+
+	)
+
+583 
+	#VCONFKEY_SETAPPL_PERSONAL_MODE_UNLOCK_METHOD_INT
+ "db/£âög/≥rs⁄Æ_u∆ock_mëhod"
+
+	)
+
+585 
+	#VCONFKEY_SETAPPL_DEVELOPER_OPTION_STATE
+ "db/£âög/devñ›î_›ti⁄_°©e"
+
+	)
+
+587 
+	#VCONFKEY_SETAPPL_CHANGE_UI_THEME_INT
+ "db/£âög/ch™ge_ui/theme"
+
+	)
+
+589 
+	#VCONFKEY_SETAPPL_WINDOW_GRAYTONE
+ "db/£âög/wö_gøy"
+
+	)
+
+591 
+	#VCONFKEY_SETAPPL_WINDOW_FPS
+ "db/£âög/wö_Âs"
+
+	)
+
+593 
+	#VCONFKEY_SETAPPL_EMERGENCY_UI_MODE
+ "db/£âög/emîgícy/mode"
+
+	)
+
+596 
+	mEMERGENCY_UI_MODE_EMERGENCY
+ = 1,
+
+597 
+	mEMERGENCY_UI_MODE_ULTRA_POWER_SAVING
+,
+
+598 
+	mEMERGENCY_UI_MODE_MAX
+
+
+601 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+602 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+604 
+	#VCONFKEY_SETAPPL_ACCESSIBILITY_DARK_SCREEN
+ "db/£âög/ac˚ssibûôy/d¨k_s¸ìn"
+
+	)
+
+606 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+607 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+609 
+	#VCONFKEY_SETAPPL_NETWORK_PERMIT_WITH_LCD_OFF_LIMIT
+ "db/£âög/√tw‹k_wôh_lcd_off_limô"
+
+	)
+
+611 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+612 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+614 
+	#VCONFKEY_SETAPPL_SIM1_NAME
+ "db/£âög/sim1_«me"
+
+	)
+
+616 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+617 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+619 
+	#VCONFKEY_SETAPPL_SIM2_NAME
+ "db/£âög/sim2_«me"
+
+	)
+
+621 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+622 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+624 
+	#VCONFKEY_SETAPPL_SIM1_ICON
+ "db/£âög/sim1_ic⁄"
+
+	)
+
+626 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+627 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+629 
+	#VCONFKEY_SETAPPL_SIM2_ICON
+ "db/£âög/sim2_ic⁄"
+
+	)
+
+632 
+	mSIM_ICON_SIM1
+ = 0,
+
+633 
+	mSIM_ICON_SIM2
+ ,
+
+634 
+	mSIM_ICON_CALL
+ ,
+
+635 
+	mSIM_ICON_SMS
+ ,
+
+636 
+	mSIM_ICON_MMS
+ ,
+
+637 
+	mSIM_ICON_INTERNET
+,
+
+638 
+	mSIM_ICON_HOME
+ ,
+
+639 
+	mSIM_ICON_OFFICE
+ ,
+
+640 
+	mSIM_ICON_HEART
+ ,
+
+641 
+	mSIM_ICON_MAX
+
+
+644 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+645 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+647 
+	#VCONFKEY_DUALSIM_VOICE_CALL_INT
+ "db/£âög/duÆsim/voi˚_ˇŒ"
+
+	)
+
+650 
+	mVCONFKEY_DUALSIM_VOICE_CALL_UNKNOWN
+ = -1,
+
+651 
+	mVCONFKEY_DUALSIM_VOICE_CALL_CURRENT_NETWORK
+ = 0,
+
+652 
+	mVCONFKEY_DUALSIM_VOICE_CALL_ASK_ALWAYS
+,
+
+653 
+	mVCONFKEY_DUALSIM_VOICE_CALL_SIM1
+,
+
+654 
+	mVCONFKEY_DUALSIM_VOICE_CALL_SIM2
+
+
+657 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+658 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+660 
+	#VCONFKEY_TELEPHONY_ALWAYS_ON_BOOL
+ "db/£âög/duÆsim/Æways_duÆsim"
+
+	)
+
+662 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+663 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+665 
+	#VCONFKEY_DUALSIM_SELECTED_SIM
+ "db/£âög/duÆsim/£À˘ed_sim"
+
+	)
+
+668 
+	mVCONFKEY_DUALSIM_SELECT_UNKNOW
+ = -1,
+
+669 
+	mVCONFKEY_DUALSIM_SELECT_BOTH_SIM
+ = 0,
+
+670 
+	mVCONFKEY_DUALSIM_SELECT_SIM1_TO_SIM2
+,
+
+671 
+	mVCONFKEY_DUALSIM_SELECT_SIM2_TO_SIM1
+
+
+674 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+675 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+677 
+	#VCONFKEY_SETAPPL_SCREENROTATION_DEG_INT
+ "db/£âög/s¸ìn_rŸ©i⁄"
+
+	)
+
+680 
+	mSETTING_SCREENROTATION_0_DEGREE
+ = 0,
+
+681 
+	mSETTING_SCREENROTATION_90_DEGREE
+ = 1,
+
+682 
+	mSETTING_SCREENROTATION_180_DEGREE
+ = 2,
+
+683 
+	mSETTING_SCREENROTATION_270_DEGREE
+ = 3
+
+686 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+687 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+689 
+	#VCONFKEY_SETAPPL_PRIVACY_LOCK_TYPE_INT
+ "db/£âög/lock_ty≥"
+
+	)
+
+692 
+	mSETTING_PRIVACY_LOCK_TYPE_NONE
+ = 0,
+
+693 
+	mSETTING_PRIVACY_LOCK_TYPE_PATTERN
+ = 1
+
+696 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+697 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+699 
+	#VCONFKEY_SETAPPL_EMERGENCY_STATUS_BOOL
+ "db/£âög/emîgícy_°©us"
+
+	)
+
+701 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+702 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+704 
+	#VCONFKEY_SETAPPL_BLOCKMODE_WEARABLE_BOOL
+ "db/£âög/blockmode_wóøbÀ"
+
+	)
+
+706 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+707 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+709 
+	#VCONFKEY_SETAPPL_BLOCKMODE_WEARABLE_R_BOOL
+ "db/£âög/blockmode_wóøbÀ_r"
+
+	)
+
+711 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+712 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+714 
+	#VCONFKEY_SETAPPL_AMBIENT_MODE_BOOL
+ "db/£âög/ambõ¡_mode"
+
+	)
+
+716 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+717 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+719 
+	#VCONFKEY_SETAPPL_WALLPAPER_CHANGED_NOTI_INT
+ "db/£âög/wÆÕ≠î_ch™ged"
+
+	)
+
+722 
+	mVCONFKEY_WALLPAPER_CHANGED_NOTI_NONE
+ = 0,
+
+723 
+	mVCONFKEY_WALLPAPER_CHANGED_NOTI_GEAR
+ = 1,
+
+724 
+	mVCONFKEY_WALLPAPER_CHANGED_NOTI_HM
+ = 2
+
+	@/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-sound-keys.h
+
+22 #i‚de‡
+__VCONF_INTERNAL_SOUND_KEYS_H__
+
+
+23 
+	#__VCONF_INTERNAL_SOUND_KEYS_H__
+
+
+	)
+
+24 
+	#VCONFKEY_SOUND_STATUS
+ "mem‹y/Sound/SoundSètus"
+
+	)
+
+27 
+	mVCONFKEY_SOUND_STATUS_AVRECORDING
+ = 0x00000040
+
+30 
+	#VCONFKEY_SOUND_VOLUME_TYPE_SYSTEM
+ "fûe/¥iv©e/sound/vﬁume/sy°em"
+
+	)
+
+32 
+	#VCONFKEY_SOUND_VOLUME_TYPE_NOTIFICATION
+ "fûe/¥iv©e/sound/vﬁume/nŸifiˇti⁄"
+
+	)
+
+34 
+	#VCONFKEY_SOUND_VOLUME_TYPE_ALARM
+ "fûe/¥iv©e/sound/vﬁume/Æ¨m"
+
+	)
+
+36 
+	#VCONFKEY_SOUND_VOLUME_TYPE_RINGTONE
+ "fûe/¥iv©e/sound/vﬁume/rögt⁄e"
+
+	)
+
+38 
+	#VCONFKEY_SOUND_VOLUME_TYPE_MEDIA
+ "fûe/¥iv©e/sound/vﬁume/medü"
+
+	)
+
+40 
+	#VCONFKEY_SOUND_VOLUME_TYPE_CALL
+ "fûe/¥iv©e/sound/vﬁume/ˇŒ"
+
+	)
+
+42 
+	#VCONFKEY_SOUND_VOLUME_TYPE_VOIP
+ "fûe/¥iv©e/sound/vﬁume/voù"
+
+	)
+
+44 
+	#VCONFKEY_SOUND_VOLUME_TYPE_VOICE
+ "fûe/¥iv©e/sound/vﬁume/voi˚"
+
+	)
+
+46 
+	#VCONFKEY_SOUND_PRIMARY_VOLUME_TYPE
+ "mem‹y/¥iv©e/sound/Prim¨yVﬁumëy≥"
+
+	)
+
+48 
+	#VCONFKEY_SOUND_PRIMARY_VOLUME_TYPE_FORCE
+ "mem‹y/¥iv©e/sound/Prim¨yVﬁumëy≥F‹˚"
+
+	)
+
+50 
+	#VCONFKEY_SOUND_PCM_DUMP
+ "mem‹y/¥iv©e/sound/pcm_dump"
+
+	)
+
+52 
+	#VCONFKEY_SOUND_BOOT_SOUND
+ "mem‹y/¥iv©e/sound/boŸög"
+
+	)
+
+	@/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-starter-keys.h
+
+22 #i‚de‡
+__VCONF_INTERNAL_STARTER_KEYS_H__
+
+
+23 
+	#__VCONF_INTERNAL_STARTER_KEYS_H__
+
+
+	)
+
+24 
+	#VCONFKEY_STARTER_SEQUENCE
+ "mem‹y/°¨ãr/£quí˚"
+
+	)
+
+26 
+	#VCONFKEY_STARTER_USE_VOLUME_KEY
+ "mem‹y/°¨ãr/u£_vﬁume_key"
+
+	)
+
+	@/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-sysman-keys.h
+
+22 #i‚de‡
+__VCONF_INTERNAL_SYSMAN_KEYS_H__
+
+
+23 
+	#__VCONF_INTERNAL_SYSMAN_KEYS_H__
+
+
+	)
+
+24 
+	#VCONFKEY_SYSMAN_ADDED_USB_STORAGE
+ "mem‹y/sysm™/added_usb_°‹age"
+
+	)
+
+26 
+	#VCONFKEY_SYSMAN_REMOVED_USB_STORAGE
+ "mem‹y/sysm™/ªmoved_usb_°‹age"
+
+	)
+
+28 
+	#VCONFKEY_SYSMAN_CHARGER_STATUS
+ "mem‹y/sysm™/ch¨gî_°©us"
+
+	)
+
+31 
+	mVCONFKEY_SYSMAN_CHARGER_DISCONNECTED
+ = 0,
+
+32 
+	mVCONFKEY_SYSMAN_CHARGER_CONNECTED
+
+
+35 
+	#VCONFKEY_SYSMAN_BATTERY_CHARGE_NOW
+ "mem‹y/sysm™/ch¨ge_now"
+
+	)
+
+37 
+	#VCONFKEY_SYSMAN_BATTERY_STATUS_LOW
+ "mem‹y/sysm™/b©ãry_°©us_low"
+
+	)
+
+40 
+	mVCONFKEY_SYSMAN_BAT_POWER_OFF
+ = 1,
+
+41 
+	mVCONFKEY_SYSMAN_BAT_CRITICAL_LOW
+,
+
+42 
+	mVCONFKEY_SYSMAN_BAT_WARNING_LOW
+,
+
+43 
+	mVCONFKEY_SYSMAN_BAT_NORMAL
+,
+
+44 
+	mVCONFKEY_SYSMAN_BAT_FULL
+,
+
+45 
+	mVCONFKEY_SYSMAN_BAT_REAL_POWER_OFF
+
+
+48 
+	#VCONFKEY_SYSMAN_BATTERY_CAPACITY
+ "mem‹y/sysm™/b©ãry_ˇ∑côy"
+
+	)
+
+50 
+	#VCONFKEY_SYSMAN_BATTERY_LEVEL_STATUS
+ "mem‹y/sysm™/b©ãry_Àvñ_°©us"
+
+	)
+
+53 
+	mVCONFKEY_SYSMAN_BAT_LEVEL_EMPTY
+ = 0,
+
+54 
+	mVCONFKEY_SYSMAN_BAT_LEVEL_CRITICAL
+,
+
+55 
+	mVCONFKEY_SYSMAN_BAT_LEVEL_LOW
+ ,
+
+56 
+	mVCONFKEY_SYSMAN_BAT_LEVEL_HIGH
+ ,
+
+57 
+	mVCONFKEY_SYSMAN_BAT_LEVEL_FULL
+
+
+60 
+	#VCONFKEY_SYSMAN_USB_STATUS
+ "mem‹y/sysm™/usb_°©us"
+
+	)
+
+63 
+	mVCONFKEY_SYSMAN_USB_DISCONNECTED
+ = 0,
+
+64 
+	mVCONFKEY_SYSMAN_USB_CONNECTED
+,
+
+65 
+	mVCONFKEY_SYSMAN_USB_AVAILABLE
+
+
+68 
+	#VCONFKEY_SYSMAN_USB_HOST_STATUS
+ "mem‹y/sysm™/usbho°_°©us"
+
+	)
+
+71 
+	mVCONFKEY_SYSMAN_USB_HOST_DISCONNECTED
+ = 0,
+
+72 
+	mVCONFKEY_SYSMAN_USB_HOST_CONNECTED
+,
+
+73 
+	mVCONFKEY_SYSMAN_USB_HOST_OVERCURRENT
+
+
+76 
+	#VCONFKEY_SYSMAN_EARJACK
+ "mem‹y/sysm™/órjack"
+
+	)
+
+79 
+	mVCONFKEY_SYSMAN_EARJACK_REMOVED
+ = 0,
+
+80 
+	mVCONFKEY_SYSMAN_EARJACK_3WIRE
+ = 0x1,
+
+81 
+	mVCONFKEY_SYSMAN_EARJACK_4WIRE
+ = 0x3,
+
+82 
+	mVCONFKEY_SYSMAN_EARJACK_TVOUT
+ = 0x10
+
+85 
+	#VCONFKEY_SYSMAN_EARJACKKEY
+ "mem‹y/sysm™/órjack_key"
+
+	)
+
+87 
+	#VCONFKEY_SYSMAN_CRADLE_STATUS
+ "mem‹y/sysm™/¸adÀ_°©us"
+
+	)
+
+89 
+	#VCONFKEY_SYSMAN_LOW_MEMORY
+ "mem‹y/sysm™/low_mem‹y"
+
+	)
+
+92 
+	mVCONFKEY_SYSMAN_LOW_MEMORY_NORMAL
+ = 0x01,
+
+93 
+	mVCONFKEY_SYSMAN_LOW_MEMORY_SOFT_WARNING
+ = 0x02,
+
+94 
+	mVCONFKEY_SYSMAN_LOW_MEMORY_HARD_WARNING
+ = 0x04
+
+97 
+	#VCONFKEY_SYSMAN_SLIDING_KEYBOARD
+ "mem‹y/sysm™/¶idög_keybﬂrd"
+
+	)
+
+100 
+	mVCONFKEY_SYSMAN_SLIDING_KEYBOARD_NOT_SUPPORTED
+ = -1,
+
+101 
+	mVCONFKEY_SYSMAN_SLIDING_KEYBOARD_NOT_AVAILABE
+ = 0,
+
+102 
+	mVCONFKEY_SYSMAN_SLIDING_KEYBOAED_AVAILABLE
+
+
+105 
+	#VCONFKEY_SYSMAN_MMC_STATUS
+ "mem‹y/sysm™/mmc"
+
+	)
+
+108 
+	mVCONFKEY_SYSMAN_MMC_REMOVED
+ = 0,
+
+109 
+	mVCONFKEY_SYSMAN_MMC_MOUNTED
+,
+
+110 
+	mVCONFKEY_SYSMAN_MMC_INSERTED_NOT_MOUNTED
+
+
+113 
+	#VCONFKEY_SYSMAN_MMC_MOUNT
+ "mem‹y/sysm™/mmc_mou¡"
+
+	)
+
+116 
+	mVCONFKEY_SYSMAN_MMC_MOUNT_COMPLETED
+ = 0,
+
+117 
+	mVCONFKEY_SYSMAN_MMC_MOUNT_ALREADY
+,
+
+118 
+	mVCONFKEY_SYSMAN_MMC_MOUNT_FAILED
+
+
+121 
+	#VCONFKEY_SYSMAN_MMC_UNMOUNT
+ "mem‹y/sysm™/mmc_unmou¡"
+
+	)
+
+124 
+	mVCONFKEY_SYSMAN_MMC_UNMOUNT_COMPLETED
+ = 0,
+
+125 
+	mVCONFKEY_SYSMAN_MMC_UNMOUNT_FAILED
+
+
+128 
+	#VCONFKEY_SYSMAN_MMC_FORMAT
+ "mem‹y/sysm™/mmc_f‹m©"
+
+	)
+
+131 
+	mVCONFKEY_SYSMAN_MMC_FORMAT_COMPLETED
+ = 0,
+
+132 
+	mVCONFKEY_SYSMAN_MMC_FORMAT_FAILED
+
+
+135 
+	#VCONFKEY_SYSMAN_MMC_ERR_STATUS
+ "mem‹y/sysm™/mmc_îr_°©us"
+
+	)
+
+138 
+	mVCONFKEY_SYSMAN_MMC_EPERM
+ = 1,
+
+139 
+	mVCONFKEY_SYSMAN_MMC_ENOENT
+ = 2,
+
+140 
+	mVCONFKEY_SYSMAN_MMC_ENXIO
+ = 6,
+
+141 
+	mVCONFKEY_SYSMAN_MMC_EAGAIN
+ = 11,
+
+142 
+	mVCONFKEY_SYSMAN_MMC_ENOMEM
+ = 12,
+
+143 
+	mVCONFKEY_SYSMAN_MMC_EACCESS
+ = 13,
+
+144 
+	mVCONFKEY_SYSMAN_MMC_EFAULT
+ = 14,
+
+145 
+	mVCONFKEY_SYSMAN_MMC_ENOTBLK
+ = 15,
+
+146 
+	mVCONFKEY_SYSMAN_MMC_EBUSY
+ = 16,
+
+147 
+	mVCONFKEY_SYSMAN_MMC_ENODEV
+ = 19,
+
+148 
+	mVCONFKEY_SYSMAN_MMC_ENOTDIR
+ = 20,
+
+149 
+	mVCONFKEY_SYSMAN_MMC_EINVAL
+ = 22,
+
+150 
+	mVCONFKEY_SYSMAN_MMC_EMFILE
+ = 24,
+
+151 
+	mVCONFKEY_SYSMAN_MMC_ENAMETOOLONG
+ = 36,
+
+152 
+	mVCONFKEY_SYSMAN_MMC_ELOOP
+ = 40
+
+155 
+	#VCONFKEY_SYSMAN_MMC_DEVICE_CHANGED
+ "db/sysm™/mmc_dev_ch™ged"
+
+	)
+
+158 
+	mVCONFKEY_SYSMAN_MMC_NOT_CHANGED
+ = 0,
+
+159 
+	mVCONFKEY_SYSMAN_MMC_CHANGED
+
+
+162 
+	#VCONFKEY_SYSMAN_HDMI
+ "mem‹y/sysm™/hdmi"
+
+	)
+
+165 
+	mVCONFKEY_SYSMAN_HDMI_DISCONNECTED
+ = 0,
+
+166 
+	mVCONFKEY_SYSMAN_HDMI_CONNECTED
+
+
+169 
+	#VCONFKEY_SYSMAN_STIME
+ "mem‹y/sysm™/°ime_ch™ged"
+
+	)
+
+172 
+	mVCONFKEY_SYSMAN_STIME_NOT_CHANGED
+ = 0,
+
+173 
+	mVCONFKEY_SYSMAN_STIME_CHANGED
+
+
+176 
+	#VCONFKEY_SYSMAN_POWER_OFF_STATUS
+ "mem‹y/sysm™/powî_off"
+
+	)
+
+179 
+	mVCONFKEY_SYSMAN_POWER_OFF_NONE
+ = 0,
+
+180 
+	mVCONFKEY_SYSMAN_POWER_OFF_POPUP
+ = 1,
+
+181 
+	mVCONFKEY_SYSMAN_POWER_OFF_DIRECT
+ = 2,
+
+182 
+	mVCONFKEY_SYSMAN_POWER_OFF_RESTART
+ = 3
+
+185 
+	#VCONFKEY_SYSMAN_MMC_FORMAT_PROGRESS
+ "mem‹y/sysm™/mmc_f‹m©_¥ogªss"
+
+	)
+
+188 
+	mVCONFKEY_SYSMAN_MMC_FORMAT_PROGRESS_NONE
+ = 0,
+
+189 
+	mVCONFKEY_SYSMAN_MMC_FORMAT_PROGRESS_NOW
+
+
+	@/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-system-keys.h
+
+22 #i‚de‡
+__VCONF_INTERNAL_SYSTEM_KEYS_H__
+
+
+23 
+	#__VCONF_INTERNAL_SYSTEM_KEYS_H__
+
+
+	)
+
+24 
+	#VCONFKEY_SYSTEM_TIME_CHANGED
+ "mem‹y/sy°em/timech™ged"
+
+	)
+
+26 
+	#VCONFKEY_SYSTEM_TIMECHANGE
+ "db/sy°em/timech™ge"
+
+	)
+
+28 
+	#VCONFKEY_SYSTEM_TIMECHANGE_EXTERNAL
+ "db/sy°em/timech™ge_exã∫Æ"
+
+	)
+
+	@/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-telephony-keys.h
+
+22 #i‚de‡
+__VCONF_INTERNAL_TELEPHONY_KEYS_H__
+
+
+23 
+	#__VCONF_INTERNAL_TELEPHONY_KEYS_H__
+
+
+	)
+
+24 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+25 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+27 
+	#VCONFKEY_TELEPHONY_PREFIX
+ "mem‹y/ãÀph⁄y"
+
+	)
+
+29 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+30 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+32 
+	#VCONFKEY_TELEPHONY_DB_PREFIX
+ "db/ãÀph⁄y"
+
+	)
+
+34 
+	#VCONFKEY_TELEPHONY_DAEMON_LOAD_COUNT
+ "mem‹y/ãÀph⁄y/d´m⁄_lﬂd_cou¡"
+
+	)
+
+36 
+	#VCONFKEY_TELEPHONY_NWNAME
+ "mem‹y/ãÀph⁄y/nw_«me"
+
+	)
+
+38 
+	#VCONFKEY_TELEPHONY_PLMN
+ "mem‹y/ãÀph⁄y/∂mn"
+
+	)
+
+40 
+	#VCONFKEY_TELEPHONY_LAC
+ "mem‹y/ãÀph⁄y/œc"
+
+	)
+
+42 
+	#VCONFKEY_TELEPHONY_CELLID
+ "mem‹y/ãÀph⁄y/˚Œ_id"
+
+	)
+
+44 
+	#VCONFKEY_TELEPHONY_ROAM_ICON_MODE
+ "mem‹y/ãÀph⁄y/rﬂm_ic⁄_mode"
+
+	)
+
+47 
+	mVCONFKEY_TELEPHONY_ROAM_ICON_SOLID_MODE
+ = 0x00,
+
+48 
+	mVCONFKEY_TELEPHONY_ROAM_ICON_OFF
+,
+
+49 
+	mVCONFKEY_TELEPHONY_ROAM_ICON_FLASHING_MODE
+
+
+52 
+	#VCONFKEY_TELEPHONY_SVCTYPE
+ "mem‹y/ãÀph⁄y/svc_ty≥"
+
+	)
+
+55 
+	mVCONFKEY_TELEPHONY_SVCTYPE_NONE
+ ,
+
+56 
+	mVCONFKEY_TELEPHONY_SVCTYPE_NOSVC
+ ,
+
+57 
+	mVCONFKEY_TELEPHONY_SVCTYPE_EMERGENCY
+,
+
+58 
+	mVCONFKEY_TELEPHONY_SVCTYPE_SEARCH
+ ,
+
+59 
+	mVCONFKEY_TELEPHONY_SVCTYPE_2G
+ ,
+
+60 
+	mVCONFKEY_TELEPHONY_SVCTYPE_2_5G
+ ,
+
+61 
+	mVCONFKEY_TELEPHONY_SVCTYPE_2_5G_EDGE
+,
+
+62 
+	mVCONFKEY_TELEPHONY_SVCTYPE_3G
+ ,
+
+63 
+	mVCONFKEY_TELEPHONY_SVCTYPE_HSDPA
+ ,
+
+64 
+	mVCONFKEY_TELEPHONY_SVCTYPE_LTE
+
+
+67 
+	#VCONFKEY_TELEPHONY_SVC_CS
+ "mem‹y/ãÀph⁄y/svc_cs"
+
+	)
+
+70 
+	mVCONFKEY_TELEPHONY_SVC_CS_UNKNOWN
+ = 0x00,
+
+71 
+	mVCONFKEY_TELEPHONY_SVC_CS_OFF
+,
+
+72 
+	mVCONFKEY_TELEPHONY_SVC_CS_ON
+
+
+75 
+	#VCONFKEY_TELEPHONY_SVC_PS
+ "mem‹y/ãÀph⁄y/svc_ps"
+
+	)
+
+78 
+	mVCONFKEY_TELEPHONY_SVC_PS_UNKNOWN
+ = 0x00,
+
+79 
+	mVCONFKEY_TELEPHONY_SVC_PS_OFF
+,
+
+80 
+	mVCONFKEY_TELEPHONY_SVC_PS_ON
+
+
+83 
+	#VCONFKEY_TELEPHONY_SVC_ROAM
+ "mem‹y/ãÀph⁄y/svc_rﬂm"
+
+	)
+
+86 
+	mVCONFKEY_TELEPHONY_SVC_ROAM_OFF
+ = 0x00,
+
+87 
+	mVCONFKEY_TELEPHONY_SVC_ROAM_ON
+
+
+90 
+	#VCONFKEY_TELEPHONY_SIM_SLOT
+ "mem‹y/ãÀph⁄y/sim_¶Ÿ"
+
+	)
+
+93 
+	mVCONFKEY_TELEPHONY_SIM_UNKNOWN
+ = 0x00,
+
+94 
+	mVCONFKEY_TELEPHONY_SIM_INSERTED
+,
+
+95 
+	mVCONFKEY_TELEPHONY_SIM_NOT_PRESENT
+,
+
+96 
+	mVCONFKEY_TELEPHONY_SIM_CARD_ERROR
+
+
+99 
+	#VCONFKEY_TELEPHONY_SIM_SLOT2
+ "mem‹y/ãÀph⁄y/sim_¶Ÿ2"
+
+	)
+
+101 
+	#VCONFKEY_TELEPHONY_SIM_SLOT_COUNT
+ "mem‹y/ãÀph⁄y/sim_¶Ÿ_cou¡"
+
+	)
+
+103 
+	#VCONFKEY_TELEPHONY_SIM_PB_INIT
+ "mem‹y/ãÀph⁄y/pb_öô"
+
+	)
+
+106 
+	mVCONFKEY_TELEPHONY_SIM_PB_INIT_NONE
+ = 0x00,
+
+107 
+	mVCONFKEY_TELEPHONY_SIM_PB_INIT_COMPLETED
+
+
+110 
+	#VCONFKEY_TELEPHONY_SIM_STATUS
+ "mem‹y/ãÀph⁄y/sim_°©us"
+
+	)
+
+113 
+	mVCONFKEY_TELEPHONY_SIM_STATUS_CARD_ERROR
+ = 0x00,
+
+114 
+	mVCONFKEY_TELEPHONY_SIM_STATUS_CARD_NOT_PRESENT
+ = 0x01,
+
+115 
+	mVCONFKEY_TELEPHONY_SIM_STATUS_INITIALIZING
+ = 0x02,
+
+116 
+	mVCONFKEY_TELEPHONY_SIM_STATUS_INIT_COMPLETED
+ = 0x03,
+
+117 
+	mVCONFKEY_TELEPHONY_SIM_STATUS_PIN_REQUIRED
+ = 0x04,
+
+118 
+	mVCONFKEY_TELEPHONY_SIM_STATUS_PUK_REQUIRED
+ = 0x05,
+
+119 
+	mVCONFKEY_TELEPHONY_SIM_STATUS_CARD_BLOCKED
+ = 0x06,
+
+120 
+	mVCONFKEY_TELEPHONY_SIM_STATUS_NCK_REQUIRED
+ = 0x07,
+
+121 
+	mVCONFKEY_TELEPHONY_SIM_STATUS_NSCK_REQUIRED
+ = 0x08,
+
+122 
+	mVCONFKEY_TELEPHONY_SIM_STATUS_SPCK_REQUIRED
+ = 0x09,
+
+123 
+	mVCONFKEY_TELEPHONY_SIM_STATUS_CCK_REQUIRED
+ = 0x0a,
+
+124 
+	mVCONFKEY_TELEPHONY_SIM_STATUS_CARD_REMOVED
+ = 0x0b,
+
+125 
+	mVCONFKEY_TELEPHONY_SIM_STATUS_SIM_LOCK_REQUIRED
+ = 0x0c,
+
+126 
+	mVCONFKEY_TELEPHONY_SIM_STATUS_CARD_CRASHED
+ = 0x0d,
+
+127 
+	mVCONFKEY_TELEPHONY_SIM_STATUS_UNKNOWN
+ = 0xff
+
+130 
+	#VCONFKEY_TELEPHONY_SIM_IS_CHANGED
+ "mem‹y/ãÀph⁄y/sim_is_ch™ged"
+
+	)
+
+132 
+	#VCONFKEY_TELEPHONY_CALL_STATE
+ "mem‹y/ãÀph⁄y/ˇŒ_°©e"
+
+	)
+
+135 
+	mVCONFKEY_TELEPHONY_CALL_CONNECT_IDLE
+ = 0x00,
+
+136 
+	mVCONFKEY_TELEPHONY_CALL_CONNECT_ACTIVE
+,
+
+137 
+	mVCONFKEY_TELEPHONY_CALL_CONNECT_HELD
+
+
+140 
+	#VCONFKEY_TELEPHONY_CALL_FORWARD_STATE
+ "db/ãÀph⁄y/ˇŒ_f‹w¨d_°©e"
+
+	)
+
+143 
+	mVCONFKEY_TELEPHONY_CALL_FORWARD_OFF
+ = 0x00,
+
+144 
+	mVCONFKEY_TELEPHONY_CALL_FORWARD_ON
+ = 0x01
+
+147 
+	#VCONFKEY_TELEPHONY_CALL_FORWARD_STATE2
+ "db/ãÀph⁄y/ˇŒ_f‹w¨d_°©e2"
+
+	)
+
+149 
+	#VCONFKEY_TELEPHONY_SS_CLI_STATE
+ "db/ãÀph⁄y/ss_˛i_°©e"
+
+	)
+
+152 
+	mVCONFKEY_TELEPHONY_SS_CLI_BYNETWORK
+ = 0x00,
+
+153 
+	mVCONFKEY_TELEPHONY_SS_CLI_SHOW
+,
+
+154 
+	mVCONFKEY_TELEPHONY_SS_CLI_HIDE
+
+
+157 
+	#VCONFKEY_TELEPHONY_SS_CLI_STATE2
+ "db/ãÀph⁄y/ss_˛i_°©e2"
+
+	)
+
+159 
+	#VCONFKEY_TELEPHONY_TAPI_STATE
+ "mem‹y/ãÀph⁄y/èpi_°©e"
+
+	)
+
+162 
+	mVCONFKEY_TELEPHONY_TAPI_STATE_NONE
+ = 0x00,
+
+163 
+	mVCONFKEY_TELEPHONY_TAPI_STATE_READY
+
+
+166 
+	#VCONFKEY_TELEPHONY_SPN_DISP_CONDITION
+ "mem‹y/ãÀph⁄y/•n_di•_c⁄dôi⁄"
+
+	)
+
+169 
+	mVCONFKEY_TELEPHONY_DISP_INVALID
+ = 0x00,
+
+170 
+	mVCONFKEY_TELEPHONY_DISP_SPN
+,
+
+171 
+	mVCONFKEY_TELEPHONY_DISP_PLMN
+,
+
+172 
+	mVCONFKEY_TELEPHONY_DISP_SPN_PLMN
+
+
+175 
+	#VCONFKEY_TELEPHONY_SPN_NAME
+ "mem‹y/ãÀph⁄y/•n"
+
+	)
+
+177 
+	#VCONFKEY_TELEPHONY_RSSI
+ "mem‹y/ãÀph⁄y/rssi"
+
+	)
+
+180 
+	mVCONFKEY_TELEPHONY_RSSI_0
+ = 0x00,
+
+181 
+	mVCONFKEY_TELEPHONY_RSSI_1
+,
+
+182 
+	mVCONFKEY_TELEPHONY_RSSI_2
+,
+
+183 
+	mVCONFKEY_TELEPHONY_RSSI_3
+,
+
+184 
+	mVCONFKEY_TELEPHONY_RSSI_4
+,
+
+185 
+	mVCONFKEY_TELEPHONY_RSSI_5
+,
+
+186 
+	mVCONFKEY_TELEPHONY_RSSI_6
+
+
+189 
+	#VCONFKEY_TELEPHONY_PSTYPE
+ "mem‹y/ãÀph⁄y/ps_ty≥"
+
+	)
+
+192 
+	mVCONFKEY_TELEPHONY_PSTYPE_NONE
+,
+
+193 
+	mVCONFKEY_TELEPHONY_PSTYPE_HSDPA
+,
+
+194 
+	mVCONFKEY_TELEPHONY_PSTYPE_HSUPA
+,
+
+195 
+	mVCONFKEY_TELEPHONY_PSTYPE_HSPA
+,
+
+196 
+	mVCONFKEY_TELEPHONY_PSTYPE_HSPAP
+
+
+199 
+	#VCONFKEY_3G_ENABLE
+ "db/£âög/3gE«bÀd"
+
+	)
+
+201 
+	#VCONFKEY_TELEPHONY_READY
+ "mem‹y/ãÀph⁄y/ãÀph⁄y_ªady"
+
+	)
+
+203 
+	#VCONFKEY_TELEPHONY_NITZ_GMT
+ "mem‹y/ãÀph⁄y/nôz_gmt"
+
+	)
+
+205 
+	#VCONFKEY_TELEPHONY_NITZ_EVENT_GMT
+ "mem‹y/ãÀph⁄y/nôz_evít_gmt"
+
+	)
+
+207 
+	#VCONFKEY_TELEPHONY_NITZ_ZONE
+ "mem‹y/ãÀph⁄y/nôz_z⁄e"
+
+	)
+
+209 
+	#VCONFKEY_TELEPHONY_FLIGHT_MODE
+ "db/ãÀph⁄y/Êight_mode"
+
+	)
+
+211 
+	#VCONFKEY_TELEPHONY_SVC_ACT
+ "mem‹y/ãÀph⁄y/svc_a˘"
+
+	)
+
+214 
+	mVCONFKEY_TELEPHONY_SVC_ACT_NONE
+,
+
+215 
+	mVCONFKEY_TELEPHONY_SVC_ACT_GSM
+,
+
+216 
+	mVCONFKEY_TELEPHONY_SVC_ACT_GPRS
+,
+
+217 
+	mVCONFKEY_TELEPHONY_SVC_ACT_EGPRS
+,
+
+218 
+	mVCONFKEY_TELEPHONY_SVC_ACT_UMTS
+,
+
+219 
+	mVCONFKEY_TELEPHONY_SVC_ACT_IS95A
+ = 0x11,
+
+220 
+	mVCONFKEY_TELEPHONY_SVC_ACT_IS95B
+,
+
+221 
+	mVCONFKEY_TELEPHONY_SVC_ACT_CDMA_1X
+,
+
+222 
+	mVCONFKEY_TELEPHONY_SVC_ACT_EVDO_REV0
+,
+
+223 
+	mVCONFKEY_TELEPHONY_SVC_ACT_CDMA_1X_EVDO_REV0
+,
+
+224 
+	mVCONFKEY_TELEPHONY_SVC_ACT_EVDO_REVA
+,
+
+225 
+	mVCONFKEY_TELEPHONY_SVC_ACT_CDMA_1X_EVDO_REVA
+,
+
+226 
+	mVCONFKEY_TELEPHONY_SVC_ACT_EVDV
+,
+
+227 
+	mVCONFKEY_TELEPHONY_SVC_ACT_EHRPD
+,
+
+228 
+	mVCONFKEY_TELEPHONY_SVC_ACT_LTE
+ = 0x21,
+
+229 
+	mVCONFKEY_TELEPHONY_SVC_ACT_NOT_SPECIFIED
+ = 0xFF
+
+232 
+	#VCONFKEY_TELEPHONY_SIM_POWER_STATE1
+ "db/ãÀph⁄y/sim_powî_°©e1"
+
+	)
+
+234 
+	#VCONFKEY_TELEPHONY_SIM_POWER_STATE2
+ "db/ãÀph⁄y/sim_powî_°©e2"
+
+	)
+
+236 
+	#VCONFKEY_TELEPHONY_RECEIVE_INCOMING_CALL_BOOL
+ "db/ãÀph⁄y/duÆsim/ª˚ive_öcomög_ˇŒ"
+
+	)
+
+238 
+	#VCONFKEY_TELEPHONY_MODEM_ALWAYS_ON_STATE
+ "db/ãÀph⁄y/modem_Æways_⁄"
+
+	)
+
+241 
+	mVCONFKEY_TELEPHONY_MODEM_ALWAYS_OFF
+ = 0x00,
+
+242 
+	mVCONFKEY_TELEPHONY_MODEM_ALWAYS_ON
+,
+
+243 
+	mVCONFKEY_TELEPHONY_MODEM_AUTO_ON_OFF
+
+
+246 
+	#VCONFKEY_TELEPHONY_ACTIVATION_COMPLETED
+ "db/ãÀph⁄y/a˘iv©i⁄_com∂ëed"
+
+	)
+
+248 
+	#VCONFKEY_TELEPHONY_EMERGENCY_CB_MODE_CDMA
+ "mem‹y/ãÀph⁄y/emîgícy_mode"
+
+	)
+
+250 
+	#VCONFKEY_TELEPHONY_MDN
+ "db/ãÀph⁄y/mdn"
+
+	)
+
+252 
+	#VCONFKEY_TELEPHONY_CALL_SIGNAL_TYPE
+ "mem‹y/ãÀph⁄y/ˇŒ_Æît_sig«l_ty≥"
+
+	)
+
+254 
+	#VCONFKEY_TELEPHONY_CALL_PITCH_TYPE
+ "mem‹y/ãÀph⁄y/ˇŒ_Æît_pôch_ty≥"
+
+	)
+
+256 
+	#VCONFKEY_TELEPHONY_CALL_SIGNAL
+ "mem‹y/ãÀph⁄y/ˇŒ_sig«l"
+
+	)
+
+258 
+	#VCONFKEY_TELEPHONY_DB_DEFAULT_DATA_SUBS
+ "db/ãÀph⁄y/duÆsim/deÁu…_d©a_£rvi˚"
+
+	)
+
+260 
+	#VCONFKEY_TELEPHONY_PREFERRED_VOICE_SUBSCRIPTION
+ "db/ãÀph⁄y/duÆsim/¥e„ºed_voi˚_subs¸ùti⁄"
+
+	)
+
+262 
+	#VCONFKEY_TELEPHONY_DB_DEFAULT_SUBS
+ "db/ãÀph⁄y/duÆsim/deÁu…_subs¸ùti⁄"
+
+	)
+
+264 
+	#VCONFKEY_TELEPHONY_PRIVATE_NETWORK_MODE_SIM_1
+ "db/¥iv©e/ãÀph⁄y/sim1_√tw‹k_mode"
+
+	)
+
+266 
+	#VCONFKEY_TELEPHONY_PRIVATE_NETWORK_MODE_SIM_2
+ "db/¥iv©e/ãÀph⁄y/sim2_√tw‹k_mode"
+
+	)
+
+268 
+	#VCONFKEY_TELEPHONY_PRIVATE_MODEM_ON_COUNT
+ "mem‹y/¥iv©e/ãÀph⁄y/modem_⁄_cou¡"
+
+	)
+
+270 
+	#VCONFKEY_TELEPHONY_PRIVATE_PS_DATA_STATUS
+ "mem‹y/¥iv©e/ãÀph⁄y/ps_d©a_°©us"
+
+	)
+
+272 
+	#VCONFKEY_TELEPHONY_PRIVATE_NO_SIM_POPUP_CHECKBOX
+ "db/¥iv©e/ãÀph⁄y/no_sim_p›up_checkbox"
+
+	)
+
+274 
+	#VCONFKEY_TELEPHONY_PRIVATE_DATA_ROAMING_POPUP_CHECKBOX
+ "db/¥iv©e/ãÀph⁄y/d©a_rﬂmög_p›up_checkbox"
+
+	)
+
+276 
+	#VCONFKEY_TELEPHONY_PRIVATE_NET_MODE_USER_CHANGED
+ "db/¥iv©e/ãÀph⁄y/√t_mode_u£r_ch™ged"
+
+	)
+
+278 
+	#VCONFKEY_TELEPHONY_PRIVATE_PERSO_NWK_PUK
+ "mem‹y/¥iv©e/ãÀph⁄y/≥rso_nwk_puk"
+
+	)
+
+280 
+	#VCONFKEY_TELEPHONY_PRIVATE_MODEM_STATE
+ "mem‹y/¥iv©e/ãÀph⁄y/modem_°©e"
+
+	)
+
+282 
+	#VCONFKEY_TELEPHONY_PRIVATE_NITZ_ISO
+ "db/¥iv©e/ãÀph⁄y/nôz_iso"
+
+	)
+
+284 
+	#VCONFKEY_TELEPHONY_PRIVATE_MANUAL_PLMN
+ "db/¥iv©e/ãÀph⁄y/m™uÆ_∂mn"
+
+	)
+
+286 
+	#VCONFKEY_TELEPHONY_PRIVATE_NCK_UNLOCK_COUNT
+ "mem‹y/¥iv©e/ãÀph⁄y/nck_u∆ock_cou¡"
+
+	)
+
+288 
+	#VCONFKEY_TELEPHONY_PRIVATE_PDP_LAST_CONNECTED_CONTEXT
+ "db/¥iv©e/ãÀph⁄y/pdp_œ°_c⁄√˘ed_c⁄ãxt_°©us"
+
+	)
+
+290 
+	#VCONFKEY_TELEPHONY_PRIVATE_PDP_LAST_CONNECTED_CONTEXT_PROFILE_ID
+ "db/¥iv©e/ãÀph⁄y/pdp_œ°_c⁄√˘ed_c⁄ãxt_¥ofûe_id"
+
+	)
+
+292 
+	#VCONFKEY_TELEPHONY_PRIVATE_PDP_LAST_CONNECTED_CONTEXT_PLMN
+ "db/¥iv©e/ãÀph⁄y/pdp_œ°_c⁄√˘ed_c⁄ãxt_∂mn"
+
+	)
+
+294 
+	#VCONFKEY_TELEPHONY_PRIVATE_MODEMD_ASSERT_REASON
+ "mem‹y/¥iv©e/ãÀph⁄y/modemd_as£π_ªas⁄"
+
+	)
+
+	@/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-uncategorized-keys.h
+
+22 #i‚de‡
+__VCONF_INTERNAL_UNCATEGORIZED_KEYS_H__
+
+
+23 
+	#__VCONF_INTERNAL_UNCATEGORIZED_KEYS_H__
+
+
+	)
+
+24 
+	#VCONFKEY_UNCATEGORIZED_003
+ "db/brow£r/u£r_agít"
+
+	)
+
+26 
+	#VCONFKEY_UNCATEGORIZED_007
+ "db/emaû_h™dÀ/a˘ive_sync_h™dÀ"
+
+	)
+
+28 
+	#VCONFKEY_UNCATEGORIZED_008
+ "db/isf/csc_öôül_uuid"
+
+	)
+
+30 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+31 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+33 
+	#VCONFKEY_UNCATEGORIZED_23
+ "db/msg/sos_£nd_›ti⁄"
+
+	)
+
+35 
+	#VCONFKEY_UNCATEGORIZED_24
+ "db/¥iv©e/devi˚d/lcd_brighäess_öô"
+
+	)
+
+37 
+	#VCONFKEY_UNCATEGORIZED_25
+ "db/¥iv©e/emaû-£rvi˚/deÁu…_accou¡_id"
+
+	)
+
+39 
+	#VCONFKEY_UNCATEGORIZED_26
+ "db/¥iv©e/emaû-£rvi˚/œã°_maû_id"
+
+	)
+
+41 
+	#VCONFKEY_UNCATEGORIZED_27
+ "db/¥iv©e/emaû-£rvi˚/nŸi_badge_tickî"
+
+	)
+
+43 
+	#VCONFKEY_UNCATEGORIZED_28
+ "db/¥iv©e/emaû-£rvi˚/nŸi_di•œy_c⁄ã¡_tickî"
+
+	)
+
+45 
+	#VCONFKEY_UNCATEGORIZED_29
+ "db/¥iv©e/emaû-£rvi˚/nŸi_nŸifiˇti⁄_tickî"
+
+	)
+
+47 
+	#VCONFKEY_UNCATEGORIZED_30
+ "db/¥iv©e/emaû-£rvi˚/nŸi_¥iv©e_id/1"
+
+	)
+
+49 
+	#VCONFKEY_UNCATEGORIZED_31
+ "db/¥iv©e/emaû-£rvi˚/nŸi_¥iv©e_id/10"
+
+	)
+
+51 
+	#VCONFKEY_UNCATEGORIZED_32
+ "db/¥iv©e/emaû-£rvi˚/nŸi_¥iv©e_id/2"
+
+	)
+
+53 
+	#VCONFKEY_UNCATEGORIZED_33
+ "db/¥iv©e/emaû-£rvi˚/nŸi_¥iv©e_id/3"
+
+	)
+
+55 
+	#VCONFKEY_UNCATEGORIZED_34
+ "db/¥iv©e/emaû-£rvi˚/nŸi_¥iv©e_id/4"
+
+	)
+
+57 
+	#VCONFKEY_UNCATEGORIZED_35
+ "db/¥iv©e/emaû-£rvi˚/nŸi_¥iv©e_id/5"
+
+	)
+
+59 
+	#VCONFKEY_UNCATEGORIZED_36
+ "db/¥iv©e/emaû-£rvi˚/nŸi_¥iv©e_id/6"
+
+	)
+
+61 
+	#VCONFKEY_UNCATEGORIZED_37
+ "db/¥iv©e/emaû-£rvi˚/nŸi_¥iv©e_id/7"
+
+	)
+
+63 
+	#VCONFKEY_UNCATEGORIZED_38
+ "db/¥iv©e/emaû-£rvi˚/nŸi_¥iv©e_id/8"
+
+	)
+
+65 
+	#VCONFKEY_UNCATEGORIZED_39
+ "db/¥iv©e/emaû-£rvi˚/nŸi_¥iv©e_id/9"
+
+	)
+
+67 
+	#VCONFKEY_UNCATEGORIZED_40
+ "db/¥iv©e/emaû-£rvi˚/nŸi_ªp_ty≥"
+
+	)
+
+69 
+	#VCONFKEY_UNCATEGORIZED_41
+ "db/¥iv©e/emaû-£rvi˚/nŸi_rögt⁄e_∑th"
+
+	)
+
+71 
+	#VCONFKEY_UNCATEGORIZED_42
+ "db/¥iv©e/emaû-£rvi˚/nŸi_u£_deÁu…_rögt⁄e"
+
+	)
+
+73 
+	#VCONFKEY_UNCATEGORIZED_43
+ "db/¥iv©e/emaû-£rvi˚/nŸi_vibøti⁄_°©us"
+
+	)
+
+75 
+	#VCONFKEY_UNCATEGORIZED_44
+ "db/¥iv©e/emaû-£rvi˚/nŸi_vù_u£_deÁu…_rögt⁄e"
+
+	)
+
+77 
+	#VCONFKEY_UNCATEGORIZED_45
+ "db/¥iv©e/emaû-£rvi˚/nŸi_vù_vibøti⁄_°©us"
+
+	)
+
+79 
+	#VCONFKEY_UNCATEGORIZED_46
+ "db/¥iv©e/emaû-£rvi˚/¶Ÿ_size"
+
+	)
+
+81 
+	#VCONFKEY_UNCATEGORIZED_48
+ "db/¥iv©e/medü£rvî/mmc_öfo"
+
+	)
+
+83 
+	#VCONFKEY_UNCATEGORIZED_49
+ "db/¥iv©e/msg-£rvi˚/cb_msg/œnguage/0"
+
+	)
+
+85 
+	#VCONFKEY_UNCATEGORIZED_50
+ "db/¥iv©e/msg-£rvi˚/cb_msg/œnguage/1"
+
+	)
+
+87 
+	#VCONFKEY_UNCATEGORIZED_51
+ "db/¥iv©e/msg-£rvi˚/cb_msg/œnguage/2"
+
+	)
+
+89 
+	#VCONFKEY_UNCATEGORIZED_52
+ "db/¥iv©e/msg-£rvi˚/cb_msg/œnguage/3"
+
+	)
+
+91 
+	#VCONFKEY_UNCATEGORIZED_53
+ "db/¥iv©e/msg-£rvi˚/cb_msg/œnguage/4"
+
+	)
+
+93 
+	#VCONFKEY_UNCATEGORIZED_54
+ "db/¥iv©e/msg-£rvi˚/cb_msg/œnguage/5"
+
+	)
+
+95 
+	#VCONFKEY_UNCATEGORIZED_55
+ "db/¥iv©e/msg-£rvi˚/cb_msg/œnguage/6"
+
+	)
+
+97 
+	#VCONFKEY_UNCATEGORIZED_56
+ "db/¥iv©e/msg-£rvi˚/cb_msg/œnguage/7"
+
+	)
+
+99 
+	#VCONFKEY_UNCATEGORIZED_57
+ "db/¥iv©e/msg-£rvi˚/cb_msg/œnguage/8"
+
+	)
+
+101 
+	#VCONFKEY_UNCATEGORIZED_58
+ "db/¥iv©e/msg-£rvi˚/cb_msg/œnguage/9"
+
+	)
+
+103 
+	#VCONFKEY_UNCATEGORIZED_59
+ "db/¥iv©e/msg-£rvi˚/cb_msg/max_sim_cou¡/1"
+
+	)
+
+105 
+	#VCONFKEY_UNCATEGORIZED_60
+ "db/¥iv©e/msg-£rvi˚/cb_msg/max_sim_cou¡/2"
+
+	)
+
+107 
+	#VCONFKEY_UNCATEGORIZED_61
+ "db/¥iv©e/msg-£rvi˚/cb_msg/max_sim_cou¡/3"
+
+	)
+
+109 
+	#VCONFKEY_UNCATEGORIZED_62
+ "db/¥iv©e/msg-£rvi˚/cb_msg/ª˚ive/1"
+
+	)
+
+111 
+	#VCONFKEY_UNCATEGORIZED_63
+ "db/¥iv©e/msg-£rvi˚/cb_msg/ª˚ive/2"
+
+	)
+
+113 
+	#VCONFKEY_UNCATEGORIZED_64
+ "db/¥iv©e/msg-£rvi˚/cb_msg/ßve"
+
+	)
+
+115 
+	#VCONFKEY_UNCATEGORIZED_65
+ "db/¥iv©e/msg-£rvi˚/cb_nŸi_¥iv_id"
+
+	)
+
+117 
+	#VCONFKEY_UNCATEGORIZED_68
+ "db/¥iv©e/msg-£rvi˚/gíîÆ/auto_îa£"
+
+	)
+
+119 
+	#VCONFKEY_UNCATEGORIZED_69
+ "db/¥iv©e/msg-£rvi˚/gíîÆ/block_msg"
+
+	)
+
+121 
+	#VCONFKEY_UNCATEGORIZED_70
+ "db/¥iv©e/msg-£rvi˚/gíîÆ/block_unknown_msg"
+
+	)
+
+123 
+	#VCONFKEY_UNCATEGORIZED_71
+ "db/¥iv©e/msg-£rvi˚/gíîÆ/c⁄è˘_sync_time"
+
+	)
+
+125 
+	#VCONFKEY_UNCATEGORIZED_72
+ "db/¥iv©e/msg-£rvi˚/gíîÆ/kìp_c›y"
+
+	)
+
+127 
+	#VCONFKEY_UNCATEGORIZED_74
+ "db/¥iv©e/msg-£rvi˚/gíîÆ/mms_limô"
+
+	)
+
+129 
+	#VCONFKEY_UNCATEGORIZED_75
+ "db/¥iv©e/msg-£rvi˚/gíîÆ/msg_id_cou¡î"
+
+	)
+
+131 
+	#VCONFKEY_UNCATEGORIZED_76
+ "db/¥iv©e/msg-£rvi˚/gíîÆ/nŸifiˇti⁄"
+
+	)
+
+133 
+	#VCONFKEY_UNCATEGORIZED_78
+ "db/¥iv©e/msg-£rvi˚/gíîÆ/¥evõw"
+
+	)
+
+135 
+	#VCONFKEY_UNCATEGORIZED_79
+ "db/¥iv©e/msg-£rvi˚/gíîÆ/rögt⁄e_∑th"
+
+	)
+
+137 
+	#VCONFKEY_UNCATEGORIZED_80
+ "db/¥iv©e/msg-£rvi˚/gíîÆ/rögt⁄e_ty≥"
+
+	)
+
+139 
+	#VCONFKEY_UNCATEGORIZED_82
+ "db/¥iv©e/msg-£rvi˚/gíîÆ/sms_limô"
+
+	)
+
+141 
+	#VCONFKEY_UNCATEGORIZED_85
+ "db/¥iv©e/msg-£rvi˚/gíîÆ/ua_¥ofûe"
+
+	)
+
+143 
+	#VCONFKEY_UNCATEGORIZED_86
+ "db/¥iv©e/msg-£rvi˚/gíîÆ/vibøti⁄"
+
+	)
+
+145 
+	#VCONFKEY_UNCATEGORIZED_87
+ "db/¥iv©e/msg-£rvi˚/mms_ªcv/abrﬂd_√tw‹k"
+
+	)
+
+147 
+	#VCONFKEY_UNCATEGORIZED_88
+ "db/¥iv©e/msg-£rvi˚/mms_ªcv/dñivîy_ª˚ùt"
+
+	)
+
+149 
+	#VCONFKEY_UNCATEGORIZED_89
+ "db/¥iv©e/msg-£rvi˚/mms_ªcv/home_√tw‹k"
+
+	)
+
+151 
+	#VCONFKEY_UNCATEGORIZED_90
+ "db/¥iv©e/msg-£rvi˚/mms_ªcv/ªad_ª˚ùt"
+
+	)
+
+153 
+	#VCONFKEY_UNCATEGORIZED_91
+ "db/¥iv©e/msg-£rvi˚/mms_ªcv/ªje˘_advîti£mít"
+
+	)
+
+155 
+	#VCONFKEY_UNCATEGORIZED_92
+ "db/¥iv©e/msg-£rvi˚/mms_ªcv/ªje˘_unknown"
+
+	)
+
+157 
+	#VCONFKEY_UNCATEGORIZED_93
+ "db/¥iv©e/msg-£rvi˚/mms_£nd/body_ª∂yög"
+
+	)
+
+159 
+	#VCONFKEY_UNCATEGORIZED_94
+ "db/¥iv©e/msg-£rvi˚/mms_£nd/¸óti⁄_mode"
+
+	)
+
+161 
+	#VCONFKEY_UNCATEGORIZED_95
+ "db/¥iv©e/msg-£rvi˚/mms_£nd/cu°om_dñivîy"
+
+	)
+
+163 
+	#VCONFKEY_UNCATEGORIZED_96
+ "db/¥iv©e/msg-£rvi˚/mms_£nd/dñivîy_ªp‹t"
+
+	)
+
+165 
+	#VCONFKEY_UNCATEGORIZED_97
+ "db/¥iv©e/msg-£rvi˚/mms_£nd/dñivîy_time"
+
+	)
+
+167 
+	#VCONFKEY_UNCATEGORIZED_98
+ "db/¥iv©e/msg-£rvi˚/mms_£nd/expúy_time"
+
+	)
+
+169 
+	#VCONFKEY_UNCATEGORIZED_99
+ "db/¥iv©e/msg-£rvi˚/mms_£nd/hide_ªcùõ¡s"
+
+	)
+
+171 
+	#VCONFKEY_UNCATEGORIZED_100
+ "db/¥iv©e/msg-£rvi˚/mms_£nd/kìp_c›y"
+
+	)
+
+173 
+	#VCONFKEY_UNCATEGORIZED_101
+ "db/¥iv©e/msg-£rvi˚/mms_£nd/msg_˛ass"
+
+	)
+
+175 
+	#VCONFKEY_UNCATEGORIZED_102
+ "db/¥iv©e/msg-£rvi˚/mms_£nd/¥i‹ôy"
+
+	)
+
+177 
+	#VCONFKEY_UNCATEGORIZED_103
+ "db/¥iv©e/msg-£rvi˚/mms_£nd/ªad_ª∂y"
+
+	)
+
+179 
+	#VCONFKEY_UNCATEGORIZED_104
+ "db/¥iv©e/msg-£rvi˚/mms_£nd/ª∂y_ch¨gög"
+
+	)
+
+181 
+	#VCONFKEY_UNCATEGORIZED_105
+ "db/¥iv©e/msg-£rvi˚/mms_£nd/ª∂y_ch¨gög_dódlöe"
+
+	)
+
+183 
+	#VCONFKEY_UNCATEGORIZED_106
+ "db/¥iv©e/msg-£rvi˚/mms_£nd/ª∂y_ch¨gög_size"
+
+	)
+
+185 
+	#VCONFKEY_UNCATEGORIZED_107
+ "db/¥iv©e/msg-£rvi˚/mms_£nd/ªp‹t_Ælowed"
+
+	)
+
+187 
+	#VCONFKEY_UNCATEGORIZED_108
+ "db/¥iv©e/msg-£rvi˚/mms_£nd/£ndî_visibûôy"
+
+	)
+
+189 
+	#VCONFKEY_UNCATEGORIZED_109
+ "db/¥iv©e/msg-£rvi˚/mms_°yÀ/bg_cﬁ‹/blue"
+
+	)
+
+191 
+	#VCONFKEY_UNCATEGORIZED_110
+ "db/¥iv©e/msg-£rvi˚/mms_°yÀ/bg_cﬁ‹/gªí"
+
+	)
+
+193 
+	#VCONFKEY_UNCATEGORIZED_111
+ "db/¥iv©e/msg-£rvi˚/mms_°yÀ/bg_cﬁ‹/hue"
+
+	)
+
+195 
+	#VCONFKEY_UNCATEGORIZED_112
+ "db/¥iv©e/msg-£rvi˚/mms_°yÀ/bg_cﬁ‹/ªd"
+
+	)
+
+197 
+	#VCONFKEY_UNCATEGORIZED_113
+ "db/¥iv©e/msg-£rvi˚/mms_°yÀ/f⁄t_cﬁ‹/blue"
+
+	)
+
+199 
+	#VCONFKEY_UNCATEGORIZED_114
+ "db/¥iv©e/msg-£rvi˚/mms_°yÀ/f⁄t_cﬁ‹/gªí"
+
+	)
+
+201 
+	#VCONFKEY_UNCATEGORIZED_115
+ "db/¥iv©e/msg-£rvi˚/mms_°yÀ/f⁄t_cﬁ‹/hue"
+
+	)
+
+203 
+	#VCONFKEY_UNCATEGORIZED_116
+ "db/¥iv©e/msg-£rvi˚/mms_°yÀ/f⁄t_cﬁ‹/ªd"
+
+	)
+
+205 
+	#VCONFKEY_UNCATEGORIZED_117
+ "db/¥iv©e/msg-£rvi˚/mms_°yÀ/f⁄t_size"
+
+	)
+
+207 
+	#VCONFKEY_UNCATEGORIZED_118
+ "db/¥iv©e/msg-£rvi˚/mms_°yÀ/f⁄t_°yÀ/bﬁd"
+
+	)
+
+209 
+	#VCONFKEY_UNCATEGORIZED_119
+ "db/¥iv©e/msg-£rvi˚/mms_°yÀ/f⁄t_°yÀ/ôÆic"
+
+	)
+
+211 
+	#VCONFKEY_UNCATEGORIZED_120
+ "db/¥iv©e/msg-£rvi˚/mms_°yÀ/f⁄t_°yÀ/undîlöe"
+
+	)
+
+213 
+	#VCONFKEY_UNCATEGORIZED_121
+ "db/¥iv©e/msg-£rvi˚/mms_°yÀ/∑ge_cu°om_dur"
+
+	)
+
+215 
+	#VCONFKEY_UNCATEGORIZED_122
+ "db/¥iv©e/msg-£rvi˚/mms_°yÀ/∑ge_dur"
+
+	)
+
+217 
+	#VCONFKEY_UNCATEGORIZED_123
+ "db/¥iv©e/msg-£rvi˚/mms_°yÀ/∑ge_dur_m™uÆ"
+
+	)
+
+219 
+	#VCONFKEY_UNCATEGORIZED_124
+ "db/¥iv©e/msg-£rvi˚/nŸifiˇti⁄_¥iv_id"
+
+	)
+
+221 
+	#VCONFKEY_UNCATEGORIZED_125
+ "db/¥iv©e/msg-£rvi˚/push_msg/ªcv_›ti⁄"
+
+	)
+
+223 
+	#VCONFKEY_UNCATEGORIZED_126
+ "db/¥iv©e/msg-£rvi˚/push_msg/£rvi˚_lﬂd"
+
+	)
+
+225 
+	#VCONFKEY_UNCATEGORIZED_127
+ "db/¥iv©e/msg-£rvi˚/£¡Áû_nŸi_id"
+
+	)
+
+227 
+	#VCONFKEY_UNCATEGORIZED_128
+ "db/¥iv©e/msg-£rvi˚/sim_cou¡/tŸÆ_˙t/1"
+
+	)
+
+229 
+	#VCONFKEY_UNCATEGORIZED_129
+ "db/¥iv©e/msg-£rvi˚/sim_cou¡/tŸÆ_˙t/2"
+
+	)
+
+231 
+	#VCONFKEY_UNCATEGORIZED_130
+ "db/¥iv©e/msg-£rvi˚/sim_cou¡/tŸÆ_˙t/3"
+
+	)
+
+233 
+	#VCONFKEY_UNCATEGORIZED_131
+ "db/¥iv©e/msg-£rvi˚/sim_cou¡/u£d_˙t/1"
+
+	)
+
+235 
+	#VCONFKEY_UNCATEGORIZED_132
+ "db/¥iv©e/msg-£rvi˚/sim_cou¡/u£d_˙t/2"
+
+	)
+
+237 
+	#VCONFKEY_UNCATEGORIZED_133
+ "db/¥iv©e/msg-£rvi˚/sim_cou¡/u£d_˙t/3"
+
+	)
+
+239 
+	#VCONFKEY_UNCATEGORIZED_134
+ "db/¥iv©e/msg-£rvi˚/sim_fuŒ_nŸi_id"
+
+	)
+
+241 
+	#VCONFKEY_UNCATEGORIZED_135
+ "db/¥iv©e/msg-£rvi˚/sim_msg_nŸi_¥iv_id"
+
+	)
+
+243 
+	#VCONFKEY_UNCATEGORIZED_136
+ "db/¥iv©e/msg-£rvi˚/size_›t/msg_size"
+
+	)
+
+245 
+	#VCONFKEY_UNCATEGORIZED_137
+ "db/¥iv©e/msg-£rvi˚/sms_£nd/dcs"
+
+	)
+
+247 
+	#VCONFKEY_UNCATEGORIZED_138
+ "db/¥iv©e/msg-£rvi˚/sms_£nd/dñivîy_ªp‹t"
+
+	)
+
+249 
+	#VCONFKEY_UNCATEGORIZED_139
+ "db/¥iv©e/msg-£rvi˚/sms_£nd/ª∂y_∑th"
+
+	)
+
+251 
+	#VCONFKEY_UNCATEGORIZED_140
+ "db/¥iv©e/msg-£rvi˚/sms_£nd/ßve_°‹age"
+
+	)
+
+253 
+	#VCONFKEY_UNCATEGORIZED_141
+ "db/¥iv©e/msg-£rvi˚/voi˚_maû/voi˚_maû_Æphaid/1"
+
+	)
+
+255 
+	#VCONFKEY_UNCATEGORIZED_142
+ "db/¥iv©e/msg-£rvi˚/voi˚_maû/voi˚_maû_Æphaid/2"
+
+	)
+
+257 
+	#VCONFKEY_UNCATEGORIZED_143
+ "db/¥iv©e/msg-£rvi˚/voi˚_maû/voi˚_maû_Æphaid/3"
+
+	)
+
+259 
+	#VCONFKEY_UNCATEGORIZED_144
+ "db/¥iv©e/msg-£rvi˚/voi˚_maû/voi˚_maû_cou¡/1"
+
+	)
+
+261 
+	#VCONFKEY_UNCATEGORIZED_145
+ "db/¥iv©e/msg-£rvi˚/voi˚_maû/voi˚_maû_cou¡/2"
+
+	)
+
+263 
+	#VCONFKEY_UNCATEGORIZED_146
+ "db/¥iv©e/msg-£rvi˚/voi˚_maû/voi˚_maû_cou¡/3"
+
+	)
+
+265 
+	#VCONFKEY_UNCATEGORIZED_147
+ "db/¥iv©e/msg-£rvi˚/voi˚_maû/voi˚_maû_numbî/1"
+
+	)
+
+267 
+	#VCONFKEY_UNCATEGORIZED_148
+ "db/¥iv©e/msg-£rvi˚/voi˚_maû/voi˚_maû_numbî/2"
+
+	)
+
+269 
+	#VCONFKEY_UNCATEGORIZED_149
+ "db/¥iv©e/msg-£rvi˚/voi˚_maû/voi˚_maû_numbî/3"
+
+	)
+
+271 
+	#VCONFKEY_UNCATEGORIZED_150
+ "db/¥iv©e/msg-£rvi˚/voi˚_nŸi_id1"
+
+	)
+
+273 
+	#VCONFKEY_UNCATEGORIZED_151
+ "db/¥iv©e/msg-£rvi˚/voi˚_nŸi_id2"
+
+	)
+
+275 
+	#VCONFKEY_UNCATEGORIZED_196
+ "db/¥iv©e/Ωm-ö°ÆÀr/ªque°öfo/comm™d"
+
+	)
+
+277 
+	#VCONFKEY_UNCATEGORIZED_197
+ "db/¥iv©e/Ωm-ö°ÆÀr/ªque°öfo/›ti⁄s"
+
+	)
+
+279 
+	#VCONFKEY_UNCATEGORIZED_198
+ "db/¥iv©e/Ωm-ö°ÆÀr/ªque°öfo/pkg«me"
+
+	)
+
+281 
+	#VCONFKEY_UNCATEGORIZED_199
+ "db/¥iv©e/Ωm-ö°ÆÀr/°©e"
+
+	)
+
+283 
+	#VCONFKEY_UNCATEGORIZED_200
+ "db/¥iv©e/Ωm-ö°ÆÀr/°©eöfo"
+
+	)
+
+285 
+	#VCONFKEY_UNCATEGORIZED_200_0
+ "db/¥iv©e/sysm™/coﬁ_down_mode"
+
+	)
+
+287 
+	#VCONFKEY_UNCATEGORIZED_201
+ "db/¥iv©e/sysm™/íh™˚_mode"
+
+	)
+
+289 
+	#VCONFKEY_UNCATEGORIZED_202
+ "db/¥iv©e/sysm™/íh™˚_outdo‹"
+
+	)
+
+291 
+	#VCONFKEY_UNCATEGORIZED_203
+ "db/¥iv©e/sysm™/íh™˚_s˚«rio"
+
+	)
+
+293 
+	#VCONFKEY_UNCATEGORIZED_204
+ "db/¥iv©e/sysm™/íh™˚_t⁄e"
+
+	)
+
+295 
+	#VCONFKEY_UNCATEGORIZED_205
+ "db/¥iv©e/sysm™/mmc_devi˚_id"
+
+	)
+
+297 
+	#VCONFKEY_UNCATEGORIZED_207
+ "db/¥iv©e/usb/usb_c⁄åﬁ"
+
+	)
+
+299 
+	#VCONFKEY_UNCATEGORIZED_221
+ "fûe/¥iv©e/c⁄è˘s-£rvi˚/deÁu…_œng"
+
+	)
+
+301 
+	#VCONFKEY_UNCATEGORIZED_228
+ "fûe/¥iv©e/isf/autoˇpôÆ_Ælow"
+
+	)
+
+303 
+	#VCONFKEY_UNCATEGORIZED_229
+ "fûe/¥iv©e/isf/aut›îiod_Ælow"
+
+	)
+
+305 
+	#VCONFKEY_UNCATEGORIZED_265
+ "fûe/¥iv©e/wifi/œ°_powî_°©e"
+
+	)
+
+307 
+	#VCONFKEY_UNCATEGORIZED_266
+ "fûe/¥iv©e/wifi/√tw‹k_b⁄dög"
+
+	)
+
+309 
+	#VCONFKEY_UNCATEGORIZED_267
+ "fûe/¥iv©e/wifi/¶ìp_pﬁicy"
+
+	)
+
+311 
+	#VCONFKEY_UNCATEGORIZED_268
+ "fûe/¥iv©e/wifi/s‹t_by"
+
+	)
+
+313 
+	#VCONFKEY_UNCATEGORIZED_269
+ "fûe/¥iv©e/wifi/wifi_off_by_aú∂™e"
+
+	)
+
+315 
+	#VCONFKEY_UNCATEGORIZED_270
+ "fûe/¥iv©e/wifi/wifi_off_by_emîgícy"
+
+	)
+
+317 
+	#VCONFKEY_UNCATEGORIZED_271
+ "fûe/¥iv©e/wifi/wifi_off_by_ª°ri˘ed"
+
+	)
+
+319 
+	#VCONFKEY_UNCATEGORIZED_273
+ "mem‹y/ˇŒ/ui_°©e"
+
+	)
+
+321 
+	#VCONFKEY_UNCATEGORIZED_274
+ "mem‹y/ˇŒ/ui_visibûôy"
+
+	)
+
+323 
+	#VCONFKEY_UNCATEGORIZED_280
+ "mem‹y/¥iv©e/lib°©us/mesßge"
+
+	)
+
+325 
+	#VCONFKEY_UNCATEGORIZED_283
+ "mem‹y/¥iv©e/msg-£rvi˚/deÁu…_√tw‹k_sim"
+
+	)
+
+327 
+	#VCONFKEY_UNCATEGORIZED_287
+ "mem‹y/¥iv©e/msg-£rvi˚/msisdn/1"
+
+	)
+
+329 
+	#VCONFKEY_UNCATEGORIZED_288
+ "mem‹y/¥iv©e/msg-£rvi˚/msisdn/2"
+
+	)
+
+331 
+	#VCONFKEY_UNCATEGORIZED_289
+ "mem‹y/¥iv©e/msg-£rvi˚/msisdn/3"
+
+	)
+
+333 
+	#VCONFKEY_UNCATEGORIZED_293
+ "mem‹y/¥iv©e/msg-£rvi˚/sim_ch™ged/1"
+
+	)
+
+335 
+	#VCONFKEY_UNCATEGORIZED_294
+ "mem‹y/¥iv©e/msg-£rvi˚/sim_ch™ged/2"
+
+	)
+
+337 
+	#VCONFKEY_UNCATEGORIZED_295
+ "mem‹y/¥iv©e/msg-£rvi˚/sim_ch™ged/3"
+
+	)
+
+339 
+	#VCONFKEY_UNCATEGORIZED_296
+ "mem‹y/¥iv©e/msg-£rvi˚/sim_mo_˘æ/1"
+
+	)
+
+341 
+	#VCONFKEY_UNCATEGORIZED_297
+ "mem‹y/¥iv©e/msg-£rvi˚/sim_mo_˘æ/2"
+
+	)
+
+343 
+	#VCONFKEY_UNCATEGORIZED_298
+ "mem‹y/¥iv©e/msg-£rvi˚/sim_mo_˘æ/3"
+
+	)
+
+345 
+	#VCONFKEY_UNCATEGORIZED_299
+ "mem‹y/¥iv©e/msg-£rvi˚/sim_°/1"
+
+	)
+
+347 
+	#VCONFKEY_UNCATEGORIZED_300
+ "mem‹y/¥iv©e/msg-£rvi˚/sim_°/2"
+
+	)
+
+349 
+	#VCONFKEY_UNCATEGORIZED_301
+ "mem‹y/¥iv©e/msg-£rvi˚/sim_°/3"
+
+	)
+
+351 
+	#VCONFKEY_UNCATEGORIZED_302
+ "mem‹y/¥iv©e/msg-£rvi˚/sim_subs_id/1"
+
+	)
+
+353 
+	#VCONFKEY_UNCATEGORIZED_303
+ "mem‹y/¥iv©e/msg-£rvi˚/sim_subs_id/2"
+
+	)
+
+355 
+	#VCONFKEY_UNCATEGORIZED_304
+ "mem‹y/¥iv©e/msg-£rvi˚/sim_subs_id/3"
+
+	)
+
+357 
+	#VCONFKEY_UNCATEGORIZED_308
+ "mem‹y/¥iv©e/‹g.tizí.ödiˇt‹/show_m‹e_nŸi_p‹t"
+
+	)
+
+359 
+	#VCONFKEY_UNCATEGORIZED_322
+ "mem‹y/¥iv©e/sysm™/added_°‹age_uevít"
+
+	)
+
+361 
+	#VCONFKEY_UNCATEGORIZED_323
+ "mem‹y/¥iv©e/sysm™/íh™˚_pid"
+
+	)
+
+363 
+	#VCONFKEY_UNCATEGORIZED_324
+ "mem‹y/¥iv©e/sysm™/ªmoved_°‹age_uevít"
+
+	)
+
+365 
+	#VCONFKEY_UNCATEGORIZED_325
+ "mem‹y/¥iv©e/sysm™/si›_dißbÀ"
+
+	)
+
+367 
+	#VCONFKEY_UNCATEGORIZED_326
+ "mem‹y/¥iv©e/sysm™/si›_Àvñ_uevít"
+
+	)
+
+369 
+	#VCONFKEY_UNCATEGORIZED_328
+ "mem‹y/¥iv©e/usb/c⁄f_íabÀd"
+
+	)
+
+371 
+	#VCONFKEY_UNCATEGORIZED_335
+ "mem‹y/sysm™/¸adÀ_°©us"
+
+	)
+
+373 
+	#VCONFKEY_UNCATEGORIZED_336
+ "mem‹y/sysm™/órjack_key"
+
+	)
+
+375 
+	#VCONFKEY_UNCATEGORIZED_337
+ "mem‹y/sysm™/Á˘‹y_mode"
+
+	)
+
+377 
+	#VCONFKEY_UNCATEGORIZED_338
+ "mem‹y/sysm™/usbho°_°©us"
+
+	)
+
+379 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+380 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+382 
+	#VCONFKEY_UNCATEGORIZED_347
+ "db/¥iv©e/mobûed©a/off_p›up/check"
+
+	)
+
+384 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+385 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+387 
+	#VCONFKEY_UNCATEGORIZED_348
+ "db/¥iv©e/mobûed©a/⁄_p›up/check"
+
+	)
+
+389 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+390 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+392 
+	#VCONFKEY_UNCATEGORIZED_352
+ "db/¥iv©e/‹g.tizí.w-home/íabÀd_tut‹ül"
+
+	)
+
+394 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+395 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+397 
+	#VCONFKEY_UNCATEGORIZED_353
+ "db/¥iv©e/‹g.tizí.w-home/loggög"
+
+	)
+
+399 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+400 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+402 
+	#VCONFKEY_UNCATEGORIZED_384
+ "db/wms/home_bg_gÆÀry"
+
+	)
+
+404 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+405 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+407 
+	#VCONFKEY_UNCATEGORIZED_385
+ "db/wms/home_bg_mode"
+
+	)
+
+409 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+410 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+412 
+	#VCONFKEY_UNCATEGORIZED_386
+ "db/wms/home_bg_∑Àâe"
+
+	)
+
+414 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+415 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+417 
+	#VCONFKEY_UNCATEGORIZED_387
+ "db/wms/home_bg_wÆÕ≠î"
+
+	)
+
+419 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+420 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+422 
+	#VCONFKEY_UNCATEGORIZED_390
+ "mem‹y/¥iv©e/‹g.tizí.w-home/auto_„ed"
+
+	)
+
+424 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+425 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+427 
+	#VCONFKEY_UNCATEGORIZED_391
+ "mem‹y/¥iv©e/‹g.tizí.w-home/£nsôive_move"
+
+	)
+
+429 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+430 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+432 
+	#VCONFKEY_UNCATEGORIZED_392
+ "mem‹y/¥iv©e/‹g.tizí.w-home/tut‹ül"
+
+	)
+
+434 
+	#VCONFKEY_UNCATEGORIZED_397
+ "db/£âög/ac˚ssibûôy/©•i"
+
+	)
+
+	@/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-usb-keys.h
+
+22 #i‚de‡
+__VCONF_INTERNAL_USB_KEYS_H__
+
+
+23 
+	#__VCONF_INTERNAL_USB_KEYS_H__
+
+
+	)
+
+24 
+	#VCONFKEY_USB_CUR_MODE
+ "mem‹y/usb/cur_mode"
+
+	)
+
+26 
+	eﬁd_usb_mode
+ {
+
+27 
+	mSET_USB_MTP
+ = 1,
+
+28 
+	mSET_USB_MTP_SDB
+ = 2,
+
+29 
+	mSET_USB_MTP_SDB_DIAG
+ = 3
+
+32 
+	eusb_mode
+ {
+
+33 
+	mSET_USB_NONE
+ = 0,
+
+34 
+	mSET_USB_DEFAULT
+ = 1,
+
+35 
+	mSET_USB_SDB
+ = 2,
+
+36 
+	mSET_USB_SDB_DIAG
+ = 3,
+
+37 
+	mSET_USB_RNDIS_TETHERING
+ = 4,
+
+38 
+	mSET_USB_RNDIS
+ = 5,
+
+39 
+	mSET_USB_RNDIS_SDB
+ = 6,
+
+40 
+	mSET_USB_DIAG_SDB
+ = 7,
+
+41 
+	mSET_USB_RNDIS_DIAG
+ = 8,
+
+42 
+	mSET_USB_ACCESSORY
+ = 9
+
+45 
+	#VCONFKEY_USB_SEL_MODE
+ "db/usb/£l_mode"
+
+	)
+
+	@/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-webkit-keys.h
+
+22 #i‚de‡
+__VCONF_INTERNAL_WEBKIT_KEYS_H__
+
+
+23 
+	#__VCONF_INTERNAL_WEBKIT_KEYS_H__
+
+
+	)
+
+24 
+	#VCONFKEY_WEBKIT_USER_AGENT
+ "db/webkô/u£r_agít"
+
+	)
+
+	@/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-wifi-keys.h
+
+22 #i‚de‡
+__VCONF_INTERNAL_WIFI_KEYS_H__
+
+
+23 
+	#__VCONF_INTERNAL_WIFI_KEYS_H__
+
+
+	)
+
+24 
+	#VCONFKEY_WIFI_STATE
+ "mem‹y/wifi/°©e"
+
+	)
+
+27 
+	mVCONFKEY_WIFI_OFF
+ = 0x00,
+
+28 
+	mVCONFKEY_WIFI_UNCONNECTED
+,
+
+29 
+	mVCONFKEY_WIFI_CONNECTED
+,
+
+30 
+	mVCONFKEY_WIFI_TRANSFER
+,
+
+31 
+	mVCONFKEY_WIFI_STATE_MAX
+
+
+34 
+	#VCONFKEY_WIFI_TRANSFER_STATE
+ "mem‹y/wifi/å™s„r_°©e"
+
+	)
+
+37 
+	mVCONFKEY_WIFI_TRANSFER_STATE_NONE
+ = 0x00,
+
+38 
+	mVCONFKEY_WIFI_TRANSFER_STATE_TX
+,
+
+39 
+	mVCONFKEY_WIFI_TRANSFER_STATE_RX
+,
+
+40 
+	mVCONFKEY_WIFI_TRANSFER_STATE_TXRX
+
+
+43 
+	#VCONFKEY_WIFI_STRENGTH
+ "mem‹y/wifi/°ªngth"
+
+	)
+
+46 
+	mVCONFKEY_WIFI_STRENGTH_MIN
+ = 0,
+
+47 
+	mVCONFKEY_WIFI_STRENGTH_MAX
+ = 4
+
+50 
+	#VCONFKEY_WIFI_QS_EXIT
+ "mem‹y/wifi/wifi_qs_exô"
+
+	)
+
+53 
+	mVCONFKEY_WIFI_QS_CANCEL
+ = 0x00,
+
+54 
+	mVCONFKEY_WIFI_QS_WIFI_CONNECTED
+,
+
+55 
+	mVCONFKEY_WIFI_QS_3G
+
+
+58 
+	#VCONFKEY_WIFI_ENABLE_QS
+ "db/wifi/íabÀ_quick_°¨t"
+
+	)
+
+61 
+	mVCONFKEY_WIFI_QS_DISABLE
+ = 0x00,
+
+62 
+	mVCONFKEY_WIFI_QS_ENABLE
+ = 0x01
+
+65 
+	#VCONFKEY_WIFI_CONNECTED_AP_NAME
+ "mem‹y/wifi/c⁄√˘ed_≠_«me"
+
+	)
+
+67 
+	#VCONFKEY_WIFI_UG_RUN_STATE
+ "mem‹y/wifi/ug_run_°©e"
+
+	)
+
+70 
+	mVCONFKEY_WIFI_UG_RUN_STATE_NUL
+ = 0x00,
+
+71 
+	mVCONFKEY_WIFI_UG_RUN_STATE_ON_FOREGROUND
+,
+
+72 
+	mVCONFKEY_WIFI_UG_RUN_STATE_ON_BACKGROUND
+,
+
+73 
+	mVCONFKEY_WIFI_UG_RUN_STATE_OFF
+,
+
+74 
+	mVCONFKEY_WIFI_UG_RUN_STATE_MAX
+
+
+77 
+	#VCONFKEY_WIFI_BSSID_ADDRESS
+ "db/wifi/bssid_addªss"
+
+	)
+
+79 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+80 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+82 
+	#VCONFKEY_WIFI_DIRECT_TRANSFER_STATE
+ "mem‹y/wifi_dúe˘/å™s„r_°©e"
+
+	)
+
+85 
+	mVCONFKEY_WIFI_DIRECT_TRANSFER_START
+ = 0,
+
+86 
+	mVCONFKEY_WIFI_DIRECT_TRANSFER_FAIL
+,
+
+87 
+	mVCONFKEY_WIFI_DIRECT_TRANSFER_FINISH
+
+
+90 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+91 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+93 
+	#VCONFKEY_WIFI_DIRECT_SENDING_STATE
+ "mem‹y/wifi_dúe˘/sh¨e/£ndög_°©e"
+
+	)
+
+96 
+	mVCONFKEY_WIFI_DIRECT_SENDING_IDLE
+ = 0,
+
+97 
+	mVCONFKEY_WIFI_DIRECT_SENDING_IN_PROGRESS
+
+
+100 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+101 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+103 
+	#VCONFKEY_WIFI_DIRECT_RECEIVING_STATE
+ "mem‹y/wifi_dúe˘/sh¨e/ª˚ivög_°©e"
+
+	)
+
+106 
+	mVCONFKEY_WIFI_DIRECT_RECEIVING_IDLE
+ = 0,
+
+107 
+	mVCONFKEY_WIFI_DIRECT_RECEIVING_IN_PROGRESS
+
+
+110 
+	#VCONFKEY_WIFI_DIRECT_DHCP_IP_LEASE
+ "mem‹y/¥iv©e/wifi_dúe˘_m™agî/dh˝_ù_Àa£"
+
+	)
+
+112 
+	#VCONFKEY_WIFI_DIRECT_DHCPC_SERVER_IP
+ "mem‹y/¥iv©e/wifi_dúe˘_m™agî/dh˝c_£rvî_ù"
+
+	)
+
+114 
+	#VCONFKEY_WIFI_DIRECT_P2P_GATEWAY
+ "mem‹y/¥iv©e/wifi_dúe˘_m™agî/p2p_g©eway"
+
+	)
+
+116 
+	#VCONFKEY_WIFI_DIRECT_P2P_IFNAME
+ "mem‹y/¥iv©e/wifi_dúe˘_m™agî/p2p_i‚ame"
+
+	)
+
+118 
+	#VCONFKEY_WIFI_DIRECT_P2P_LOCAL_IP
+ "mem‹y/¥iv©e/wifi_dúe˘_m™agî/p2p_loˇl_ù"
+
+	)
+
+120 
+	#VCONFKEY_WIFI_DIRECT_P2P_SUBNET_MASK
+ "mem‹y/¥iv©e/wifi_dúe˘_m™agî/p2p_sub√t_mask"
+
+	)
+
+122 
+	#VCONFKEY_WIFI_DIRECT_STATE
+ "mem‹y/wifi_dúe˘/°©e"
+
+	)
+
+124 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+125 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+127 
+	#VCONFKEY_ALLSHARE_CAST_STATE
+ "mem‹y/Ælsh¨e_ˇ°/°©e"
+
+	)
+
+130 
+	mVCONFKEY_ALLSHARECAST_NOT_CONNECTED
+ = 0,
+
+131 
+	mVCONFKEY_ALLSHARECAST_CONNECTED
+
+
+134 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+135 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+137 
+	#VCONFKEY_SCREEN_MIRRORING_STATE
+ "mem‹y/s¸ìn_múr‹ög/°©us"
+
+	)
+
+140 
+	mVCONFKEY_SCREEN_MIRRORING_DEACTIVATED
+ = 0,
+
+141 
+	mVCONFKEY_SCREEN_MIRRORING_ACTIVATED
+,
+
+142 
+	mVCONFKEY_SCREEN_MIRRORING_CONNECTED
+
+
+	@/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-wms-keys.h
+
+22 #i‚de‡
+__VCONF_INTERNAL_WMS_KEYS_H__
+
+
+23 
+	#__VCONF_INTERNAL_WMS_KEYS_H__
+
+
+	)
+
+24 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+25 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+27 
+	#VCONFKEY_WMS_FAVORITE_ORDER
+ "mem‹y/wms/Áv‹ôes_‹dî"
+
+	)
+
+29 #ifde‡
+USE_NONCREATED_VCONF_KEY
+
+
+30 #w¨nög 
+usög
+ 
+n⁄
+-
+¸óãd
+ 
+vc⁄f
+-
+key
+ ----- 
+∂ó£
+ 
+make
+ 
+suª
+ 
+this
+ key 
+is
+ 
+ö
+ 
+u£
+ 
+a˘uÆly
+
+
+32 
+	#VCONFKEY_WMS_APPS_ORDER
+ "mem‹y/wms/≠ps_‹dî"
+
+	)
+
+34 
+	#VCONFKEY_WMS_WAKEUP_BY_GESTURE_SETTING
+ "db/wms/wakeup_by_ge°uª_£âög"
+
+	)
+
+36 
+	#VCONFKEY_WMS_CLOCKS_SET_IDLE
+ "db/wms/˛ocks_£t_idÀ"
+
+	)
+
+38 
+	#VCONFKEY_WMS_POWERKEY_DOUBLE_PRESSING
+ "db/wms/powîkey_doubÀ_¥essög"
+
+	)
+
+40 
+	#VCONFKEY_WMS_SMART_RELAY
+ "db/wms/sm¨t_ªœy"
+
+	)
+
+42 
+	#VCONFKEY_WMS_WMANAGER_CONNECTED
+ "mem‹y/wms/wm™agî_c⁄√˘ed"
+
+	)
+
+	@
+1
+.
+1
+/usr/include
+38
+4075
+/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-account-keys.h
+/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-alarm-keys.h
+/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-boot-animation-keys.h
+/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-browser-keys.h
+/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-bt-keys.h
+/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-call-keys.h
+/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-camera-keys.h
+/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-ciss-keys.h
+/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-contacts-svc-keys.h
+/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-desktop-mode-keys.h
+/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-dnet-keys.h
+/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-dr-keys.h
+/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-email-keys.h
+/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-filemanager-keys.h
+/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-hotfix.h
+/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-idle-lock-keys.h
+/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-isf-keys.h
+/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-keys.h
+/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-livebox-keys.h
+/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-location-keys.h
+/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-lockscreen-keys.h
+/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-miracast-keys.h
+/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-mobile-hotspot-keys.h
+/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-msg-keys.h
+/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-myfile-keys.h
+/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-nfc-keys.h
+/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-pm-keys.h
+/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-setting-keys.h
+/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-sound-keys.h
+/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-starter-keys.h
+/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-sysman-keys.h
+/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-system-keys.h
+/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-telephony-keys.h
+/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-uncategorized-keys.h
+/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-usb-keys.h
+/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-webkit-keys.h
+/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-wifi-keys.h
+/home/mjpark/scp-image/release/SDK_Main/tizen_2.4/vconf-internal-keys/include/vconf-internal-wms-keys.h

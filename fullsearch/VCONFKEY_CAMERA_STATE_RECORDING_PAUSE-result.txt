@@ -1,0 +1,3 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-camera-keys.h <global> 31 VCONFKEY_CAMERA_STATE_RECORDING_PAUSE
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c _mmcamcorder_pause 1722 vconf_set_int(VCONFKEY_CAMERA_STATE, VCONFKEY_CAMERA_STATE_RECORDING_PAUSE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c _mmcamcorder_pause 1725 vconf_camera_state, VCONFKEY_CAMERA_STATE_RECORDING_PAUSE);

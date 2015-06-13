@@ -1,0 +1,6 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-dnet-keys.h <global> 28 VCONFKEY_NETWORK_CELLULAR,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/connection/src/connection.c __connection_convert_net_state 29 case VCONFKEY_NETWORK_CELLULAR:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/network-state.c __netconfig_update_default_connection_info 606 netconfig_set_vconf_int(VCONFKEY_NETWORK_STATUS, VCONFKEY_NETWORK_CELLULAR);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/video-player/playview/src/vp-play-view.c _vp_play_view_net_status_changed_cb 1577 } else if (net_status == VCONFKEY_NETWORK_CELLULAR) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/video-player/src/common/mp-video-streaming-ctrl.c mp_streaming_ctrl_network_status_cb 165 case VCONFKEY_NETWORK_CELLULAR:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/video-player/src/common/mp-video-streaming-ctrl.c mp_streaming_ctrl_get_network_state 430 case VCONFKEY_NETWORK_CELLULAR:

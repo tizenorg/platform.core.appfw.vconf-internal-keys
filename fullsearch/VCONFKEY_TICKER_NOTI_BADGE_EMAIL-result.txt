@@ -1,0 +1,3 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 350 #define VCONFKEY_TICKER_NOTI_BADGE_EMAIL "db/setting/ticker_noti/badge/email"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/email-service/email-daemon/email-daemon-init.c callback_for_VCONFKEY_PRIORITY_BADGE_STATUS 453 if (vconf_get_bool(VCONFKEY_TICKER_NOTI_BADGE_EMAIL, &badge_ticker) != 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/email-service/email-daemon/email-daemon-init.c emdaemon_initialize 588 vconf_notify_key_changed(VCONFKEY_TICKER_NOTI_BADGE_EMAIL, callback_for_VCONFKEY_GLOBAL_BADGE_STATUS, multi_user_name);

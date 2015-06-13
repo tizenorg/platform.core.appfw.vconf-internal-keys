@@ -1,0 +1,3 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 576 #define VCONFKEY_SETAPPL_MOBILE_DATA_POPUP_DONE "db/setting/mobile_data_popup"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c convert_strgkey_to_vconf 239 return VCONFKEY_SETAPPL_MOBILE_DATA_POPUP_DONE;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c convert_vconf_to_strgkey 405 else if (g_str_equal(key, VCONFKEY_SETAPPL_MOBILE_DATA_POPUP_DONE) == TRUE) {

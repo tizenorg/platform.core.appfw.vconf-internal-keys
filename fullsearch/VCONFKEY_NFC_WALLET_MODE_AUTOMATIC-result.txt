@@ -1,0 +1,4 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-nfc-keys.h <global> 53 VCONFKEY_NFC_WALLET_MODE_AUTOMATIC
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-nfc-efl/ug-nfc-setting-efl/src/ug-nfc-setting-secure-storage.c __radio_changed_cb 42 VCONFKEY_NFC_WALLET_MODE_AUTOMATIC)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-nfc-efl/ug-nfc-setting-efl/src/ug-nfc-setting-secure-storage.c __gl_content_get 124 (intval == VCONFKEY_NFC_WALLET_MODE_AUTOMATIC)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-nfc-efl/ug-nfc-setting-efl/src/ug-nfc-setting-secure-storage.c __gl_sel 161 VCONFKEY_NFC_WALLET_MODE_AUTOMATIC)) {

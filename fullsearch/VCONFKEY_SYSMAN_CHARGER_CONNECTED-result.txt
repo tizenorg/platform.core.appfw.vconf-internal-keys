@@ -1,0 +1,10 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-sysman-keys.h <global> 32 VCONFKEY_SYSMAN_CHARGER_CONNECTED
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/battery/power-supply.c check_online 491 old_online = VCONFKEY_SYSMAN_CHARGER_CONNECTED;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/battery/power-supply.c check_online 497 old_online == VCONFKEY_SYSMAN_CHARGER_CONNECTED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/led/torch.c torch_turn_off_led_cb 88 if (status == VCONFKEY_SYSMAN_CHARGER_CONNECTED)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/led/torch.c torch_check_battery_status 112 if (status == VCONFKEY_SYSMAN_CHARGER_CONNECTED)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/runtime-info/src/runtime_info_system.c runtime_info_charger_connected_get_value 265 case VCONFKEY_SYSMAN_CHARGER_CONNECTED:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-security/src/setting-security-encryption.c __update_toolbar_status 80 || (charger_status != VCONFKEY_SYSMAN_CHARGER_CONNECTED)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-security/src/setting-security-encryption.c __add_encryption_content 287 if (charger_status != VCONFKEY_SYSMAN_CHARGER_CONNECTED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-security/src/setting-security-encryption.c __add_encryption_content 334 if (charger_status != VCONFKEY_SYSMAN_CHARGER_CONNECTED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-popup/src/battery/lowbattery-mobile.c charger_status_changed 63 if (status != VCONFKEY_SYSMAN_CHARGER_CONNECTED)

@@ -1,0 +1,5 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 64 #define VCONFKEY_SETAPPL_EMERGENCY_LCD_BRIGHTNESS_INT "db/setting/lcd_brightness_emergency"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/powersaver/powersaver-mobile.c set_powersaver_limit 159 ret = vconf_get_int(VCONFKEY_SETAPPL_EMERGENCY_LCD_BRIGHTNESS_INT,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/powersaver/powersaver-mobile.c set_powersaver_limit 165 VCONFKEY_SETAPPL_EMERGENCY_LCD_BRIGHTNESS_INT,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/powersaver/powersaver-mobile.c powersaver_exit 222 VCONFKEY_SETAPPL_EMERGENCY_LCD_BRIGHTNESS_INT,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/powersaver/powersaver-wearable.c set_powersaver_mode 48 ret = vconf_get_int(VCONFKEY_SETAPPL_EMERGENCY_LCD_BRIGHTNESS_INT,

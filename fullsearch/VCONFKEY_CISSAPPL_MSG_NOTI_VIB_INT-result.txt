@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-ciss-keys.h <global> 122 #define VCONFKEY_CISSAPPL_MSG_NOTI_VIB_INT "db/ciss/msg_noti_vib"

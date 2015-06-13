@@ -1,0 +1,4 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-sound-keys.h <global> 44 #define VCONFKEY_SOUND_PRIMARY_VOLUME_TYPE "memory/private/sound/PrimaryVolumetype"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-sound/mm_sound.c mm_sound_volume_get_current_playing_type 407 if(vconf_get_int(VCONFKEY_SOUND_PRIMARY_VOLUME_TYPE, &voltype)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/pulseaudio/src/modules/module-policy.c __set_primary_volume 2198 if(vconf_set_int(VCONFKEY_SOUND_PRIMARY_VOLUME_TYPE, default_primary_vol) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/pulseaudio/src/modules/module-policy.c pa__init 3733 vconf_set_int (VCONFKEY_SOUND_PRIMARY_VOLUME_TYPE, -1);

@@ -1,0 +1,5 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-agent/include/mobileap_wifi.h <global> 23 #define VCONFKEY_MOBILE_HOTSPOT_SSID "memory/private/mobileap-agent/ssid"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tethering/include/tethering_private.h <global> 214 #define VCONFKEY_MOBILE_HOTSPOT_SSID "memory/private/mobileap-agent/ssid"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-mobile-hotspot-keys.h <global> 50 #define VCONFKEY_MOBILE_HOTSPOT_SSID "memory/private/mobileap-agent/ssid"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-agent/src/mobileap_wifi.c _enable_wifi_tethering 525 if (vconf_set_str(VCONFKEY_MOBILE_HOTSPOT_SSID,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tethering/src/tethering.c tethering_wifi_get_ssid 2692 if (__get_ssid_from_vconf(VCONFKEY_MOBILE_HOTSPOT_SSID,

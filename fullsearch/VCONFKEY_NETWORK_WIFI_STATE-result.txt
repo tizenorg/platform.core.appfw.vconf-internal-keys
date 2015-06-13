@@ -1,0 +1,11 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-dnet-keys.h <global> 40 #define VCONFKEY_NETWORK_WIFI_STATE "memory/dnet/wifi"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-state.c netconfig_wifi_state_set_service_state 321 netconfig_set_vconf_int(VCONFKEY_NETWORK_WIFI_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-state.c netconfig_wifi_state_set_service_state 335 netconfig_set_vconf_int(VCONFKEY_NETWORK_WIFI_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-state.c netconfig_wifi_update_power_state 574 netconfig_set_vconf_int(VCONFKEY_NETWORK_WIFI_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-state.c netconfig_wifi_update_power_state 600 netconfig_set_vconf_int(VCONFKEY_NETWORK_WIFI_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/video-player/src/common/mp-util.c mp_util_is_connect_wifi 1751 if (!vconf_get_int(VCONFKEY_NETWORK_WIFI_STATE, &ntmpGetWifiState)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/video-player/src/common/mp-video-streaming-ctrl.c mp_streaming_ctrl_wifi_state_cb 232 if (!strcmp(szkeyname, VCONFKEY_NETWORK_WIFI_STATE)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/video-player/src/common/mp-video-streaming-ctrl.c mp_streaming_ctrl_set_notify_wifi_state 380 nRet = vconf_notify_key_changed(VCONFKEY_NETWORK_WIFI_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/video-player/src/common/mp-video-streaming-ctrl.c mp_streaming_ctrl_get_wifi_state 459 if (!vconf_get_int(VCONFKEY_NETWORK_WIFI_STATE, &ntmpGetWifiState)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/video-player/src/common/mp-video-streaming-ctrl.c mp_streaming_ctrl_get_wifi_direct_state 496 if (!vconf_get_int(VCONFKEY_NETWORK_WIFI_STATE, &ntmpGetWifiState)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/web-provider/src/Daemon/BoxDaemonImpl.cpp create 64 if (vconf_notify_key_changed(VCONFKEY_NETWORK_WIFI_STATE, requestUpdateAppBoxCallback, this) != 0) {

@@ -1,0 +1,10 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-call-keys.h <global> 32 VCONFKEY_CALL_VOICE_ACTIVE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/voice-call-core.c __voicecall_core_handle_normal_end 725 _vc_core_util_set_call_status(VCONFKEY_CALL_VOICE_ACTIVE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/voice-call-core.c __voicecall_core_handle_rejected_call_end 755 _vc_core_util_set_call_status(VCONFKEY_CALL_VOICE_ACTIVE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/voice-call-core.c __voicecall_core_handle_outgoingcall_end 808 _vc_core_util_set_call_status(VCONFKEY_CALL_VOICE_ACTIVE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/voice-call-core.c __voicecall_core_handle_incoming_call_end 836 _vc_core_util_set_call_status(VCONFKEY_CALL_VOICE_ACTIVE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/voice-call-core.c voicecall_core_cb 1185 _vc_core_util_set_call_status(VCONFKEY_CALL_VOICE_ACTIVE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/voice-call-core.c voicecall_core_cb 1373 _vc_core_util_set_call_status(VCONFKEY_CALL_VOICE_ACTIVE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/processing/call.c show_call_icon 162 case VCONFKEY_CALL_VOICE_ACTIVE:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/processing/call.c indicator_call_change_cb 203 case VCONFKEY_CALL_VOICE_ACTIVE:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/wearable/hw_key.c _powerkey_timer_cb 109 if (VCONFKEY_CALL_VOICE_ACTIVE == status_passive_get()->call_state) {

@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-sysman-keys.h <global> 185 #define VCONFKEY_SYSMAN_MMC_FORMAT_PROGRESS "memory/sysman/mmc_format_progress"

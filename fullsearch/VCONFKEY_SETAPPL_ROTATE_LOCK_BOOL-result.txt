@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 393 #define VCONFKEY_SETAPPL_ROTATE_LOCK_BOOL "db/setting/rotate_lock"

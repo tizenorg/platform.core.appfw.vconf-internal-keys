@@ -1,0 +1,9 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-wifi-keys.h <global> 67 #define VCONFKEY_WIFI_UG_RUN_STATE "memory/wifi/ug_run_state"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/utils/util.c __netconfig_pop_device_picker 209 vconf_get_int(VCONFKEY_WIFI_UG_RUN_STATE, &wifi_ug_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/utils/util.c netconfig_wifi_device_picker_service_start 277 vconf_get_int(VCONFKEY_WIFI_UG_RUN_STATE, &wifi_ug_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-state.c __netconfig_wifi_check_network_notification 668 vconf_get_int(VCONFKEY_WIFI_UG_RUN_STATE, &ug_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-efl/sources/ui-gadget/wifi-efl-UG.c on_create 194 common_util_set_system_registry(VCONFKEY_WIFI_UG_RUN_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-efl/sources/ui-gadget/wifi-efl-UG.c on_pause 320 common_util_set_system_registry(VCONFKEY_WIFI_UG_RUN_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-efl/sources/ui-gadget/wifi-efl-UG.c on_resume 334 common_util_set_system_registry(VCONFKEY_WIFI_UG_RUN_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-efl/sources/ui-gadget/wifi-efl-UG.c on_destroy 355 common_util_set_system_registry(VCONFKEY_WIFI_UG_RUN_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-efl/sources/ui-gadget/wifi-wlan-callbacks.c wlan_engine_callback 139 vconf_get_int(VCONFKEY_WIFI_UG_RUN_STATE, &ug_state);

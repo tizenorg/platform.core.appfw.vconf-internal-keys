@@ -1,0 +1,7 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-wifi-keys.h <global> 62 VCONFKEY_WIFI_QS_ENABLE = 0x01
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-state.c __netconfig_wifi_check_network_notification 663 if (qs_enable != VCONFKEY_WIFI_QS_ENABLE) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-settings/src/system_setting_platform.c system_setting_get_network_wifi_notification 1957 bret = (vconf_value == VCONFKEY_WIFI_QS_ENABLE) ? true : false;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-efl/sources/ui-gadget/viewers-layout/view_advanced.c _gl_changed_network_noti 328 value = VCONFKEY_WIFI_QS_ENABLE;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-efl/sources/ui-gadget/viewers-layout/view_advanced.c _gl_changed_network_noti 333 if (value == VCONFKEY_WIFI_QS_ENABLE) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-efl/sources/ui-gadget/viewers-layout/view_advanced.c _gl_changed_network_noti 336 value = VCONFKEY_WIFI_QS_ENABLE;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-efl/sources/ui-gadget/wifi-efl-UG.c setting_plugin_reset 607 VCONFKEY_WIFI_QS_ENABLE);

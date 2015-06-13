@@ -1,0 +1,17 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-telephony-keys.h <global> 159 #define VCONFKEY_TELEPHONY_TAPI_STATE "memory/telephony/tapi_state"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/contacts-service/server/ctsvc_server_sim.c __ctsvc_server_telephony_ready_cb 936 vconf_get_bool(VCONFKEY_TELEPHONY_TAPI_STATE, &bReady);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/contacts-service/server/ctsvc_server_sim.c __ctsvc_server_telephony_ready_cb 944 vconf_ignore_key_changed(VCONFKEY_TELEPHONY_TAPI_STATE, __ctsvc_server_telephony_ready_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/contacts-service/server/ctsvc_server_sim.c ctsvc_server_sim_init 964 vconf_get_bool(VCONFKEY_TELEPHONY_TAPI_STATE, &bReady);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/contacts-service/server/ctsvc_server_sim.c ctsvc_server_sim_init 968 vconf_notify_key_changed(VCONFKEY_TELEPHONY_TAPI_STATE, __ctsvc_server_telephony_ready_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/contacts-service/server/ctsvc_server_sim.c ctsvc_server_sim_final 993 vconf_ignore_key_changed(VCONFKEY_TELEPHONY_TAPI_STATE, __ctsvc_server_telephony_ready_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-power.c __netconfig_tapi_state_changed_cb 808 vconf_get_int(VCONFKEY_TELEPHONY_TAPI_STATE, &tapi_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-power.c __netconfig_tapi_state_changed_cb 828 vconf_ignore_key_changed(VCONFKEY_TELEPHONY_TAPI_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-power.c netconfig_wifi_power_initialize 844 vconf_get_int(VCONFKEY_TELEPHONY_TAPI_STATE, &tapi_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-power.c netconfig_wifi_power_initialize 847 vconf_notify_key_changed(VCONFKEY_TELEPHONY_TAPI_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c convert_strgkey_to_vconf 161 return VCONFKEY_TELEPHONY_TAPI_STATE;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c convert_vconf_to_strgkey 296 else if (g_str_equal(key, VCONFKEY_TELEPHONY_TAPI_STATE) == TRUE) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c on_hook_modem_power 1120 vconf_set_int(VCONFKEY_TELEPHONY_TAPI_STATE, VCONFKEY_TELEPHONY_TAPI_STATE_READY);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c on_hook_bootup_complete 1138 vconf_set_int(VCONFKEY_TELEPHONY_TAPI_STATE, VCONFKEY_TELEPHONY_TAPI_STATE_READY);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c __telephony_ready_change_cb 1185 vconf_set_int(VCONFKEY_TELEPHONY_TAPI_STATE, VCONFKEY_TELEPHONY_TAPI_STATE_READY);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c __telephony_ready_change_cb 1187 vconf_set_int(VCONFKEY_TELEPHONY_TAPI_STATE, VCONFKEY_TELEPHONY_TAPI_STATE_NONE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c on_init 1209 vconf_set_int(VCONFKEY_TELEPHONY_TAPI_STATE, VCONFKEY_TELEPHONY_TAPI_STATE_NONE);

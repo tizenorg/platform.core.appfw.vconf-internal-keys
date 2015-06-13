@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-wifi-keys.h <global> 110 #define VCONFKEY_WIFI_DIRECT_DHCP_IP_LEASE "memory/private/wifi_direct_manager/dhcp_ip_lease"

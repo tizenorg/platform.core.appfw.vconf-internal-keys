@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-uncategorized-keys.h <global> 442 #define VCONFKEY_UNCATEGORIZED_391 "memory/private/org.tizen.w-home/sensitive_move"

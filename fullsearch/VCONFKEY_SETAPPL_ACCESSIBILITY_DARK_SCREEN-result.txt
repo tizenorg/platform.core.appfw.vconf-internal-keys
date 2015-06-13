@@ -1,0 +1,3 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 609 #define VCONFKEY_SETAPPL_ACCESSIBILITY_DARK_SCREEN "db/setting/accessibility/dark_screen"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/e17-extra-modules/accessibility-wearable/src/e_mod_main.c e_modapi_init 130 vconf_notify_key_changed(VCONFKEY_SETAPPL_ACCESSIBILITY_DARK_SCREEN, _e_accessibility_vconf_darkscreen_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/e17-mod-tizen-accessibility-wearable/src/e_mod_main.c e_modapi_init 130 vconf_notify_key_changed(VCONFKEY_SETAPPL_ACCESSIBILITY_DARK_SCREEN, _e_accessibility_vconf_darkscreen_cb, NULL);

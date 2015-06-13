@@ -3,7 +3,7 @@
  *
  * Copyright (c) 2000 - 2011 Samsung Electronics Co., Ltd. All rights reserved.
  *
- * Contact: Hakjoo Ko <hakjoo.ko@samsung.com>
+ * Contact: Hakjoo Ko <email at samsung.com>
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -21,36 +21,11 @@
 
 #ifndef __VCONF_INTERNAL_DR_KEYS_H__
 #define __VCONF_INTERNAL_DR_KEYS_H__
+#define VCONFKEY_DR_OSP_SERIAL_OPEN_INT  "memory/data_router/osp_serial_open"
 
-/**
- * This file defines keys and values.
- *
- * @file        vconf-internal-dr-keys.h
- * @defgroup    vconf_internal_dr_key Definitions of internal shared Keys for Data Router
- * @ingroup     vconf_internal_key
- * @author      injun.yang@samsung.com
- * @version     0.1
- * @brief       This file has the definitions of shared keys for Data Router \n
- */
+enum {
+	VCONFKEY_DR_OSP_SERIAL_CLOSE = 0,
+		VCONFKEY_DR_OSP_SERIAL_OPEN = 1
+};
 
-/* ========================== Data Router Keys & Values ============================ */
-/**
- * @addtogroup vconf_internal_dr_key
- * @{
- * @brief Data Router Keys & Values\n
- *        Maintainer : injun.yang@samsung.com
- */
-
-#define VCONF_DATAROUTER_PREFIX "memory/data_router"
-
-/**
- * @brief The hash value for Kies authentication
- */
-#define VCONFKEY_DR_AUTH_STATUS_CHECK_INT	VCONF_DATAROUTER_PREFIX"/auth_status"
-
-/**
- * @}
- */
-
-#endif	/* __VCONF_INTERNAL_DR_KEYS_H__ */
-
+#endif /*   __VCONF_INTERNAL_DR_KEYS_H__    */

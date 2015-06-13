@@ -1,0 +1,5 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 147 #define VCONFKEY_SETAPPL_USB_IN_MODE_CHANGE "memory/setting/usb_in_mode_change"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-connectivity/src/setting-connectivity-usb.c setting_connectivity_usb_create 617 vconf_ret = vconf_notify_key_changed(VCONFKEY_SETAPPL_USB_IN_MODE_CHANGE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-connectivity/src/setting-connectivity-usb.c setting_connectivity_usb_create 625 vconf_ret = vconf_get_int(VCONFKEY_SETAPPL_USB_IN_MODE_CHANGE, &val);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-connectivity/src/setting-connectivity-usb.c in_mode_change_vconf_cb 656 ret = vconf_get_int(VCONFKEY_SETAPPL_USB_IN_MODE_CHANGE, &in_mode_change);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-connectivity/src/setting-connectivity-usb.c setting_connectivity_usb_destroy 745 vconf_ret = vconf_ignore_key_changed(VCONFKEY_SETAPPL_USB_IN_MODE_CHANGE, in_mode_change_vconf_cb);

@@ -1,0 +1,6 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-sysman-keys.h <global> 79 VCONFKEY_SYSMAN_EARJACK_REMOVED = 0,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-ui/src/callui-common.c _callui_common_is_earjack_connected 119 if (earjack_status == VCONFKEY_SYSMAN_EARJACK_REMOVED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/voice-call-device.c _voicecall_dvc_get_earjack_status 98 if (earjack_status == VCONFKEY_SYSMAN_EARJACK_REMOVED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/voice-call-device.c _voicecall_dvc_get_earjack_connected 116 if (earjack_status == VCONFKEY_SYSMAN_EARJACK_REMOVED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/ui/src/vcui-application.c _vcui_is_earjack_conected 2185 if (status != VCONFKEY_SYSMAN_EARJACK_REMOVED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-sound/common/mm_sound_utils.c _mm_sound_get_earjack_type 320 *type = (earjack_status >= 0)? earjack_status : VCONFKEY_SYSMAN_EARJACK_REMOVED;

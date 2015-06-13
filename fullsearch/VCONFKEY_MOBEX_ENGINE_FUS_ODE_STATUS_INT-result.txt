@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-hotfix.h <global> 194 #define VCONFKEY_MOBEX_ENGINE_FUS_ODE_STATUS_INT "memory/mobex_engine/fus_ode_status"

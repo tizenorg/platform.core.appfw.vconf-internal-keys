@@ -1,0 +1,4 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-sound-keys.h <global> 46 #define VCONFKEY_SOUND_PRIMARY_VOLUME_TYPE_FORCE "memory/private/sound/PrimaryVolumetypeForce"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-sound/mm_sound.c mm_sound_volume_primary_type_set 356 if (vconf_set_int(VCONFKEY_SOUND_PRIMARY_VOLUME_TYPE_FORCE, type)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-sound/mm_sound.c mm_sound_volume_primary_type_clear 372 if (vconf_set_int(VCONFKEY_SOUND_PRIMARY_VOLUME_TYPE_FORCE, -1)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-sound/mm_sound.c mm_sound_volume_get_current_playing_type 396 if (vconf_get_int(VCONFKEY_SOUND_PRIMARY_VOLUME_TYPE_FORCE, &fvoltype)) {

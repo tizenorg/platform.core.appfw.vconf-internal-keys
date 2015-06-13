@@ -1,0 +1,7 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/livebox-viewer/dynamicbox_viewer/include/conf.h <global> 29 #if !defined(VCONFKEY_MASTER_CLIENT_ADDR)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/livebox-viewer/dynamicbox_viewer/include/conf.h <global> 30 #define VCONFKEY_MASTER_CLIENT_ADDR "db/data-provider-master/serveraddr"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-livebox-keys.h <global> 26 #define VCONFKEY_MASTER_CLIENT_ADDR "db/data-provider-master/serveraddr"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/widget-viewer/widget_viewer/include/conf.h <global> 29 #if !defined(VCONFKEY_MASTER_CLIENT_ADDR)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/widget-viewer/widget_viewer/include/conf.h <global> 30 #define VCONFKEY_MASTER_CLIENT_ADDR "db/data-provider-master/serveraddr"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/livebox-viewer/dynamicbox_viewer/src/client.c client_init 2213 s_info.client_addr = vconf_get_str(VCONFKEY_MASTER_CLIENT_ADDR);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/widget-viewer/widget_viewer/src/client.c client_init 2214 s_info.client_addr = vconf_get_str(VCONFKEY_MASTER_CLIENT_ADDR);

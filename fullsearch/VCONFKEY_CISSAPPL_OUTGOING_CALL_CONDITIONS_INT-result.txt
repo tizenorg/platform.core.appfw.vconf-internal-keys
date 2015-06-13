@@ -1,0 +1,3 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-hotfix.h <global> 71 #define VCONFKEY_CISSAPPL_OUTGOING_CALL_CONDITIONS_INT "db/ciss/outgoing_call_conditions"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-agent/ag-agent/bluetooth-ag-agent.c __bt_get_outgoing_call_condition 542 VCONFKEY_CISSAPPL_OUTGOING_CALL_CONDITIONS_INT,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-agent/ag-agent/bluetooth-ag-agent.c __bt_get_outgoing_call_condition 546 VCONFKEY_CISSAPPL_OUTGOING_CALL_CONDITIONS_INT);

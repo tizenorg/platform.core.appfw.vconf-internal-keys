@@ -1,0 +1,4 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 96 #define VCONFKEY_SETAPPL_CALL_RINGTONE_DEFAULT_PATH_STR "db/setting/sound/call/ringtone_default_path"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-manager/common/src/callmgr-util.c _callmgr_util_get_ringtone_default_path 266 path = vconf_get_str(VCONFKEY_SETAPPL_CALL_RINGTONE_DEFAULT_PATH_STR);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/voice-call-sound.c __voicecall_snd_start_melody 1368 char *default_ringtone = vconf_get_str(VCONFKEY_SETAPPL_CALL_RINGTONE_DEFAULT_PATH_STR);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-settings/src/system_setting_platform.c system_setting_get_incoming_call_ringtone 108 *value = vconf_get_str(VCONFKEY_SETAPPL_CALL_RINGTONE_DEFAULT_PATH_STR);

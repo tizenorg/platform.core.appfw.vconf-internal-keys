@@ -1,0 +1,11 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-sysman-keys.h <global> 63 VCONFKEY_SYSMAN_USB_DISCONNECTED = 0,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-router/src/dr-main.c _init_dr 69 if (usb_state != VCONFKEY_SYSMAN_USB_DISCONNECTED ) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-router/src/dr-noti-handler.c __usb_status_noti_handler 65 if (usb_state != VCONFKEY_SYSMAN_USB_DISCONNECTED &&
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-router/src/dr-noti-handler.c __usb_status_noti_handler 68 } else if (usb_state == VCONFKEY_SYSMAN_USB_DISCONNECTED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-syspopup/src/ms_util.c _get_usb_state 38 int value = VCONFKEY_SYSMAN_USB_DISCONNECTED;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mtp-responder/src/mtp_event_handler.c __handle_usb_notification 339 mtp_int32 intval = VCONFKEY_SYSMAN_USB_DISCONNECTED;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mtp-responder/src/mtp_event_handler.c __handle_usb_notification 349 if (VCONFKEY_SYSMAN_USB_DISCONNECTED == intval) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mtp-responder/src/util/mtp_util.c _util_get_usb_status 217 if (ret == -1 || state == VCONFKEY_SYSMAN_USB_DISCONNECTED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/runtime-info/src/runtime_info_system.c runtime_info_usb_connected_get_value 222 case VCONFKEY_SYSMAN_USB_DISCONNECTED:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-popup/src/usb/usb-mobile.c usb_state_changed 36 case VCONFKEY_SYSMAN_USB_DISCONNECTED:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-mobile-ap/src/mh_func_onoff.c _get_vconf_usb_state 64 int value = VCONFKEY_SYSMAN_USB_DISCONNECTED;

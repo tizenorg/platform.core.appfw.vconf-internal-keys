@@ -1,0 +1,42 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-telephony-keys.h <global> 94 VCONFKEY_TELEPHONY_SIM_INSERTED,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/browser/src/network-manager.cpp _check_sim_inserted 82 if (sim_status != VCONFKEY_TELEPHONY_SIM_INSERTED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-util.c _cst_check_dual_sim_status 204 if (sim_status == VCONFKEY_TELEPHONY_SIM_INSERTED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-util.c _cst_check_dual_sim_status 210 if (sim_status == VCONFKEY_TELEPHONY_SIM_INSERTED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-util.c _cst_check_sim_status 224 if (sim_status == VCONFKEY_TELEPHONY_SIM_INSERTED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/voice-call-engine.c vcall_engine_get_active_sim_slot_count 322 if ((sim_status == VCONFKEY_TELEPHONY_SIM_INSERTED) && (sim_power_status == 1)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/voice-call-engine.c vcall_engine_get_active_sim_slot_count 337 if ((sim_status == VCONFKEY_TELEPHONY_SIM_INSERTED) && (sim_power_status == 1)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/email-service/email-core/email-network/email-network.c emnetwork_check_network_status 184 if (sim_status != VCONFKEY_TELEPHONY_SIM_INSERTED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/nosim.c indicator_nosim_change_cb 98 if (ret == OK && status != VCONFKEY_TELEPHONY_SIM_INSERTED)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/network/roaming.c indicator_roaming_change_cb 79 if (ret == OK && status != VCONFKEY_TELEPHONY_SIM_INSERTED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/common/msg-ui-common-utility.c msg_common_is_sim_inserted 879 if (sim_slot_status == VCONFKEY_TELEPHONY_SIM_INSERTED)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/common/msg-ui-common-utility.c msg_common_get_active_sim_count 4385 if (sim_status == VCONFKEY_TELEPHONY_SIM_INSERTED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/common/msg-ui-common-utility.c msg_common_get_active_sim_count 4413 if (sim_status == VCONFKEY_TELEPHONY_SIM_INSERTED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/setting/src/main/msg-ui-setting-common-util.c msg_ui_setting_common_get_inserted_sim_count 705 if (sim_status == VCONFKEY_TELEPHONY_SIM_INSERTED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/setting/src/main/msg-ui-setting-common-util.c msg_ui_setting_common_get_inserted_sim_count 721 if (sim_status == VCONFKEY_TELEPHONY_SIM_INSERTED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/message/setting/src/main/msg-ui-setting-common-util.c msg_ui_setting_common_get_sim_power_state 798 if (sim_status == VCONFKEY_TELEPHONY_SIM_INSERTED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-syspopup/src/ms_main.c __handle_precondition 1430 if (_get_sim_state() != VCONFKEY_TELEPHONY_SIM_INSERTED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-syspopup/src/ms_util.c _get_sim_state 58 if (value == VCONFKEY_TELEPHONY_SIM_INSERTED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/msg-service/plugin/sms_plugin/SmsPluginDSHandler.cpp getActiveSimCount 167 if (sim_status == VCONFKEY_TELEPHONY_SIM_INSERTED)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/msg-service/plugin/sms_plugin/SmsPluginDSHandler.cpp getActiveSimCount 174 if (sim_status == VCONFKEY_TELEPHONY_SIM_INSERTED)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/notification/src/notification_noti.c notification_noti_get_count 1486 if (ret_vconf == 0 && status == VCONFKEY_TELEPHONY_SIM_INSERTED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/notification/src/notification_noti.c notification_noti_get_grouping_list 1593 if (status == VCONFKEY_TELEPHONY_SIM_INSERTED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/notification/src/notification_noti.c notification_noti_get_detail_list 1700 if (status == VCONFKEY_TELEPHONY_SIM_INSERTED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/notification/src/notification_noti.c notification_noti_get_detail_list 1712 if (status == VCONFKEY_TELEPHONY_SIM_INSERTED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/settings/modules/mobile_data.c _is_simcard_inserted 187 if ((ret_1 == QP_OK && sim_status_1 == VCONFKEY_TELEPHONY_SIM_INSERTED) ||
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/settings/modules/mobile_data.c _is_simcard_inserted 188 (ret_2 == QP_OK && sim_status_2 == VCONFKEY_TELEPHONY_SIM_INSERTED)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-network/src/setting-network-con.c setting_network_con_item_Gendial_mouse_up_cb 389 case VCONFKEY_TELEPHONY_SIM_INSERTED:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-phone/src/setting-phone.c setting_phone_ug_on_create 555 if (value == VCONFKEY_TELEPHONY_SIM_INSERTED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-security/src/setting-security-main.c setting_security_main_create 148 || (value != VCONFKEY_TELEPHONY_SIM_INSERTED)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-security/src/setting-security-main.c _handle_sim_exception 283 case VCONFKEY_TELEPHONY_SIM_INSERTED:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-security/src/setting-security-sim-settings.c _mouse_up_change_pin 428 case VCONFKEY_TELEPHONY_SIM_INSERTED:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/setting-handler.c setting_main_click_list_network_ug_cb 1243 case VCONFKEY_TELEPHONY_SIM_INSERTED: {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-nitz/src/desc-nitz.c _check_fix_time_zone 213 if (icc_card_exist != VCONFKEY_TELEPHONY_SIM_INSERTED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-nitz/src/desc-nitz.c _check_fix_time_zone 217 if (icc_card2_exist != VCONFKEY_TELEPHONY_SIM_INSERTED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-nitz/src/desc-nitz.c on_vconf_sim_slot_state 466 if (icc_card_exist == VCONFKEY_TELEPHONY_SIM_INSERTED)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-nitz/src/desc-nitz.c on_vconf_sim_slot_state 472 if (icc_card2_exist == VCONFKEY_TELEPHONY_SIM_INSERTED)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c on_hook_sim_init 965 vconf_set_int(VCONFKEY_TELEPHONY_SIM_SLOT, VCONFKEY_TELEPHONY_SIM_INSERTED);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c on_hook_sim_init 968 vconf_set_int(VCONFKEY_TELEPHONY_SIM_SLOT2, VCONFKEY_TELEPHONY_SIM_INSERTED);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-mobile-ap/src/mh_common_utility.c _get_sim_state 539 if (value == VCONFKEY_TELEPHONY_SIM_INSERTED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-mobile-ap/src/mh_func_onoff.c __is_preconditions_handled 209 if (_get_sim_state() != VCONFKEY_TELEPHONY_SIM_INSERTED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-efl/sources/libraries/Common/common_eap_connect.c _create_eap_type_list 584 sim_state != VCONFKEY_TELEPHONY_SIM_INSERTED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-efl/sources/libraries/Common/common_utils.c common_utils_get_sim_state 804 if (value == VCONFKEY_TELEPHONY_SIM_INSERTED) {

@@ -1,0 +1,7 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-wifi-keys.h <global> 71 VCONFKEY_WIFI_UG_RUN_STATE_ON_FOREGROUND,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/utils/util.c __netconfig_pop_device_picker 210 if (wifi_ug_state == VCONFKEY_WIFI_UG_RUN_STATE_ON_FOREGROUND)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/utils/util.c netconfig_wifi_device_picker_service_start 278 if (wifi_ug_state == VCONFKEY_WIFI_UG_RUN_STATE_ON_FOREGROUND)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-state.c __netconfig_wifi_check_network_notification 669 if (ug_state == VCONFKEY_WIFI_UG_RUN_STATE_ON_FOREGROUND) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-efl/sources/ui-gadget/wifi-efl-UG.c on_create 195 VCONFKEY_WIFI_UG_RUN_STATE_ON_FOREGROUND);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-efl/sources/ui-gadget/wifi-efl-UG.c on_resume 335 VCONFKEY_WIFI_UG_RUN_STATE_ON_FOREGROUND);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-efl/sources/ui-gadget/wifi-wlan-callbacks.c wlan_engine_callback 144 if (ug_state == VCONFKEY_WIFI_UG_RUN_STATE_ON_FOREGROUND) {

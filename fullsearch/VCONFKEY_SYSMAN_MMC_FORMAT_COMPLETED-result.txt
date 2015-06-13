@@ -1,0 +1,2 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-sysman-keys.h <global> 131 VCONFKEY_SYSMAN_MMC_FORMAT_COMPLETED = 0,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmedia-thumbnail/server/thumb-server-internal.c _thumb_daemon_vconf_cb 159 if (status == VCONFKEY_SYSMAN_MMC_FORMAT_COMPLETED) {

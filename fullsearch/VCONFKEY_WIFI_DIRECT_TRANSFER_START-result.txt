@@ -1,0 +1,2 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-wifi-keys.h <global> 85 VCONFKEY_WIFI_DIRECT_TRANSFER_START = 0,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-wifi-direct/popup-wifidirect/src/wfd-app-client.c wfd_automatic_deactivated_for_connection_cb 148 if (wfd_transfer_state > VCONFKEY_WIFI_DIRECT_TRANSFER_START) {

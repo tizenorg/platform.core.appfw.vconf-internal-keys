@@ -1,0 +1,23 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/runtime-info/src/runtime_info_system.c <global> 39 static const char *VCONF_USB_CONNECTED = VCONFKEY_SYSMAN_USB_STATUS;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-sysman-keys.h <global> 60 #define VCONFKEY_SYSMAN_USB_STATUS "memory/sysman/usb_status"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-router/src/dr-common.c _get_usb_state 34 if (-1 == vconf_get_int(VCONFKEY_SYSMAN_USB_STATUS, (void *)usb_state)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-router/src/dr-noti-handler.c _register_vconf_notification 104 vconf_notify_key_changed(VCONFKEY_SYSMAN_USB_STATUS, (vconf_callback_fn) __usb_status_noti_handler, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-router/src/dr-noti-handler.c _register_vconf_notification 106 ERR("Error !!! VCONFKEY reg noti  : %s\n", VCONFKEY_SYSMAN_USB_STATUS);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-router/src/dr-noti-handler.c _unregister_vconf_notification 121 vconf_ignore_key_changed(VCONFKEY_SYSMAN_USB_STATUS, (vconf_callback_fn) __usb_status_noti_handler);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/setting.c get_usb_status 121 return vconf_get_int(VCONFKEY_SYSMAN_USB_STATUS, val);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/usb/usb-client.c update_usb_state 149 ret = vconf_set_int(VCONFKEY_SYSMAN_USB_STATUS, state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/usb/usb-client.c get_current_usb_logical_state 199 if (vconf_get_int(VCONFKEY_SYSMAN_USB_STATUS, &value) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-syspopup/src/ms_util.c _get_usb_state 40 if (vconf_get_int(VCONFKEY_SYSMAN_USB_STATUS, &value) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-syspopup/src/ms_util.c _get_usb_state 45 DBG("%s : %d\n", VCONFKEY_SYSMAN_USB_STATUS, value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mtp-responder/src/mtp_event_handler.c _eh_register_notification_callbacks 65 ret = vconf_notify_key_changed(VCONFKEY_SYSMAN_USB_STATUS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mtp-responder/src/mtp_event_handler.c _eh_register_notification_callbacks 68 ERR("vconf_notify_key_changed(%s) Fail", VCONFKEY_SYSMAN_USB_STATUS);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mtp-responder/src/mtp_event_handler.c _eh_deregister_notification_callbacks 398 vconf_ignore_key_changed(VCONFKEY_SYSMAN_USB_STATUS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mtp-responder/src/util/mtp_util.c _util_get_usb_status 216 ret = vconf_get_int(VCONFKEY_SYSMAN_USB_STATUS, &state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-popup/src/usb/usb-mobile.c usb_state_changed 32 if (vconf_get_int(VCONFKEY_SYSMAN_USB_STATUS, &state) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-popup/src/usb/usb-mobile.c usb_state_changed 41 VCONFKEY_SYSMAN_USB_STATUS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-popup/src/usb/usb-mobile.c usb_launch 70 VCONFKEY_SYSMAN_USB_STATUS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-popup/src/usb/usb-mobile.c usb_terminate 82 VCONFKEY_SYSMAN_USB_STATUS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-mobile-ap/src/mh_func_onoff.c _get_vconf_usb_state 66 if (vconf_get_int(VCONFKEY_SYSMAN_USB_STATUS, &value) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-mobile-ap/src/mh_func_onoff.c _get_vconf_usb_state 70 DBG("%s : %d\n", VCONFKEY_SYSMAN_USB_STATUS, value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-mobile-ap/src/mh_main_ug.c __set_callbacks 104 vconf_notify_key_changed(VCONFKEY_SYSMAN_USB_STATUS,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-mobile-ap/src/mh_main_ug.c __unset_callbacks 162 vconf_ignore_key_changed(VCONFKEY_SYSMAN_USB_STATUS, _handle_usb_status_change);

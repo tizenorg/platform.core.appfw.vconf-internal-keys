@@ -1,0 +1,11 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-telephony-keys.h <global> 205 #define VCONFKEY_TELEPHONY_NITZ_EVENT_GMT "memory/telephony/nitz_event_gmt"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/calendar-service/server/cal_server_alarm.c _cal_server_alarm_set_timechange 925 vconf_notify_key_changed(VCONFKEY_TELEPHONY_NITZ_EVENT_GMT,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-time/src/setting-time-main.c __update_time_via_sim_card 284 ret += vconf_get_int(VCONFKEY_TELEPHONY_NITZ_EVENT_GMT, &t_offset);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-time/src/setting-time-main.c __sim_time_info_chg_cb 418 || !safeStrCmp(vconf_name, VCONFKEY_TELEPHONY_NITZ_EVENT_GMT)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-time/src/setting-time-main.c __sim_time_info_chg_cb 429 ret += vconf_get_int(VCONFKEY_TELEPHONY_NITZ_EVENT_GMT, &t_offset);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-time/src/setting-time-main.c __setting_time_check_enable_automatic_update 468 ret += vconf_get_int(VCONFKEY_TELEPHONY_NITZ_EVENT_GMT, &t_offset);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-time/src/setting-time-main.c setting_time_main_create 758 ret += vconf_get_int(VCONFKEY_TELEPHONY_NITZ_EVENT_GMT, &t_offset);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-time/src/setting-time-main.c setting_time_main_create 976 vconf_notify_key_changed(VCONFKEY_TELEPHONY_NITZ_EVENT_GMT, __sim_time_info_chg_cb, ad);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-time/src/setting-time-main.c setting_time_main_destroy 1043 vconf_ignore_key_changed(VCONFKEY_TELEPHONY_NITZ_EVENT_GMT, __sim_time_info_chg_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-nitz/src/time_update.c nitz_set_time 75 vconf_set_int (VCONFKEY_TELEPHONY_NITZ_EVENT_GMT, nitz_get_uptime());
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c reset_vconf 1163 vconf_set_int(VCONFKEY_TELEPHONY_NITZ_EVENT_GMT, 0);

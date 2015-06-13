@@ -1,0 +1,6 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-pm-keys.h <global> 30 VCONFKEY_PM_STATE_SLEEP
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/add-viewer/src/util.c util_is_lcd_off 405 return state == VCONFKEY_PM_STATE_LCDOFF || state == VCONFKEY_PM_STATE_SLEEP;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-provider-master/src/setting.c setting_is_lcd_off 95 ErrPrint("State: %d, (%d:lcdoff, %d:sleep)\n", state, VCONFKEY_PM_STATE_LCDOFF, VCONFKEY_PM_STATE_SLEEP);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-provider-master/src/setting.c setting_is_lcd_off 96 return state == VCONFKEY_PM_STATE_LCDOFF || state == VCONFKEY_PM_STATE_SLEEP;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/daemon/main.c _indicator_notify_pm_state_cb 147 case VCONFKEY_PM_STATE_SLEEP:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/volume-app/src/control.c volume_control_get_vconf_idlelock 222 pm_state == VCONFKEY_PM_STATE_SLEEP

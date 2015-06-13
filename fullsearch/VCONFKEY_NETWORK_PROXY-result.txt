@@ -1,0 +1,20 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/cert-svc/vcore/src/vcore/SoupMessageSendSync.cpp <global> 41 proxy(vconf_get_str(VCONFKEY_NETWORK_PROXY), free);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-dnet-keys.h <global> 38 #define VCONFKEY_NETWORK_PROXY "memory/dnet/proxy"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/connection/src/connection.c __connection_cb_proxy_changed_cb_idle 296 proxy = vconf_get_str(VCONFKEY_NETWORK_PROXY);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/connection/src/connection.c __connection_set_proxy_changed_callback 334 vconf_notify_key_changed(VCONFKEY_NETWORK_PROXY,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/connection/src/connection.c __connection_set_proxy_changed_callback 343 if (vconf_ignore_key_changed(VCONFKEY_NETWORK_PROXY,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/connection/src/connection.c connection_get_proxy 510 *proxy = vconf_get_str(VCONFKEY_NETWORK_PROXY);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/connection/src/connection_profile.c __profile_get_ethernet_proxy 108 proxy = vconf_get_str(VCONFKEY_NETWORK_PROXY);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-player/src/mm_player_attrs.c _mmplayer_construct_attribute 1081 system_proxy = vconf_get_str(VCONFKEY_NETWORK_PROXY);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/music-player/src/common/mp-url-downloader.c _mp_thumb_downloader_send_msg 770 proxyAddr = vconf_get_str(VCONFKEY_NETWORK_PROXY);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/music-player/src/rich_info/src/core/mp-tag-mgr.c _mp_tag_mgr_send_msg 790 proxyAddr = vconf_get_str(VCONFKEY_NETWORK_PROXY);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/network-state.c __netconfig_update_default_connection_info 594 netconfig_set_vconf_str(VCONFKEY_NETWORK_PROXY, "");
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/network-state.c __netconfig_update_default_connection_info 601 char *old_proxy = vconf_get_str(VCONFKEY_NETWORK_PROXY);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/network-state.c __netconfig_update_default_connection_info 624 netconfig_set_vconf_str(VCONFKEY_NETWORK_PROXY, "");
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/network-state.c __netconfig_update_default_connection_info 626 netconfig_set_vconf_str(VCONFKEY_NETWORK_PROXY, proxy_addr);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/signal-handler.c __netconfig_service_signal_handler 297 vconf_set_str(VCONFKEY_NETWORK_PROXY, value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/signal-handler.c __netconfig_service_signal_handler 311 vconf_set_str(VCONFKEY_NETWORK_PROXY, "");
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/utils/emulator.c __netconfig_emulator_set_proxy 99 vconf_set_str(VCONFKEY_NETWORK_PROXY, proxy);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/web-provider/src/Core/BoxManager.cpp BoxManager 51 vconf_ignore_key_changed(VCONFKEY_NETWORK_PROXY,proxyChangedCallback);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/web-provider/src/Plugin/AppBoxPlugin/AppBoxManager.cpp BoxManager 43 vconf_notify_key_changed(VCONFKEY_NETWORK_PROXY,proxyChangedCallback,this);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/web-provider/src/Plugin/AppBoxPlugin/AppBoxManager.cpp AppBoxManager 48 vconf_ignore_key_changed(VCONFKEY_NETWORK_PROXY,proxyChangedCallback);

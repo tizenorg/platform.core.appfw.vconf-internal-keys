@@ -1,0 +1,7 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-data-slp-setting.c <global> 218 {"automatic_time", "datetime", BOOL_SLP_SETTING_AUTOMATIC_TIME_UPDATE, VCONFKEY_SETAPPL_STATE_AUTOMATIC_TIME_UPDATE_BOOL, eBOOL, {0}, export_json, import_default},
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 237 #define VCONFKEY_SETAPPL_STATE_AUTOMATIC_TIME_UPDATE_BOOL "db/setting/automatic_time_update"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/network-clock.c __netconfig_clock 90 VCONFKEY_SETAPPL_STATE_AUTOMATIC_TIME_UPDATE_BOOL,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-time/src/setting-time-main.c setting_time_main_bool_vconf_change_cb 361 if (!safeStrCmp(vconf_name, VCONFKEY_SETAPPL_STATE_AUTOMATIC_TIME_UPDATE_BOOL)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-time/src/setting-time-main.c setting_time_main_create 979 vconf_notify_key_changed(VCONFKEY_SETAPPL_STATE_AUTOMATIC_TIME_UPDATE_BOOL,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-time/src/setting-time-main.c setting_time_main_destroy 1046 vconf_ignore_key_changed(VCONFKEY_SETAPPL_STATE_AUTOMATIC_TIME_UPDATE_BOOL,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-nitz/src/time_update.c nitz_is_auto_timezone 48 vconf_get_bool(VCONFKEY_SETAPPL_STATE_AUTOMATIC_TIME_UPDATE_BOOL, &auto_timezone);

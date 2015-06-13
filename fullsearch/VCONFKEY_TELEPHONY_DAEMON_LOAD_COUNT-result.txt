@@ -1,0 +1,3 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-telephony-keys.h <global> 34 #define VCONFKEY_TELEPHONY_DAEMON_LOAD_COUNT "memory/telephony/daemon_load_count"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/telephony-daemon/src/main.c main 338 vconf_get_int(VCONFKEY_TELEPHONY_DAEMON_LOAD_COUNT,&daemon_load_count);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/telephony-daemon/src/main.c main 340 vconf_set_int(VCONFKEY_TELEPHONY_DAEMON_LOAD_COUNT,daemon_load_count);

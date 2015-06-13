@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-uncategorized-keys.h <global> 235 #define VCONFKEY_UNCATEGORIZED_132 "db/private/msg-service/sim_count/used_cnt/2"

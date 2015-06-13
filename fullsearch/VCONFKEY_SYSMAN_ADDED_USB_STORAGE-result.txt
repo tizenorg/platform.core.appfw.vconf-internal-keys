@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-sysman-keys.h <global> 24 #define VCONFKEY_SYSMAN_ADDED_USB_STORAGE "memory/sysman/added_usb_storage"

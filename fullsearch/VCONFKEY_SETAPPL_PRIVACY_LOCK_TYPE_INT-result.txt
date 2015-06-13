@@ -1,0 +1,2 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 694 #define VCONFKEY_SETAPPL_PRIVACY_LOCK_TYPE_INT "db/setting/lock_type"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/sdbd/src/sdb.c is_pwlocked 1259 if (vconf_get_int(VCONFKEY_SETAPPL_PRIVACY_LOCK_TYPE_INT, &pwlock_type)) {

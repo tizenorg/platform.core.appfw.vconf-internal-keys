@@ -1,0 +1,3 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-location-keys.h <global> 63 #define VCONFKEY_LOCATION_LAST_GPS_LONGITUDE "memory/location/last/gps/Longitude"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/lbs-server/last_position.c gps_set_position 66 setting_set_double(VCONFKEY_LOCATION_LAST_GPS_LONGITUDE, lon);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/module/gps_module.c get_last_position 419 vconf_get_dbl(VCONFKEY_LOCATION_LAST_GPS_LONGITUDE, &longitude) ||

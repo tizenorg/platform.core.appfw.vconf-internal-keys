@@ -1,0 +1,4 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 441 #define VCONFKEY_SETAPPL_TILT_SENSITIVITY "db/setting/tilt_sensitivity"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/sensord/src/motion/motion_sensor.cpp get_motion_setting 109 if (vconf_get_int(VCONFKEY_SETAPPL_TILT_SENSITIVITY, &vconf_val) == 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/sensord/src/motion/motion_sensor.cpp sensitivity_change_cb 170 if (!strcmp(vconf_keynode_get_name(node), VCONFKEY_SETAPPL_TILT_SENSITIVITY)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/sensord/src/motion/motion_sensor.cpp init 428 vconf_notify_key_changed(VCONFKEY_SETAPPL_TILT_SENSITIVITY, sensitivity_change_cb, this);

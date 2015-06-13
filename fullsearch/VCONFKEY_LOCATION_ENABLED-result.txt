@@ -1,0 +1,64 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/runtime-info/src/runtime_info_location.c <global> 33 static const char *VCONF_LOCATION_SERVICE_ENABLED = VCONFKEY_LOCATION_ENABLED;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-location-keys.h <global> 26 #define VCONFKEY_LOCATION_ENABLED "db/location/setting/GpsEnabled"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/lbs-server/lbs_server.c __setting_gps_cb 170 setting_get_int(VCONFKEY_LOCATION_ENABLED, &onoff);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/lbs-server/lbs_server.c __setting_pw_saving_cb 190 setting_get_int(VCONFKEY_LOCATION_ENABLED, &onoff);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/lbs-server/lbs_server.c __setting_pw_saving_cb 193 setting_set_int(VCONFKEY_LOCATION_ENABLED, 0);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/lbs-server/lbs_server.c __setting_pw_saving_cb 205 setting_set_int(VCONFKEY_LOCATION_ENABLED, 1);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/lbs-server/lbs_server.c start_batch_tracking 511 setting_notify_key_changed(VCONFKEY_LOCATION_ENABLED, __setting_gps_cb, lbs_server);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/lbs-server/lbs_server.c stop_batch_tracking 538 setting_ignore_key_changed(VCONFKEY_LOCATION_ENABLED, __setting_gps_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/lbs-server/lbs_server.c start_tracking 578 setting_notify_key_changed(VCONFKEY_LOCATION_ENABLED, __setting_gps_cb, lbs_server);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/lbs-server/lbs_server.c stop_tracking 682 setting_ignore_key_changed(VCONFKEY_LOCATION_ENABLED, __setting_gps_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/gps-syspopup/gps-syspopup.c __gps_popup_gps_agree_cb 206 vconf_set_int(VCONFKEY_LOCATION_ENABLED, 1);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/gps-syspopup/gps-syspopup.c _popup_gps_agree_cb_for_setting_search 270 vconf_set_int(VCONFKEY_LOCATION_ENABLED, 1);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/gps-syspopup/gps-syspopup.c _popup_gps_disagree_cb_for_setting_search 290 vconf_set_int(VCONFKEY_LOCATION_ENABLED, 0);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/gps-syspopup/gps-syspopup.c __gps_popup_reset 465 vconf_get_int(VCONFKEY_LOCATION_ENABLED, &enabled);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/gps-syspopup/gps-syspopup.c __gps_popup_reset 486 vconf_get_int(VCONFKEY_LOCATION_ENABLED, &gps_enable);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/gps-syspopup/gps-syspopup.c __gps_popup_reset 494 vconf_set_int(VCONFKEY_LOCATION_ENABLED, 1);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/src/lbs-setting-window.c __convert_event_from_path 188 } else if (g_strcmp0(path, VCONFKEY_LOCATION_ENABLED) == 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/src/lbs-setting-window.c __setting_reply_gps_wifi_status 311 ret = vconf_get_int(VCONFKEY_LOCATION_ENABLED, &is_gps_on);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/src/lbs-setting-window.c __setting_location_gps_set_key 397 vconf_get_int(VCONFKEY_LOCATION_ENABLED, &vconf_val_is_gps);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/src/lbs-setting-window.c __setting_location_gps_set_key 404 __setting_location_set_int(VCONFKEY_LOCATION_ENABLED, ad->is_gps);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/src/lbs-setting-window.c __setting_location_myloc_set_key 691 __setting_location_set_int(VCONFKEY_LOCATION_ENABLED, ad->is_gps);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/src/lbs-setting-window.c __setting_location_gps_check_get 755 int ret = vconf_get_int(VCONFKEY_LOCATION_ENABLED, &value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/src/lbs-setting-window.c _location_enabled_cb 1325 __setting_location_set_int(VCONFKEY_LOCATION_ENABLED, KEY_DISABLED);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/src/lbs-setting-window.c _gps_enabled_cb 1334 int ret = vconf_get_int(VCONFKEY_LOCATION_ENABLED, &ad->is_gps);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/src/lbs-setting-window.c __setting_location_init 1377 ret &= vconf_get_int(VCONFKEY_LOCATION_ENABLED, &ad->is_gps);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/src/lbs-setting-window.c __setting_location_init 1379 ret &= vconf_notify_key_changed(VCONFKEY_LOCATION_ENABLED, _gps_enabled_cb, (void *)ad);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/src/lbs-setting-window.c _setting_location_deinit 1410 ret = vconf_ignore_key_changed(VCONFKEY_LOCATION_ENABLED, _gps_enabled_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/src/lbs-setting-window.c _check_cb 1596 __setting_location_set_int(VCONFKEY_LOCATION_ENABLED, KEY_DISABLED);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/src/lbs-setting-window.c _check_cb 1603 __setting_location_set_int(VCONFKEY_LOCATION_ENABLED, KEY_ENABLED);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/src/view/lbs-setting-view-location.c _gl_label_get 53 vconf_get_int(VCONFKEY_LOCATION_ENABLED, &is_location_on);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/src/view/lbs-setting-view-location.c _gl_check_get 80 vconf_get_int(VCONFKEY_LOCATION_ENABLED, &is_location_on);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/src/view/lbs-setting-view-location.c _popup_agree_cb 114 vconf_set_int(VCONFKEY_LOCATION_ENABLED, is_checked);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/src/view/lbs-setting-view-location.c _gl_sel 139 vconf_set_int(VCONFKEY_LOCATION_ENABLED, is_checked);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libslp-location/location/manager/location-gps.c location_gps_start 418 if (!location_setting_get_int(VCONFKEY_LOCATION_ENABLED)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libslp-location/location/manager/location-gps.c location_gps_start 433 location_setting_add_notify(VCONFKEY_LOCATION_ENABLED, location_setting_gps_cb, self);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libslp-location/location/manager/location-gps.c location_gps_stop 473 location_setting_ignore_notify(VCONFKEY_LOCATION_ENABLED, location_setting_gps_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libslp-location/location/manager/location-gps.c location_gps_start_batch 499 if (!location_setting_get_int(VCONFKEY_LOCATION_ENABLED)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libslp-location/location/manager/location-gps.c location_gps_dispose 560 location_setting_ignore_notify(VCONFKEY_LOCATION_ENABLED, location_setting_gps_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libslp-location/location/manager/location-gps.c location_gps_get_position 858 setting_retval_if_fail(VCONFKEY_LOCATION_ENABLED);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libslp-location/location/manager/location-gps.c location_gps_get_position_ext 888 setting_retval_if_fail(VCONFKEY_LOCATION_ENABLED);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libslp-location/location/manager/location-gps.c location_gps_get_last_position 914 setting_retval_if_fail(VCONFKEY_LOCATION_ENABLED);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libslp-location/location/manager/location-gps.c location_gps_get_last_position_ext 937 setting_retval_if_fail(VCONFKEY_LOCATION_ENABLED);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libslp-location/location/manager/location-gps.c location_gps_get_velocity 956 setting_retval_if_fail(VCONFKEY_LOCATION_ENABLED);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libslp-location/location/manager/location-gps.c location_gps_get_last_velocity 982 setting_retval_if_fail(VCONFKEY_LOCATION_ENABLED);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libslp-location/location/manager/location-gps.c location_gps_get_nmea 1081 setting_retval_if_fail(VCONFKEY_LOCATION_ENABLED);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libslp-location/location/manager/location-gps.c location_gps_get_batch 1100 setting_retval_if_fail(VCONFKEY_LOCATION_ENABLED);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libslp-location/location/manager/location-gps.c location_gps_get_satellite 1127 setting_retval_if_fail(VCONFKEY_LOCATION_ENABLED);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libslp-location/location/manager/location-hybrid-mobile.c location_hybrid_start 488 location_setting_add_notify(VCONFKEY_LOCATION_ENABLED, location_hybrid_gps_cb, self);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libslp-location/location/manager/location-hybrid-mobile.c location_hybrid_stop 529 location_setting_ignore_notify(VCONFKEY_LOCATION_ENABLED, location_hybrid_gps_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libslp-location/location/manager/location-hybrid-mobile.c location_hybrid_dispose 549 location_setting_ignore_notify(VCONFKEY_LOCATION_ENABLED, location_hybrid_gps_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libslp-location/location/manager/location-hybrid-mobile.c location_hybrid_get_position 801 if (!location_setting_get_int(VCONFKEY_LOCATION_ENABLED) && !location_setting_get_int(VCONFKEY_LOCATION_NETWORK_ENABLED)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libslp-location/location/manager/location-hybrid-mobile.c location_hybrid_get_position_ext 827 if (!location_setting_get_int(VCONFKEY_LOCATION_ENABLED) && !location_setting_get_int(VCONFKEY_LOCATION_NETWORK_ENABLED)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libslp-location/location/manager/location-hybrid-mobile.c location_hybrid_get_velocity 949 if (!location_setting_get_int(VCONFKEY_LOCATION_ENABLED) && !location_setting_get_int(VCONFKEY_LOCATION_NETWORK_ENABLED)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libslp-location/location/manager/location-hybrid-mobile.c location_hybrid_get_satellite 1017 if (!location_setting_get_int(VCONFKEY_LOCATION_ENABLED) && !location_setting_get_int(VCONFKEY_LOCATION_NETWORK_ENABLED)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libslp-location/location/manager/location-setting.c convert_event_from_key 83 } else if (g_strcmp0(key, VCONFKEY_LOCATION_ENABLED) == 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libslp-location/location/manager/location.c __convert_setting_key 61 key = g_strdup(VCONFKEY_LOCATION_ENABLED);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libslp-location/location/manager/location.c __convert_method_from_key 78 } else if (g_strcmp0(key, VCONFKEY_LOCATION_ENABLED) == 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/settings/modules/gps.c _mouse_clicked_cb 165 ret = vconf_get_int(VCONFKEY_LOCATION_ENABLED, &enable);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/settings/modules/gps.c _mouse_clicked_cb 168 vconf_set_int(VCONFKEY_LOCATION_ENABLED, 0);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c _mode_backup_settings 733 vconf_get_int(VCONFKEY_LOCATION_ENABLED, &val);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c _mode_power_backup_settings 849 vconf_get_int(VCONFKEY_LOCATION_ENABLED, &val);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c _mode_apply_settings 912 vconf_get_int(VCONFKEY_LOCATION_ENABLED, &crt_val);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c _mode_apply_settings 924 vconf_set_int(VCONFKEY_LOCATION_ENABLED, val);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/swap-manager/daemon/device_vconf.c get_gps_status 69 res = vconf_get_int(VCONFKEY_LOCATION_ENABLED, &gps_status);

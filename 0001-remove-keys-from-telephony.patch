@@ -1,0 +1,517 @@
+From 125395b4eb9d4d3580abaf85fa1c547333de0618 Mon Sep 17 00:00:00 2001
+From: MyoungJune Park <mj2004.park@samsung.com>
+Date: Mon, 1 Jun 2015 19:09:28 +0900
+Subject: [PATCH] remove keys from telephony
+
+	<header>VCONFKEY_TELEPHONY_FACTORY_KSTRINGB</header>
+	<enumdata val="0x00">VCONFKEY_TELEPHONY_FACTORY_KSTRINGB_OFF</enumdata>
+	<enumdata val="0x01">VCONFKEY_TELEPHONY_FACTORY_KSTRINGB_ON</enumdata>
+	<header>VCONFKEY_TELEPHONY_IMEI_FACTORY_REBOOT</header>
+	<enumdata val="0x00">VCONFKEY_TELEPHONY_FACTORYMODE_OFF</enumdata>
+	<enumdata val="0x01">VCONFKEY_TELEPHONY_FACTORYMODE_ON</enumdata>
+	<header>VCONFKEY_TELEPHONY_SIM_FACTORY_MODE</header>
+	<enumdata val="0x00">VCONFKEY_TELEPHONY_SIM_FACTORYMODE_OFF</enumdata>
+	<enumdata val="0x01">VCONFKEY_TELEPHONY_SIM_FACTORYMODE_ON</enumdata>
+	<header>VCONFKEY_TELEPHONY_DAEMON_LOAD_COUNT</header>
+	<enumdata>VCONFKEY_TELEPHONY_RSSI_6</enumdata>
+	<header>VCONFKEY_TELEPHONY_LOW_BATTERY</header>
+	<enumdata val="0x01">VCONFKEY_TELEPHONY_BATT_POWER_OFF_LEVEL</enumdata>
+	<enumdata>VCONFKEY_TELEPHONY_BATT_CRIT_LOW_LEVEL</enumdata>
+	<enumdata>VCONFKEY_TELEPHONY_BATT_LOW_LEVEL</enumdata>
+	<enumdata>VCONFKEY_TELEPHONY_BATT_NORMAL_LEVEL</enumdata>
+	<header>VCONFKEY_TELEPHONY_IMEI</header>
+	<header>VCONFKEY_TELEPHONY_SWVERSION</header>
+	<header>VCONFKEY_TELEPHONY_HWVERSION</header>
+	<header>VCONFKEY_TELEPHONY_CALDATE</header>
+	<header>VCONFKEY_TELEPHONY_PRODUCTCODE</header>
+	<header>VCONFKEY_TELEPHONY_PSTYPE</header>
+	<enumdata>VCONFKEY_TELEPHONY_PSTYPE_HSPAP</enumdata>
+	<header>VCONFKEY_TELEPHONY_EMERGENCY_MODE</header>
+	<header>VCONFKEY_TELEPHONY_EVENT_READY</header>
+	<header>VCONFKEY_3G_ENABLE</header>
+	<enumdata>VCONFKEY_TELEPHONY_MODEM_AUTO_ON_OFF</enumdata>
+	<header>VCONFKEY_TELEPHONY_NETWORK_REJECT_CAUSE</header>
+	<header>VCONFKEY_TELEPHONY_ACTIVATION_COMPLETED</header>
+	<header>VCONFKEY_TELEPHONY_AVAILABLE_EVDO</header>
+	<enumdata val="0x00">VCONFKEY_TELEPHONY_AVAILABLE_EVDO_NO</enumdata>
+	<enumdata>VCONFKEY_TELEPHONY_AVAILABLE_EVDO_YES</enumdata>
+	<header>VCONFKEY_TELEPHONY_DB_DEFAULT_DATA_SUBS</header>
+
+Change-Id: I3278ec1be4279c6f1932cbc9b07e7cb0dea08f42
+Signed-off-by: MyoungJune Park <mj2004.park@samsung.com>
+---
+ data/vconf-internal-telephony-keys.xml    |  94 --------------------------
+ include/vconf-internal-telephony-keys.h   |  87 ------------------------
+ report/vconf-internal-telephony-keys.html | 108 ------------------------------
+ scripts/vconf-internal-telephony-keys.sh  |  12 ----
+ 4 files changed, 301 deletions(-)
+
+diff --git a/data/vconf-internal-telephony-keys.xml b/data/vconf-internal-telephony-keys.xml
+index 609d14d..2ab3811 100644
+--- a/data/vconf-internal-telephony-keys.xml
++++ b/data/vconf-internal-telephony-keys.xml
+@@ -13,36 +13,6 @@
+     <email/>
+     <comment><![CDATA[ ]]></comment>
+   </vconfkey>
+-  <vconfkey type="int" name="db/telephony/bKeyStringBlock" value="0" label="" headeronly="true" gid="6514" uid="">
+-    <header>VCONFKEY_TELEPHONY_FACTORY_KSTRINGB</header>
+-    <creator/>
+-    <email/>
+-    <comment><![CDATA[ ]]></comment>
+-    <enumlist>
+-      <enumdata val="0x00">VCONFKEY_TELEPHONY_FACTORY_KSTRINGB_OFF</enumdata>
+-      <enumdata val="0x01">VCONFKEY_TELEPHONY_FACTORY_KSTRINGB_ON</enumdata>
+-    </enumlist>
+-  </vconfkey>
+-  <vconfkey type="int" name="memory/telephony/bFactoryProcess" value="0" label="" headeronly="true" gid="6514" uid="">
+-    <header>VCONFKEY_TELEPHONY_IMEI_FACTORY_REBOOT</header>
+-    <creator/>
+-    <email/>
+-    <comment><![CDATA[ ]]></comment>
+-    <enumlist>
+-      <enumdata val="0x00">VCONFKEY_TELEPHONY_FACTORYMODE_OFF</enumdata>
+-      <enumdata val="0x01">VCONFKEY_TELEPHONY_FACTORYMODE_ON</enumdata>
+-    </enumlist>
+-  </vconfkey>
+-  <vconfkey type="int" name="memory/telephony/bIMSIFactoryProcess" value="0" label="" headeronly="true" gid="6514" uid="">
+-    <header>VCONFKEY_TELEPHONY_SIM_FACTORY_MODE</header>
+-    <creator/>
+-    <email/>
+-    <comment><![CDATA[ ]]></comment>
+-    <enumlist>
+-      <enumdata val="0x00">VCONFKEY_TELEPHONY_SIM_FACTORYMODE_OFF</enumdata>
+-      <enumdata val="0x01">VCONFKEY_TELEPHONY_SIM_FACTORYMODE_ON</enumdata>
+-    </enumlist>
+-  </vconfkey>
+   <vconfkey type="int" name="memory/telephony/daemon_load_count" value="0" label="system::vconf_system" gid="6514" uid="">
+     <header>VCONFKEY_TELEPHONY_DAEMON_LOAD_COUNT</header>
+     <creator/>
+@@ -307,48 +277,12 @@
+       <enumdata>VCONFKEY_TELEPHONY_RSSI_6</enumdata>
+     </enumlist>
+   </vconfkey>
+-  <vconfkey type="int" name="memory/telephony/low_battery" value="0" label="" headeronly="true" gid="6514" uid="">
+-    <header>VCONFKEY_TELEPHONY_LOW_BATTERY</header>
+-    <creator/>
+-    <email/>
+-    <comment><![CDATA[ ]]></comment>
+-    <enumlist>
+-      <enumdata val="0x01">VCONFKEY_TELEPHONY_BATT_POWER_OFF_LEVEL</enumdata>
+-      <enumdata>VCONFKEY_TELEPHONY_BATT_CRIT_LOW_LEVEL</enumdata>
+-      <enumdata>VCONFKEY_TELEPHONY_BATT_LOW_LEVEL</enumdata>
+-      <enumdata>VCONFKEY_TELEPHONY_BATT_NORMAL_LEVEL</enumdata>
+-    </enumlist>
+-  </vconfkey>
+   <vconfkey type="string" name="memory/telephony/imei" value="" label="system::vconf_system" gid="6514" uid="">
+     <header>VCONFKEY_TELEPHONY_IMEI</header>
+     <creator/>
+     <email/>
+     <comment><![CDATA[ ]]></comment>
+   </vconfkey>
+-  <vconfkey type="int" name="memory/telephony/szSWVersion" value="0" label="" headeronly="true" gid="6514" uid="">
+-    <header>VCONFKEY_TELEPHONY_SWVERSION</header>
+-    <creator/>
+-    <email/>
+-    <comment><![CDATA[ ]]></comment>
+-  </vconfkey>
+-  <vconfkey type="int" name="memory/telephony/szHWVersion" value="0" label="" headeronly="true" gid="6514" uid="">
+-    <header>VCONFKEY_TELEPHONY_HWVERSION</header>
+-    <creator/>
+-    <email/>
+-    <comment><![CDATA[ ]]></comment>
+-  </vconfkey>
+-  <vconfkey type="int" name="memory/telephony/szCalDate" value="0" label="" headeronly="true" gid="6514" uid="">
+-    <header>VCONFKEY_TELEPHONY_CALDATE</header>
+-    <creator/>
+-    <email/>
+-    <comment><![CDATA[ ]]></comment>
+-  </vconfkey>
+-  <vconfkey type="int" name="memory/telephony/productCode" value="0" label="" headeronly="true" gid="6514" uid="">
+-    <header>VCONFKEY_TELEPHONY_PRODUCTCODE</header>
+-    <creator/>
+-    <email/>
+-    <comment><![CDATA[ ]]></comment>
+-  </vconfkey>
+   <vconfkey type="int" name="memory/telephony/ps_type" value="0" label="system::vconf_system" gid="6514" uid="">
+     <header>VCONFKEY_TELEPHONY_PSTYPE</header>
+     <creator/>
+@@ -362,18 +296,6 @@
+       <enumdata>VCONFKEY_TELEPHONY_PSTYPE_HSPAP</enumdata>
+     </enumlist>
+   </vconfkey>
+-  <vconfkey type="int" name="db/telephony/emergency" value="0" label="" headeronly="true" gid="6514" uid="">
+-    <header>VCONFKEY_TELEPHONY_EMERGENCY_MODE</header>
+-    <creator/>
+-    <email/>
+-    <comment><![CDATA[ ]]></comment>
+-  </vconfkey>
+-  <vconfkey type="int" name="memory/telephony/event_system_ready" value="0" label="" headeronly="true" gid="6514" uid="">
+-    <header>VCONFKEY_TELEPHONY_EVENT_READY</header>
+-    <creator/>
+-    <email/>
+-    <comment><![CDATA[ ]]></comment>
+-  </vconfkey>
+   <vconfkey type="bool" name="db/setting/3gEnabled" value="1" label="system::vconf_system" gid="6514" uid="">
+     <header>VCONFKEY_3G_ENABLE</header>
+     <creator/>
+@@ -463,12 +385,6 @@
+       <enumdata>VCONFKEY_TELEPHONY_MODEM_AUTO_ON_OFF</enumdata>
+     </enumlist>
+   </vconfkey>
+-  <vconfkey type="int" name="memory/telephony/rej_cause" value="0" label="" headeronly="true" gid="6514" uid="">
+-    <header>VCONFKEY_TELEPHONY_NETWORK_REJECT_CAUSE</header>
+-    <creator/>
+-    <email/>
+-    <comment><![CDATA[ ]]></comment>
+-  </vconfkey>
+   <vconfkey type="bool" name="db/telephony/activation_completed" value="0" label="system::vconf_system" gid="6514" uid="">
+     <header>VCONFKEY_TELEPHONY_ACTIVATION_COMPLETED</header>
+     <creator/>
+@@ -505,16 +421,6 @@
+     <email/>
+     <comment><![CDATA[ ]]></comment>
+   </vconfkey>
+-  <vconfkey type="int" name="memory/telephony/available_evdo" value="0" label="" headeronly="true" gid="6514" uid="">
+-    <header>VCONFKEY_TELEPHONY_AVAILABLE_EVDO</header>
+-    <creator/>
+-    <email/>
+-    <comment><![CDATA[ ]]></comment>
+-    <enumlist>
+-      <enumdata val="0x00">VCONFKEY_TELEPHONY_AVAILABLE_EVDO_NO</enumdata>
+-      <enumdata>VCONFKEY_TELEPHONY_AVAILABLE_EVDO_YES</enumdata>
+-    </enumlist>
+-  </vconfkey>
+   <vconfkey type="int" name="db/telephony/dualsim/default_data_service" value="0" label="system::vconf_system" gid="6514" uid="">
+     <header>VCONFKEY_TELEPHONY_DB_DEFAULT_DATA_SUBS</header>
+     <creator/>
+diff --git a/include/vconf-internal-telephony-keys.h b/include/vconf-internal-telephony-keys.h
+index 37b0c90..5ea911f 100644
+--- a/include/vconf-internal-telephony-keys.h
++++ b/include/vconf-internal-telephony-keys.h
+@@ -31,36 +31,6 @@
+ #endif
+ #define VCONFKEY_TELEPHONY_DB_PREFIX  "db/telephony"
+ 
+-#ifdef USE_NONCREATED_VCONF_KEY
+-#warning using non-created vconf-key ----- please make sure this key is in use actually
+-#endif
+-#define VCONFKEY_TELEPHONY_FACTORY_KSTRINGB  "db/telephony/bKeyStringBlock"
+-
+-enum {
+-	VCONFKEY_TELEPHONY_FACTORY_KSTRINGB_OFF = 0x00,
+-		VCONFKEY_TELEPHONY_FACTORY_KSTRINGB_ON = 0x01
+-};
+-
+-#ifdef USE_NONCREATED_VCONF_KEY
+-#warning using non-created vconf-key ----- please make sure this key is in use actually
+-#endif
+-#define VCONFKEY_TELEPHONY_IMEI_FACTORY_REBOOT  "memory/telephony/bFactoryProcess"
+-
+-enum {
+-	VCONFKEY_TELEPHONY_FACTORYMODE_OFF = 0x00,
+-		VCONFKEY_TELEPHONY_FACTORYMODE_ON = 0x01
+-};
+-
+-#ifdef USE_NONCREATED_VCONF_KEY
+-#warning using non-created vconf-key ----- please make sure this key is in use actually
+-#endif
+-#define VCONFKEY_TELEPHONY_SIM_FACTORY_MODE  "memory/telephony/bIMSIFactoryProcess"
+-
+-enum {
+-	VCONFKEY_TELEPHONY_SIM_FACTORYMODE_OFF = 0x00,
+-		VCONFKEY_TELEPHONY_SIM_FACTORYMODE_ON = 0x01
+-};
+-
+ #define VCONFKEY_TELEPHONY_DAEMON_LOAD_COUNT  "memory/telephony/daemon_load_count"
+ 
+ #define VCONFKEY_TELEPHONY_NWNAME  "memory/telephony/nw_name"
+@@ -228,40 +198,8 @@ enum {
+ 		VCONFKEY_TELEPHONY_RSSI_6
+ };
+ 
+-#ifdef USE_NONCREATED_VCONF_KEY
+-#warning using non-created vconf-key ----- please make sure this key is in use actually
+-#endif
+-#define VCONFKEY_TELEPHONY_LOW_BATTERY  "memory/telephony/low_battery"
+-
+-enum {
+-	VCONFKEY_TELEPHONY_BATT_POWER_OFF_LEVEL = 0x01,
+-		VCONFKEY_TELEPHONY_BATT_CRIT_LOW_LEVEL,
+-		VCONFKEY_TELEPHONY_BATT_LOW_LEVEL,
+-		VCONFKEY_TELEPHONY_BATT_NORMAL_LEVEL
+-};
+-
+ #define VCONFKEY_TELEPHONY_IMEI  "memory/telephony/imei"
+ 
+-#ifdef USE_NONCREATED_VCONF_KEY
+-#warning using non-created vconf-key ----- please make sure this key is in use actually
+-#endif
+-#define VCONFKEY_TELEPHONY_SWVERSION  "memory/telephony/szSWVersion"
+-
+-#ifdef USE_NONCREATED_VCONF_KEY
+-#warning using non-created vconf-key ----- please make sure this key is in use actually
+-#endif
+-#define VCONFKEY_TELEPHONY_HWVERSION  "memory/telephony/szHWVersion"
+-
+-#ifdef USE_NONCREATED_VCONF_KEY
+-#warning using non-created vconf-key ----- please make sure this key is in use actually
+-#endif
+-#define VCONFKEY_TELEPHONY_CALDATE  "memory/telephony/szCalDate"
+-
+-#ifdef USE_NONCREATED_VCONF_KEY
+-#warning using non-created vconf-key ----- please make sure this key is in use actually
+-#endif
+-#define VCONFKEY_TELEPHONY_PRODUCTCODE  "memory/telephony/productCode"
+-
+ #define VCONFKEY_TELEPHONY_PSTYPE  "memory/telephony/ps_type"
+ 
+ enum {
+@@ -272,16 +210,6 @@ enum {
+ 		VCONFKEY_TELEPHONY_PSTYPE_HSPAP
+ };
+ 
+-#ifdef USE_NONCREATED_VCONF_KEY
+-#warning using non-created vconf-key ----- please make sure this key is in use actually
+-#endif
+-#define VCONFKEY_TELEPHONY_EMERGENCY_MODE  "db/telephony/emergency"
+-
+-#ifdef USE_NONCREATED_VCONF_KEY
+-#warning using non-created vconf-key ----- please make sure this key is in use actually
+-#endif
+-#define VCONFKEY_TELEPHONY_EVENT_READY  "memory/telephony/event_system_ready"
+-
+ #define VCONFKEY_3G_ENABLE  "db/setting/3gEnabled"
+ 
+ #define VCONFKEY_TELEPHONY_READY  "memory/telephony/telephony_ready"
+@@ -329,11 +257,6 @@ enum {
+ 		VCONFKEY_TELEPHONY_MODEM_AUTO_ON_OFF
+ };
+ 
+-#ifdef USE_NONCREATED_VCONF_KEY
+-#warning using non-created vconf-key ----- please make sure this key is in use actually
+-#endif
+-#define VCONFKEY_TELEPHONY_NETWORK_REJECT_CAUSE  "memory/telephony/rej_cause"
+-
+ #define VCONFKEY_TELEPHONY_ACTIVATION_COMPLETED  "db/telephony/activation_completed"
+ 
+ #define VCONFKEY_TELEPHONY_EMERGENCY_CB_MODE_CDMA  "memory/telephony/emergency_mode"
+@@ -346,16 +269,6 @@ enum {
+ 
+ #define VCONFKEY_TELEPHONY_CALL_SIGNAL  "memory/telephony/call_signal"
+ 
+-#ifdef USE_NONCREATED_VCONF_KEY
+-#warning using non-created vconf-key ----- please make sure this key is in use actually
+-#endif
+-#define VCONFKEY_TELEPHONY_AVAILABLE_EVDO  "memory/telephony/available_evdo"
+-
+-enum {
+-	VCONFKEY_TELEPHONY_AVAILABLE_EVDO_NO = 0x00,
+-		VCONFKEY_TELEPHONY_AVAILABLE_EVDO_YES
+-};
+-
+ #define VCONFKEY_TELEPHONY_DB_DEFAULT_DATA_SUBS  "db/telephony/dualsim/default_data_service"
+ 
+ #define VCONFKEY_TELEPHONY_PREFERRED_VOICE_SUBSCRIPTION  "db/telephony/dualsim/preferred_voice_subscription"
+diff --git a/report/vconf-internal-telephony-keys.html b/report/vconf-internal-telephony-keys.html
+index 5cbcef3..25a1554 100644
+--- a/report/vconf-internal-telephony-keys.html
++++ b/report/vconf-internal-telephony-keys.html
+@@ -35,33 +35,6 @@
+ <td bgcolor="red" align="center">true</td>
+ </tr>
+   <tr>
+-<td><a href="../fullsearch/VCONFKEY_TELEPHONY_FACTORY_KSTRINGB-result.txt">VCONFKEY_TELEPHONY_FACTORY_KSTRINGB</a></td>
+-<td>db/telephony/bKeyStringBlock</td>
+-<td>int</td>
+-<td>0</td>
+-<td></td>
+-<td> </td>
+-<td bgcolor="red" align="center">true</td>
+-</tr>
+-  <tr>
+-<td><a href="../fullsearch/VCONFKEY_TELEPHONY_IMEI_FACTORY_REBOOT-result.txt">VCONFKEY_TELEPHONY_IMEI_FACTORY_REBOOT</a></td>
+-<td>memory/telephony/bFactoryProcess</td>
+-<td>int</td>
+-<td>0</td>
+-<td></td>
+-<td> </td>
+-<td bgcolor="red" align="center">true</td>
+-</tr>
+-  <tr>
+-<td><a href="../fullsearch/VCONFKEY_TELEPHONY_SIM_FACTORY_MODE-result.txt">VCONFKEY_TELEPHONY_SIM_FACTORY_MODE</a></td>
+-<td>memory/telephony/bIMSIFactoryProcess</td>
+-<td>int</td>
+-<td>0</td>
+-<td></td>
+-<td> </td>
+-<td bgcolor="red" align="center">true</td>
+-</tr>
+-  <tr>
+ <td><a href="../fullsearch/VCONFKEY_TELEPHONY_DAEMON_LOAD_COUNT-result.txt">VCONFKEY_TELEPHONY_DAEMON_LOAD_COUNT</a></td>
+ <td>memory/telephony/daemon_load_count</td>
+ <td>int</td>
+@@ -314,15 +287,6 @@
+ <td bgcolor="green" align="center"></td>
+ </tr>
+   <tr>
+-<td><a href="../fullsearch/VCONFKEY_TELEPHONY_LOW_BATTERY-result.txt">VCONFKEY_TELEPHONY_LOW_BATTERY</a></td>
+-<td>memory/telephony/low_battery</td>
+-<td>int</td>
+-<td>0</td>
+-<td></td>
+-<td> </td>
+-<td bgcolor="red" align="center">true</td>
+-</tr>
+-  <tr>
+ <td><a href="../fullsearch/VCONFKEY_TELEPHONY_IMEI-result.txt">VCONFKEY_TELEPHONY_IMEI</a></td>
+ <td>memory/telephony/imei</td>
+ <td>string</td>
+@@ -332,42 +296,6 @@
+ <td bgcolor="green" align="center"></td>
+ </tr>
+   <tr>
+-<td><a href="../fullsearch/VCONFKEY_TELEPHONY_SWVERSION-result.txt">VCONFKEY_TELEPHONY_SWVERSION</a></td>
+-<td>memory/telephony/szSWVersion</td>
+-<td>int</td>
+-<td>0</td>
+-<td></td>
+-<td> </td>
+-<td bgcolor="red" align="center">true</td>
+-</tr>
+-  <tr>
+-<td><a href="../fullsearch/VCONFKEY_TELEPHONY_HWVERSION-result.txt">VCONFKEY_TELEPHONY_HWVERSION</a></td>
+-<td>memory/telephony/szHWVersion</td>
+-<td>int</td>
+-<td>0</td>
+-<td></td>
+-<td> </td>
+-<td bgcolor="red" align="center">true</td>
+-</tr>
+-  <tr>
+-<td><a href="../fullsearch/VCONFKEY_TELEPHONY_CALDATE-result.txt">VCONFKEY_TELEPHONY_CALDATE</a></td>
+-<td>memory/telephony/szCalDate</td>
+-<td>int</td>
+-<td>0</td>
+-<td></td>
+-<td> </td>
+-<td bgcolor="red" align="center">true</td>
+-</tr>
+-  <tr>
+-<td><a href="../fullsearch/VCONFKEY_TELEPHONY_PRODUCTCODE-result.txt">VCONFKEY_TELEPHONY_PRODUCTCODE</a></td>
+-<td>memory/telephony/productCode</td>
+-<td>int</td>
+-<td>0</td>
+-<td></td>
+-<td> </td>
+-<td bgcolor="red" align="center">true</td>
+-</tr>
+-  <tr>
+ <td><a href="../fullsearch/VCONFKEY_TELEPHONY_PSTYPE-result.txt">VCONFKEY_TELEPHONY_PSTYPE</a></td>
+ <td>memory/telephony/ps_type</td>
+ <td>int</td>
+@@ -377,24 +305,6 @@
+ <td bgcolor="green" align="center"></td>
+ </tr>
+   <tr>
+-<td><a href="../fullsearch/VCONFKEY_TELEPHONY_EMERGENCY_MODE-result.txt">VCONFKEY_TELEPHONY_EMERGENCY_MODE</a></td>
+-<td>db/telephony/emergency</td>
+-<td>int</td>
+-<td>0</td>
+-<td></td>
+-<td> </td>
+-<td bgcolor="red" align="center">true</td>
+-</tr>
+-  <tr>
+-<td><a href="../fullsearch/VCONFKEY_TELEPHONY_EVENT_READY-result.txt">VCONFKEY_TELEPHONY_EVENT_READY</a></td>
+-<td>memory/telephony/event_system_ready</td>
+-<td>int</td>
+-<td>0</td>
+-<td></td>
+-<td> </td>
+-<td bgcolor="red" align="center">true</td>
+-</tr>
+-  <tr>
+ <td><a href="../fullsearch/VCONFKEY_3G_ENABLE-result.txt">VCONFKEY_3G_ENABLE</a></td>
+ <td>db/setting/3gEnabled</td>
+ <td>bool</td>
+@@ -494,15 +404,6 @@
+ <td bgcolor="green" align="center"></td>
+ </tr>
+   <tr>
+-<td><a href="../fullsearch/VCONFKEY_TELEPHONY_NETWORK_REJECT_CAUSE-result.txt">VCONFKEY_TELEPHONY_NETWORK_REJECT_CAUSE</a></td>
+-<td>memory/telephony/rej_cause</td>
+-<td>int</td>
+-<td>0</td>
+-<td></td>
+-<td> </td>
+-<td bgcolor="red" align="center">true</td>
+-</tr>
+-  <tr>
+ <td><a href="../fullsearch/VCONFKEY_TELEPHONY_ACTIVATION_COMPLETED-result.txt">VCONFKEY_TELEPHONY_ACTIVATION_COMPLETED</a></td>
+ <td>db/telephony/activation_completed</td>
+ <td>bool</td>
+@@ -557,15 +458,6 @@
+ <td bgcolor="green" align="center"></td>
+ </tr>
+   <tr>
+-<td><a href="../fullsearch/VCONFKEY_TELEPHONY_AVAILABLE_EVDO-result.txt">VCONFKEY_TELEPHONY_AVAILABLE_EVDO</a></td>
+-<td>memory/telephony/available_evdo</td>
+-<td>int</td>
+-<td>0</td>
+-<td></td>
+-<td> </td>
+-<td bgcolor="red" align="center">true</td>
+-</tr>
+-  <tr>
+ <td><a href="../fullsearch/VCONFKEY_TELEPHONY_DB_DEFAULT_DATA_SUBS-result.txt">VCONFKEY_TELEPHONY_DB_DEFAULT_DATA_SUBS</a></td>
+ <td>db/telephony/dualsim/default_data_service</td>
+ <td>int</td>
+diff --git a/scripts/vconf-internal-telephony-keys.sh b/scripts/vconf-internal-telephony-keys.sh
+index 18a6fc1..8fb2069 100644
+--- a/scripts/vconf-internal-telephony-keys.sh
++++ b/scripts/vconf-internal-telephony-keys.sh
+@@ -2,9 +2,6 @@
+ 
+ # DO NOT GENERATE # /usr/bin/vconftool2 set -t  "memory/telephony"  "0" -s "" -i  -g 6514
+ # DO NOT GENERATE # /usr/bin/vconftool2 set -t  "db/telephony"  "0" -s "" -i  -g 6514
+-# DO NOT GENERATE # /usr/bin/vconftool2 set -t  "db/telephony/bKeyStringBlock"  "0" -s "" -i  -g 6514
+-# DO NOT GENERATE # /usr/bin/vconftool2 set -t  "memory/telephony/bFactoryProcess"  "0" -s "" -i  -g 6514
+-# DO NOT GENERATE # /usr/bin/vconftool2 set -t  "memory/telephony/bIMSIFactoryProcess"  "0" -s "" -i  -g 6514
+ /usr/bin/vconftool2 set -t int "memory/telephony/daemon_load_count"  "0" -s "system::vconf_system" -i  -g 6514
+ /usr/bin/vconftool2 set -t string "memory/telephony/nw_name"  "" -s "system::vconf_system" -i  -g 6514
+ /usr/bin/vconftool2 set -t int "memory/telephony/plmn"  "0" -s "system::vconf_system" -i  -g 6514
+@@ -33,15 +30,8 @@
+ /usr/bin/vconftool2 set -t int "memory/telephony/spn_disp_condition"  "0" -s "telephony_framework::vconf" -i  -g 6514
+ /usr/bin/vconftool2 set -t string "memory/telephony/spn"  "" -s "telephony_framework::vconf" -i  -g 6514
+ /usr/bin/vconftool2 set -t int "memory/telephony/rssi"  "0" -s "system::vconf_system" -i  -g 6514
+-# DO NOT GENERATE # /usr/bin/vconftool2 set -t  "memory/telephony/low_battery"  "0" -s "" -i  -g 6514
+ /usr/bin/vconftool2 set -t string "memory/telephony/imei"  "" -s "system::vconf_system" -i  -g 6514
+-# DO NOT GENERATE # /usr/bin/vconftool2 set -t  "memory/telephony/szSWVersion"  "0" -s "" -i  -g 6514
+-# DO NOT GENERATE # /usr/bin/vconftool2 set -t  "memory/telephony/szHWVersion"  "0" -s "" -i  -g 6514
+-# DO NOT GENERATE # /usr/bin/vconftool2 set -t  "memory/telephony/szCalDate"  "0" -s "" -i  -g 6514
+-# DO NOT GENERATE # /usr/bin/vconftool2 set -t  "memory/telephony/productCode"  "0" -s "" -i  -g 6514
+ /usr/bin/vconftool2 set -t int "memory/telephony/ps_type"  "0" -s "system::vconf_system" -i  -g 6514
+-# DO NOT GENERATE # /usr/bin/vconftool2 set -t  "db/telephony/emergency"  "0" -s "" -i  -g 6514
+-# DO NOT GENERATE # /usr/bin/vconftool2 set -t  "memory/telephony/event_system_ready"  "0" -s "" -i  -g 6514
+ /usr/bin/vconftool2 set -t bool "db/setting/3gEnabled"  "1" -s "system::vconf_system" -i  -g 6514
+ /usr/bin/vconftool2 set -t bool "memory/telephony/telephony_ready"  "0" -s "system::vconf_system" -i  -g 6514
+ /usr/bin/vconftool2 set -t int "memory/telephony/nitz_gmt"  "0" -s "system::vconf_system" -i  -g 6514
+@@ -53,14 +43,12 @@
+ /usr/bin/vconftool2 set -t bool "db/telephony/sim_power_state2"  "1" -s "system::vconf_system" -i  -g 6514
+ /usr/bin/vconftool2 set -t bool "db/telephony/dualsim/receive_incoming_call"  "0" -s "system::vconf_system" -i  -g 6514
+ /usr/bin/vconftool2 set -t int "db/telephony/modem_always_on"  "2" -s "system::vconf_system" -i  -g 6514
+-# DO NOT GENERATE # /usr/bin/vconftool2 set -t  "memory/telephony/rej_cause"  "0" -s "" -i  -g 6514
+ /usr/bin/vconftool2 set -t bool "db/telephony/activation_completed"  "0" -s "system::vconf_system" -i  -g 6514
+ /usr/bin/vconftool2 set -t int "memory/telephony/emergency_mode"  "0" -s "system::vconf_system" -i  -g 6514
+ /usr/bin/vconftool2 set -t string "db/telephony/mdn"  "" -s "system::vconf_system" -i  -g 6514
+ /usr/bin/vconftool2 set -t int "memory/telephony/call_alert_signal_type"  "0" -s "system::vconf_system" -i  -g 6514
+ /usr/bin/vconftool2 set -t int "memory/telephony/call_alert_pitch_type"  "0" -s "system::vconf_system" -i  -g 6514
+ /usr/bin/vconftool2 set -t int "memory/telephony/call_signal"  "0" -s "system::vconf_system" -i  -g 6514
+-# DO NOT GENERATE # /usr/bin/vconftool2 set -t  "memory/telephony/available_evdo"  "0" -s "" -i  -g 6514
+ /usr/bin/vconftool2 set -t int "db/telephony/dualsim/default_data_service"  "0" -s "system::vconf_system" -i  -g 6514
+ /usr/bin/vconftool2 set -t int "db/telephony/dualsim/preferred_voice_subscription"  "0" -s "system::vconf_system" -i  -g 6514
+ /usr/bin/vconftool2 set -t int "db/telephony/dualsim/default_subscription"  "0" -s "system::vconf_system" -i  -g 6514
+-- 
+1.9.1
+

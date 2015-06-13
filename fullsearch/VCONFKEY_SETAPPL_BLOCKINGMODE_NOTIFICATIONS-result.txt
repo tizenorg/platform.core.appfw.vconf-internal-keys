@@ -1,0 +1,4 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-hotfix.h <global> 130 #define VCONFKEY_SETAPPL_BLOCKINGMODE_NOTIFICATIONS "db/setting/blockingmode/notifications"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/email-service/email-daemon/email-daemon-init.c emdaemon_initialize 586 vconf_notify_key_changed(VCONFKEY_SETAPPL_BLOCKINGMODE_NOTIFICATIONS, callback_for_BLOCKING_MODE_STATUS, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/email-service/email-daemon/email-daemon-init.c emdaemon_init_blocking_mode_status 734 if (vconf_get_bool(VCONFKEY_SETAPPL_BLOCKINGMODE_NOTIFICATIONS, &blocking_mode_of_setting) != 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/msg-service/utils/MsgContact.cpp checkBlockingMode 873 MsgSettingGetBool(VCONFKEY_SETAPPL_BLOCKINGMODE_NOTIFICATIONS, &isBlockModeOn);

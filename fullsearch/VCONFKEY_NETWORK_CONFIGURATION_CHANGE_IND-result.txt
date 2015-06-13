@@ -1,0 +1,8 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-dnet-keys.h <global> 34 #define VCONFKEY_NETWORK_CONFIGURATION_CHANGE_IND "memory/dnet/network_config"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webkit-efl/Source/WebCore/platform/network/tizen/NetworkStateNotifierTizen.cpp <global> 45 vconf_notify_key_changed(VCONFKEY_NETWORK_CONFIGURATION_CHANGE_IND, networkChanged, this);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/cbhm/2.2/src/item_manager.c get_network_state 130 vconf_get_int(VCONFKEY_NETWORK_CONFIGURATION_CHANGE_IND, &net_conf);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/cbhm/2.3-mobile/src/item_manager.c get_network_state 132 vconf_get_int(VCONFKEY_NETWORK_CONFIGURATION_CHANGE_IND, &net_conf);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/cbhm/2.3-wearable/src/item_manager.c get_network_state 130 vconf_get_int(VCONFKEY_NETWORK_CONFIGURATION_CHANGE_IND, &net_conf);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/network-state.c __netconfig_update_default_connection_info 596 netconfig_set_vconf_int(VCONFKEY_NETWORK_CONFIGURATION_CHANGE_IND, 0);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/network-state.c __netconfig_update_default_connection_info 630 netconfig_set_vconf_int(VCONFKEY_NETWORK_CONFIGURATION_CHANGE_IND, 1);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/utils/emulator.c __netconfig_emulator_set_network_state 106 vconf_set_int(VCONFKEY_NETWORK_CONFIGURATION_CHANGE_IND, 1);

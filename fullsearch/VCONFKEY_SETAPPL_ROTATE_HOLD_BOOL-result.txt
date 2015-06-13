@@ -1,0 +1,2 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 503 #define VCONFKEY_SETAPPL_ROTATE_HOLD_BOOL "memory/setting/rotate_hold"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/setting.c setting_main_app_terminate 770 vconf_set_bool(VCONFKEY_SETAPPL_ROTATE_HOLD_BOOL, FALSE);

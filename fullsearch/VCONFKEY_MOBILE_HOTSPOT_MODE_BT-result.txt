@@ -1,0 +1,8 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-mobile-hotspot-keys.h <global> 30 VCONFKEY_MOBILE_HOTSPOT_MODE_BT = 0x04,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/mobile_hotspot.c indicator_mobile_hotspot_change_cb 138 if(status&VCONFKEY_MOBILE_HOTSPOT_MODE_BT)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/runtime-info/src/runtime_info_connectivity.c runtime_info_bt_hotspot_get_value 108 value->b = (vconf_value&VCONFKEY_MOBILE_HOTSPOT_MODE_BT) ? true : false;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tethering/src/tethering.c tethering_is_enabled 1775 vconf_type = VCONFKEY_MOBILE_HOTSPOT_MODE_BT;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-mobile-ap/src/mh_func_onoff.c _handle_bt_onoff_change 714 if (ad->main.hotspot_mode & VCONFKEY_MOBILE_HOTSPOT_MODE_BT) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-mobile-ap/src/mh_view_main.c _update_main_view 436 bt_state = (Eina_Bool)(state & VCONFKEY_MOBILE_HOTSPOT_MODE_BT);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-mobile-ap/src/mh_view_main.c __get_bt_icon 837 VCONFKEY_MOBILE_HOTSPOT_MODE_BT ? EINA_TRUE : EINA_FALSE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/ug-mobile-ap/src/mh_view_main.c __create_inner_contents 1322 VCONFKEY_MOBILE_HOTSPOT_MODE_BT)) {

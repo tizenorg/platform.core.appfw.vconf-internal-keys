@@ -1,0 +1,2 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 345 #define VCONFKEY_TICKER_NOTI_DISPLAY_CONTENT_IM "db/setting/ticker_noti/display_content/im"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/daemon/ticker.c _ticker_check_displaying_contents_off 177 ret = vconf_get_bool(VCONFKEY_TICKER_NOTI_DISPLAY_CONTENT_IM, &boolval);

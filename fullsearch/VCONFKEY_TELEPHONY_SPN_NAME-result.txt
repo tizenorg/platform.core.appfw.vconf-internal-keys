@@ -1,0 +1,9 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-telephony-keys.h <global> 175 #define VCONFKEY_TELEPHONY_SPN_NAME "memory/telephony/spn"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-general-func.c get_pa_select_network 866 kv = vconf_get_str(VCONFKEY_TELEPHONY_SPN_NAME);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-network/src/setting-network.c __selected_network_change_cb 154 || !safeStrCmp(vconf_name, VCONFKEY_TELEPHONY_SPN_NAME)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-network/src/setting-network.c setting_network_ug_on_create 410 (void )vconf_notify_key_changed(VCONFKEY_TELEPHONY_SPN_NAME, __selected_network_change_cb, networkUG);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-network/src/setting-network.c setting_network_ug_on_destroy 449 (void )vconf_ignore_key_changed(VCONFKEY_TELEPHONY_SPN_NAME, __selected_network_change_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c convert_strgkey_to_vconf 195 return VCONFKEY_TELEPHONY_SPN_NAME;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c convert_vconf_to_strgkey 345 else if (g_str_equal(key, VCONFKEY_TELEPHONY_SPN_NAME) == TRUE) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c _update_vconf_network_name 711 __vconf_check_and_set_str(VCONFKEY_TELEPHONY_SPN_NAME, spnname);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tel-plugin-vconf/src/desc-vconf.c reset_vconf 1159 vconf_set_str(VCONFKEY_TELEPHONY_SPN_NAME, "");

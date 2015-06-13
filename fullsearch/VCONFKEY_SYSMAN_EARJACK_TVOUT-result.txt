@@ -1,0 +1,3 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-sysman-keys.h <global> 82 VCONFKEY_SYSMAN_EARJACK_TVOUT = 0x10
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/information/earphone.c indicator_earphone_change_cb 118 case VCONFKEY_SYSMAN_EARJACK_TVOUT:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/runtime-info/src/runtime_info_system.c runtime_info_tvout_connected_get_value 153 case VCONFKEY_SYSMAN_EARJACK_TVOUT:

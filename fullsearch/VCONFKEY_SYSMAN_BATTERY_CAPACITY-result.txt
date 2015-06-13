@@ -1,0 +1,35 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-sysman-keys.h <global> 48 #define VCONFKEY_SYSMAN_BATTERY_CAPACITY "memory/sysman/battery_capacity"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webapi-plugins/src/systeminfo/systeminfo-utils.cpp <global> 667 RegisterVconfCallback(VCONFKEY_SYSMAN_BATTERY_CAPACITY, OnBatteryChangedCb, instance))
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webapi-plugins/src/systeminfo/systeminfo-utils.cpp <global> 681 UnregisterVconfCallback(VCONFKEY_SYSMAN_BATTERY_CAPACITY, OnBatteryChangedCb))
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webapi-plugins/src/systeminfo/systeminfo-utils.cpp <global> 1700 int ret = vconf_get_int(VCONFKEY_SYSMAN_BATTERY_CAPACITY, &value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webkit-efl/Source/WebCore/platform/efl/BatteryProviderEfl.cpp <global> 102 vconf_get_int(VCONFKEY_SYSMAN_BATTERY_CAPACITY, &levelInt);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webkit-efl/Source/WebCore/platform/efl/BatteryProviderEfl.cpp <global> 107 else if (!strncmp(key, VCONFKEY_SYSMAN_BATTERY_CAPACITY, strlen(VCONFKEY_SYSMAN_BATTERY_CAPACITY))) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webkit-efl/Source/WebCore/platform/efl/BatteryProviderEfl.cpp <global> 108 vconf_get_int(VCONFKEY_SYSMAN_BATTERY_CAPACITY, &levelInt);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webkit-efl/Source/WebCore/platform/efl/BatteryProviderEfl.cpp <global> 168 vconf_get_int(VCONFKEY_SYSMAN_BATTERY_CAPACITY, &levelInt);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webkit-efl/Source/WebCore/platform/efl/BatteryProviderEfl.cpp <global> 185 vconf_notify_key_changed(VCONFKEY_SYSMAN_BATTERY_CAPACITY, batteryChargingAndLevelChangeCallback, static_cast<void *>(this));
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webkit-efl/Source/WebCore/platform/efl/BatteryProviderEfl.cpp <global> 208 vconf_ignore_key_changed(VCONFKEY_SYSMAN_BATTERY_CAPACITY, batteryChargingAndLevelChangeCallback);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-agent/ag-agent/bluetooth-ag-agent.c _bt_ag_agent_get_battery_status 1198 if (vconf_get_int(VCONFKEY_SYSMAN_BATTERY_CAPACITY,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-agent/ag-agent/bluetooth-ag-agent.c __bt_ag_agent_subscribe_vconf_updates 3736 ret = vconf_notify_key_changed(VCONFKEY_SYSMAN_BATTERY_CAPACITY,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-agent/ag-agent/bluetooth-ag-agent.c __bt_ag_agent_release_vconf_updates 3768 ret = vconf_ignore_key_changed(VCONFKEY_SYSMAN_BATTERY_CAPACITY,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-agent/ag-agent/bluetooth-ag-manager.c _bt_hfp_initialize_telephony_manager 242 ret = vconf_get_int(VCONFKEY_SYSMAN_BATTERY_CAPACITY,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/device/src/callback.c register_request 221 return vconf_notify_key_changed(VCONFKEY_SYSMAN_BATTERY_CAPACITY,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/device/src/callback.c release_request 251 return vconf_ignore_key_changed(VCONFKEY_SYSMAN_BATTERY_CAPACITY,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/device/src/device.c battery_changed_inside_cb 127 if (keyname != NULL && changed_callback != NULL && strcmp(keyname, VCONFKEY_SYSMAN_BATTERY_CAPACITY) == 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/device/src/device.c battery_changed_inside_cb 129 if (vconf_get_int(VCONFKEY_SYSMAN_BATTERY_CAPACITY, &percent) == 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/device/src/device.c device_battery_set_cb 145 err = vconf_notify_key_changed(VCONFKEY_SYSMAN_BATTERY_CAPACITY, battery_changed_inside_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/device/src/device.c device_battery_unset_cb 154 int err = vconf_ignore_key_changed(VCONFKEY_SYSMAN_BATTERY_CAPACITY, battery_changed_inside_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/battery/lowbat-handler.c lowbat_process 475 if (vconf_set_int(VCONFKEY_SYSMAN_BATTERY_CAPACITY, new_bat_capacity) == 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/battery/power-supply.c power_supply_status_init 631 vconf_set_int(VCONFKEY_SYSMAN_BATTERY_CAPACITY, battery.capacity);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/clock/clock.c _access_info_cb 920 ret = vconf_get_int(VCONFKEY_SYSMAN_BATTERY_CAPACITY, &battery_capa);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/power/battery.c indicator_battery_update_display 601 ret = vconf_get_int(VCONFKEY_SYSMAN_BATTERY_CAPACITY, &battery_capa);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/power/battery.c register_battery_module 753 ret = vconf_notify_key_changed(VCONFKEY_SYSMAN_BATTERY_CAPACITY,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/power/battery.c unregister_battery_module 803 ret = vconf_ignore_key_changed(VCONFKEY_SYSMAN_BATTERY_CAPACITY,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mtp-responder/src/util/mtp_util.c _util_get_battery_level 50 result = vconf_get_int(VCONFKEY_SYSMAN_BATTERY_CAPACITY,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-security/src/setting-security-encryption.c __update_toolbar_status 72 vconf_get_int(VCONFKEY_SYSMAN_BATTERY_CAPACITY, &battery_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-security/src/setting-security-encryption.c __add_encryption_content 279 vconf_get_int(VCONFKEY_SYSMAN_BATTERY_CAPACITY, &battery_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-security/src/setting-security-encryption.c __add_encryption_content 327 vconf_get_int(VCONFKEY_SYSMAN_BATTERY_CAPACITY, &battery_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-security/src/setting-security-encryption.c setting_security_encryption_create 411 ret = vconf_notify_key_changed(VCONFKEY_SYSMAN_BATTERY_CAPACITY, __enc_vconf_changed_cb, ad);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-security/src/setting-security-encryption.c setting_security_encryption_destroy 437 (void )vconf_ignore_key_changed(VCONFKEY_SYSMAN_BATTERY_CAPACITY, __enc_vconf_changed_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-syspopup/src/mode-syspopup.c _ultra_popup_with_btn 2273 if (vconf_get_int(VCONFKEY_SYSMAN_BATTERY_CAPACITY, &percent))
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/setting.c setting_int_vconf_change_cb 586 } else if (!safeStrCmp(vconf_name, VCONFKEY_SYSMAN_BATTERY_CAPACITY)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/setting.c setting_main_app_reset 998 REGISTER_VCONF_NODE(ad->listened_list, VCONFKEY_SYSMAN_BATTERY_CAPACITY, cb, data);

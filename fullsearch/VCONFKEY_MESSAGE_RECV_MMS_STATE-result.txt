@@ -1,0 +1,3 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-msg-keys.h <global> 28 #define VCONFKEY_MESSAGE_RECV_MMS_STATE "db/msg/recv_mms"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/msg-service/externals/MsgSoundPlayer.cpp MsgSoundGetUnreadMsgCnt 793 unreadCnt += MsgSettingGetInt(VCONFKEY_MESSAGE_RECV_MMS_STATE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/msg-service/utils/MsgGconfWrapper.cpp MsgSettingSetIndicator 222 if (MsgSettingSetInt(VCONFKEY_MESSAGE_RECV_MMS_STATE, MmsCnt) != 0)

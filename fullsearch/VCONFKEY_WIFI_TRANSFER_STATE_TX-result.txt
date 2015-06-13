@@ -1,0 +1,3 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-wifi-keys.h <global> 38 VCONFKEY_WIFI_TRANSFER_STATE_TX,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/wifi.c show_wifi_transfer_icon 125 case VCONFKEY_WIFI_TRANSFER_STATE_TX:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-indicator.c __netconfig_wifi_update_indicator 268 transfer_state = VCONFKEY_WIFI_TRANSFER_STATE_TX;

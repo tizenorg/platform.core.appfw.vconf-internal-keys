@@ -1,0 +1,13 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-starter-keys.h <global> 24 #define VCONFKEY_STARTER_SEQUENCE "memory/starter/sequence"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/battery/lowbat-handler.c lowbat_popup 288 ret = vconf_get_int(VCONFKEY_STARTER_SEQUENCE, &state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/block/ext4.c check_smack_popup 129 ret = vconf_get_int(VCONFKEY_STARTER_SEQUENCE, &val);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/storage/storage.c memnoti_popup 131 ret = vconf_get_int(VCONFKEY_STARTER_SEQUENCE, &val);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/mobile/starter.c _hide_home 50 vconf_set_int(VCONFKEY_STARTER_SEQUENCE, 0);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/mobile/starter.c _show_home 60 vconf_set_int(VCONFKEY_STARTER_SEQUENCE, 1);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c _status_active_change_cb 182 } else if (!strcmp(key_name, VCONFKEY_STARTER_SEQUENCE)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 310 if (vconf_notify_key_changed(VCONFKEY_STARTER_SEQUENCE, _status_active_change_cb, NULL) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 311 _E("Failed to register add the callback for %s", VCONFKEY_STARTER_SEQUENCE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 312 } else if (vconf_get_int(VCONFKEY_STARTER_SEQUENCE, &s_status_active.starter_sequence) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_register 313 _E("Failed to get vconfkey[%s]", VCONFKEY_STARTER_SEQUENCE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_unregister 489 if (vconf_ignore_key_changed(VCONFKEY_STARTER_SEQUENCE, _status_active_change_cb) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/status.c status_unregister 490 _E("Failed to unregister the callback for %s", VCONFKEY_STARTER_SEQUENCE);

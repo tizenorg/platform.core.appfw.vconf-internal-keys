@@ -1,0 +1,36 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-camera-keys.h <global> 24 #define VCONFKEY_CAMERA_STATE "memory/camera/state"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/led/torch.c torch_init 358 if (vconf_get_int(VCONFKEY_CAMERA_STATE, &camera_status) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/led/torch.c torch_init 362 vconf_notify_key_changed(VCONFKEY_CAMERA_STATE, camera_status_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/led/torch.c torch_exit 371 vconf_ignore_key_changed(VCONFKEY_CAMERA_STATE, camera_status_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libfeedback/mobile/src/check.c mobile_init 184 if (vconf_get_int(VCONFKEY_CAMERA_STATE, &camerastatus) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libfeedback/mobile/src/check.c mobile_init 212 vconf_notify_key_changed(VCONFKEY_CAMERA_STATE, feedback_camerastatus_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libfeedback/mobile/src/check.c mobile_exit 225 vconf_ignore_key_changed(VCONFKEY_CAMERA_STATE, feedback_camerastatus_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libfeedback/wearable/src/check.c wearable_init 185 if (vconf_get_int(VCONFKEY_CAMERA_STATE, &camerastatus) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libfeedback/wearable/src/check.c wearable_init 212 vconf_notify_key_changed(VCONFKEY_CAMERA_STATE, feedback_camerastatus_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libfeedback/wearable/src/check.c wearable_exit 224 vconf_ignore_key_changed(VCONFKEY_CAMERA_STATE, feedback_camerastatus_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmedia-thumbnail/server/thumb-server-internal.c _thumb_daemon_camera_vconf_cb 180 err = vconf_get_int(VCONFKEY_CAMERA_STATE, &camera_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmedia-thumbnail/server/thumb-server-internal.c __thumb_daemon_get_camera_state 338 err = vconf_get_int(VCONFKEY_CAMERA_STATE, &camera_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmedia-thumbnail/server/thumb-server.c main 77 err = vconf_notify_key_changed(VCONFKEY_CAMERA_STATE, (vconf_callback_fn) _thumb_daemon_camera_vconf_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmedia-thumbnail/server/thumb-server.c main 79 thumb_err("vconf_notify_key_changed : %s fails", VCONFKEY_CAMERA_STATE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c __mm_camcorder_signal_handler 135 vconf_set_int(VCONFKEY_CAMERA_STATE, VCONFKEY_CAMERA_STATE_NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c _mmcamcorder_realize 984 vconf_get_int(VCONFKEY_CAMERA_STATE, &vconf_camera_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c _mmcamcorder_realize 985 if (vconf_set_int(VCONFKEY_CAMERA_STATE, VCONFKEY_CAMERA_STATE_OPEN)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c _mmcamcorder_realize 1128 vconf_get_int(VCONFKEY_CAMERA_STATE, &vconf_camera_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c _mmcamcorder_realize 1129 vconf_set_int(VCONFKEY_CAMERA_STATE, VCONFKEY_CAMERA_STATE_NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c _mmcamcorder_unrealize 1236 vconf_get_int(VCONFKEY_CAMERA_STATE, &vconf_camera_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c _mmcamcorder_unrealize 1237 vconf_set_int(VCONFKEY_CAMERA_STATE, VCONFKEY_CAMERA_STATE_NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c _mmcamcorder_start 1327 vconf_get_int(VCONFKEY_CAMERA_STATE, &vconf_camera_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c _mmcamcorder_start 1330 vconf_set_int(VCONFKEY_CAMERA_STATE, VCONFKEY_CAMERA_STATE_PREVIEW);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c _mmcamcorder_stop 1403 vconf_get_int(VCONFKEY_CAMERA_STATE, &vconf_camera_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c _mmcamcorder_stop 1406 vconf_set_int(VCONFKEY_CAMERA_STATE, VCONFKEY_CAMERA_STATE_OPEN);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c _mmcamcorder_record 1640 vconf_get_int(VCONFKEY_CAMERA_STATE, &vconf_camera_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c _mmcamcorder_record 1641 vconf_set_int(VCONFKEY_CAMERA_STATE, VCONFKEY_CAMERA_STATE_RECORDING);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c _mmcamcorder_pause 1721 vconf_get_int(VCONFKEY_CAMERA_STATE, &vconf_camera_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c _mmcamcorder_pause 1722 vconf_set_int(VCONFKEY_CAMERA_STATE, VCONFKEY_CAMERA_STATE_RECORDING_PAUSE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c _mmcamcorder_commit 1794 vconf_get_int(VCONFKEY_CAMERA_STATE, &vconf_camera_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c _mmcamcorder_commit 1795 vconf_set_int(VCONFKEY_CAMERA_STATE, VCONFKEY_CAMERA_STATE_PREVIEW);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c _mmcamcorder_cancel 1898 vconf_get_int(VCONFKEY_CAMERA_STATE, &vconf_camera_state);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c _mmcamcorder_cancel 1899 vconf_set_int(VCONFKEY_CAMERA_STATE, VCONFKEY_CAMERA_STATE_PREVIEW);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/msg-service/externals/MsgSoundPlayer.cpp MsgSoundPlayStart 428 cameraState = MsgSettingGetInt(VCONFKEY_CAMERA_STATE);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/notifications/activenoti.c _is_sound_playable 106 ret = vconf_get_int(VCONFKEY_CAMERA_STATE, &status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/swap-manager/daemon/device_vconf.c get_camera_status 146 if (vconf_get_int(VCONFKEY_CAMERA_STATE, &camera_status) < 0) {

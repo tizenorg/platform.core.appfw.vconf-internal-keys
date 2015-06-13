@@ -1,0 +1,31 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-data-slp-setting.c <global> 284 {"usb_mode", "connectivity", INT_SLP_SETTING_USB_MODE, VCONFKEY_SETAPPL_USB_MODE_INT, eINT, {0}, export_json, import_default},
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 149 #define VCONFKEY_SETAPPL_USB_MODE_INT "memory/setting/usb_mode"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-router/src/dr-noti-handler.c __usb_status_noti_handler 50 ret = vconf_get_int(VCONFKEY_SETAPPL_USB_MODE_INT, &usb_mode);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-router/src/dr-noti-handler.c __usb_mode_noti_handler 81 ret = vconf_get_int(VCONFKEY_SETAPPL_USB_MODE_INT, &usb_mode);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-router/src/dr-noti-handler.c _register_vconf_notification 110 vconf_notify_key_changed(VCONFKEY_SETAPPL_USB_MODE_INT,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-router/src/dr-noti-handler.c _register_vconf_notification 113 ERR("Error !!! VCONFKEY reg noti  : %s\n", VCONFKEY_SETAPPL_USB_MODE_INT);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-router/src/dr-noti-handler.c _unregister_vconf_notification 122 vconf_ignore_key_changed(VCONFKEY_SETAPPL_USB_MODE_INT, (vconf_callback_fn) __usb_mode_noti_handler);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/usb/usb-client.c update_current_usb_mode 183 if (vconf_set_int(VCONFKEY_SETAPPL_USB_MODE_INT, legacy) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-agent/src/mobileap_usb.c __handle_usb_disconnect_cb 166 else if (vconf_name && !strcmp(vconf_name, VCONFKEY_SETAPPL_USB_MODE_INT) &&
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-agent/src/mobileap_usb.c __handle_usb_mode_change 215 vconf_ignore_key_changed(VCONFKEY_SETAPPL_USB_MODE_INT,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-agent/src/mobileap_usb.c __handle_usb_mode_change 219 vconf_notify_key_changed(VCONFKEY_SETAPPL_USB_MODE_INT,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-agent/src/mobileap_usb.c __handle_usb_mode_change 221 ret = vconf_get_int(VCONFKEY_SETAPPL_USB_MODE_INT, &vconf_key);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-agent/src/mobileap_usb.c __handle_usb_mode_change 254 vconf_ignore_key_changed(VCONFKEY_SETAPPL_USB_MODE_INT,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-agent/src/mobileap_usb.c _enable_usb_tethering 306 vconf_notify_key_changed(VCONFKEY_SETAPPL_USB_MODE_INT,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-agent/src/mobileap_usb.c _enable_usb_tethering 309 vconf_ret = vconf_get_int(VCONFKEY_SETAPPL_USB_MODE_INT, &usb_mode);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-agent/src/mobileap_usb.c _enable_usb_tethering 312 vconf_ignore_key_changed(VCONFKEY_SETAPPL_USB_MODE_INT,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-agent/src/mobileap_usb.c _enable_usb_tethering 320 vconf_ignore_key_changed(VCONFKEY_SETAPPL_USB_MODE_INT,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-agent/src/mobileap_usb.c _disable_usb_tethering 370 vconf_ignore_key_changed(VCONFKEY_SETAPPL_USB_MODE_INT,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-agent/src/mobileap_usb.c tethering_disable_usb_tethering 451 vconf_notify_key_changed(VCONFKEY_SETAPPL_USB_MODE_INT,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-agent/src/mobileap_usb.c tethering_disable_usb_tethering 453 vconf_ret = vconf_get_int(VCONFKEY_SETAPPL_USB_MODE_INT, &usb_mode);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-agent/src/mobileap_usb.c tethering_disable_usb_tethering 470 vconf_ignore_key_changed(VCONFKEY_SETAPPL_USB_MODE_INT,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-syspopup/src/ms_main.c __handle_popup_resp 324 vconf_ignore_key_changed(VCONFKEY_SETAPPL_USB_MODE_INT,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-syspopup/src/ms_main.c __handle_popup_resp 375 vconf_notify_key_changed(VCONFKEY_SETAPPL_USB_MODE_INT,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-syspopup/src/ms_main.c __handle_popup_resp 391 vconf_notify_key_changed(VCONFKEY_SETAPPL_USB_MODE_INT,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-syspopup/src/ms_main.c __handle_popup_resp 439 vconf_ignore_key_changed(VCONFKEY_SETAPPL_USB_MODE_INT,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mtp-responder/src/mtp_event_handler.c _eh_register_notification_callbacks 74 ret = vconf_notify_key_changed(VCONFKEY_SETAPPL_USB_MODE_INT,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mtp-responder/src/mtp_event_handler.c _eh_register_notification_callbacks 77 ERR("vconf_notify_key_changed(%s) Fail", VCONFKEY_SETAPPL_USB_MODE_INT);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mtp-responder/src/mtp_event_handler.c _eh_deregister_notification_callbacks 400 vconf_ignore_key_changed(VCONFKEY_SETAPPL_USB_MODE_INT,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mtp-responder/src/util/mtp_util.c _util_get_usbmode_status 269 ret = vconf_get_int(VCONFKEY_SETAPPL_USB_MODE_INT,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-general-func.c get_pa_usb_connect_mode_str 134 ret = vconf_get_int(VCONFKEY_SETAPPL_USB_MODE_INT, &value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/setting.c setting_main_app_reset 1007 REGISTER_VCONF_NODE(ad->listened_list, VCONFKEY_SETAPPL_USB_MODE_INT, cb, ad);

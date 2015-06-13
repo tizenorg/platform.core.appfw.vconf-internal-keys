@@ -1,0 +1,5 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-sysman-keys.h <global> 45 VCONFKEY_SYSMAN_BAT_REAL_POWER_OFF
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/battery/lowbat-handler.c lowbat_process 493 if (vconf_state != VCONFKEY_SYSMAN_BAT_REAL_POWER_OFF)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/battery/lowbat-handler.c lowbat_process 494 status = VCONFKEY_SYSMAN_BAT_REAL_POWER_OFF;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/core.c low_battery_state 503 case VCONFKEY_SYSMAN_BAT_REAL_POWER_OFF:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/led/torch.c torch_check_battery_status 120 status == VCONFKEY_SYSMAN_BAT_REAL_POWER_OFF) {

@@ -1,0 +1,7 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-camera-keys.h <global> 34 #define VCONFKEY_CAMERA_SHUTTER_SOUND_POLICY "file/camera/shutter_sound_policy"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/camera/src/util/cam_utils.c cam_utils_check_shutter_sound_policy 293 if (vconf_get_int(VCONFKEY_CAMERA_SHUTTER_SOUND_POLICY, &sound_policy) == 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/camera/src/util/cam_utils.c cam_utils_check_shutter_sound_policy 299 cam_warning(LOG_UI, "get setting failed %s", VCONFKEY_CAMERA_SHUTTER_SOUND_POLICY);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libfeedback/mobile/src/check.c mobile_init 189 if (vconf_get_int(VCONFKEY_CAMERA_SHUTTER_SOUND_POLICY, &shutter_sndstatus) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libfeedback/wearable/src/check.c wearable_init 190 if (vconf_get_int(VCONFKEY_CAMERA_SHUTTER_SOUND_POLICY, &shutter_sndstatus) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c _mmcamcorder_create 578 vconf_get_int(VCONFKEY_CAMERA_SHUTTER_SOUND_POLICY, &hcamcorder->shutter_sound_policy);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-sound/server/mm_sound_mgr_asm.c __need_to_compare_again 1717 vconf_get_int(VCONFKEY_CAMERA_SHUTTER_SOUND_POLICY, &shutter_policy_state);

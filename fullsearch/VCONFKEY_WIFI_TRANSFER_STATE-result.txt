@@ -1,0 +1,5 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-wifi-keys.h <global> 34 #define VCONFKEY_WIFI_TRANSFER_STATE "memory/wifi/transfer_state"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/wifi.c show_wifi_transfer_icon 114 if (vconf_get_int(VCONFKEY_WIFI_TRANSFER_STATE, &status) < 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/wifi.c register_wifi_module 322 ret = vconf_notify_key_changed(VCONFKEY_WIFI_TRANSFER_STATE, _wifi_changed_cb, data);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/wifi.c unregister_wifi_module 337 ret = ret | vconf_ignore_key_changed(VCONFKEY_WIFI_TRANSFER_STATE, _wifi_changed_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/wifi-indicator.c __netconfig_wifi_update_indicator 277 netconfig_set_vconf_int(VCONFKEY_WIFI_TRANSFER_STATE,

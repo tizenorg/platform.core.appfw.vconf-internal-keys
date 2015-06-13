@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-hotfix.h <global> 183 #define VCONFKEY_MOBEX_ENGINE_CONNECTION_METHOD_INT "memory/mobex_engine/conn_method"

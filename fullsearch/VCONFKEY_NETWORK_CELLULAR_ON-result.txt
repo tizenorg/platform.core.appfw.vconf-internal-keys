@@ -1,0 +1,8 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-dnet-keys.h <global> 51 VCONFKEY_NETWORK_CELLULAR_ON = 0x00,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/connection/src/connection.c __connection_convert_cellular_state 45 case VCONFKEY_NETWORK_CELLULAR_ON:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-agent/src/mobileap_network.c __cellular_state_changed_cb 457 if (cellular_state != VCONFKEY_NETWORK_CELLULAR_ON)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-agent/src/mobileap_network.c __profile_state_changed_cb 529 if (cellular_state != VCONFKEY_NETWORK_CELLULAR_ON)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/mobileap-agent/src/mobileap_network.c _open_network 1045 cellular_state != VCONFKEY_NETWORK_CELLULAR_ON) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/tethering/src/tethering.c __check_precondition 1346 if(cellular_state == VCONFKEY_NETWORK_CELLULAR_ON) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/video-player/src/common/mp-video-streaming-ctrl.c mp_streaming_ctrl_cellular_state_cb 275 case VCONFKEY_NETWORK_CELLULAR_ON:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/video-player/src/common/mp-video-streaming-ctrl.c mp_streaming_ctrl_get_cellular_state 546 case VCONFKEY_NETWORK_CELLULAR_ON:

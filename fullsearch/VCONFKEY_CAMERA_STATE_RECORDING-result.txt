@@ -1,0 +1,7 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-camera-keys.h <global> 30 VCONFKEY_CAMERA_STATE_RECORDING,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/led/torch.c edbus_play_pattern 282 if (camera_status == VCONFKEY_CAMERA_STATE_RECORDING) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/led/torch.c camera_status_cb 321 if (camera_status != VCONFKEY_CAMERA_STATE_RECORDING)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c _mmcamcorder_record 1641 vconf_set_int(VCONFKEY_CAMERA_STATE, VCONFKEY_CAMERA_STATE_RECORDING);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-camcorder/src/mm_camcorder_internal.c _mmcamcorder_record 1644 vconf_camera_state, VCONFKEY_CAMERA_STATE_RECORDING);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/msg-service/externals/MsgSoundPlayer.cpp MsgSoundPlayStart 431 if (cameraState == VCONFKEY_CAMERA_STATE_RECORDING) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/notifications/activenoti.c _is_sound_playable 107 if (ret == 0 && status == VCONFKEY_CAMERA_STATE_RECORDING) {

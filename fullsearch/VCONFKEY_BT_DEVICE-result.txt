@@ -1,0 +1,22 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-bt-keys.h <global> 55 #define VCONFKEY_BT_DEVICE "memory/bluetooth/device"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf/include/vconf-keys.h <global> 122 #define VCONFKEY_BT_DEVICE "memory/bluetooth/device"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-agent/hf-agent/bluetooth-hf-agent.c __bt_agent_request_service_level_conn 2718 if (vconf_get_int(VCONFKEY_BT_DEVICE, &bt_device_state) == 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-agent/hf-agent/bluetooth-hf-agent.c __bt_agent_request_service_level_conn 2721 if (vconf_set_int(VCONFKEY_BT_DEVICE, bt_device_state) != 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-agent/hf-agent/bluetooth-hf-agent.c __bt_agent_request_service_level_conn 2744 if (vconf_get_int(VCONFKEY_BT_DEVICE, &bt_device_state) == 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-agent/hf-agent/bluetooth-hf-agent.c __bt_agent_request_service_level_conn 2747 if (vconf_set_int(VCONFKEY_BT_DEVICE, bt_device_state) != 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-agent/hf-agent/bluetooth-hf-agent.c __bt_hf_agent_release 2845 if (vconf_get_int(VCONFKEY_BT_DEVICE, &bt_device_state) == 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-agent/hf-agent/bluetooth-hf-agent.c __bt_hf_agent_release 2848 if (vconf_set_int(VCONFKEY_BT_DEVICE, bt_device_state) != 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-frwk/bt-service/bt-service-adapter.c __bt_set_enabled 520 if (vconf_set_int(VCONFKEY_BT_DEVICE, VCONFKEY_BT_DEVICE_NONE) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-frwk/bt-service/bt-service-adapter.c _bt_set_disabled 565 if (vconf_set_int(VCONFKEY_BT_DEVICE, VCONFKEY_BT_DEVICE_NONE) != 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-frwk/bt-service/bt-service-event-receiver.c __bt_set_device_values 278 if (vconf_get_int(VCONFKEY_BT_DEVICE, &bt_device_state) != 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-frwk/bt-service/bt-service-event-receiver.c __bt_set_device_values 287 if (vconf_set_int(VCONFKEY_BT_DEVICE, bt_device_state) != 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-frwk/bt-service/bt-service-event-receiver.c __bt_set_audio_values 1858 if (vconf_get_int(VCONFKEY_BT_DEVICE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/bluetooth-frwk/bt-service/bt-service-event-receiver.c __bt_set_audio_values 1879 if (vconf_set_int(VCONFKEY_BT_DEVICE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-ui/src/callui-common.c _callui_common_is_headset_conected 277 ret = vconf_get_int(VCONFKEY_BT_DEVICE, &bt_connected);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/core/vc-core-util.c _vc_core_util_get_SAP_status 689 ret = vconf_get_int(VCONFKEY_BT_DEVICE, &bt_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/voice-call-bt.c _vc_bt_get_bt_status 1110 ret = vconf_get_int(VCONFKEY_BT_DEVICE, &bt_status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/ui/src/vcui-application.c _vcui_is_headset_conected 2217 ret = vconf_get_int(VCONFKEY_BT_DEVICE, &bt_connected);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/setting/bluetooth.c indicator_bluetooth_change_cb 167 ret = vconf_get_int(VCONFKEY_BT_DEVICE, &dev);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/setting/bluetooth.c register_bluetooth_module 244 ret = vconf_notify_key_changed(VCONFKEY_BT_DEVICE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/setting/bluetooth.c unregister_bluetooth_module 270 ret = ret | vconf_ignore_key_changed(VCONFKEY_BT_DEVICE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libmm-sound/server/mm_sound_mgr_pulse.c MMSoundMgrPulseGetInitialBTStatus 2168 vconf_get_int(VCONFKEY_BT_DEVICE, &bt_status);

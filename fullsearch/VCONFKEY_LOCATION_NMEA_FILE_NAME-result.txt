@@ -1,0 +1,2 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-location-keys.h <global> 110 #define VCONFKEY_LOCATION_NMEA_FILE_NAME "db/location/replay/FileName"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libslp-lbs-plugin-replay/gps-plugin/src/gps_plugin_replay.c gps_plugin_get_nmea_fd 490 str = setting_get_string(VCONFKEY_LOCATION_NMEA_FILE_NAME);

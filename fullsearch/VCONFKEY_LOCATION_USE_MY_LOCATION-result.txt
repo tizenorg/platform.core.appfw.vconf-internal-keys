@@ -1,0 +1,39 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-location-keys.h <global> 24 #define VCONFKEY_LOCATION_USE_MY_LOCATION "db/location/setting/Usemylocation"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/lbs-server/lbs_server.c __setting_pw_saving_cb 196 setting_set_int(VCONFKEY_LOCATION_USE_MY_LOCATION, 0);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/lbs-server/lbs_server.c __setting_pw_saving_cb 201 setting_get_int(VCONFKEY_LOCATION_USE_MY_LOCATION, &onoff);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-server/lbs-server/lbs_server.c __setting_pw_saving_cb 203 setting_set_int(VCONFKEY_LOCATION_USE_MY_LOCATION, 1);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/gps-syspopup/gps-syspopup.c __gps_popup_gps_agree_cb 202 vconf_get_int(VCONFKEY_LOCATION_USE_MY_LOCATION, &enabled);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/gps-syspopup/gps-syspopup.c __gps_popup_gps_agree_cb 204 vconf_set_int(VCONFKEY_LOCATION_USE_MY_LOCATION, 1);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/gps-syspopup/gps-syspopup.c __gps_popup_gps_disagree_cb 236 vconf_get_int(VCONFKEY_LOCATION_USE_MY_LOCATION, &enabled);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/gps-syspopup/gps-syspopup.c _popup_gps_agree_cb_for_setting_search 266 vconf_get_int(VCONFKEY_LOCATION_USE_MY_LOCATION, &enabled);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/gps-syspopup/gps-syspopup.c _popup_gps_agree_cb_for_setting_search 268 vconf_set_int(VCONFKEY_LOCATION_USE_MY_LOCATION, 1);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/gps-syspopup/gps-syspopup.c _popup_gps_disagree_cb_for_setting_search 289 vconf_set_int(VCONFKEY_LOCATION_USE_MY_LOCATION, 0);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/gps-syspopup/gps-syspopup.c __gps_popup_reset 471 vconf_get_int(VCONFKEY_LOCATION_USE_MY_LOCATION, &enabled);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/gps-syspopup/gps-syspopup.c __gps_popup_reset 481 vconf_get_int(VCONFKEY_LOCATION_USE_MY_LOCATION, &enabled);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/gps-syspopup/gps-syspopup.c __gps_popup_reset 496 vconf_get_int(VCONFKEY_LOCATION_USE_MY_LOCATION, &loc_enable);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/gps-syspopup/gps-syspopup.c __gps_popup_reset 498 vconf_set_int(VCONFKEY_LOCATION_USE_MY_LOCATION, 1);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/src/lbs-setting-window.c __convert_event_from_path 186 if (g_strcmp0(path, VCONFKEY_LOCATION_USE_MY_LOCATION) == 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/src/lbs-setting-window.c __setting_location_gps_set_key 396 vconf_get_int(VCONFKEY_LOCATION_USE_MY_LOCATION, &vconf_val_is_myloc);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/src/lbs-setting-window.c __setting_location_gps_set_key 401 __setting_location_set_int(VCONFKEY_LOCATION_USE_MY_LOCATION, ad->is_myloc);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/src/lbs-setting-window.c __setting_location_myloc_set_key 690 __setting_location_set_int(VCONFKEY_LOCATION_USE_MY_LOCATION, ad->is_myloc);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/src/lbs-setting-window.c __setting_location_check_get 814 int ret = vconf_get_int(VCONFKEY_LOCATION_USE_MY_LOCATION, &value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/src/lbs-setting-window.c _location_enabled_cb 1323 vconf_get_int(VCONFKEY_LOCATION_USE_MY_LOCATION, &enabled);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/src/lbs-setting-window.c _gps_enabled_cb 1345 __setting_location_set_int(VCONFKEY_LOCATION_USE_MY_LOCATION, ad->is_myloc);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/src/lbs-setting-window.c _gps_enabled_cb 1352 __setting_location_set_int(VCONFKEY_LOCATION_USE_MY_LOCATION, ad->is_myloc);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/src/lbs-setting-window.c __setting_location_init 1376 ret &= vconf_get_int(VCONFKEY_LOCATION_USE_MY_LOCATION, &ad->is_myloc);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/src/lbs-setting-window.c __setting_location_init 1378 ret &= vconf_notify_key_changed(VCONFKEY_LOCATION_USE_MY_LOCATION, _location_enabled_cb, (void *)ad);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/src/lbs-setting-window.c __setting_location_init 1384 __setting_location_set_int(VCONFKEY_LOCATION_USE_MY_LOCATION, ad->is_myloc);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/src/lbs-setting-window.c __setting_location_init 1389 __setting_location_set_int(VCONFKEY_LOCATION_USE_MY_LOCATION, ad->is_myloc);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/src/lbs-setting-window.c _setting_location_deinit 1409 ret = vconf_ignore_key_changed(VCONFKEY_LOCATION_USE_MY_LOCATION, _location_enabled_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/src/lbs-setting-window.c _check_cb 1595 __setting_location_set_int(VCONFKEY_LOCATION_USE_MY_LOCATION, KEY_DISABLED);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/src/lbs-setting-window.c _check_cb 1602 __setting_location_set_int(VCONFKEY_LOCATION_USE_MY_LOCATION, KEY_ENABLED);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/src/lbs-setting-window.c _itc1_check_get 1639 int ret = vconf_get_int(VCONFKEY_LOCATION_USE_MY_LOCATION, &value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/lbs-setting/src/lbs-setting-window.c set_dim_view 1665 int ret = vconf_get_int(VCONFKEY_LOCATION_USE_MY_LOCATION, &value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libslp-location/location/manager/location-setting.c convert_event_from_key 81 if (g_strcmp0(key, VCONFKEY_LOCATION_USE_MY_LOCATION) == 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libslp-location/location/manager/location.c __convert_setting_key 58 key = g_strdup(VCONFKEY_LOCATION_USE_MY_LOCATION);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libslp-location/location/manager/location.c __convert_method_from_key 76 if (g_strcmp0(key, VCONFKEY_LOCATION_USE_MY_LOCATION) == 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/settings/modules/gps.c _status_update 127 ret = vconf_get_int(VCONFKEY_LOCATION_USE_MY_LOCATION, &status);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/settings/modules/gps.c _mouse_clicked_cb 156 ret = vconf_get_int(VCONFKEY_LOCATION_USE_MY_LOCATION, &enable);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/settings/modules/gps.c _mouse_clicked_cb 159 vconf_set_int(VCONFKEY_LOCATION_USE_MY_LOCATION, 0);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/settings/modules/gps.c _register_module_event_handler 195 ret = vconf_notify_key_changed(VCONFKEY_LOCATION_USE_MY_LOCATION,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/settings/modules/gps.c _unregister_module_event_handler 206 ret = vconf_ignore_key_changed(VCONFKEY_LOCATION_USE_MY_LOCATION,

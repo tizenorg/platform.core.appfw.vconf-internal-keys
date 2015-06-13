@@ -1,0 +1,3 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-data-slp-setting.c <global> 227 {"screen_zoom", "accessibility", BOOL_SLP_SETTING_ACCESSIBILITY_SCREEN_ZOOM, VCONFKEY_SETAPPL_ACCESSIBILITY_SCREEN_ZOOM, eBOOL, {0}, export_json, import_default},
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 385 #define VCONFKEY_SETAPPL_ACCESSIBILITY_SCREEN_ZOOM "db/setting/accessibility/screen_zoom"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-accessibility/setting-accessibility-main.c setting_accessibility_main_chk_magnifier_cb 103 vconf_set_bool(VCONFKEY_SETAPPL_ACCESSIBILITY_SCREEN_ZOOM, 0);

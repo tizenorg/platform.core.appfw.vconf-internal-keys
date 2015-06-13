@@ -1,0 +1,5 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-sysman-keys.h <global> 31 VCONFKEY_SYSMAN_CHARGER_DISCONNECTED = 0,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/battery/power-supply.c check_online 490 old_online == VCONFKEY_SYSMAN_CHARGER_DISCONNECTED) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/battery/power-supply.c check_online 498 old_online = VCONFKEY_SYSMAN_CHARGER_DISCONNECTED;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/display-dbus.c edbus_releasebrightness 568 charger == VCONFKEY_SYSMAN_CHARGER_DISCONNECTED && !changed) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/runtime-info/src/runtime_info_system.c runtime_info_charger_connected_get_value 261 case VCONFKEY_SYSMAN_CHARGER_DISCONNECTED:

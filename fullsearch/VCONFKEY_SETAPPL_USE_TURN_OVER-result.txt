@@ -1,0 +1,8 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-common/src/setting-common-data-slp-setting.c <global> 250 {"use_turn_over", "motion", BOOL_SLP_SETTING_MOTION_USE_TURN_OVER, VCONFKEY_SETAPPL_USE_TURN_OVER, eBOOL, {0}, export_json, import_default},
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 453 #define VCONFKEY_SETAPPL_USE_TURN_OVER "db/setting/use_turn_over"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-manager/module/src/callmgr-sensor.c _callmgr_sensor_face_down_start 124 if (!vconf_get_bool(VCONFKEY_SETAPPL_USE_TURN_OVER, &motion_turn_over_option)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/voice-call-device.c _voicecall_dvc_motion_sensor_init 700 if (!vconf_get_bool(VCONFKEY_SETAPPL_USE_TURN_OVER, &motion_turn_over_option)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/msg-service/externals/MsgSensorWrapper.cpp MsgSensorCB 52 if(MsgSettingGetInt(VCONFKEY_SETAPPL_USE_TURN_OVER)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/sensord/src/motion/motion_sensor.cpp get_motion_setting 104 if (vconf_get_bool(VCONFKEY_SETAPPL_USE_TURN_OVER, &vconf_val) == 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/sensord/src/motion/motion_sensor.cpp motion_enable_cb 150 } else if (!strcmp(vconf_keynode_get_name(node), VCONFKEY_SETAPPL_USE_TURN_OVER)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/sensord/src/motion/motion_sensor.cpp init 425 vconf_notify_key_changed(VCONFKEY_SETAPPL_USE_TURN_OVER, motion_enable_cb, this);

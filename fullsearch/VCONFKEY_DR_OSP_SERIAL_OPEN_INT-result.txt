@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-dr-keys.h <global> 24 #define VCONFKEY_DR_OSP_SERIAL_OPEN_INT "memory/data_router/osp_serial_open"

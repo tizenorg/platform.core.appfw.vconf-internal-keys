@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-browser-keys.h <global> 37 #define VCONFKEY_BROWSER_CUSTOM_USER_AGENT "db/browser/custom_user_agent"

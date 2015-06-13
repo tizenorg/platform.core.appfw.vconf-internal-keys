@@ -1,0 +1,6 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-sysman-keys.h <global> 180 VCONFKEY_SYSMAN_POWER_OFF_POPUP = 1,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/display/core.c update_setting 1898 case VCONFKEY_SYSMAN_POWER_OFF_POPUP:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/led/rgb.c led_poweroff_changed_cb 364 state == VCONFKEY_SYSMAN_POWER_OFF_POPUP)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/power/power-handler.c power_off_execute 388 case VCONFKEY_SYSMAN_POWER_OFF_POPUP:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/power/systemd-power.c poweroff_control_cb 160 case VCONFKEY_SYSMAN_POWER_OFF_POPUP:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/wearable/starter.c _power_off_cb 66 if (val > VCONFKEY_SYSMAN_POWER_OFF_POPUP) {

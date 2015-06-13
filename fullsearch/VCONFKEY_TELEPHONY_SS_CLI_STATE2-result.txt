@@ -1,0 +1,9 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-telephony-keys.h <global> 157 #define VCONFKEY_TELEPHONY_SS_CLI_STATE2 "db/telephony/ss_cli_state2"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-more-call-setting.c __cst_gl_label_get_expandable 325 result = _cst_vconf_get_int(VCONFKEY_TELEPHONY_SS_CLI_STATE2, &value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-more-call-setting.c __cst_gl_sel_show_my_number 417 _cst_vconf_set_int(VCONFKEY_TELEPHONY_SS_CLI_STATE2,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-more-call-setting.c __cst_gl_icon_get_sub_exp 476 VCONFKEY_TELEPHONY_SS_CLI_STATE2);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-more-call-setting.c __cst_more_caller_id_changed_cb 513 result = _cst_vconf_get_int(VCONFKEY_TELEPHONY_SS_CLI_STATE2, &value);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-more-call-setting.c __cst_gl_exp 615 vconf_notify_key_changed(VCONFKEY_TELEPHONY_SS_CLI_STATE2,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-more-call-setting.c __cst_create_genlist_more_cst 726 vconf_notify_key_changed(VCONFKEY_TELEPHONY_SS_CLI_STATE2,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-more-call-setting.c _cst_destroy_more_call_setting 893 vconf_ignore_key_changed(VCONFKEY_TELEPHONY_SS_CLI_STATE2, __cst_more_caller_id_changed_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call-setting/src/cst-more-call-setting.c _cst_destroy_more_call_setting 894 vconf_ignore_key_changed(VCONFKEY_TELEPHONY_SS_CLI_STATE2, _cst_vconfkey_change_notify_cb);

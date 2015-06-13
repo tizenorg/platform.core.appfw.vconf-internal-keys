@@ -1,0 +1,4 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-hotfix.h <global> 120 #define VCONFKEY_SETAPPL_BLOCKINGMODE_ALLOWED_CONTACT_TYPE "db/setting/blockingmode/allowed_contact_type"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/voice-call-service.c voicecall_service_check_block_mode 1485 if (vconf_get_int(VCONFKEY_SETAPPL_BLOCKINGMODE_ALLOWED_CONTACT_TYPE, &block_allow_type) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/email-service/email-core/email-core-utils.c emcore_check_blocking_mode_internal 5025 if (vconf_get_int(VCONFKEY_SETAPPL_BLOCKINGMODE_ALLOWED_CONTACT_TYPE, &allowed_contact_type) != 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/msg-service/utils/MsgContact.cpp checkBlockingMode 877 blockModeType = MsgSettingGetInt(VCONFKEY_SETAPPL_BLOCKINGMODE_ALLOWED_CONTACT_TYPE);

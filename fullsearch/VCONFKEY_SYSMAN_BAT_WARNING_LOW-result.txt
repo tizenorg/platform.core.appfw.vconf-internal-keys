@@ -1,0 +1,7 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-sysman-keys.h <global> 42 VCONFKEY_SYSMAN_BAT_WARNING_LOW,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/device/src/device.c device_battery_get_warning_status 179 } else if (value == VCONFKEY_SYSMAN_BAT_WARNING_LOW) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/battery/lowbat-handler.c lowbat_process 506 if (vconf_state != VCONFKEY_SYSMAN_BAT_WARNING_LOW)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/battery/lowbat-handler.c lowbat_process 507 status = VCONFKEY_SYSMAN_BAT_WARNING_LOW;
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-applications/src/setting-applications-main.c setting_applications_main_lowbat_cb 250 if (battery_value < VCONFKEY_SYSMAN_BAT_WARNING_LOW) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-display/src/setting-display-main.c setting_display_main_lowbat_cb 230 if (battery_value < VCONFKEY_SYSMAN_BAT_WARNING_LOW) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-display/src/setting-display-main.c setting_display_main_create 555 if (battery_value < VCONFKEY_SYSMAN_BAT_WARNING_LOW) {

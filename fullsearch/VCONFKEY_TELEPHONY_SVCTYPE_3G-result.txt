@@ -1,0 +1,6 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-telephony-keys.h <global> 62 VCONFKEY_TELEPHONY_SVCTYPE_3G ,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webapi-plugins/src/systeminfo/systeminfo-utils.cpp <global> 2040 } else if (networkType == VCONFKEY_TELEPHONY_SVCTYPE_3G
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/connection.c indicator_conn_change_cb 437 case VCONFKEY_TELEPHONY_SVCTYPE_3G:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/connection.c indicator_conn_change_cb 513 case VCONFKEY_TELEPHONY_SVCTYPE_3G:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/processing/transfer.c access_info_cb 140 case VCONFKEY_TELEPHONY_SVCTYPE_3G:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/network-state.c __netconfig_adjust_tcp_buffer_size 499 case VCONFKEY_TELEPHONY_SVCTYPE_3G:

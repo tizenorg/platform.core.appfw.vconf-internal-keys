@@ -1,0 +1,2 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 90 #define VCONFKEY_SETAPPL_CALL_RINGTONE_SOUND_VOLUME_INT "db/setting/sound/call/ringtone_sound_volume"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/call/call-engine/voice-call-sound.c __voicecall_snd_set_mm_volume 1590 if (FALSE == vconf_get_int(VCONFKEY_SETAPPL_CALL_RINGTONE_SOUND_VOLUME_INT, &set_volume_level)) {

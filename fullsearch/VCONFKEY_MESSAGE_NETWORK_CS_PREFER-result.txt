@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-msg-keys.h <global> 36 VCONFKEY_MESSAGE_NETWORK_CS_PREFER = 0x04

@@ -1,0 +1,4 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 449 #define VCONFKEY_SETAPPL_PANNING_BROWSER_SENSITIVITY "db/setting/panning_browser_sensitivity"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/sensord/src/motion/motion_sensor.cpp get_motion_setting 119 if (vconf_get_int(VCONFKEY_SETAPPL_PANNING_BROWSER_SENSITIVITY, &vconf_val) == 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/sensord/src/motion/motion_sensor.cpp sensitivity_change_cb 178 } else if (!strcmp(vconf_keynode_get_name(node), VCONFKEY_SETAPPL_PANNING_BROWSER_SENSITIVITY)) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/sensord/src/motion/motion_sensor.cpp init 430 vconf_notify_key_changed(VCONFKEY_SETAPPL_PANNING_BROWSER_SENSITIVITY, sensitivity_change_cb, this);

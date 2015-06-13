@@ -1,0 +1,4 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-wifi-keys.h <global> 93 #define VCONFKEY_WIFI_DIRECT_SENDING_STATE "memory/wifi_direct/share/sending_state"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/processing/uploading.c indicator_uploading_change_cb 131 if (vconf_get_int(VCONFKEY_WIFI_DIRECT_SENDING_STATE, &status) == 0)
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/processing/uploading.c register_uploading_module 182 ret = ret | vconf_notify_key_changed(VCONFKEY_WIFI_DIRECT_SENDING_STATE,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/processing/uploading.c unregister_uploading_module 197 ret = ret | vconf_ignore_key_changed(VCONFKEY_WIFI_DIRECT_SENDING_STATE,

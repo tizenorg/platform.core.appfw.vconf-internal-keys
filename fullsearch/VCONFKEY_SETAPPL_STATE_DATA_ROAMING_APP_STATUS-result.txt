@@ -1,0 +1,1 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 549 #define VCONFKEY_SETAPPL_STATE_DATA_ROAMING_APP_STATUS "db/setting/data_roaming_app/status"

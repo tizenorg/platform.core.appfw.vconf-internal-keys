@@ -1,0 +1,6 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 34 #define VCONFKEY_SETAPPL_CALL_VIBRATION_PATTERN_STR "db/setting/sound/call/vibration_pattern_path"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-profile/src/setting-profile-common.c setting_sound_check_file_exist 208 int ret = vconf_set_str(VCONFKEY_SETAPPL_CALL_VIBRATION_PATTERN_STR, strdup_file_path);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-profile/src/setting-profile-sound-main.c __get_lite_main_list 525 char *sdcard_filepath = vconf_get_str(VCONFKEY_SETAPPL_CALL_VIBRATION_PATTERN_STR);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-profile/src/setting-profile-sound-main.c __get_lite_main_list 527 vconf_set_str(VCONFKEY_SETAPPL_CALL_VIBRATION_PATTERN_STR, "NONE");
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-profile/src/setting-profile-sound-main.c __get_lite_main_list 528 sdcard_filepath = vconf_get_str(VCONFKEY_SETAPPL_CALL_VIBRATION_PATTERN_STR);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-profile/src/setting-profile-sound-main.c __get_lite_main_list 535 vconf_set_str(VCONFKEY_SETAPPL_CALL_VIBRATION_PATTERN_STR, "NONE");

@@ -1,0 +1,2 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-sysman-keys.h <global> 117 VCONFKEY_SYSMAN_MMC_MOUNT_ALREADY,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-storage/src/setting-storage-SD.c storageUg_SD_info_inserted_not_mounted 388 || VCONFKEY_SYSMAN_MMC_MOUNT_ALREADY == status) {

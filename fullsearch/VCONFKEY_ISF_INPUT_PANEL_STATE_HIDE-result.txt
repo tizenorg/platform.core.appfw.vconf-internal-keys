@@ -1,0 +1,4 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-isf-keys.h <global> 31 VCONFKEY_ISF_INPUT_PANEL_STATE_HIDE = 0,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/deviced/src/touch/touch-controller.c touch_vconf_pm_sip_status 35 case VCONFKEY_ISF_INPUT_PANEL_STATE_HIDE:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/isf/ism/demos/isf_demo_efl.cpp input_panel_state_changed_cb 308 case VCONFKEY_ISF_INPUT_PANEL_STATE_HIDE:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/isf/ism/extras/efl_panel/isf_panel_efl.cpp x_event_window_property_cb 5906 vconf_set_int (VCONFKEY_ISF_INPUT_PANEL_STATE, VCONFKEY_ISF_INPUT_PANEL_STATE_HIDE);

@@ -1,0 +1,4 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-telephony-keys.h <global> 60 VCONFKEY_TELEPHONY_SVCTYPE_2_5G ,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/connection.c indicator_conn_change_cb 427 case VCONFKEY_TELEPHONY_SVCTYPE_2_5G:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/connection/connection.c indicator_conn_change_cb 503 case VCONFKEY_TELEPHONY_SVCTYPE_2_5G:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/net-config/src/network-state.c __netconfig_adjust_tcp_buffer_size 507 case VCONFKEY_TELEPHONY_SVCTYPE_2_5G:

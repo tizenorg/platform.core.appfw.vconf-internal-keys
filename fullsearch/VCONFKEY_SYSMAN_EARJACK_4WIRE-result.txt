@@ -1,0 +1,4 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-sysman-keys.h <global> 81 VCONFKEY_SYSMAN_EARJACK_4WIRE = 0x3,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/information/earphone.c indicator_earphone_change_cb 117 case VCONFKEY_SYSMAN_EARJACK_4WIRE:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/runtime-info/src/runtime_info_system.c runtime_info_audiojack_get_value 54 case VCONFKEY_SYSMAN_EARJACK_4WIRE:
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/runtime-info/src/runtime_info_system.c runtime_info_audio_jack_status_get_value 190 case VCONFKEY_SYSMAN_EARJACK_4WIRE:

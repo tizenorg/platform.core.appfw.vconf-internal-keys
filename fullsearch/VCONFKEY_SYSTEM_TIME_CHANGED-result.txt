@@ -1,0 +1,26 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-system-keys.h <global> 24 #define VCONFKEY_SYSTEM_TIME_CHANGED "memory/system/timechanged"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webapi-plugins/src/time/time_instance.cc <global> 517 if (0 != vconf_ignore_key_changed(VCONFKEY_SYSTEM_TIME_CHANGED,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webapi-plugins/src/time/time_instance.cc <global> 529 if (0 != vconf_notify_key_changed(VCONFKEY_SYSTEM_TIME_CHANGED,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/webapi-plugins/src/time/time_instance.cc <global> 571 if (0 != vconf_ignore_key_changed(VCONFKEY_SYSTEM_TIME_CHANGED,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/alarm-manager/alarm-manager.c __on_system_time_external_changed 1794 vconf_set_int(VCONFKEY_SYSTEM_TIME_CHANGED,(int )diff_time);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/alarm-manager/alarm-manager.c __reschedule_alarms_with_newtime 2170 vconf_set_int(VCONFKEY_SYSTEM_TIME_CHANGED,(int )diff_time);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/alarm-manager/alarm-manager.c alarm_manager_alarm_set_timezone 2407 vconf_set_int(VCONFKEY_SYSTEM_TIME_CHANGED, 0);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/appcore-watch/src/appcore-watch.c __vconf_cb 582 if (!strcmp(name, VCONFKEY_SYSTEM_TIME_CHANGED))
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/appcore-watch/src/appcore-watch.c __add_vconf 630 r = vconf_notify_key_changed(VCONFKEY_SYSTEM_TIME_CHANGED, __vconf_cb, &priv);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/calendar-service/server/cal_server_alarm.c _cal_server_alarm_timechange_cb 915 vconf_get_int(VCONFKEY_SYSTEM_TIME_CHANGED, &t);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/calendar-service/server/cal_server_alarm.c _cal_server_alarm_set_timechange 921 vconf_notify_key_changed(VCONFKEY_SYSTEM_TIME_CHANGED,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-provider-slave/src/main.c app_create 360 ret = vconf_notify_key_changed(VCONFKEY_SYSTEM_TIME_CHANGED, time_changed_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-provider-slave/src/main.c app_terminate 418 ret = vconf_ignore_key_changed(VCONFKEY_SYSTEM_TIME_CHANGED, time_changed_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-provider-slave/svc_src/main.c app_create 360 ret = vconf_notify_key_changed(VCONFKEY_SYSTEM_TIME_CHANGED, time_changed_cb, NULL);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/data-provider-slave/svc_src/main.c app_terminate 417 ret = vconf_ignore_key_changed(VCONFKEY_SYSTEM_TIME_CHANGED, time_changed_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-time/src/setting-time-main.c __update_time_via_sim_card 347 vconf_set_int(VCONFKEY_SYSTEM_TIME_CHANGED, t_event_val);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-time/src/setting-time-main.c setting_time_main_create 968 vconf_notify_key_changed(VCONFKEY_SYSTEM_TIME_CHANGED, time_changed_callback, (void *)ad);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-time/src/setting-time-main.c setting_time_main_destroy 1034 vconf_ignore_key_changed(VCONFKEY_SYSTEM_TIME_CHANGED,
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-time/src/setting-time-main.c setting_time_main_launch_worldclock_result_ug_cb 1189 vconf_set_int(VCONFKEY_SYSTEM_TIME_CHANGED, t_event_val);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/wearable/hourly_alert.c hourly_alert_init 250 if (vconf_notify_key_changed(VCONFKEY_SYSTEM_TIME_CHANGED, _hourly_system_time_changed_cb, NULL) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/wearable/hourly_alert.c hourly_alert_init 251 _E("Failed to add the callback for %s changed", VCONFKEY_SYSTEM_TIME_CHANGED);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/wearable/hourly_alert.c hourly_alert_fini 265 if (vconf_ignore_key_changed(VCONFKEY_SYSTEM_TIME_CHANGED, _hourly_system_time_changed_cb) < 0) {
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/starter/src/wearable/hourly_alert.c hourly_alert_fini 266 _E("Failed to ignore the callback for %s changed", VCONFKEY_SYSTEM_TIME_CHANGED);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-settings/src/system_setting_platform.c system_setting_set_changed_callback_time_changed 1603 return system_setting_vconf_set_changed_cb(VCONFKEY_SYSTEM_TIME_CHANGED, SYSTEM_SETTINGS_KEY_TIME_CHANGED, 3, user_data);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/system-settings/src/system_setting_platform.c system_setting_unset_changed_callback_time_changed 1608 return system_setting_vconf_unset_changed_cb(VCONFKEY_SYSTEM_TIME_CHANGED, 3);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/web-provider/src/Daemon/BoxDaemonImpl.cpp create 61 if (vconf_notify_key_changed(VCONFKEY_SYSTEM_TIME_CHANGED, requestUpdateAppBoxCallback, this) != 0) {

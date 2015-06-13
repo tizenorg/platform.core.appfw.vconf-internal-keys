@@ -1,0 +1,21 @@
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/vconf-internal-keys/include/vconf-internal-setting-keys.h <global> 389 #define VCONFKEY_SETAPPL_TIMEZONE_ID "db/setting/timezone_id"
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/appcore-watch/src/appcore-watch.c __get_timezone 715 return vconf_get_str(VCONFKEY_SETAPPL_TIMEZONE_ID);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/cert-svc-ui/view/src/certificates/detail_info_cert.c _get_icu_date 158 char *timezone = vconf_get_str(VCONFKEY_SETAPPL_TIMEZONE_ID);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/daemon/util.c _get_timezone_from_vconf 355 szTimezone = vconf_get_str(VCONFKEY_SETAPPL_TIMEZONE_ID);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/clock/clock.c timezone_id_changed 376 szTimezone = vconf_get_str(VCONFKEY_SETAPPL_TIMEZONE_ID);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/clock/clock.c register_clock_module 407 ret = vconf_notify_key_changed(VCONFKEY_SETAPPL_TIMEZONE_ID, timezone_id_changed, data);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/indicator-win/modules/clock/clock.c unregister_clock_module 431 ret = ret | vconf_ignore_key_changed(VCONFKEY_SETAPPL_TIMEZONE_ID, timezone_id_changed);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/libug-worldclock-efl/clock-common/src/clock_fwk_icu.c clk_timezone_update 95 char *timezone = vconf_get_str(VCONFKEY_SETAPPL_TIMEZONE_ID);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/datetime/util-time.c _get_timezone_from_vconf 1064 szTimezone = vconf_get_str(VCONFKEY_SETAPPL_TIMEZONE_ID);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/datetime/util-time.c _time_event_deattach 1201 ret = vconf_ignore_key_changed(VCONFKEY_SETAPPL_TIMEZONE_ID, _util_time_vconf_changed_cb);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/datetime/util-time.c _time_event_deattach 1202 msgif(ret != 0, "failed to set key(%s) : %d", VCONFKEY_SETAPPL_TIMEZONE_ID, ret);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/datetime/util-time.c _time_event_attach 1222 ret = vconf_notify_key_changed(VCONFKEY_SETAPPL_TIMEZONE_ID, _util_time_vconf_changed_cb, data);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/datetime/util-time.c _time_event_attach 1223 msgif(ret != 0, "failed to set key(%s) : %d", VCONFKEY_SETAPPL_TIMEZONE_ID, ret);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/notifications/noti.c _noti_time_init 1435 ret = vconf_notify_key_changed(VCONFKEY_SETAPPL_TIMEZONE_ID, _on_vconf_time_changed, data);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/notifications/noti.c _noti_time_init 1436 msgif(ret != 0, "failed to set key(%s) : %d", VCONFKEY_SETAPPL_TIMEZONE_ID, ret);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/notifications/noti.c _noti_time_fini 1447 ret = vconf_ignore_key_changed(VCONFKEY_SETAPPL_TIMEZONE_ID, _on_vconf_time_changed);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/notifications/noti.c _noti_time_fini 1448 msgif(ret != 0, "failed to set key(%s) : %d", VCONFKEY_SETAPPL_TIMEZONE_ID, ret);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/quickpanel/daemon/notifications/noti_util.c _get_timezone_from_vconf 106 szTimezone = vconf_get_str(VCONFKEY_SETAPPL_TIMEZONE_ID);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-time/src/setting-time-main.c time_changed_callback 124 char *timezone = vconf_get_str(VCONFKEY_SETAPPL_TIMEZONE_ID);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/setting-time/src/setting-time-main.c __setting_set_city_tzone 1126 vconf_set_str(VCONFKEY_SETAPPL_TIMEZONE_ID, pStr);
+/home/mjpark/scp-image/cprog/get_img/tizen_24_fullsearch/settings/src/conf_util/setting_confutil.c timezone_init 78 int ret = vconf_set_str(VCONFKEY_SETAPPL_TIMEZONE_ID, tzpath + 20);
