@@ -1,9 +1,9 @@
 /*
- * vconf-internal-starter-keys
+ * vconf-internal-keys
  *
- * Copyright (c) 2000 - 2012 Samsung Electronics Co., Ltd. All rights reserved.
+ * Copyright (c) 2000 - 2011 Samsung Electronics Co., Ltd. All rights reserved.
  *
- * Contact: Seungtaek Chung <seungtaek.chung@samsung.com>, Mi-Ju Lee <miju52.lee@samsung.com>, Xi Zhichan <zhichan.xi@samsung.com>, YoungSub Ko <ys4610.ko@samsung.com>
+ * Contact: Hakjoo Ko <email at samsung.com>
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -21,38 +21,8 @@
 
 #ifndef __VCONF_INTERNAL_STARTER_KEYS_H__
 #define __VCONF_INTERNAL_STARTER_KEYS_H__
+#define VCONFKEY_STARTER_SEQUENCE  "memory/starter/sequence"
 
-/**
- * This file defines keys and values.
- *
- * @file        vconf-internal-starter-keys.h
- * @defgroup    vconf_internal_starter-key Definitions of internal shared Keys for starter
- * @ingroup     vconf_internal_key
- * @author      Seungtaek Chung <seungtaek.chung@samsung.com>, Mi-Ju Lee <miju52.lee@samsung.com>, Xi Zhichan <zhichan.xi@samsung.com>, youngsub Ko <ys4610.ko@samsung.com>
- * @version     0.1
- * @brief       This file has the definitions of shared keys for starter \n
- */
+#define VCONFKEY_STARTER_USE_VOLUME_KEY  "memory/starter/use_volume_key"
 
-/* ========================== starter Keys & Values ============================ */
-/**
- * @addtogroup vconf_internal_starter_key
- * @{
- * @brief starter Keys & Values\n
- *        Maintainer : Seungtaek Chung <seungtaek.chung@samsung.com>, Mi-Ju Lee <miju52.lee@samsung.com>, Xi Zhichan <zhichan.xi@samsung.com>, YoungSub Ko <ys4610.ko@samsung.com>
- */
-
-/**
- * @brief sequence of displaying home screen
- *
- * type : int
-*/
-#define VCONFKEY_STARTER_SEQUENCE	"memory/starter/sequence"
-
-/**
- * @brief usage of volume key.
- *
- * type : int
-*/
-#define VCONFKEY_STARTER_USE_VOLUME_KEY "memory/starter/use_volume_key"
-
-#endif  /* __VCONF_INTERNAL_STARTER_KEYS_H__ */
+#endif /*   __VCONF_INTERNAL_STARTER_KEYS_H__    */
