@@ -3,7 +3,7 @@
  *
  * Copyright (c) 2000 - 2011 Samsung Electronics Co., Ltd. All rights reserved.
  *
- * Contact: Hakjoo Ko <hakjoo.ko@samsung.com>
+ * Contact: Hakjoo Ko <email at samsung.com>
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -21,211 +21,83 @@
 
 #ifndef __VCONF_INTERNAL_DNET_KEYS_H__
 #define __VCONF_INTERNAL_DNET_KEYS_H__
+#define VCONFKEY_NETWORK_STATUS  "memory/dnet/status"
 
-/**
- * This file defines keys and values.
- *
- * @file        vconf-internal-dnet-keys.h
- * @defgroup    vconf_internal_dnet_key Definitions of internal shared Keys for data-network
- * @ingroup     vconf_internal_key
- * @author      s.seo@samsung.com
- * @version     0.1
- * @brief       This file has the definitions of shared keys for data-network \n
- */
-
-/* ========================== Data network Keys & Values ============================ */
-/**
- * @addtogroup vconf_internal_dnet_key
- * @{
- * @brief Data network Keys & Values\n
- *        Maintainer : s.seo@samsung.com
- */
-
-
-/**
- * @brief network state of both Cellular and Wi-Fi
- *
- * 0: Idle
- * 1: Cellular connected
- * 2: Wi-Fi connected
- * 3: Ethernet connected
- * 4: Bluetooth connected
- */
-#define VCONFKEY_NETWORK_STATUS                     "memory/dnet/status"
 enum {
-	/** Idle */
 	VCONFKEY_NETWORK_OFF = 0,
-	/** Cellular connected */
-	VCONFKEY_NETWORK_CELLULAR,
-	/** Wi-Fi connected */
-	VCONFKEY_NETWORK_WIFI,
-	/** Ethernet connected */
-	VCONFKEY_NETWORK_ETHERNET,
-	/** Bluetooth connected */
-	VCONFKEY_NETWORK_BLUETOOTH
+		VCONFKEY_NETWORK_CELLULAR,
+		VCONFKEY_NETWORK_WIFI,
+		VCONFKEY_NETWORK_ETHERNET,
+		VCONFKEY_NETWORK_BLUETOOTH
 };
 
-/**
- * @brief network configuration changed such as Cellular and Wi-Fi
- *
- * 0: Not connected
- * 1: Connected and IP or Proxy information has been changed
- */
-#define VCONFKEY_NETWORK_CONFIGURATION_CHANGE_IND   "memory/dnet/network_config"
+#define VCONFKEY_NETWORK_CONFIGURATION_CHANGE_IND  "memory/dnet/network_config"
 
-/**
- * @brief Active IP address
- *
- */
-#define VCONFKEY_NETWORK_IP                         "memory/dnet/ip"
+#define VCONFKEY_NETWORK_IP  "memory/dnet/ip"
 
-/**
- * @brief Active Proxy address
- *
- */
-#define VCONFKEY_NETWORK_PROXY                      "memory/dnet/proxy"
+#define VCONFKEY_NETWORK_PROXY  "memory/dnet/proxy"
 
-/**
- * @brief Detail Wi-Fi state
- *
- * 0: power off
- * 1: power on
- * 2: connected
- * 3: patcket transmitted
- */
-#define VCONFKEY_NETWORK_WIFI_STATE                 "memory/dnet/wifi"
+#define VCONFKEY_NETWORK_WIFI_STATE  "memory/dnet/wifi"
+
 enum {
-	/** power off */
 	VCONFKEY_NETWORK_WIFI_OFF,
-	/** power on */
-	VCONFKEY_NETWORK_WIFI_NOT_CONNECTED,
-	/** connected */
-	VCONFKEY_NETWORK_WIFI_CONNECTED
+		VCONFKEY_NETWORK_WIFI_NOT_CONNECTED,
+		VCONFKEY_NETWORK_WIFI_CONNECTED
 };
 
-/**
- * @brief Cellular state
- *
- * 0: On
- * 1: 3G option off
- * 2: Roaming off
- * 3: Flight mode enabled
- * 4: No service
- */
-#define VCONFKEY_NETWORK_CELLULAR_STATE             "memory/dnet/cellular"
+#define VCONFKEY_NETWORK_CELLULAR_STATE  "memory/dnet/cellular"
+
 enum {
-	/** On */
-	VCONFKEY_NETWORK_CELLULAR_ON,
-	/** 3G option off */
-	VCONFKEY_NETWORK_CELLULAR_3G_OPTION_OFF,
-	/** Roaming off */
-	VCONFKEY_NETWORK_CELLULAR_ROAMING_OFF,
-	/** Flight mode enabled */
-	VCONFKEY_NETWORK_CELLULAR_FLIGHT_MODE,
-	/** No service */
-	VCONFKEY_NETWORK_CELLULAR_NO_SERVICE
+	VCONFKEY_NETWORK_CELLULAR_ON = 0x00,
+		VCONFKEY_NETWORK_CELLULAR_3G_OPTION_OFF,
+		VCONFKEY_NETWORK_CELLULAR_ROAMING_OFF,
+		VCONFKEY_NETWORK_CELLULAR_FLIGHT_MODE,
+		VCONFKEY_NETWORK_CELLULAR_NO_SERVICE
 };
 
-/**
- * @brief Data indication of Cellular network
- *
- * 0: not connected
- * 1: connected
- * 2: secure connected
- * 3: patcket transmitted
- */
-#define VCONFKEY_DNET_STATE                         "memory/dnet/state"
+#define VCONFKEY_DNET_STATE  "memory/dnet/state"
+
 enum {
-	/** not connected */
 	VCONFKEY_DNET_OFF = 0x00,
-	/** connected */
-	VCONFKEY_DNET_NORMAL_CONNECTED,
-	/** secure connected */
-	VCONFKEY_DNET_SECURE_CONNECTED,
-	/** patcket connected */
-	VCONFKEY_DNET_TRANSFER,
-	VCONFKEY_DNET_STATE_MAX
+		VCONFKEY_DNET_NORMAL_CONNECTED,
+		VCONFKEY_DNET_SECURE_CONNECTED,
+		VCONFKEY_DNET_TRANSFER
 };
 
-/**
- * @brief packet indication of Cellular network
- *
- * 0: NO Packet
- * 1: RX Packet only
- * 2: TX Packet only
- * 3: RXTX Packet only
- */
-#define VCONFKEY_PACKET_STATE	"memory/dnet/packet_state"
+#define VCONFKEY_DNET_STATE2  "memory/dnet/state2"
+
+#define VCONFKEY_PACKET_STATE  "memory/dnet/packet_state"
+
 enum {
-	/** NO Packet */
 	VCONFKEY_PACKET_NORMAL = 0x00,
-	/** RX Packet only */
-	VCONFKEY_PACKET_RX,
-	/** TX Packet only */
-	VCONFKEY_PACKET_TX,
-	/** RXTX Packet only */
-	VCONFKEY_PACKET_RXTX
+		VCONFKEY_PACKET_RX,
+		VCONFKEY_PACKET_TX,
+		VCONFKEY_PACKET_RXTX,
+		VCONFKEY_PACKET_MAX
 };
 
-/**
- * @brief Total bytes received by Cellular device
- *
- * Value : Integer of bytes
- */
-#define VCONFKEY_NETWORK_CELLULAR_PKT_TOTAL_RCV     "db/dnet/statistics/cellular/totalrcv"
+#define VCONFKEY_NETWORK_CELLULAR_PKT_TOTAL_RCV  "db/dnet/statistics/cellular/totalrcv"
 
-/**
- * @brief Total bytes sent by Cellular device
- *
- * Value : Integer of bytes
- */
-#define VCONFKEY_NETWORK_CELLULAR_PKT_TOTAL_SNT     "db/dnet/statistics/cellular/totalsnt"
+#define VCONFKEY_NETWORK_CELLULAR_PKT_TOTAL_RCV2  "db/dnet/statistics/cellular/totalrcv2"
 
-/**
- * @brief Total bytes last received by Cellular device
- *
- * Value : Integer of bytes
- */
-#define VCONFKEY_NETWORK_CELLULAR_PKT_LAST_RCV      "db/dnet/statistics/cellular/lastrcv"
+#define VCONFKEY_NETWORK_CELLULAR_PKT_TOTAL_SNT  "db/dnet/statistics/cellular/totalsnt"
 
-/**
- * @brief Total bytes last sent by Cellular device
- *
- * Value : Integer of bytes
- */
-#define VCONFKEY_NETWORK_CELLULAR_PKT_LAST_SNT      "db/dnet/statistics/cellular/lastsnt"
+#define VCONFKEY_NETWORK_CELLULAR_PKT_TOTAL_SNT2  "db/dnet/statistics/cellular/totalsnt2"
 
-/**
- * @brief Total bytes received by Wi-Fi device
- *
- * Value : Integer of bytes
- */
-#define VCONFKEY_NETWORK_WIFI_PKT_TOTAL_RCV         "db/dnet/statistics/wifi/totalrcv"
+#define VCONFKEY_NETWORK_CELLULAR_PKT_LAST_RCV  "db/dnet/statistics/cellular/lastrcv"
 
-/**
- * @brief Total bytes sent by Wi-Fi device
- *
- * Value : Integer of bytes
- */
-#define VCONFKEY_NETWORK_WIFI_PKT_TOTAL_SNT         "db/dnet/statistics/wifi/totalsnt"
+#define VCONFKEY_NETWORK_CELLULAR_PKT_LAST_RCV2  "db/dnet/statistics/cellular/lastrcv2"
 
-/**
- * @brief Total bytes last received by Wi-Fi device
- *
- * Value : Integer of bytes
- */
-#define VCONFKEY_NETWORK_WIFI_PKT_LAST_RCV          "db/dnet/statistics/wifi/lastrcv"
+#define VCONFKEY_NETWORK_CELLULAR_PKT_LAST_SNT  "db/dnet/statistics/cellular/lastsnt"
 
-/**
- * @brief Total bytes last sent by Wi-Fi device
- *
- * Value : Integer of bytes
- */
-#define VCONFKEY_NETWORK_WIFI_PKT_LAST_SNT          "db/dnet/statistics/wifi/lastsnt"
+#define VCONFKEY_NETWORK_CELLULAR_PKT_LAST_SNT2  "db/dnet/statistics/cellular/lastsnt2"
 
-/**
- * @}
- */
+#define VCONFKEY_NETWORK_WIFI_PKT_TOTAL_RCV  "db/dnet/statistics/wifi/totalrcv"
 
-#endif	/* __VCONF_INTERNAL_DNET_KEYS_H__ */
+#define VCONFKEY_NETWORK_WIFI_PKT_TOTAL_SNT  "db/dnet/statistics/wifi/totalsnt"
 
+#define VCONFKEY_NETWORK_WIFI_PKT_LAST_RCV  "db/dnet/statistics/wifi/lastrcv"
+
+#define VCONFKEY_NETWORK_WIFI_PKT_LAST_SNT  "db/dnet/statistics/wifi/lastsnt"
+
+#endif /*   __VCONF_INTERNAL_DNET_KEYS_H__    */

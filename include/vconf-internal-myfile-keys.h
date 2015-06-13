@@ -3,7 +3,7 @@
  *
  * Copyright (c) 2000 - 2011 Samsung Electronics Co., Ltd. All rights reserved.
  *
- * Contact: Hakjoo Ko <hakjoo.ko@samsung.com>
+ * Contact: Hakjoo Ko <email at samsung.com>
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -21,18 +21,19 @@
 
 #ifndef __VCONF_INTERNAL_MYFILE_KEYS_H__
 #define __VCONF_INTERNAL_MYFILE_KEYS_H__
+#ifdef USE_NONCREATED_VCONF_KEY
+#warning using non-created vconf-key ----- please make sure this key is in use actually
+#endif
+#define VCONFKEY_MFAPP_PREFIX  "db/myfile"
 
-/**
- * This file defines keys and values.
- *
- * @file        vconf-internal-myfile-keys.h
- * @defgroup    vconf_internal_myfile_key Definitions of internal shared Keys for myfile
- * @ingroup     vconf_internal_key
- * @author      Aram Kim <aramie.kim>
- * @version     0.1
- * @brief       This file has the definitions of shared keys for myfile \n
- */
+#ifdef USE_NONCREATED_VCONF_KEY
+#warning using non-created vconf-key ----- please make sure this key is in use actually
+#endif
+#define VCONFKEY_MFAPP_CURRENT_FOLDER_STR  "db/myfile/current_folder"
 
+#ifdef USE_NONCREATED_VCONF_KEY
+#warning using non-created vconf-key ----- please make sure this key is in use actually
+#endif
+#define VCONFKEY_MFAPP_PERMISSION_COPY_BOOL  "db/myfile/permission_copy"
 
-#endif	/* __VCONF_INTERNAL_MYFILE_KEYS_H__ */
-
+#endif /*   __VCONF_INTERNAL_MYFILE_KEYS_H__    */
