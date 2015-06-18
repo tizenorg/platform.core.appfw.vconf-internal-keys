@@ -25,8 +25,6 @@
 
 #define VCONFKEY_UNCATEGORIZED_007  "db/email_handle/active_sync_handle"
 
-#define VCONFKEY_UNCATEGORIZED_008  "db/isf/csc_initial_uuid"
-
 #ifdef USE_NONCREATED_VCONF_KEY
 #warning using non-created vconf-key ----- please make sure this key is in use actually
 #endif

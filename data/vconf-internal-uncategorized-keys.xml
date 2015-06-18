@@ -13,12 +13,6 @@
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="db/isf/csc_initial_uuid" value="" label="system::vconf_inhouse" gid="6514" uid="" private_spec="true">
-    <header>VCONFKEY_UNCATEGORIZED_008</header>
-    <creator/>
-    <email/>
-    <comment><![CDATA[ ]]></comment>
-  </vconfkey>
   <vconfkey type="int" name="db/msg/sos_send_option" value="0" label="system::vconf_inhouse" headeronly="true" gid="6514" uid="">
     <header>VCONFKEY_UNCATEGORIZED_23</header>
     <creator/>

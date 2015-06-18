@@ -2,7 +2,6 @@
 
 /usr/bin/vconftool set -t string "db/browser/user_agent"  "Mozilla/5.0 (Linux; Tizen 2.3; m0) AppleWebKit/537.3 (KHTML, like Gecko) Version/2.3 Mobile Safari/537.3" -s "system::vconf_system" -i  -g 6514
 /usr/bin/vconftool set -t int "db/email_handle/active_sync_handle"  "0" -s "tizen::vconf::platform::rw" -i  -g 6514
-/usr/bin/vconftool set -t string "db/isf/csc_initial_uuid"  "" -s "system::vconf_inhouse" -i  -g 6514
 # DO NOT GENERATE # /usr/bin/vconftool set -t  "db/msg/sos_send_option"  "0" -s "system::vconf_inhouse" -i  -g 6514
 /usr/bin/vconftool set -t bool "db/private/deviced/lcd_brightness_init"  "0" -s "tizen::vconf::platform::r" -i  -g 6514
 /usr/bin/vconftool set -t int "db/private/email-service/default_account_id"  "0" -s "tizen::vconf::platform::rw" -i  -g 6514
