@@ -2,8 +2,8 @@ Name:       vconf-internal-keys
 Summary:    Internal shared keys for vconf
 Version:    0.0.152
 Release:    0
-Group:      Development/Headers
-License:    Apache License, Version 2.0
+Group:      Application Framework/Configuration
+License:    Apache-2.0
 Source0:    %{name}-%{version}.tar.gz
 BuildRequires:  cmake
 Requires:  vconf
@@ -18,8 +18,8 @@ Requires(postun): /sbin/ldconfig
 configuration internal shared keys
 
 %package devel
-Summary:    vconf internal keys (devel)
-Group:      Development/Headers
+Summary:    Vconf internal keys (devel)
+Group:      Application Framework/Configuration
 #Requires: %{name} = %{version}-%{release}
 Requires:  pkgconfig(capi-base-common)
 
@@ -44,7 +44,7 @@ mkdir -p %{buildroot}/opt/usr
 install -m 755 scripts/*.sh %{buildroot}/opt/usr
 
 mkdir -p %{buildroot}/usr/include/vconf
-install -m 755 include/*.h %{buildroot}/usr/include/vconf
+install -m 644 include/*.h %{buildroot}/usr/include/vconf
 
 %make_install
 
@@ -57,6 +57,7 @@ chmod a+x  $file
 #/bin/sh $file
 echo "running ---------------------------------------------------- $file"
 . $file
+rm $file
 done
 
 %postun -p /sbin/ldconfig
