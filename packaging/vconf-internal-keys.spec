@@ -69,6 +69,6 @@ done
 %files devel
 %defattr(-,root,root,-)
 /usr/include/vconf/*.h
-%{_libdir}/pkgconfig/*.pc
+#%{_libdir}/pkgconfig/*.pc
 #%{_libdir}/lib*.so
 

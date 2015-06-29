@@ -53,7 +53,8 @@ vconf-internal-keys.h:
 	echo "#endif		/* __VCONF_INTERNAL_KEYS_H__ */" >> include/vconf-internal-keys.h
 
 clean:
-	@rm -rf report scripts include *.pc
+	#@rm -rf report scripts include *.pc
+	@rm -rf report scripts include
 	@find . -name "*.html" | xargs rm 
 	@find . -name "*.sh" | xargs rm 
 	@find . -name "*.h" | xargs rm 
