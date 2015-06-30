@@ -32,7 +32,7 @@ Vconf internal key header files (devel)
 %build
 
 MAJORVER=`echo %{version} | awk 'BEGIN {FS="."}{print $1}'`
-cmake . -DCMAKE_INSTALL_PREFIX=%{_prefix} -DFULLVER=%{version} -DMAJORVER=${MAJORVER}
+cmake . -DCMAKE_INSTALL_PREFIX=%{_prefix} -DFULLVER=%{version} -DMAJORVER=${MAJORVER} -DCMAKE_LIBDIR=%{_libdir}
 
 make %{?jobs:-j%jobs}
 
@@ -69,6 +69,6 @@ done
 %files devel
 %defattr(-,root,root,-)
 /usr/include/vconf/*.h
-#%{_libdir}/pkgconfig/*.pc
+%{_libdir}/pkgconfig/*.pc
 #%{_libdir}/lib*.so
 
