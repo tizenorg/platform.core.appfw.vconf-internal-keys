@@ -8,6 +8,7 @@
 /usr/bin/vconftool2 set -t string "memory/wifi/connected_ap_name"  "" -s "tizen::vconf::platform::r" -i  -g 6514
 /usr/bin/vconftool2 set -t int "memory/wifi/ug_run_state"  "3" -s "tizen::vconf::platform::rw" -i  -g 6514
 /usr/bin/vconftool2 set -t int "db/wifi/bssid_address"  "0" -s "tizen::vconf::public::r" -i  -g 6514
+/usr/bin/vconftool2 set -t int "memory/wifi/bgscan_mode"  "0" -s "tizen::vconf::public::r" -i  -g 6514
 # DO NOT GENERATE # /usr/bin/vconftool2 set -t  "memory/wifi_direct/transfer_state"  "0" -s "" -i  -g 6514
 # DO NOT GENERATE # /usr/bin/vconftool2 set -t  "memory/wifi_direct/share/sending_state"  "0" -s "" -i  -g 6514
 # DO NOT GENERATE # /usr/bin/vconftool2 set -t  "memory/wifi_direct/share/receiving_state"  "0" -s "" -i  -g 6514

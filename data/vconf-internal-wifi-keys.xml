@@ -82,6 +82,16 @@
     <email>hyunuk.tak@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
+  <vconfkey type="int" name="memory/wifi/bgscan_mode" value="0" label="tizen::vconf::public::r" gid="6514" uid="">
+    <header>VCONFKEY_WIFI_BGSCAN_MODE</header>
+    <creator>Hyunuk Tak</creator>
+    <email>hyunuk.tak@samsung.com</email>
+    <comment><![CDATA[ ]]></comment>
+    <enumlist>
+      <enumdata val="0x00">VCONFKEY_WIFI_BGSCAN_MODE_PERIODIC</enumdata>
+      <enumdata>VCONFKEY_WIFI_BGSCAN_MODE_EXPONENTIAL</enumdata>
+    </enumlist>
+  </vconfkey>
   <vconfkey type="int" name="memory/wifi_direct/transfer_state" value="0" label="" headeronly="true" gid="6514" uid="">
     <header>VCONFKEY_WIFI_DIRECT_TRANSFER_STATE</header>
     <creator>Jiung Yu</creator>

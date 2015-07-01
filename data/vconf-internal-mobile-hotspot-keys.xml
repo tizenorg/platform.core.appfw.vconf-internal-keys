@@ -82,4 +82,14 @@
     <email>seonah1.moon@samsung.com</email>
     <comment><![CDATA[ Connect USB poup status ]]></comment>
   </vconfkey>
+  <vconfkey type="int" name="memory/mobile_hotspot/wifi_state" value="0" label="tizen::vconf::tethering::admin" gid="6514" uid="">
+    <header>VCONFKEY_MOBILE_HOTSPOT_WIFI_STATE</header>
+    <creator>Seonah Moon</creator>
+    <email>seonah1.moon@samsung.com</email>
+    <comment><![CDATA[]]></comment>
+    <enumlist>
+      <enumdata val="0x00">VCONFKEY_MOBILE_HOTSPOT_WIFI_OFF</enumdata>
+      <enumdata val="0x01">VCONFKEY_MOBILE_HOTSPOT_WIFI_PENDING_ON</enumdata>
+    </enumlist>
+  </vconfkey>
 </vconfkeylists>

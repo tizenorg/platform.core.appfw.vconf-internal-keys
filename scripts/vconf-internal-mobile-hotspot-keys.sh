@@ -11,3 +11,4 @@
 /usr/bin/vconftool2 set -t int "file/private/libug-setting-mobileap-efl/bt_popup_check_box_status"  "0" -s "tizen::vconf::platform::rw" -i  -g 6514
 /usr/bin/vconftool2 set -t int "file/private/libug-setting-mobileap-efl/usb_popup_check_box_status"  "0" -s "tizen::vconf::platform::rw" -i  -g 6514
 /usr/bin/vconftool2 set -t int "memory/private/libug-setting-mobileap-efl/trying_usb_tethering"  "0" -s "tizen::vconf::tethering::admin" -i  -g 6514
+/usr/bin/vconftool2 set -t int "memory/mobile_hotspot/wifi_state"  "0" -s "tizen::vconf::tethering::admin" -i  -g 6514
