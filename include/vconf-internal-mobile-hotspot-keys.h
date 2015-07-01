@@ -61,4 +61,11 @@ enum {
 
 #define VCONFKEY_MOBILE_HOTSPOT_TRYING_USB_TETHERING  "memory/private/libug-setting-mobileap-efl/trying_usb_tethering"
 
+#define VCONFKEY_MOBILE_HOTSPOT_WIFI_STATE  "memory/mobile_hotspot/wifi_state"
+
+enum {
+	VCONFKEY_MOBILE_HOTSPOT_WIFI_OFF = 0x00,
+		VCONFKEY_MOBILE_HOTSPOT_WIFI_PENDING_ON = 0x01
+};
+
 #endif /*   __VCONF_INTERNAL_MOBILE_HOTSPOT_KEYS_H__    */

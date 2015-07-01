@@ -76,6 +76,13 @@ enum {
 
 #define VCONFKEY_WIFI_BSSID_ADDRESS  "db/wifi/bssid_address"
 
+#define VCONFKEY_WIFI_BGSCAN_MODE  "memory/wifi/bgscan_mode"
+
+enum {
+	VCONFKEY_WIFI_BGSCAN_MODE_PERIODIC = 0x00,
+		VCONFKEY_WIFI_BGSCAN_MODE_EXPONENTIAL
+};
+
 #ifdef USE_NONCREATED_VCONF_KEY
 #warning using non-created vconf-key ----- please make sure this key is in use actually
 #endif

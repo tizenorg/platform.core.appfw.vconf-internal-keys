@@ -49,7 +49,7 @@ init:
 vconf-internal-keys.h:
 	echo "#ifndef __VCONF_INTERNAL_KEYS_H__" > include/vconf-internal-keys.h
 	echo "#define __VCONF_INTERNAL_KEYS_H__" >> include/vconf-internal-keys.h
-	find ./include -name "*.h" -not -name "vconf-internal-keys.h" -printf "#include \"%f\" \n" >> include/vconf-internal-keys.h
+	find ./include -name "*.h" -not -name "vconf-internal-keys.h" -printf "#include \"%f\" \n" | sort >> include/vconf-internal-keys.h
 	echo "#endif		/* __VCONF_INTERNAL_KEYS_H__ */" >> include/vconf-internal-keys.h
 
 clean:
