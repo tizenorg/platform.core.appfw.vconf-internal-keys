@@ -25,4 +25,8 @@
 
 #define VCONFKEY_STARTER_USE_VOLUME_KEY  "memory/starter/use_volume_key"
 
+#define VCONFKEY_STARTER_IS_FALLBACK  "db/private/starter/is_fallback"
+
+#define VCONFKEY_STARTER_FALLBACK_PKG  "db/private/starter/fallback_pkg"
+
 #endif /*   __VCONF_INTERNAL_STARTER_KEYS_H__    */

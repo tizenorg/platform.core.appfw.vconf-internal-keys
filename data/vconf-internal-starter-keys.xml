@@ -13,4 +13,16 @@
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
+  <vconfkey type="int" name="db/private/starter/is_fallback" value="0" label="tizen::vconf::platform::rw" gid="6514" uid="">
+    <header>VCONFKEY_STARTER_IS_FALLBACK</header>
+    <creator/>
+    <email/>
+    <comment><![CDATA[ ]]></comment>
+  </vconfkey>
+  <vconfkey type="string" name="db/private/starter/fallback_pkg" value="org.tizen.homescreen" label="tizen::vconf::platform::rw" gid="6514" uid="">
+    <header>VCONFKEY_STARTER_FALLBACK_PKG</header>
+    <creator/>
+    <email/>
+    <comment><![CDATA[ ]]></comment>
+  </vconfkey>
 </vconfkeylists>
