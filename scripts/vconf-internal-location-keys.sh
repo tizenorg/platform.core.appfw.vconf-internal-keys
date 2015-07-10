@@ -2,7 +2,7 @@
 
 /usr/bin/vconftool set -t int "db/location/setting/Usemylocation"  "1" -s "tizen::vconf::location::enable" -i  -g 6514
 /usr/bin/vconftool set -t int "db/location/setting/GpsEnabled"  "1" -s "tizen::vconf::location::enable" -i  -g 6514
-/usr/bin/vconftool set -t int "db/location/setting/NetworkEnabled"  "1" -s "tizen::vconf::location::enable" -i  -g 6514
+/usr/bin/vconftool set -t int "db/location/setting/NetworkEnabled"  "0" -s "tizen::vconf::location::enable" -i  -g 6514
 /usr/bin/vconftool set -t int "db/location/setting/GpsPopup"  "1" -s "tizen::vconf::location::enable" -i  -g 6514
 /usr/bin/vconftool set -t int "memory/location/position/state"  "0" -s "tizen::vconf::public::r::platform::rw" -i  -g 6514
 /usr/bin/vconftool set -t int "memory/location/gps/state"  "0" -s "tizen::vconf::public::r::platform::rw" -i  -g 6514

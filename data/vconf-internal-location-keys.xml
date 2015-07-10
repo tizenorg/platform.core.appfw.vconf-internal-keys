@@ -13,7 +13,7 @@
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int" name="db/location/setting/NetworkEnabled" value="1" label="tizen::vconf::location::enable" gid="6514" uid="">
+  <vconfkey type="int" name="db/location/setting/NetworkEnabled" value="0" label="tizen::vconf::location::enable" gid="6514" uid="">
     <header>VCONFKEY_LOCATION_NETWORK_ENABLED</header>
     <creator/>
     <email/>
