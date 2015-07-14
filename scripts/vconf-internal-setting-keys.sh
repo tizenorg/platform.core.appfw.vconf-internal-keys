@@ -16,14 +16,14 @@
 # DO NOT GENERATE # /usr/bin/vconftool set -t  "db/setting/screen_mode"  "0" -s "" -i  -g 6514
 /usr/bin/vconftool set -t int "db/setting/lcd_backlight_normal"  "30" -s "tizen::vconf::setting::admin" -i  -g 6514
 /usr/bin/vconftool set -t int "db/setting/sound/call/ringtone_sound_volume"  "11" -s "tizen::vconf::public::r::platform::rw" -i  -g 6514
-/usr/bin/vconftool set -t string "db/setting/sound/call/ringtone_path"  "/opt/usr/share/settings/Ringtones/Over_the_horizon.ogg" -s "tizen::vconf::setting::admin" -i  -g 6514
+/usr/bin/vconftool set -t string "db/setting/sound/call/ringtone_path"  "/opt/usr/share/settings/Ringtones/ringtone_sdk.mp3" -s "tizen::vconf::setting::admin" -i  -g 6514
 /usr/bin/vconftool set -t string "db/setting/sound/call/ringtone_path_with_time"  "" -s "tizen::vconf::public::r::platform::rw" -i  -g 6514
-/usr/bin/vconftool set -t string "db/setting/sound/call/ringtone_default_path"  "/opt/usr/share/settings/Ringtones/Over_the_horizon.ogg" -s "tizen::vconf::setting::admin" -i  -g 6514
+/usr/bin/vconftool set -t string "db/setting/sound/call/ringtone_default_path"  "/opt/usr/share/settings/Ringtones/ringtone_sdk.mp3" -s "tizen::vconf::setting::admin" -i  -g 6514
 /usr/bin/vconftool set -t int "db/setting/sound/call/vibration_level"  "5" -s "tizen::vconf::public::r::platform::rw" -i  -g 6514
 /usr/bin/vconftool set -t int "db/setting/sound/call/vibration_type"  "2" -s "tizen::vconf::public::r::platform::rw" -i  -g 6514
 /usr/bin/vconftool set -t int "db/setting/sound/noti/msg_alert_rep_type"  "0" -s "tizen::vconf::setting::admin" -i  -g 6514
-/usr/bin/vconftool set -t string "db/setting/sound/noti/msg_ringtone_path"  "/opt/usr/share/settings/Alerts/Whistle.ogg" -s "tizen::vconf::setting::admin" -i  -g 6514
-/usr/bin/vconftool set -t string "db/setting/sound/noti/ringtone_default_path"  "/opt/usr/share/settings/Alerts/Whistle.ogg" -s "tizen::vconf::setting::admin" -i  -g 6514
+/usr/bin/vconftool set -t string "db/setting/sound/noti/msg_ringtone_path"  "/opt/usr/share/settings/Alerts/General notification_sdk.wav" -s "tizen::vconf::setting::admin" -i  -g 6514
+/usr/bin/vconftool set -t string "db/setting/sound/noti/ringtone_default_path"  "/opt/usr/share/settings/Alerts/General notification_sdk.wav" -s "tizen::vconf::setting::admin" -i  -g 6514
 # DO NOT GENERATE # /usr/bin/vconftool set -t  "VCONFKEY_SETAPPL_NOTI_MSG_RINGTONE_PATH_STR"  "0" -s "" -i  -g 6514
 /usr/bin/vconftool set -t int "db/setting/sound/noti/vibration_level"  "5" -s "tizen::vconf::public::r::platform::rw" -i  -g 6514
 /usr/bin/vconftool set -t int "db/setting/sound/touch_feedback/vibration_level"  "3" -s "tizen::vconf::public::r::platform::rw" -i  -g 6514
@@ -104,7 +104,7 @@
 /usr/bin/vconftool set -t bool "db/setting/use_pick_up_call"  "1" -s "tizen::vconf::public::r::platform::rw" -i  -g 6514
 /usr/bin/vconftool set -t bool "db/setting/use_shake"  "0" -s "tizen::vconf::public::r::platform::rw" -i  -g 6514
 /usr/bin/vconftool set -t bool "db/setting/use_mute_pause"  "0" -s "tizen::vconf::public::r::platform::rw" -i  -g 6514
-/usr/bin/vconftool set -t string "db/menu_widget/bgset"  "/opt/usr/share/settings/Wallpapers/Home_default.png" -s "tizen::vconf::setting" -i  -g 6514
+/usr/bin/vconftool set -t string "db/menu_widget/bgset"  "/opt/usr/share/settings/Wallpapers/Home_default.jpg" -s "tizen::vconf::setting" -i  -g 6514
 /usr/bin/vconftool set -t int "db/setting/devoption/bgprocess"  "0" -s "tizen::vconf::public::r::platform::rw" -i  -g 6514
 /usr/bin/vconftool set -t int "db/setting/default_rendering_engine"  "1" -s "tizen::vconf::public::r::platform::rw" -i  -g 6514
 /usr/bin/vconftool set -t int "db/setting/data_limit"  "1" -s "tizen::vconf::public::r::platform::rw" -i  -g 6514

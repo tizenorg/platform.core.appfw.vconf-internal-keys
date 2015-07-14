@@ -117,7 +117,7 @@
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
   <!-- SDK DEFAULT_CALL_TONE="/opt/usr/share/settings/Ringtones/ringtone_sdk.mp3" -->
-  <vconfkey type="string" name="db/setting/sound/call/ringtone_path" value="/opt/usr/share/settings/Ringtones/Over_the_horizon.ogg" label="tizen::vconf::setting::admin" gid="6514" uid="">
+  <vconfkey type="string" name="db/setting/sound/call/ringtone_path" value="/opt/usr/share/settings/Ringtones/ringtone_sdk.mp3" label="tizen::vconf::setting::admin" gid="6514" uid="">
     <header>VCONFKEY_SETAPPL_CALL_RINGTONE_PATH_STR</header>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
@@ -130,7 +130,7 @@
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
   <!-- SDK DEFAULT_CALL_TONE="/opt/usr/share/settings/Ringtones/ringtone_sdk.mp3" -->
-  <vconfkey type="string" name="db/setting/sound/call/ringtone_default_path" value="/opt/usr/share/settings/Ringtones/Over_the_horizon.ogg" label="tizen::vconf::setting::admin" gid="6514" uid="">
+  <vconfkey type="string" name="db/setting/sound/call/ringtone_default_path" value="/opt/usr/share/settings/Ringtones/ringtone_sdk.mp3" label="tizen::vconf::setting::admin" gid="6514" uid="">
     <header>VCONFKEY_SETAPPL_CALL_RINGTONE_DEFAULT_PATH_STR</header>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
@@ -173,13 +173,13 @@
       <enumdata>SETTING_SOUND_REP_EVERY_10_MIN</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="string" name="db/setting/sound/noti/msg_ringtone_path" value="/opt/usr/share/settings/Alerts/Whistle.ogg" label="tizen::vconf::setting::admin" gid="6514" uid="">
+  <vconfkey type="string" name="db/setting/sound/noti/msg_ringtone_path" value="/opt/usr/share/settings/Alerts/General notification_sdk.wav" label="tizen::vconf::setting::admin" gid="6514" uid="">
     <header>VCONFKEY_SETAPPL_NOTI_MSG_RINGTONE_PATH_STR</header>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ msg-service is using this key. so DO NOT REMOVE. (sangkoo.kim@samsung.com) ]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="db/setting/sound/noti/ringtone_default_path" value="/opt/usr/share/settings/Alerts/Whistle.ogg" label="tizen::vconf::setting::admin" gid="6514" uid="">
+  <vconfkey type="string" name="db/setting/sound/noti/ringtone_default_path" value="/opt/usr/share/settings/Alerts/General notification_sdk.wav" label="tizen::vconf::setting::admin" gid="6514" uid="">
     <header>VCONFKEY_SETAPPL_NOTI_RINGTONE_DEFAULT_PATH_STR</header>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
@@ -795,7 +795,7 @@
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="db/menu_widget/bgset" value="/opt/usr/share/settings/Wallpapers/Home_default.png" label="tizen::vconf::setting" gid="6514" uid="">
+  <vconfkey type="string" name="db/menu_widget/bgset" value="/opt/usr/share/settings/Wallpapers/Home_default.jpg" label="tizen::vconf::setting" gid="6514" uid="">
     <header>VCONFKEY_BGSET</header>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
