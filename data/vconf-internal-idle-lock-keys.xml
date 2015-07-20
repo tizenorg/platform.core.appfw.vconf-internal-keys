@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vconfkeylists>
   <filedef name="__VCONF_INTERNAL_IDLE_LOCK_KEYS_H__"/>
-  <vconfkey type="string" name="db/idle_lock/bgset" value="/opt/usr/share/settings/Wallpapers/Home_default.png" label="tizen::vconf::public::rw" gid="6514" uid="">
+  <vconfkey type="string" name="db/idle_lock/bgset" value="/opt/usr/share/settings/Wallpapers/Home_default.jpg" label="tizen::vconf::public::rw" gid="6514" uid="">
     <header>VCONFKEY_IDLE_LOCK_BGSET</header>
     <creator/>
     <email/>
