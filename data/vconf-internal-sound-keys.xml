@@ -58,14 +58,8 @@
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int" name="memory/private/sound/PrimaryVolumetype" value="-1" label="tizen::vconf::public::r" gid="6514" uid="">
+  <vconfkey type="int" name="memory/private/sound/PrimaryVolumeType" value="-1" label="tizen::vconf::public::rw" gid="6514" uid="">
     <header>VCONFKEY_SOUND_PRIMARY_VOLUME_TYPE</header>
-    <creator/>
-    <email/>
-    <comment><![CDATA[ ]]></comment>
-  </vconfkey>
-  <vconfkey type="int" name="memory/private/sound/PrimaryVolumetypeForce" value="-1" label="tizen::vconf::public::rw" gid="6514" uid="">
-    <header>VCONFKEY_SOUND_PRIMARY_VOLUME_TYPE_FORCE</header>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>

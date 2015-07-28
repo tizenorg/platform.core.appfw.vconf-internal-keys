@@ -43,9 +43,7 @@ enum {
 
 #define VCONFKEY_SOUND_VOLUME_TYPE_VOICE  "file/private/sound/volume/voice"
 
-#define VCONFKEY_SOUND_PRIMARY_VOLUME_TYPE  "memory/private/sound/PrimaryVolumetype"
-
-#define VCONFKEY_SOUND_PRIMARY_VOLUME_TYPE_FORCE  "memory/private/sound/PrimaryVolumetypeForce"
+#define VCONFKEY_SOUND_PRIMARY_VOLUME_TYPE  "memory/private/sound/PrimaryVolumeType"
 
 #define VCONFKEY_SOUND_PCM_DUMP  "memory/private/sound/pcm_dump"
 
