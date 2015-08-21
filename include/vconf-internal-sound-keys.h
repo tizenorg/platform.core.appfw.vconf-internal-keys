@@ -23,10 +23,6 @@
 #define __VCONF_INTERNAL_SOUND_KEYS_H__
 #define VCONFKEY_SOUND_STATUS  "memory/Sound/SoundStatus"
 
-enum {
-	VCONFKEY_SOUND_STATUS_AVRECORDING = 0x00000040
-};
-
 #define VCONFKEY_SOUND_VOLUME_TYPE_SYSTEM  "file/private/sound/volume/system"
 
 #define VCONFKEY_SOUND_VOLUME_TYPE_NOTIFICATION  "file/private/sound/volume/notification"

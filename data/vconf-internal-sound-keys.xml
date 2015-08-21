@@ -6,9 +6,6 @@
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
-    <enumlist>
-      <enumdata val="0x00000040">VCONFKEY_SOUND_STATUS_AVRECORDING</enumdata>
-    </enumlist>
   </vconfkey>
   <vconfkey type="int" name="file/private/sound/volume/system" value="9" label="tizen::vconf::volume::set" gid="6514" uid="">
     <header>VCONFKEY_SOUND_VOLUME_TYPE_SYSTEM</header>
