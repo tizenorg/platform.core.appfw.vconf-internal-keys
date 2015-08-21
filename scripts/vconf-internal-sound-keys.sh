@@ -1,6 +1,7 @@
 #!/bin/bash
 
 /usr/bin/vconftool set -t int "memory/Sound/SoundStatus"  "0" -s "tizen::vconf::public::r" -i  -g 6514
+/usr/bin/vconftool set -t int "file/private/sound/volume/master"  "100" -s "tizen::vconf::volume::set" -i  -g 6514
 /usr/bin/vconftool set -t int "file/private/sound/volume/system"  "9" -s "tizen::vconf::volume::set" -i  -g 6514
 /usr/bin/vconftool set -t int "file/private/sound/volume/notification"  "11" -s "tizen::vconf::volume::set" -i  -g 6514
 /usr/bin/vconftool set -t int "file/private/sound/volume/alarm"  "7" -s "tizen::vconf::volume::set" -i  -g 6514

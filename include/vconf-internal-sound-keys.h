@@ -23,6 +23,8 @@
 #define __VCONF_INTERNAL_SOUND_KEYS_H__
 #define VCONFKEY_SOUND_STATUS  "memory/Sound/SoundStatus"
 
+#define VCONFKEY_SOUND_VOLUME_TYPE_MASTER  "file/private/sound/volume/master"
+
 #define VCONFKEY_SOUND_VOLUME_TYPE_SYSTEM  "file/private/sound/volume/system"
 
 #define VCONFKEY_SOUND_VOLUME_TYPE_NOTIFICATION  "file/private/sound/volume/notification"
