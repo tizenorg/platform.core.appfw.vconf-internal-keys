@@ -1,0 +1,9 @@
+Code-Review+1: Seungbae Shin <seungbae.shin@samsung.com>
+Code-Review+1: José Bollo <jobol@nonadev.net>
+Verified+1: Sangchul Lee <sc11.lee@samsung.com>
+Code-Review+2: Semun Lee <sm79.lee@samsung.com>
+Submitted-by: Semun Lee <sm79.lee@samsung.com>
+Submitted-at: Mon, 24 Aug 2015 00:21:31 -0700
+Reviewed-on: https://review.tizen.org/gerrit/46540
+Project: platform/core/appfw/vconf-internal-keys
+Branch: refs/heads/tizen
