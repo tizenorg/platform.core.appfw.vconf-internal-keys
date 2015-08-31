@@ -62,7 +62,7 @@
       <enumdata>VCONFKEY_SYSMAN_BAT_LEVEL_FULL    </enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int" name="memory/sysman/usb_status" value="-1" label="tizen::vconf::public::r" gid="6514" uid="" private_spec="true">
+  <vconfkey type="int" name="memory/sysman/usb_status" value="0" label="tizen::vconf::public::r" gid="6514" uid="" private_spec="true">
     <header>VCONFKEY_SYSMAN_USB_STATUS</header>
     <creator/>
     <email/>

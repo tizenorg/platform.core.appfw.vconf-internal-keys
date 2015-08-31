@@ -7,7 +7,7 @@
 /usr/bin/vconftool set -t int "memory/sysman/battery_status_low"  "-1" -s "tizen::vconf::public::r" -i  -g 6514
 /usr/bin/vconftool set -t int "memory/sysman/battery_capacity"  "-1" -s "tizen::vconf::public::r" -i  -g 6514
 /usr/bin/vconftool set -t int "memory/sysman/battery_level_status"  "-1" -s "tizen::vconf::public::r" -i  -g 6514
-/usr/bin/vconftool set -t int "memory/sysman/usb_status"  "-1" -s "tizen::vconf::public::r" -i  -g 6514
+/usr/bin/vconftool set -t int "memory/sysman/usb_status"  "0" -s "tizen::vconf::public::r" -i  -g 6514
 /usr/bin/vconftool set -t int "memory/sysman/usbhost_status"  "-1" -s "tizen::vconf::public::r" -i  -g 6514
 /usr/bin/vconftool set -t int "memory/sysman/earjack"  "-1" -s "system::vconf_system" -i  -g 6514
 /usr/bin/vconftool set -t int "memory/sysman/earjack_key"  "0" -s "tizen::vconf::platform::rw" -i  -g 6514
