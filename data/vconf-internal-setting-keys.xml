@@ -795,7 +795,7 @@
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="db/menu_widget/bgset" value="/opt/usr/share/settings/Wallpapers/Home_default.jpg" label="tizen::vconf::setting" gid="6514" uid="">
+  <vconfkey type="string" name="db/menu_widget/bgset" value="/usr/apps/org.tizen.setting/shared/res/settings/Wallpapers/Home_default.jpg" label="tizen::vconf::setting" gid="6514" uid="">
     <header>VCONFKEY_BGSET</header>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
