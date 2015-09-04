@@ -104,7 +104,7 @@
 /usr/bin/vconftool set -t bool "db/setting/use_pick_up_call"  "1" -s "tizen::vconf::public::r::platform::rw" -i  -g 6514
 /usr/bin/vconftool set -t bool "db/setting/use_shake"  "0" -s "tizen::vconf::public::r::platform::rw" -i  -g 6514
 /usr/bin/vconftool set -t bool "db/setting/use_mute_pause"  "0" -s "tizen::vconf::public::r::platform::rw" -i  -g 6514
-/usr/bin/vconftool set -t string "db/menu_widget/bgset"  "/opt/usr/share/settings/Wallpapers/Home_default.jpg" -s "tizen::vconf::setting" -i  -g 6514
+/usr/bin/vconftool set -t string "db/menu_widget/bgset"  "/usr/apps/org.tizen.setting/shared/res/settings/Wallpapers/Home_default.jpg" -s "tizen::vconf::setting" -i  -g 6514
 /usr/bin/vconftool set -t int "db/setting/devoption/bgprocess"  "0" -s "tizen::vconf::public::r::platform::rw" -i  -g 6514
 /usr/bin/vconftool set -t int "db/setting/default_rendering_engine"  "1" -s "tizen::vconf::public::r::platform::rw" -i  -g 6514
 /usr/bin/vconftool set -t int "db/setting/data_limit"  "1" -s "tizen::vconf::public::r::platform::rw" -i  -g 6514
