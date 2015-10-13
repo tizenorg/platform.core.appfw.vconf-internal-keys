@@ -1,5 +1,7 @@
 #!/bin/bash
 
-/usr/bin/vconftool set -t bool "memory/data-provider-master/started"  "0" -s "tizen::vconf::setting::admin" -i  -g 6514
-/usr/bin/vconftool set -t string "db/data-provider-master/serveraddr"  "/opt/usr/share/live_magazine/.client.socket" -s "tizen::vconf::setting::admin" -i  -g 6514
-/usr/bin/vconftool set -t int "memory/private/data-provider-master/restart_count"  "0" -s "samsung::vconf::dynamicbox" -i  -g 6514
+/usr/bin/buxton2ctl create-bool "memory" "memory/data-provider-master/started"  "0"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/systemsettings.admin"
+
+/usr/bin/buxton2ctl create-string "system" "db/data-provider-master/serveraddr"  "/opt/usr/share/live_magazine/.client.socket"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/systemsettings.admin"
+
+/usr/bin/buxton2ctl create-int32 "memory" "memory/private/data-provider-master/restart_count"  "0"  "http://tizen.org/privilege/internal/buxton" "http://tizen.org/privilege/internal/buxton"

@@ -1,3 +1,3 @@
 #!/bin/bash
 
-/usr/bin/vconftool set -t int "db/private/org.tizen.email/is_topmost_window"  "0" -s "system::vconf_inhouse" -i  -g 6514
+/usr/bin/buxton2ctl create-int32 "system" "db/private/org.tizen.email/is_topmost_window"  "0"  "http://tizen.org/privilege/internal/default/platform" "http://tizen.org/privilege/internal/default/platform"

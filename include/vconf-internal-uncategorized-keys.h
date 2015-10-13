@@ -25,8 +25,6 @@
 
 #define VCONFKEY_UNCATEGORIZED_007  "db/email_handle/active_sync_handle"
 
-#define VCONFKEY_UNCATEGORIZED_008  "db/isf/csc_initial_uuid"
-
 #ifdef USE_NONCREATED_VCONF_KEY
 #warning using non-created vconf-key ----- please make sure this key is in use actually
 #endif
@@ -78,8 +76,6 @@
 
 #define VCONFKEY_UNCATEGORIZED_46  "db/private/email-service/slot_size"
 
-#define VCONFKEY_UNCATEGORIZED_48  "db/private/mediaserver/mmc_info"
-
 #define VCONFKEY_UNCATEGORIZED_49  "db/private/msg-service/cb_msg/language/0"
 
 #define VCONFKEY_UNCATEGORIZED_50  "db/private/msg-service/cb_msg/language/1"
@@ -119,8 +115,6 @@
 #define VCONFKEY_UNCATEGORIZED_69  "db/private/msg-service/general/block_msg"
 
 #define VCONFKEY_UNCATEGORIZED_70  "db/private/msg-service/general/block_unknown_msg"
-
-#define VCONFKEY_UNCATEGORIZED_71  "db/private/msg-service/general/contact_sync_time"
 
 #define VCONFKEY_UNCATEGORIZED_72  "db/private/msg-service/general/keep_copy"
 
@@ -315,12 +309,6 @@
 #define VCONFKEY_UNCATEGORIZED_270  "file/private/wifi/wifi_off_by_emergency"
 
 #define VCONFKEY_UNCATEGORIZED_271  "file/private/wifi/wifi_off_by_restricted"
-
-#define VCONFKEY_UNCATEGORIZED_273  "memory/call/ui_state"
-
-#define VCONFKEY_UNCATEGORIZED_274  "memory/call/ui_visibility"
-
-#define VCONFKEY_UNCATEGORIZED_280  "memory/private/libstatus/message"
 
 #define VCONFKEY_UNCATEGORIZED_283  "memory/private/msg-service/default_network_sim"
 

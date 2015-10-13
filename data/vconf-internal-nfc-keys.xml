@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vconfkeylists>
   <filedef name="__VCONF_INTERNAL_NFC_KEYS_H__"/>
-  <vconfkey type="bool" name="db/nfc/feature" value="0" label="tizen::vconf::public::r::platform::rw" gid="6514" uid="">
+  <vconfkey type="bool" name="db/nfc/feature" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_NFC_FEATURE</header>
     <creator>Jihoon Jung</creator>
     <email>jh8801.jung@samsung.com</email>
@@ -11,7 +11,7 @@
       <enumdata>VCONFKEY_NFC_FEATURE_ON</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="bool" name="db/nfc/enable" value="1" label="tizen::vconf::public::r::platform::rw" gid="6514" uid="">
+  <vconfkey type="bool" name="db/nfc/enable" value="1" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_NFC_STATE</header>
     <creator>Jihoon Jung</creator>
     <email>jh8801.jung@samsung.com</email>
@@ -22,7 +22,7 @@
       <enumdata>VCONFKEY_NFC_STATE_MAX</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int" name="db/nfc/se_type" value="3" label="tizen::vconf::nfc" gid="6514" uid="">
+  <vconfkey type="int32" name="db/nfc/se_type" value="3" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/nfc.cardemulation" writePriv="http://tizen.org/privilege/nfc.admin">
     <header>VCONFKEY_NFC_SE_TYPE</header>
     <creator>Jihoon Jung</creator>
     <email>jh8801.jung@samsung.com</email>
@@ -35,7 +35,7 @@
       <enumdata>VCONFKEY_NFC_SE_POLICY_ESE_OFF  </enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int" name="db/nfc/wallet_mode" value="0" label="tizen::vconf::nfc::admin" gid="6514" uid="">
+  <vconfkey type="int32" name="db/nfc/wallet_mode" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/nfc.admin" writePriv="http://tizen.org/privilege/nfc.admin">
     <header>VCONFKEY_NFC_WALLET_MODE</header>
     <creator>Jihoon Jung</creator>
     <email>jh8801.jung@samsung.com</email>
@@ -45,7 +45,7 @@
       <enumdata>VCONFKEY_NFC_WALLET_MODE_AUTOMATIC </enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="bool" name="db/nfc/state_by_flight" value="0" label="tizen::vconf::nfc" gid="6514" uid="">
+  <vconfkey type="bool" name="db/nfc/state_by_flight" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_NFC_STATE_OFF_BY_FLIGHT</header>
     <creator>Jihoon Jung</creator>
     <email>jh8801.jung@samsung.com</email>
