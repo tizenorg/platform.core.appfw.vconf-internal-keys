@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vconfkeylists>
   <filedef name="__VCONF_INTERNAL_EMAIL_KEYS_H__"/>
-  <vconfkey type="int" name="db/private/org.tizen.email/is_topmost_window" value="0" label="system::vconf_inhouse" gid="6514" uid="" private_spec="true">
+  <vconfkey type="int" name="db/private/org.tizen.email/is_topmost_window" value="0" gid="6514" uid="" private_spec="true" layer="system" readPriv="wrongPriv" writePriv="wrongPriv">
     <header>EMAIL_VCONF_KEY_IS_TOPMOST_WINDOW</header>
     <creator/>
     <email/>

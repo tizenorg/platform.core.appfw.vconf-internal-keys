@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vconfkeylists>
   <filedef name="__VCONF_INTERNAL_FILEMANAGER_KEYS_H__"/>
-  <vconfkey type="int" name="memory/filemanager/Mmc" value="0" label="tizen::vconf::platform::rw" gid="6514" uid="" private_spec="true">
+  <vconfkey type="int" name="memory/filemanager/Mmc" value="0" gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_FILEMANAGER_MMC_STATUS</header>
     <creator/>
     <email/>
@@ -13,7 +13,7 @@
       <enumdata>VCONFKEY_FILEMANAGER_MMC_FULL</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int" name="db/filemanager/dbupdate" value="1" label="tizen::vconf::platform::rw" gid="6514" uid="" private_spec="true">
+  <vconfkey type="int" name="db/filemanager/dbupdate" value="1" gid="6514" uid="" private_spec="true" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_FILEMANAGER_DB_STATUS</header>
     <creator/>
     <email/>

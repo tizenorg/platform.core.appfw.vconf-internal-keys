@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vconfkeylists>
   <filedef name="__VCONF_INTERNAL_MOVEDFROM_KEYS_H__"/>
-  <vconfkey type="string" name="db/browser/user_agent" value="" label="SMACK_CHECK_TODO" headeronly="true" gid="6514" uid="">
+  <vconfkey type="string" name="db/browser/user_agent" value="" headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_BROWSER_USER_AGENT</header>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="db/browser/user_agent_profile_2G" value="" label="SMACK_CHECK_TODO" headeronly="true" gid="6514" uid="">
+  <vconfkey type="string" name="db/browser/user_agent_profile_2G" value="" headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_BROWSER_USER_AGENT_PROFILE_2G</header>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="db/browser/user_agent_profile_3G" value="" label="SMACK_CHECK_TODO" headeronly="true" gid="6514" uid="">
+  <vconfkey type="string" name="db/browser/user_agent_profile_3G" value="" headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_BROWSER_USER_AGENT_PROFILE_3G</header>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="db/browser/user_agent_profile_4G" value="" label="SMACK_CHECK_TODO" headeronly="true" gid="6514" uid="">
+  <vconfkey type="string" name="db/browser/user_agent_profile_4G" value="" headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_BROWSER_USER_AGENT_PROFILE_4G</header>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="db/browser/user_agent_profile_4G" value="" label="SMACK_CHECK_TODO" headeronly="true" gid="6514" uid="">
+  <vconfkey type="string" name="db/browser/user_agent_profile_4G" value="" headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_BROWSER_USER_AGENT_PROFILE_4G</header>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int" name="memory/pwlock/state" value="0" label="" headeronly="true" gid="6514" uid="">
+  <vconfkey type="int" name="memory/pwlock/state" value="0" headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_PWLOCK_STATE</header>
     <creator/>
     <email/>
