@@ -14,7 +14,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 # DO NOT GENERATE # /usr/bin/vconftool set -t <xsl:value-of select="vconfkey/@type"/> "<xsl:value-of select="./@name"/>"  "<xsl:value-of select="./@value"/>" -s "<xsl:value-of select="./@label"/>" -i <xsl:choose><xsl:when test="@uid != ''"> -u <xsl:value-of select="@uid"/> </xsl:when></xsl:choose> <xsl:choose><xsl:when test="@gid != ''"> -g <xsl:value-of select="@gid"/> </xsl:when></xsl:choose>
   </xsl:when>
   <xsl:otherwise>
-/usr/bin/vconftool set -t <xsl:value-of select="@type"/> "<xsl:value-of select="./@name"/>"  "<xsl:value-of select="./@value"/>" -s "<xsl:value-of select="./@label"/>" -i <xsl:choose><xsl:when test="@uid != ''"> -u <xsl:value-of select="@uid"/> </xsl:when></xsl:choose> <xsl:choose><xsl:when test="@gid != ''"> -g <xsl:value-of select="@gid"/> </xsl:when></xsl:choose>
+/usr/bin/buxton2ctl create-<xsl:value-of select="@type"/> system "<xsl:value-of select="./@name"/>"  "<xsl:value-of select="./@value"/>" <xsl:value-of select="./@label"/> "<xsl:value-of select="./@readPriv"/>" "<xsl:value-of select="./@writePriv"/>"
   </xsl:otherwise>
 </xsl:choose>
 

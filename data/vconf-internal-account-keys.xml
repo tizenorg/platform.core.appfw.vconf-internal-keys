@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vconfkeylists>
   <filedef name="__VCONF_INTERNAL_ACCOUNT_KEYS_H__"/>
-  <vconfkey type="string" name="db/account/msg" value="" label="tizen::vconf::account" gid="6514" uid="" private_spec="true">
+  <vconfkey type="string" name="db/account/msg" value="" readPriv="http://tizen.org/privilege/account.read" writePriv="http://tizen.org/privilege/account.write" gid="6514" uid="" private_spec="true">
     <header>VCONFKEY_ACCOUNT_MSG_STR</header>
     <creator>Jang JiSeob</creator>
     <email>jiseob.jang</email>
