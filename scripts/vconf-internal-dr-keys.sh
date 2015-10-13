@@ -1,3 +1,3 @@
 #!/bin/bash
 
-/usr/bin/vconftool set -t int "memory/data_router/osp_serial_open"  "0" -s "tizen::vconf::platform::rw" -i  -g 6514
+/usr/bin/buxton2ctl create-int32 "memory" "memory/data_router/osp_serial_open"  "0"  "http://tizen.org/privilege/internal/default/platform" "http://tizen.org/privilege/internal/default/platform"

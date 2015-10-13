@@ -1,4 +1,5 @@
 #!/bin/bash
 
-/usr/bin/vconftool set -t int "memory/filemanager/Mmc"  "0" -s "tizen::vconf::platform::rw" -i  -g 6514
-/usr/bin/vconftool set -t int "db/filemanager/dbupdate"  "1" -s "tizen::vconf::platform::rw" -i  -g 6514
+/usr/bin/buxton2ctl create-int32 "memory" "memory/filemanager/Mmc"  "0"  "http://tizen.org/privilege/internal/default/platform" "http://tizen.org/privilege/internal/default/platform"
+
+/usr/bin/buxton2ctl create-int32 "system" "db/filemanager/dbupdate"  "1"  "http://tizen.org/privilege/internal/default/platform" "http://tizen.org/privilege/internal/default/platform"

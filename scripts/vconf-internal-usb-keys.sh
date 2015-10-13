@@ -1,4 +1,5 @@
 #!/bin/bash
 
-/usr/bin/vconftool set -t int "memory/usb/cur_mode"  "0" -s "tizen::vconf::platform::r" -i  -g 6514
-/usr/bin/vconftool set -t int "db/usb/sel_mode"  "1" -s "tizen::vconf::platform::r" -i  -g 6514
+/usr/bin/buxton2ctl create-int32 "memory" "memory/usb/cur_mode"  "0"  "http://tizen.org/privilege/internal/default/platform" "http://tizen.org/privilege/internal/default/platform"
+
+/usr/bin/buxton2ctl create-int32 "system" "db/usb/sel_mode"  "1"  "http://tizen.org/privilege/internal/default/platform" "http://tizen.org/privilege/internal/default/platform"
