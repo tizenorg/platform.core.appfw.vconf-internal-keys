@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vconfkeylists>
   <filedef name="__VCONF_INTERNAL_ISF_KEYS_H__"/>
-  <vconfkey type="string" name="db/isf/input_language" value="en_US" label="tizen::vconf::public::r::platform::rw" gid="6514" uid="" private_spec="true">
+  <vconfkey type="string" name="db/isf/input_language" value="en_US" gid="6514" uid="" private_spec="true" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_ISF_INPUT_LANGUAGE</header>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="db/isf/input_keyboard_uuid" value="ise-default" label="tizen::vconf::platform::rw" gid="6514" uid="" private_spec="true">
+  <vconfkey type="string" name="db/isf/input_keyboard_uuid" value="ise-default" gid="6514" uid="" private_spec="true" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_ISF_ACTIVE_KEYBOARD_UUID</header>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int" name="memory/isf/input_panel_state" value="0" label="tizen::vconf::platform::r" gid="6514" uid="" private_spec="true">
+  <vconfkey type="int32" name="memory/isf/input_panel_state" value="0" gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_ISF_INPUT_PANEL_STATE</header>
     <creator/>
     <email/>

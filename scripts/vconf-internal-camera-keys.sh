@@ -1,8 +1,13 @@
 #!/bin/bash
 
-/usr/bin/vconftool set -t int "memory/camera/state"  "0" -s "tizen::vconf::camcorder" -i  -g 6514
-/usr/bin/vconftool set -t int "file/camera/shutter_sound_policy"  "0" -s "tizen::vconf::public::r::platform::rw" -i  -g 6514
-/usr/bin/vconftool set -t int "memory/recorder/state"  "0" -s "tizen::vconf::camcorder" -i  -g 6514
-/usr/bin/vconftool set -t int "memory/camera/pid"  "0" -s "tizen::vconf::camcorder" -i  -g 6514
-/usr/bin/vconftool set -t bool "memory/camera/flash_state"  "0" -s "tizen::vconf::camcorder" -i  -g 6514
-/usr/bin/vconftool set -t int "memory/recorder/pid"  "0" -s "tizen::vconf::camcorder" -i  -g 6514
+/usr/bin/buxton2ctl create-int32 "memory" "memory/camera/state"  "0"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/internal/buxton/camcorder"
+
+/usr/bin/buxton2ctl create-int32 "system" "file/camera/shutter_sound_policy"  "0"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/internal/default/platform"
+
+/usr/bin/buxton2ctl create-int32 "memory" "memory/recorder/state"  "0"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/internal/buxton/camcorder"
+
+/usr/bin/buxton2ctl create-int32 "memory" "memory/camera/pid"  "0"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/internal/buxton/camcorder"
+
+/usr/bin/buxton2ctl create-bool "memory" "memory/camera/flash_state"  "0"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/internal/buxton/camcorder"
+
+/usr/bin/buxton2ctl create-int32 "memory" "memory/recorder/pid"  "0"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/internal/buxton/camcorder"

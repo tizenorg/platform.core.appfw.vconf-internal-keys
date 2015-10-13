@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vconfkeylists>
   <filedef name="__VCONF_INTERNAL_CALL_KEYS_H__"/>
-  <vconfkey type="int" name="memory/call/state" value="0" label="tizen::vconf::setting::admin" gid="6514" uid="">
+  <vconfkey type="int32" name="memory/call/state" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_CALL_STATE</header>
     <creator>Dongchul Lim</creator>
     <email>dc7.lim@samsung.com</email>

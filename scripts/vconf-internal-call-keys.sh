@@ -1,3 +1,3 @@
 #!/bin/bash
 
-/usr/bin/vconftool set -t int "memory/call/state"  "0" -s "tizen::vconf::setting::admin" -i  -g 6514
+/usr/bin/buxton2ctl create-int32 "memory" "memory/call/state"  "0"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/systemsettings.admin"
