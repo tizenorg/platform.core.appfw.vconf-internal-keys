@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vconfkeylists>
   <filedef name="__VCONF_INTERNAL_MSG_KEYS_H__"/>
-  <vconfkey type="bool" name="memory/msg/ready" value="0" label="tizen::vconf::message" gid="6514" uid="">
+  <vconfkey type="bool" name="memory/msg/ready" value="0" label="tizen::vconf::message" gid="6514" uid="" readPriv="" writePriv="">
     <header>VCONFKEY_MSG_SERVER_READY</header>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int" name="db/msg/recv_sms" value="0" label="tizen::vconf::platform::rw" gid="6514" uid="">
+  <vconfkey type="int" name="db/msg/recv_sms" value="0" label="tizen::vconf::platform::rw" gid="6514" uid="" readPriv="" writePriv="">
     <header>VCONFKEY_MESSAGE_RECV_SMS_STATE</header>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int" name="db/msg/recv_mms" value="0" label="tizen::vconf::platform::rw" gid="6514" uid="">
+  <vconfkey type="int" name="db/msg/recv_mms" value="0" label="tizen::vconf::platform::rw" gid="6514" uid="" readPriv="" writePriv="">
     <header>VCONFKEY_MESSAGE_RECV_MMS_STATE</header>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int" name="db/msg/network_mode" value="0" label="tizen::vconf::platform::rw" gid="6514" uid="">
+  <vconfkey type="int" name="db/msg/network_mode" value="0" label="tizen::vconf::platform::rw" gid="6514" uid="" readPriv="" writePriv="">
     <header>VCONFKEY_MESSAGE_NETWORK_MODE</header>
     <creator/>
     <email/>

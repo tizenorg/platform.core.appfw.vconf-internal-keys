@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vconfkeylists>
   <filedef name="__VCONF_INTERNAL_WEBKIT_KEYS_H__"/>
-  <vconfkey type="string" name="db/webkit/user_agent" value="Default system user agent for backup in testmode" label="system::vconf_system" gid="6514" uid="" private_spec="true">
+  <vconfkey type="string" name="db/webkit/user_agent" value="Default system user agent for backup in testmode" label="system::vconf_system" gid="6514" uid="" private_spec="true" readPriv="" writePriv="">
     <header>VCONFKEY_WEBKIT_USER_AGENT</header>
     <creator/>
     <email/>

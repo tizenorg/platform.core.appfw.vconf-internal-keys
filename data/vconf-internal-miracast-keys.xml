@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vconfkeylists>
   <filedef name="__VCONF_INTERNAL_MIRACAST_KEYS_H__"/>
-  <vconfkey type="int" name="memory/wifi/miracast/source_status" value="0" label="" headeronly="true" gid="6514" uid="">
+  <vconfkey type="int" name="memory/wifi/miracast/source_status" value="0" label="" headeronly="true" gid="6514" uid="" readPriv="" writePriv="">
     <header>VCONFKEY_MIRACAST_WFD_SOURCE_STATUS</header>
     <creator/>
     <email/>
@@ -11,7 +11,7 @@
       <enumdata>VCONFKEY_MIRACAST_WFD_SOURCE_ON</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int" name="memory/wifi/miracast/web_video_player_state" value="0" label="" headeronly="true" gid="6514" uid="">
+  <vconfkey type="int" name="memory/wifi/miracast/web_video_player_state" value="0" label="" headeronly="true" gid="6514" uid="" readPriv="" writePriv="">
     <header>VCONFKEY_WFD_WEB_VIDEO_PLAYER_STATE</header>
     <creator/>
     <email/>
