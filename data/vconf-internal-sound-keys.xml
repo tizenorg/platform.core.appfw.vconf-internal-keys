@@ -73,7 +73,7 @@
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/private/sound/booting" value="/usr/share/keysound/poweron.wav" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="string" name="memory/private/sound/booting" value="/usr/share/keysound/poweron.wav" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SOUND_BOOT_SOUND</header>
     <creator/>
     <email/>

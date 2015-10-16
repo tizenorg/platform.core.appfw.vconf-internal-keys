@@ -24,4 +24,4 @@
 
 /usr/bin/buxton2ctl -i -d create-int32 "memory" "memory/private/sound/pcm_dump"  "0"  "http://tizen.org/privilege/internal/default/platform" "http://tizen.org/privilege/internal/default/platform"
 
-/usr/bin/buxton2ctl -i -d create-int32 "memory" "memory/private/sound/booting"  "/usr/share/keysound/poweron.wav"  "http://tizen.org/privilege/internal/default/platform" "http://tizen.org/privilege/internal/default/platform"
+/usr/bin/buxton2ctl -i -d create-string "memory" "memory/private/sound/booting"  "/usr/share/keysound/poweron.wav"  "http://tizen.org/privilege/internal/default/platform" "http://tizen.org/privilege/internal/default/platform"
