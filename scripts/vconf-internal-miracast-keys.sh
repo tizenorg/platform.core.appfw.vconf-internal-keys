@@ -1,4 +1,5 @@
 #!/bin/bash
 
-# DO NOT GENERATE # /usr/bin/vconftool set -t  "memory/wifi/miracast/source_status"  "0" -s "" -i  -g 6514
-# DO NOT GENERATE # /usr/bin/vconftool set -t  "memory/wifi/miracast/web_video_player_state"  "0" -s "" -i  -g 6514
+# DO NOT GENERATE # /usr/bin/buxton2ctl -i -d create-int32 "" "memory/wifi/miracast/source_status"  "0"  "" ""
+
+# DO NOT GENERATE # /usr/bin/buxton2ctl -i -d create-int32 "" "memory/wifi/miracast/web_video_player_state"  "0"  "" ""
