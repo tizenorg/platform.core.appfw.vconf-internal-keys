@@ -7,6 +7,12 @@
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
+  <vconfkey type="int32" name="db/system/timechange" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+    <header>VCONFKEY_SYSTEM_TIMECHANGE</header>
+    <creator/>
+    <email/>
+    <comment><![CDATA[ ]]></comment>
+  </vconfkey>
   <vconfkey type="double" name="db/system/timechange_external" value="0" gid="6514" uid="" private_spec="true" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SYSTEM_TIMECHANGE_EXTERNAL</header>
     <creator/>

@@ -23,6 +23,8 @@
 #define __VCONF_INTERNAL_SYSTEM_KEYS_H__
 #define VCONFKEY_SYSTEM_TIME_CHANGED  "memory/system/timechanged"
 
+#define VCONFKEY_SYSTEM_TIMECHANGE  "db/system/timechange"
+
 #define VCONFKEY_SYSTEM_TIMECHANGE_EXTERNAL  "db/system/timechange_external"
 
 #endif /*   __VCONF_INTERNAL_SYSTEM_KEYS_H__    */
