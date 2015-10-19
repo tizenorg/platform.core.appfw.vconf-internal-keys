@@ -150,7 +150,7 @@
 
 /usr/bin/buxton2ctl -i -d create-bool "system" "db/setting/accessibility/screen_zoom"  "0"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/internal/default/platform"
 
-/usr/bin/buxton2ctl -i -d create-int32 "systme" "db/setting/accessibility/screen_reader"  "0"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/systemsettings.admin"
+/usr/bin/buxton2ctl -i -d create-int32 "system" "db/setting/accessibility/screen_reader"  "0"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/systemsettings.admin"
 
 /usr/bin/buxton2ctl -i -d create-string "system" "db/setting/timezone_id"  "Asia/Seoul"  "http://tizen.org/privilege/internal/default/platform" "http://tizen.org/privilege/internal/default/platform"
 
@@ -276,7 +276,7 @@
 
 /usr/bin/buxton2ctl -i -d create-bool "system" "db/setting/firewall"  "0"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/internal/default/platform"
 
-/usr/bin/buxton2ctl -i -d create-bool "system" "memory/setting/personal"  "0"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/internal/default/platform"
+/usr/bin/buxton2ctl -i -d create-bool "memory" "memory/setting/personal"  "0"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/internal/default/platform"
 
 /usr/bin/buxton2ctl -i -d create-int32 "system" "db/setting/personal_unlock_method"  "0"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/systemsettings.admin"
 
