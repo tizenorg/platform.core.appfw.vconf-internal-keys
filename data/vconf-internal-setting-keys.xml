@@ -1212,4 +1212,46 @@
       <enumdata val="2">VCONFKEY_WALLPAPER_CHANGED_NOTI_HM</enumdata>
     </enumlist>
   </vconfkey>
+  <vconfkey type="bool" name="db/setting/accessibility/tts/indicator/time" value="1" label="tizen::vconf::public::r::platform::rw" gid="6514" uid="">
+    <header>VCONFKEY_SETAPPL_ACCESSIBILITY_TTS_INDICATOR_INFORMATION_TIME</header>
+    <creator>  </creator>
+    <email></email>
+    <comment></comment>
+  </vconfkey>
+  <vconfkey type="bool" name="db/setting/accessibility/tts/indicator/battery" value="1" label="tizen::vconf::public::r::platform::rw" gid="6514" uid="">
+    <header>VCONFKEY_SETAPPL_ACCESSIBILITY_TTS_INDICATOR_INFORMATION_BATTERY</header>
+    <creator>  </creator>
+    <email></email>
+    <comment></comment>
+  </vconfkey>
+  <vconfkey type="bool" name="db/setting/accessibility/tts/indicator/signal_strenght" value="1" label="tizen::vconf::public::r::platform::rw" gid="6514" uid="">
+    <header>VCONFKEY_SETAPPL_ACCESSIBILITY_TTS_INDICATOR_INFORMATION_SIGNAL_STRENGHT</header>
+    <creator>  </creator>
+    <email></email>
+    <comment></comment>
+  </vconfkey>
+  <vconfkey type="bool" name="db/setting/accessibility/tts/indicator/missed_events" value="1" label="tizen::vconf::public::r::platform::rw" gid="6514" uid="">
+    <header>VCONFKEY_SETAPPL_ACCESSIBILITY_TTS_INDICATOR_INFORMATION_MISSED_EVENTS</header>
+    <creator>  </creator>
+    <email></email>
+    <comment></comment>
+  </vconfkey>
+  <vconfkey type="bool" name="db/setting/accessibility/tts/indicator/date" value="0" label="tizen::vconf::public::r::platform::rw" gid="6514" uid="">
+    <header>VCONFKEY_SETAPPL_ACCESSIBILITY_TTS_INDICATOR_INFORMATION_DATE</header>
+    <creator>  </creator>
+    <email></email>
+    <comment></comment>
+  </vconfkey>
+  <vconfkey type="bool" name="db/setting/accessibility/tts/indicator/bluetooth" value="0" label="tizen::vconf::public::r::platform::rw" gid="6514" uid="">
+    <header>VCONFKEY_SETAPPL_ACCESSIBILITY_TTS_INDICATOR_INFORMATION_BLUETOOTH</header>
+    <creator>  </creator>
+    <email></email>
+    <comment></comment>
+  </vconfkey>
+  <vconfkey type="int" name="db/setting/effect_image" value="1" label="tizen::vconf::platform::rw" gid="6514" uid="">
+    <header>VCONFKEY_AMD_EFFECT_IMAGE_ENABLE</header>
+    <creator> Inkyun Kil </creator>
+    <email> inkyun.kil@samsung.com </email>
+    <comment> this key is related to App F/W </comment>
+  </vconfkey>
 </vconfkeylists>

@@ -321,3 +321,17 @@
 # DO NOT GENERATE # /usr/bin/buxton2ctl -i -d create-int32 "" "db/setting/ambient_mode"  "0"  "" ""
 
 # DO NOT GENERATE # /usr/bin/buxton2ctl -i -d create-int32 "" "db/setting/wallpaper_changed"  "0"  "" ""
+
+/usr/bin/buxton2ctl -i -d create-bool "" "db/setting/accessibility/tts/indicator/time"  "1" tizen::vconf::public::r::platform::rw "" ""
+
+/usr/bin/buxton2ctl -i -d create-bool "" "db/setting/accessibility/tts/indicator/battery"  "1" tizen::vconf::public::r::platform::rw "" ""
+
+/usr/bin/buxton2ctl -i -d create-bool "" "db/setting/accessibility/tts/indicator/signal_strenght"  "1" tizen::vconf::public::r::platform::rw "" ""
+
+/usr/bin/buxton2ctl -i -d create-bool "" "db/setting/accessibility/tts/indicator/missed_events"  "1" tizen::vconf::public::r::platform::rw "" ""
+
+/usr/bin/buxton2ctl -i -d create-bool "" "db/setting/accessibility/tts/indicator/date"  "0" tizen::vconf::public::r::platform::rw "" ""
+
+/usr/bin/buxton2ctl -i -d create-bool "" "db/setting/accessibility/tts/indicator/bluetooth"  "0" tizen::vconf::public::r::platform::rw "" ""
+
+/usr/bin/buxton2ctl -i -d create-int "" "db/setting/effect_image"  "1" tizen::vconf::platform::rw "" ""
