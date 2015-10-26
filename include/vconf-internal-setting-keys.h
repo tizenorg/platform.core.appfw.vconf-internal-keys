@@ -724,4 +724,16 @@ enum {
 		VCONFKEY_WALLPAPER_CHANGED_NOTI_HM = 2
 };
 
+#define VCONFKEY_SETAPPL_ACCESSIBILITY_TTS_INDICATOR_INFORMATION_TIME  "db/setting/accessibility/tts/indicator/time"
+
+#define VCONFKEY_SETAPPL_ACCESSIBILITY_TTS_INDICATOR_INFORMATION_BATTERY  "db/setting/accessibility/tts/indicator/battery"
+
+#define VCONFKEY_SETAPPL_ACCESSIBILITY_TTS_INDICATOR_INFORMATION_SIGNAL_STRENGHT  "db/setting/accessibility/tts/indicator/signal_strenght"
+
+#define VCONFKEY_SETAPPL_ACCESSIBILITY_TTS_INDICATOR_INFORMATION_MISSED_EVENTS  "db/setting/accessibility/tts/indicator/missed_events"
+
+#define VCONFKEY_SETAPPL_ACCESSIBILITY_TTS_INDICATOR_INFORMATION_DATE  "db/setting/accessibility/tts/indicator/date"
+
+#define VCONFKEY_SETAPPL_ACCESSIBILITY_TTS_INDICATOR_INFORMATION_BLUETOOTH  "db/setting/accessibility/tts/indicator/bluetooth"
+
 #endif /*   __VCONF_INTERNAL_SETTING_KEYS_H__    */
