@@ -100,4 +100,20 @@ enum {
 
 #define VCONFKEY_NETWORK_WIFI_PKT_LAST_SNT  "db/dnet/statistics/wifi/lastsnt"
 
+#define VCONFKEY_NETWORK_WIFI_LAST_POWER_STATE  "file/private/wifi/last_power_state"
+
+#define VCONFKEY_NETWORK_WIFI_OFF_BY_AIRPLANE  "file/private/wifi/wifi_off_by_airplane"
+
+#define VCONFKEY_NETWORK_WIFI_OFF_BY_EMERGENCY  "file/private/wifi/wifi_off_by_emergency"
+
+#define VCONFKEY_NETWORK_WIFI_OFF_BY_RESTRICTED  "file/private/wifi/wifi_off_by_restricted"
+
+#define VCONFKEY_NETWORK_SLEEP_POLICY  "file/private/wifi/sleep_policy"
+
+#define VCONFKEY_NETWORK_MAC_ADDRESS  "db/dnet/mac_address"
+
+#define VCONFKEY_NETWORK_WIFI_FREQUENCY  "memory/private/wifi/frequency"
+
+#define VCONFKEY_NETWORK_WEARABLE_WIFI_USE  "db/private/wifi/wearable_wifi_use"
+
 #endif /*   __VCONF_INTERNAL_DNET_KEYS_H__    */

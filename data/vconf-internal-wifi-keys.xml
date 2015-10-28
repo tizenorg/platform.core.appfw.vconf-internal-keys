@@ -188,4 +188,16 @@
       <enumdata>VCONFKEY_SCREEN_MIRRORING_CONNECTED</enumdata>
     </enumlist>
   </vconfkey>
+  <vconfkey type="int32" name="" value="1" gid="6519" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writtePriv="http://tizen.org/privilege/systemsettings.admin">
+   <header>VCONFKEY_WIFI_NETWORK_BONDING</header>
+   <creator/>
+   <email/>
+   <comment><![CDATA[ ]]></comment>
+  </vconfkey>
+  <vconfkey type="int32" name="file/private/wifi/sort_by" value="1" gid="6519" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writtePriv="http://tizen.org/privilege/systemsettings.admin">
+   <header>VCONFKEY_WIFI_SORT_BY</header>
+   <creator/>
+   <email/>
+   <comment><![CDATA[ ]]></comment>
+  </vconfkey>
 </vconfkeylists>

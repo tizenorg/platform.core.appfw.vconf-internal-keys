@@ -157,4 +157,8 @@ enum {
 		VCONFKEY_SCREEN_MIRRORING_CONNECTED
 };
 
+#define VCONFKEY_WIFI_NETWORK_BONDING  ""
+
+#define VCONFKEY_WIFI_SORT_BY  "file/private/wifi/sort_by"
+
 #endif /*   __VCONF_INTERNAL_WIFI_KEYS_H__    */

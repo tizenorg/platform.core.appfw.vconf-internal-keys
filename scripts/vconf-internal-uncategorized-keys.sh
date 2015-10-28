@@ -272,20 +272,6 @@
 
 /usr/bin/buxton2ctl -i -d create-bool "system" "file/private/isf/autoperiod_allow"  "0"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/internal/default/platform"
 
-/usr/bin/buxton2ctl -i -d create-int32 "system" "file/private/wifi/last_power_state"  "0"  "http://tizen.org/privilege/internal/default/platform" "http://tizen.org/privilege/internal/default/platform"
-
-/usr/bin/buxton2ctl -i -d create-int32 "system" "file/private/wifi/network_bonding"  "0"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/systemsettings.admin"
-
-/usr/bin/buxton2ctl -i -d create-int32 "system" "file/private/wifi/sleep_policy"  "0"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/systemsettings.admin"
-
-/usr/bin/buxton2ctl -i -d create-int32 "system" "file/private/wifi/sort_by"  "1"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/systemsettings.admin"
-
-/usr/bin/buxton2ctl -i -d create-int32 "system" "file/private/wifi/wifi_off_by_airplane"  "0"  "http://tizen.org/privilege/internal/default/platform" "http://tizen.org/privilege/internal/default/platform"
-
-/usr/bin/buxton2ctl -i -d create-int32 "system" "file/private/wifi/wifi_off_by_emergency"  "0"  "http://tizen.org/privilege/internal/default/platform" "http://tizen.org/privilege/internal/default/platform"
-
-/usr/bin/buxton2ctl -i -d create-int32 "system" "file/private/wifi/wifi_off_by_restricted"  "0"  "http://tizen.org/privilege/internal/default/platform" "http://tizen.org/privilege/internal/default/platform"
-
 /usr/bin/buxton2ctl -i -d create-int32 "memory" "memory/private/msg-service/default_network_sim"  "0"  "http://tizen.org/privilege/internal/default/platform" "http://tizen.org/privilege/internal/default/platform"
 
 /usr/bin/buxton2ctl -i -d create-string "memory" "memory/private/msg-service/msisdn/1"  ""  "http://tizen.org/privilege/internal/default/platform" "http://tizen.org/privilege/internal/default/platform"
