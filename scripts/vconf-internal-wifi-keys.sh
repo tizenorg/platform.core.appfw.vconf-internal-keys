@@ -41,3 +41,7 @@
 # DO NOT GENERATE # /usr/bin/buxton2ctl -i -d create-int32 "" "memory/allshare_cast/state"  "0"  "" ""
 
 # DO NOT GENERATE # /usr/bin/buxton2ctl -i -d create-int32 "" "memory/screen_mirroring/status"  "0"  "" ""
+
+/usr/bin/buxton2ctl -i -d create-int32 "system" "file/private/wifi/network_bonding"  "1"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/systemsettings.admin"
+
+/usr/bin/buxton2ctl -i -d create-int32 "system" "file/private/wifi/sort_by"  "1"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/systemsettings.admin"

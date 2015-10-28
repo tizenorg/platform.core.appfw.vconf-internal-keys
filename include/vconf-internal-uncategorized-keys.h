@@ -296,20 +296,6 @@
 
 #define VCONFKEY_UNCATEGORIZED_229  "file/private/isf/autoperiod_allow"
 
-#define VCONFKEY_UNCATEGORIZED_265  "file/private/wifi/last_power_state"
-
-#define VCONFKEY_UNCATEGORIZED_266  "file/private/wifi/network_bonding"
-
-#define VCONFKEY_UNCATEGORIZED_267  "file/private/wifi/sleep_policy"
-
-#define VCONFKEY_UNCATEGORIZED_268  "file/private/wifi/sort_by"
-
-#define VCONFKEY_UNCATEGORIZED_269  "file/private/wifi/wifi_off_by_airplane"
-
-#define VCONFKEY_UNCATEGORIZED_270  "file/private/wifi/wifi_off_by_emergency"
-
-#define VCONFKEY_UNCATEGORIZED_271  "file/private/wifi/wifi_off_by_restricted"
-
 #define VCONFKEY_UNCATEGORIZED_283  "memory/private/msg-service/default_network_sim"
 
 #define VCONFKEY_UNCATEGORIZED_287  "memory/private/msg-service/msisdn/1"

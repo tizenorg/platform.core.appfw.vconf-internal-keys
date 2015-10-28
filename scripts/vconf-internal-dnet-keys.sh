@@ -41,3 +41,19 @@
 /usr/bin/buxton2ctl -i -d create-int32 "system" "db/dnet/statistics/wifi/lastrcv"  "0"  "http://tizen.org/privilege/internal/buxton/network.get" "http://tizen.org/privilege/network.set"
 
 /usr/bin/buxton2ctl -i -d create-int32 "system" "db/dnet/statistics/wifi/lastsnt"  "0"  "http://tizen.org/privilege/internal/buxton/network.get" "http://tizen.org/privilege/network.set"
+
+/usr/bin/buxton2ctl -i -d create-int32 "system" "file/private/wifi/last_power_state"  "0"  "http://tizen.org/privilege/internal/buxton/network.get" "http://tizen.org/privilege/network.set"
+
+/usr/bin/buxton2ctl -i -d create-int32 "system" "file/private/wifi/wifi_off_by_airplane"  "0"  "http://tizen.org/privilege/internal/buxton/network.get" "http://tizen.org/privilege/network.set"
+
+/usr/bin/buxton2ctl -i -d create-int32 "system" "file/private/wifi/wifi_off_by_emergency"  "0"  "http://tizen.org/privilege/internal/buxton/network.get" "http://tizen.org/privilege/network.set"
+
+/usr/bin/buxton2ctl -i -d create-int32 "system" "file/private/wifi/wifi_off_by_restricted"  "0"  "http://tizen.org/privilege/internal/buxton/network.get" "http://tizen.org/privilege/network.set"
+
+/usr/bin/buxton2ctl -i -d create-int32 "system" "file/private/wifi/sleep_policy"  "0"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/systemsettings.admin"
+
+/usr/bin/buxton2ctl -i -d create-string "system" "db/dnet/mac_address"  ""  "http://tizen.org/privilege/internal/buxton/network.get" "http://tizen.org/privilege/network.set"
+
+/usr/bin/buxton2ctl -i -d create-int32 "memory" "memory/private/wifi/frequency"  "0"  "http://tizen.org/privilege/internal/default/platform" "http://tizen.org/privilege/internal/default/platform"
+
+/usr/bin/buxton2ctl -i -d create-int32 "system" "db/private/wifi/wearable_wifi_use"  "0"  "http://tizen.org/privilege/internal/buxton/network.get" "http://tizen.org/privilege/network.set"
