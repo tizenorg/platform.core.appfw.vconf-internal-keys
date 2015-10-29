@@ -60,4 +60,8 @@ enum {
 		VCONFKEY_NFC_OFF_BY_FLIGHT
 };
 
+#define VCONFKEY_NFC_PAYMENT_HANDLERS  "db/nfc/payment_handlers"
+
+#define VCONFKEY_NFC_OTHER_HANDLERS  "db/nfc/other_handlers"
+
 #endif /*   __VCONF_INTERNAL_NFC_KEYS_H__    */

@@ -55,4 +55,16 @@
       <enumdata>VCONFKEY_NFC_OFF_BY_FLIGHT </enumdata>
     </enumlist>
   </vconfkey>
+  <vconfkey type="string" name="db/nfc/payment_handlers" value="" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/nfc.admin" writePriv="http://tizen.org/privilege/nfc.admin">
+    <header>VCONFKEY_NFC_PAYMENT_HANDLERS</header>
+    <creator>Jihoon Jung</creator>
+    <email>jh8801.jung@samsung.com</email>
+    <comment><![CDATA[ ]]></comment>
+  </vconfkey>
+  <vconfkey type="string" name="db/nfc/other_handlers" value="" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/nfc.admin" writePriv="http://tizen.org/privilege/nfc.admin">
+    <header>VCONFKEY_NFC_OTHER_HANDLERS</header>
+    <creator>Jihoon Jung</creator>
+    <email>jh8801.jung@samsung.com</email>
+    <comment><![CDATA[ ]]></comment>
+  </vconfkey>
 </vconfkeylists>
