@@ -328,8 +328,6 @@
 
 #define VCONFKEY_UNCATEGORIZED_304  "memory/private/msg-service/sim_subs_id/3"
 
-#define VCONFKEY_UNCATEGORIZED_308  "memory/private/org.tizen.indicator/show_more_noti_port"
-
 #define VCONFKEY_UNCATEGORIZED_322  "memory/private/sysman/added_storage_uevent"
 
 #define VCONFKEY_UNCATEGORIZED_323  "memory/private/sysman/enhance_pid"
