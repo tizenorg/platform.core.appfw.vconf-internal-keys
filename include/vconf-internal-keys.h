@@ -16,6 +16,7 @@
 #include "vconf-internal-filemanager-keys.h"
 #include "vconf-internal-hotfix.h"
 #include "vconf-internal-idle-lock-keys.h"
+#include "vconf-internal-indicator-keys.h"
 #include "vconf-internal-isf-keys.h"
 #include "vconf-internal-livebox-keys.h"
 #include "vconf-internal-location-keys.h"

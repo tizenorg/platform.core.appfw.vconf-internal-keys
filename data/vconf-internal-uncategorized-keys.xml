@@ -955,12 +955,6 @@
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/private/org.tizen.indicator/show_more_noti_port" value="0"  gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
-    <header>VCONFKEY_UNCATEGORIZED_308</header>
-    <creator/>
-    <email/>
-    <comment><![CDATA[ ]]></comment>
-  </vconfkey>
   <vconfkey type="string" name="memory/private/sysman/added_storage_uevent" value="" gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_UNCATEGORIZED_322</header>
     <creator/>
