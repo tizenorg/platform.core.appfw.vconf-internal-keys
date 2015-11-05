@@ -1047,6 +1047,17 @@
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
+  <vconfkey type="int" name="db/setting/app_hw_acceleration" value="0" label="tizen::vconf::public::r::platform::rw" gid="6514" uid="">
+    <header>VCONFKEY_SETAPPL_APP_HW_ACCELERATION</header>
+    <creator> Myoungjune Park </creator>
+    <email>mj2004.park@samsung.com</email>
+    <comment><![CDATA[ ]]></comment>
+	<enumlist>
+      <enumdata val="-1">SETTING_HW_ACCELERATION_NONE</enumdata>
+      <enumdata val="0">SETTING_HW_ACCELERATION_OFF</enumdata>
+      <enumdata val="1">SETTING_HW_ACCELERATION_ON</enumdata>
+    </enumlist>
+  </vconfkey>
   <vconfkey type="int32" name="db/setting/change_ui/theme" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_CHANGE_UI_THEME_INT</header>
     <creator> Myoungjune Park </creator>

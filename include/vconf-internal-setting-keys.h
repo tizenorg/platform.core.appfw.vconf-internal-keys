@@ -582,6 +582,14 @@ enum {
 
 #define VCONFKEY_SETAPPL_DEVELOPER_OPTION_STATE  "db/setting/developer_option_state"
 
+#define VCONFKEY_SETAPPL_APP_HW_ACCELERATION  "db/setting/app_hw_acceleration"
+
+enum {
+	SETTING_HW_ACCELERATION_NONE = -1,
+		SETTING_HW_ACCELERATION_OFF = 0,
+		SETTING_HW_ACCELERATION_ON = 1
+};
+
 #define VCONFKEY_SETAPPL_CHANGE_UI_THEME_INT  "db/setting/change_ui/theme"
 
 #define VCONFKEY_SETAPPL_WINDOW_GRAYTONE  "db/setting/win_gray"
