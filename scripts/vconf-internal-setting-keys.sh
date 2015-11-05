@@ -282,6 +282,8 @@
 
 /usr/bin/buxton2ctl -i -d create-bool "system" "db/setting/developer_option_state"  "0"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/internal/default/platform"
 
+/usr/bin/buxton2ctl -i -d create-int "" "db/setting/app_hw_acceleration"  "0" tizen::vconf::public::r::platform::rw "" ""
+
 /usr/bin/buxton2ctl -i -d create-int32 "system" "db/setting/change_ui/theme"  "0"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/internal/default/platform"
 
 /usr/bin/buxton2ctl -i -d create-bool "system" "db/setting/win_gray"  "0"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/internal/default/platform"
