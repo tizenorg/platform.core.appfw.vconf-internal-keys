@@ -12,6 +12,7 @@
       <enumdata>VCONFKEY_NETWORK_WIFI</enumdata>
       <enumdata>VCONFKEY_NETWORK_ETHERNET</enumdata>
       <enumdata>VCONFKEY_NETWORK_BLUETOOTH</enumdata>
+      <enumdata>VCONFKEY_NETWORK_DEFAULT_PROXY</enumdata>
     </enumlist>
   </vconfkey>
   <vconfkey type="int32" name="memory/dnet/network_config" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
