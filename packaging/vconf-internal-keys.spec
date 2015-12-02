@@ -1,6 +1,6 @@
 Name:       vconf-internal-keys
 Summary:    Internal shared keys for vconf
-Version:    0.0.155
+Version:    0.0.156
 Release:    0
 Group:      Application Framework/Configuration
 License:    Apache-2.0
