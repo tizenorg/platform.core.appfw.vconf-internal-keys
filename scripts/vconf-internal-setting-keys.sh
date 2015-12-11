@@ -4,7 +4,7 @@
 
 # DO NOT GENERATE # /usr/bin/buxton2ctl -i -d create-int32 "" "memory/setting"  "0"  "" ""
 
-/usr/bin/buxton2ctl -i -d create-string "system" "db/setting/sound/call/vibration_pattern_path"  "/opt/usr/share/settings/Vibrations/haptic/default/Ticktock.ivt"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/internal/default/platform"
+/usr/bin/buxton2ctl -i -d create-string "system" "db/setting/sound/call/vibration_pattern_path"  "/usr/apps/org.tizen.setting/shared/res/settings/Vibrations/haptic/default/Ticktock.ivt"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/internal/default/platform"
 
 /usr/bin/buxton2ctl -i -d create-bool "system" "db/setting/sound/touch_sounds"  "1"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/systemsettings.admin"
 
@@ -32,11 +32,11 @@
 
 /usr/bin/buxton2ctl -i -d create-int32 "system" "db/setting/sound/call/ringtone_sound_volume"  "11"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/internal/default/platform"
 
-/usr/bin/buxton2ctl -i -d create-string "system" "db/setting/sound/call/ringtone_path"  "/opt/usr/share/settings/Ringtones/ringtone_sdk.mp3"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/systemsettings.admin"
+/usr/bin/buxton2ctl -i -d create-string "system" "db/setting/sound/call/ringtone_path"  "/usr/apps/org.tizen.setting/shared/res/settings/Ringtones/ringtone_sdk.mp3"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/systemsettings.admin"
 
 /usr/bin/buxton2ctl -i -d create-string "system" "db/setting/sound/call/ringtone_path_with_time"  ""  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/internal/default/platform"
 
-/usr/bin/buxton2ctl -i -d create-string "system" "db/setting/sound/call/ringtone_default_path"  "/opt/usr/share/settings/Ringtones/ringtone_sdk.mp3"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/systemsettings.admin"
+/usr/bin/buxton2ctl -i -d create-string "system" "db/setting/sound/call/ringtone_default_path"  "/usr/apps/org.tizen.setting/shared/res/settings/Ringtones/ringtone_sdk.mp3"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/systemsettings.admin"
 
 /usr/bin/buxton2ctl -i -d create-int32 "system" "db/setting/sound/call/vibration_level"  "5"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/internal/default/platform"
 
@@ -44,9 +44,9 @@
 
 /usr/bin/buxton2ctl -i -d create-int32 "system" "db/setting/sound/noti/msg_alert_rep_type"  "0"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/systemsettings.admin"
 
-/usr/bin/buxton2ctl -i -d create-string "system" "db/setting/sound/noti/msg_ringtone_path"  "/opt/usr/share/settings/Alerts/General notification_sdk.wav"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/systemsettings.admin"
+/usr/bin/buxton2ctl -i -d create-string "system" "db/setting/sound/noti/msg_ringtone_path"  "/usr/apps/org.tizen.setting/shared/res/settings/Alerts/General notification_sdk.wav"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/systemsettings.admin"
 
-/usr/bin/buxton2ctl -i -d create-string "system" "db/setting/sound/noti/ringtone_default_path"  "/opt/usr/share/settings/Alerts/General notification_sdk.wav"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/systemsettings.admin"
+/usr/bin/buxton2ctl -i -d create-string "system" "db/setting/sound/noti/ringtone_default_path"  "/usr/apps/org.tizen.setting/shared/res/settings/Alerts/General notification_sdk.wav"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/systemsettings.admin"
 
 # DO NOT GENERATE # /usr/bin/buxton2ctl -i -d create-int32 "" "VCONFKEY_SETAPPL_NOTI_MSG_RINGTONE_PATH_STR"  "0"  "" ""
 
