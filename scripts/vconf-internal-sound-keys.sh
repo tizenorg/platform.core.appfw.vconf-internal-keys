@@ -2,7 +2,7 @@
 
 /usr/bin/buxton2ctl -i -d create-int32 "memory" "memory/Sound/SoundStatus"  "0"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/internal/default/platform"
 
-/usr/bin/buxton2ctl -i -d create-int32 "system" "file/private/sound/volume/master"  "100"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/volume.set"
+/usr/bin/buxton2ctl -i -d create-int32 "system" "file/private/sound/volume/master"  "20"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/volume.set"
 
 /usr/bin/buxton2ctl -i -d create-int32 "system" "file/private/sound/volume/system"  "9"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/volume.set"
 

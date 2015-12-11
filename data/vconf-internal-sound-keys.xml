@@ -7,7 +7,7 @@
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="file/private/sound/volume/master" value="100" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/volume.set">
+  <vconfkey type="int32" name="file/private/sound/volume/master" value="20" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/volume.set">
     <header>VCONFKEY_SOUND_VOLUME_TYPE_MASTER</header>
     <creator/>
     <email/>
