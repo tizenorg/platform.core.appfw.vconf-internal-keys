@@ -6,10 +6,10 @@ Group:      Application Framework/Configuration
 License:    Apache-2.0
 Source0:    %{name}-%{version}.tar.gz
 BuildRequires:  cmake
+BuildRequires:  xsltproc
+BuildRequires: model-build-features
 Requires:  vconf
 Requires:  findutils
-
-BuildRequires:  pkgconfig(dlog)
 
 Requires(post): /sbin/ldconfig
 Requires(postun): /sbin/ldconfig
@@ -31,6 +31,22 @@ Vconf internal key header files (devel)
 
 %build
 
+%if "%{profile}" == "mobile"
+echo "MOBILE-----------------------------------------------------------------------"
+make model=mobile
+%endif
+
+%if "%{profile}" == "wearable"
+echo "WEARABLE---------------------------------------------------------------------"
+make model=wearable
+%endif
+
+%if "%{profile}" == "tv"
+echo "TV---------------------------------------------------------------------------"
+make model=tv
+%endif
+
+
 MAJORVER=`echo %{version} | awk 'BEGIN {FS="."}{print $1}'`
 cmake . -DCMAKE_INSTALL_PREFIX=%{_prefix} -DFULLVER=%{version} -DMAJORVER=${MAJORVER} -DCMAKE_LIBDIR=%{_libdir}
 
@@ -50,14 +66,16 @@ install -m 644 include/*.h %{buildroot}/usr/include/vconf
 
 %post
 /sbin/ldconfig
-filelist=`find /opt/usr -name "vconf-*.sh"`
-for file in $filelist
-do
-chmod a+x  $file
-#/bin/sh $file
-echo "running ---------------------------------------------------- $file"
-. $file
-rm $file
+
+filelist=("/opt/usr/default.sh" "/opt/usr/product.sh")
+for file in ${filelist[@]} ; do
+	echo "running ---------------------------------------------------- $file"
+	if [ -e $file ]
+	then
+		chmod a+x $file
+		. $file
+		rm $file
+	fi
 done
 
 %postun -p /sbin/ldconfig

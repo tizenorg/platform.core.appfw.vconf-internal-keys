@@ -164,8 +164,13 @@
     <creator>Jiung Yu</creator>
     <email>jiung.yu@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
-    <enumlist><enumdata val="0">VCONFKEY_WIFI_DIRECT_DEACTIVATED</enumdata>'
-      <enumdata>VCONFKEY_WIFI_DIRECT_ACTIVATED</enumdata><enumdata>VCONFKEY_WIFI_DIRECT_DISCOVERING</enumdata><enumdata>VCONFKEY_WIFI_DIRECT_CONNECTED</enumdata><enumdata>VCONFKEY_WIFI_DIRECT_GROUP_OWNER</enumdata></enumlist>
+	<enumlist>
+		<enumdata val="0">VCONFKEY_WIFI_DIRECT_DEACTIVATED</enumdata>
+		<enumdata>VCONFKEY_WIFI_DIRECT_ACTIVATED</enumdata>
+		<enumdata>VCONFKEY_WIFI_DIRECT_DISCOVERING</enumdata>
+		<enumdata>VCONFKEY_WIFI_DIRECT_CONNECTED</enumdata>
+		<enumdata>VCONFKEY_WIFI_DIRECT_GROUP_OWNER</enumdata>
+	</enumlist>
   </vconfkey>
   <vconfkey type="int32" name="memory/allshare_cast/state" value="0" headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_ALLSHARE_CAST_STATE</header>

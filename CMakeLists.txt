@@ -20,7 +20,7 @@ INCLUDE_DIRECTORIES(${INC_DIR})
 #SET(requires "elementary ecore ecore-x ecore-file dlog vconf appcore-efl capi-base-common glib-2.0 gobject-2.0 fontconfig libxml-2.0 pkgmgr pkgmgr-info")
 #SET(requires "dlog vconf capi-base-common")
 #SET(requires "dlog vconf")
-SET(requires "dlog")
+SET(requires "")
 
 INCLUDE(FindPkgConfig)
 pkg_check_modules(${fw_name} REQUIRED ${requires})

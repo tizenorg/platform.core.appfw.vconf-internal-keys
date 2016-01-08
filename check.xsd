@@ -1,0 +1,72 @@
+<xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema'>
+
+	<xs:element name="vconfkeylists">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="filedef" minOccurs='1' maxOccurs='1'/>
+				<xs:element ref="vconfkey" minOccurs='0' maxOccurs='unbounded'/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="vconfkey">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="header" minOccurs='1' maxOccurs='1'/>
+				<xs:element ref="creator" minOccurs='0' maxOccurs='1'/>
+				<xs:element ref="email" minOccurs='0' maxOccurs='1'/>
+				<xs:element ref="comment" minOccurs='0' maxOccurs='1'/>
+				<xs:element ref="enumlist" minOccurs='0' maxOccurs='unbounded'/>
+			</xs:sequence>
+			<xs:attribute name="name" type='xs:string'/>
+			<xs:attribute name="type" type='xs:string'/>
+			<xs:attribute name="value" type='xs:string'/>
+
+			<xs:attribute name="headeronly" type='xs:string'/>
+
+			<xs:attribute name="gid" type='xs:string'/>
+			<xs:attribute name="uid" type='xs:string'/>
+			<xs:attribute name="layer" type='xs:string'/>
+			<xs:attribute name="readPriv" type='xs:string'/>
+			<xs:attribute name="writePriv" type='xs:string'/>
+			<xs:attribute name="private_spec" type='xs:string'/>
+			<xs:attribute name="model" type='xs:string'/>
+
+			<xs:attribute name="label" type='xs:string'/>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="enumlist">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="enumdata" minOccurs='1' maxOccurs='unbounded'/>
+			</xs:sequence>
+			<xs:attribute name="name" type='xs:string'/>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="enumdata">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="val" type="xs:string"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="filedef">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="name" type="xs:string"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="header" type='xs:string'/>
+	<xs:element name="creator" type='xs:string'/>
+	<xs:element name="email" type='xs:string'/>
+	<xs:element name="comment" type='xs:string'/>
+</xs:schema>
