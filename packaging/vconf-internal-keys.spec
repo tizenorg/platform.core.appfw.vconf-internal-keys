@@ -6,6 +6,7 @@ Group:      Application Framework/Configuration
 License:    Apache-2.0
 Source0:    %{name}-%{version}.tar.gz
 BuildRequires:  cmake
+BuildRequires:  xsltproc
 Requires:  vconf
 Requires:  findutils
 
@@ -31,6 +32,8 @@ Vconf internal key header files (devel)
 
 %build
 
+#make model=wearable
+make
 MAJORVER=`echo %{version} | awk 'BEGIN {FS="."}{print $1}'`
 cmake . -DCMAKE_INSTALL_PREFIX=%{_prefix} -DFULLVER=%{version} -DMAJORVER=${MAJORVER} -DCMAKE_LIBDIR=%{_libdir}
 
