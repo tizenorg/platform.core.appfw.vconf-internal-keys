@@ -104,12 +104,38 @@
       <enumdata>SETTING_SCREEN_MODE_MAX</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/lcd_backlight_normal" value="600" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+
+  <vconfkey type="int32" name="db/setting/lcd_backlight_normal" value="30" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_SETAPPL_LCD_TIMEOUT_NORMAL</header>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ setting - display - backlight time (value type : seconds) ]]></comment>
   </vconfkey>
+
+  <vconfkey model="wearable" type="int32" name="db/setting/lcd_backlight_normal" value="30" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+    <header>VCONFKEY_SETAPPL_LCD_TIMEOUT_NORMAL</header>
+    <creator> Myoungjune Park </creator>
+    <email>mj2004.park@samsung.com</email>
+    <comment><![CDATA[ setting - display - backlight time (value type : seconds) ]]></comment>
+  </vconfkey>
+
+  <vconfkey model="wearable-2" type="int32" name="db/setting/lcd_backlight_normal" value="60" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+    <header>VCONFKEY_SETAPPL_LCD_TIMEOUT_NORMAL</header>
+    <creator> Myoungjune Park </creator>
+    <email>mj2004.park@samsung.com</email>
+    <comment><![CDATA[ setting - display - backlight time (value type : seconds) ]]></comment>
+  </vconfkey>
+
+  <vconfkey model="wearable-3" type="int32" name="db/setting/lcd_backlight_normal" value="90" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+    <header>VCONFKEY_SETAPPL_LCD_TIMEOUT_NORMAL</header>
+    <creator> Myoungjune Park </creator>
+    <email>mj2004.park@samsung.com</email>
+    <comment><![CDATA[ setting - display - backlight time (value type : seconds) ]]></comment>
+  </vconfkey>
+
+
+
+
   <vconfkey type="int32" name="db/setting/sound/call/ringtone_sound_volume" value="11" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_CALL_RINGTONE_SOUND_VOLUME_INT</header>
     <creator> Myoungjune Park </creator>
@@ -122,6 +148,13 @@
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
+  <vconfkey model="wearable" type="string" name="db/setting/sound/call/ringtone_path" value="/usr/apps/org.tizen.setting/shared/res/settings/Ringtones/ringtone_wearable.mp3" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+    <header>VCONFKEY_SETAPPL_CALL_RINGTONE_PATH_STR</header>
+    <creator> Myoungjune Park </creator>
+    <email>mj2004.park@samsung.com</email>
+    <comment><![CDATA[ ]]></comment>
+  </vconfkey>
+
   <vconfkey type="string" name="db/setting/sound/call/ringtone_path_with_time" value="" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_CALL_RINGTONE_PATH_WITH_RECOMMENDATION_TIME_STR</header>
     <creator> Myoungjune Park </creator>
