@@ -1,8 +1,4 @@
-#all:html cmd header
-#all:init allcmd allheader allhtml vconf-internal-keys.pc
-#all:init allcmd allheader allhtml allwrapper
-#all:init allcmd allhtml allheader allwrapper allwrapper_impl vconf-internal-keys.h endproc
-all:init allcmd allhtml allheader vconf-internal-keys.h endproc
+all:init allcmd postproc allhtml allheader vconf-internal-keys.h endproc
 
 allcmd: $(shell find . -name "*.xml" | sed 's/xml/sh/')
 allheader: $(shell find . -name "*.xml" | sed 's/xml/h/')
@@ -10,13 +6,16 @@ allhtml: $(shell find . -name "*.xml" | sed 's/xml/html/')
 #allwrapper: $(shell find . -name "*.xml" | sed 's/.xml/_wrapper.h/')
 #allwrapper_impl: $(shell find . -name "*.xml" | sed 's/.xml/_wrapper.c/')
 
+MODEL=$(model)
 
 init:
 	@mkdir -p report
 	@mkdir -p scripts
 	@mkdir -p include
-#	@mkdir -p wrapper
-#	cp ./include2/vconf-internal-keys.h ./include/
+	@rm scripts/*.sh
+#	@rm scripts/all.sh
+#	@rm scripts/product.sh
+#	@rm scripts/default.sh
 
 %.html:%.xml
 	xsltproc test_report.xsl $< > $@
@@ -24,9 +23,27 @@ init:
 
 
 %.sh:%.xml
-	xsltproc create_cmd.xsl $< | sed '/^$$/d'   > $@ 
-#	xsltproc create_get_cmd.xsl $< | sed '/^$$/d'   > $@ 
-	mv $@ ./scripts
+	xsltproc create_cmd.xsl $< | sed '/^$$/d' > $@
+	cat $@ >> ./scripts/all.sh
+	rm $@
+
+postproc:
+	grep . ./scripts/all.sh | grep "^#default" > scripts/default.sh
+ifneq ($(model), )
+	grep . ./scripts/all.sh | grep "^#wearable" > scripts/product.sh
+	awk '{ print $$7 }'  ./scripts/product.sh | sed 's/\//\\\//g' > scripts/duplicate.list
+	@while read -r str ; \
+	do \
+		echo "-----------------------------------------------------" $$str; \
+		echo sed --in-place "/$$str/d" ./scripts/default.sh; \
+		sed --in-place "/$$str/d" ./scripts/default.sh; \
+	done < ./scripts/duplicate.list
+	cut -d ' ' -f2- ./scripts/product.sh > temp && mv temp ./scripts/product.sh
+	sed -i '1 i #!/bin/bash' ./scripts/product.sh
+endif
+	cut -d ' ' -f2- ./scripts/default.sh > temp && mv temp ./scripts/default.sh
+	sed -i '1 i #!/bin/bash' ./scripts/default.sh
+	rm ./scripts/all.sh
 
 %.h:%.xml
 #	xsltproc create_header.xsl $< | sed '/^$$/d' | indent   > $@
