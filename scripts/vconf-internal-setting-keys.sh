@@ -282,7 +282,7 @@
 
 /usr/bin/buxton2ctl -i -d create-bool "system" "db/setting/developer_option_state"  "0"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/internal/default/platform"
 
-/usr/bin/buxton2ctl -i -d create-int "" "db/setting/app_hw_acceleration"  "0" tizen::vconf::public::r::platform::rw "" ""
+/usr/bin/buxton2ctl -i -d create-int32 "system" "db/setting/app_hw_acceleration"  "0"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/internal/default/platform"
 
 /usr/bin/buxton2ctl -i -d create-int32 "system" "db/setting/change_ui/theme"  "0"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/internal/default/platform"
 
@@ -324,14 +324,14 @@
 
 # DO NOT GENERATE # /usr/bin/buxton2ctl -i -d create-int32 "" "db/setting/wallpaper_changed"  "0"  "" ""
 
-/usr/bin/buxton2ctl -i -d create-bool "" "db/setting/accessibility/tts/indicator/time"  "1" tizen::vconf::public::r::platform::rw "" ""
+/usr/bin/buxton2ctl -i -d create-bool "system" "db/setting/accessibility/tts/indicator/time"  "1"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/internal/default/platform"
 
-/usr/bin/buxton2ctl -i -d create-bool "" "db/setting/accessibility/tts/indicator/battery"  "1" tizen::vconf::public::r::platform::rw "" ""
+/usr/bin/buxton2ctl -i -d create-bool "system" "db/setting/accessibility/tts/indicator/battery"  "1"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/internal/default/platform"
 
-/usr/bin/buxton2ctl -i -d create-bool "" "db/setting/accessibility/tts/indicator/signal_strenght"  "1" tizen::vconf::public::r::platform::rw "" ""
+/usr/bin/buxton2ctl -i -d create-bool "system" "db/setting/accessibility/tts/indicator/signal_strenght"  "1"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/internal/default/platform"
 
-/usr/bin/buxton2ctl -i -d create-bool "" "db/setting/accessibility/tts/indicator/missed_events"  "1" tizen::vconf::public::r::platform::rw "" ""
+/usr/bin/buxton2ctl -i -d create-bool "system" "db/setting/accessibility/tts/indicator/missed_events"  "1"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/internal/default/platform"
 
-/usr/bin/buxton2ctl -i -d create-bool "" "db/setting/accessibility/tts/indicator/date"  "0" tizen::vconf::public::r::platform::rw "" ""
+/usr/bin/buxton2ctl -i -d create-bool "system" "db/setting/accessibility/tts/indicator/date"  "0"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/internal/default/platform"
 
-/usr/bin/buxton2ctl -i -d create-bool "" "db/setting/accessibility/tts/indicator/bluetooth"  "0" tizen::vconf::public::r::platform::rw "" ""
+/usr/bin/buxton2ctl -i -d create-bool "system" "db/setting/accessibility/tts/indicator/bluetooth"  "0"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/internal/default/platform"

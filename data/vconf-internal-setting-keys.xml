@@ -1045,7 +1045,7 @@
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int" name="db/setting/app_hw_acceleration" value="0" label="tizen::vconf::public::r::platform::rw" gid="6514" uid="">
+  <vconfkey type="int32" name="db/setting/app_hw_acceleration" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_APP_HW_ACCELERATION</header>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
@@ -1221,37 +1221,37 @@
       <enumdata val="2">VCONFKEY_WALLPAPER_CHANGED_NOTI_HM</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/accessibility/tts/indicator/time" value="1" label="tizen::vconf::public::r::platform::rw" gid="6514" uid="">
+  <vconfkey type="bool" name="db/setting/accessibility/tts/indicator/time" value="1" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_ACCESSIBILITY_TTS_INDICATOR_INFORMATION_TIME</header>
     <creator>  </creator>
     <email></email>
     <comment></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/accessibility/tts/indicator/battery" value="1" label="tizen::vconf::public::r::platform::rw" gid="6514" uid="">
+  <vconfkey type="bool" name="db/setting/accessibility/tts/indicator/battery" value="1" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_ACCESSIBILITY_TTS_INDICATOR_INFORMATION_BATTERY</header>
     <creator>  </creator>
     <email></email>
     <comment></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/accessibility/tts/indicator/signal_strenght" value="1" label="tizen::vconf::public::r::platform::rw" gid="6514" uid="">
+  <vconfkey type="bool" name="db/setting/accessibility/tts/indicator/signal_strenght" value="1" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_ACCESSIBILITY_TTS_INDICATOR_INFORMATION_SIGNAL_STRENGHT</header>
     <creator>  </creator>
     <email></email>
     <comment></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/accessibility/tts/indicator/missed_events" value="1" label="tizen::vconf::public::r::platform::rw" gid="6514" uid="">
+  <vconfkey type="bool" name="db/setting/accessibility/tts/indicator/missed_events" value="1" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_ACCESSIBILITY_TTS_INDICATOR_INFORMATION_MISSED_EVENTS</header>
     <creator>  </creator>
     <email></email>
     <comment></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/accessibility/tts/indicator/date" value="0" label="tizen::vconf::public::r::platform::rw" gid="6514" uid="">
+  <vconfkey type="bool" name="db/setting/accessibility/tts/indicator/date" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_ACCESSIBILITY_TTS_INDICATOR_INFORMATION_DATE</header>
     <creator>  </creator>
     <email></email>
     <comment></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/accessibility/tts/indicator/bluetooth" value="0" label="tizen::vconf::public::r::platform::rw" gid="6514" uid="">
+  <vconfkey type="bool" name="db/setting/accessibility/tts/indicator/bluetooth" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_ACCESSIBILITY_TTS_INDICATOR_INFORMATION_BLUETOOTH</header>
     <creator>  </creator>
     <email></email>
