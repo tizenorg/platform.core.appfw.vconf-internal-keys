@@ -316,13 +316,7 @@
 
 /usr/bin/buxton2ctl -i -d create-int32 "memory" "memory/private/usb/conf_enabled"  "0"  "http://tizen.org/privilege/internal/default/platform" "http://tizen.org/privilege/internal/default/platform"
 
-/usr/bin/buxton2ctl -i -d create-int32 "memory" "memory/sysman/cradle_status"  "0"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/internal/default/platform"
-
-/usr/bin/buxton2ctl -i -d create-int32 "memory" "memory/sysman/earjack_key"  "0"  "http://tizen.org/privilege/internal/default/platform" "http://tizen.org/privilege/internal/default/platform"
-
 /usr/bin/buxton2ctl -i -d create-int32 "memory" "memory/sysman/factory_mode"  "0"  "http://tizen.org/privilege/internal/default/platform" "http://tizen.org/privilege/internal/default/platform"
-
-/usr/bin/buxton2ctl -i -d create-int32 "memory" "memory/sysman/usbhost_status"  "-1"  "http://tizen.org/privilege/internal/default/platform" "http://tizen.org/privilege/internal/default/platform"
 
 # DO NOT GENERATE # /usr/bin/buxton2ctl -i -d create-int32 "" "db/private/mobiledata/off_popup/check"  "0"  "" ""
 

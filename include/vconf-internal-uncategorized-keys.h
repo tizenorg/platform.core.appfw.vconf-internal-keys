@@ -338,13 +338,7 @@
 
 #define VCONFKEY_UNCATEGORIZED_328  "memory/private/usb/conf_enabled"
 
-#define VCONFKEY_UNCATEGORIZED_335  "memory/sysman/cradle_status"
-
-#define VCONFKEY_UNCATEGORIZED_336  "memory/sysman/earjack_key"
-
 #define VCONFKEY_UNCATEGORIZED_337  "memory/sysman/factory_mode"
-
-#define VCONFKEY_UNCATEGORIZED_338  "memory/sysman/usbhost_status"
 
 #ifdef USE_NONCREATED_VCONF_KEY
 #warning using non-created vconf-key ----- please make sure this key is in use actually

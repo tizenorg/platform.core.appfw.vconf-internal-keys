@@ -949,26 +949,8 @@
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/sysman/cradle_status" value="0" gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
-    <header>VCONFKEY_UNCATEGORIZED_335</header>
-    <creator/>
-    <email/>
-    <comment><![CDATA[ ]]></comment>
-  </vconfkey>
-  <vconfkey type="int32" name="memory/sysman/earjack_key" value="0" gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
-    <header>VCONFKEY_UNCATEGORIZED_336</header>
-    <creator/>
-    <email/>
-    <comment><![CDATA[ ]]></comment>
-  </vconfkey>
   <vconfkey type="int32" name="memory/sysman/factory_mode" value="0" gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_UNCATEGORIZED_337</header>
-    <creator/>
-    <email/>
-    <comment><![CDATA[ ]]></comment>
-  </vconfkey>
-  <vconfkey type="int32" name="memory/sysman/usbhost_status" value="-1" gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
-    <header>VCONFKEY_UNCATEGORIZED_338</header>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
