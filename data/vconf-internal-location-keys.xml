@@ -19,6 +19,13 @@
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
+  <vconfkey type="int32" name="db/location/setting/MockEnabled" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/location">
+    <header>VCONFKEY_LOCATION_MOCK_ENABLED</header>
+    <creator/>
+    <email/>
+    <comment><![CDATA[CAUTION: Write privilege is http://tizen.org/privilege/location.]]></comment>
+  </vconfkey>
+
   <vconfkey type="int32" name="db/location/setting/GpsPopup" value="1" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/location.enable">
     <header>VCONFKEY_LBS_SETTING_IS_SHOW_GPS_POPUP</header>
     <creator/>
@@ -59,6 +66,18 @@
       <enumdata>VCONFKEY_LOCATION_WPS_SEARCHING</enumdata>
       <enumdata>VCONFKEY_LOCATION_WPS_CONNECTED</enumdata>
       <enumdata>VCONFKEY_LOCATION_WPS_STATE_MAX</enumdata>
+    </enumlist>
+  </vconfkey>
+  <vconfkey type="int32" name="memory/location/mock/state" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+    <header>VCONFKEY_LOCATION_MOCK_STATE</header>
+    <creator/>
+    <email/>
+    <comment><![CDATA[ ]]></comment>
+    <enumlist>
+      <enumdata val="0">VCONFKEY_LOCATION_MOCK_OFF</enumdata>
+      <enumdata>VCONFKEY_LOCATION_MOCK_SEARCHING</enumdata>
+      <enumdata>VCONFKEY_LOCATION_MOCK_CONNECTED</enumdata>
+      <enumdata>VCONFKEY_LOCATION_MOCK_STATE_MAX</enumdata>
     </enumlist>
   </vconfkey>
   <vconfkey type="int32" name="memory/location/last/gps/Timestamp" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/location" writePriv="http://tizen.org/privilege/internal/buxton/readonly">

@@ -25,6 +25,8 @@
 
 #define VCONFKEY_LOCATION_NETWORK_ENABLED  "db/location/setting/NetworkEnabled"
 
+#define VCONFKEY_LOCATION_MOCK_ENABLED  "db/location/setting/MockEnabled"
+
 #define VCONFKEY_LBS_SETTING_IS_SHOW_GPS_POPUP  "db/location/setting/GpsPopup"
 
 #define VCONFKEY_LOCATION_POSITION_STATE  "memory/location/position/state"
@@ -52,6 +54,15 @@ enum {
 		VCONFKEY_LOCATION_WPS_SEARCHING,
 		VCONFKEY_LOCATION_WPS_CONNECTED,
 		VCONFKEY_LOCATION_WPS_STATE_MAX
+};
+
+#define VCONFKEY_LOCATION_MOCK_STATE  "memory/location/mock/state"
+
+enum {
+	VCONFKEY_LOCATION_MOCK_OFF = 0,
+		VCONFKEY_LOCATION_MOCK_SEARCHING,
+		VCONFKEY_LOCATION_MOCK_CONNECTED,
+		VCONFKEY_LOCATION_MOCK_STATE_MAX
 };
 
 #define VCONFKEY_LOCATION_LAST_GPS_TIMESTAMP  "memory/location/last/gps/Timestamp"
