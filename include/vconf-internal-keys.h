@@ -25,6 +25,7 @@
 #include "vconf-internal-mobile-hotspot-keys.h"
 #include "vconf-internal-moved-from.h"
 #include "vconf-internal-msg-keys.h"
+#include "vconf-internal-mtp-keys.h"
 #include "vconf-internal-nfc-keys.h"
 #include "vconf-internal-pm-keys.h"
 #include "vconf-internal-setting-keys.h"
