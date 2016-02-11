@@ -132,7 +132,7 @@
 
 /usr/bin/buxton2ctl -i -d create-string "system" "db/menu_widget/regionformat"  "en_US.UTF-8"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/systemsettings.admin"
 
-/usr/bin/buxton2ctl -i -d create-string "system" "db/setting/menuscreen/package_name"  "org.tizen.homescreen"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/internal/default/platform"
+/usr/bin/buxton2ctl -i -d create-string "system" "db/setting/menuscreen/package_name"  "org.tizen.homescreen-efl"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/internal/default/platform"
 
 # DO NOT GENERATE # /usr/bin/buxton2ctl -i -d create-int32 "system" "db/setting/homescreen/easymode"  "0"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/internal/default/platform"
 

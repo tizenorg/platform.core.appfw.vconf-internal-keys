@@ -19,7 +19,7 @@
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="db/private/starter/fallback_pkg" value="org.tizen.homescreen" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="string" name="db/private/starter/fallback_pkg" value="org.tizen.homescreen-efl" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_STARTER_FALLBACK_PKG</header>
     <creator/>
     <email/>
