@@ -1,6 +1,6 @@
 #!/bin/bash
 
-/usr/bin/buxton2ctl -i -d create-int32 "memory" "memory/pm/state"  "0"  "http://tizen.org/privilege/display" "http://tizen.org/privilege/internal/buxton/readonly"
+/usr/bin/buxton2ctl -i -d create-int32 "memory" "memory/pm/state"  "0"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/internal/buxton/readonly"
 
 /usr/bin/buxton2ctl -i -d create-int32 "memory" "memory/pm/custom_brightness_status"  "0"  "http://tizen.org/privilege/internal/default/platform" "http://tizen.org/privilege/internal/default/platform"
 

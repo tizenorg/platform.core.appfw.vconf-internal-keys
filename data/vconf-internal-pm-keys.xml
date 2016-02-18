@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vconfkeylists>
   <filedef name="__VCONF_INTERNAL_PM_KEYS_H__"/>
-  <vconfkey type="int32" name="memory/pm/state" value="0" gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/display" writePriv="http://tizen.org/privilege/internal/buxton/readonly">
+  <vconfkey type="int32" name="memory/pm/state" value="0" gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/buxton/readonly">
     <header>VCONFKEY_PM_STATE</header>
     <creator/>
     <email/>
