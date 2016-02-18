@@ -183,4 +183,6 @@ enum {
 
 #define VCONFKEY_LOCATION_SUPL_VERSION  "db/location/supl/Version"
 
+#define VCONFKEY_LOCATION_HEREMAPS_CONSENT  "db/location/heremaps/UserConsent"
+
 #endif /*   __VCONF_INTERNAL_LOCATION_KEYS_H__    */

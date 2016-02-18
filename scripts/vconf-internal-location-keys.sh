@@ -91,3 +91,5 @@
 /usr/bin/buxton2ctl -i -d create-int32 "system" "db/location/supl/FQDNType"  "0"  "http://tizen.org/privilege/internal/default/platform" "http://tizen.org/privilege/internal/default/platform"
 
 /usr/bin/buxton2ctl -i -d create-int32 "system" "db/location/supl/Version"  "0"  "http://tizen.org/privilege/internal/default/platform" "http://tizen.org/privilege/internal/default/platform"
+
+/usr/bin/buxton2ctl -i -d create-bool "system" "db/location/heremaps/UserConsent"  "0"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/mapservice"
