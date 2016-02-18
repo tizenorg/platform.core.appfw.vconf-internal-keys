@@ -27,6 +27,8 @@
 
 #define VCONFKEY_LOCATION_MOCK_ENABLED  "db/location/setting/MockEnabled"
 
+#define VCONFKEY_LOCATION_HEREMAPS_AGREED  "db/location/setting/HereMapsAgreed"
+
 #define VCONFKEY_LBS_SETTING_IS_SHOW_GPS_POPUP  "db/location/setting/GpsPopup"
 
 #define VCONFKEY_LOCATION_POSITION_STATE  "memory/location/position/state"

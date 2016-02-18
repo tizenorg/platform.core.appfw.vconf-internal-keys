@@ -8,6 +8,8 @@
 
 /usr/bin/buxton2ctl -i -d create-int32 "system" "db/location/setting/MockEnabled"  "0"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/location"
 
+/usr/bin/buxton2ctl -i -d create-int32 "system" "db/location/setting/HereMapsAgreed"  "0"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/mapservice"
+
 /usr/bin/buxton2ctl -i -d create-int32 "system" "db/location/setting/GpsPopup"  "1"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/location.enable"
 
 /usr/bin/buxton2ctl -i -d create-int32 "memory" "memory/location/position/state"  "0"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/internal/default/platform"
