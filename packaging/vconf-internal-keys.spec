@@ -65,6 +65,7 @@ done
 %files
 #%{_libdir}/lib*.so.*
 /opt/usr/*.sh
+%license LICENSE
 
 %files devel
 %defattr(-,root,root,-)
