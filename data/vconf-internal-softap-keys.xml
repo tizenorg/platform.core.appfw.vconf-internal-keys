@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vconfkeylists>
+  <filedef name="__VCONF_INTERNAL_SOFTAP_KEYS_H__"/>
+  <vconfkey type="int32" name="memory/softap/connected_device" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/tethering.admin">
+    <header>VCONFKEY_SOFTAP_CONNECTED_DEVICE</header>
+    <creator>Seonah Moon</creator>
+    <email>seonah1.moon@samsung.com</email>
+    <comment><![CDATA[ To notify clients which are connected through softap ]]></comment>
+  </vconfkey>
+  <vconfkey type="int32" name="db/softap/security" value="1" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/tethering.admin">
+    <header>VCONFKEY_SOFTAP_SECURITY</header>
+    <creator>Seonah Moon</creator>
+    <email>seonah1.moon@samsung.com</email>
+    <comment><![CDATA[ To notify softap security type ]]></comment>
+    <enumlist>
+      <enumdata val="0x00">VCONFKEY_MOBILE_AP_SECURITY_OFF </enumdata>
+      <enumdata>VCONFKEY_MOBILE_AP_SECURITY_ON  </enumdata>
+    </enumlist>
+  </vconfkey>
+  <vconfkey type="int32" name="db/softap/hide" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/tethering.admin">
+    <header>VCONFKEY_SOFTAP_HIDE</header>
+    <creator>Seonah Moon</creator>
+    <email>seonah1.moon@samsung.com</email>
+    <comment><![CDATA[ To notify softap visibility mode(visible/invisible) ]]></comment>
+    <enumlist>
+      <enumdata val="0x00">VCONFKEY_MOBILE_AP_HIDE_OFF </enumdata>
+      <enumdata>VCONFKEY_MOBILE_AP_HIDE_ON  </enumdata>
+    </enumlist>
+  </vconfkey>
+  <vconfkey type="string" name="memory/private/softap/ssid" value="" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/tethering.admin">
+    <header>VCONFKEY_SOFTAP_SSID</header>
+    <creator>Seonah Moon</creator>
+    <email>seonah1.moon@samsung.com</email>
+    <comment><![CDATA[ Softap device's SSID ]]></comment>
+  </vconfkey>
+</vconfkeylists>
