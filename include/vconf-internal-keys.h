@@ -29,6 +29,7 @@
 #include "vconf-internal-nfc-keys.h"
 #include "vconf-internal-pm-keys.h"
 #include "vconf-internal-setting-keys.h"
+#include "vconf-internal-softap-keys.h"
 #include "vconf-internal-sound-keys.h"
 #include "vconf-internal-starter-keys.h"
 #include "vconf-internal-sysman-keys.h"
