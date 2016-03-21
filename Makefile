@@ -38,8 +38,7 @@ init:
 postproc:
 	grep . ./scripts/all.sh | grep "^#default" > scripts/default.sh
 ifneq ($(model), )
-
-	grep . ./scripts/all.sh | grep "^#$$(MODEL)" > scripts/product.sh
+	grep . ./scripts/all.sh | egrep "^#$(MODEL) " > scripts/product.sh || true
 	awk '{ print $$7 }'  ./scripts/product.sh | sed 's/\//\\\//g' > scripts/duplicate.list
 	@while read -r str ; \
 	do \
