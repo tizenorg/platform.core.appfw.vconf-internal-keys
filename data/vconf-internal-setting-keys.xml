@@ -586,6 +586,12 @@
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
+  <vconfkey model="common" type="string" name="db/setting/menuscreen/package_name" value="org.tizen.menu-screen" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+    <header>VCONFKEY_SETAPPL_SELECTED_PACKAGE_NAME</header>
+    <creator> Myoungjune Park </creator>
+    <email>mj2004.park@samsung.com</email>
+    <comment><![CDATA[ ]]></comment>
+  </vconfkey>
   <vconfkey type="int32" name="db/setting/homescreen/easymode" value="0" headeronly="true" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_HOMESCREEN_EASYMODE_BOOL</header>
     <creator> Myoungjune Park </creator>
