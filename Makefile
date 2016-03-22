@@ -36,6 +36,7 @@ init:
 	rm $@
 
 postproc:
+	sed -i 's/^ *//' ./scripts/all.sh
 	grep . ./scripts/all.sh | grep "^#default" > scripts/default.sh
 ifneq ($(model), )
 	grep . ./scripts/all.sh | egrep "^#$(MODEL) " > scripts/product.sh || true
