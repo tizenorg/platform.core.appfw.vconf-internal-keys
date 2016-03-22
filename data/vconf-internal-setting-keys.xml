@@ -580,7 +580,13 @@
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="db/setting/menuscreen/package_name" value="org.tizen.homescreen-efl" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey model="mobile" type="string" name="db/setting/menuscreen/package_name" value="org.tizen.homescreen-efl" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+    <header>VCONFKEY_SETAPPL_SELECTED_PACKAGE_NAME</header>
+    <creator> Myoungjune Park </creator>
+    <email>mj2004.park@samsung.com</email>
+    <comment><![CDATA[ ]]></comment>
+  </vconfkey>
+  <vconfkey type="string" name="db/setting/menuscreen/package_name" value="org.tizen.menu-screen" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_SELECTED_PACKAGE_NAME</header>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
