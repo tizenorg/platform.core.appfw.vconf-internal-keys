@@ -28,9 +28,15 @@
     </enumlist>
   </vconfkey>
   <vconfkey type="string" name="memory/private/softap/ssid" value="" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/tethering.admin">
-    <header>VCONFKEY_SOFTAP_SSID</header>
+	<header>VCONFKEY_SOFTAP_SSID</header>
     <creator>Seonah Moon</creator>
     <email>seonah1.moon@samsung.com</email>
     <comment><![CDATA[ Softap device's SSID ]]></comment>
+  </vconfkey>
+  <vconfkey type="string" name="memory/private/softap/key" value="" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/tethering.admin" writePriv="http://tizen.org/privilege/tethering.admin">
+	<header>VCONFKEY_SOFTAP_KEY</header>
+	<creator>Seonah Moon</creator>
+	<email>seonah1.moon@samsung.com</email>
+	<comment><![CDATA[ Softap key ]]></comment>
   </vconfkey>
 </vconfkeylists>
