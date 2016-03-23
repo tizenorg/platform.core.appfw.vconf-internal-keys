@@ -7,3 +7,5 @@
 /usr/bin/buxton2ctl -i -d create-int32 "system" "db/softap/hide"  "0"  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/tethering.admin"
 
 /usr/bin/buxton2ctl -i -d create-string "memory" "memory/private/softap/ssid"  ""  "http://tizen.org/privilege/internal/default/public" "http://tizen.org/privilege/tethering.admin"
+
+/usr/bin/buxton2ctl -i -d create-string "memory" "memory/private/softap/key"  ""  "http://tizen.org/privilege/tethering.admin" "http://tizen.org/privilege/tethering.admin"

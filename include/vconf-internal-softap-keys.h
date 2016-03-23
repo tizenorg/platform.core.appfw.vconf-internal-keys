@@ -37,4 +37,6 @@ enum {
 
 #define VCONFKEY_SOFTAP_SSID  "memory/private/softap/ssid"
 
+#define VCONFKEY_SOFTAP_KEY  "memory/private/softap/key"
+
 #endif /*   __VCONF_INTERNAL_SOFTAP_KEYS_H__    */
