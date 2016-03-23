@@ -31,21 +31,7 @@ Vconf internal key header files (devel)
 
 %build
 
-%if "%{profile}" == "mobile"
-echo "MOBILE-----------------------------------------------------------------------"
-make model=mobile
-%endif
-
-%if "%{profile}" == "wearable"
-echo "WEARABLE---------------------------------------------------------------------"
-make model=wearable
-%endif
-
-%if "%{profile}" == "tv"
-echo "TV---------------------------------------------------------------------------"
-make model=tv
-%endif
-
+make model=%{profile}
 
 MAJORVER=`echo %{version} | awk 'BEGIN {FS="."}{print $1}'`
 cmake . -DCMAKE_INSTALL_PREFIX=%{_prefix} -DFULLVER=%{version} -DMAJORVER=${MAJORVER} -DCMAKE_LIBDIR=%{_libdir}
