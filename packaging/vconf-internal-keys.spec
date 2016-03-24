@@ -31,7 +31,11 @@ Vconf internal key header files (devel)
 
 %build
 
+%ifarch %{arm}
 make model=%{profile}
+%else
+make model=%{profile}/emulator
+%endif
 
 MAJORVER=`echo %{version} | awk 'BEGIN {FS="."}{print $1}'`
 cmake . -DCMAKE_INSTALL_PREFIX=%{_prefix} -DFULLVER=%{version} -DMAJORVER=${MAJORVER} -DCMAKE_LIBDIR=%{_libdir}

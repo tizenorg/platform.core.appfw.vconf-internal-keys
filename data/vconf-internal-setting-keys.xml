@@ -112,6 +112,14 @@
     <comment><![CDATA[ setting - display - backlight time (value type : seconds) ]]></comment>
   </vconfkey>
 
+  <vconfkey type="int32" model="mobile/emulator" name="db/setting/lcd_backlight_normal" value="900" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+    <header>VCONFKEY_SETAPPL_LCD_TIMEOUT_NORMAL</header>
+    <creator> Myoungjune Park </creator>
+    <email>mj2004.park@samsung.com</email>
+    <comment><![CDATA[ setting - display - backlight time (value type : seconds) ]]></comment>
+  </vconfkey>
+
+
   <vconfkey model="wearable" type="int32" name="db/setting/lcd_backlight_normal" value="30" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_SETAPPL_LCD_TIMEOUT_NORMAL</header>
     <creator> Myoungjune Park </creator>
