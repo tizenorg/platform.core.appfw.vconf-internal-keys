@@ -148,7 +148,7 @@
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey model="wearable" type="string" name="db/setting/sound/call/ringtone_path" value="/usr/apps/org.tizen.setting/shared/res/settings/Ringtones/Ringtone.ogg" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey model="wearable" type="string" name="db/setting/sound/call/ringtone_path" value="/usr/apps/org.tizen.watch-setting/shared/res/settings/Ringtones/Ringtone.ogg" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_SETAPPL_CALL_RINGTONE_PATH_STR</header>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
