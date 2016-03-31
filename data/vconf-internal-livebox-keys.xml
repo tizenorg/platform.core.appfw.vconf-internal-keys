@@ -7,12 +7,6 @@
     <email>kyuho.jo@samsung.com</email>
     <comment><![CDATA[Notify to the clients whether the master service is started or not. if they recognize that the master is started, they will try to connect to master service ]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="db/data-provider-master/serveraddr" value="/opt/usr/share/live_magazine/.client.socket" gid="6514" uid="" private_spec="true" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
-    <header>VCONFKEY_MASTER_CLIENT_ADDR</header>
-    <creator/>
-    <email/>
-    <comment><![CDATA[Viewer applications will try to connect to master service using this address.]]></comment>
-  </vconfkey>
   <vconfkey type="int32" name="memory/private/data-provider-master/restart_count" value="0" gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton" writePriv="http://tizen.org/privilege/internal/buxton">
     <header>VCONFKEY_MASTER_RESTART_COUNT</header>
     <creator/>
