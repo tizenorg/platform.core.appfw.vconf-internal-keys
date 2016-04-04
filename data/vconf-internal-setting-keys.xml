@@ -19,6 +19,12 @@
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
+  <vconfkey model="wearable" type="string" name="db/setting/sound/call/vibration_pattern_path" value="/usr/apps/org.tizen.watch-setting/shared/res/settings/Vibrations/haptic/default/Ticktock.ivt" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+    <header>VCONFKEY_SETAPPL_CALL_VIBRATION_PATTERN_STR</header>
+    <creator> Myoungjune Park </creator>
+    <email>mj2004.park@samsung.com</email>
+    <comment><![CDATA[ ]]></comment>
+  </vconfkey>
   <vconfkey type="bool" name="db/setting/sound/touch_sounds" value="1" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_SETAPPL_TOUCH_SOUNDS_BOOL</header>
     <creator> Myoungjune Park </creator>
@@ -223,6 +229,12 @@
 	  <comment><![CDATA[ msg-service is using this key. so DO NOT REMOVE. (sangkoo.kim@samsung.com) ]]></comment>
   </vconfkey>
   <vconfkey type="string" name="db/setting/sound/noti/ringtone_default_path" value="/usr/apps/org.tizen.setting/shared/res/settings/Alerts/General notification_sdk.wav" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+    <header>VCONFKEY_SETAPPL_NOTI_RINGTONE_DEFAULT_PATH_STR</header>
+    <creator> Myoungjune Park </creator>
+    <email>mj2004.park@samsung.com</email>
+    <comment><![CDATA[ ]]></comment>
+  </vconfkey>
+  <vconfkey model="wearable" type="string" name="db/setting/sound/noti/ringtone_default_path" value="/usr/apps/org.tizen.watch-setting/shared/res/settings/Alerts/General notification_sdk.wav" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_SETAPPL_NOTI_RINGTONE_DEFAULT_PATH_STR</header>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
@@ -839,6 +851,12 @@
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
   <vconfkey type="string" name="db/menu_widget/bgset" value="/usr/apps/org.tizen.setting/shared/res/settings/Wallpapers/Home_default.jpg" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+    <header>VCONFKEY_BGSET</header>
+    <creator> Myoungjune Park </creator>
+    <email>mj2004.park@samsung.com</email>
+    <comment><![CDATA[ ]]></comment>
+  </vconfkey>
+  <vconfkey model="wearable" type="string" name="db/menu_widget/bgset" value="/usr/apps/org.tizen.watch-setting/shared/res/settings/Wallpapers/Home_default.jpg" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_BGSET</header>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
