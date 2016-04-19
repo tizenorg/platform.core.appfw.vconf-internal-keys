@@ -31,10 +31,10 @@ Vconf internal key header files (devel)
 
 %build
 
-%ifarch %{arm}
+%ifarch %arm
 make model=%{profile}
 %else
-make model=%{porfile}/emulator
+make model=%{profile}/emulator
 %endif
 
 MAJORVER=`echo %{version} | awk 'BEGIN {FS="."}{print $1}'`
