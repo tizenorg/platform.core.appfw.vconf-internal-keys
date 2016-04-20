@@ -14,13 +14,13 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<tr>
 		<td bgcolor="yellow" align="center"> ID </td>
 		<td bgcolor="yellow" align="center"> Keyname </td>
+		<td bgcolor="yellow" align="center"> Model </td>
 		<td bgcolor="yellow" align="center"> Type </td>
 		<td bgcolor="yellow" align="center"> Value </td>
-		<td bgcolor="yellow" align="center"> Smack Label </td>
+		<td bgcolor="yellow" align="center"> readPriv </td>
+		<td bgcolor="yellow" align="center"> writePriv </td>
 		<td bgcolor="yellow" align="center"> Maintainer </td>
 		<td bgcolor="yellow" align="center"> Comment </td>
-		<td bgcolor="yellow" align="center"> Header Only </td>
-		<td bgcolor="yellow" align="center"> Private Spec </td>
 	</tr>
   <xsl:apply-templates/>
 	</table>
@@ -32,28 +32,13 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 		<xsl:variable name="hyperlink"><xsl:value-of select="./header"/></xsl:variable>
 		<td> <a href="../fullsearch/{$hyperlink}-result.txt"><xsl:value-of select="./header"/></a> </td>
 		<td>  <xsl:value-of select="./@name"/> </td>
+		<td>  <xsl:value-of select="./@model"/> </td>
 		<td> <xsl:value-of select="./@type"/> </td>
 		<td> <xsl:value-of select="./@value"/> </td>
-		<td> <xsl:value-of select="./@label"/> </td>
+		<td> <xsl:value-of select="./@readPriv"/> </td>
+		<td> <xsl:value-of select="./@writePriv"/> </td>
 		<td> <xsl:value-of select="./creator"/> </td>
 		<td> <xsl:value-of select="./comment"/> </td>
-<xsl:choose>
-  <xsl:when test="@headeronly">
-		<td bgcolor="red" align="center"> <xsl:value-of select="./@headeronly"/> </td>
-  </xsl:when>
-  <xsl:otherwise>
-		<td bgcolor="green" align="center"> <xsl:value-of select="./@headeronly"/> </td>
-  </xsl:otherwise>
-</xsl:choose>
-<xsl:choose>
-  <xsl:when test="@private_spec">
-		<td bgcolor="red" align="center"> <xsl:value-of select="./@private_spec"/> </td>
-  </xsl:when>
-  <xsl:otherwise>
-		<td bgcolor="green" align="center"> <xsl:value-of select="./@private_spec"/> </td>
-  </xsl:otherwise>
-</xsl:choose>
-
 	</tr>
 </xsl:template>
 </xsl:stylesheet>
