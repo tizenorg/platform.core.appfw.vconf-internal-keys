@@ -44,7 +44,7 @@
       <enumdata>VCONFKEY_NETWORK_WIFI_CONNECTED</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/dnet/cellular" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/dnet/cellular" value="4" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_NETWORK_CELLULAR_STATE</header>
     <creator/>
     <email/>
