@@ -91,4 +91,16 @@
       <enumdata val="0x1000">VCONFKEY_BT_DEVICE_AG_CONNECTED</enumdata>
     </enumlist>
   </vconfkey>
+  <vconfkey type="int32" name="db/bluetooth/dpm" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+    <header>VCONFKEY_BT_DPM_STATUS</header>
+	<creator/>
+	<email/>
+	<comment><![CDATA[ ]]></comment>
+	<enumlist>
+	  <enumdata val="0xFFFFF">VCONFKEY_BT_DPM_STATUS_ERROR</enumdata>
+	  <enumdata val="0x00000">VCONFKEY_BT_DPM_STATUS_ALLOW</enumdata>
+	  <enumdata val="0x00001">VCONFKEY_BT_DPM_STATUS_HANDSFREE_ONLY</enumdata>
+	  <enumdata val="0x00002">VCONFKEY_BT_DPM_STATUS_RESTRICTED</enumdata>
+	</enumlist>
+   </vconfkey>
 </vconfkeylists>
