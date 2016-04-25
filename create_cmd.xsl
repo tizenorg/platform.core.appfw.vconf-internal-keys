@@ -13,10 +13,10 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:otherwise>
 <xsl:choose>
 	<xsl:when test="./@model">
-#<xsl:value-of select="@model"/> /usr/bin/buxton2ctl -i -d create-<xsl:value-of select="@type"/> "<xsl:value-of select="./@layer"/>" "<xsl:value-of select="./@name"/>"  "<xsl:value-of select="./@value"/>" <xsl:value-of select="./@label"/> "<xsl:value-of select="./@readPriv"/>" "<xsl:value-of select="./@writePriv"/>"
+#<xsl:value-of select="@model"/> /usr/bin/buxton2ctl -i -d create-<xsl:value-of select="@type"/> "<xsl:value-of select="./@layer"/>" "<xsl:value-of select="./@name"/>"  "<xsl:value-of select="./@value"/>" <xsl:value-of select="./@label"/> "<xsl:value-of select="./@readPriv"/>" "<xsl:value-of select="./@writePriv"/>"<xsl:text>&#10;</xsl:text>
   </xsl:when>
   <xsl:otherwise>
-#default /usr/bin/buxton2ctl -i -d create-<xsl:value-of select="@type"/> "<xsl:value-of select="./@layer"/>" "<xsl:value-of select="./@name"/>"  "<xsl:value-of select="./@value"/>" <xsl:value-of select="./@label"/> "<xsl:value-of select="./@readPriv"/>" "<xsl:value-of select="./@writePriv"/>"
+#default /usr/bin/buxton2ctl -i -d create-<xsl:value-of select="@type"/> "<xsl:value-of select="./@layer"/>" "<xsl:value-of select="./@name"/>"  "<xsl:value-of select="./@value"/>" <xsl:value-of select="./@label"/> "<xsl:value-of select="./@readPriv"/>" "<xsl:value-of select="./@writePriv"/>"<xsl:text>&#10;</xsl:text>
   </xsl:otherwise>
 </xsl:choose>
   </xsl:otherwise>
