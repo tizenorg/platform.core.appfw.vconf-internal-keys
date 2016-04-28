@@ -32,6 +32,18 @@
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
+ <vconfkey  model="wearable" type="int32" name="db/location/setting/GpsPopup" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/location.enable">
+    <header>VCONFKEY_LBS_SETTING_IS_SHOW_GPS_POPUP</header>
+    <creator/>
+    <email/>
+    <comment><![CDATA[ ]]></comment>
+  </vconfkey>
+  <vconfkey type="int32" name="db/location/setting/Restriction" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+    <header>VCONFKEY_LOCATION_RESTRICT</header>
+    <creator/>
+    <email/>
+    <comment><![CDATA[ ]]></comment>
+  </vconfkey>
   <vconfkey type="int32" name="memory/location/position/state" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_LOCATION_POSITION_STATE</header>
     <creator/>
