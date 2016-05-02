@@ -247,24 +247,12 @@
     <creator/>
     <email/>
     <comment>Initial value for device is difference from that of emulator. It's initial value is for device</comment>
-    <enumlist>
-      <enumdata val="0">VCONFKEY_GPS_REPLAY_OFF</enumdata>
-      <enumdata>VCONFKEY_GPS_REPLAY_NMEA</enumdata>
-      <enumdata>VCONFKEY_GPS_REPLAY_MANAUL</enumdata>
-      <enumdata>VCONFKEY_GPS_REPLAY_MODE_MAX</enumdata>
-    </enumlist>
   </vconfkey>
   <vconfkey model="wearable/emulator" type="int32" name="db/location/replay/ReplayMode" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_LOCATION_REPLAY_MODE</header>
     <creator/>
     <email/>
     <comment>Initial value for device is difference from that of emulator. It's initial value is for device</comment>
-    <enumlist>
-      <enumdata val="0">VCONFKEY_GPS_REPLAY_OFF</enumdata>
-      <enumdata>VCONFKEY_GPS_REPLAY_NMEA</enumdata>
-      <enumdata>VCONFKEY_GPS_REPLAY_MANAUL</enumdata>
-      <enumdata>VCONFKEY_GPS_REPLAY_MODE_MAX</enumdata>
-    </enumlist>
   </vconfkey>
   <vconfkey type="string" name="db/location/replay/FileName" value="nmea_replay.log" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_LOCATION_NMEA_FILE_NAME</header>
