@@ -1,61 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vconfkeylists>
   <filedef name="__VCONF_INTERNAL_TELEPHONY_KEYS_H__"/>
-  <vconfkey type="int32" name="memory/telephony" value="0" headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="memory/telephony"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_TELEPHONY_PREFIX</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/telephony" value="0" headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/telephony"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_TELEPHONY_DB_PREFIX</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/telephony/daemon_load_count" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/telephony/daemon_load_count"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_TELEPHONY_DAEMON_LOAD_COUNT</header>
+	<val>0</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for telephony daemon load count between reboots]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="memory/telephony/nw_name" value="" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/telephony" writePriv="http://tizen.org/privilege/telephony.admin">
+  <vconfkey type="string" name="memory/telephony/nw_name"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/telephony" writePriv="http://tizen.org/privilege/telephony.admin">
     <header>VCONFKEY_TELEPHONY_NWNAME</header>
+	<val></val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for current attached network name and status]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/telephony/plmn" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/telephony" writePriv="http://tizen.org/privilege/telephony.admin">
+  <vconfkey type="int32" name="memory/telephony/plmn"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/telephony" writePriv="http://tizen.org/privilege/telephony.admin">
     <header>VCONFKEY_TELEPHONY_PLMN</header>
+	<val>0</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for current attached network PLMN value]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/telephony/lac" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/telephony" writePriv="http://tizen.org/privilege/telephony.admin">
+  <vconfkey type="int32" name="memory/telephony/lac"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/telephony" writePriv="http://tizen.org/privilege/telephony.admin">
     <header>VCONFKEY_TELEPHONY_LAC</header>
+	<val>0</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for current attached network LAC value]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/telephony/cell_id" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/telephony" writePriv="http://tizen.org/privilege/telephony.admin">
+  <vconfkey type="int32" name="memory/telephony/cell_id"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/telephony" writePriv="http://tizen.org/privilege/telephony.admin">
     <header>VCONFKEY_TELEPHONY_CELLID</header>
+	<val>0</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for current attached Cell ID value]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/telephony/roam_icon_mode" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/telephony" writePriv="http://tizen.org/privilege/telephony.admin">
+  <vconfkey type="int32" name="memory/telephony/roam_icon_mode"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/telephony" writePriv="http://tizen.org/privilege/telephony.admin">
     <header>VCONFKEY_TELEPHONY_ROAM_ICON_MODE</header>
+	<val>0</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for which icon mode will be displayed]]></comment>
     <enumlist>
-      <enumdata val="0x00">VCONFKEY_TELEPHONY_ROAM_ICON_SOLID_MODE</enumdata>
+      <enumdata value="0x00">VCONFKEY_TELEPHONY_ROAM_ICON_SOLID_MODE</enumdata>
       <enumdata>VCONFKEY_TELEPHONY_ROAM_ICON_OFF</enumdata>
       <enumdata>VCONFKEY_TELEPHONY_ROAM_ICON_FLASHING_MODE</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/telephony/svc_type" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/telephony" writePriv="http://tizen.org/privilege/telephony.admin">
+  <vconfkey type="int32" name="memory/telephony/svc_type"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/telephony" writePriv="http://tizen.org/privilege/telephony.admin">
     <header>VCONFKEY_TELEPHONY_SVCTYPE</header>
+	<val>0</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for current network type (3G, 2G, EDGE, Searching, Emergency, etc)]]></comment>
@@ -72,180 +81,198 @@
       <enumdata>VCONFKEY_TELEPHONY_SVCTYPE_LTE      </enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/telephony/svc_cs" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/telephony" writePriv="http://tizen.org/privilege/telephony.admin">
+  <vconfkey type="int32" name="memory/telephony/svc_cs"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/telephony" writePriv="http://tizen.org/privilege/telephony.admin">
     <header>VCONFKEY_TELEPHONY_SVC_CS</header>
+	<val>0</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for current network circuit service availability]]></comment>
     <enumlist>
-      <enumdata val="0x00">VCONFKEY_TELEPHONY_SVC_CS_UNKNOWN</enumdata>
+      <enumdata value="0x00">VCONFKEY_TELEPHONY_SVC_CS_UNKNOWN</enumdata>
       <enumdata>VCONFKEY_TELEPHONY_SVC_CS_OFF</enumdata>
       <enumdata>VCONFKEY_TELEPHONY_SVC_CS_ON</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/telephony/svc_ps" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/telephony" writePriv="http://tizen.org/privilege/telephony.admin">
+  <vconfkey type="int32" name="memory/telephony/svc_ps"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/telephony" writePriv="http://tizen.org/privilege/telephony.admin">
     <header>VCONFKEY_TELEPHONY_SVC_PS</header>
+	<val>0</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for current network packet service availability]]></comment>
     <enumlist>
-      <enumdata val="0x00">VCONFKEY_TELEPHONY_SVC_PS_UNKNOWN</enumdata>
+      <enumdata value="0x00">VCONFKEY_TELEPHONY_SVC_PS_UNKNOWN</enumdata>
       <enumdata>VCONFKEY_TELEPHONY_SVC_PS_OFF</enumdata>
       <enumdata>VCONFKEY_TELEPHONY_SVC_PS_ON</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/telephony/svc_roam" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/telephony" writePriv="http://tizen.org/privilege/telephony.admin">
+  <vconfkey type="int32" name="memory/telephony/svc_roam"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/telephony" writePriv="http://tizen.org/privilege/telephony.admin">
     <header>VCONFKEY_TELEPHONY_SVC_ROAM</header>
+	<val>0</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for current network zone is home zone or roaming zone]]></comment>
     <enumlist>
-      <enumdata val="0x00">VCONFKEY_TELEPHONY_SVC_ROAM_OFF</enumdata>
+      <enumdata value="0x00">VCONFKEY_TELEPHONY_SVC_ROAM_OFF</enumdata>
       <enumdata>VCONFKEY_TELEPHONY_SVC_ROAM_ON</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/telephony/sim_slot" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/telephony/sim_slot"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_TELEPHONY_SIM_SLOT</header>
+	<val>0</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for current device has a SIM card or not]]></comment>
     <enumlist>
-      <enumdata val="0x00">VCONFKEY_TELEPHONY_SIM_UNKNOWN</enumdata>
+      <enumdata value="0x00">VCONFKEY_TELEPHONY_SIM_UNKNOWN</enumdata>
       <enumdata>VCONFKEY_TELEPHONY_SIM_INSERTED</enumdata>
       <enumdata>VCONFKEY_TELEPHONY_SIM_NOT_PRESENT</enumdata>
       <enumdata>VCONFKEY_TELEPHONY_SIM_CARD_ERROR</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/telephony/sim_slot2" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/telephony/sim_slot2"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_TELEPHONY_SIM_SLOT2</header>
+	<val>0</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for current device has a second SIM card or not (for Dual SIM model)]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/telephony/sim_slot_count" value="-1" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/telephony/sim_slot_count"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_TELEPHONY_SIM_SLOT_COUNT</header>
+	<val>-1</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for the number of sim slot having current device]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/telephony/pb_init" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/telephony" writePriv="http://tizen.org/privilege/telephony.admin">
+  <vconfkey type="int32" name="memory/telephony/pb_init"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/telephony" writePriv="http://tizen.org/privilege/telephony.admin">
     <header>VCONFKEY_TELEPHONY_SIM_PB_INIT</header>
+	<val>0</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for current telephony phonebook is ready to give valid value or not]]></comment>
     <enumlist>
-      <enumdata val="0x00">VCONFKEY_TELEPHONY_SIM_PB_INIT_NONE</enumdata>
+      <enumdata value="0x00">VCONFKEY_TELEPHONY_SIM_PB_INIT_NONE</enumdata>
       <enumdata>VCONFKEY_TELEPHONY_SIM_PB_INIT_COMPLETED</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/telephony/sim_status" value="255" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/telephony" writePriv="http://tizen.org/privilege/telephony.admin">
+  <vconfkey type="int32" name="memory/telephony/sim_status"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/telephony" writePriv="http://tizen.org/privilege/telephony.admin">
     <header>VCONFKEY_TELEPHONY_SIM_STATUS</header>
+	<val>255</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for current sim cached data status as below]]></comment>
     <enumlist>
-      <enumdata val="0x00">VCONFKEY_TELEPHONY_SIM_STATUS_CARD_ERROR</enumdata>
-      <enumdata val="0x01">VCONFKEY_TELEPHONY_SIM_STATUS_CARD_NOT_PRESENT</enumdata>
-      <enumdata val="0x02">VCONFKEY_TELEPHONY_SIM_STATUS_INITIALIZING</enumdata>
-      <enumdata val="0x03">VCONFKEY_TELEPHONY_SIM_STATUS_INIT_COMPLETED</enumdata>
-      <enumdata val="0x04">VCONFKEY_TELEPHONY_SIM_STATUS_PIN_REQUIRED</enumdata>
-      <enumdata val="0x05">VCONFKEY_TELEPHONY_SIM_STATUS_PUK_REQUIRED</enumdata>
-      <enumdata val="0x06">VCONFKEY_TELEPHONY_SIM_STATUS_CARD_BLOCKED</enumdata>
-      <enumdata val="0x07">VCONFKEY_TELEPHONY_SIM_STATUS_NCK_REQUIRED</enumdata>
-      <enumdata val="0x08">VCONFKEY_TELEPHONY_SIM_STATUS_NSCK_REQUIRED</enumdata>
-      <enumdata val="0x09">VCONFKEY_TELEPHONY_SIM_STATUS_SPCK_REQUIRED</enumdata>
-      <enumdata val="0x0a">VCONFKEY_TELEPHONY_SIM_STATUS_CCK_REQUIRED</enumdata>
-      <enumdata val="0x0b">VCONFKEY_TELEPHONY_SIM_STATUS_CARD_REMOVED</enumdata>
-      <enumdata val="0x0c">VCONFKEY_TELEPHONY_SIM_STATUS_SIM_LOCK_REQUIRED</enumdata>
-      <enumdata val="0x0d">VCONFKEY_TELEPHONY_SIM_STATUS_CARD_CRASHED</enumdata>
-      <enumdata val="0xff">VCONFKEY_TELEPHONY_SIM_STATUS_UNKNOWN</enumdata>
+      <enumdata value="0x00">VCONFKEY_TELEPHONY_SIM_STATUS_CARD_ERROR</enumdata>
+      <enumdata value="0x01">VCONFKEY_TELEPHONY_SIM_STATUS_CARD_NOT_PRESENT</enumdata>
+      <enumdata value="0x02">VCONFKEY_TELEPHONY_SIM_STATUS_INITIALIZING</enumdata>
+      <enumdata value="0x03">VCONFKEY_TELEPHONY_SIM_STATUS_INIT_COMPLETED</enumdata>
+      <enumdata value="0x04">VCONFKEY_TELEPHONY_SIM_STATUS_PIN_REQUIRED</enumdata>
+      <enumdata value="0x05">VCONFKEY_TELEPHONY_SIM_STATUS_PUK_REQUIRED</enumdata>
+      <enumdata value="0x06">VCONFKEY_TELEPHONY_SIM_STATUS_CARD_BLOCKED</enumdata>
+      <enumdata value="0x07">VCONFKEY_TELEPHONY_SIM_STATUS_NCK_REQUIRED</enumdata>
+      <enumdata value="0x08">VCONFKEY_TELEPHONY_SIM_STATUS_NSCK_REQUIRED</enumdata>
+      <enumdata value="0x09">VCONFKEY_TELEPHONY_SIM_STATUS_SPCK_REQUIRED</enumdata>
+      <enumdata value="0x0a">VCONFKEY_TELEPHONY_SIM_STATUS_CCK_REQUIRED</enumdata>
+      <enumdata value="0x0b">VCONFKEY_TELEPHONY_SIM_STATUS_CARD_REMOVED</enumdata>
+      <enumdata value="0x0c">VCONFKEY_TELEPHONY_SIM_STATUS_SIM_LOCK_REQUIRED</enumdata>
+      <enumdata value="0x0d">VCONFKEY_TELEPHONY_SIM_STATUS_CARD_CRASHED</enumdata>
+      <enumdata value="0xff">VCONFKEY_TELEPHONY_SIM_STATUS_UNKNOWN</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/telephony/sim_is_changed" value="-1" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/telephony" writePriv="http://tizen.org/privilege/telephony.admin">
+  <vconfkey type="int32" name="memory/telephony/sim_is_changed"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/telephony" writePriv="http://tizen.org/privilege/telephony.admin">
     <header>VCONFKEY_TELEPHONY_SIM_IS_CHANGED</header>
+	<val>-1</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for current sim is changed or not]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/telephony/call_state" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/telephony" writePriv="http://tizen.org/privilege/telephony.admin">
+  <vconfkey type="int32" name="memory/telephony/call_state"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/telephony" writePriv="http://tizen.org/privilege/telephony.admin">
     <header>VCONFKEY_TELEPHONY_CALL_STATE</header>
+	<val>0</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for current call status (idle, connect, held)]]></comment>
     <enumlist>
-      <enumdata val="0x00">VCONFKEY_TELEPHONY_CALL_CONNECT_IDLE</enumdata>
+      <enumdata value="0x00">VCONFKEY_TELEPHONY_CALL_CONNECT_IDLE</enumdata>
       <enumdata>VCONFKEY_TELEPHONY_CALL_CONNECT_ACTIVE</enumdata>
       <enumdata>VCONFKEY_TELEPHONY_CALL_CONNECT_HELD</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="db/telephony/call_forward_state" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey type="int32" name="db/telephony/call_forward_state"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_TELEPHONY_CALL_FORWARD_STATE</header>
+	<val>0</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for SIM1 Call Forwarding Indicator status - Always case (CFU)]]></comment>
     <enumlist>
-      <enumdata val="0x00">VCONFKEY_TELEPHONY_CALL_FORWARD_OFF</enumdata>
-      <enumdata val="0x01">VCONFKEY_TELEPHONY_CALL_FORWARD_ON</enumdata>
+      <enumdata value="0x00">VCONFKEY_TELEPHONY_CALL_FORWARD_OFF</enumdata>
+      <enumdata value="0x01">VCONFKEY_TELEPHONY_CALL_FORWARD_ON</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="db/telephony/call_forward_state2" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey type="int32" name="db/telephony/call_forward_state2"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_TELEPHONY_CALL_FORWARD_STATE2</header>
+	<val>0</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for SIM2 Call Forwarding Indicator status - Always case (CFU)]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/telephony/ss_cli_state" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/telephony" writePriv="http://tizen.org/privilege/telephony.admin">
+  <vconfkey type="int32" name="db/telephony/ss_cli_state"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/telephony" writePriv="http://tizen.org/privilege/telephony.admin">
     <header>VCONFKEY_TELEPHONY_SS_CLI_STATE</header>
+	<val>0</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for show my number status]]></comment>
     <enumlist>
-      <enumdata val="0x00">VCONFKEY_TELEPHONY_SS_CLI_BYNETWORK</enumdata>
+      <enumdata value="0x00">VCONFKEY_TELEPHONY_SS_CLI_BYNETWORK</enumdata>
       <enumdata>VCONFKEY_TELEPHONY_SS_CLI_SHOW</enumdata>
       <enumdata>VCONFKEY_TELEPHONY_SS_CLI_HIDE</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="db/telephony/ss_cli_state2" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/telephony" writePriv="http://tizen.org/privilege/telephony.admin">
+  <vconfkey type="int32" name="db/telephony/ss_cli_state2"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/telephony" writePriv="http://tizen.org/privilege/telephony.admin">
     <header>VCONFKEY_TELEPHONY_SS_CLI_STATE2</header>
+	<val>0</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for show my number status of SIM2]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/telephony/tapi_state" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/telephony/tapi_state"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_TELEPHONY_TAPI_STATE</header>
+	<val>0</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for current telephony apis is ready to use or not]]></comment>
     <enumlist>
-      <enumdata val="0x00">VCONFKEY_TELEPHONY_TAPI_STATE_NONE</enumdata>
+      <enumdata value="0x00">VCONFKEY_TELEPHONY_TAPI_STATE_NONE</enumdata>
       <enumdata>VCONFKEY_TELEPHONY_TAPI_STATE_READY</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/telephony/spn_disp_condition" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/telephony" writePriv="http://tizen.org/privilege/telephony.admin">
+  <vconfkey type="int32" name="memory/telephony/spn_disp_condition"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/telephony" writePriv="http://tizen.org/privilege/telephony.admin">
     <header>VCONFKEY_TELEPHONY_SPN_DISP_CONDITION</header>
+	<val>0</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for display priority between SIM SPN and PLMN]]></comment>
     <enumlist>
-      <enumdata val="0x00">VCONFKEY_TELEPHONY_DISP_INVALID</enumdata>
+      <enumdata value="0x00">VCONFKEY_TELEPHONY_DISP_INVALID</enumdata>
       <enumdata>VCONFKEY_TELEPHONY_DISP_SPN</enumdata>
       <enumdata>VCONFKEY_TELEPHONY_DISP_PLMN</enumdata>
       <enumdata>VCONFKEY_TELEPHONY_DISP_SPN_PLMN</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="string" name="memory/telephony/spn" value="" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/telephony" writePriv="http://tizen.org/privilege/telephony.admin">
+  <vconfkey type="string" name="memory/telephony/spn"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/telephony" writePriv="http://tizen.org/privilege/telephony.admin">
     <header>VCONFKEY_TELEPHONY_SPN_NAME</header>
+	<val></val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for SPN name which is stored in SIM card]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/telephony/rssi" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/telephony" writePriv="http://tizen.org/privilege/telephony.admin">
+  <vconfkey type="int32" name="memory/telephony/rssi"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/telephony" writePriv="http://tizen.org/privilege/telephony.admin">
     <header>VCONFKEY_TELEPHONY_RSSI</header>
+	<val>0</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for current network RSSI strength]]></comment>
     <enumlist>
-      <enumdata val="0x00">VCONFKEY_TELEPHONY_RSSI_0</enumdata>
+      <enumdata value="0x00">VCONFKEY_TELEPHONY_RSSI_0</enumdata>
       <enumdata>VCONFKEY_TELEPHONY_RSSI_1</enumdata>
       <enumdata>VCONFKEY_TELEPHONY_RSSI_2</enumdata>
       <enumdata>VCONFKEY_TELEPHONY_RSSI_3</enumdata>
@@ -254,8 +281,9 @@
       <enumdata>VCONFKEY_TELEPHONY_RSSI_6</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/telephony/ps_type" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/telephony" writePriv="http://tizen.org/privilege/telephony.admin">
+  <vconfkey type="int32" name="memory/telephony/ps_type"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/telephony" writePriv="http://tizen.org/privilege/telephony.admin">
     <header>VCONFKEY_TELEPHONY_PSTYPE</header>
+	<val>0</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for packet service protocol type]]></comment>
@@ -267,44 +295,51 @@
       <enumdata>VCONFKEY_TELEPHONY_PSTYPE_HSPAP</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/3gEnabled" value="1" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey type="bool" name="db/setting/3gEnabled"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_3G_ENABLE</header>
+	<val>1</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for cellular data connection enable status]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="memory/telephony/telephony_ready" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="memory/telephony/telephony_ready"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_TELEPHONY_READY</header>
+	<val>0</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for telephony server is ready or not]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/telephony/nitz_gmt" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/telephony/nitz_gmt"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_TELEPHONY_NITZ_GMT</header>
+	<val>0</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for NITZ GMT time]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/telephony/nitz_event_gmt" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/telephony/nitz_event_gmt"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_TELEPHONY_NITZ_EVENT_GMT</header>
+	<val>0</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for NITZ Event arrival time]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="memory/telephony/nitz_zone" value="" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="string" name="memory/telephony/nitz_zone"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_TELEPHONY_NITZ_ZONE</header>
+	<val></val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for NITZ time zone]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/telephony/flight_mode" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey type="bool" name="db/telephony/flight_mode"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_TELEPHONY_FLIGHT_MODE</header>
+	<val>0</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for flight mode status]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/telephony/svc_act" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/telephony" writePriv="http://tizen.org/privilege/telephony.admin">
+  <vconfkey type="int32" name="memory/telephony/svc_act"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/telephony" writePriv="http://tizen.org/privilege/telephony.admin">
     <header>VCONFKEY_TELEPHONY_SVC_ACT</header>
+	<val>0</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for network Access Technology]]></comment>
@@ -314,7 +349,7 @@
       <enumdata>VCONFKEY_TELEPHONY_SVC_ACT_GPRS</enumdata>
       <enumdata>VCONFKEY_TELEPHONY_SVC_ACT_EGPRS</enumdata>
       <enumdata>VCONFKEY_TELEPHONY_SVC_ACT_UMTS</enumdata>
-      <enumdata val="0x11">VCONFKEY_TELEPHONY_SVC_ACT_IS95A</enumdata>
+      <enumdata value="0x11">VCONFKEY_TELEPHONY_SVC_ACT_IS95A</enumdata>
       <enumdata>VCONFKEY_TELEPHONY_SVC_ACT_IS95B</enumdata>
       <enumdata>VCONFKEY_TELEPHONY_SVC_ACT_CDMA_1X</enumdata>
       <enumdata>VCONFKEY_TELEPHONY_SVC_ACT_EVDO_REV0</enumdata>
@@ -323,185 +358,214 @@
       <enumdata>VCONFKEY_TELEPHONY_SVC_ACT_CDMA_1X_EVDO_REVA</enumdata>
       <enumdata>VCONFKEY_TELEPHONY_SVC_ACT_EVDV</enumdata>
       <enumdata>VCONFKEY_TELEPHONY_SVC_ACT_EHRPD</enumdata>
-      <enumdata val="0x21">VCONFKEY_TELEPHONY_SVC_ACT_LTE</enumdata>
-      <enumdata val="0xFF">VCONFKEY_TELEPHONY_SVC_ACT_NOT_SPECIFIED </enumdata>
+      <enumdata value="0x21">VCONFKEY_TELEPHONY_SVC_ACT_LTE</enumdata>
+      <enumdata value="0xFF">VCONFKEY_TELEPHONY_SVC_ACT_NOT_SPECIFIED </enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="bool" name="db/telephony/sim_power_state1" value="1" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey type="bool" name="db/telephony/sim_power_state1"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_TELEPHONY_SIM_POWER_STATE1</header>
+	<val>1</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for SIM Power State for sim slot 1]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/telephony/sim_power_state2" value="1" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey type="bool" name="db/telephony/sim_power_state2"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_TELEPHONY_SIM_POWER_STATE2</header>
+	<val>1</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for SIM Power State for sim slot 2]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/telephony/dualsim/receive_incoming_call" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey type="bool" name="db/telephony/dualsim/receive_incoming_call"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_TELEPHONY_RECEIVE_INCOMING_CALL_BOOL</header>
+	<val>0</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for Enable/Disable "Receive Incoming Call" in Dual SIM during PS connected state]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/telephony/modem_always_on" value="2" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey type="int32" name="db/telephony/modem_always_on"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_TELEPHONY_MODEM_ALWAYS_ON_STATE</header>
+	<val>2</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for Modem always on state during companion mode]]></comment>
     <enumlist>
-      <enumdata val="0x00">VCONFKEY_TELEPHONY_MODEM_ALWAYS_OFF</enumdata>
+      <enumdata value="0x00">VCONFKEY_TELEPHONY_MODEM_ALWAYS_OFF</enumdata>
       <enumdata>VCONFKEY_TELEPHONY_MODEM_ALWAYS_ON</enumdata>
       <enumdata>VCONFKEY_TELEPHONY_MODEM_AUTO_ON_OFF</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="bool" name="db/telephony/activation_completed" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/telephony/activation_completed"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_TELEPHONY_ACTIVATION_COMPLETED</header>
+	<val>0</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for activation is completed or not]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/telephony/emergency_mode" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/telephony/emergency_mode"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_TELEPHONY_EMERGENCY_CB_MODE_CDMA</header>
+	<val>0</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for if phone is entered emergency call back mode for CDMA]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="db/telephony/mdn" value="" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey type="string" name="db/telephony/mdn"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_TELEPHONY_MDN</header>
+	<val></val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for MDN status]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/telephony/call_alert_signal_type" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/telephony/call_alert_signal_type"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_TELEPHONY_CALL_SIGNAL_TYPE</header>
+	<val>0</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for call alert signal type]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/telephony/call_alert_pitch_type" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/telephony/call_alert_pitch_type"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_TELEPHONY_CALL_PITCH_TYPE</header>
+	<val>0</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for call alert pitch type]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/telephony/call_signal" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/telephony/call_signal"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_TELEPHONY_CALL_SIGNAL</header>
+	<val>0</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for call signal]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/telephony/dualsim/default_data_service" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/network.get" writePriv="http://tizen.org/privilege/network.set">
+  <vconfkey type="int32" name="db/telephony/dualsim/default_data_service"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/network.get" writePriv="http://tizen.org/privilege/network.set">
     <header>VCONFKEY_TELEPHONY_DB_DEFAULT_DATA_SUBS</header>
+	<val>0</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for default data subscription (Packet Switched)]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/telephony/dualsim/preferred_voice_subscription" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey type="int32" name="db/telephony/dualsim/preferred_voice_subscription"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_TELEPHONY_PREFERRED_VOICE_SUBSCRIPTION</header>
+	<val>0</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for preffered voice subscription]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/telephony/dualsim/default_subscription" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey type="int32" name="db/telephony/dualsim/default_subscription"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_TELEPHONY_DB_DEFAULT_SUBS</header>
+	<val>0</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for default subscription (Circuit Switched]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/private/telephony/sim1_network_mode" value="3" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey type="int32" name="db/private/telephony/sim1_network_mode"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_TELEPHONY_PRIVATE_NETWORK_MODE_SIM_1</header>
+	<val>3</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for network mode of sim 1 (private)]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/private/telephony/sim2_network_mode" value="1" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey type="int32" name="db/private/telephony/sim2_network_mode"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_TELEPHONY_PRIVATE_NETWORK_MODE_SIM_2</header>
+	<val>1</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for network mode of sim 2 (private)]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/private/telephony/modem_on_count" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/private/telephony/modem_on_count"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_TELEPHONY_PRIVATE_MODEM_ON_COUNT</header>
+	<val>0</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for modem online count (private)]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/private/telephony/ps_data_status" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/private/telephony/ps_data_status"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_TELEPHONY_PRIVATE_PS_DATA_STATUS</header>
+	<val>0</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for ps data status (private)]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/private/telephony/no_sim_popup_checkbox" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/private/telephony/no_sim_popup_checkbox"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_TELEPHONY_PRIVATE_NO_SIM_POPUP_CHECKBOX</header>
+	<val>0</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for no sim popup checkbox (private)]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/private/telephony/data_roaming_popup_checkbox" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/private/telephony/data_roaming_popup_checkbox"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_TELEPHONY_PRIVATE_DATA_ROAMING_POPUP_CHECKBOX</header>
+	<val>0</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for data roaming popup checkbox (private)]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/private/telephony/net_mode_user_changed" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/private/telephony/net_mode_user_changed"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_TELEPHONY_PRIVATE_NET_MODE_USER_CHANGED</header>
+	<val>0</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for network mode is changed or not by user (private)]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="memory/private/telephony/perso_nwk_puk" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="memory/private/telephony/perso_nwk_puk"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_TELEPHONY_PRIVATE_PERSO_NWK_PUK</header>
+	<val>0</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for personal nck puk (private)]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="memory/private/telephony/modem_state" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/telephony" writePriv="http://tizen.org/privilege/telephony.admin">
+  <vconfkey type="bool" name="memory/private/telephony/modem_state"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/telephony" writePriv="http://tizen.org/privilege/telephony.admin">
     <header>VCONFKEY_TELEPHONY_PRIVATE_MODEM_STATE</header>
+	<val>0</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for modem state (private)]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="db/private/telephony/nitz_iso" value="" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="string" name="db/private/telephony/nitz_iso"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_TELEPHONY_PRIVATE_NITZ_ISO</header>
+	<val></val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for NITZ iso (private)]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="db/private/telephony/manual_plmn" value="" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="string" name="db/private/telephony/manual_plmn"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_TELEPHONY_PRIVATE_MANUAL_PLMN</header>
+	<val></val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for manual plmn (private)]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/private/telephony/nck_unlock_count" value="3" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/telephony" writePriv="http://tizen.org/privilege/telephony.admin">
+  <vconfkey type="int32" name="memory/private/telephony/nck_unlock_count"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/telephony" writePriv="http://tizen.org/privilege/telephony.admin">
     <header>VCONFKEY_TELEPHONY_PRIVATE_NCK_UNLOCK_COUNT</header>
+	<val>3</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for nck unlock count (private)]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/private/telephony/pdp_last_connected_context_status" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/private/telephony/pdp_last_connected_context_status"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_TELEPHONY_PRIVATE_PDP_LAST_CONNECTED_CONTEXT</header>
+	<val>0</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for last pdp context connected (private)]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/private/telephony/pdp_last_connected_context_profile_id" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/private/telephony/pdp_last_connected_context_profile_id"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_TELEPHONY_PRIVATE_PDP_LAST_CONNECTED_CONTEXT_PROFILE_ID</header>
+	<val>0</val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for last pdp context id connected (private)]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="db/private/telephony/pdp_last_connected_context_plmn" value="" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="string" name="db/private/telephony/pdp_last_connected_context_plmn"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_TELEPHONY_PRIVATE_PDP_LAST_CONNECTED_CONTEXT_PLMN</header>
+	<val></val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for last pdp context plmn connected (private)]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="memory/private/telephony/modemd_assert_reason" value="" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="string" name="memory/private/telephony/modemd_assert_reason"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_TELEPHONY_PRIVATE_MODEMD_ASSERT_REASON</header>
+	<val></val>
     <creator>Wootak Jung</creator>
     <email>wootak.jung</email>
     <comment><![CDATA[It stands for assert reason for modemd (private)]]></comment>

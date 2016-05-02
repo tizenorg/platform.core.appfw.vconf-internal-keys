@@ -1,219 +1,251 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vconfkeylists>
   <filedef name="__VCONF_INTERNAL_HOTFIX_KEYS_H__"/>
-  <vconfkey type="int32" name="db/setting/sound/touch_feedback/sound_volume" value="9" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/setting/sound/touch_feedback/sound_volume"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_TOUCH_FEEDBACK_SOUND_VOLUME_INT</header>
+	<val>9</val>
     <creator/>
     <email/>
     <comment><![CDATA[ it's for Wearable project - org.tizen.clocksetting ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/sound/noti/sound_volume" value="11" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/setting/sound/noti/sound_volume"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_NOTI_SOUND_VOLUME_INT</header>
+	<val>11</val>
     <creator/>
     <email/>
     <comment><![CDATA[ it's for wearable project - org.tizen.clocksetting ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setup_wizard/first_boot" value="0" headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/setup_wizard/first_boot"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_SETUP_WIZARD_FIRST_BOOT</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/setup_wizard/state" value="0" headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="memory/setup_wizard/state"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_SETUP_WIZARD_STATE</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ org.tizen.whome refers to this key, bt-syspopup refers to VCONFKEY_SETUP_WIZARD_LOCK. ]]></comment>
     <enumlist>
-      <enumdata val="0x00">VCONFKEY_SETUP_WIZARD_UNLOCK</enumdata>
+      <enumdata value="0x00">VCONFKEY_SETUP_WIZARD_UNLOCK</enumdata>
       <enumdata>VCONFKEY_SETUP_WIZARD_LOCK  </enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="db/ode/crypto_state" value="0" headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/ode/crypto_state"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_ODE_CRYPTO_STATE</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ callmgr-util, org.tizen.call-ui and starter-0.5.52 refers to this key. but Removing is required. ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/sde/encrypt_progress" value="0" headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/sde/encrypt_progress"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_SDE_ENCRYPT_PROGRESS</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/sde/crypto_state" value="0" headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/sde/crypto_state"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_SDE_CRYPTO_STATE</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/ciss/answering_mode" value="0" headeronly="true" gid="6514" uid="" private_spec="true" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/ciss/answering_mode"  headeronly="true" gid="6514" uid="" private_spec="true" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_CISSAPPL_ANSWERING_MODE_INT</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/ciss/answering_mode_time" value="0" headeronly="true" gid="6514" uid="" private_spec="true" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/ciss/answering_mode_time"  headeronly="true" gid="6514" uid="" private_spec="true" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_CISSAPPL_ANSWERING_MODE_TIME_INT</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/ciss/outgoing_call_conditions" value="0" headeronly="true" gid="6514" uid="" private_spec="true" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/ciss/outgoing_call_conditions"  headeronly="true" gid="6514" uid="" private_spec="true" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_CISSAPPL_OUTGOING_CALL_CONDITIONS_INT</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/ciss/outgoing_call_type" value="0" headeronly="true" gid="6514" uid="" private_spec="true" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/ciss/outgoing_call_type"  headeronly="true" gid="6514" uid="" private_spec="true" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_CISSAPPL_OUTGOING_CALL_TYPE_INT</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/prefer_arm_left" value="0" headeronly="true" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/setting/prefer_arm_left"  headeronly="true" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_PERFERED_ARM_LEFT_BOOL</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ b2clocksetting use this key for setting-sound ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/colorblind/status" value="0" headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/setting/colorblind/status"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_SETAPPL_COLORBLIND_STATUS_BOOL</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ deviced refers to this key. ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/colorblind/rgbcmy" value="0" headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/setting/colorblind/rgbcmy"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_SETAPPL_COLORBLIND_LAST_RGBCMY_STR</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ deviced refers to this key. ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/motion/palm_swipe_capture" value="1" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/motion/palm_swipe_capture"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_PALM_SWIP_CAPTURE</header>
+	<val>1</val>
     <creator/>
     <email/>
     <comment><![CDATA[ e17-extra-config-module refers to this key. ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/motion/palm_touch_mute" value="1" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/motion/palm_touch_mute"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_PALM_TOUCH_MUTE</header>
+	<val>1</val>
     <creator/>
     <email/>
     <comment><![CDATA[ e17-extra-config-module refers to this key. ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/ticker_noti/email" value="0" headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/setting/ticker_noti/email"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_SETAPPL_STATE_TICKER_NOTI_EMAIL_BOOL</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ email-service refers to this key. ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/accessories/dock_sound" value="0" headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/setting/accessories/dock_sound"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_SETAPPL_ACCESSORY_DOCK_SOUND</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ libmm-sound refers to this key. ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/easymoe/home_screen" value="0" headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/setting/easymoe/home_screen"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_SETAPPL_EASYMODE_HOME_SCREEN</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ org.tizen.add-viewer refers to this key. ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/smartscreen/smart_stay" value="0" headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/setting/smartscreen/smart_stay"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_SETAPPL_SMARTSCREEN_SMARTSTAY_STATUS</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ deviced refers to this key. but it's the unused key for Setting. ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/blockingmode/allowed_contact_type" value="0" headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/setting/blockingmode/allowed_contact_type"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_SETAPPL_BLOCKINGMODE_ALLOWED_CONTACT_TYPE</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ email-service, msg-service refers to this key. but it's the unused key for Setting. ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/blockingmode/allowed_contact_list" value="0" headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/setting/blockingmode/allowed_contact_list"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_SETAPPL_BLOCKINGMODE_ALLOWED_CONTACT_LIST</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ email-service, msg-service refers to this key. but it's the unused key for Setting. ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/blockingmode/notifications" value="0" headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/setting/blockingmode/notifications"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_SETAPPL_BLOCKINGMODE_NOTIFICATIONS</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ msg-service, org.tizen.quickpanel refers to this key. but it's the unused key for Setting. ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/csc/salescode" value="0" headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/csc/salescode"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_CSC_SALESCODE</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/csc/config_mode_running" value="0" headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="memory/csc/config_mode_running"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_CSC_CONFIG_MODE_RUNNING</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/mobex_connector" value="0" headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="memory/mobex_connector"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_MOBEX_CONNECTOR_PREFIX</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/mobex_connector/status" value="0" headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="memory/mobex_connector/status"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_MOBEX_CONNECTOR_STATUS</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
     <enumlist>
-      <enumdata val="0">VCONFKEY_MOBEX_CONNECTOR_STATUS_DISCONNECTED</enumdata>
+      <enumdata value="0">VCONFKEY_MOBEX_CONNECTOR_STATUS_DISCONNECTED</enumdata>
       <enumdata>VCONFKEY_MOBEX_CONNECTOR_STATUS_WAITING</enumdata>
       <enumdata>VCONFKEY_MOBEX_CONNECTOR_STATUS_CONNECTED</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/mobex_engine" value="0" headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="memory/mobex_engine"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_MOBEX_ENGINE_PREFIX</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/mobex_engine/status" value="0" headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="memory/mobex_engine/status"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_MOBEX_ENGINE_STATUS_INT</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
     <enumlist>
-      <enumdata val="0x00">VCONFKEY_MOBEX_ENGINE_STATUS_NOT_CONNECT</enumdata>
-      <enumdata val="0x01">VCONFKEY_MOBEX_ENGINE_STATUS_CONNECTED</enumdata>
-      <enumdata val="0x02">VCONFKEY_MOBEX_ENGINE_STATUS_SYNC_START</enumdata>
-      <enumdata val="0x04">VCONFKEY_MOBEX_ENGINE_STATUS_SYNC_END</enumdata>
+      <enumdata value="0x00">VCONFKEY_MOBEX_ENGINE_STATUS_NOT_CONNECT</enumdata>
+      <enumdata value="0x01">VCONFKEY_MOBEX_ENGINE_STATUS_CONNECTED</enumdata>
+      <enumdata value="0x02">VCONFKEY_MOBEX_ENGINE_STATUS_SYNC_START</enumdata>
+      <enumdata value="0x04">VCONFKEY_MOBEX_ENGINE_STATUS_SYNC_END</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/mobex_engine/memo_sync_status" value="0" headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="memory/mobex_engine/memo_sync_status"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_MOBEX_ENGINE_MEMO_SYNC_STATUS</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/mobex_engine/conn_method" value="0" headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="memory/mobex_engine/conn_method"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_MOBEX_ENGINE_CONNECTION_METHOD_INT</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
     <enumlist>
-      <enumdata val="0">VCONFKEY_MOBEX_ENGIN_NONE</enumdata>
+      <enumdata value="0">VCONFKEY_MOBEX_ENGIN_NONE</enumdata>
       <enumdata>VCONFKEY_MOBEX_ENGIN_USB</enumdata>
       <enumdata>VCONFKEY_MOBEX_ENGIN_WIFI</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/mobex_engine/fus_ode_status" value="0" headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="memory/mobex_engine/fus_ode_status"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_MOBEX_ENGINE_FUS_ODE_STATUS_INT</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
     <enumlist>
-      <enumdata val="0">VCONFKEY_MOBEX_ENGINE_FUS_ODE_STATUS_UNSET</enumdata>
+      <enumdata value="0">VCONFKEY_MOBEX_ENGINE_FUS_ODE_STATUS_UNSET</enumdata>
       <enumdata>VCONFKEY_MOBEX_ENGINE_FUS_ODE_STATUS_SET</enumdata>
     </enumlist>
   </vconfkey>

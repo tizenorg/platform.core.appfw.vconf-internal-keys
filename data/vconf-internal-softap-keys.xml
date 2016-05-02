@@ -1,40 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vconfkeylists>
   <filedef name="__VCONF_INTERNAL_SOFTAP_KEYS_H__"/>
-  <vconfkey type="int32" name="memory/softap/connected_device" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/tethering.admin">
+  <vconfkey type="int32" name="memory/softap/connected_device"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/tethering.admin">
     <header>VCONFKEY_SOFTAP_CONNECTED_DEVICE</header>
+	<val>0</val>
     <creator>Seonah Moon</creator>
     <email>seonah1.moon@samsung.com</email>
     <comment><![CDATA[ To notify clients which are connected through softap ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/softap/security" value="1" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/tethering.admin">
+  <vconfkey type="int32" name="db/softap/security"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/tethering.admin">
     <header>VCONFKEY_SOFTAP_SECURITY</header>
+	<val>1</val>
     <creator>Seonah Moon</creator>
     <email>seonah1.moon@samsung.com</email>
     <comment><![CDATA[ To notify softap security type ]]></comment>
     <enumlist>
-      <enumdata val="0x00">VCONFKEY_SOFTAP_SECURITY_OFF </enumdata>
+      <enumdata value="0x00">VCONFKEY_SOFTAP_SECURITY_OFF </enumdata>
       <enumdata>VCONFKEY_SOFTAP_SECURITY_ON  </enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="db/softap/hide" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/tethering.admin">
+  <vconfkey type="int32" name="db/softap/hide"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/tethering.admin">
     <header>VCONFKEY_SOFTAP_HIDE</header>
+	<val>0</val>
     <creator>Seonah Moon</creator>
     <email>seonah1.moon@samsung.com</email>
     <comment><![CDATA[ To notify softap visibility mode(visible/invisible) ]]></comment>
     <enumlist>
-      <enumdata val="0x00">VCONFKEY_SOFTAP_HIDE_OFF </enumdata>
+      <enumdata value="0x00">VCONFKEY_SOFTAP_HIDE_OFF </enumdata>
       <enumdata>VCONFKEY_SOFTAP_HIDE_ON  </enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="string" name="memory/private/softap/ssid" value="" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/tethering.admin">
+  <vconfkey type="string" name="memory/private/softap/ssid"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/tethering.admin">
 	<header>VCONFKEY_SOFTAP_SSID</header>
+	<val></val>
     <creator>Seonah Moon</creator>
     <email>seonah1.moon@samsung.com</email>
     <comment><![CDATA[ Softap device's SSID ]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="memory/private/softap/key" value="" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/tethering.admin" writePriv="http://tizen.org/privilege/tethering.admin">
+  <vconfkey type="string" name="memory/private/softap/key"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/tethering.admin" writePriv="http://tizen.org/privilege/tethering.admin">
 	<header>VCONFKEY_SOFTAP_KEY</header>
+	<val></val>
 	<creator>Seonah Moon</creator>
 	<email>seonah1.moon@samsung.com</email>
 	<comment><![CDATA[ Softap key ]]></comment>
