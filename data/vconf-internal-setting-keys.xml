@@ -696,7 +696,14 @@
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="db/setting/timezone_id"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/accessibility/screen_reader/description" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+    <header>VCONFKEY_SETAPPL_ACCESSIBILITY_SCREEN_READER_DESCRIPTION</header>
+	<val>1</val>
+    <creator>Subodh Kumar</creator>
+    <email>s7158.kumar@samsung.com</email>
+    <comment><![CDATA[ ]]></comment>
+  </vconfkey>
+  <vconfkey type="string" name="db/setting/timezone_id" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_TIMEZONE_ID</header>
 	<val>Asia/Seoul</val>
     <creator> Myoungjune Park </creator>
