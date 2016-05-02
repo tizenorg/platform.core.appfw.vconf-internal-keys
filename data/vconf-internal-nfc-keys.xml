@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vconfkeylists>
   <filedef name="__VCONF_INTERNAL_NFC_KEYS_H__"/>
-  <vconfkey type="bool" name="db/nfc/feature" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/nfc/feature"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_NFC_FEATURE</header>
+	<val>0</val>
     <creator>Jihoon Jung</creator>
     <email>jh8801.jung@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
@@ -11,8 +12,9 @@
       <enumdata>VCONFKEY_NFC_FEATURE_ON</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="bool" name="db/nfc/enable" value="1" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/nfc/enable"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_NFC_STATE</header>
+	<val>1</val>
     <creator>Jihoon Jung</creator>
     <email>jh8801.jung@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
@@ -22,8 +24,9 @@
       <enumdata>VCONFKEY_NFC_STATE_MAX</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="db/nfc/se_type" value="3" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/nfc.cardemulation" writePriv="http://tizen.org/privilege/nfc.admin">
+  <vconfkey type="int32" name="db/nfc/se_type"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/nfc.cardemulation" writePriv="http://tizen.org/privilege/nfc.admin">
     <header>VCONFKEY_NFC_SE_TYPE</header>
+	<val>3</val>
     <creator>Jihoon Jung</creator>
     <email>jh8801.jung@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
@@ -35,8 +38,9 @@
       <enumdata>VCONFKEY_NFC_SE_POLICY_ESE_OFF  </enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="db/nfc/wallet_mode" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/nfc.admin" writePriv="http://tizen.org/privilege/nfc.admin">
+  <vconfkey type="int32" name="db/nfc/wallet_mode"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/nfc.admin" writePriv="http://tizen.org/privilege/nfc.admin">
     <header>VCONFKEY_NFC_WALLET_MODE</header>
+	<val>0</val>
     <creator>Jihoon Jung</creator>
     <email>jh8801.jung@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
@@ -45,8 +49,9 @@
       <enumdata>VCONFKEY_NFC_WALLET_MODE_AUTOMATIC </enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="bool" name="db/nfc/state_by_flight" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/nfc/state_by_flight"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_NFC_STATE_OFF_BY_FLIGHT</header>
+	<val>0</val>
     <creator>Jihoon Jung</creator>
     <email>jh8801.jung@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
@@ -55,14 +60,16 @@
       <enumdata>VCONFKEY_NFC_OFF_BY_FLIGHT </enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="string" name="db/nfc/payment_handlers" value="" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/nfc.admin" writePriv="http://tizen.org/privilege/nfc.admin">
+  <vconfkey type="string" name="db/nfc/payment_handlers"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/nfc.admin" writePriv="http://tizen.org/privilege/nfc.admin">
     <header>VCONFKEY_NFC_PAYMENT_HANDLERS</header>
+	<val></val>
     <creator>Jihoon Jung</creator>
     <email>jh8801.jung@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="db/nfc/other_handlers" value="" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/nfc.admin" writePriv="http://tizen.org/privilege/nfc.admin">
+  <vconfkey type="string" name="db/nfc/other_handlers"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/nfc.admin" writePriv="http://tizen.org/privilege/nfc.admin">
     <header>VCONFKEY_NFC_OTHER_HANDLERS</header>
+	<val></val>
     <creator>Jihoon Jung</creator>
     <email>jh8801.jung@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
