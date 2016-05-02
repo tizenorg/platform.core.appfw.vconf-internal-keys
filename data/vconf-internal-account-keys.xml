@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vconfkeylists>
   <filedef name="__VCONF_INTERNAL_ACCOUNT_KEYS_H__"/>
-  <vconfkey type="string" name="db/account/msg" value="" gid="6514" uid="" private_spec="true" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/account.read" writePriv="http://tizen.org/privilege/account.write">
+  <vconfkey type="string" name="db/account/msg" gid="6514" uid="" private_spec="true" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/account.read" writePriv="http://tizen.org/privilege/account.write">
     <header>VCONFKEY_ACCOUNT_MSG_STR</header>
+	<val></val>
     <creator>Jang JiSeob</creator>
     <email>jiseob.jang</email>
     <comment><![CDATA[ This key is used to notify inserting, updating, deleting account to another application. ]]></comment>

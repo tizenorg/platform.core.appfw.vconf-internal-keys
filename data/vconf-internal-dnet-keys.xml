@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vconfkeylists>
   <filedef name="__VCONF_INTERNAL_DNET_KEYS_H__"/>
-  <vconfkey type="int32" name="memory/dnet/status" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/dnet/status"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_NETWORK_STATUS</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
@@ -15,26 +16,30 @@
       <enumdata>VCONFKEY_NETWORK_DEFAULT_PROXY</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/dnet/network_config" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/dnet/network_config"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_NETWORK_CONFIGURATION_CHANGE_IND</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="memory/dnet/ip" value="" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="string" name="memory/dnet/ip"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_NETWORK_IP</header>
+	<val></val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="memory/dnet/proxy" value="" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="string" name="memory/dnet/proxy"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_NETWORK_PROXY</header>
+	<val></val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/dnet/wifi" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/dnet/wifi"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_NETWORK_WIFI_STATE</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
@@ -44,8 +49,9 @@
       <enumdata>VCONFKEY_NETWORK_WIFI_CONNECTED</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/dnet/cellular" value="4" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/dnet/cellular"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_NETWORK_CELLULAR_STATE</header>
+	<val>4</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
@@ -57,8 +63,9 @@
       <enumdata>VCONFKEY_NETWORK_CELLULAR_NO_SERVICE</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/dnet/state" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/dnet/state"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_DNET_STATE</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
@@ -69,14 +76,16 @@
       <enumdata>VCONFKEY_DNET_TRANSFER</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/dnet/state2" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/dnet/state2"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_DNET_STATE2</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/dnet/packet_state" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/dnet/packet_state"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_PACKET_STATE</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
@@ -88,122 +97,142 @@
       <enumdata>VCONFKEY_PACKET_MAX</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="db/dnet/statistics/cellular/totalrcv" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/network.get" writePriv="http://tizen.org/privilege/network.set">
+  <vconfkey type="int32" name="db/dnet/statistics/cellular/totalrcv"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/network.get" writePriv="http://tizen.org/privilege/network.set">
     <header>VCONFKEY_NETWORK_CELLULAR_PKT_TOTAL_RCV</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/dnet/statistics/cellular/totalrcv2" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/network.get" writePriv="http://tizen.org/privilege/network.set">
+  <vconfkey type="int32" name="db/dnet/statistics/cellular/totalrcv2"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/network.get" writePriv="http://tizen.org/privilege/network.set">
     <header>VCONFKEY_NETWORK_CELLULAR_PKT_TOTAL_RCV2</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/dnet/statistics/cellular/totalsnt" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/network.get" writePriv="http://tizen.org/privilege/network.set">
+  <vconfkey type="int32" name="db/dnet/statistics/cellular/totalsnt"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/network.get" writePriv="http://tizen.org/privilege/network.set">
     <header>VCONFKEY_NETWORK_CELLULAR_PKT_TOTAL_SNT</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/dnet/statistics/cellular/totalsnt2" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/network.get" writePriv="http://tizen.org/privilege/network.set">
+  <vconfkey type="int32" name="db/dnet/statistics/cellular/totalsnt2"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/network.get" writePriv="http://tizen.org/privilege/network.set">
     <header>VCONFKEY_NETWORK_CELLULAR_PKT_TOTAL_SNT2</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/dnet/statistics/cellular/lastrcv" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/network.get" writePriv="http://tizen.org/privilege/network.set">
+  <vconfkey type="int32" name="db/dnet/statistics/cellular/lastrcv"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/network.get" writePriv="http://tizen.org/privilege/network.set">
     <header>VCONFKEY_NETWORK_CELLULAR_PKT_LAST_RCV</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/dnet/statistics/cellular/lastrcv2" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/network.get" writePriv="http://tizen.org/privilege/network.set">
+  <vconfkey type="int32" name="db/dnet/statistics/cellular/lastrcv2"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/network.get" writePriv="http://tizen.org/privilege/network.set">
     <header>VCONFKEY_NETWORK_CELLULAR_PKT_LAST_RCV2</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/dnet/statistics/cellular/lastsnt" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/network.get" writePriv="http://tizen.org/privilege/network.set">
+  <vconfkey type="int32" name="db/dnet/statistics/cellular/lastsnt"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/network.get" writePriv="http://tizen.org/privilege/network.set">
     <header>VCONFKEY_NETWORK_CELLULAR_PKT_LAST_SNT</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/dnet/statistics/cellular/lastsnt2" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/network.get" writePriv="http://tizen.org/privilege/network.set">
+  <vconfkey type="int32" name="db/dnet/statistics/cellular/lastsnt2"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/network.get" writePriv="http://tizen.org/privilege/network.set">
     <header>VCONFKEY_NETWORK_CELLULAR_PKT_LAST_SNT2</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/dnet/statistics/wifi/totalrcv" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/network.get" writePriv="http://tizen.org/privilege/network.set">
+  <vconfkey type="int32" name="db/dnet/statistics/wifi/totalrcv"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/network.get" writePriv="http://tizen.org/privilege/network.set">
     <header>VCONFKEY_NETWORK_WIFI_PKT_TOTAL_RCV</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/dnet/statistics/wifi/totalsnt" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/network.get" writePriv="http://tizen.org/privilege/network.set">
+  <vconfkey type="int32" name="db/dnet/statistics/wifi/totalsnt"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/network.get" writePriv="http://tizen.org/privilege/network.set">
     <header>VCONFKEY_NETWORK_WIFI_PKT_TOTAL_SNT</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/dnet/statistics/wifi/lastrcv" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/network.get" writePriv="http://tizen.org/privilege/network.set">
+  <vconfkey type="int32" name="db/dnet/statistics/wifi/lastrcv"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/network.get" writePriv="http://tizen.org/privilege/network.set">
     <header>VCONFKEY_NETWORK_WIFI_PKT_LAST_RCV</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/dnet/statistics/wifi/lastsnt" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/network.get" writePriv="http://tizen.org/privilege/network.set">
+  <vconfkey type="int32" name="db/dnet/statistics/wifi/lastsnt"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/network.get" writePriv="http://tizen.org/privilege/network.set">
     <header>VCONFKEY_NETWORK_WIFI_PKT_LAST_SNT</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="file/private/wifi/last_power_state" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/network.get" writePriv="http://tizen.org/privilege/network.set">
+  <vconfkey type="int32" name="file/private/wifi/last_power_state"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/network.get" writePriv="http://tizen.org/privilege/network.set">
    <header>VCONFKEY_NETWORK_WIFI_LAST_POWER_STATE</header>
+	<val>0</val>
    <creator/>
    <email/>
    <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="file/private/wifi/wifi_off_by_airplane" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/network.get" writePriv="http://tizen.org/privilege/network.set">
+  <vconfkey type="int32" name="file/private/wifi/wifi_off_by_airplane"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/network.get" writePriv="http://tizen.org/privilege/network.set">
    <header>VCONFKEY_NETWORK_WIFI_OFF_BY_AIRPLANE</header>
+	<val>0</val>
    <creator/>
    <email/>
    <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="file/private/wifi/wifi_off_by_emergency" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/network.get" writePriv="http://tizen.org/privilege/network.set">
+  <vconfkey type="int32" name="file/private/wifi/wifi_off_by_emergency"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/network.get" writePriv="http://tizen.org/privilege/network.set">
    <header>VCONFKEY_NETWORK_WIFI_OFF_BY_EMERGENCY</header>
+	<val>0</val>
    <creator/>
    <email/>
    <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="file/private/wifi/wifi_off_by_restricted" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/network.get" writePriv="http://tizen.org/privilege/network.set">
+  <vconfkey type="int32" name="file/private/wifi/wifi_off_by_restricted"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/network.get" writePriv="http://tizen.org/privilege/network.set">
    <header>VCONFKEY_NETWORK_WIFI_OFF_BY_RESTRICTED</header>
+	<val>0</val>
    <creator/>
    <email/>
    <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="file/private/wifi/sleep_policy" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey type="int32" name="file/private/wifi/sleep_policy"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
   <header>VCONFKEY_NETWORK_SLEEP_POLICY</header>
+	<val>0</val>
   <creator/>
   <email/>
   <comment><![CDATA[ ]]></comment>
  </vconfkey>
- <vconfkey type="string" name="db/dnet/mac_address" value="" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/network.get" writePriv="http://tizen.org/privilege/network.set">
+ <vconfkey type="string" name="db/dnet/mac_address"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/network.get" writePriv="http://tizen.org/privilege/network.set">
   <header>VCONFKEY_NETWORK_MAC_ADDRESS</header>
+	<val></val>
   <creator/>
   <email/>
   <comment>This key is for TV profile</comment>
  </vconfkey>
- <vconfkey type="int32" name="memory/private/wifi/frequency" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+ <vconfkey type="int32" name="memory/private/wifi/frequency"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
   <header>VCONFKEY_NETWORK_WIFI_FREQUENCY</header>
+	<val>0</val>
   <creator/>
   <email/>
   <comment>Wi-Fi Network Frequency for Wi-Fi Direct</comment>
  </vconfkey>
- <vconfkey type="int32" name="db/private/wifi/wearable_wifi_use" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/network.get" writePriv="http://tizen.org/privilege/network.set">
+ <vconfkey type="int32" name="db/private/wifi/wearable_wifi_use"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/network.get" writePriv="http://tizen.org/privilege/network.set">
   <header>VCONFKEY_NETWORK_WEARABLE_WIFI_USE</header>
+	<val>0</val>
   <creator/>
   <email/>
   <comment>This key is for wearable profile</comment>
