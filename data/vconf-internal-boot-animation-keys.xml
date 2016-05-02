@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vconfkeylists>
   <filedef name="__VCONF_INTERNAL_BOOT_ANIMATION_KEYS_H__"/>
-  <vconfkey type="int32" name="memory/boot_animation/finished" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/boot_animation/finished" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_BOOT_ANIMATION_FINISHED</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[whether boot animation is finished]]></comment>

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vconfkeylists>
   <filedef name="__VCONF_INTERNAL_WEBKIT_KEYS_H__"/>
-  <vconfkey type="string" name="db/webkit/user_agent" value="Default system user agent for backup in testmode" gid="6514" uid="" private_spec="true" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/public">
+  <vconfkey type="string" name="db/webkit/user_agent" gid="6514" uid="" private_spec="true" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/public">
     <header>VCONFKEY_WEBKIT_USER_AGENT</header>
+	<val>Default system user agent for backup in testmode</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>

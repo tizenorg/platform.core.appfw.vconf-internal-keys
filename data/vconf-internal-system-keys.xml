@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vconfkeylists>
   <filedef name="__VCONF_INTERNAL_SYSTEM_KEYS_H__"/>
-  <vconfkey type="int32" name="memory/system/timechanged" value="0" gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/system/timechanged"  gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SYSTEM_TIME_CHANGED</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/system/timechange" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/system/timechange"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SYSTEM_TIMECHANGE</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="double" name="db/system/timechange_external" value="0" gid="6514" uid="" private_spec="true" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="double" name="db/system/timechange_external"  gid="6514" uid="" private_spec="true" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SYSTEM_TIMECHANGE_EXTERNAL</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>

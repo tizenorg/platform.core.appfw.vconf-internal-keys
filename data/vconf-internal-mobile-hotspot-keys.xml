@@ -1,95 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vconfkeylists>
   <filedef name="__VCONF_INTERNAL_MOBILE_HOTSPOT_KEYS_H__"/>
-  <vconfkey type="int32" name="memory/mobile_hotspot/mode" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/tethering.admin">
+  <vconfkey type="int32" name="memory/mobile_hotspot/mode"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/tethering.admin">
     <header>VCONFKEY_MOBILE_HOTSPOT_MODE</header>
+	<val>0</val>
     <creator>Seonah Moon</creator>
     <email>seonah1.moon@samsung.com</email>
     <comment><![CDATA[ To notify which tethering type is enabled ]]></comment>
     <enumlist>
-      <enumdata val="0x00">VCONFKEY_MOBILE_HOTSPOT_MODE_NONE     </enumdata>
-      <enumdata val="0x01">VCONFKEY_MOBILE_HOTSPOT_MODE_WIFI     </enumdata>
-      <enumdata val="0x02">VCONFKEY_MOBILE_HOTSPOT_MODE_USB      </enumdata>
-      <enumdata val="0x04">VCONFKEY_MOBILE_HOTSPOT_MODE_BT       </enumdata>
-      <enumdata val="0x08">VCONFKEY_MOBILE_HOTSPOT_MODE_WIFI_AP  </enumdata>
+      <enumdata value="0x00">VCONFKEY_MOBILE_HOTSPOT_MODE_NONE     </enumdata>
+      <enumdata value="0x01">VCONFKEY_MOBILE_HOTSPOT_MODE_WIFI     </enumdata>
+      <enumdata value="0x02">VCONFKEY_MOBILE_HOTSPOT_MODE_USB      </enumdata>
+      <enumdata value="0x04">VCONFKEY_MOBILE_HOTSPOT_MODE_BT       </enumdata>
+      <enumdata value="0x08">VCONFKEY_MOBILE_HOTSPOT_MODE_WIFI_AP  </enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/mobile_hotspot/connected_device" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/tethering.admin">
+  <vconfkey type="int32" name="memory/mobile_hotspot/connected_device"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/tethering.admin">
     <header>VCONFKEY_MOBILE_HOTSPOT_CONNECTED_DEVICE</header>
+	<val>0</val>
     <creator>Seonah Moon</creator>
     <email>seonah1.moon@samsung.com</email>
     <comment><![CDATA[ To notify clients which are connected through tethering ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/mobile_hotspot/security" value="1" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/tethering.admin">
+  <vconfkey type="int32" name="db/mobile_hotspot/security"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/tethering.admin">
     <header>VCONFKEY_MOBILE_HOTSPOT_SECURITY</header>
+	<val>1</val>
     <creator>Seonah Moon</creator>
     <email>seonah1.moon@samsung.com</email>
     <comment><![CDATA[ To notify tethering security type ]]></comment>
     <enumlist>
-      <enumdata val="0x00">VCONFKEY_MOBILE_AP_SECURITY_OFF </enumdata>
+      <enumdata value="0x00">VCONFKEY_MOBILE_AP_SECURITY_OFF </enumdata>
       <enumdata>VCONFKEY_MOBILE_AP_SECURITY_ON  </enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="db/mobile_hotspot/hide" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/tethering.admin">
+  <vconfkey type="int32" name="db/mobile_hotspot/hide"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/tethering.admin">
     <header>VCONFKEY_MOBILE_HOTSPOT_HIDE</header>
+	<val>0</val>
     <creator>Seonah Moon</creator>
     <email>seonah1.moon@samsung.com</email>
     <comment><![CDATA[ To notify tethering visibility mode(visible/invisible) ]]></comment>
     <enumlist>
-      <enumdata val="0x00">VCONFKEY_MOBILE_AP_HIDE_OFF </enumdata>
+      <enumdata value="0x00">VCONFKEY_MOBILE_AP_HIDE_OFF </enumdata>
       <enumdata>VCONFKEY_MOBILE_AP_HIDE_ON  </enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="string" name="memory/private/mobileap-agent/ssid" value="" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/tethering.admin">
+  <vconfkey type="string" name="memory/private/mobileap-agent/ssid"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/tethering.admin">
     <header>VCONFKEY_MOBILE_HOTSPOT_SSID</header>
+	<val></val>
     <creator>Seonah Moon</creator>
     <email>seonah1.moon@samsung.com</email>
     <comment><![CDATA[ Thethering device's SSID ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/private/libug-setting-mobileap-efl/prev_wifi_status" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/private/libug-setting-mobileap-efl/prev_wifi_status"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_MOBILE_HOTSPOT_PREV_WIFI_STATUS</header>
+	<val>0</val>
     <creator>Seonah Moon</creator>
     <email>seonah1.moon@samsung.com</email>
     <comment><![CDATA[ To check previous wifi status ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="file/private/libug-setting-mobileap-efl/is_device_rename_local" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/tethering.admin">
+  <vconfkey type="int32" name="file/private/libug-setting-mobileap-efl/is_device_rename_local"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/tethering.admin">
     <header>VCONFKEY_MOBILE_HOTSPOT_IS_DEVICE_RENAME_LOCAL</header>
+	<val>0</val>
     <creator>Seonah Moon</creator>
     <email>seonah1.moon@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="file/private/libug-setting-mobileap-efl/wifi_popup_check_box_status" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="file/private/libug-setting-mobileap-efl/wifi_popup_check_box_status"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_MOBILE_HOTSPOT_WIFI_POPUP_CHECK_BOX_STATUS</header>
+	<val>0</val>
     <creator>Seonah Moon</creator>
     <email>seonah1.moon@samsung.com</email>
     <comment><![CDATA[ Wi-fi popup check-box status for enabling Wi-Fi tethering ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="file/private/libug-setting-mobileap-efl/bt_popup_check_box_status" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="file/private/libug-setting-mobileap-efl/bt_popup_check_box_status"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_MOBILE_HOTSPOT_BT_POPUP_CHECK_BOX_STATUS</header>
+	<val>0</val>
     <creator>Seonah Moon</creator>
     <email>seonah1.moon@samsung.com</email>
     <comment><![CDATA[ BT popup check-box status for enabling BT tethering ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="file/private/libug-setting-mobileap-efl/usb_popup_check_box_status" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="file/private/libug-setting-mobileap-efl/usb_popup_check_box_status"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_MOBILE_HOTSPOT_USB_POPUP_CHECK_BOX_STATUS</header>
+	<val>0</val>
     <creator>Seonah Moon</creator>
     <email>seonah1.moon@samsung.com</email>
     <comment><![CDATA[ USB popup check-box status for enabling USB tethering ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/private/libug-setting-mobileap-efl/trying_usb_tethering" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/tethering.admin">
+  <vconfkey type="int32" name="memory/private/libug-setting-mobileap-efl/trying_usb_tethering"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/tethering.admin">
     <header>VCONFKEY_MOBILE_HOTSPOT_TRYING_USB_TETHERING</header>
+	<val>0</val>
     <creator>Seonah Moon</creator>
     <email>seonah1.moon@samsung.com</email>
     <comment><![CDATA[ Connect USB poup status ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/mobile_hotspot/wifi_state" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/tethering.admin">
+  <vconfkey type="int32" name="memory/mobile_hotspot/wifi_state"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/tethering.admin">
     <header>VCONFKEY_MOBILE_HOTSPOT_WIFI_STATE</header>
+	<val>0</val>
     <creator>Seonah Moon</creator>
     <email>seonah1.moon@samsung.com</email>
     <comment><![CDATA[]]></comment>
     <enumlist>
-      <enumdata val="0x00">VCONFKEY_MOBILE_HOTSPOT_WIFI_OFF</enumdata>
-      <enumdata val="0x01">VCONFKEY_MOBILE_HOTSPOT_WIFI_PENDING_ON</enumdata>
+      <enumdata value="0x00">VCONFKEY_MOBILE_HOTSPOT_WIFI_OFF</enumdata>
+      <enumdata value="0x01">VCONFKEY_MOBILE_HOTSPOT_WIFI_PENDING_ON</enumdata>
     </enumlist>
   </vconfkey>
 </vconfkeylists>

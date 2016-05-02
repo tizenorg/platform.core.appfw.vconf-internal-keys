@@ -1,206 +1,229 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vconfkeylists>
   <filedef name="__VCONF_INTERNAL_WIFI_KEYS_H__"/>
-  <vconfkey type="int32" name="memory/wifi/state" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/wifi/state"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_WIFI_STATE</header>
+	<val>0</val>
     <creator>Hyunuk Tak</creator>
     <email>hyunuk.tak@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
     <enumlist>
-      <enumdata val="0x00">VCONFKEY_WIFI_OFF</enumdata>
+      <enumdata value="0x00">VCONFKEY_WIFI_OFF</enumdata>
       <enumdata>VCONFKEY_WIFI_UNCONNECTED</enumdata>
       <enumdata>VCONFKEY_WIFI_CONNECTED</enumdata>
       <enumdata>VCONFKEY_WIFI_TRANSFER</enumdata>
       <enumdata>VCONFKEY_WIFI_STATE_MAX</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/wifi/transfer_state" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/wifi/transfer_state"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_WIFI_TRANSFER_STATE</header>
+	<val>0</val>
     <creator>Hyunuk Tak</creator>
     <email>hyunuk.tak@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
     <enumlist>
-      <enumdata val="0x00">VCONFKEY_WIFI_TRANSFER_STATE_NONE</enumdata>
+      <enumdata value="0x00">VCONFKEY_WIFI_TRANSFER_STATE_NONE</enumdata>
       <enumdata>VCONFKEY_WIFI_TRANSFER_STATE_TX</enumdata>
       <enumdata>VCONFKEY_WIFI_TRANSFER_STATE_RX</enumdata>
       <enumdata>VCONFKEY_WIFI_TRANSFER_STATE_TXRX</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/wifi/strength" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/wifi/strength"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_WIFI_STRENGTH</header>
+	<val>0</val>
     <creator>Hyunuk Tak</creator>
     <email>hyunuk.tak@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
     <enumlist>
-      <enumdata val="0">VCONFKEY_WIFI_STRENGTH_MIN</enumdata>
-      <enumdata val="4">VCONFKEY_WIFI_STRENGTH_MAX</enumdata>
+      <enumdata value="0">VCONFKEY_WIFI_STRENGTH_MIN</enumdata>
+      <enumdata value="4">VCONFKEY_WIFI_STRENGTH_MAX</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/wifi/wifi_qs_exit" value="0" gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/wifi/wifi_qs_exit"  gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_WIFI_QS_EXIT</header>
+	<val>0</val>
     <creator>Hyunuk Tak</creator>
     <email>hyunuk.tak@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
     <enumlist>
-      <enumdata val="0x00">VCONFKEY_WIFI_QS_CANCEL</enumdata>
+      <enumdata value="0x00">VCONFKEY_WIFI_QS_CANCEL</enumdata>
       <enumdata>VCONFKEY_WIFI_QS_WIFI_CONNECTED</enumdata>
       <enumdata>VCONFKEY_WIFI_QS_3G</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="db/wifi/enable_quick_start" value="1" gid="6514" uid="" private_spec="true" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey type="int32" name="db/wifi/enable_quick_start"  gid="6514" uid="" private_spec="true" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_WIFI_ENABLE_QS</header>
+	<val>1</val>
     <creator>Hyunuk Tak</creator>
     <email>hyunuk.tak@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
     <enumlist>
-      <enumdata val="0x00">VCONFKEY_WIFI_QS_DISABLE</enumdata>
-      <enumdata val="0x01">VCONFKEY_WIFI_QS_ENABLE</enumdata>
+      <enumdata value="0x00">VCONFKEY_WIFI_QS_DISABLE</enumdata>
+      <enumdata value="0x01">VCONFKEY_WIFI_QS_ENABLE</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="string" name="memory/wifi/connected_ap_name" value="" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="string" name="memory/wifi/connected_ap_name"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_WIFI_CONNECTED_AP_NAME</header>
+	<val></val>
     <creator>Hyunuk Tak</creator>
     <email>hyunuk.tak@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/wifi/ug_run_state" value="3" gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/wifi/ug_run_state"  gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_WIFI_UG_RUN_STATE</header>
+	<val>3</val>
     <creator/>
     <email>hyunuk.tak@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
     <enumlist>
-      <enumdata val="0x00">VCONFKEY_WIFI_UG_RUN_STATE_NUL</enumdata>
+      <enumdata value="0x00">VCONFKEY_WIFI_UG_RUN_STATE_NUL</enumdata>
       <enumdata>VCONFKEY_WIFI_UG_RUN_STATE_ON_FOREGROUND</enumdata>
       <enumdata>VCONFKEY_WIFI_UG_RUN_STATE_ON_BACKGROUND</enumdata>
       <enumdata>VCONFKEY_WIFI_UG_RUN_STATE_OFF</enumdata>
       <enumdata>VCONFKEY_WIFI_UG_RUN_STATE_MAX</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="db/wifi/bssid_address" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/wifi/bssid_address"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_WIFI_BSSID_ADDRESS</header>
+	<val>0</val>
     <creator>Hyunuk Tak</creator>
     <email>hyunuk.tak@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/wifi/bgscan_mode" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/wifi/bgscan_mode"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_WIFI_BGSCAN_MODE</header>
+	<val>0</val>
     <creator>Hyunuk Tak</creator>
     <email>hyunuk.tak@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
     <enumlist>
-      <enumdata val="0x00">VCONFKEY_WIFI_BGSCAN_MODE_PERIODIC</enumdata>
+      <enumdata value="0x00">VCONFKEY_WIFI_BGSCAN_MODE_PERIODIC</enumdata>
       <enumdata>VCONFKEY_WIFI_BGSCAN_MODE_EXPONENTIAL</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/wifi_direct/transfer_state" value="0" headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="memory/wifi_direct/transfer_state"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_WIFI_DIRECT_TRANSFER_STATE</header>
+	<val>0</val>
     <creator>Jiung Yu</creator>
     <email>jiung.yu@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
     <enumlist>
-      <enumdata val="0">VCONFKEY_WIFI_DIRECT_TRANSFER_START</enumdata>
+      <enumdata value="0">VCONFKEY_WIFI_DIRECT_TRANSFER_START</enumdata>
       <enumdata>VCONFKEY_WIFI_DIRECT_TRANSFER_FAIL</enumdata>
       <enumdata>VCONFKEY_WIFI_DIRECT_TRANSFER_FINISH</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/wifi_direct/share/sending_state" value="0" headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="memory/wifi_direct/share/sending_state"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_WIFI_DIRECT_SENDING_STATE</header>
+	<val>0</val>
     <creator>Jiung Yu</creator>
     <email>jiung.yu@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
     <enumlist>
-      <enumdata val="0">VCONFKEY_WIFI_DIRECT_SENDING_IDLE</enumdata>
+      <enumdata value="0">VCONFKEY_WIFI_DIRECT_SENDING_IDLE</enumdata>
       <enumdata>VCONFKEY_WIFI_DIRECT_SENDING_IN_PROGRESS</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/wifi_direct/share/receiving_state" value="0" headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="memory/wifi_direct/share/receiving_state"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_WIFI_DIRECT_RECEIVING_STATE</header>
+	<val>0</val>
     <creator>Jiung Yu</creator>
     <email>jiung.yu@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
     <enumlist>
-      <enumdata val="0">VCONFKEY_WIFI_DIRECT_RECEIVING_IDLE</enumdata>
+      <enumdata value="0">VCONFKEY_WIFI_DIRECT_RECEIVING_IDLE</enumdata>
       <enumdata>VCONFKEY_WIFI_DIRECT_RECEIVING_IN_PROGRESS</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/private/wifi_direct_manager/dhcp_ip_lease" value="0" gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/private/wifi_direct_manager/dhcp_ip_lease"  gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_WIFI_DIRECT_DHCP_IP_LEASE</header>
+	<val>0</val>
     <creator>Jiung Yu</creator>
     <email>jiung.yu@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="memory/private/wifi_direct_manager/dhcpc_server_ip" value="0.0.0.0" gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="string" name="memory/private/wifi_direct_manager/dhcpc_server_ip"  gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_WIFI_DIRECT_DHCPC_SERVER_IP</header>
+	<val>0.0.0.0</val>
     <creator>Jiung Yu</creator>
     <email>jiung.yu@samsung.com</email>
     <comment><![CDATA[ error took place ]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="memory/private/wifi_direct_manager/p2p_gateway" value="0.0.0.0" gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="string" name="memory/private/wifi_direct_manager/p2p_gateway"  gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_WIFI_DIRECT_P2P_GATEWAY</header>
+	<val>0.0.0.0</val>
     <creator>Jiung Yu</creator>
     <email>jiung.yu@samsung.com</email>
     <comment><![CDATA[ error took place ]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="memory/private/wifi_direct_manager/p2p_ifname" value="0.0.0.0" gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="string" name="memory/private/wifi_direct_manager/p2p_ifname"  gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_WIFI_DIRECT_P2P_IFNAME</header>
+	<val>0.0.0.0</val>
     <creator>Jiung Yu</creator>
     <email>jiung.yu@samsung.com</email>
     <comment><![CDATA[ error took place ]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="memory/private/wifi_direct_manager/p2p_local_ip" value="0.0.0.0" gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="string" name="memory/private/wifi_direct_manager/p2p_local_ip"  gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_WIFI_DIRECT_P2P_LOCAL_IP</header>
+	<val>0.0.0.0</val>
     <creator>Jiung Yu</creator>
     <email>jiung.yu@samsung.com</email>
     <comment><![CDATA[ error took place ]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="memory/private/wifi_direct_manager/p2p_subnet_mask" value="0.0.0.0" gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="string" name="memory/private/wifi_direct_manager/p2p_subnet_mask"  gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_WIFI_DIRECT_P2P_SUBNET_MASK</header>
+	<val>0.0.0.0</val>
     <creator>Jiung Yu</creator>
     <email>jiung.yu@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/wifi_direct/state" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/wifidirect" writePriv="http://tizen.org/privilege/internal/buxton/readonly">
+  <vconfkey type="int32" name="memory/wifi_direct/state"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/wifidirect" writePriv="http://tizen.org/privilege/internal/buxton/readonly">
     <header>VCONFKEY_WIFI_DIRECT_STATE</header>
+	<val>0</val>
     <creator>Jiung Yu</creator>
     <email>jiung.yu@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
 	<enumlist>
-		<enumdata val="0">VCONFKEY_WIFI_DIRECT_DEACTIVATED</enumdata>
+		<enumdata value="0">VCONFKEY_WIFI_DIRECT_DEACTIVATED</enumdata>
 		<enumdata>VCONFKEY_WIFI_DIRECT_ACTIVATED</enumdata>
 		<enumdata>VCONFKEY_WIFI_DIRECT_DISCOVERING</enumdata>
 		<enumdata>VCONFKEY_WIFI_DIRECT_CONNECTED</enumdata>
 		<enumdata>VCONFKEY_WIFI_DIRECT_GROUP_OWNER</enumdata>
 	</enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/allshare_cast/state" value="0" headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="memory/allshare_cast/state"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_ALLSHARE_CAST_STATE</header>
+	<val>0</val>
     <creator>Jiung Yu</creator>
     <email>jiung.yu@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
     <enumlist>
-      <enumdata val="0">VCONFKEY_ALLSHARECAST_NOT_CONNECTED</enumdata>
+      <enumdata value="0">VCONFKEY_ALLSHARECAST_NOT_CONNECTED</enumdata>
       <enumdata>VCONFKEY_ALLSHARECAST_CONNECTED</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/screen_mirroring/status" value="0" headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="memory/screen_mirroring/status"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_SCREEN_MIRRORING_STATE</header>
+	<val>0</val>
     <creator>Jiung Yu</creator>
     <email>jiung.yu@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
     <enumlist>
-      <enumdata val="0">VCONFKEY_SCREEN_MIRRORING_DEACTIVATED</enumdata>
+      <enumdata value="0">VCONFKEY_SCREEN_MIRRORING_DEACTIVATED</enumdata>
       <enumdata>VCONFKEY_SCREEN_MIRRORING_ACTIVATED</enumdata>
       <enumdata>VCONFKEY_SCREEN_MIRRORING_CONNECTED</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="file/private/wifi/network_bonding" value="1" gid="6519" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey type="int32" name="file/private/wifi/network_bonding"  gid="6519" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
    <header>VCONFKEY_WIFI_NETWORK_BONDING</header>
+	<val>1</val>
    <creator/>
    <email/>
    <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="file/private/wifi/sort_by" value="1" gid="6519" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey type="int32" name="file/private/wifi/sort_by"  gid="6519" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
    <header>VCONFKEY_WIFI_SORT_BY</header>
+	<val>1</val>
    <creator/>
    <email/>
    <comment><![CDATA[ ]]></comment>

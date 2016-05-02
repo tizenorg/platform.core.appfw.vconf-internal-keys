@@ -75,8 +75,8 @@ enum {
 <xsl:template match="enumdata">
 
 <xsl:choose>
-  <xsl:when test="./@val">
-	<xsl:value-of select="."/> = <xsl:value-of select="./@val"/>
+  <xsl:when test="./@value">
+	<xsl:value-of select="."/> = <xsl:value-of select="./@value"/>
 	<xsl:choose>
 		<xsl:when test="position()!=last()">,
 		</xsl:when>

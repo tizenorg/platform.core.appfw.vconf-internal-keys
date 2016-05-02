@@ -1,31 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vconfkeylists>
   <filedef name="__VCONF_INTERNAL_USB_KEYS_H__"/>
-  <vconfkey type="int32" name="memory/usb/cur_mode" value="0" gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/usb/cur_mode"  gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_USB_CUR_MODE</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
     <enumlist name="old_usb_mode">
-      <enumdata val="1">SET_USB_MTP</enumdata>
-      <enumdata val="2">SET_USB_MTP_SDB</enumdata>
-      <enumdata val="3">SET_USB_MTP_SDB_DIAG</enumdata>
+      <enumdata value="1">SET_USB_MTP</enumdata>
+      <enumdata value="2">SET_USB_MTP_SDB</enumdata>
+      <enumdata value="3">SET_USB_MTP_SDB_DIAG</enumdata>
     </enumlist>
     <enumlist name="usb_mode">
-      <enumdata val="0">SET_USB_NONE</enumdata>
-      <enumdata val="1">SET_USB_DEFAULT</enumdata>
-      <enumdata val="2">SET_USB_SDB</enumdata>
-      <enumdata val="3">SET_USB_SDB_DIAG</enumdata>
-      <enumdata val="4">SET_USB_RNDIS_TETHERING</enumdata>
-      <enumdata val="5">SET_USB_RNDIS </enumdata>
-      <enumdata val="6">SET_USB_RNDIS_SDB</enumdata>
-      <enumdata val="7">SET_USB_DIAG_SDB</enumdata>
-      <enumdata val="8">SET_USB_RNDIS_DIAG</enumdata>
-      <enumdata val="9">SET_USB_ACCESSORY</enumdata>
+      <enumdata value="0">SET_USB_NONE</enumdata>
+      <enumdata value="1">SET_USB_DEFAULT</enumdata>
+      <enumdata value="2">SET_USB_SDB</enumdata>
+      <enumdata value="3">SET_USB_SDB_DIAG</enumdata>
+      <enumdata value="4">SET_USB_RNDIS_TETHERING</enumdata>
+      <enumdata value="5">SET_USB_RNDIS </enumdata>
+      <enumdata value="6">SET_USB_RNDIS_SDB</enumdata>
+      <enumdata value="7">SET_USB_DIAG_SDB</enumdata>
+      <enumdata value="8">SET_USB_RNDIS_DIAG</enumdata>
+      <enumdata value="9">SET_USB_ACCESSORY</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="db/usb/sel_mode" value="1" gid="6514" uid="" private_spec="true" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/usb/sel_mode"  gid="6514" uid="" private_spec="true" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_USB_SEL_MODE</header>
+	<val>1</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>

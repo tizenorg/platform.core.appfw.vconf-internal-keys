@@ -1,80 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vconfkeylists>
   <filedef name="__VCONF_INTERNAL_SOUND_KEYS_H__"/>
-  <vconfkey type="int32" name="memory/Sound/SoundStatus" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/Sound/SoundStatus"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SOUND_STATUS</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="file/private/sound/volume/master" value="20" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/volume.set">
+  <vconfkey type="int32" name="file/private/sound/volume/master"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/volume.set">
     <header>VCONFKEY_SOUND_VOLUME_TYPE_MASTER</header>
+	<val>20</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="file/private/sound/volume/system" value="9" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/volume.set">
+  <vconfkey type="int32" name="file/private/sound/volume/system"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/volume.set">
     <header>VCONFKEY_SOUND_VOLUME_TYPE_SYSTEM</header>
+	<val>9</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="file/private/sound/volume/notification" value="11" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/volume.set">
+  <vconfkey type="int32" name="file/private/sound/volume/notification"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/volume.set">
     <header>VCONFKEY_SOUND_VOLUME_TYPE_NOTIFICATION</header>
+	<val>11</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="file/private/sound/volume/alarm" value="7" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/volume.set">
+  <vconfkey type="int32" name="file/private/sound/volume/alarm"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/volume.set">
     <header>VCONFKEY_SOUND_VOLUME_TYPE_ALARM</header>
+	<val>7</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="file/private/sound/volume/ringtone" value="11" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/volume.set">
+  <vconfkey type="int32" name="file/private/sound/volume/ringtone"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/volume.set">
     <header>VCONFKEY_SOUND_VOLUME_TYPE_RINGTONE</header>
+	<val>11</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="file/private/sound/volume/media" value="7" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/volume.set">
+  <vconfkey type="int32" name="file/private/sound/volume/media"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/volume.set">
     <header>VCONFKEY_SOUND_VOLUME_TYPE_MEDIA</header>
+	<val>7</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="file/private/sound/volume/call" value="4" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/volume.set">
+  <vconfkey type="int32" name="file/private/sound/volume/call"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/volume.set">
     <header>VCONFKEY_SOUND_VOLUME_TYPE_CALL</header>
+	<val>4</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="file/private/sound/volume/voip" value="4" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/volume.set">
+  <vconfkey type="int32" name="file/private/sound/volume/voip"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/volume.set">
     <header>VCONFKEY_SOUND_VOLUME_TYPE_VOIP</header>
+	<val>4</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="file/private/sound/volume/voice" value="7" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/volume.set">
+  <vconfkey type="int32" name="file/private/sound/volume/voice"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/volume.set">
     <header>VCONFKEY_SOUND_VOLUME_TYPE_VOICE</header>
+	<val>7</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/private/sound/PrimaryVolumeType" value="-1" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/public">
+  <vconfkey type="int32" name="memory/private/sound/PrimaryVolumeType"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/public">
     <header>VCONFKEY_SOUND_PRIMARY_VOLUME_TYPE</header>
+	<val>-1</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/private/sound/pcm_dump" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/private/sound/pcm_dump"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SOUND_PCM_DUMP</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="memory/private/sound/booting" value="/usr/share/keysound/poweron.wav" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="string" name="memory/private/sound/booting"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SOUND_BOOT_SOUND</header>
+	<val>/usr/share/keysound/poweron.wav</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>

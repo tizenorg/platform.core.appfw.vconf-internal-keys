@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vconfkeylists>
   <filedef name="__VCONF_INTERNAL_FILEMANAGER_KEYS_H__"/>
-  <vconfkey type="int32" name="memory/filemanager/Mmc" value="0" gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/filemanager/Mmc"  gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_FILEMANAGER_MMC_STATUS</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
     <enumlist>
-      <enumdata val="0">VCONFKEY_FILEMANAGER_MMC_REMOVED</enumdata>
+      <enumdata value="0">VCONFKEY_FILEMANAGER_MMC_REMOVED</enumdata>
       <enumdata>VCONFKEY_FILEMANAGER_MMC_LOADING</enumdata>
       <enumdata>VCONFKEY_FILEMANAGER_MMC_LOADED</enumdata>
       <enumdata>VCONFKEY_FILEMANAGER_MMC_FULL</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="db/filemanager/dbupdate" value="1" gid="6514" uid="" private_spec="true" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/filemanager/dbupdate"  gid="6514" uid="" private_spec="true" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_FILEMANAGER_DB_STATUS</header>
+	<val>1</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
     <enumlist>
-      <enumdata val="0">VCONFKEY_FILEMANAGER_DB_UPDATING</enumdata>
+      <enumdata value="0">VCONFKEY_FILEMANAGER_DB_UPDATING</enumdata>
       <enumdata>VCONFKEY_FILEMANAGER_DB_UPDATED</enumdata>
     </enumlist>
   </vconfkey>

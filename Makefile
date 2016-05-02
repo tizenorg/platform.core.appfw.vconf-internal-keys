@@ -2,7 +2,8 @@
 #all:init allcmd allheader allhtml vconf-internal-keys.pc
 #all:init allcmd allheader allhtml allwrapper
 #all:init allcmd allhtml allheader allwrapper allwrapper_impl vconf-internal-keys.h endproc
-all:init allcmd postproc allhtml allheader vconf-internal-keys.h endproc
+#all:init allcmd postproc allhtml allheader vconf-internal-keys.h endproc
+all:init allcmd allhtml allheader vconf-internal-keys.h endproc
 
 allcmd: $(shell find . -name "*.xml" | sed 's/xml/sh/')
 allheader: $(shell find . -name "*.xml" | sed 's/xml/h/')
@@ -17,56 +18,41 @@ check:
 	echo $(XMLS)
 	$(foreach var, $(XMLS), xmllint --noout --schema check.xsd $(var);)
 
+ifneq ($(model), )
+xsltopt=--stringparam target $(MODEL)
+else
+xsltopt=--stringparam target ''
+endif
 init:
 	@mkdir -p report
 	@mkdir -p scripts
 	@mkdir -p include
-#	@rm scripts/*.sh
-#	@rm scripts/all.sh
-#	@rm scripts/product.sh
-#	@rm scripts/default.sh
+	if [ -a ./scripts/all.sh ]; \
+	then \
+		rm ./scripts/all.sh; \
+	fi;
 
 %.html:%.xml
-	xsltproc test_report.xsl $< > $@
+	xsltproc $(xsltopt) test_report.xsl $< > $@
 	mv $@ ./report
 
 %.sh:%.xml
-	xsltproc create_cmd.xsl $< | sed '/^$$/d' > $@
+	xsltproc $(xsltopt) create_cmd.xsl $< | sed '/^$$/d' > $@
 	cat $@ >> ./scripts/all.sh
 	rm $@
 
-postproc:
-	sed -i 's/^ *//' ./scripts/all.sh
-	grep . ./scripts/all.sh | grep "^#default" > scripts/default.sh
-ifneq ($(model), )
-	grep . ./scripts/all.sh | egrep "^#$(MODEL) " > scripts/product.sh || true
-	awk '{ print $$7 }'  ./scripts/product.sh | sed 's/\//\\\//g' > scripts/duplicate.list
-	@while read -r str ; \
-	do \
-		echo "-----------------------------------------------------" $$str; \
-		echo sed --in-place "/$$str/d" ./scripts/default.sh; \
-		sed --in-place "/$$str/d" ./scripts/default.sh; \
-	done < ./scripts/duplicate.list
-	cut -d ' ' -f2- ./scripts/product.sh > temp && mv temp ./scripts/product.sh
-	sed -i '1 i #!/bin/bash' ./scripts/product.sh
-endif
-	cut -d ' ' -f2- ./scripts/default.sh > temp && mv temp ./scripts/default.sh
-	sed -i '1 i #!/bin/bash' ./scripts/default.sh
-	rm ./scripts/all.sh
-
 %.h:%.xml
-#	xsltproc create_header.xsl $< | sed '/^$$/d' | indent   > $@
-	xsltproc create_header.xsl $< | sed '/^$$/d' > $@
+	xsltproc $(xsltopt) create_header.xsl $< | sed '/^$$/d' > $@
 	mv $@ ./include
 
 #%_wrapper.h:%.xml
-# 	xsltproc create_wrapper.xsl $< | sed '/^$$/d' | indent   > $@
-#	xsltproc create_wrapper.xsl $< | sed '/^$$/d'   > $@
+# 	xsltproc $(xsltopt) create_wrapper.xsl $< | sed '/^$$/d'  > $@
+#	xsltproc $(xsltopt) create_wrapper.xsl $< | sed '/^$$/d'   > $@
 #	mv $@ ./include
 
 #%_wrapper.c:%.xml
-# 	xsltproc create_wrapper.xsl $< | sed '/^$$/d' | indent   > $@
-#	xsltproc create_wrapper_impl.xsl $< | sed '/^$$/d'   > $@
+# 	xsltproc $(xsltopt) create_wrapper.xsl $< | sed '/^$$/d' | indent   > $@
+#	xsltproc $(xsltopt) create_wrapper_impl.xsl $< | sed '/^$$/d'   > $@
 #	sed -i '21 i #include \<vconf.h\>' $@
 #	sed -i '22 i #include "vconf-internal-keys.h"' $@
 #	sed -i '23i\\' $@
@@ -81,11 +67,12 @@ vconf-internal-keys.h:
 clean:
 	#@rm -rf report scripts include *.pc
 	@rm -rf report scripts include
-	@find . -name "*.html" | xargs rm 
-	@find . -name "*.sh" | xargs rm 
-	@find . -name "*.h" | xargs rm 
+	@find . -name "*.html" | xargs rm
+	@find . -name "*.sh" | xargs rm
+	@find . -name "*.h" | xargs rm
 
 endproc:
+	sed -i '1 i #!/bin/bash' ./scripts/all.sh
 	./remove_whitespace.sh
 
 #vconf-internal-keys.pc:vconf-internal-keys.pc.in

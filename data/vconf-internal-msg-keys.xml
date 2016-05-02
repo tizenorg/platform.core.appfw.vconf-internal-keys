@@ -1,34 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vconfkeylists>
   <filedef name="__VCONF_INTERNAL_MSG_KEYS_H__"/>
-  <vconfkey type="bool" name="memory/msg/ready" value="0" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/message.read" writePriv="http://tizen.org/privilege/internal/buxton/readonly">
+  <vconfkey type="bool" name="memory/msg/ready"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/message.read" writePriv="http://tizen.org/privilege/internal/buxton/readonly">
     <header>VCONFKEY_MSG_SERVER_READY</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/msg/recv_sms" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/msg/recv_sms"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_MESSAGE_RECV_SMS_STATE</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/msg/recv_mms" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/msg/recv_mms"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_MESSAGE_RECV_MMS_STATE</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/msg/network_mode" value="0" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/msg/network_mode"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_MESSAGE_NETWORK_MODE</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ do not remove it's for enumeration (sangkoo.kim@samsung.com) ]]></comment>
     <enumlist>
-      <enumdata val="0x01">VCONFKEY_MESSAGE_NETWORK_PS_ONLY</enumdata>
-      <enumdata val="0x02">VCONFKEY_MESSAGE_NETWORK_CS_ONLY</enumdata>
-      <enumdata val="0x03">VCONFKEY_MESSAGE_NETWORK_PS_PREFER</enumdata>
-      <enumdata val="0x04">VCONFKEY_MESSAGE_NETWORK_CS_PREFER</enumdata>
+      <enumdata value="0x01">VCONFKEY_MESSAGE_NETWORK_PS_ONLY</enumdata>
+      <enumdata value="0x02">VCONFKEY_MESSAGE_NETWORK_CS_ONLY</enumdata>
+      <enumdata value="0x03">VCONFKEY_MESSAGE_NETWORK_PS_PREFER</enumdata>
+      <enumdata value="0x04">VCONFKEY_MESSAGE_NETWORK_CS_PREFER</enumdata>
     </enumlist>
   </vconfkey>
 </vconfkeylists>

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vconfkeylists>
   <filedef name="__VCONF_INTERNAL_DESKTOP_MODE_KEYS_H__"/>
-  <vconfkey type="int32" name="db/desktop_mode/desktop_mode_status" value="0" headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/desktop_mode/desktop_mode_status" headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_DESKTOP_MODE_ENABLED_STATUS</header>
+	<val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
