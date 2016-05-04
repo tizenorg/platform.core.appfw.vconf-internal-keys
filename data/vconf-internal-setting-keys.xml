@@ -144,6 +144,7 @@
     <header>VCONFKEY_SETAPPL_CALL_RINGTONE_PATH_STR</header>
 	<val>/opt/share/settings/Ringtones/ringtone_sdk.mp3</val>
 	<val model="wearable">/usr/apps/org.tizen.watch-setting/shared/res/settings/Ringtones/Ringtone.ogg</val>
+	<val model="wearable/emulator">/usr/apps/org.tizen.watch-setting/shared/res/settings/Ringtones/Ringtone.ogg</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
