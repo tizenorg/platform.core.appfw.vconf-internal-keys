@@ -160,6 +160,7 @@
     <header>VCONFKEY_SETAPPL_CALL_RINGTONE_DEFAULT_PATH_STR</header>
 	<val>/opt/share/settings/Ringtones/ringtone_sdk.mp3</val>
 	<val model="wearable">/usr/apps/org.tizen.watch-setting/shared/res/settings/Ringtones/Ringtone.ogg</val>
+	<val model="wearable/emulator">/usr/apps/org.tizen.watch-setting/shared/res/settings/Ringtones/Ringtone.ogg</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
@@ -208,6 +209,7 @@
     <header>VCONFKEY_SETAPPL_NOTI_MSG_RINGTONE_PATH_STR</header>
 	<val>/opt/share/settings/Alerts/General notification_sdk.wav</val>
 	<val model="wearable">/usr/apps/org.tizen.watch-setting/shared/res/settings/Alerts/Notification.ogg</val>
+	<val model="wearable/emulator">/usr/apps/org.tizen.watch-setting/shared/res/settings/Alerts/Notification.ogg</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ msg-service is using this key. so DO NOT REMOVE. (sangkoo.kim@samsung.com) ]]></comment>
@@ -216,6 +218,7 @@
     <header>VCONFKEY_SETAPPL_NOTI_RINGTONE_DEFAULT_PATH_STR</header>
 	<val>/opt/share/settings/Alerts/General notification_sdk.wav</val>
 	<val model="wearable">/usr/apps/org.tizen.watch-setting/shared/res/settings/Alerts/General notification_sdk.wav</val>
+	<val model="wearable/emulator">/usr/apps/org.tizen.watch-setting/shared/res/settings/Alerts/Notification.ogg</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
