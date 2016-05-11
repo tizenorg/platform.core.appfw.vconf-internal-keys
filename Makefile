@@ -6,6 +6,7 @@
 all:init allcmd allhtml allheader vconf-internal-keys.h endproc
 
 allcmd: $(shell find . -name "*.xml" | sed 's/xml/sh/')
+#allcmd2: $(shell find . -name "*.xml" | sed 's/xml/sh2/')
 allheader: $(shell find . -name "*.xml" | sed 's/xml/h/')
 allhtml: $(shell find . -name "*.xml" | sed 's/xml/html/')
 #allwrapper: $(shell find . -name "*.xml" | sed 's/.xml/_wrapper.h/')
@@ -27,10 +28,10 @@ init:
 	@mkdir -p report
 	@mkdir -p scripts
 	@mkdir -p include
-	if [ -a ./scripts/all.sh ]; \
-	then \
-		rm ./scripts/all.sh; \
-	fi;
+#	if [ -a ./scripts/all.sh ]; \
+#	then \
+#		rm ./scripts/all.sh; \
+#	fi;
 
 %.html:%.xml
 	xsltproc $(xsltopt) test_report.xsl $< > $@
@@ -40,6 +41,14 @@ init:
 	xsltproc $(xsltopt) create_cmd.xsl $< | sed '/^$$/d' > $@
 	cat $@ >> ./scripts/all.sh
 	rm $@
+	xsltproc $(xsltopt) create_init_script.xsl $< | sed '/^$$/d' > $@
+	if [ -s $@ ]; then mv $@ ./scripts; fi
+
+
+#%.sh2:%.xml
+#	xsltproc $(xsltopt) create_init_script.xsl $< | sed '/^$$/d' > $@
+#	if [ -s $@ ]; then mv $@ ./scripts; fi
+
 
 %.h:%.xml
 	xsltproc $(xsltopt) create_header.xsl $< | sed '/^$$/d' > $@
@@ -72,7 +81,6 @@ clean:
 	@find . -name "*.h" | xargs rm
 
 endproc:
-	sed -i '1 i #!/bin/bash' ./scripts/all.sh
 	./remove_whitespace.sh
 
 #vconf-internal-keys.pc:vconf-internal-keys.pc.in

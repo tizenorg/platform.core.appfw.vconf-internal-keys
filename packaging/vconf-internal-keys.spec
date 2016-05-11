@@ -47,7 +47,7 @@ rm -rf %{buildroot}
 
 mkdir -p %{buildroot}
 mkdir -p %{buildroot}/opt/usr
-install -m 755 scripts/all.sh %{buildroot}/opt/usr
+install -m 755 scripts/*.sh %{buildroot}/opt/usr
 
 mkdir -p %{buildroot}/usr/include/vconf
 install -m 644 include/*.h %{buildroot}/usr/include/vconf
@@ -66,6 +66,16 @@ for file in ${filelist[@]} ; do
 		. $file
 		rm $file
 	fi
+done
+
+filelist=`find /opt/usr -name "vconf-internal-*.sh"`
+for file in $filelist
+do
+chmod a+x  $file
+#/bin/sh $file
+echo "running ---------------------------------------------------- $file"
+. $file
+rm $file
 done
 
 %postun -p /sbin/ldconfig
