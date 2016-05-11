@@ -130,6 +130,15 @@
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ setting - display - backlight time (value type : seconds) ]]></comment>
+	<script>
+<![CDATA[
+# VCONFKEY_SETAPPL_LCD_TIMEOUT_NORMAL initialization
+out=`vconftool get db/setting/lcd_backlight_normal | awk '{print $4}' | sed 's/,//g'`
+echo "-------------------------------------------------------------------------------------"
+echo "Backlight time :" $out
+echo "-------------------------------------------------------------------------------------"
+]]></script>
+
   </vconfkey>
   <vconfkey type="int32" name="db/setting/sound/call/ringtone_sound_volume" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_CALL_RINGTONE_SOUND_VOLUME_INT</header>
@@ -711,6 +720,18 @@
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
+	<script>
+<![CDATA[
+# VCONFKEY_SETAPPL_TIMEZONE_ID initialization
+out=`vconftool get db/setting/timezone_id | awk '{print $4}' | sed 's/,//g'`
+echo "-------------------------------------------------------------------------------------"
+echo $out
+rm -f /opt/etc/localtime
+ln -s /usr/share/zoneinfo/$out /opt/etc/localtime
+rm -f /etc/localtime
+ln -s /opt/etc/localtime /etc/localtime
+echo "-------------------------------------------------------------------------------------"
+]]></script>
   </vconfkey>
   <vconfkey type="string" name="db/setting/timezone" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_TIMEZONE_INT</header>
@@ -1442,4 +1463,12 @@
     <email/>
     <comment/>
   </vconfkey>
+  <vconfkey type="string" name="db/setting/helloworld"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+    <header>VCONFKEY_SETAPPL_HELLOWORLD</header>
+	<val>Hello World</val>
+    <creator>  </creator>
+    <email></email>
+    <comment></comment>
+  </vconfkey>
+
 </vconfkeylists>
