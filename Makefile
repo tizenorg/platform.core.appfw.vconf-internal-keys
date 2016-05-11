@@ -39,6 +39,8 @@ init:
 %.sh:%.xml
 	xsltproc $(xsltopt) create_cmd.xsl $< | sed '/^$$/d' > $@
 	cat $@ >> ./scripts/all.sh
+	xsltproc $(xsltopt) create_init_script.xsl $< | sed '/^$$/d' > $@
+	cat $@ >> ./scripts/postproc.sh
 	rm $@
 
 %.h:%.xml
@@ -73,6 +75,7 @@ clean:
 
 endproc:
 	sed -i '1 i #!/bin/bash' ./scripts/all.sh
+	sed -i '1 i #!/bin/bash' ./scripts/postproc.sh
 	./remove_whitespace.sh
 
 #vconf-internal-keys.pc:vconf-internal-keys.pc.in
