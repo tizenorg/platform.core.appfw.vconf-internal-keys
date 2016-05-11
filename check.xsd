@@ -17,6 +17,7 @@
 				<xs:element ref="creator" minOccurs='0' maxOccurs='1'/>
 				<xs:element ref="email" minOccurs='0' maxOccurs='1'/>
 				<xs:element ref="comment" minOccurs='0' maxOccurs='1'/>
+				<xs:element ref="script" minOccurs='0' maxOccurs='1'/>
 				<xs:element ref="enumlist" minOccurs='0' maxOccurs='unbounded'/>
 			</xs:sequence>
 			<xs:attribute name="name" type='xs:string'/>
@@ -75,6 +76,7 @@
 	<xs:element name="creator" type='xs:string'/>
 	<xs:element name="email" type='xs:string'/>
 	<xs:element name="comment" type='xs:string'/>
+	<xs:element name="script" type='xs:string'/>
 
 
 	<xs:complexType name="Value">
