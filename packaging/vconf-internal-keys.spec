@@ -48,6 +48,7 @@ rm -rf %{buildroot}
 mkdir -p %{buildroot}
 mkdir -p %{buildroot}/opt/usr
 install -m 755 scripts/all.sh %{buildroot}/opt/usr
+install -m 755 scripts/postproc.sh %{buildroot}/opt/usr
 
 mkdir -p %{buildroot}/usr/include/vconf
 install -m 644 include/*.h %{buildroot}/usr/include/vconf
@@ -57,7 +58,7 @@ install -m 644 include/*.h %{buildroot}/usr/include/vconf
 %post
 /sbin/ldconfig
 
-filelist=("/opt/usr/all.sh")
+filelist=("/opt/usr/all.sh /opt/usr/postproc.sh")
 for file in ${filelist[@]} ; do
 	echo "running ---------------------------------------------------- $file"
 	if [ -e $file ]
