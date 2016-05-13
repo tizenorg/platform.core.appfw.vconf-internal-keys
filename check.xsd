@@ -24,12 +24,9 @@
 
 			<xs:attribute name="headeronly" type='xs:string'/>
 
-			<xs:attribute name="gid" type='xs:string'/>
-			<xs:attribute name="uid" type='xs:string'/>
 			<xs:attribute name="layer" type='xs:string'/>
 			<xs:attribute name="readPriv" type='xs:string'/>
 			<xs:attribute name="writePriv" type='xs:string'/>
-			<xs:attribute name="private_spec" type='xs:string'/>
 			<xs:attribute name="label" type='xs:string'/>
 		</xs:complexType>
 	</xs:element>

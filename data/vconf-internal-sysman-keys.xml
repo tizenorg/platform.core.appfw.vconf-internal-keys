@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vconfkeylists>
   <filedef name="__VCONF_INTERNAL_SYSMAN_KEYS_H__"/>
-  <vconfkey type="int32" name="memory/sysman/added_usb_storage"  gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/sysman/added_usb_storage" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SYSMAN_ADDED_USB_STORAGE</header>
-	<val>0</val>
+    <val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/sysman/removed_usb_storage"  gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/sysman/removed_usb_storage" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SYSMAN_REMOVED_USB_STORAGE</header>
-	<val>0</val>
+    <val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/sysman/charger_status"  gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/sysman/charger_status" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SYSMAN_CHARGER_STATUS</header>
-	<val>0</val>
+    <val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[public vconf key (runtime-info)]]></comment>
@@ -26,16 +26,16 @@
       <enumdata>VCONFKEY_SYSMAN_CHARGER_CONNECTED</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/sysman/charge_now"  gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/sysman/charge_now" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SYSMAN_BATTERY_CHARGE_NOW</header>
-	<val>0</val>
+    <val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[public vconf key (device)]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/sysman/battery_status_low"  gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/sysman/battery_status_low" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SYSMAN_BATTERY_STATUS_LOW</header>
-	<val>-1</val>
+    <val>-1</val>
     <creator/>
     <email/>
     <comment><![CDATA[public vconf key (device)]]></comment>
@@ -48,16 +48,16 @@
       <enumdata>VCONFKEY_SYSMAN_BAT_REAL_POWER_OFF</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/sysman/battery_capacity"  gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/sysman/battery_capacity" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SYSMAN_BATTERY_CAPACITY</header>
-	<val>-1</val>
+    <val>-1</val>
     <creator/>
     <email/>
     <comment><![CDATA[public vconf key (device)]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/sysman/battery_level_status"  gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/sysman/battery_level_status" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SYSMAN_BATTERY_LEVEL_STATUS</header>
-	<val>-1</val>
+    <val>-1</val>
     <creator/>
     <email/>
     <comment><![CDATA[public vconf key (device)]]></comment>
@@ -69,9 +69,9 @@
       <enumdata>VCONFKEY_SYSMAN_BAT_LEVEL_FULL    </enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/sysman/usb_status"  gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/sysman/usb_status" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SYSMAN_USB_STATUS</header>
-	<val>0</val>
+    <val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
@@ -81,9 +81,9 @@
       <enumdata>VCONFKEY_SYSMAN_USB_AVAILABLE</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/sysman/usbhost_status"  gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/sysman/usbhost_status" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SYSMAN_USB_HOST_STATUS</header>
-	<val>-1</val>
+    <val>-1</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
@@ -93,9 +93,9 @@
       <enumdata>VCONFKEY_SYSMAN_USB_HOST_OVERCURRENT</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/sysman/earjack"  gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/sysman/earjack" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SYSMAN_EARJACK</header>
-	<val>-1</val>
+    <val>-1</val>
     <creator/>
     <email/>
     <comment><![CDATA[public vconf key (runtime-info)]]></comment>
@@ -106,23 +106,23 @@
       <enumdata value="0x10">VCONFKEY_SYSMAN_EARJACK_TVOUT</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/sysman/earjack_key"  gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/sysman/earjack_key" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SYSMAN_EARJACKKEY</header>
-	<val>0</val>
+    <val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/sysman/cradle_status"  gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/sysman/cradle_status" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SYSMAN_CRADLE_STATUS</header>
-	<val>0</val>
+    <val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/sysman/low_memory"  gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/sysman/low_memory" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SYSMAN_LOW_MEMORY</header>
-	<val>1</val>
+    <val>1</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
@@ -132,9 +132,9 @@
       <enumdata value="0x04">VCONFKEY_SYSMAN_LOW_MEMORY_HARD_WARNING</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/sysman/sliding_keyboard"  gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/sysman/sliding_keyboard" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SYSMAN_SLIDING_KEYBOARD</header>
-	<val>-1</val>
+    <val>-1</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
@@ -144,9 +144,9 @@
       <enumdata>VCONFKEY_SYSMAN_SLIDING_KEYBOAED_AVAILABLE</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/sysman/mmc"  gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/sysman/mmc" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SYSMAN_MMC_STATUS</header>
-	<val>0</val>
+    <val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[public vconf key (libstorage)]]></comment>
@@ -156,9 +156,9 @@
       <enumdata>VCONFKEY_SYSMAN_MMC_INSERTED_NOT_MOUNTED</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/sysman/mmc_mount"  gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/sysman/mmc_mount" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SYSMAN_MMC_MOUNT</header>
-	<val>-1</val>
+    <val>-1</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
@@ -168,9 +168,9 @@
       <enumdata>VCONFKEY_SYSMAN_MMC_MOUNT_FAILED</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/sysman/mmc_unmount"  gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/sysman/mmc_unmount" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SYSMAN_MMC_UNMOUNT</header>
-	<val>-1</val>
+    <val>-1</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
@@ -179,9 +179,9 @@
       <enumdata>VCONFKEY_SYSMAN_MMC_UNMOUNT_FAILED</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/sysman/mmc_format"  gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/sysman/mmc_format" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SYSMAN_MMC_FORMAT</header>
-	<val>-1</val>
+    <val>-1</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
@@ -190,9 +190,9 @@
       <enumdata>VCONFKEY_SYSMAN_MMC_FORMAT_FAILED</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/sysman/mmc_err_status"  gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/sysman/mmc_err_status" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SYSMAN_MMC_ERR_STATUS</header>
-	<val>0</val>
+    <val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
@@ -214,9 +214,9 @@
       <enumdata value="40">VCONFKEY_SYSMAN_MMC_ELOOP</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="db/sysman/mmc_dev_changed"  gid="6514" uid="" private_spec="true" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/sysman/mmc_dev_changed" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SYSMAN_MMC_DEVICE_CHANGED</header>
-	<val>0</val>
+    <val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
@@ -225,9 +225,9 @@
       <enumdata>VCONFKEY_SYSMAN_MMC_CHANGED</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/sysman/hdmi"  gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/sysman/hdmi" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SYSMAN_HDMI</header>
-	<val>0</val>
+    <val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
@@ -236,9 +236,9 @@
       <enumdata>VCONFKEY_SYSMAN_HDMI_CONNECTED</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/sysman/stime_changed"  gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/sysman/stime_changed" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SYSMAN_STIME</header>
-	<val>0</val>
+    <val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
@@ -247,9 +247,9 @@
       <enumdata>VCONFKEY_SYSMAN_STIME_CHANGED</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/sysman/power_off"  gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/sysman/power_off" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SYSMAN_POWER_OFF_STATUS</header>
-	<val>0</val>
+    <val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
@@ -260,9 +260,9 @@
       <enumdata value="3">VCONFKEY_SYSMAN_POWER_OFF_RESTART</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/sysman/mmc_format_progress"  gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/sysman/mmc_format_progress" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SYSMAN_MMC_FORMAT_PROGRESS</header>
-	<val>0</val>
+    <val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>

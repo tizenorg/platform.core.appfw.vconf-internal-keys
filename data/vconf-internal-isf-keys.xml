@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vconfkeylists>
   <filedef name="__VCONF_INTERNAL_ISF_KEYS_H__"/>
-  <vconfkey type="string" name="db/isf/input_language"  gid="6514" uid="" private_spec="true" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="string" name="db/isf/input_language" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_ISF_INPUT_LANGUAGE</header>
-	<val>en_US</val>
+    <val>en_US</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="db/isf/input_keyboard_uuid"  gid="6514" uid="" private_spec="true" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="string" name="db/isf/input_keyboard_uuid" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_ISF_ACTIVE_KEYBOARD_UUID</header>
-	<val>ise-default</val>
+    <val>ise-default</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/isf/input_panel_state"  gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/isf/input_panel_state" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_ISF_INPUT_PANEL_STATE</header>
-	<val>0</val>
+    <val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
@@ -28,7 +28,7 @@
       <enumdata>VCONFKEY_ISF_INPUT_PANEL_STATE_WILL_SHOW</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="bool" name="memory/isf/hw_keyboard_input_detected" gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="memory/isf/hw_keyboard_input_detected" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_ISF_HW_KEYBOARD_INPUT_DETECTED</header>
     <val>0</val>
     <creator>Jihoon Kim</creator>

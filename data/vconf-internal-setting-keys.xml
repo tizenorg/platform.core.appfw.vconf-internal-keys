@@ -1,66 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vconfkeylists>
   <filedef name="__VCONF_INTERNAL_SETTING_KEYS_H__"/>
-  <vconfkey type="int32" name="db/setting"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/setting" headeronly="true" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_SETAPPL_PREFIX</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ prefix string ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/setting"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="memory/setting" headeronly="true" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_SETAPPL_MEM_PREFIX</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="db/setting/sound/call/vibration_pattern_path"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="string" name="db/setting/sound/call/vibration_pattern_path" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_CALL_VIBRATION_PATTERN_STR</header>
-	<val>/usr/apps/org.tizen.setting/shared/res/settings/Vibrations/haptic/default/Ticktock.ivt</val>
-	<val model="wearable">/usr/apps/org.tizen.watch-setting/shared/res/settings/Vibrations/haptic/default/Ticktock.ivt</val>
+    <val>/usr/apps/org.tizen.setting/shared/res/settings/Vibrations/haptic/default/Ticktock.ivt</val>
+    <val model="wearable">/usr/apps/org.tizen.watch-setting/shared/res/settings/Vibrations/haptic/default/Ticktock.ivt</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/sound/touch_sounds"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey type="bool" name="db/setting/sound/touch_sounds" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_SETAPPL_TOUCH_SOUNDS_BOOL</header>
-	<val>1</val>
+    <val>1</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/sound/button_sounds"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/sound/button_sounds" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_BUTTON_SOUNDS_BOOL</header>
-	<val>1</val>
+    <val>1</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/sound/sound_lock"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey type="bool" name="db/setting/sound/sound_lock" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_SETAPPL_SOUND_LOCK_BOOL</header>
-	<val>1</val>
+    <val>1</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/region_automatic"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey type="bool" name="db/setting/region_automatic" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_SETAPPL_REGION_AUTOMATIC_BOOL</header>
-	<val>1</val>
+    <val>1</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/sound/media/sound_volume"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/setting/sound/media/sound_volume" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_MEDIA_SOUND_VOLUME_INT</header>
-	<val>9</val>
+    <val>9</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]>it's for wearable project</comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/Brightness"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/setting/Brightness" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_LCD_BRIGHTNESS</header>
-	<val>100</val>
+    <val>100</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
@@ -77,37 +77,37 @@
       <enumdata>SETTING_BRIGHTNESS_LEVEL10</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/lcd_brightness_emergency"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/setting/lcd_brightness_emergency" headeronly="true" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_SETAPPL_EMERGENCY_LCD_BRIGHTNESS_INT</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/lcd_timeout_emergency"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/setting/lcd_timeout_emergency" headeronly="true" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_SETAPPL_EMERGENCY_LCD_TIMEOUT_INT</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/automatic_brightness_level"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/setting/automatic_brightness_level" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_LCD_AUTOMATIC_BRIGHTNESS</header>
-	<val>50</val>
+    <val>50</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/auto_display_adjustment"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/auto_display_adjustment" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_LCD_AUTO_DISPLAY_ADJUSTMENT</header>
-	<val>1</val>
+    <val>1</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/screen_mode"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/setting/screen_mode" headeronly="true" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_SETAPPL_SCREEN_MODE_INT</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
@@ -119,62 +119,60 @@
       <enumdata>SETTING_SCREEN_MODE_MAX</enumdata>
     </enumlist>
   </vconfkey>
-
-  <vconfkey type="int32" name="db/setting/lcd_backlight_normal" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey type="int32" name="db/setting/lcd_backlight_normal" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_SETAPPL_LCD_TIMEOUT_NORMAL</header>
-	<val>30</val>
-	<val model="wearable">30</val>
-	<val model="wearable/emulator">300</val>
-	<val model="mobile/emulator">300</val>
-	<val model="wearable-2">60</val>
-	<val model="wearable-3">90</val>
+    <val>30</val>
+    <val model="wearable">30</val>
+    <val model="wearable/emulator">300</val>
+    <val model="mobile/emulator">300</val>
+    <val model="wearable-2">60</val>
+    <val model="wearable-3">90</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ setting - display - backlight time (value type : seconds) ]]></comment>
   </vconfkey>
-
-  <vconfkey type="int32" name="db/setting/sound/call/ringtone_sound_volume"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/setting/sound/call/ringtone_sound_volume" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_CALL_RINGTONE_SOUND_VOLUME_INT</header>
-	<val>11</val>
+    <val>11</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="db/setting/sound/call/ringtone_path" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey type="string" name="db/setting/sound/call/ringtone_path" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_SETAPPL_CALL_RINGTONE_PATH_STR</header>
-	<val>/opt/share/settings/Ringtones/ringtone_sdk.mp3</val>
-	<val model="wearable">/usr/apps/org.tizen.watch-setting/shared/res/settings/Ringtones/Ringtone.ogg</val>
-	<val model="wearable/emulator">/usr/apps/org.tizen.watch-setting/shared/res/settings/Ringtones/Ringtone.ogg</val>
+    <val>/opt/share/settings/Ringtones/ringtone_sdk.mp3</val>
+    <val model="wearable">/usr/apps/org.tizen.watch-setting/shared/res/settings/Ringtones/Ringtone.ogg</val>
+    <val model="wearable/emulator">/usr/apps/org.tizen.watch-setting/shared/res/settings/Ringtones/Ringtone.ogg</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="db/setting/sound/call/ringtone_path_with_time"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="string" name="db/setting/sound/call/ringtone_path_with_time" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_CALL_RINGTONE_PATH_WITH_RECOMMENDATION_TIME_STR</header>
-	<val></val>
+    <val/>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="db/setting/sound/call/ringtone_default_path"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey type="string" name="db/setting/sound/call/ringtone_default_path" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_SETAPPL_CALL_RINGTONE_DEFAULT_PATH_STR</header>
-	<val>/opt/share/settings/Ringtones/ringtone_sdk.mp3</val>
-	<val model="wearable">/usr/apps/org.tizen.watch-setting/shared/res/settings/Ringtones/Ringtone.ogg</val>
-	<val model="wearable/emulator">/usr/apps/org.tizen.watch-setting/shared/res/settings/Ringtones/Ringtone.ogg</val>
+    <val>/opt/share/settings/Ringtones/ringtone_sdk.mp3</val>
+    <val model="wearable">/usr/apps/org.tizen.watch-setting/shared/res/settings/Ringtones/Ringtone.ogg</val>
+    <val model="wearable/emulator">/usr/apps/org.tizen.watch-setting/shared/res/settings/Ringtones/Ringtone.ogg</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/sound/call/vibration_level"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/setting/sound/call/vibration_level" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_CALL_VIBRATION_LEVEL_INT</header>
-	<val>5</val>
+    <val>5</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/sound/call/vibration_type"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/setting/sound/call/vibration_type" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_CALL_VIBRATION_PATTERN_INT</header>
-	<val>2</val>
+    <val>2</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
@@ -192,9 +190,9 @@
       <enumdata>SETTING_CALL_ALERT_VIB_MAX</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/sound/noti/msg_alert_rep_type"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey type="int32" name="db/setting/sound/noti/msg_alert_rep_type" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_SETAPPL_NOTI_MSG_ALERT_REP_TYPE_INT</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
@@ -205,34 +203,34 @@
       <enumdata>SETTING_SOUND_REP_EVERY_10_MIN</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="string" name="db/setting/sound/noti/msg_ringtone_path" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey type="string" name="db/setting/sound/noti/msg_ringtone_path" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_SETAPPL_NOTI_MSG_RINGTONE_PATH_STR</header>
-	<val>/opt/share/settings/Alerts/General notification_sdk.wav</val>
-	<val model="wearable">/usr/apps/org.tizen.watch-setting/shared/res/settings/Alerts/Notification.ogg</val>
-	<val model="wearable/emulator">/usr/apps/org.tizen.watch-setting/shared/res/settings/Alerts/Notification.ogg</val>
+    <val>/opt/share/settings/Alerts/General notification_sdk.wav</val>
+    <val model="wearable">/usr/apps/org.tizen.watch-setting/shared/res/settings/Alerts/Notification.ogg</val>
+    <val model="wearable/emulator">/usr/apps/org.tizen.watch-setting/shared/res/settings/Alerts/Notification.ogg</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ msg-service is using this key. so DO NOT REMOVE. (sangkoo.kim@samsung.com) ]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="db/setting/sound/noti/ringtone_default_path" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey type="string" name="db/setting/sound/noti/ringtone_default_path" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_SETAPPL_NOTI_RINGTONE_DEFAULT_PATH_STR</header>
-	<val>/opt/share/settings/Alerts/General notification_sdk.wav</val>
-	<val model="wearable">/usr/apps/org.tizen.watch-setting/shared/res/settings/Alerts/General notification_sdk.wav</val>
-	<val model="wearable/emulator">/usr/apps/org.tizen.watch-setting/shared/res/settings/Alerts/Notification.ogg</val>
+    <val>/opt/share/settings/Alerts/General notification_sdk.wav</val>
+    <val model="wearable">/usr/apps/org.tizen.watch-setting/shared/res/settings/Alerts/General notification_sdk.wav</val>
+    <val model="wearable/emulator">/usr/apps/org.tizen.watch-setting/shared/res/settings/Alerts/Notification.ogg</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/sound/noti/vibration_level"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/setting/sound/noti/vibration_level" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_NOTI_VIBRATION_LEVEL_INT</header>
-	<val>5</val>
+    <val>5</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/sound/touch_feedback/vibration_level"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/setting/sound/touch_feedback/vibration_level" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_TOUCH_FEEDBACK_VIBRATION_LEVEL_INT</header>
-	<val>3</val>
+    <val>3</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
@@ -245,16 +243,16 @@
       <enumdata>SETTING_VIB_FEEDBACK_LEVEL5</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/setting/usb_in_mode_change"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/setting/usb_in_mode_change" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_USB_IN_MODE_CHANGE</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/setting/usb_mode"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/setting/usb_mode" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_USB_MODE_INT</header>
-	<val>-1</val>
+    <val>-1</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
@@ -268,16 +266,16 @@
       <enumdata value="5">SETTING_USB_ACCESSORY_MODE</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/debug_mode"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey type="bool" name="db/setting/debug_mode" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_SETAPPL_USB_DEBUG_MODE_BOOL</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/usb_connection_mode"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/setting/usb_connection_mode" headeronly="true" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_SETAPPL_USB_CONNECTION_MODE_INT</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
@@ -286,9 +284,9 @@
       <enumdata>SETTING_USB_CONNECTION_MODE_USB_DEBUGGING</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/select_network"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/setting/select_network" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_SELECT_NETWORK_INT</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
@@ -298,9 +296,9 @@
       <enumdata>SETTING_SELECT_NETWORK_MAX</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/network_mode"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/setting/network_mode" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_NETWORK_MODE_INT</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
@@ -312,44 +310,44 @@
       <enumdata>SETTING_NETWORK_MODE_MAX</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/power_on_lock"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/power_on_lock" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_STATE_POWER_ON_LOCK_BOOL</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/phone_lock_attempts_left"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/setting/phone_lock_attempts_left" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_PHONE_LOCK_ATTEMPTS_LEFT_INT</header>
-	<val>5</val>
+    <val>5</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="db/setting/phone_lock_timestamp"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="string" name="db/setting/phone_lock_timestamp" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_PHONE_LOCK_TIMESTAMP_STR</header>
-	<val></val>
+    <val/>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="db/setting/sim_lock_timestamp"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="string" name="db/setting/sim_lock_timestamp" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_SIM_LOCK_TIMESTAMP_STR</header>
-	<val></val>
+    <val/>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/simple_password"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/simple_password" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_STATE_SIMPLE_PASSWORD_BOOL</header>
-	<val>1</val>
+    <val>1</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/screen_lock_type"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey type="int32" name="db/setting/screen_lock_type" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_SETAPPL_SCREEN_LOCK_TYPE_INT</header>
-	<val>1</val>
+    <val>1</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
@@ -366,16 +364,16 @@
       <enumdata>SETTING_SCREEN_LOCK_TYPE_MAX</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="string" name="db/setting/3rd_lock_pkg_name"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey type="string" name="db/setting/3rd_lock_pkg_name" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_SETAPPL_3RD_LOCK_PKG_NAME_STR</header>
-	<val>org.tizen.lockscreen</val>
+    <val>org.tizen.lockscreen</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/font_size"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/setting/font_size" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_FONT_SIZE_INT</header>
-	<val>1</val>
+    <val>1</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
@@ -386,16 +384,16 @@
       <enumdata>SETTING_FONT_SIZE_MAX</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/font_type"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/setting/font_type" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_FONT_TYPE_INT</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/brightness_automatic"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/setting/brightness_automatic" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_BRIGHTNESS_AUTOMATIC_INT</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
@@ -405,16 +403,16 @@
       <enumdata>SETTING_BRIGHTNESS_AUTOMATIC_PAUSE</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/automatic_time_update"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/automatic_time_update" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_STATE_AUTOMATIC_TIME_UPDATE_BOOL</header>
-	<val>1</val>
+    <val>1</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/date_format"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/setting/date_format" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_DATE_FORMAT_INT</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
@@ -426,16 +424,16 @@
       <enumdata>SETTING_DATE_FORMAT_MAX</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="string" name="db/setting/cityname_id"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="string" name="db/setting/cityname_id" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_CITYNAME_INDEX_INT</header>
-	<val>Seoul</val>
+    <val>Seoul</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/weekofday_format"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/setting/weekofday_format" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_WEEKOFDAY_FORMAT_INT</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
@@ -450,9 +448,9 @@
       <enumdata>SETTING_WEEKOFDAY_FORMAT_MAX</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/lang"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/setting/lang" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_LANG_INT</header>
-	<val>2</val>
+    <val>2</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
@@ -476,58 +474,58 @@
       <enumdata>SETTING_LANG_MAX</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/accessibility/font_size"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey type="int32" name="db/setting/accessibility/font_size" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_SETAPPL_ACCESSIBILITY_FONT_SIZE</header>
-	<val>1</val>
+    <val>1</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="db/setting/accessibility/font_name"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey type="string" name="db/setting/accessibility/font_name" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_SETAPPL_ACCESSIBILITY_FONT_NAME</header>
-	<val>HelveticaNeue</val>
+    <val>HelveticaNeue</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="memory/setting/accessibility/torch_light"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="memory/setting/accessibility/torch_light" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_ACCESSIBILITY_TORCH_LIGHT</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/accessibility/rapid_key_input"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/accessibility/rapid_key_input" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_ACCESSIBILITY_RAPID_KEY_INPUT</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/accessibility/turn_off_all_sounds"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/accessibility/turn_off_all_sounds" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_ACCESSIBILITY_TURN_OFF_ALL_SOUNDS</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/accessibility/led_notify"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/accessibility/led_notify" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_ACCESSIBILITY_LED_NOTIFY</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/accessibility/lock_time"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/setting/accessibility/lock_time" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_ACCESSIBILITY_LOCK_TIME_INT</header>
-	<val>5</val>
+    <val>5</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/accessibility/power_key_hold"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/setting/accessibility/power_key_hold" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_ACCESSIBILITY_POWER_KEY_HOLD</header>
-	<val>1</val>
+    <val>1</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
@@ -543,23 +541,23 @@
       <enumdata>SETTING_POWERKEY_SHORTCUT_MAX</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/accessibility/easy_touch_mode"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/accessibility/easy_touch_mode" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_EASY_TOUCH_MODE_BOOL</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/accessibility/tts"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/accessibility/tts" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_ACCESSIBILITY_TTS</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/pwrsv/custom_mode/backlight/time"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey type="int32" name="db/setting/pwrsv/custom_mode/backlight/time" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_SETAPPL_PWRSV_CUSTMODE_BLTIME</header>
-	<val>15</val>
+    <val>15</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
@@ -573,74 +571,74 @@
       <enumdata>SETTING_BACKLIGHT_TIME_MAX</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/pwrsv/custom_mode/cpu"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey type="bool" name="db/setting/pwrsv/custom_mode/cpu" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_SETAPPL_PWRSV_CUSTMODE_CPU</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/ticker_noti/display_content/messages"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/setting/ticker_noti/display_content/messages" headeronly="true" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_TICKER_NOTI_DISPLAY_CONTENT_MESSASGES</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/ticker_noti/display_content/email"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/setting/ticker_noti/display_content/email" headeronly="true" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_TICKER_NOTI_DISPLAY_CONTENT_EMAIL</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/ticker_noti/display_content/im"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/setting/ticker_noti/display_content/im" headeronly="true" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_TICKER_NOTI_DISPLAY_CONTENT_IM</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/ticker_noti/badge/email"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/setting/ticker_noti/badge/email" headeronly="true" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_TICKER_NOTI_BADGE_EMAIL</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="db/menu_widget/language"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey type="string" name="db/menu_widget/language" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_LANGSET</header>
-	<val>en_US.UTF-8</val>
+    <val>en_US.UTF-8</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="db/menu_widget/regionformat"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey type="string" name="db/menu_widget/regionformat" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_REGIONFORMAT</header>
-	<val>en_US.UTF-8</val>
+    <val>en_US.UTF-8</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="db/setting/menuscreen/package_name"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="string" name="db/setting/menuscreen/package_name" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_SELECTED_PACKAGE_NAME</header>
-	<val>org.tizen.menu-screen</val>
-	<val model="mobile">org.tizen.homescreen-efl</val>
-	<val model="mobile/emulator">org.tizen.homescreen-efl</val>
+    <val>org.tizen.menu-screen</val>
+    <val model="mobile">org.tizen.homescreen-efl</val>
+    <val model="mobile/emulator">org.tizen.homescreen-efl</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/homescreen/easymode"  headeronly="true" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/setting/homescreen/easymode" headeronly="true" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_HOMESCREEN_EASYMODE_BOOL</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/roaming_network"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/setting/roaming_network" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_ROAMING_NETWORK_INT</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
@@ -651,100 +649,100 @@
       <enumdata>SETTING_ROAM_NET_MAX</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/default_memory/install_applications"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/setting/default_memory/install_applications" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_DEFAULT_MEM_INSTALL_APPLICATIONS_INT</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/default_memory/wifi_direct"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/setting/default_memory/wifi_direct" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_DEFAULT_MEM_WIFI_DIRECT_INT</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/default_memory/bluetooth"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/setting/default_memory/bluetooth" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_DEFAULT_MEM_BLUETOOTH_INT</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/battery_percentage"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/battery_percentage" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_BATTERY_PERCENTAGE_BOOL</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/accessibility/high_contrast"  headeronly="true" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/accessibility/high_contrast" headeronly="true" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_ACCESSIBILITY_HIGH_CONTRAST</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/accessibility/screen_zoom"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/accessibility/screen_zoom" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_ACCESSIBILITY_SCREEN_ZOOM</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/accessibility/screen_reader"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey type="int32" name="db/setting/accessibility/screen_reader" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_SETAPPL_ACCESSIBILITY_SCREEN_READER</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/accessibility/screen_reader/description" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey type="bool" name="db/setting/accessibility/screen_reader/description" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_SETAPPL_ACCESSIBILITY_SCREEN_READER_DESCRIPTION</header>
-	<val>1</val>
+    <val>1</val>
     <creator>Subodh Kumar</creator>
     <email>s7158.kumar@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="db/setting/timezone_id" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="string" name="db/setting/timezone_id" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_TIMEZONE_ID</header>
-	<val>Asia/Seoul</val>
+    <val>Asia/Seoul</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="db/setting/timezone"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="string" name="db/setting/timezone" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_TIMEZONE_INT</header>
-	<val>+9:00</val>
+    <val>+9:00</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/rotate_lock"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/rotate_lock" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_ROTATE_LOCK_BOOL</header>
-	<val>1</val>
+    <val>1</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/auto_rotate_screen"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey type="bool" name="db/setting/auto_rotate_screen" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_SETAPPL_AUTO_ROTATE_SCREEN_BOOL</header>
-	<val>1</val>
+    <val>1</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/accessibility/mono_audio"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/accessibility/mono_audio" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_ACCESSIBILITY_MONO_AUDIO</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/menu_widget/regionformat_time1224"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey type="int32" name="db/menu_widget/regionformat_time1224" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_REGIONFORMAT_TIME1224</header>
-	<val>1</val>
+    <val>1</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
@@ -753,37 +751,37 @@
       <enumdata>VCONFKEY_TIME_FORMAT_24</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/sim_lock_attempts_left"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/setting/sim_lock_attempts_left" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_SIM_LOCK_ATTEMPTS_LEFT_INT</header>
-	<val>5</val>
+    <val>5</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="db/setting/device_name"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey type="string" name="db/setting/device_name" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_SETAPPL_DEVICE_NAME_STR</header>
-	<val>Tizen</val>
+    <val>Tizen</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/sound/sound_on"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey type="bool" name="db/setting/sound/sound_on" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_SETAPPL_SOUND_STATUS_BOOL</header>
-	<val>1</val>
+    <val>1</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/sound/vibration_on"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey type="bool" name="db/setting/sound/vibration_on" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_SETAPPL_VIBRATION_STATUS_BOOL</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/sound/sound_mode"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/setting/sound/sound_mode" headeronly="true" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_SETAPPL_SOUND_MODE</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[
@@ -796,143 +794,143 @@
       <enumdata>SETTING_SOUNDMODE_MAX</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/sound/vibrate_when_ringing"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/sound/vibrate_when_ringing" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_VIBRATE_WHEN_RINGING_BOOL</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/sound/vibrate_when_notification"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/sound/vibrate_when_notification" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_VIBRATE_WHEN_NOTIFICATION_BOOL</header>
-	<val>1</val>
+    <val>1</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/sound/haptic_feedback_on"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/sound/haptic_feedback_on" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_HAPTIC_FEEDBACK_STATUS_BOOL</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/data_roaming"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/data_roaming" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_STATE_DATA_ROAMING_BOOL</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/motion_active"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey type="bool" name="db/setting/motion_active" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_SETAPPL_MOTION_ACTIVATION</header>
-	<val>1</val>
+    <val>1</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/use_tilt"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/use_tilt" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_USE_TILT</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/tilt_sensitivity"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/setting/tilt_sensitivity" headeronly="true" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_SETAPPL_TILT_SENSITIVITY</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/use_panning"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/use_panning" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_USE_PANNING</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/use_panning_browser"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/use_panning_browser" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_USE_PANNING_BROWSER</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/panning_sensitivity"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/setting/panning_sensitivity" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_PANNING_SENSITIVITY</header>
-	<val>3</val>
+    <val>3</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/panning_browser_sensitivity"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey type="int32" name="db/setting/panning_browser_sensitivity" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_SETAPPL_PANNING_BROWSER_SENSITIVITY</header>
-	<val>3</val>
+    <val>3</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/use_double_tap"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/use_double_tap" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_USE_DOUBLE_TAP</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/use_turn_over"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/use_turn_over" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_USE_TURN_OVER</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/use_pick_up"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/use_pick_up" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_USE_PICK_UP</header>
-	<val>1</val>
+    <val>1</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/use_pick_up_call"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/use_pick_up_call" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_USE_PICK_UP_CALL</header>
-	<val>1</val>
+    <val>1</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/use_shake"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/use_shake" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_USE_SHAKE</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/use_mute_pause"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/use_mute_pause" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_USE_MUTE_PAUSE</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="db/menu_widget/bgset"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey type="string" name="db/menu_widget/bgset" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_BGSET</header>
-	<val>/opt/share/settings/Wallpapers/Home_default.jpg</val>
-	<val model="wearable">/usr/apps/org.tizen.watch-setting/shared/res/settings/Wallpapers/Home_default.jpg</val>
+    <val>/opt/share/settings/Wallpapers/Home_default.jpg</val>
+    <val model="wearable">/usr/apps/org.tizen.watch-setting/shared/res/settings/Wallpapers/Home_default.jpg</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/devoption/bgprocess"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/setting/devoption/bgprocess" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_DEVOPTION_BGPROCESS</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/default_rendering_engine"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/setting/default_rendering_engine" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_DEFAULT_RENDERING_ENGINE_TYPE_INT</header>
-	<val>1</val>
+    <val>1</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
@@ -942,114 +940,114 @@
       <enumdata>SETTING_RENDERING_ENGINE_MAX</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/data_limit"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/setting/data_limit" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_DATA_LIMIT_INT</header>
-	<val>1</val>
+    <val>1</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/select_network_act"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/setting/select_network_act" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_SELECT_OLD_NT_ACT</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/lang_automatic"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/lang_automatic" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_LANG_AUTOMATIC_BOOL</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/data_usage_cycle"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/setting/data_usage_cycle" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_DATA_USAGE_CYCLE_INT</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/data_usage_roaming_status"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/data_usage_roaming_status" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_DATA_USAGE_ROAMING_STATUS</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/set_data_usage_limit"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/set_data_usage_limit" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_SET_DATA_USAGE_LIMIT_BOOL</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="db/setting/accessibility/taphold_delay"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey type="string" name="db/setting/accessibility/taphold_delay" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_SETAPPL_ACCESSIBILITY_TAP_HOLD_DELAY_STR</header>
-	<val>IDS_COM_POP_SHORT</val>
+    <val>IDS_COM_POP_SHORT</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/accessibility/sound_balance"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/setting/accessibility/sound_balance" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_SOUND_BALANCE_INT</header>
-	<val>50</val>
+    <val>50</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="db/setting/selected_num"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="string" name="db/setting/selected_num" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_SELECTED_NUM</header>
-	<val></val>
+    <val/>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="db/setting/screenmode/selected_name"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="string" name="db/setting/screenmode/selected_name" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_SCREENMODE_SELNAME</header>
-	<val>Dynamic</val>
+    <val>Dynamic</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/lcd_timeout_normal_backup"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/setting/lcd_timeout_normal_backup" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_LCD_TIMEOUT_NORMAL_BACKUP</header>
-	<val>30</val>
+    <val>30</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/led_indicator/charging"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/led_indicator/charging" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_LED_INDICATOR_CHARGING</header>
-	<val>1</val>
+    <val>1</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/led_indicator/low_batt"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/led_indicator/low_batt" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_LED_INDICATOR_LOW_BATT</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/led_indicator/notifications"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/led_indicator/notifications" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_LED_INDICATOR_NOTIFICATIONS</header>
-	<val>1</val>
+    <val>1</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="memory/setting/rotate_hold"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="memory/setting/rotate_hold" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_ROTATE_HOLD_BOOL</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/psmode"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/setting/psmode" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_PSMODE</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
@@ -1064,16 +1062,16 @@
       <enumdata value="0">SETTING_PSMODE_MAX</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/mmc_encryption/status"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/mmc_encryption/status" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_MMC_ENCRYPTION_STATUS_BOOL</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/display/touchkey_light_duration"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/setting/display/touchkey_light_duration" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_TOUCHKEY_LIGHT_DURATION</header>
-	<val>90</val>
+    <val>90</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
@@ -1084,9 +1082,9 @@
       <enumdata value="-1">SETTING_TOUCHKEY_LIGIT_DURATION_ALWAYS_ON</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/display/screen_capture_destination"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/setting/display/screen_capture_destination" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_SCREEN_CAPTURE_DESTINATION</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
@@ -1096,51 +1094,51 @@
       <enumdata>SETTING_SCREEN_CAPTURE_DESTINATION_KEEPIT</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/display/edit_after_screen_capture"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/display/edit_after_screen_capture" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_SCREEN_CAPTURE_EDIT_AFTER_CAPTURE</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/network_restrict_mode"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/network_restrict_mode" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_NETWORK_RESTRICT_MODE</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/blockingmode/led_indicator"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/setting/blockingmode/led_indicator" headeronly="true" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_SETAPPL_BLOCKINGMODE_LED_INDICATOR</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/display/dynamic_status_bar"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/display/dynamic_status_bar" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_DYNAMIC_STATUS_BAR</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/idle_clock_type"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/setting/idle_clock_type" headeronly="true" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_SETAPPL_CLOCK_TYPE_INT</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/hourly_alert"  headeronly="true" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/setting/hourly_alert" headeronly="true" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_HOURLY_ALERT_BOOL</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/homescreen_type"  headeronly="true" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/setting/homescreen_type" headeronly="true" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_HOMESCREEN_TYPE_INT</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ it's for wearable ]]></comment>
@@ -1149,98 +1147,98 @@
       <enumdata value="1">SETTING_HOMESCREEN_TYPE_2_2</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/mobile_data_popup"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/setting/mobile_data_popup" headeronly="true" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_SETAPPL_MOBILE_DATA_POPUP_DONE</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/network/mobile_data_on_reminder"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/network/mobile_data_on_reminder" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_MOBILE_DATA_ON_REMINDER</header>
-	<val>1</val>
+    <val>1</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/network/mobile_data_off_reminder"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/network/mobile_data_off_reminder" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_MOBILE_DATA_OFF_REMINDER</header>
-	<val>1</val>
+    <val>1</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/usb_otg"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/usb_otg" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_USB_OTG_MODE</header>
-	<val>1</val>
+    <val>1</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/firewall"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/firewall" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_FIREWALL_KEY</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="memory/setting/personal"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="memory/setting/personal" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_PERSONAL_MODE_STATUS_BOOL</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/personal_unlock_method"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey type="int32" name="db/setting/personal_unlock_method" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_SETAPPL_PERSONAL_MODE_UNLOCK_METHOD_INT</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/developer_option_state"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/developer_option_state" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_DEVELOPER_OPTION_STATE</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/app_hw_acceleration"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/setting/app_hw_acceleration" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_APP_HW_ACCELERATION</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
-	<enumlist>
+    <enumlist>
       <enumdata value="-1">SETTING_HW_ACCELERATION_NONE</enumdata>
       <enumdata value="0">SETTING_HW_ACCELERATION_OFF</enumdata>
       <enumdata value="1">SETTING_HW_ACCELERATION_ON</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/change_ui/theme"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/setting/change_ui/theme" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_CHANGE_UI_THEME_INT</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/win_gray"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/win_gray" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_WINDOW_GRAYTONE</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/win_fps"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/win_fps" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_WINDOW_FPS</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/emergency/mode"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/setting/emergency/mode" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_EMERGENCY_UI_MODE</header>
-	<val>1</val>
+    <val>1</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
@@ -1250,44 +1248,44 @@
       <enumdata>EMERGENCY_UI_MODE_MAX</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/accessibility/dark_screen"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/setting/accessibility/dark_screen" headeronly="true" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_SETAPPL_ACCESSIBILITY_DARK_SCREEN</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/network_with_lcd_off_limit"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/setting/network_with_lcd_off_limit" headeronly="true" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_SETAPPL_NETWORK_PERMIT_WITH_LCD_OFF_LIMIT</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/sim1_name"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/setting/sim1_name" headeronly="true" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_SETAPPL_SIM1_NAME</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/sim2_name"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/setting/sim2_name" headeronly="true" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_SETAPPL_SIM2_NAME</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/sim1_icon"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/setting/sim1_icon" headeronly="true" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_SETAPPL_SIM1_ICON</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/sim2_icon"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/setting/sim2_icon" headeronly="true" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_SETAPPL_SIM2_ICON</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
@@ -1304,9 +1302,9 @@
       <enumdata>SIM_ICON_MAX     </enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/dualsim/voice_call"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/setting/dualsim/voice_call" headeronly="true" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_DUALSIM_VOICE_CALL_INT</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
@@ -1318,16 +1316,16 @@
       <enumdata>VCONFKEY_DUALSIM_VOICE_CALL_SIM2</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/dualsim/always_dualsim"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/setting/dualsim/always_dualsim" headeronly="true" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_TELEPHONY_ALWAYS_ON_BOOL</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/dualsim/selected_sim"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/setting/dualsim/selected_sim" headeronly="true" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_DUALSIM_SELECTED_SIM</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
@@ -1338,9 +1336,9 @@
       <enumdata>VCONFKEY_DUALSIM_SELECT_SIM2_TO_SIM1</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/screen_rotation"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/setting/screen_rotation" headeronly="true" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_SETAPPL_SCREENROTATION_DEG_INT</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
@@ -1351,9 +1349,9 @@
       <enumdata value="3">SETTING_SCREENROTATION_270_DEGREE</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/lock_type"  headeronly="true" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/setting/lock_type" headeronly="true" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_PRIVACY_LOCK_TYPE_INT</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
@@ -1362,37 +1360,37 @@
       <enumdata value="1">SETTING_PRIVACY_LOCK_TYPE_PATTERN</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/emergency_status"  headeronly="true" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/setting/emergency_status" headeronly="true" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_EMERGENCY_STATUS_BOOL</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ it's for Wearable ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/blockmode_wearable"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/setting/blockmode_wearable" headeronly="true" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_SETAPPL_BLOCKMODE_WEARABLE_BOOL</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/blockmode_wearable_r"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/setting/blockmode_wearable_r" headeronly="true" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_SETAPPL_BLOCKMODE_WEARABLE_R_BOOL</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/ambient_mode"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/setting/ambient_mode" headeronly="true" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_SETAPPL_AMBIENT_MODE_BOOL</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ambient mode ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/wallpaper_changed"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/setting/wallpaper_changed" headeronly="true" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_SETAPPL_WALLPAPER_CHANGED_NOTI_INT</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
@@ -1402,46 +1400,46 @@
       <enumdata value="2">VCONFKEY_WALLPAPER_CHANGED_NOTI_HM</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/accessibility/tts/indicator/time"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/accessibility/tts/indicator/time" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_ACCESSIBILITY_TTS_INDICATOR_INFORMATION_TIME</header>
-	<val>1</val>
+    <val>1</val>
     <creator>  </creator>
-    <email></email>
-    <comment></comment>
+    <email/>
+    <comment/>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/accessibility/tts/indicator/battery"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/accessibility/tts/indicator/battery" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_ACCESSIBILITY_TTS_INDICATOR_INFORMATION_BATTERY</header>
-	<val>1</val>
+    <val>1</val>
     <creator>  </creator>
-    <email></email>
-    <comment></comment>
+    <email/>
+    <comment/>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/accessibility/tts/indicator/signal_strenght"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/accessibility/tts/indicator/signal_strenght" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_ACCESSIBILITY_TTS_INDICATOR_INFORMATION_SIGNAL_STRENGHT</header>
-	<val>1</val>
+    <val>1</val>
     <creator>  </creator>
-    <email></email>
-    <comment></comment>
+    <email/>
+    <comment/>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/accessibility/tts/indicator/missed_events"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/accessibility/tts/indicator/missed_events" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_ACCESSIBILITY_TTS_INDICATOR_INFORMATION_MISSED_EVENTS</header>
-	<val>1</val>
+    <val>1</val>
     <creator>  </creator>
-    <email></email>
-    <comment></comment>
+    <email/>
+    <comment/>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/accessibility/tts/indicator/date"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/accessibility/tts/indicator/date" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_ACCESSIBILITY_TTS_INDICATOR_INFORMATION_DATE</header>
-	<val>0</val>
+    <val>0</val>
     <creator>  </creator>
-    <email></email>
-    <comment></comment>
+    <email/>
+    <comment/>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/accessibility/tts/indicator/bluetooth"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="bool" name="db/setting/accessibility/tts/indicator/bluetooth" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_ACCESSIBILITY_TTS_INDICATOR_INFORMATION_BLUETOOTH</header>
-	<val>0</val>
+    <val>0</val>
     <creator>  </creator>
-    <email></email>
-    <comment></comment>
+    <email/>
+    <comment/>
   </vconfkey>
 </vconfkeylists>

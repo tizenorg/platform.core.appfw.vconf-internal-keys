@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vconfkeylists>
-	<filedef name="__VCONF_INTERNAL_INDICATOR_KEYS_H__"/>
-	<vconfkey name="memory/private/org.tizen.indicator/show_more_noti_port" writePriv="http://tizen.org/privilege/internal/default/platform" readPriv="http://tizen.org/privilege/internal/default/platform" layer="memory" private_spec="true" uid="" gid="6514" type="int32">
-		<header>VCONFKEY_INDICATOR_SHOW_MORE_NOTI</header>
-		<val>0</val>
-		<creator/>
-		<email/>
-		<comment>
-			<![CDATA[ ]]>
-		</comment>
-	</vconfkey>
+  <filedef name="__VCONF_INTERNAL_INDICATOR_KEYS_H__"/>
+  <vconfkey name="memory/private/org.tizen.indicator/show_more_noti_port" writePriv="http://tizen.org/privilege/internal/default/platform" readPriv="http://tizen.org/privilege/internal/default/platform" layer="memory" type="int32">
+    <header>VCONFKEY_INDICATOR_SHOW_MORE_NOTI</header>
+    <val>0</val>
+    <creator/>
+    <email/>
+    <comment><![CDATA[ ]]></comment>
+  </vconfkey>
 </vconfkeylists>

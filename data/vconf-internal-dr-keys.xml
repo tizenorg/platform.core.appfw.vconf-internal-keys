@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vconfkeylists>
   <filedef name="__VCONF_INTERNAL_DR_KEYS_H__"/>
-  <vconfkey type="int32" name="memory/data_router/osp_serial_open" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/data_router/osp_serial_open" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_DR_OSP_SERIAL_OPEN_INT</header>
-	<val>0</val>
+    <val>0</val>
     <creator> Dohyun Pyun </creator>
     <email> dh79.pyun@samsung.com </email>
     <comment><![CDATA[Serial open value for serial API]]></comment>

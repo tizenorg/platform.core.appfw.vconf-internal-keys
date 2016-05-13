@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vconfkeylists>
   <filedef name="__VCONF_INTERNAL_WMS_KEYS_H__"/>
-  <vconfkey type="int32" name="memory/wms/favorites_order"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="memory/wms/favorites_order" headeronly="true" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_WMS_FAVORITE_ORDER</header>
-	<val>0</val>
+    <val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/wms/apps_order"  headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="memory/wms/apps_order" headeronly="true" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_WMS_APPS_ORDER</header>
-	<val>0</val>
+    <val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/wms/wakeup_by_gesture_setting"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/wms/wakeup_by_gesture_setting" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_WMS_WAKEUP_BY_GESTURE_SETTING</header>
-	<val>0</val>
+    <val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="db/wms/clocks_set_idle"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="string" name="db/wms/clocks_set_idle" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_WMS_CLOCKS_SET_IDLE</header>
-	<val>org.tizen.idle-clock-digital</val>
+    <val>org.tizen.idle-clock-digital</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/wms/powerkey_double_pressing"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/wms/powerkey_double_pressing" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_WMS_POWERKEY_DOUBLE_PRESSING</header>
-	<val>0</val>
+    <val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/wms/smart_relay"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/wms/smart_relay" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_WMS_SMART_RELAY</header>
-	<val>0</val>
+    <val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/wms/wmanager_connected"  gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/wms/wmanager_connected" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_WMS_WMANAGER_CONNECTED</header>
-	<val>0</val>
+    <val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vconfkeylists>
   <filedef name="__VCONF_INTERNAL_LIVEBOX_KEYS_H__"/>
-  <vconfkey type="bool" name="memory/data-provider-master/started"  gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+  <vconfkey type="bool" name="memory/data-provider-master/started" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_MASTER_STARTED</header>
-	<val>0</val>
+    <val>0</val>
     <creator>Kyu-Ho Jo</creator>
     <email>kyuho.jo@samsung.com</email>
     <comment><![CDATA[Notify to the clients whether the master service is started or not. if they recognize that the master is started, they will try to connect to master service ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/private/data-provider-master/restart_count"  gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton" writePriv="http://tizen.org/privilege/internal/buxton">
+  <vconfkey type="int32" name="memory/private/data-provider-master/restart_count" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton" writePriv="http://tizen.org/privilege/internal/buxton">
     <header>VCONFKEY_MASTER_RESTART_COUNT</header>
-	<val>0</val>
+    <val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[To count the recovery from fault of master service]]></comment>

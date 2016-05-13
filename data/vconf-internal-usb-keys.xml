@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vconfkeylists>
   <filedef name="__VCONF_INTERNAL_USB_KEYS_H__"/>
-  <vconfkey type="int32" name="memory/usb/cur_mode"  gid="6514" uid="" private_spec="true" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/usb/cur_mode" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_USB_CUR_MODE</header>
-	<val>0</val>
+    <val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
@@ -25,9 +25,9 @@
       <enumdata value="9">SET_USB_ACCESSORY</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="db/usb/sel_mode"  gid="6514" uid="" private_spec="true" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/usb/sel_mode" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_USB_SEL_MODE</header>
-	<val>1</val>
+    <val>1</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>

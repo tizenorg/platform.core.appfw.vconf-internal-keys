@@ -1,53 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vconfkeylists>
   <filedef name="__VCONF_INTERNAL_LOCATION_KEYS_H__"/>
-  <vconfkey type="int32" name="db/location/setting/Usemylocation" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/location.enable">
+  <vconfkey type="int32" name="db/location/setting/Usemylocation" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/location.enable">
     <header>VCONFKEY_LOCATION_USE_MY_LOCATION</header>
-	<val>1</val>
+    <val>1</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/location/setting/GpsEnabled" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/location.enable">
+  <vconfkey type="int32" name="db/location/setting/GpsEnabled" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/location.enable">
     <header>VCONFKEY_LOCATION_ENABLED</header>
-	<val>1</val>
+    <val>1</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/location/setting/NetworkEnabled" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/location.enable">
+  <vconfkey type="int32" name="db/location/setting/NetworkEnabled" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/location.enable">
     <header>VCONFKEY_LOCATION_NETWORK_ENABLED</header>
-	<val>0</val>
+    <val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/location/setting/MockEnabled" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/location">
+  <vconfkey type="int32" name="db/location/setting/MockEnabled" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/location">
     <header>VCONFKEY_LOCATION_MOCK_ENABLED</header>
-	<val>0</val>
+    <val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[CAUTION: Write privilege is http://tizen.org/privilege/location.]]></comment>
   </vconfkey>
-
- <vconfkey type="int32" name="db/location/setting/GpsPopup" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/location.enable">
+  <vconfkey type="int32" name="db/location/setting/GpsPopup" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/location.enable">
     <header>VCONFKEY_LBS_SETTING_IS_SHOW_GPS_POPUP</header>
-	<val>1</val>
-	<val model="wearable">0</val>
+    <val>1</val>
+    <val model="wearable">0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/location/setting/Restriction" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/location/setting/Restriction" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_LOCATION_RESTRICT</header>
-	<val>0</val>
+    <val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/location/position/state" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/location/position/state" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_LOCATION_POSITION_STATE</header>
-	<val>0</val>
+    <val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
@@ -58,9 +57,9 @@
       <enumdata>VCONFKEY_LOCATION_POSITION_STATE_MAX</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/location/gps/state" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/location/gps/state" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_LOCATION_GPS_STATE</header>
-	<val>0</val>
+    <val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
@@ -71,9 +70,9 @@
       <enumdata>VCONFKEY_LOCATION_GPS_STATE_MAX</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/location/wps/state" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/location/wps/state" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_LOCATION_WPS_STATE</header>
-	<val>0</val>
+    <val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
@@ -84,9 +83,9 @@
       <enumdata>VCONFKEY_LOCATION_WPS_STATE_MAX</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/location/mock/state" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="memory/location/mock/state" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_LOCATION_MOCK_STATE</header>
-	<val>0</val>
+    <val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
@@ -97,160 +96,160 @@
       <enumdata>VCONFKEY_LOCATION_MOCK_STATE_MAX</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="memory/location/last/gps/Timestamp" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/location" writePriv="http://tizen.org/privilege/internal/buxton/readonly">
+  <vconfkey type="int32" name="memory/location/last/gps/Timestamp" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/location" writePriv="http://tizen.org/privilege/internal/buxton/readonly">
     <header>VCONFKEY_LOCATION_LAST_GPS_TIMESTAMP</header>
-	<val>0</val>
+    <val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="double" name="memory/location/last/gps/Latitude" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/location" writePriv="http://tizen.org/privilege/internal/buxton/readonly">
+  <vconfkey type="double" name="memory/location/last/gps/Latitude" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/location" writePriv="http://tizen.org/privilege/internal/buxton/readonly">
     <header>VCONFKEY_LOCATION_LAST_GPS_LATITUDE</header>
-	<val>0.0</val>
+    <val>0.0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="double" name="memory/location/last/gps/Longitude" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/location" writePriv="http://tizen.org/privilege/internal/buxton/readonly">
+  <vconfkey type="double" name="memory/location/last/gps/Longitude" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/location" writePriv="http://tizen.org/privilege/internal/buxton/readonly">
     <header>VCONFKEY_LOCATION_LAST_GPS_LONGITUDE</header>
-	<val>0.0</val>
+    <val>0.0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="double" name="memory/location/last/gps/Altitude" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/location" writePriv="http://tizen.org/privilege/internal/buxton/readonly">
+  <vconfkey type="double" name="memory/location/last/gps/Altitude" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/location" writePriv="http://tizen.org/privilege/internal/buxton/readonly">
     <header>VCONFKEY_LOCATION_LAST_GPS_ALTITUDE</header>
-	<val>0.0</val>
+    <val>0.0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="double" name="memory/location/last/gps/Speed" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/location" writePriv="http://tizen.org/privilege/internal/buxton/readonly">
+  <vconfkey type="double" name="memory/location/last/gps/Speed" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/location" writePriv="http://tizen.org/privilege/internal/buxton/readonly">
     <header>VCONFKEY_LOCATION_LAST_GPS_SPEED</header>
-	<val>0.0</val>
+    <val>0.0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="double" name="memory/location/last/gps/Direction" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/location" writePriv="http://tizen.org/privilege/internal/buxton/readonly">
+  <vconfkey type="double" name="memory/location/last/gps/Direction" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/location" writePriv="http://tizen.org/privilege/internal/buxton/readonly">
     <header>VCONFKEY_LOCATION_LAST_GPS_DIRECTION</header>
-	<val>0.0</val>
+    <val>0.0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="double" name="memory/location/last/gps/HorAccuracy" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/location" writePriv="http://tizen.org/privilege/internal/buxton/readonly">
+  <vconfkey type="double" name="memory/location/last/gps/HorAccuracy" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/location" writePriv="http://tizen.org/privilege/internal/buxton/readonly">
     <header>VCONFKEY_LOCATION_LAST_GPS_HOR_ACCURACY</header>
-	<val>0.0</val>
+    <val>0.0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="double" name="memory/location/last/gps/VerAccuracy" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/location" writePriv="http://tizen.org/privilege/internal/buxton/readonly">
+  <vconfkey type="double" name="memory/location/last/gps/VerAccuracy" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/location" writePriv="http://tizen.org/privilege/internal/buxton/readonly">
     <header>VCONFKEY_LOCATION_LAST_GPS_VER_ACCURACY</header>
-	<val>0.0</val>
+    <val>0.0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="double" name="memory/location/last/wps/Timestamp" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/location" writePriv="http://tizen.org/privilege/internal/buxton/readonly">
+  <vconfkey type="double" name="memory/location/last/wps/Timestamp" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/location" writePriv="http://tizen.org/privilege/internal/buxton/readonly">
     <header>VCONFKEY_LOCATION_LAST_WPS_TIMESTAMP</header>
-	<val>0.0</val>
+    <val>0.0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="double" name="memory/location/last/wps/Latitude" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/location" writePriv="http://tizen.org/privilege/internal/buxton/readonly">
+  <vconfkey type="double" name="memory/location/last/wps/Latitude" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/location" writePriv="http://tizen.org/privilege/internal/buxton/readonly">
     <header>VCONFKEY_LOCATION_LAST_WPS_LATITUDE</header>
-	<val>0.0</val>
+    <val>0.0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="double" name="memory/location/last/wps/Longitude" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/location" writePriv="http://tizen.org/privilege/internal/buxton/readonly">
+  <vconfkey type="double" name="memory/location/last/wps/Longitude" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/location" writePriv="http://tizen.org/privilege/internal/buxton/readonly">
     <header>VCONFKEY_LOCATION_LAST_WPS_LONGITUDE</header>
-	<val>0.0</val>
+    <val>0.0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="double" name="memory/location/last/wps/Altitude" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/location" writePriv="http://tizen.org/privilege/internal/buxton/readonly">
+  <vconfkey type="double" name="memory/location/last/wps/Altitude" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/location" writePriv="http://tizen.org/privilege/internal/buxton/readonly">
     <header>VCONFKEY_LOCATION_LAST_WPS_ALTITUDE</header>
-	<val>0.0</val>
+    <val>0.0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="double" name="memory/location/last/wps/Speed" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/location" writePriv="http://tizen.org/privilege/internal/buxton/readonly">
+  <vconfkey type="double" name="memory/location/last/wps/Speed" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/location" writePriv="http://tizen.org/privilege/internal/buxton/readonly">
     <header>VCONFKEY_LOCATION_LAST_WPS_SPEED</header>
-	<val>0.0</val>
+    <val>0.0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="double" name="memory/location/last/wps/Direction" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/location" writePriv="http://tizen.org/privilege/internal/buxton/readonly">
+  <vconfkey type="double" name="memory/location/last/wps/Direction" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/location" writePriv="http://tizen.org/privilege/internal/buxton/readonly">
     <header>VCONFKEY_LOCATION_LAST_WPS_DIRECTION</header>
-	<val>0.0</val>
+    <val>0.0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="double" name="memory/location/last/wps/HorAccuracy" gid="6514" uid="" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/location" writePriv="http://tizen.org/privilege/internal/buxton/readonly">
+  <vconfkey type="double" name="memory/location/last/wps/HorAccuracy" layer="memory" readPriv="http://tizen.org/privilege/internal/buxton/location" writePriv="http://tizen.org/privilege/internal/buxton/readonly">
     <header>VCONFKEY_LOCATION_LAST_WPS_HOR_ACCURACY</header>
-	<val>0.0</val>
+    <val>0.0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/location/last/gps/LocTimestamp" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/location" writePriv="http://tizen.org/privilege/internal/buxton/readonly">
+  <vconfkey type="int32" name="db/location/last/gps/LocTimestamp" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/location" writePriv="http://tizen.org/privilege/internal/buxton/readonly">
     <header>VCONFKEY_LOCATION_NV_LAST_GPS_TIMESTAMP</header>
-	<val>0</val>
+    <val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/location/last/wps/LocTimestamp" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/location" writePriv="http://tizen.org/privilege/internal/buxton/readonly">
+  <vconfkey type="int32" name="db/location/last/wps/LocTimestamp" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/location" writePriv="http://tizen.org/privilege/internal/buxton/readonly">
     <header>VCONFKEY_LOCATION_NV_LAST_WPS_TIMESTAMP</header>
-	<val>0</val>
+    <val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="db/location/last/gps/Location" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/location" writePriv="http://tizen.org/privilege/internal/buxton/readonly">
+  <vconfkey type="string" name="db/location/last/gps/Location" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/location" writePriv="http://tizen.org/privilege/internal/buxton/readonly">
     <header>VCONFKEY_LOCATION_NV_LAST_GPS_LOCATION</header>
-	<val>0.0;0.0;0.0;0.0;0.0;0.0;0.0;</val>
+    <val>0.0;0.0;0.0;0.0;0.0;0.0;0.0;</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="db/location/last/wps/Location" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/location" writePriv="http://tizen.org/privilege/internal/buxton/readonly">
+  <vconfkey type="string" name="db/location/last/wps/Location" layer="system" readPriv="http://tizen.org/privilege/internal/buxton/location" writePriv="http://tizen.org/privilege/internal/buxton/readonly">
     <header>VCONFKEY_LOCATION_NV_LAST_WPS_LOCATION</header>
-	<val>0.0;0.0;0.0;0.0;0.0;0.0;</val>
+    <val>0.0;0.0;0.0;0.0;0.0;0.0;</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/location/nmea/LoggingEnabled" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/location/nmea/LoggingEnabled" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_LOCATION_NMEA_LOGGING</header>
-	<val>0</val>
+    <val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/location/replay/ReplayEnabled" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/location/replay/ReplayEnabled" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_LOCATION_REPLAY_ENABLED</header>
-	<val>0</val>
-	<val model="mobile/emulator">1</val>
-	<val model="wearable/emulator">1</val>
+    <val>0</val>
+    <val model="mobile/emulator">1</val>
+    <val model="wearable/emulator">1</val>
     <creator/>
     <email/>
     <comment>Initial value for device is difference from that of emulator. It's initial value is for device</comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/location/replay/ReplayMode" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/location/replay/ReplayMode" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_LOCATION_REPLAY_MODE</header>
-	<val>1</val>
-	<val model="mobile/emulator">0</val>
-	<val model="wearable/emulator">0</val>
+    <val>1</val>
+    <val model="mobile/emulator">0</val>
+    <val model="wearable/emulator">0</val>
     <creator/>
     <email/>
     <comment>Initial value for device is difference from that of emulator. It's initial value is for device</comment>
@@ -261,44 +260,44 @@
       <enumdata>VCONFKEY_GPS_REPLAY_MODE_MAX</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="string" name="db/location/replay/FileName" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="string" name="db/location/replay/FileName" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_LOCATION_NMEA_FILE_NAME</header>
-	<val>nmea_replay.log</val>
+    <val>nmea_replay.log</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="double" name="db/location/replay/ManualLatitude" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="double" name="db/location/replay/ManualLatitude" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_LOCATION_MANUAL_LATITUDE</header>
-	<val>0.0</val>
+    <val>0.0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="double" name="db/location/replay/ManualLongitude" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="double" name="db/location/replay/ManualLongitude" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_LOCATION_MANUAL_LONGITUDE</header>
-	<val>0.0</val>
+    <val>0.0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="double" name="db/location/replay/ManualAltitude" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="double" name="db/location/replay/ManualAltitude" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_LOCATION_MANUAL_ALTITUDE</header>
-	<val>0.0</val>
+    <val>0.0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="double" name="db/location/replay/ManualHAccuracy" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="double" name="db/location/replay/ManualHAccuracy" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_LOCATION_MANUAL_HORIZONTAL_ACCURACY</header>
-	<val>0.0</val>
+    <val>0.0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/location/gps/Operation" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/location/gps/Operation" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_LOCATION_GPS_OPERATION</header>
-	<val>1</val>
+    <val>1</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
@@ -309,9 +308,9 @@
       <enumdata>VCONFKEY_GPS_OPERATION_MAX</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="db/location/gps/OperationTest" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/location/gps/OperationTest" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_LOCATION_GPS_OPERATION_TEST</header>
-	<val>0</val>
+    <val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
@@ -323,9 +322,9 @@
       <enumdata>VCONFKEY_GPS_OPERATION_TEST_MAX</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="db/location/gps/Starting" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/location/gps/Starting" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_LOCATION_GPS_STARTING</header>
-	<val>0</val>
+    <val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
@@ -335,9 +334,9 @@
       <enumdata>VCONFKEY_GPS_STARTING_MAX</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="db/location/gps/Session" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/location/gps/Session" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_LOCATION_GPS_SESSION</header>
-	<val>1</val>
+    <val>1</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
@@ -347,37 +346,37 @@
       <enumdata>VCONFKEY_GPS_SESSION_MAX</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="double" name="db/location/gps/XtraDownloadTime" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="double" name="db/location/gps/XtraDownloadTime" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_LOCATION_LAST_GPS_XTRA_DOWNLOAD_TIME</header>
-	<val>0.0</val>
+    <val>0.0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="db/location/supl/Server"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="string" name="db/location/supl/Server" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_LOCATION_SUPL_SERVER</header>
-	<val></val>
+    <val/>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="db/location/supl/Port" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="string" name="db/location/supl/Port" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_LOCATION_SUPL_PORT</header>
-	<val>7275</val>
+    <val>7275</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/location/supl/SslEnabled"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/location/supl/SslEnabled" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_LOCATION_SUPL_SSL</header>
-	<val>1</val>
+    <val>1</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/location/supl/FQDNType"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/location/supl/FQDNType" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_LOCATION_SUPL_FQDNTYPE</header>
-	<val>0</val>
+    <val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
@@ -391,16 +390,16 @@
       <enumdata>VCONFKEY_LOCATION_SUPL_FQDN_VFONE</enumdata>
     </enumlist>
   </vconfkey>
-  <vconfkey type="int32" name="db/location/supl/Version"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="int32" name="db/location/supl/Version" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_LOCATION_SUPL_VERSION</header>
-	<val>0</val>
+    <val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/location/heremaps/UserConsent"  gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/mapservice">
+  <vconfkey type="bool" name="db/location/heremaps/UserConsent" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/mapservice">
     <header>VCONFKEY_LOCATION_HEREMAPS_CONSENT</header>
-	<val>0</val>
+    <val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[CAUTION: Write privilege is http://tizen.org/privilege/mapservice.]]></comment>

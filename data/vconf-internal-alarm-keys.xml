@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vconfkeylists>
   <filedef name="__VCONF_INTERNAL_ALARM_KEYS_H__"/>
-  <vconfkey type="int32" name="db/alarm/state" headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/alarm/state" headeronly="true" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_ALARM_STATE</header>
-	<val>0</val>
+    <val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/alarm/ringing" headeronly="true" gid="6514" uid="" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="memory/alarm/ringing" headeronly="true" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_ALARM_RINGING</header>
-	<val>0</val>
+    <val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/alarm/volume_popup_enable" headeronly="true" gid="6514" layer="" uid="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="memory/alarm/volume_popup_enable" headeronly="true" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_ALARM_VOLUME_POPUP_ENABLE</header>
-	<val>0</val>
+    <val>0</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
