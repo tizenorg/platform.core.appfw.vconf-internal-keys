@@ -29,13 +29,6 @@
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="string" name="db/browser/user_agent_profile_4G" headeronly="true" layer="" readPriv="" writePriv="">
-    <header>VCONFKEY_BROWSER_USER_AGENT_PROFILE_4G</header>
-    <val/>
-    <creator/>
-    <email/>
-    <comment><![CDATA[ ]]></comment>
-  </vconfkey>
   <vconfkey type="int32" name="memory/pwlock/state" headeronly="true" layer="" readPriv="" writePriv="">
     <header>VCONFKEY_PWLOCK_STATE</header>
     <val/>
