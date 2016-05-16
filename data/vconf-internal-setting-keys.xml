@@ -1262,30 +1262,30 @@
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/sim1_name" headeronly="true" layer="" readPriv="" writePriv="">
+  <vconfkey type="string" name="db/setting/sim1_name" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_SIM1_NAME</header>
-    <val>0</val>
+    <val>SIM1</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/sim2_name" headeronly="true" layer="" readPriv="" writePriv="">
+  <vconfkey type="string" name="db/setting/sim2_name" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_SIM2_NAME</header>
-    <val>0</val>
+    <val>SIM2</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/sim1_icon" headeronly="true" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/setting/sim1_icon" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_SIM1_ICON</header>
     <val>0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/sim2_icon" headeronly="true" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/setting/sim2_icon" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_SIM2_ICON</header>
-    <val>0</val>
+    <val>1</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
