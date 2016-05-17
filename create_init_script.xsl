@@ -8,9 +8,12 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 </xsl:template>
 <xsl:template match="vconfkey">
 <xsl:choose>
-	<xsl:when test="./script">
-<xsl:value-of select="script"/>
+	<xsl:when test="./script[@model=$target]">
+<xsl:value-of select="script[@model=$target]"/>
   </xsl:when>
+  <xsl:otherwise>
+<xsl:value-of select="script"/>
+  </xsl:otherwise>
 </xsl:choose>
 </xsl:template>
 </xsl:stylesheet>

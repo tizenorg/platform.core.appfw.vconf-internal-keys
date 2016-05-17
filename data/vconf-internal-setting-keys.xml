@@ -732,6 +732,14 @@ rm -f /etc/localtime
 ln -s /opt/etc/localtime /etc/localtime
 echo "-------------------------------------------------------------------------------------"
 ]]></script>
+	<script model="wearable">
+<![CDATA[
+echo "Do Nothing on Wearable"
+]]></script>
+	<script model="tv">
+<![CDATA[
+echo "Do Nothing on TV"
+]]></script>
   </vconfkey>
   <vconfkey type="string" name="db/setting/timezone" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_TIMEZONE_INT</header>
