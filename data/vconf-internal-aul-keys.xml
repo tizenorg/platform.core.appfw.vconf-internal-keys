@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vconfkeylists>
+  <filedef name="__VCONF_INTERNAL_AUL_KEYS_H__"/>
+  <vconfkey type="double" name="db/aul/socket_timeout" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+    <header>VCONFKEY_AUL_SOCKET_TIMEOUT</header>
+    <val>5.2</val>
+    <creator> Hwankyu Jhun </creator>
+    <email> h.jhun </email>
+    <comment><![CDATA[ ]]></comment>
+  </vconfkey>
+</vconfkeylists>
