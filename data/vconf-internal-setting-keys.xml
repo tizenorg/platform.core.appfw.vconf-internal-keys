@@ -228,6 +228,13 @@
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
+  <vconfkey type="bool" name="db/setting/sound/noti/vibration_long_buzz" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+    <header>VCONFKEY_SETAPPL_NOTI_VIBRATION_LONG_BUZZ</header>
+    <val>0</val>
+    <creator> JinWang An </creator>
+    <email>jinwang.an@samsung.com</email>
+    <comment><![CDATA[ ]]></comment>
+  </vconfkey>
   <vconfkey type="int32" name="db/setting/sound/touch_feedback/vibration_level" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_TOUCH_FEEDBACK_VIBRATION_LEVEL_INT</header>
     <val>3</val>
@@ -1441,5 +1448,31 @@
     <creator>  </creator>
     <email/>
     <comment/>
+  </vconfkey>
+  <vconfkey type="bool" name="db/setting/notification_indicator" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+    <header>VCONFKEY_SETAPPL_NOTIFICATION_INDICATOR</header>
+    <val>0</val>
+    <creator> JinWang An </creator>
+    <email>jinwang.an@samsung.com</email>
+    <comment><![CDATA[ ]]></comment>
+  </vconfkey>
+  <vconfkey type="int32" name="db/setting/double_press_home_key" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+    <header>VCONFKEY_SETAPPL_DOUBLE_PRESS_HOME_KEY</header>
+    <val>0</val>
+    <creator> JinWang An </creator>
+    <email>jinwang.an@samsung.com</email>
+    <comment><![CDATA[ ]]></comment>
+    <enumlist>
+      <enumdata value="0">VCONFKEY_DOUBLE_PRESS_HOME_KEY_NONE</enumdata>
+      <enumdata value="1">VCONFKEY_DOUBLE_PRESS_HOME_KEY_LAST_APP</enumdata>
+      <enumdata value="2">VCONFKEY_DOUBLE_PRESS_HOME_KEY_RECENT_APPS</enumdata>
+    </enumlist>
+  </vconfkey>
+  <vconfkey type="bool" name="db/setting/auto_open_apps" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+    <header>VCONFKEY_SETAPPL_AUTO_OPEN_APPS</header>
+    <val>0</val>
+    <creator> JinWang An </creator>
+    <email>jinwang.an@samsung.com</email>
+    <comment><![CDATA[ ]]></comment>
   </vconfkey>
 </vconfkeylists>
