@@ -36,6 +36,8 @@
       <enumdata>VCONFKEY_NFC_SE_POLICY_UICC_OFF </enumdata>
       <enumdata>VCONFKEY_NFC_SE_POLICY_ESE_ON   </enumdata>
       <enumdata>VCONFKEY_NFC_SE_POLICY_ESE_OFF  </enumdata>
+      <enumdata>VCONFKEY_NFC_SE_POLICY_HCE_ON  </enumdata>
+      <enumdata>VCONFKEY_NFC_SE_POLICY_HCE_OFF  </enumdata>
     </enumlist>
   </vconfkey>
   <vconfkey type="int32" name="db/nfc/wallet_mode" layer="system" readPriv="http://tizen.org/privilege/nfc.admin" writePriv="http://tizen.org/privilege/nfc.admin">
@@ -47,6 +49,10 @@
     <enumlist>
       <enumdata value="0x00">VCONFKEY_NFC_WALLET_MODE_MANUAL    </enumdata>
       <enumdata>VCONFKEY_NFC_WALLET_MODE_AUTOMATIC </enumdata>
+      <enumdata>VCONFKEY_NFC_WALLET_MODE_UICC </enumdata>
+      <enumdata>VCONFKEY_NFC_WALLET_MODE_ESE </enumdata>
+      <enumdata>VCONFKEY_NFC_WALLET_MODE_HCE </enumdata>
+
     </enumlist>
   </vconfkey>
   <vconfkey type="bool" name="db/nfc/state_by_flight" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
@@ -70,6 +76,13 @@
   <vconfkey type="string" name="db/nfc/other_handlers" layer="system" readPriv="http://tizen.org/privilege/nfc.admin" writePriv="http://tizen.org/privilege/nfc.admin">
     <header>VCONFKEY_NFC_OTHER_HANDLERS</header>
     <val/>
+    <creator>Jihoon Jung</creator>
+    <email>jh8801.jung@samsung.com</email>
+    <comment><![CDATA[ ]]></comment>
+  </vconfkey>
+  <vconfkey type="bool" name="db/nfc/ese_disable" layer="system" readPriv="http://tizen.org/privilege/nfc.admin" writePriv="http://tizen.org/privilege/nfc.admin">
+    <header>VCONFKEY_NFC_ESE_DISABLE</header>
+    <val>0</val>
     <creator>Jihoon Jung</creator>
     <email>jh8801.jung@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
