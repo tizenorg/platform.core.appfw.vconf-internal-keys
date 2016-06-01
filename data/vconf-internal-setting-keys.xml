@@ -730,6 +730,7 @@ rm -f /opt/etc/localtime
 ln -s /usr/share/zoneinfo/$out /opt/etc/localtime
 rm -f /etc/localtime
 ln -s /opt/etc/localtime /etc/localtime
+/usr/bin/chsmack -a "System" /opt/etc/localtime
 echo "-------------------------------------------------------------------------------------"
 ]]></script>
 	<script model="wearable">
