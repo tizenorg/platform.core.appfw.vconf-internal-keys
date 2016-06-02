@@ -177,7 +177,7 @@
     <email>jiung.yu@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="memory/wifi_direct/state" layer="memory" readPriv="http://tizen.org/privilege/wifidirect" writePriv="http://tizen.org/privilege/internal/buxton/readonly">
+  <vconfkey type="int32" name="memory/wifi_direct/state" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/buxton/readonly">
     <header>VCONFKEY_WIFI_DIRECT_STATE</header>
     <val>0</val>
     <creator>Jiung Yu</creator>
@@ -185,8 +185,12 @@
     <comment><![CDATA[ ]]></comment>
     <enumlist>
       <enumdata value="0">VCONFKEY_WIFI_DIRECT_DEACTIVATED</enumdata>
+      <enumdata>VCONFKEY_WIFI_DIRECT_DEACTIVATING</enumdata>
+      <enumdata>VCONFKEY_WIFI_DIRECT_ACTIVATING</enumdata>
       <enumdata>VCONFKEY_WIFI_DIRECT_ACTIVATED</enumdata>
       <enumdata>VCONFKEY_WIFI_DIRECT_DISCOVERING</enumdata>
+      <enumdata>VCONFKEY_WIFI_DIRECT_CONNECTING</enumdata>
+      <enumdata>VCONFKEY_WIFI_DIRECT_DISCONNECTING</enumdata>
       <enumdata>VCONFKEY_WIFI_DIRECT_CONNECTED</enumdata>
       <enumdata>VCONFKEY_WIFI_DIRECT_GROUP_OWNER</enumdata>
     </enumlist>
