@@ -42,7 +42,7 @@
   </vconfkey>
   <vconfkey type="int32" name="db/nfc/wallet_mode" layer="system" readPriv="http://tizen.org/privilege/nfc.admin" writePriv="http://tizen.org/privilege/nfc.admin">
     <header>VCONFKEY_NFC_WALLET_MODE</header>
-    <val>0</val>
+    <val>3</val>
     <creator>Jihoon Jung</creator>
     <email>jh8801.jung@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
