@@ -1505,4 +1505,10 @@ echo "Do Nothing on TV"
     <email>jinwang.an@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
+  <vconfkey type="int32" name="db/setting/blockmode_wearable" value="0" label="" headeronly="true" gid="6514" uid="" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+    <header>VCONFKEY_SETAPPL_BLOCKMODE_WEARABLE_BOOL</header>
+    <creator/>
+    <email/>
+    <comment><![CDATA[Used to set/unset Do Not Distrub mode]]></comment>
+  </vconfkey>
 </vconfkeylists>
