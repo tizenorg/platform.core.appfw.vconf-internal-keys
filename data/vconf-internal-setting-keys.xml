@@ -721,42 +721,6 @@ echo "--------------------------------------------------------------------------
     <email>s7158.kumar@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/accessibility/screen_reader/speech_volume" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
-    <header>VCONFKEY_SETAPPL_ACCESSIBILITY_SPEECH_VOLUME</header>
-    <val>0</val>
-    <creator> Shashank Pandey </creator>
-    <email>shashank.p@samsung.com</email>
-    <comment><![CDATA[Used to set the Screen reader volume level]]></comment>
-    <enumlist>
-      <enumdata value="0">SETTING_ACCESSIBILITY_SCREEN_READER_SPEECH_VOLUME_0</enumdata>
-      <enumdata value="12">SETTING_ACCESSIBILITY_SCREEN_READER_SPEECH_VOLUME_12</enumdata>
-      <enumdata value="25">SETTING_ACCESSIBILITY_SCREEN_READER_SPEECH_VOLUME_25</enumdata>
-      <enumdata value="37">SETTING_ACCESSIBILITY_SCREEN_READER_SPEECH_VOLUME_37</enumdata>
-      <enumdata value="50">SETTING_ACCESSIBILITY_SCREEN_READER_SPEECH_VOLUME_50</enumdata>
-      <enumdata value="62">SETTING_ACCESSIBILITY_SCREEN_READER_SPEECH_VOLUME_62</enumdata>
-      <enumdata value="75">SETTING_ACCESSIBILITY_SCREEN_READER_SPEECH_VOLUME_75</enumdata>
-      <enumdata value="87">SETTING_ACCESSIBILITY_SCREEN_READER_SPEECH_VOLUME_87</enumdata>
-      <enumdata value="100">SETTING_ACCESSIBILITY_SCREEN_READER_SPEECH_VOLUME_100</enumdata>
-    </enumlist>
-  </vconfkey>
-  <vconfkey type="int32" name="db/setting/accessibility/screen_reader/speech_rate" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
-    <header>VCONFKEY_SETAPPL_ACCESSIBILITY_SPEECH_RATE</header>
-    <val>0</val>
-    <creator> Shashank Pandey </creator>
-    <email>shashank.p@samsung.com</email>
-    <comment><![CDATA[Used to set the screen reader speech rate]]></comment>
-    <enumlist>
-      <enumdata value="0">SETTING_ACCESSIBILITY_SCREEN_READER_SPEECH_RATE_0</enumdata>
-      <enumdata value="12">SETTING_ACCESSIBILITY_SCREEN_READER_SPEECH_RATE_12</enumdata>
-      <enumdata value="25">SETTING_ACCESSIBILITY_SCREEN_READER_SPEECH_RATE_25</enumdata>
-      <enumdata value="37">SETTING_ACCESSIBILITY_SCREEN_READER_SPEECH_RATE_37</enumdata>
-      <enumdata value="50">SETTING_ACCESSIBILITY_SCREEN_READER_SPEECH_RATE_50</enumdata>
-      <enumdata value="62">SETTING_ACCESSIBILITY_SCREEN_READER_SPEECH_RATE_62</enumdata>
-      <enumdata value="75">SETTING_ACCESSIBILITY_SCREEN_READER_SPEECH_RATE_75</enumdata>
-      <enumdata value="87">SETTING_ACCESSIBILITY_SCREEN_READER_SPEECH_RATE_87</enumdata>
-      <enumdata value="100">SETTING_ACCESSIBILITY_SCREEN_READER_SPEECH_RATE_100</enumdata>
-    </enumlist>
-  </vconfkey>
   <vconfkey type="string" name="db/setting/timezone_id" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_TIMEZONE_ID</header>
     <val>Asia/Seoul</val>
