@@ -44,6 +44,13 @@
     <email/>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
+  <vconfkey type="int32" name="db/location/setting/Passive" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+    <header>VCONFKEY_LOCATION_PASSIVE</header>
+    <val>0</val>
+    <creator/>
+    <email/>
+    <comment><![CDATA[ ]]></comment>
+  </vconfkey>
   <vconfkey type="int32" name="memory/location/position/state" layer="memory" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_LOCATION_POSITION_STATE</header>
     <val>0</val>
