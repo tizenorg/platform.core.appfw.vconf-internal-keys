@@ -24,7 +24,7 @@
   </vconfkey>
   <vconfkey type="string" name="db/wms/clocks_set_idle" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_WMS_CLOCKS_SET_IDLE</header>
-    <val>org.tizen.idle-clock-digital</val>
+    <val>org.tizen.classic-watch</val>
     <creator/>
     <email/>
     <comment><![CDATA[ ]]></comment>
