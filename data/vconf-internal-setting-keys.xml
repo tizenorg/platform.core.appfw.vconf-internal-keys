@@ -735,13 +735,6 @@ echo "--------------------------------------------------------------------------
     <email>prasoon.16@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="bool" name="db/setting/accessibility/screen_reader/hints" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
-    <header>VCONFKEY_SETAPPL_ACCESSIBILITY_SCREEN_READER_HINTS</header>
-    <val>1</val>
-    <creator>Prasoon Singh</creator>
-    <email>prasoon.16@samsung.com</email>
-    <comment><![CDATA[ ]]></comment>
-  </vconfkey>
   <vconfkey type="string" name="db/setting/timezone_id" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_TIMEZONE_ID</header>
     <val>Asia/Seoul</val>
