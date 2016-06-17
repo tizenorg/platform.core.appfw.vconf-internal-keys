@@ -185,12 +185,8 @@
     <comment><![CDATA[ ]]></comment>
     <enumlist>
       <enumdata value="0">VCONFKEY_WIFI_DIRECT_DEACTIVATED</enumdata>
-      <enumdata>VCONFKEY_WIFI_DIRECT_DEACTIVATING</enumdata>
-      <enumdata>VCONFKEY_WIFI_DIRECT_ACTIVATING</enumdata>
       <enumdata>VCONFKEY_WIFI_DIRECT_ACTIVATED</enumdata>
       <enumdata>VCONFKEY_WIFI_DIRECT_DISCOVERING</enumdata>
-      <enumdata>VCONFKEY_WIFI_DIRECT_CONNECTING</enumdata>
-      <enumdata>VCONFKEY_WIFI_DIRECT_DISCONNECTING</enumdata>
       <enumdata>VCONFKEY_WIFI_DIRECT_CONNECTED</enumdata>
       <enumdata>VCONFKEY_WIFI_DIRECT_GROUP_OWNER</enumdata>
     </enumlist>
