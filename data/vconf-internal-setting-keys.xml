@@ -212,6 +212,13 @@ echo "--------------------------------------------------------------------------
       <enumdata>SETTING_SOUND_REP_EVERY_10_MIN</enumdata>
     </enumlist>
   </vconfkey>
+  <vconfkey type="string" name="db/setting/sound/noti/msg_ringtone_path" headeronly="true" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
+    <header>VCONFKEY_SETAPPL_NOTI_RINGTONE_PATH_STR</header>
+    <val>/opt/share/settings/Alerts/General notification_sdk.wav</val>
+    <creator> Myoungjune Park </creator>
+    <email>mj2004.park@samsung.com</email>
+    <comment><![CDATA[ Header only key to keep ABI test sucessful ]]></comment>
+  </vconfkey>
   <vconfkey type="string" name="db/setting/sound/noti/msg_ringtone_path" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_SETAPPL_NOTI_MSG_RINGTONE_PATH_STR</header>
     <val>/opt/share/settings/Alerts/General notification_sdk.wav</val>
