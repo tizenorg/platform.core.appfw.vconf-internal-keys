@@ -122,7 +122,7 @@
   <vconfkey type="int32" name="db/setting/lcd_backlight_normal" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_SETAPPL_LCD_TIMEOUT_NORMAL</header>
     <val>30</val>
-    <val model="wearable">30</val>
+    <val model="wearable">15</val>
     <val model="wearable/emulator">300</val>
     <val model="mobile/emulator">300</val>
     <val model="wearable-2">60</val>
