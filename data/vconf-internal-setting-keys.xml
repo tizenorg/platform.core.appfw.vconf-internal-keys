@@ -429,6 +429,8 @@ echo "--------------------------------------------------------------------------
   <vconfkey type="bool" name="db/setting/automatic_time_update" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_STATE_AUTOMATIC_TIME_UPDATE_BOOL</header>
     <val>1</val>
+    <val model="common">0</val>
+    <val model="common/emulator">0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
