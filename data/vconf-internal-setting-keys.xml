@@ -158,7 +158,7 @@ echo "--------------------------------------------------------------------------
   </vconfkey>
   <vconfkey type="string" name="db/setting/sound/call/user_ringtone_list" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_CALL_RINGTONE_USER_LIST</header>
-    <val></val>
+    <val>[]</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ User Ringtone List ]]></comment>
