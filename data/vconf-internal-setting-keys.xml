@@ -61,6 +61,7 @@
   <vconfkey type="int32" name="db/setting/Brightness" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_LCD_BRIGHTNESS</header>
     <val>100</val>
+    <val model="wearable">70</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
@@ -835,6 +836,7 @@ echo "Do Nothing on TV"
   <vconfkey type="bool" name="db/setting/sound/sound_on" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_SETAPPL_SOUND_STATUS_BOOL</header>
     <val>1</val>
+    <val model="wearable">0</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
@@ -842,6 +844,7 @@ echo "Do Nothing on TV"
   <vconfkey type="bool" name="db/setting/sound/vibration_on" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_SETAPPL_VIBRATION_STATUS_BOOL</header>
     <val>0</val>
+    <val model="wearable">1</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
