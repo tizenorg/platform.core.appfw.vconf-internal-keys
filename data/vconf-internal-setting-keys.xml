@@ -1276,6 +1276,8 @@ echo "Do Nothing on TV"
   <vconfkey type="int32" name="db/setting/app_hw_acceleration" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_APP_HW_ACCELERATION</header>
     <val>0</val>
+    <val model="tv">1</val>
+	<val model="tv/emulator">1</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
