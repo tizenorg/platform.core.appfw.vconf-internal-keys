@@ -1547,4 +1547,18 @@ echo "Do Nothing on TV"
     <email>gowtham.ab@samsung.com</email>
     <comment><![CDATA[Used to set/unset 'Do Not Distrub' mode]]></comment>
   </vconfkey>
+  <vconfkey type="int32" name="db/setting/d2d_convergence" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+    <header>VCONFKEY_SETAPPL_D2D_CONVERGENCE</header>
+    <val>1</val>
+    <creator></creator>
+    <email></email>
+    <comment><![CDATA[ ]]></comment>
+  </vconfkey>
+  <vconfkey type="int32" name="db/setting/d2d_convergence_service" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
+    <header>VCONFKEY_SETAPPL_D2D_CONVERGENCE_SERVICE</header>
+    <val>0x3</val>
+    <creator></creator>
+    <email></email>
+    <comment><![CDATA[ ]]></comment>
+  </vconfkey>
 </vconfkeylists>
