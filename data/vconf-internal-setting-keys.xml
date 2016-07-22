@@ -888,6 +888,7 @@ echo "Do Nothing on TV"
   <vconfkey type="bool" name="db/setting/data_roaming" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_STATE_DATA_ROAMING_BOOL</header>
     <val>0</val>
+    <val model="tv">1</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
