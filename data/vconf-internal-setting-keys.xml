@@ -989,7 +989,7 @@ echo "Do Nothing on TV"
     <val model="wearable">/usr/apps/org.tizen.watch-setting/shared/res/settings/Wallpapers/Home_default.jpg</val>
     <creator> Myoungjune Park </creator>
     <email>mj2004.park@samsung.com</email>
-    <comment><![CDATA[ ]]></comment>
+    <comment><![CDATA[SYSTEM_SETTINGS_KEY_WALLPAPER_HOME_SCREEN(system-settings) refers to this key, READ for public, WRITE for platform ]]></comment>
   </vconfkey>
   <vconfkey type="int32" name="db/setting/devoption/bgprocess" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_DEVOPTION_BGPROCESS</header>

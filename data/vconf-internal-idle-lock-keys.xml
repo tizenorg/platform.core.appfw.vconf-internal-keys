@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vconfkeylists>
   <filedef name="__VCONF_INTERNAL_IDLE_LOCK_KEYS_H__"/>
-  <vconfkey type="string" name="db/idle_lock/bgset" layer="system" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
+  <vconfkey type="string" name="db/idle_lock/bgset" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/systemsettings.admin">
     <header>VCONFKEY_IDLE_LOCK_BGSET</header>
     <val>/opt/share/settings/Wallpapers/Home_default.jpg</val>
     <creator/>
     <email/>
-    <comment><![CDATA[ ]]></comment>
+	<comment><![CDATA[SYSTEM_SETTINGS_KEY_WALLPAPER_LOCK_SCREEN (system-settings) refers to this key, READ for public, WRITE for platform ]]></comment>
   </vconfkey>
   <vconfkey type="int32" name="memory/idle_lock/state" layer="memory" readPriv="http://tizen.org/privilege/internal/default/platform" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_IDLE_LOCK_STATE</header>
