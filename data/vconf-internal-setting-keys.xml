@@ -1451,7 +1451,7 @@ echo "Do Nothing on TV"
     <email>mj2004.park@samsung.com</email>
     <comment><![CDATA[ ]]></comment>
   </vconfkey>
-  <vconfkey type="int32" name="db/setting/ambient_mode" headeronly="true" layer="" readPriv="" writePriv="">
+  <vconfkey type="int32" name="db/setting/ambient_mode" layer="system" readPriv="http://tizen.org/privilege/internal/default/public" writePriv="http://tizen.org/privilege/internal/default/platform">
     <header>VCONFKEY_SETAPPL_AMBIENT_MODE_BOOL</header>
     <val>0</val>
     <creator> Myoungjune Park </creator>
