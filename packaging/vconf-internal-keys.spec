@@ -31,7 +31,7 @@ Vconf internal key header files (devel)
 
 %build
 
-%ifarch %arm
+%ifarch %arm aarch64
 make model=%{profile}
 %else
 make model=%{profile}/emulator
